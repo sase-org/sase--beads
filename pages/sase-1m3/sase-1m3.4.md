@@ -25,7 +25,7 @@ Guarded sase tool run check 31b152b8a1c739389915263e812608ea stopped on clean-ba
 
 - **Blocks:** [sase-1m3.5](sase-1m3.5.md) ✓ · ⧖ 2026-10-16
 - **Blocks:** [sase-1m3.6](sase-1m3.6.md) ✓ · ⧖ 2026-10-16
-- **Blocks:** [sase-1m3.7](sase-1m3.7.md) ◐ · ⧖ 2026-10-16
+- **Blocks:** [sase-1m3.7](sase-1m3.7.md) ✓ · ⧖ 2026-10-16
 - **Blocks:** [sase-1m3.8](sase-1m3.8.md) ✓ · ⧖ 2026-10-16
 
 ## Agents

@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1m3](README.md) / sase-1m3.7
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.research.1s.linker.w0](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.research.1s.linker.w0.md) · **Assignee:** `sase-1m3.7` · **Size:** large
-**Created:** 2026-10-16 22:05:24 EDT
+**Created:** 2026-10-16 22:05:24 EDT · **Closed:** 2026-10-18 21:24:47 EDT
 **Plan:** [202610/sase\_stats\_project.md](https://github.com/sase-org/sase--plans/blob/main/202610/sase_stats_project.md)
 
 ## Description
@@ -20,6 +20,8 @@ core-code: measure role-classified lines over each code repo's committed tree wi
 [2026-10-18T18:33:47Z · sase-1m3.7.1.5--4] GATE CORRECTION from child sase-1m3.7.1.5: withdraw the earlier clean-build-time PASS claim (0.980x). The experiment inherited CARGO_BUILD_BUILD_DIR, sharing compilation intermediates despite distinct CARGO_TARGET_DIR paths. Candidate logs omit baseline-compiled dependencies (106 versus 206 compiled packages; no proc-macro2); target dirs lack intermediate fingerprints. Wheel-size evidence (+0.159 MiB) remains valid, but clean timing requires a corrected isolated pair before tokei adoption/phase closure. The child has prepared fresh target/build directories per variant and will measure them through monitor. Production correctness tests and runtime benchmark results remain valid; core whole check also passed unchanged on retry after tracked flake sase-1gz. No ancestor is closed.
 
 [2026-10-18T22:09:09Z · sase-1m3.7.1.5--6] MEASUREMENT COMPLETE for child sase-1m3.7.1.5: corrected isolated tokei gate PASSED, wheel growth 159,459 bytes (0.152072 MiB), clean time 1,867.069330 to 2,068.594694 s (1.107937x). Adopted tokei 15.0.0 with explicit config and parser-sensitive cache reuse. Old shared-build-dir timing remains invalid. Durable report file:explicit:f8fc12f54cb3f9b647451035; reproducible evidence file:explicit:cf0a3ec863e10c52c0785b78. Actual binding same-tip 37.187 ms meets target; cold 7.628 s and changed-tip 0.922 s remain the previously recorded performance follow-up. Zero same-tip/one changed-tip blobs, cold equality, records metadata/no-content reads and availability/counter invariants verified. Targeted core/binding tests and core whole retry pass. Primary check remains exit 1 (56,389 passed, 33 skipped, 21 failed): 17 nodes have independent known witnesses; three initially NEW TUI nodes reproduce identically on clean-primary/pre-phase nonblank core; update-toast passes both focused retries. Baseline and worker/selection caveats, failure logs and JUnit are retained. Follow-ups are on the child for land-agent triage; no new beads or ancestor closure. Host finalization will commit both repositories and advance the primary core pin.
+
+[2026-10-19T01:25:31Z · sase-1m3.7.1.land--2] PHASE VERIFICATION: child epic sase-1m3.7.1 completed committed-tree role classification, per-blob incremental snapshots, the passing tokei adoption gate, and metadata-only records summaries. Updated binding counts: SASE 12,516 code files and sase-core 1,158 committed code files (the pending measure.rs raises the committed landing to 1,159). Passing core tests: 63a9f3323beb2da7c423ac7524dbcaec and 079969d16abef454e3015f045a5329f9; passing core check: 2e5b8d16053c273127bab9051d4222fa. Final SASE check 2ebf33c45edf385d28ffd2cab8a6d4b1 exited 1 from tests outside the stats change and is detailed on the child epic. Epic-symbol checks are empty. This phase closed as delegated work landed; outer epic sase-1m3 remains open.
 
 ## Dependencies
 

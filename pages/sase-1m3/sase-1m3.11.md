@@ -16,7 +16,7 @@ tui: route the Projects tab through `load_project_stats` with progressive paint 
 - **Blocks:** [sase-1m3.12](sase-1m3.12.md) ◐ · ⧖ 2026-10-16
 - **Depends on:** [sase-1m3.5](sase-1m3.5.md) ✓ · ⧖ 2026-10-16
 - **Depends on:** [sase-1m3.6](sase-1m3.6.md) ✓ · ⧖ 2026-10-16
-- **Depends on:** [sase-1m3.7](sase-1m3.7.md) ◐ · ⧖ 2026-10-16
+- **Depends on:** [sase-1m3.7](sase-1m3.7.md) ✓ · ⧖ 2026-10-16
 - **Depends on:** [sase-1m3.9](sase-1m3.9.md) ◐ · ⧖ 2026-10-16
 
 ## Agents

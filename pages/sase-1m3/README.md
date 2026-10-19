@@ -31,6 +31,8 @@ _Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [2026-10-17T04:52:28Z · sase-1lh.7.5.4.3.1] sase-1lh.7.5.4.3.1 adopted remaining .1/.2 Master Gate fixtures: 7-40 hex SHA fixtures, git SHA strip, identity.py typed candidates, project-local sase.yml via write_project_local_config (keeps load_merged_config_for_local_path isolation), schema_version 3 beads store record, and research availability on in_tree/local/separate_repo. Do not repeat these as remaining .1/.2 work.
 
+[2026-10-18T22:50:51Z · sase-1m3.7.1.land] DISCOVERED ISSUE (routed by sase-1m3.7.1 land from sase-1m3.7.1.5 note #6 / sase-1m3.7 notes #2,#4; belongs with budgets phase sase-1m3.12): Project Code runtime misses two parent-design budgets. Release binding on sase tree c4299924ba07377277914e4c7b6304b3f1ec90e7 (14,477 tracked / 12,432 code files, core b8737fa5, tokei SLOC): cold 7.628 s vs <=5 s (fixture 6.397-8.571 s); warm after one commit 0.922 s vs <0.5 s; same-tip 37.187 ms meets <150 ms. Audit: 13,249 unique cold blob reads, zero same-tip, exactly one changed-tip blob, changed result == cold. Instrumented changed-tip Git time 0.575 s = ls-tree 0.177 s + committed check-attr 0.336 s + cat-file 0.005 s; host load 12-14 on 16 vCPU. Nonblank baseline also missed changed-tip (0.616 s), so the tokei adoption is not the cause. Concrete leads: (1) on a cached-tree transition use 'git diff-tree -r -z <cached_tree> <new_tree>' and only re-run check-attr for changed paths when no .gitattributes blob changed, instead of a full ls-tree + full check-attr; (2) parallelize cold per-blob classification/counting; (3) the sase-1m3.7.1 landing tale fixes the per-blob cache growing forever and the double BlobEvidence scan, both of which add to warm/cold cost. Evidence: report file:explicit:f8fc12f54cb3f9b647451035, bundle file:explicit:cf0a3ec863e10c52c0785b78. Not filed as a separate task because the approved plan sends unresolved budget misses to the outer epic's land agent, and sase-1m3.12 owns measuring budgets.
+
 ## References
 
 - file:explicit:7a86bb9a4fdfa3b2768be6c1
@@ -48,7 +50,7 @@ _Plus 4 automatic references — see [Referenced By](#referenced-by)._
 | [sase-1m3.4](sase-1m3.4.md) | sase-core project\_stats wire, git history walk, cache, and footer attribution | ✓ closed | large | 2026-10-16 | 1 | 0 |
 | [sase-1m3.5](sase-1m3.5.md) | Runs facet over the existing agent\_stats fold | ✓ closed | small | 2026-10-16 | 1 | 2 |
 | [sase-1m3.6](sase-1m3.6.md) | Agent directory join and the committed-plans facet | ✓ closed | medium | 2026-10-16 | 1 | 1 |
-| [sase-1m3.7](sase-1m3.7.md) | Code snapshot, role classifier, tokei gate, and records tier | ◐ in_progress | large | 2026-10-16 | 1 | 0 |
+| [sase-1m3.7](sase-1m3.7.md) | Code snapshot, role classifier, tokei gate, and records tier | ✓ closed | large | 2026-10-16 | 1 | 0 |
 | [sase-1m3.8](sase-1m3.8.md) | Python project-stats loader, facade, and view model | ✓ closed | medium | 2026-10-16 | 1 | 0 |
 | [sase-1m3.9](sase-1m3.9.md) | Shared Rich and Markdown section renderers | ◐ in_progress | medium | 2026-10-16 | 1 | 0 |
 
@@ -71,8 +73,8 @@ flowchart TD
     n12["sase-1m3.4.1.4: Aggregate Output and lifetime statistics and expose the binding [closed]"]
     n13["sase-1m3.5: Runs facet over the existing agent_stats fold [closed]"]
     n14["sase-1m3.6: Agent directory join and the committed-plans facet [closed]"]
-    n15["sase-1m3.7: Code snapshot, role classifier, tokei gate, and records tier [in_progress]"]
-    n16["sase-1m3.7.1: Committed code snapshots and records for project statistics [in_progress]"]
+    n15["sase-1m3.7: Code snapshot, role classifier, tokei gate, and records tier [closed]"]
+    n16["sase-1m3.7.1: Committed code snapshots and records for project statistics [closed]"]
     n17["sase-1m3.7.1.1: Role policy, nonblank counter, and measurement contracts [closed]"]
     n18["sase-1m3.7.1.2: Committed-tree snapshots and incremental blob cache [closed]"]
     n19["sase-1m3.7.1.3: Metadata-only records summaries [closed]"]
@@ -155,7 +157,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-1m3.7.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.7.1.3/README.md) | [sase-1m3.7.1.3](sase-1m3.7.1.3.md) | 1 |
 | [bbugyi200.apollo.sase-1m3.7.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.7.1.4/README.md) | [sase-1m3.7.1.4](sase-1m3.7.1.4.md) | 1 |
 | [bbugyi200.apollo.sase-1m3.7.1.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.7.1.5.md) | [sase-1m3.7.1.5](sase-1m3.7.1.5.md) | 2 |
-| [bbugyi200.apollo.sase-1m3.7.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.7.1.land/README.md) | [sase-1m3.7.1](sase-1m3.7.1.md) | 0 |
+| [bbugyi200.apollo.sase-1m3.7.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.7.1.land.md) | [sase-1m3.7.1](sase-1m3.7.1.md) | 1 |
 | [bbugyi200.apollo.sase-1m3.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1m3.8.md) | [sase-1m3.8](sase-1m3.8.md) | 0 |
 | [bbugyi200.apollo.sase-1m3.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.9/README.md) | [sase-1m3.9](sase-1m3.9.md) | 0 |
 | [bbugyi200.apollo.sase-1m3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1m3.land/README.md) | [sase-1m3](README.md) | 0 |
@@ -183,6 +185,7 @@ flowchart TD
 | sase-core | [`sase-core@99b10bd`](https://github.com/sase-org/sase-core/commit/99b10bd06212cb2e00d5e78433d0140591cd8cc5) | feat(stats): populate Code facet with identity-deduplicated snapshots | [sase-1m3.7.1.4](sase-1m3.7.1.4.md) | 2026-10-18 08:42:53 EDT |
 | sase-core | [`sase-core@b8737fa`](https://github.com/sase-org/sase-core/commit/b8737fa56f9367f60f28ecd35cfd8bc9369efb27) | feat(stats): count committed source lines with tokei | [sase-1m3.7.1.5](sase-1m3.7.1.5.md) | 2026-10-18 18:14:45 EDT |
 | sase | [`5fe54b5`](https://github.com/sase-org/sase/commit/5fe54b59745c9351702b8df667eb99fc927e8911) | feat(stats): advance core pin for measured SLOC snapshots | [sase-1m3.7.1.5](sase-1m3.7.1.5.md) | 2026-10-18 18:20:26 EDT |
+| sase-core | [`sase-core@6a626d1`](https://github.com/sase-org/sase-core/commit/6a626d10091dd3888973d77dd2b55a92d8cd41f9) | fix(project-stats): complete classifier and snapshot landing | [sase-1m3.7.1](sase-1m3.7.1.md) | 2026-10-18 21:27:23 EDT |
 
 <!-- sase:referenced-by:start -->
 
