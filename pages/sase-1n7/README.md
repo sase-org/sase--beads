@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/deck_scroll_scope.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/deck_scroll_scope.md
 
 <!-- sase:links:end -->
@@ -70,7 +72,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1n7.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n7.2.md) | [sase-1n7.2](sase-1n7.2.md) | 1 |
 | [bbugyi200.athena.sase-1n7.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n7.3.md) | [sase-1n7.3](sase-1n7.3.md) | 1 |
 | [bbugyi200.athena.sase-1n7.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n7.4.md) | [sase-1n7.4](sase-1n7.4.md) | 1 |
-| [bbugyi200.athena.sase-1n7.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n7.land.md) | [sase-1n7](README.md) | 1 |
+| [bbugyi200.athena.sase-1n7.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n7.land.md) | [sase-1n7](README.md) | 2 |
 
 ## Commits
 
@@ -81,3 +83,16 @@ flowchart TD
 | sase | [`de1d960`](https://github.com/sase-org/sase/commit/de1d960d11292255e6af5a879e1bc91481ac208d) | feat(decks): add viewport-precise scope cues for spread and paged panels | [sase-1n7.3](sase-1n7.3.md) | 2026-10-19 22:31:50 EDT |
 | sase | [`3dbe570`](https://github.com/sase-org/sase/commit/3dbe5704627fc397dee88b7e9ff9c630929237c4) | docs(tui): document tabs-mean-pages deck chrome and lock vocabulary | [sase-1n7.4](sase-1n7.4.md) | 2026-10-20 07:09:04 EDT |
 | sase | [`d9f711b`](https://github.com/sase-org/sase/commit/d9f711bbca354d9008a7a6d32378bb4f89044f53) | fix(decks): viewport-truth spread titles and zoom continuation counts | [sase-1n7](README.md) | 2026-10-20 09:26:09 EDT |
+| sase--plans | [`sase--plans@d51c337`](https://github.com/sase-org/sase--plans/commit/d51c3379a2da0b9ff9385a134a90958607f158ca) | docs(plans): mark deck scroll scope plan done | [sase-1n7](README.md) | 2026-10-20 09:30:54 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1n7.land--1][1] | verify phases remain done for landing | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n7.land.md
+
+<!-- sase:referenced-by:end -->
