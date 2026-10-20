@@ -20,4 +20,4 @@ links-project: move the core pin, classify every bead endpoint by owning store, 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1nf.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.7/README.md) | [sase-1nf.7](sase-1nf.7.md) | 0 |
+| [bbugyi200.athena.sase-1nf.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.7.md) | [sase-1nf.7](sase-1nf.7.md) | 0 |

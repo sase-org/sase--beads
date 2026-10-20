@@ -13,7 +13,7 @@ gc-fix: plan from the measurement report, reduce allocation and retention at the
 
 ## Dependencies
 
-- **Depends on:** [sase-1nf.13](sase-1nf.13.md) ◐ · ⧖ 2026-10-20
+- **Depends on:** [sase-1nf.13](sase-1nf.13.md) ○ · ⧖ 2026-10-20
 
 ## Agents
 

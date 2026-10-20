@@ -17,10 +17,28 @@ gc-instrument: fix tui_freeze_report's startup-row, rotation, and trigger handli
 
 ## Dependencies
 
-- **Blocks:** [sase-1nf.13](sase-1nf.13.md) ◐ · ⧖ 2026-10-20
+- **Blocks:** [sase-1nf.13](sase-1nf.13.md) ○ · ⧖ 2026-10-20
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1nf.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.12/README.md) | [sase-1nf.12](sase-1nf.12.md) | 0 |
+| [bbugyi200.athena.sase-1nf.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.12/README.md) | [sase-1nf.12](sase-1nf.12.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`aae7eae`](https://github.com/sase-org/sase/commit/aae7eae66779aa03486f215f7b44defa2912a508) | feat(tui): add GC attribution telemetry and an acceptance freeze report | [sase-1nf.12](sase-1nf.12.md) | 2026-10-20 15:19:41 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1nf.12][1] | Need close-note evidence and whether sase-1f4 is in this phase's close set | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.12/README.md
+
+<!-- sase:referenced-by:end -->

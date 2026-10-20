@@ -20,7 +20,7 @@ pub-fix: plan from the measurement report, then stop repo-wide failures from cha
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1nf.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10/README.md) | [sase-1nf.10](sase-1nf.10.md) | 0 |
+| [bbugyi200.athena.sase-1nf.10](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.10.md) | [sase-1nf.10](sase-1nf.10.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
