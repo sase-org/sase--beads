@@ -36,7 +36,9 @@ recovery-reason-prompt: persist every recovery reason and render a Host completi
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1n8.3][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:sase-1n8.4][2] | Need existing failure owners and clean-base evidence for phase verification follow-ups | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n8.3/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n8.4.md
 
 <!-- sase:referenced-by:end -->

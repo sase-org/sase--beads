@@ -32,7 +32,7 @@ A verified agent can never loop on a host completion that cannot succeed, its re
 | [sase-1n8.3](sase-1n8.3.md) | sase: show the host-completion recovery reason to the follow-up agent | ✓ closed | small | 2026-10-20 | 1 | 1 |
 | [sase-1n8.4](sase-1n8.4.md) | sase: reclaim the starter's cargo target when its monitor settles | ✓ closed | medium | 2026-10-20 | 2 | 2 |
 | [sase-1n8.5](sase-1n8.5.md) | sase-core: honor the low-free-space pressure age for unheld entries | ✓ closed | small | 2026-10-20 | 1 | 1 |
-| [sase-1n8.6](sase-1n8.6.md) | sase: make the proc supervisor survive a full disk truthfully | ◐ in_progress | medium | 2026-10-20 | 1 | 0 |
+| [sase-1n8.6](sase-1n8.6.md) | sase: make the proc supervisor survive a full disk truthfully | ✓ closed | medium | 2026-10-20 | 1 | 1 |
 
 ## Lineage
 
@@ -44,7 +44,7 @@ flowchart TD
     n3["sase-1n8.3: sase: show the host-completion recovery reason to the follow-up agent [closed]"]
     n4["sase-1n8.4: sase: reclaim the starter's cargo target when its monitor settles [closed]"]
     n5["sase-1n8.5: sase-core: honor the low-free-space pressure age for unheld entries [closed]"]
-    n6["sase-1n8.6: sase: make the proc supervisor survive a full disk truthfully [in_progress]"]
+    n6["sase-1n8.6: sase: make the proc supervisor survive a full disk truthfully [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -64,7 +64,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1n8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n8.3/README.md) | [sase-1n8.3](sase-1n8.3.md) | 1 |
 | [bbugyi200.athena.sase-1n8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n8.4/README.md) | [sase-1n8.4](sase-1n8.4.md) | 1 |
 | [bbugyi200.athena.sase-1n8.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n8.5/README.md) | [sase-1n8.5](sase-1n8.5.md) | 1 |
-| [bbugyi200.athena.sase-1n8.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n8.6.md) | [sase-1n8.6](sase-1n8.6.md) | 0 |
+| [bbugyi200.athena.sase-1n8.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n8.6/README.md) | [sase-1n8.6](sase-1n8.6.md) | 1 |
 | [bbugyi200.athena.sase-1n8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n8.land/README.md) | [sase-1n8](README.md) | 0 |
 
 ## Commits
@@ -77,3 +77,4 @@ flowchart TD
 | sase | [`e77280c`](https://github.com/sase-org/sase/commit/e77280c873763035f3e03cd4256f06af95d52f80) | feat(monitor): show host-completion recovery reasons in follow-up prompts | [sase-1n8.3](sase-1n8.3.md) | 2026-10-20 07:46:47 EDT |
 | sase | [`321d881`](https://github.com/sase-org/sase/commit/321d88125082614188f79cbbdadfe3bfd282982b) | feat(final): seal prepare completion stage source, refusals and project | [sase-1n8.2](sase-1n8.2.md) | 2026-10-20 08:41:38 EDT |
 | sase | [`379040e`](https://github.com/sase-org/sase/commit/379040e699e50e283bc72e7d598541206c6b29d3) | fix(monitor): read starter metadata when reclaiming cargo targets | [sase-1n8.4](sase-1n8.4.md) | 2026-10-20 08:55:42 EDT |
+| sase | [`2648c7c`](https://github.com/sase-org/sase/commit/2648c7cddf2e644d73fd1cacdc81d59a3c5466ff) | fix(procs): preserve command outcomes under disk exhaustion | [sase-1n8.6](sase-1n8.6.md) | 2026-10-20 09:31:22 EDT |

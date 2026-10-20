@@ -61,7 +61,7 @@ monitor-scratch-reclaim: during monitor settlement, remove the unheld starter ca
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1n8.4][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:sase-1n8.4][1] | Need the phase scope and design file | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n8.4.md
 
