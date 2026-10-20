@@ -14,7 +14,7 @@ pub-fix: plan from the measurement report, then stop repo-wide failures from cha
 ## Dependencies
 
 - **Blocks:** [sase-1nf.11](sase-1nf.11.md) ◐ · ⧖ 2026-10-20
-- **Depends on:** [sase-1nf.9](sase-1nf.9.md) ◐ · ⧖ 2026-10-20
+- **Depends on:** [sase-1nf.9](sase-1nf.9.md) ✓ · ⧖ 2026-10-20
 
 ## Agents
 
