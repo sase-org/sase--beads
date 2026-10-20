@@ -44,7 +44,9 @@ diagrams: retarget candidate selection to named reader questions. Replace the dr
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1nd.2][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:sase-1nd.land--4][2] | Review completed phase scope and follow-up notes for epic closeout | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nd.2/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nd.land.md
 
 <!-- sase:referenced-by:end -->

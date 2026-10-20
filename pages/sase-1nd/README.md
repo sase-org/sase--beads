@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/research_mermaid_diagram_craft.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/research_mermaid_diagram_craft.md
 
@@ -58,7 +58,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-1nd.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nd.1/README.md) | [sase-1nd.1](sase-1nd.1.md) | 1 |
 | [bbugyi200.athena.sase-1nd.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nd.2/README.md) | [sase-1nd.2](sase-1nd.2.md) | 1 |
-| [bbugyi200.athena.sase-1nd.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nd.land.md) | [sase-1nd](README.md) | 1 |
+| [bbugyi200.athena.sase-1nd.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nd.land.md) | [sase-1nd](README.md) | 2 |
 
 ## Commits
 
@@ -67,6 +67,7 @@ flowchart TD
 | sase-research-artifacts | [`sase-research-artifacts@b16687b`](https://github.com/sase-org/sase-research-artifacts/commit/b16687b9254d7c8257ef66b09500d163c90a7707) | feat(skills): add mermaid diagram craft guidance | [sase-1nd.1](sase-1nd.1.md) | 2026-10-20 12:37:11 EDT |
 | sase-research-artifacts | [`sase-research-artifacts@af3a591`](https://github.com/sase-org/sase-research-artifacts/commit/af3a591c776d1d28206b55dbcb4be3c0d61aaada) | feat(research-diagrams): answer reader questions via the inlined skill guide | [sase-1nd.2](sase-1nd.2.md) | 2026-10-20 13:12:11 EDT |
 | sase-research-artifacts | [`sase-research-artifacts@1333261`](https://github.com/sase-org/sase-research-artifacts/commit/133326168f8d5810a0b7e7f94191bf3111b3a6c1) | feat(research-diagrams): finish Mermaid craft landing repairs | [sase-1nd](README.md) | 2026-10-20 15:08:28 EDT |
+| sase--plans | [`sase--plans@4cb8aa9`](https://github.com/sase-org/sase--plans/commit/4cb8aa98e325730750db50a994e377adc4f24073) | docs(plan): mark Mermaid diagram craft plan done | [sase-1nd](README.md) | 2026-10-20 15:13:23 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -75,7 +76,9 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1nd.2][1] | epic scope and decisions | 1 |
+| read-by | [agent:sase-1nd.land--4][2] | Review the epic, children, and landing notes before normal closeout | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nd.2/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nd.land.md
 
 <!-- sase:referenced-by:end -->

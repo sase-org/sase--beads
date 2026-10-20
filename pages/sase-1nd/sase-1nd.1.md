@@ -38,7 +38,9 @@ skill: add `skills/mermaid_diagrams.md` to sase-research-artifacts. It holds pos
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1nd.1][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1nd.land--4][2] | Review completed phase scope for epic closeout | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nd.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nd.land.md
 
 <!-- sase:referenced-by:end -->
