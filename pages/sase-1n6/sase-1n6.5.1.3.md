@@ -26,7 +26,7 @@ ci.yml: workflow_call inputs ref/core-source(default source)/core-version/manife
 ## Dependencies
 
 - **Depends on:** [sase-1n6.5.1.2](sase-1n6.5.1.2.md) ✓ · ⧖ 2026-10-19
-- **Blocks:** [sase-1n6.5.1.4](sase-1n6.5.1.4.md) ◐ · ⧖ 2026-10-19
+- **Blocks:** [sase-1n6.5.1.4](sase-1n6.5.1.4.md) ✓ · ⧖ 2026-10-19
 
 ## Agents
 

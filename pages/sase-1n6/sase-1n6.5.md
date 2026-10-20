@@ -11,6 +11,10 @@
 
 qualify: ci.yml gains ref and core-source inputs, a versioned N1 inventory decides what blocks, and release.yml qualifies against the exact published core with fail-closed evidence.
 
+## Notes
+
+[2026-10-20T04:07:35Z · sase-1n6.5.1.4] PUBLISH INTEGRATION SEAM from release-wiring (sase-1n6.5.1.4): publication (sase-1n6.6) must depend on the qualify job verdict plus exercise, never on the qualify-ci aggregate. qualify exposes verdict/observation/token/run-id/attempt/candidate-id/generation/intended-core-version/tested-core-version outputs; its result is success-with-red-verdict only via the always() final verdict step, so publish needs an explicit status condition such as needs.qualify.outputs.verdict == pass. That condition must pass through required verdicts even when an advisory ancestor failed: default success propagation would silently skip publication after a red advisory job fails qualify-ci. Red qualification observations persist on the draft (release) or as artifacts (rehearse) under candidate-gen<N>-qualification-run<R>-attempt<A>.json.
+
 ## Dependencies
 
 - **Depends on:** [sase-1n6.2](sase-1n6.2.md) ✓ · ⧖ 2026-10-19
