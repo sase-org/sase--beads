@@ -22,4 +22,4 @@ qualify: ci.yml gains ref and core-source inputs, a versioned N1 inventory decid
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1n6.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5/README.md) | [sase-1n6.5](sase-1n6.5.md) | 0 |
+| [bbugyi200.athena.sase-1n6.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.5.md) | [sase-1n6.5](sase-1n6.5.md) | 0 |

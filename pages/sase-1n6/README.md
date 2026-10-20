@@ -49,55 +49,68 @@ flowchart TD
     n4["sase-1n6.3: Exact core pin and the shared core-ensure rule [closed]"]
     n5["sase-1n6.4: Exercise the exact files on Linux and macOS [closed]"]
     n6["sase-1n6.5: Qualify the candidate against the published core [in_progress]"]
-    n7["sase-1n6.6: Digest-checked publish, PyPI confirmation, and un-draft [in_progress]"]
-    n8["sase-1n6.7: Stateless release steward in observe mode [in_progress]"]
-    n9["sase-1n6.7.1: Stateless release steward with an observe-only workflow [in_progress]"]
-    n10["sase-1n6.7.1.1: Typed release decisions in the Rust core [in_progress]"]
-    n11["sase-1n6.7.1.2: Read release trains and publication evidence [in_progress]"]
-    n12["sase-1n6.7.1.3: Read core, canary, and escalation evidence [in_progress]"]
-    n13["sase-1n6.7.1.4: Execute idempotent train and escalation actions [in_progress]"]
-    n14["sase-1n6.7.1.5: Replace the watcher CLI and install the observe-only host [in_progress]"]
-    n15["sase-1n6.8: Release-green record and release metrics [in_progress]"]
-    n16["sase-1n6.9: Cut releases over to release.yml and hand merges to the steward [in_progress]"]
+    n7["sase-1n6.5.1: Qualify release candidates against their exact published core [in_progress]"]
+    n8["sase-1n6.5.1.1: Define the qualification inventory and fail-closed evaluator [closed]"]
+    n9["sase-1n6.5.1.2: Supply verified published core artifacts to the CI setup action [in_progress]"]
+    n10["sase-1n6.5.1.3: Run reusable CI at an explicit ref and report qualification evidence [in_progress]"]
+    n11["sase-1n6.5.1.4: Integrate qualification, negative probes and durable observations [in_progress]"]
+    n12["sase-1n6.6: Digest-checked publish, PyPI confirmation, and un-draft [in_progress]"]
+    n13["sase-1n6.7: Stateless release steward in observe mode [in_progress]"]
+    n14["sase-1n6.7.1: Stateless release steward with an observe-only workflow [in_progress]"]
+    n15["sase-1n6.7.1.1: Typed release decisions in the Rust core [in_progress]"]
+    n16["sase-1n6.7.1.2: Read release trains and publication evidence [in_progress]"]
+    n17["sase-1n6.7.1.3: Read core, canary, and escalation evidence [in_progress]"]
+    n18["sase-1n6.7.1.4: Execute idempotent train and escalation actions [in_progress]"]
+    n19["sase-1n6.7.1.5: Replace the watcher CLI and install the observe-only host [in_progress]"]
+    n20["sase-1n6.8: Release-green record and release metrics [in_progress]"]
+    n21["sase-1n6.9: Cut releases over to release.yml and hand merges to the steward [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
     n0 --> n4
     n0 --> n5
     n0 --> n6
-    n0 --> n7
-    n0 --> n8
-    n8 --> n9
-    n9 --> n10
-    n9 --> n11
-    n9 --> n12
-    n9 --> n13
-    n9 --> n14
-    n0 --> n15
-    n0 --> n16
-    n1 -.-> n8
+    n6 --> n7
+    n7 --> n8
+    n7 --> n9
+    n7 --> n10
+    n7 --> n11
+    n0 --> n12
+    n0 --> n13
+    n13 --> n14
+    n14 --> n15
+    n14 --> n16
+    n14 --> n17
+    n14 --> n18
+    n14 --> n19
+    n0 --> n20
+    n0 --> n21
+    n1 -.-> n13
     n3 -.-> n5
     n3 -.-> n6
-    n3 -.-> n8
+    n3 -.-> n13
     n4 -.-> n6
-    n4 -.-> n8
+    n4 -.-> n13
     n5 -.-> n6
-    n6 -.-> n7
-    n7 -.-> n16
-    n8 -.-> n15
-    n8 -.-> n16
+    n6 -.-> n12
+    n8 -.-> n9
+    n9 -.-> n10
     n10 -.-> n11
-    n10 -.-> n12
-    n10 -.-> n13
-    n10 -.-> n14
-    n11 -.-> n12
-    n11 -.-> n13
-    n11 -.-> n14
-    n12 -.-> n13
-    n12 -.-> n14
-    n13 -.-> n14
+    n12 -.-> n21
+    n13 -.-> n20
+    n13 -.-> n21
     n15 -.-> n16
-    n16 -.-> n2
+    n15 -.-> n17
+    n15 -.-> n18
+    n15 -.-> n19
+    n16 -.-> n17
+    n16 -.-> n18
+    n16 -.-> n19
+    n17 -.-> n18
+    n17 -.-> n19
+    n18 -.-> n19
+    n20 -.-> n21
+    n21 -.-> n2
 ```
 
 ## Agents
@@ -109,7 +122,12 @@ flowchart TD
 | [bbugyi200.athena.sase-1n6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.2/README.md) | [sase-1n6.2](sase-1n6.2.md) | 1 |
 | [bbugyi200.athena.sase-1n6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.3/README.md) | [sase-1n6.3](sase-1n6.3.md) | 1 |
 | [bbugyi200.athena.sase-1n6.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.4.md) | [sase-1n6.4](sase-1n6.4.md) | 1 |
-| [bbugyi200.athena.sase-1n6.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5/README.md) | [sase-1n6.5](sase-1n6.5.md) | 0 |
+| [bbugyi200.athena.sase-1n6.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.5.md) | [sase-1n6.5](sase-1n6.5.md) | 0 |
+| [bbugyi200.athena.sase-1n6.5.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.1/README.md) | [sase-1n6.5.1.1](sase-1n6.5.1.1.md) | 1 |
+| [bbugyi200.athena.sase-1n6.5.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.2/README.md) | [sase-1n6.5.1.2](sase-1n6.5.1.2.md) | 0 |
+| [bbugyi200.athena.sase-1n6.5.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.3/README.md) | [sase-1n6.5.1.3](sase-1n6.5.1.3.md) | 0 |
+| [bbugyi200.athena.sase-1n6.5.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.4/README.md) | [sase-1n6.5.1.4](sase-1n6.5.1.4.md) | 0 |
+| [bbugyi200.athena.sase-1n6.5.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.land/README.md) | [sase-1n6.5.1](sase-1n6.5.1.md) | 0 |
 | [bbugyi200.athena.sase-1n6.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.6/README.md) | [sase-1n6.6](sase-1n6.6.md) | 0 |
 | [bbugyi200.athena.sase-1n6.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.7.md) | [sase-1n6.7](sase-1n6.7.md) | 0 |
 | [bbugyi200.athena.sase-1n6.7.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.7.1.1/README.md) | [sase-1n6.7.1.1](sase-1n6.7.1.1.md) | 0 |
@@ -130,3 +148,4 @@ flowchart TD
 | sase-core | [`sase-core@3f0920f`](https://github.com/sase-org/sase-core/commit/3f0920f89d70f307469d6826fd94bda1c9b441d4) | feat(release): add bounded core-cut retries and in-flight retention | [sase-1n6.1](sase-1n6.1.md) | 2026-10-19 18:02:32 EDT |
 | sase | [`befa41b`](https://github.com/sase-org/sase/commit/befa41b575abbc0745bd7aa33019126760110a58) | feat(release): pin sase-core-rs to an exact published version | [sase-1n6.3](sase-1n6.3.md) | 2026-10-19 19:34:39 EDT |
 | sase | [`cc59e6f`](https://github.com/sase-org/sase/commit/cc59e6f114dcf62bfaf1b2a0e85a3449a7f14e41) | feat(release): exercise the exact candidate on Linux and macOS | [sase-1n6.4](sase-1n6.4.md) | 2026-10-19 20:01:41 EDT |
+| sase | [`443fba3`](https://github.com/sase-org/sase/commit/443fba33d997ba89f189eb10ee1ff273a52eefec) | feat(release): add fail-closed qualification evaluator | [sase-1n6.5.1.1](sase-1n6.5.1.1.md) | 2026-10-19 21:09:54 EDT |
