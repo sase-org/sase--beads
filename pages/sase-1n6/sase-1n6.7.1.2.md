@@ -22,7 +22,7 @@ train-facts: read PyPI, tags, draft releases, manifests, release PR checks, and 
 ## Dependencies
 
 - **Depends on:** [sase-1n6.7.1.1](sase-1n6.7.1.1.md) ✓ · ⧖ 2026-10-19
-- **Blocks:** [sase-1n6.7.1.3](sase-1n6.7.1.3.md) ◐ · ⧖ 2026-10-19
+- **Blocks:** [sase-1n6.7.1.3](sase-1n6.7.1.3.md) ✓ · ⧖ 2026-10-19
 - **Blocks:** [sase-1n6.7.1.4](sase-1n6.7.1.4.md) ◐ · ⧖ 2026-10-19
 - **Blocks:** [sase-1n6.7.1.5](sase-1n6.7.1.5.md) ◐ · ⧖ 2026-10-19
 

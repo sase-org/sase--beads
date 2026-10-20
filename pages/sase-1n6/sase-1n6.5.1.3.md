@@ -39,3 +39,15 @@ ci.yml: workflow_call inputs ref/core-source(default source)/core-version/manife
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`8afb1b7`](https://github.com/sase-org/sase/commit/8afb1b7e57e4e3494074a73adde2d3cee2fa5148) | feat(ci): collect identity-bound qualification evidence from reusable CI | [sase-1n6.5.1.3](sase-1n6.5.1.3.md) | 2026-10-19 23:35:38 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1n6.5.1.3][1] | Need the phase scope and design file | 5 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.3/README.md
+
+<!-- sase:referenced-by:end -->

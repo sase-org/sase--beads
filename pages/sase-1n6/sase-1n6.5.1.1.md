@@ -40,7 +40,9 @@ evidence: add the versioned N1 inventory, typed evidence schema, qualification e
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1n6.5.1.1][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1n6.5.1.3][2] | Need evidence-phase CLI/JSON contract notes for CI reporting | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.3/README.md
 
 <!-- sase:referenced-by:end -->
