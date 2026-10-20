@@ -31,6 +31,8 @@ Every sase release is a sealed candidate built once at its tag: the wheel and sd
 
 [2026-10-20T05:59:11Z · sase-1n6.7.1.land] DISCOVERED ISSUE: tools/release_candidate parse_expected_suffixes (release_candidate:557-568, added by sase-1n6.2 exact-build in 110214f51c) only matches the bracketed list form `EXPECTED_DIST_SUFFIXES: [...]`, but sase-core's real release-plz.yml uses the YAML block form `EXPECTED_DIST_SUFFIXES: |` (line 80 at v0.42.1 and master). Repro on sase master e10fa95c0d: `git -C <sase-core> show v0.42.1:.github/workflows/release-plz.yml > rp.yml; python3 tools/release_candidate core-suffixes --file rp.yml --out o.json` -> `REFUSED EXPECTED_DIST_SUFFIXES not found in release-plz.yml`, exit 2. Impact: release.yml's 'core-suffixes' step (release.yml:206-211) feeds --expected-core-suffixes to seal, so a real tagged release run would refuse before sealing the candidate manifest. tools/_release_core.py:51,125 already parses the block form (core-ensure); release_candidate should reuse that single parser instead of its own regex, and its tests should use a real-shaped release-plz.yml fixture. Found by the sase-1n6.7.1 land agent while checking evaluator integration drift; not caused by sase-1n6.7.1 (the steward reads suffixes only through _release_core).
 
+[2026-10-20T19:49:24Z · sase-1n6.5.1.5.2.1.1] DISCOVERED ISSUE #2 (suffix parser) is fixed by sase-1n6.5.1.5.2.1.1: tools/release_candidate.parse_expected_suffixes now delegates to the shared _release_core block-form parser. core-suffixes --file emits the five suffixes for sase-core v0.42.0 and v0.41.0, and refuses v0.34.48 with "cannot find EXPECTED_DIST_SUFFIXES".
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -65,16 +67,19 @@ flowchart TD
     n12["sase-1n6.5.1.5: Repair qualification evidence transport and prove the deployed workflow [in_progress]"]
     n13["sase-1n6.5.1.5.1: Repair qualification producer and consumer integration [closed]"]
     n14["sase-1n6.5.1.5.2: Retain green and wrong-core rehearsal proofs [in_progress]"]
-    n15["sase-1n6.6: Digest-checked publish, PyPI confirmation, and un-draft [in_progress]"]
-    n16["sase-1n6.7: Stateless release steward in observe mode [closed]"]
-    n17["sase-1n6.7.1: Stateless release steward with an observe-only workflow [closed]"]
-    n18["sase-1n6.7.1.1: Typed release decisions in the Rust core [closed]"]
-    n19["sase-1n6.7.1.2: Read release trains and publication evidence [closed]"]
-    n20["sase-1n6.7.1.3: Read core, canary, and escalation evidence [closed]"]
-    n21["sase-1n6.7.1.4: Execute idempotent train and escalation actions [closed]"]
-    n22["sase-1n6.7.1.5: Replace the watcher CLI and install the observe-only host [closed]"]
-    n23["sase-1n6.8: Release-green record and release metrics [closed]"]
-    n24["sase-1n6.9: Cut releases over to release.yml and hand merges to the steward [in_progress]"]
+    n15["sase-1n6.5.1.5.2.1: Unblock and retain the deployed qualification proofs [in_progress]"]
+    n16["sase-1n6.5.1.5.2.1.1: Clear the three blockers between master and a live rehearsal [closed]"]
+    n17["sase-1n6.5.1.5.2.1.2: Dispatch and retain the green, probe and exact-SHA source proofs [in_progress]"]
+    n18["sase-1n6.6: Digest-checked publish, PyPI confirmation, and un-draft [in_progress]"]
+    n19["sase-1n6.7: Stateless release steward in observe mode [closed]"]
+    n20["sase-1n6.7.1: Stateless release steward with an observe-only workflow [closed]"]
+    n21["sase-1n6.7.1.1: Typed release decisions in the Rust core [closed]"]
+    n22["sase-1n6.7.1.2: Read release trains and publication evidence [closed]"]
+    n23["sase-1n6.7.1.3: Read core, canary, and escalation evidence [closed]"]
+    n24["sase-1n6.7.1.4: Execute idempotent train and escalation actions [closed]"]
+    n25["sase-1n6.7.1.5: Replace the watcher CLI and install the observe-only host [closed]"]
+    n26["sase-1n6.8: Release-green record and release metrics [closed]"]
+    n27["sase-1n6.9: Cut releases over to release.yml and hand merges to the steward [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -89,43 +94,47 @@ flowchart TD
     n7 --> n12
     n12 --> n13
     n12 --> n14
-    n0 --> n15
-    n0 --> n16
-    n16 --> n17
-    n17 --> n18
-    n17 --> n19
-    n17 --> n20
-    n17 --> n21
-    n17 --> n22
-    n0 --> n23
-    n0 --> n24
-    n1 -.-> n16
+    n14 --> n15
+    n15 --> n16
+    n15 --> n17
+    n0 --> n18
+    n0 --> n19
+    n19 --> n20
+    n20 --> n21
+    n20 --> n22
+    n20 --> n23
+    n20 --> n24
+    n20 --> n25
+    n0 --> n26
+    n0 --> n27
+    n1 -.-> n19
     n3 -.-> n5
     n3 -.-> n6
-    n3 -.-> n16
+    n3 -.-> n19
     n4 -.-> n6
-    n4 -.-> n16
+    n4 -.-> n19
     n5 -.-> n6
-    n6 -.-> n15
+    n6 -.-> n18
     n8 -.-> n9
     n9 -.-> n10
     n10 -.-> n11
     n13 -.-> n14
-    n15 -.-> n24
-    n16 -.-> n23
-    n16 -.-> n24
-    n18 -.-> n19
-    n18 -.-> n20
-    n18 -.-> n21
-    n18 -.-> n22
-    n19 -.-> n20
-    n19 -.-> n21
-    n19 -.-> n22
-    n20 -.-> n21
-    n20 -.-> n22
+    n16 -.-> n17
+    n18 -.-> n27
+    n19 -.-> n26
+    n19 -.-> n27
     n21 -.-> n22
+    n21 -.-> n23
+    n21 -.-> n24
+    n21 -.-> n25
+    n22 -.-> n23
+    n22 -.-> n24
+    n22 -.-> n25
     n23 -.-> n24
-    n24 -.-> n2
+    n23 -.-> n25
+    n24 -.-> n25
+    n26 -.-> n27
+    n27 -.-> n2
 ```
 
 ## Agents
@@ -144,6 +153,9 @@ flowchart TD
 | [bbugyi200.athena.sase-1n6.5.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.4/README.md) | [sase-1n6.5.1.4](sase-1n6.5.1.4.md) | 1 |
 | [bbugyi200.athena.sase-1n6.5.1.5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.5.1/README.md) | [sase-1n6.5.1.5.1](sase-1n6.5.1.5.1.md) | 1 |
 | [bbugyi200.athena.sase-1n6.5.1.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.5.2/README.md) | [sase-1n6.5.1.5.2](sase-1n6.5.1.5.2.md) | 1 |
+| [bbugyi200.athena.sase-1n6.5.1.5.2.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.5.1.5.2.1.1.md) | [sase-1n6.5.1.5.2.1.1](sase-1n6.5.1.5.2.1.1.md) | 1 |
+| [bbugyi200.athena.sase-1n6.5.1.5.2.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.5.2.1.2/README.md) | [sase-1n6.5.1.5.2.1.2](sase-1n6.5.1.5.2.1.2.md) | 0 |
+| [bbugyi200.athena.sase-1n6.5.1.5.2.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.5.2.1.land/README.md) | [sase-1n6.5.1.5.2.1](sase-1n6.5.1.5.2.1.md) | 0 |
 | [bbugyi200.athena.sase-1n6.5.1.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.5.land/README.md) | [sase-1n6.5.1.5](sase-1n6.5.1.5.md) | 0 |
 | [bbugyi200.athena.sase-1n6.5.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.5.1.land.md) | [sase-1n6.5.1](sase-1n6.5.1.md) | 0 |
 | [bbugyi200.athena.sase-1n6.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.6/README.md) | [sase-1n6.6](sase-1n6.6.md) | 0 |
@@ -179,6 +191,7 @@ flowchart TD
 | sase | [`812cdd9`](https://github.com/sase-org/sase/commit/812cdd9e21ae5bc164d6d149b34ab9866207db03) | feat(release): replace release\_watch with an observe-only steward tick | [sase-1n6.7.1.5](sase-1n6.7.1.5.md) | 2026-10-20 01:29:29 EDT |
 | sase | [`e10fa95`](https://github.com/sase-org/sase/commit/e10fa95c0dec856fe1cc0426bfb35fac1f0834a8) | fix(ci): move qualify session path off reusable job env | [sase-1n6.5.1.5.2](sase-1n6.5.1.5.2.md) | 2026-10-20 01:36:57 EDT |
 | sase | [`b15cc3f`](https://github.com/sase-org/sase/commit/b15cc3fb5b56156729f0264cdd172e4274f771dd) | feat(release): add read-only release\_metrics and exact-SHA green evidence | [sase-1n6.8](sase-1n6.8.md) | 2026-10-20 13:42:41 EDT |
+| sase | [`3db3b51`](https://github.com/sase-org/sase/commit/3db3b51d5362c8c3fd9485e6452b48d910624300) | fix(ci): grant Full CI actions:read and parse core suffix blocks | [sase-1n6.5.1.5.2.1.1](sase-1n6.5.1.5.2.1.1.md) | 2026-10-20 16:40:43 EDT |
 
 <!-- sase:referenced-by:start -->
 

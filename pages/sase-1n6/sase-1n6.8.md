@@ -47,3 +47,15 @@ metrics: a read-only tools/release_metrics derives release-green per SHA and the
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`b15cc3f`](https://github.com/sase-org/sase/commit/b15cc3fb5b56156729f0264cdd172e4274f771dd) | feat(release): add read-only release\_metrics and exact-SHA green evidence | [sase-1n6.8](sase-1n6.8.md) | 2026-10-20 13:42:41 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1n6.8][1] | Need the phase scope and design file | 5 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.8/README.md
+
+<!-- sase:referenced-by:end -->
