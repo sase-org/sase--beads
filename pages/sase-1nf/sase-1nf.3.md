@@ -20,3 +20,15 @@ bobcli-vault: in the bob-cli repo, restore write permission after the read-only 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1nf.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.3/README.md) | [sase-1nf.3](sase-1nf.3.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1nf.3][1] | Need notes from earlier agents if any | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.3/README.md
+
+<!-- sase:referenced-by:end -->

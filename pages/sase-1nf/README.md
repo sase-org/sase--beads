@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/athena_apollo_audit_fixes.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/athena_apollo_audit_fixes.md
 
 <!-- sase:links:end -->
@@ -35,7 +37,7 @@ Apollo's and athena's managed-tmp reaper reclaims dead scratch even with SSH ses
 | [sase-1nf.14](sase-1nf.14.md) | Fix the measured GC freeze causes | ◐ in_progress | large | 2026-10-20 | 1 | 0 |
 | [sase-1nf.2](sase-1nf.2.md) | Truthful managed\_tmp\_reap and disk\_pressure jobs on the new core | ◐ in_progress | medium | 2026-10-20 | 1 | 0 |
 | [sase-1nf.3](sase-1nf.3.md) | bob-cli tests stop leaking read-only vault fixtures | ✓ closed | small | 2026-10-20 | 1 | 0 |
-| [sase-1nf.4](sase-1nf.4.md) | Lossless EpicFollowView encoding for bundles and cleanup payloads | ○ open | medium | 2026-10-20 | 1 | 0 |
+| [sase-1nf.4](sase-1nf.4.md) | Lossless EpicFollowView encoding for bundles and cleanup payloads | ✓ closed | medium | 2026-10-20 | 1 | 1 |
 | [sase-1nf.5](sase-1nf.5.md) | sase doctor survives unbound macro templates | ✓ closed | small | 2026-10-20 | 1 | 1 |
 | [sase-1nf.6](sase-1nf.6.md) | sase-core partial bead link projection and per-endpoint receipts | ◐ in_progress | medium | 2026-10-20 | 1 | 0 |
 | [sase-1nf.7](sase-1nf.7.md) | Route, isolate, and commit artifact-link bead endpoints per operation | ◐ in_progress | medium | 2026-10-20 | 1 | 0 |
@@ -55,7 +57,7 @@ flowchart TD
     n6["sase-1nf.14: Fix the measured GC freeze causes [in_progress]"]
     n7["sase-1nf.2: Truthful managed_tmp_reap and disk_pressure jobs on the new core [in_progress]"]
     n8["sase-1nf.3: bob-cli tests stop leaking read-only vault fixtures [closed]"]
-    n9["sase-1nf.4: Lossless EpicFollowView encoding for bundles and cleanup payloads [open]"]
+    n9["sase-1nf.4: Lossless EpicFollowView encoding for bundles and cleanup payloads [closed]"]
     n10["sase-1nf.5: sase doctor survives unbound macro templates [closed]"]
     n11["sase-1nf.6: sase-core partial bead link projection and per-endpoint receipts [in_progress]"]
     n12["sase-1nf.7: Route, isolate, and commit artifact-link bead endpoints per operation [in_progress]"]
@@ -96,9 +98,9 @@ flowchart TD
 | [bbugyi200.athena.sase-1nf.14](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.14/README.md) | [sase-1nf.14](sase-1nf.14.md) | 0 |
 | [bbugyi200.athena.sase-1nf.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.2/README.md) | [sase-1nf.2](sase-1nf.2.md) | 0 |
 | [bbugyi200.athena.sase-1nf.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.3/README.md) | [sase-1nf.3](sase-1nf.3.md) | 0 |
-| [bbugyi200.athena.sase-1nf.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.4/README.md) | [sase-1nf.4](sase-1nf.4.md) | 0 |
+| [bbugyi200.athena.sase-1nf.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.4.md) | [sase-1nf.4](sase-1nf.4.md) | 1 |
 | [bbugyi200.athena.sase-1nf.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.5/README.md) | [sase-1nf.5](sase-1nf.5.md) | 1 |
-| [bbugyi200.athena.sase-1nf.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.6/README.md) | [sase-1nf.6](sase-1nf.6.md) | 0 |
+| [bbugyi200.athena.sase-1nf.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.6.md) | [sase-1nf.6](sase-1nf.6.md) | 0 |
 | [bbugyi200.athena.sase-1nf.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.7/README.md) | [sase-1nf.7](sase-1nf.7.md) | 0 |
 | [bbugyi200.athena.sase-1nf.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.8/README.md) | [sase-1nf.8](sase-1nf.8.md) | 0 |
 | [bbugyi200.athena.sase-1nf.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.9/README.md) | [sase-1nf.9](sase-1nf.9.md) | 0 |
@@ -109,3 +111,16 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`d958a16`](https://github.com/sase-org/sase/commit/d958a168fc1b21fa68a8cc457f711b6680fb5dcc) | fix(doctor): survive unbound macro templates in model-macro check | [sase-1nf.5](sase-1nf.5.md) | 2026-10-20 13:56:12 EDT |
+| sase | [`682e52f`](https://github.com/sase-org/sase/commit/682e52fc716fd93a1481abbad57a9f219c6877a1) | fix(cleanup): losslessly encode EpicFollowView wait\_epic\_follows in bundles | [sase-1nf.4](sase-1nf.4.md) | 2026-10-20 14:06:08 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1nf.3][1] | Need parent epic context and remaining phases | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.3/README.md
+
+<!-- sase:referenced-by:end -->

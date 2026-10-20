@@ -19,4 +19,4 @@ links-core: add a skip mode to bead link projections that applies valid requests
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1nf.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.6/README.md) | [sase-1nf.6](sase-1nf.6.md) | 0 |
+| [bbugyi200.athena.sase-1nf.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.6.md) | [sase-1nf.6](sase-1nf.6.md) | 0 |
