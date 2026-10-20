@@ -30,7 +30,7 @@ From the deck panel's chrome alone, a user can tell whether the focused deck is 
 | [sase-1n7.1](sase-1n7.1.md) | Tabs mean pages, the view chip, and the lock | ✓ closed | medium | 2026-10-19 | 1 | 1 |
 | [sase-1n7.2](sase-1n7.2.md) | Lock-toggle key and lock copy | ✓ closed | medium | 2026-10-19 | 1 | 1 |
 | [sase-1n7.3](sase-1n7.3.md) | Viewport-precise spread cues and the paged continuation cue | ✓ closed | medium | 2026-10-19 | 1 | 1 |
-| [sase-1n7.4](sase-1n7.4.md) | Docs, glossary, and acceptance review | ◐ in_progress | small | 2026-10-19 | 1 | 0 |
+| [sase-1n7.4](sase-1n7.4.md) | Docs, glossary, and acceptance review | ✓ closed | small | 2026-10-19 | 1 | 1 |
 
 ## Lineage
 
@@ -40,7 +40,7 @@ flowchart TD
     n1["sase-1n7.1: Tabs mean pages, the view chip, and the lock [closed]"]
     n2["sase-1n7.2: Lock-toggle key and lock copy [closed]"]
     n3["sase-1n7.3: Viewport-precise spread cues and the paged continuation cue [closed]"]
-    n4["sase-1n7.4: Docs, glossary, and acceptance review [in_progress]"]
+    n4["sase-1n7.4: Docs, glossary, and acceptance review [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -57,7 +57,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1n7.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n7.1/README.md) | [sase-1n7.1](sase-1n7.1.md) | 1 |
 | [bbugyi200.athena.sase-1n7.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n7.2.md) | [sase-1n7.2](sase-1n7.2.md) | 1 |
 | [bbugyi200.athena.sase-1n7.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n7.3.md) | [sase-1n7.3](sase-1n7.3.md) | 1 |
-| [bbugyi200.athena.sase-1n7.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n7.4/README.md) | [sase-1n7.4](sase-1n7.4.md) | 0 |
+| [bbugyi200.athena.sase-1n7.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n7.4.md) | [sase-1n7.4](sase-1n7.4.md) | 1 |
 | [bbugyi200.athena.sase-1n7.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n7.land/README.md) | [sase-1n7](README.md) | 0 |
 
 ## Commits
@@ -67,3 +67,4 @@ flowchart TD
 | sase | [`9ece19c`](https://github.com/sase-org/sase/commit/9ece19c4af9e6569769d2e9b85e99a73b71e7d46) | feat(tui): paint deck view as chip, lock, and paged tabs | [sase-1n7.1](sase-1n7.1.md) | 2026-10-19 19:24:26 EDT |
 | sase | [`798e786`](https://github.com/sase-org/sase/commit/798e786c88c01c265748f294cc7af700d0099b3f) | feat(ace): add Agents deck view lock toggle | [sase-1n7.2](sase-1n7.2.md) | 2026-10-19 20:48:05 EDT |
 | sase | [`de1d960`](https://github.com/sase-org/sase/commit/de1d960d11292255e6af5a879e1bc91481ac208d) | feat(decks): add viewport-precise scope cues for spread and paged panels | [sase-1n7.3](sase-1n7.3.md) | 2026-10-19 22:31:50 EDT |
+| sase | [`3dbe570`](https://github.com/sase-org/sase/commit/3dbe5704627fc397dee88b7e9ff9c630929237c4) | docs(tui): document tabs-mean-pages deck chrome and lock vocabulary | [sase-1n7.4](sase-1n7.4.md) | 2026-10-20 07:09:04 EDT |
