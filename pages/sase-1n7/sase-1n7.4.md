@@ -13,7 +13,7 @@ docs-acceptance: rewrite the Deck Views reference and the Ctrl+J/K paragraph, ap
 
 ## Dependencies
 
-- **Depends on:** [sase-1n7.3](sase-1n7.3.md) ◐ · ⧖ 2026-10-19
+- **Depends on:** [sase-1n7.3](sase-1n7.3.md) ✓ · ⧖ 2026-10-19
 
 ## Agents
 

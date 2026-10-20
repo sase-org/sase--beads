@@ -20,7 +20,7 @@ lock-key: an Agents-only action that locks the layout auto chose or returns to a
 ## Dependencies
 
 - **Depends on:** [sase-1n7.1](sase-1n7.1.md) ✓ · ⧖ 2026-10-19
-- **Blocks:** [sase-1n7.3](sase-1n7.3.md) ◐ · ⧖ 2026-10-19
+- **Blocks:** [sase-1n7.3](sase-1n7.3.md) ✓ · ⧖ 2026-10-19
 
 ## Agents
 
@@ -33,3 +33,15 @@ lock-key: an Agents-only action that locks the layout auto chose or returns to a
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`798e786`](https://github.com/sase-org/sase/commit/798e786c88c01c265748f294cc7af700d0099b3f) | feat(ace): add Agents deck view lock toggle | [sase-1n7.2](sase-1n7.2.md) | 2026-10-19 20:48:05 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1n7.2--2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n7.2.md
+
+<!-- sase:referenced-by:end -->
