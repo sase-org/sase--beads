@@ -23,4 +23,4 @@ steward: tools/release_watch becomes a stateless reconciler with typed states, o
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1n6.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.7/README.md) | [sase-1n6.7](sase-1n6.7.md) | 0 |
+| [bbugyi200.athena.sase-1n6.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.7.md) | [sase-1n6.7](sase-1n6.7.md) | 0 |

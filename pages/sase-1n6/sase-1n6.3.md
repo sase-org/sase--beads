@@ -33,3 +33,15 @@ core-pin: ratchet_core_pin writes sase-core-rs==X.Y.Z chosen by one shared core-
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`befa41b`](https://github.com/sase-org/sase/commit/befa41b575abbc0745bd7aa33019126760110a58) | feat(release): pin sase-core-rs to an exact published version | [sase-1n6.3](sase-1n6.3.md) | 2026-10-19 19:34:39 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1n6.3][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.3/README.md
+
+<!-- sase:referenced-by:end -->
