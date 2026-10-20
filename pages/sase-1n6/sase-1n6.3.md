@@ -20,7 +20,7 @@ core-pin: ratchet_core_pin writes sase-core-rs==X.Y.Z chosen by one shared core-
 ## Dependencies
 
 - **Blocks:** [sase-1n6.5](sase-1n6.5.md) ◐ · ⧖ 2026-10-19
-- **Blocks:** [sase-1n6.7](sase-1n6.7.md) ◐ · ⧖ 2026-10-19
+- **Blocks:** [sase-1n6.7](sase-1n6.7.md) ✓ · ⧖ 2026-10-19
 
 ## Agents
 

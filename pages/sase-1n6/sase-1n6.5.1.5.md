@@ -7,6 +7,20 @@
 **Created:** 2026-10-20 00:28:15 EDT
 **Plan:** [202610/qualification\_landing\_repairs.md](https://github.com/sase-org/sase--plans/blob/main/202610/qualification_landing_repairs.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202610/qualification_landing_repairs.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/sase-org/sase--plans/blob/main/202610/qualification_landing_repairs.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 Qualification produces verifiable candidate-bound evidence from real Actions jobs, persists every attempt, and has retained green and wrong-core rehearsal proofs.

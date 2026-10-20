@@ -27,7 +27,7 @@ exact-build: a new tag-dispatched release.yml with an identity assertion, one bu
 
 - **Blocks:** [sase-1n6.4](sase-1n6.4.md) ✓ · ⧖ 2026-10-19
 - **Blocks:** [sase-1n6.5](sase-1n6.5.md) ◐ · ⧖ 2026-10-19
-- **Blocks:** [sase-1n6.7](sase-1n6.7.md) ◐ · ⧖ 2026-10-19
+- **Blocks:** [sase-1n6.7](sase-1n6.7.md) ✓ · ⧖ 2026-10-19
 
 ## Agents
 

@@ -38,8 +38,10 @@ qualify: ci.yml gains ref and core-source inputs, a versioned N1 inventory decid
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1n6.5.1.1][1] | Need parent-phase notes and inherited qualification decisions | 1 |
 | read-by | [agent:sase-1n6.5.1.4][2] | Need epic DECISIONS and land context | 1 |
+| read-by | [agent:sase-1n6.5.1.5.2][3] | Need outer release-train phase live-acceptance requirements | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.1/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.4/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.5.2/README.md
 
 <!-- sase:referenced-by:end -->

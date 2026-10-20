@@ -40,7 +40,9 @@ release-wiring: wire release.yml to published-core CI and the authoritative qual
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1n6.5.1.4][1] | Need the phase scope and design file | 3 |
+| read-by | [agent:sase-1n6.5.1.5.2][2] | Need original live-acceptance notes and any prior rehearsal observations | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.4/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.5.2/README.md
 
 <!-- sase:referenced-by:end -->

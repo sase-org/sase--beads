@@ -21,7 +21,7 @@ core-release: in sase-core, the release-plz merge job reruns failed checks once 
 
 ## Dependencies
 
-- **Blocks:** [sase-1n6.7](sase-1n6.7.md) ◐ · ⧖ 2026-10-19
+- **Blocks:** [sase-1n6.7](sase-1n6.7.md) ✓ · ⧖ 2026-10-19
 
 ## Agents
 

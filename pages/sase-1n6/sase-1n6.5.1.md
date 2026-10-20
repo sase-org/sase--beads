@@ -7,6 +7,20 @@
 **Created:** 2026-10-19 20:21:18 EDT
 **Plan:** [202610/published\_core\_qualification.md](https://github.com/sase-org/sase--plans/blob/main/202610/published_core_qualification.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202610/published_core_qualification.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/sase-org/sase--plans/blob/main/202610/published_core_qualification.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 Complete sase-1n6.5 with candidate-bound qualification evidence, published-core CI, and green and deliberately red rehearsal proofs.
@@ -36,9 +50,11 @@ FOLLOW-UP TRIAGE: no child proposals to create, corroborate, or decline. A separ
 | read-by | [agent:sase-1n6.5.1.1][1] | Need the child epic decisions for the evidence phase | 1 |
 | read-by | [agent:sase-1n6.5.1.3][2] | Need parent epic DECISIONS and remaining phases | 1 |
 | read-by | [agent:sase-1n6.5.1.4][3] | Need epic DECISIONS and land context | 1 |
+| read-by | [agent:sase-1n6.5.1.5.2][4] | Need original qualification landing notes and remaining live proofs | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.1/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.3/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.4/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.5.2/README.md
 
 <!-- sase:referenced-by:end -->

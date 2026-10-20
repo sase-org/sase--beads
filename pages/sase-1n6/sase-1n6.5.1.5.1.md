@@ -40,7 +40,9 @@ repair: fix authoritative job identity, paginated artifact transport, observatio
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1n6.5.1.5.1][1] | Need the phase scope and design file | 3 |
+| read-by | [agent:sase-1n6.5.1.5.2][2] | Need the repair phase notes and recorded contract for deployed-proof | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.5.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.5.2/README.md
 
 <!-- sase:referenced-by:end -->
