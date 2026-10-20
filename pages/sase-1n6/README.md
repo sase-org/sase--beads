@@ -58,7 +58,7 @@ flowchart TD
     n13["sase-1n6.7: Stateless release steward in observe mode [in_progress]"]
     n14["sase-1n6.7.1: Stateless release steward with an observe-only workflow [in_progress]"]
     n15["sase-1n6.7.1.1: Typed release decisions in the Rust core [closed]"]
-    n16["sase-1n6.7.1.2: Read release trains and publication evidence [in_progress]"]
+    n16["sase-1n6.7.1.2: Read release trains and publication evidence [closed]"]
     n17["sase-1n6.7.1.3: Read core, canary, and escalation evidence [in_progress]"]
     n18["sase-1n6.7.1.4: Execute idempotent train and escalation actions [in_progress]"]
     n19["sase-1n6.7.1.5: Replace the watcher CLI and install the observe-only host [in_progress]"]
@@ -131,7 +131,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1n6.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.6/README.md) | [sase-1n6.6](sase-1n6.6.md) | 0 |
 | [bbugyi200.athena.sase-1n6.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.7.md) | [sase-1n6.7](sase-1n6.7.md) | 0 |
 | [bbugyi200.athena.sase-1n6.7.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.7.1.1/README.md) | [sase-1n6.7.1.1](sase-1n6.7.1.1.md) | 2 |
-| [bbugyi200.athena.sase-1n6.7.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.7.1.2.md) | [sase-1n6.7.1.2](sase-1n6.7.1.2.md) | 0 |
+| [bbugyi200.athena.sase-1n6.7.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.7.1.2.md) | [sase-1n6.7.1.2](sase-1n6.7.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1n6.7.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.7.1.3/README.md) | [sase-1n6.7.1.3](sase-1n6.7.1.3.md) | 0 |
 | [bbugyi200.athena.sase-1n6.7.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.7.1.4/README.md) | [sase-1n6.7.1.4](sase-1n6.7.1.4.md) | 0 |
 | [bbugyi200.athena.sase-1n6.7.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.7.1.5/README.md) | [sase-1n6.7.1.5](sase-1n6.7.1.5.md) | 0 |
@@ -152,3 +152,4 @@ flowchart TD
 | sase-core | [`sase-core@dd817d5`](https://github.com/sase-org/sase-core/commit/dd817d5679409aaa2eefa0c3e517e8cfe91c37ef) | feat(release\_steward): add typed release decision policy | [sase-1n6.7.1.1](sase-1n6.7.1.1.md) | 2026-10-19 21:36:45 EDT |
 | sase | [`5003ef6`](https://github.com/sase-org/sase/commit/5003ef69bd9810b0a88df5fc426f3bb8d5f2d1e7) | feat(release-watch): add thin release\_steward\_decide adapter | [sase-1n6.7.1.1](sase-1n6.7.1.1.md) | 2026-10-19 21:42:11 EDT |
 | sase | [`9edbacd`](https://github.com/sase-org/sase/commit/9edbacd4efbde6ed91c1e5da5c37d9918e9e6e81) | feat(ci): supply verified published core artifacts to setup-sase | [sase-1n6.5.1.2](sase-1n6.5.1.2.md) | 2026-10-19 22:36:02 EDT |
+| sase | [`23cccbc`](https://github.com/sase-org/sase/commit/23cccbc969ed14f970ac509ccedfd5358f7a93d8) | feat(release): add read-only release facts reader | [sase-1n6.7.1.2](sase-1n6.7.1.2.md) | 2026-10-19 23:27:01 EDT |

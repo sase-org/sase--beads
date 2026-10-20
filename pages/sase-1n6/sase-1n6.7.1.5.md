@@ -14,7 +14,7 @@ cli-host: switch release_watch to the new reconciler, migrate legacy tests, and 
 ## Dependencies
 
 - **Depends on:** [sase-1n6.7.1.1](sase-1n6.7.1.1.md) ✓ · ⧖ 2026-10-19
-- **Depends on:** [sase-1n6.7.1.2](sase-1n6.7.1.2.md) ◐ · ⧖ 2026-10-19
+- **Depends on:** [sase-1n6.7.1.2](sase-1n6.7.1.2.md) ✓ · ⧖ 2026-10-19
 - **Depends on:** [sase-1n6.7.1.3](sase-1n6.7.1.3.md) ◐ · ⧖ 2026-10-19
 - **Depends on:** [sase-1n6.7.1.4](sase-1n6.7.1.4.md) ◐ · ⧖ 2026-10-19
 
