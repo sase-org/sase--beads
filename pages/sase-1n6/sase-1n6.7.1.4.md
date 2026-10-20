@@ -33,3 +33,15 @@ effects: add precondition-checked action execution and issue sinks, proving one 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`dab5776`](https://github.com/sase-org/sase/commit/dab57765835ea8f61dfe1143570ce5a0bb0c2235) | feat(release-watch): add restart-safe actions and issue sinks | [sase-1n6.7.1.4](sase-1n6.7.1.4.md) | 2026-10-20 00:49:28 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1n6.7.1.4--1][1] | Read phase notes and decisions before closing after check failure | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.7.1.4.md
+
+<!-- sase:referenced-by:end -->

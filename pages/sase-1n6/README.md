@@ -150,7 +150,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1n6.7.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.7.1.2.md) | [sase-1n6.7.1.2](sase-1n6.7.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1n6.7.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.7.1.3/README.md) | [sase-1n6.7.1.3](sase-1n6.7.1.3.md) | 1 |
 | [bbugyi200.athena.sase-1n6.7.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.7.1.4.md) | [sase-1n6.7.1.4](sase-1n6.7.1.4.md) | 1 |
-| [bbugyi200.athena.sase-1n6.7.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.7.1.5/README.md) | [sase-1n6.7.1.5](sase-1n6.7.1.5.md) | 0 |
+| [bbugyi200.athena.sase-1n6.7.1.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.7.1.5.md) | [sase-1n6.7.1.5](sase-1n6.7.1.5.md) | 1 |
 | [bbugyi200.athena.sase-1n6.7.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.7.1.land/README.md) | [sase-1n6.7.1](sase-1n6.7.1.md) | 0 |
 | [bbugyi200.athena.sase-1n6.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.8/README.md) | [sase-1n6.8](sase-1n6.8.md) | 0 |
 | [bbugyi200.athena.sase-1n6.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.9/README.md) | [sase-1n6.9](sase-1n6.9.md) | 0 |
@@ -174,6 +174,7 @@ flowchart TD
 | sase | [`54a9c14`](https://github.com/sase-org/sase/commit/54a9c14d2393ed168504eb64b2335b2e8fd1825e) | feat(release): qualify release candidates against their exact published core | [sase-1n6.5.1.4](sase-1n6.5.1.4.md) | 2026-10-20 00:09:08 EDT |
 | sase | [`dab5776`](https://github.com/sase-org/sase/commit/dab57765835ea8f61dfe1143570ce5a0bb0c2235) | feat(release-watch): add restart-safe actions and issue sinks | [sase-1n6.7.1.4](sase-1n6.7.1.4.md) | 2026-10-20 00:49:28 EDT |
 | sase | [`400572e`](https://github.com/sase-org/sase/commit/400572eab602681aa64f44653484a1dfc9ab0b38) | fix(release): repair qualification evidence transport and prove it | [sase-1n6.5.1.5.1](sase-1n6.5.1.5.1.md) | 2026-10-20 00:53:39 EDT |
+| sase | [`812cdd9`](https://github.com/sase-org/sase/commit/812cdd9e21ae5bc164d6d149b34ab9866207db03) | feat(release): replace release\_watch with an observe-only steward tick | [sase-1n6.7.1.5](sase-1n6.7.1.5.md) | 2026-10-20 01:29:29 EDT |
 
 <!-- sase:referenced-by:start -->
 

@@ -32,3 +32,15 @@ repair: fix authoritative job identity, paginated artifact transport, observatio
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`400572e`](https://github.com/sase-org/sase/commit/400572eab602681aa64f44653484a1dfc9ab0b38) | fix(release): repair qualification evidence transport and prove it | [sase-1n6.5.1.5.1](sase-1n6.5.1.5.1.md) | 2026-10-20 00:53:39 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1n6.5.1.5.1][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.5.1/README.md
+
+<!-- sase:referenced-by:end -->

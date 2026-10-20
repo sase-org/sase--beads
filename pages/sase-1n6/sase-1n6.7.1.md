@@ -25,8 +25,10 @@ Complete sase-1n6.7 with a restart-safe release reconciler, durable escalation, 
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1n6.7.1.1][1] | Need parent epic DECISIONS and full design context | 1 |
 | read-by | [agent:sase-1n6.7.1.3][2] | parent epic decisions and design | 2 |
+| read-by | [agent:sase-1n6.7.1.4--1][3] | Need epic decisions and scope for this phase | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.7.1.1/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.7.1.3/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.7.1.4.md
 
 <!-- sase:referenced-by:end -->
