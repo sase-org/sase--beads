@@ -26,10 +26,23 @@ policy: define the fact and decision wire contracts and implement the pure relea
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1n6.7.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.7.1.1/README.md) | [sase-1n6.7.1.1](sase-1n6.7.1.1.md) | 1 |
+| [bbugyi200.athena.sase-1n6.7.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.7.1.1/README.md) | [sase-1n6.7.1.1](sase-1n6.7.1.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@dd817d5`](https://github.com/sase-org/sase-core/commit/dd817d5679409aaa2eefa0c3e517e8cfe91c37ef) | feat(release\_steward): add typed release decision policy | [sase-1n6.7.1.1](sase-1n6.7.1.1.md) | 2026-10-19 21:36:45 EDT |
+| sase | [`5003ef6`](https://github.com/sase-org/sase/commit/5003ef69bd9810b0a88df5fc426f3bb8d5f2d1e7) | feat(release-watch): add thin release\_steward\_decide adapter | [sase-1n6.7.1.1](sase-1n6.7.1.1.md) | 2026-10-19 21:42:11 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1n6.7.1.1][1] | Need DECISIONS and remaining notes | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.7.1.1/README.md
+
+<!-- sase:referenced-by:end -->
