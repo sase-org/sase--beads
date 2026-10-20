@@ -19,7 +19,7 @@ evidence: add the versioned N1 inventory, typed evidence schema, qualification e
 
 ## Dependencies
 
-- **Blocks:** [sase-1n6.5.1.2](sase-1n6.5.1.2.md) ◎ · ⧖ 2026-10-19
+- **Blocks:** [sase-1n6.5.1.2](sase-1n6.5.1.2.md) ✓ · ⧖ 2026-10-19
 
 ## Agents
 
