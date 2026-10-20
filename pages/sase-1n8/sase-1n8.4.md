@@ -2,8 +2,8 @@
 
 [Bead Pages](../README.md) / [sase-1n8](README.md) / sase-1n8.4
 
-**Status:** ◎ claimed · **Type:** ↳ phase · **↺ Reopened:** ↺1
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** `bbugyi200.apollo.96` · **Assignee:** `sase-1n8.4--mon` · **Size:** medium
+**Status:** ◐ in_progress · **Type:** ↳ phase · **↺ Reopened:** ↺1
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** `bbugyi200.apollo.96` · **Assignee:** `sase-1n8.4` · **Size:** medium
 **Created:** 2026-10-20 06:53:00 EDT
 **Plan:** [202610/host\_completion\_loop\_and\_disk\_churn.md](https://github.com/sase-org/sase--plans/blob/main/202610/host_completion_loop_and_disk_churn.md)
 
@@ -28,6 +28,10 @@ monitor-scratch-reclaim: during monitor settlement, remove the unheld starter ca
 [2026-10-20T11:25:33Z · sase-1n8.4] PROPOSED FOLLOW-UP: Reuse one cargo-targets directory across an agent session so monitor cycles rebuild incrementally instead of minting a fresh 2.5 GB target each turn.
 
 [2026-10-20T11:28:20Z · sase-1n8.4] Verified: settlement reads launch_scratch_key from monitor_starter_artifacts_dir; monitor-only keys, missing starter, missing dir, held/incomplete, joined, and agent-tmp cases pass (30 tests in test_monitor_proc_settlement.py and test_run_agent_runner_scratch_cleanup.py). Epic-symbols clear.
+
+[2026-10-20T12:22:22Z · sase-1n8.4] Current checkout includes the original implementation (25d14fae6c), but not the starter-metadata correction recorded in note #4. proc_adapter still passes the monitor artifacts dir to read_recorded_scratch_key and the test fixture stores the key on the monitor. Completing this bounded remainder with realistic starter/monitor fixtures and regression verification; no child epic is needed.
+
+[2026-10-20T12:25:28Z · sase-1n8.4] Regression evidence: with production-shaped starter/monitor fixtures, the old code failed the starter-target removal and monitor-only-key cases (ToolRun 3b7ddb7c09d224bc7bc6ce1a79b4f506). After reading launch_scratch_key from monitor_starter_artifacts_dir, all 33 monitor-settlement and runner-scratch tests pass (ToolRun a6c14844e3fb88a1e77ec33bb849842d), including repeated settlement, held/incomplete observations, joined monitors, missing/invalid starter metadata and agent-tmp preservation. Required just check is running as ToolRun d7a40a3f5b996d546fd556c8f25bde95.
 
 ## Agents
 
