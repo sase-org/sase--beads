@@ -19,7 +19,7 @@ links-core: add a skip mode to bead link projections that applies valid requests
 
 ## Dependencies
 
-- **Blocks:** [sase-1nf.7](sase-1nf.7.md) ◐ · ⧖ 2026-10-20
+- **Blocks:** [sase-1nf.7](sase-1nf.7.md) ✓ · ⧖ 2026-10-20
 
 ## Agents
 

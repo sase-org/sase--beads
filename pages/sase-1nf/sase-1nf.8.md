@@ -13,7 +13,7 @@ links-converge: move parked operations into a replayable parked ledger, make out
 
 ## Dependencies
 
-- **Depends on:** [sase-1nf.7](sase-1nf.7.md) ◐ · ⧖ 2026-10-20
+- **Depends on:** [sase-1nf.7](sase-1nf.7.md) ✓ · ⧖ 2026-10-20
 
 ## Agents
 
