@@ -13,7 +13,7 @@ release-wiring: wire release.yml to published-core CI and the authoritative qual
 
 ## Dependencies
 
-- **Depends on:** [sase-1n6.5.1.3](sase-1n6.5.1.3.md) ◐ · ⧖ 2026-10-19
+- **Depends on:** [sase-1n6.5.1.3](sase-1n6.5.1.3.md) ✓ · ⧖ 2026-10-19
 
 ## Agents
 

@@ -52,7 +52,7 @@ flowchart TD
     n7["sase-1n6.5.1: Qualify release candidates against their exact published core [in_progress]"]
     n8["sase-1n6.5.1.1: Define the qualification inventory and fail-closed evaluator [closed]"]
     n9["sase-1n6.5.1.2: Supply verified published core artifacts to the CI setup action [closed]"]
-    n10["sase-1n6.5.1.3: Run reusable CI at an explicit ref and report qualification evidence [in_progress]"]
+    n10["sase-1n6.5.1.3: Run reusable CI at an explicit ref and report qualification evidence [closed]"]
     n11["sase-1n6.5.1.4: Integrate qualification, negative probes and durable observations [in_progress]"]
     n12["sase-1n6.6: Digest-checked publish, PyPI confirmation, and un-draft [in_progress]"]
     n13["sase-1n6.7: Stateless release steward in observe mode [in_progress]"]
@@ -125,7 +125,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1n6.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.5.md) | [sase-1n6.5](sase-1n6.5.md) | 0 |
 | [bbugyi200.athena.sase-1n6.5.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.1/README.md) | [sase-1n6.5.1.1](sase-1n6.5.1.1.md) | 1 |
 | [bbugyi200.athena.sase-1n6.5.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.5.1.2.md) | [sase-1n6.5.1.2](sase-1n6.5.1.2.md) | 1 |
-| [bbugyi200.athena.sase-1n6.5.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.3/README.md) | [sase-1n6.5.1.3](sase-1n6.5.1.3.md) | 0 |
+| [bbugyi200.athena.sase-1n6.5.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.3/README.md) | [sase-1n6.5.1.3](sase-1n6.5.1.3.md) | 1 |
 | [bbugyi200.athena.sase-1n6.5.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.4/README.md) | [sase-1n6.5.1.4](sase-1n6.5.1.4.md) | 0 |
 | [bbugyi200.athena.sase-1n6.5.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.land/README.md) | [sase-1n6.5.1](sase-1n6.5.1.md) | 0 |
 | [bbugyi200.athena.sase-1n6.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.6/README.md) | [sase-1n6.6](sase-1n6.6.md) | 0 |
@@ -153,3 +153,4 @@ flowchart TD
 | sase | [`5003ef6`](https://github.com/sase-org/sase/commit/5003ef69bd9810b0a88df5fc426f3bb8d5f2d1e7) | feat(release-watch): add thin release\_steward\_decide adapter | [sase-1n6.7.1.1](sase-1n6.7.1.1.md) | 2026-10-19 21:42:11 EDT |
 | sase | [`9edbacd`](https://github.com/sase-org/sase/commit/9edbacd4efbde6ed91c1e5da5c37d9918e9e6e81) | feat(ci): supply verified published core artifacts to setup-sase | [sase-1n6.5.1.2](sase-1n6.5.1.2.md) | 2026-10-19 22:36:02 EDT |
 | sase | [`23cccbc`](https://github.com/sase-org/sase/commit/23cccbc969ed14f970ac509ccedfd5358f7a93d8) | feat(release): add read-only release facts reader | [sase-1n6.7.1.2](sase-1n6.7.1.2.md) | 2026-10-19 23:27:01 EDT |
+| sase | [`8afb1b7`](https://github.com/sase-org/sase/commit/8afb1b7e57e4e3494074a73adde2d3cee2fa5148) | feat(ci): collect identity-bound qualification evidence from reusable CI | [sase-1n6.5.1.3](sase-1n6.5.1.3.md) | 2026-10-19 23:35:38 EDT |
