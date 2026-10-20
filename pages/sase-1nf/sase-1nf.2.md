@@ -13,7 +13,7 @@ reap-sase: move the core pin, log removal errors and blocking processes, make ma
 
 ## Dependencies
 
-- **Depends on:** [sase-1nf.1](sase-1nf.1.md) ◐ · ⧖ 2026-10-20
+- **Depends on:** [sase-1nf.1](sase-1nf.1.md) ✓ · ⧖ 2026-10-20
 
 ## Agents
 
