@@ -7,6 +7,20 @@
 **Created:** 2026-10-20 15:40:51 EDT
 **Plan:** [202610/publication\_drain\_fixes.md](https://github.com/sase-org/sase--plans/blob/main/202610/publication_drain_fixes.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202610/publication_drain_fixes.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/sase-org/sase--plans/blob/main/202610/publication_drain_fixes.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 Fix the measured publication failures and prove safe recovery before bulk backlog draining
