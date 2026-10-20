@@ -21,7 +21,7 @@ tabs-chip: card tabs only for paged multi-card decks, a solid view chip with a l
 
 ## Dependencies
 
-- **Blocks:** [sase-1n7.2](sase-1n7.2.md) ◐ · ⧖ 2026-10-19
+- **Blocks:** [sase-1n7.2](sase-1n7.2.md) ✓ · ⧖ 2026-10-19
 
 ## Agents
 
@@ -34,3 +34,15 @@ tabs-chip: card tabs only for paged multi-card decks, a solid view chip with a l
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`9ece19c`](https://github.com/sase-org/sase/commit/9ece19c4af9e6569769d2e9b85e99a73b71e7d46) | feat(tui): paint deck view as chip, lock, and paged tabs | [sase-1n7.1](sase-1n7.1.md) | 2026-10-19 19:24:26 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1n7.1][1] | Need the phase scope, notes, and remaining work after compaction | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n7.1/README.md
+
+<!-- sase:referenced-by:end -->

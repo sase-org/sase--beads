@@ -13,7 +13,7 @@ viewport-cues: one refresh-on-change scope key per panel drives in-view-aware sp
 
 ## Dependencies
 
-- **Depends on:** [sase-1n7.2](sase-1n7.2.md) ◐ · ⧖ 2026-10-19
+- **Depends on:** [sase-1n7.2](sase-1n7.2.md) ✓ · ⧖ 2026-10-19
 - **Blocks:** [sase-1n7.4](sase-1n7.4.md) ◐ · ⧖ 2026-10-19
 
 ## Agents
