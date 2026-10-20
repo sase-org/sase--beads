@@ -32,7 +32,7 @@ Apollo's and athena's managed-tmp reaper reclaims dead scratch even with SSH ses
 | [sase-1nf.1](sase-1nf.1.md) | sase-core reaper removes read-only trees and exempts system-service sessions | ✓ closed | medium | 2026-10-20 | 1 | 1 |
 | [sase-1nf.10](sase-1nf.10.md) | Fix the measured publication failure causes | ◐ in_progress | large | 2026-10-20 | 1 | 0 |
 | [sase-1nf.11](sase-1nf.11.md) | Drain the publication backlog on athena and apollo in bounded batches | ◐ in_progress | medium | 2026-10-20 | 1 | 0 |
-| [sase-1nf.12](sase-1nf.12.md) | GC attribution telemetry and an acceptance-grade freeze report | ◐ in_progress | medium | 2026-10-20 | 1 | 0 |
+| [sase-1nf.12](sase-1nf.12.md) | GC attribution telemetry and an acceptance-grade freeze report | ✓ closed | medium | 2026-10-20 | 1 | 1 |
 | [sase-1nf.13](sase-1nf.13.md) | Measure and attribute the TUI GC freezes on restarted TUIs | ◐ in_progress | medium | 2026-10-20 | 1 | 0 |
 | [sase-1nf.14](sase-1nf.14.md) | Fix the measured GC freeze causes | ◐ in_progress | large | 2026-10-20 | 1 | 0 |
 | [sase-1nf.2](sase-1nf.2.md) | Truthful managed\_tmp\_reap and disk\_pressure jobs on the new core | ✓ closed | medium | 2026-10-20 | 1 | 1 |
@@ -52,7 +52,7 @@ flowchart TD
     n1["sase-1nf.1: sase-core reaper removes read-only trees and exempts system-service sessions [closed]"]
     n2["sase-1nf.10: Fix the measured publication failure causes [in_progress]"]
     n3["sase-1nf.11: Drain the publication backlog on athena and apollo in bounded batches [in_progress]"]
-    n4["sase-1nf.12: GC attribution telemetry and an acceptance-grade freeze report [in_progress]"]
+    n4["sase-1nf.12: GC attribution telemetry and an acceptance-grade freeze report [closed]"]
     n5["sase-1nf.13: Measure and attribute the TUI GC freezes on restarted TUIs [in_progress]"]
     n6["sase-1nf.14: Fix the measured GC freeze causes [in_progress]"]
     n7["sase-1nf.2: Truthful managed_tmp_reap and disk_pressure jobs on the new core [closed]"]
@@ -93,7 +93,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1nf.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.1/README.md) | [sase-1nf.1](sase-1nf.1.md) | 1 |
 | [bbugyi200.athena.sase-1nf.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10/README.md) | [sase-1nf.10](sase-1nf.10.md) | 0 |
 | [bbugyi200.athena.sase-1nf.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.11/README.md) | [sase-1nf.11](sase-1nf.11.md) | 0 |
-| [bbugyi200.athena.sase-1nf.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.12/README.md) | [sase-1nf.12](sase-1nf.12.md) | 0 |
+| [bbugyi200.athena.sase-1nf.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.12/README.md) | [sase-1nf.12](sase-1nf.12.md) | 1 |
 | [bbugyi200.athena.sase-1nf.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.13/README.md) | [sase-1nf.13](sase-1nf.13.md) | 0 |
 | [bbugyi200.athena.sase-1nf.14](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.14/README.md) | [sase-1nf.14](sase-1nf.14.md) | 0 |
 | [bbugyi200.athena.sase-1nf.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.2/README.md) | [sase-1nf.2](sase-1nf.2.md) | 1 |
@@ -115,6 +115,7 @@ flowchart TD
 | sase-core | [`sase-core@6f354df`](https://github.com/sase-org/sase-core/commit/6f354df4d9650777087c06cc937526d95671d493) | fix(managed-tmp): repair 0555 trees and exempt system-service sessions | [sase-1nf.1](sase-1nf.1.md) | 2026-10-20 14:23:21 EDT |
 | sase | [`4136946`](https://github.com/sase-org/sase/commit/413694618eb7ee102ce8f5b785575c605353ee98) | fix(cleanup): report managed tmp and disk pressure outcomes | [sase-1nf.2](sase-1nf.2.md) | 2026-10-20 15:09:12 EDT |
 | sase | [`1325078`](https://github.com/sase-org/sase/commit/1325078a8edd30df84eaa6356863a8fd35f63c80) | feat(agents-sync): instrument and measure publication drains (sase-1nf.9) | [sase-1nf.9](sase-1nf.9.md) | 2026-10-20 15:17:08 EDT |
+| sase | [`aae7eae`](https://github.com/sase-org/sase/commit/aae7eae66779aa03486f215f7b44defa2912a508) | feat(tui): add GC attribution telemetry and an acceptance freeze report | [sase-1nf.12](sase-1nf.12.md) | 2026-10-20 15:19:41 EDT |
 
 <!-- sase:referenced-by:start -->
 

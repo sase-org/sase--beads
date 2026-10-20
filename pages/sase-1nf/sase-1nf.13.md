@@ -13,7 +13,7 @@ gc-measure: have the user restart their TUIs onto the instrumented code, capture
 
 ## Dependencies
 
-- **Depends on:** [sase-1nf.12](sase-1nf.12.md) ◐ · ⧖ 2026-10-20
+- **Depends on:** [sase-1nf.12](sase-1nf.12.md) ✓ · ⧖ 2026-10-20
 - **Blocks:** [sase-1nf.14](sase-1nf.14.md) ◐ · ⧖ 2026-10-20
 
 ## Agents
