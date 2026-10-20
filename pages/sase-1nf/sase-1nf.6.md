@@ -11,6 +11,10 @@
 
 links-core: add a skip mode to bead link projections that applies valid requests and reports missing holders per request, and extend the artifact-link publication receipt with per-endpoint outcomes and an acknowledged, parked, or pending disposition.
 
+## Notes
+
+[2026-10-20T18:42:38Z · sase-1nf.6--3] Updating replay mutation goldens because links-core adds the specified per-request link_projection_outcomes field; check failures showed six scenarios differed only by that intended additive result field.
+
 ## Dependencies
 
 - **Blocks:** [sase-1nf.7](sase-1nf.7.md) ◐ · ⧖ 2026-10-20

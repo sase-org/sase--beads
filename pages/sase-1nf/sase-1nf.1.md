@@ -17,7 +17,7 @@ reap-core: in sase-core, make managed-tmp removal repair owner write permission 
 
 ## Dependencies
 
-- **Blocks:** [sase-1nf.2](sase-1nf.2.md) ◐ · ⧖ 2026-10-20
+- **Blocks:** [sase-1nf.2](sase-1nf.2.md) ✓ · ⧖ 2026-10-20
 
 ## Agents
 
@@ -30,3 +30,15 @@ reap-core: in sase-core, make managed-tmp removal repair owner write permission 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@6f354df`](https://github.com/sase-org/sase-core/commit/6f354df4d9650777087c06cc937526d95671d493) | fix(managed-tmp): repair 0555 trees and exempt system-service sessions | [sase-1nf.1](sase-1nf.1.md) | 2026-10-20 14:23:21 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1nf.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.1/README.md
+
+<!-- sase:referenced-by:end -->
