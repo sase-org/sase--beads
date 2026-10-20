@@ -13,7 +13,7 @@ ci-evidence: thread qualification inputs and concurrency through ci.yml, collect
 
 ## Dependencies
 
-- **Depends on:** [sase-1n6.5.1.2](sase-1n6.5.1.2.md) ◐ · ⧖ 2026-10-19
+- **Depends on:** [sase-1n6.5.1.2](sase-1n6.5.1.2.md) ○ · ⧖ 2026-10-19
 - **Blocks:** [sase-1n6.5.1.4](sase-1n6.5.1.4.md) ◐ · ⧖ 2026-10-19
 
 ## Agents
