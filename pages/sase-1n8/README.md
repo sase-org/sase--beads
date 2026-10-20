@@ -27,7 +27,7 @@ A verified agent can never loop on a host completion that cannot succeed, its re
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-1n8.1](sase-1n8.1.md) | sase-core: seal-time guards for conditional completion | ◐ in_progress | medium | 2026-10-20 | 1 | 0 |
+| [sase-1n8.1](sase-1n8.1.md) | sase-core: seal-time guards for conditional completion | ✓ closed | medium | 2026-10-20 | 1 | 1 |
 | [sase-1n8.2](sase-1n8.2.md) | sase: feed the seal guards from sase final prepare | ◐ in_progress | medium | 2026-10-20 | 1 | 0 |
 | [sase-1n8.3](sase-1n8.3.md) | sase: show the host-completion recovery reason to the follow-up agent | ◐ in_progress | small | 2026-10-20 | 1 | 0 |
 | [sase-1n8.4](sase-1n8.4.md) | sase: reclaim the starter's cargo target when its monitor settles | ◎ claimed | medium | 2026-10-20 | 2 | 1 |
@@ -39,7 +39,7 @@ A verified agent can never loop on a host completion that cannot succeed, its re
 ```mermaid
 flowchart TD
     n0["sase-1n8: Stop unsatisfiable host-completion loops and the disk churn they caused [in_progress]"]
-    n1["sase-1n8.1: sase-core: seal-time guards for conditional completion [in_progress]"]
+    n1["sase-1n8.1: sase-core: seal-time guards for conditional completion [closed]"]
     n2["sase-1n8.2: sase: feed the seal guards from sase final prepare [in_progress]"]
     n3["sase-1n8.3: sase: show the host-completion recovery reason to the follow-up agent [in_progress]"]
     n4["sase-1n8.4: sase: reclaim the starter's cargo target when its monitor settles [claimed]"]
@@ -59,7 +59,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.sase-1n8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1n8.4/README.md) | [sase-1n8.4](sase-1n8.4.md) | 1 |
-| [bbugyi200.athena.sase-1n8.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n8.1/README.md) | [sase-1n8.1](sase-1n8.1.md) | 0 |
+| [bbugyi200.athena.sase-1n8.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n8.1/README.md) | [sase-1n8.1](sase-1n8.1.md) | 1 |
 | [bbugyi200.athena.sase-1n8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n8.2/README.md) | [sase-1n8.2](sase-1n8.2.md) | 0 |
 | [bbugyi200.athena.sase-1n8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n8.3/README.md) | [sase-1n8.3](sase-1n8.3.md) | 0 |
 | [bbugyi200.athena.sase-1n8.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n8.4.md) | [sase-1n8.4](sase-1n8.4.md) | 0 |
@@ -73,3 +73,4 @@ flowchart TD
 |---|---|---|---|---|
 | sase | [`25d14fa`](https://github.com/sase-org/sase/commit/25d14fae6c39fbea6cc43eb86984475c7a8aacea) | feat(monitor): reclaim starter cargo targets on settlement | [sase-1n8.4](sase-1n8.4.md) | 2026-10-20 07:09:21 EDT |
 | sase-core | [`sase-core@2f43385`](https://github.com/sase-org/sase-core/commit/2f4338511dbb8230d2254bee7da52798d6a65aca) | fix(managed-tmp): honor emergency pressure age | [sase-1n8.5](sase-1n8.5.md) | 2026-10-20 07:35:57 EDT |
+| sase-core | [`sase-core@b664b15`](https://github.com/sase-org/sase-core/commit/b664b15bf7b27cc10c342f99d9777409495956e3) | feat(continuation): refuse unsatisfiable and repeated conditional completion seals | [sase-1n8.1](sase-1n8.1.md) | 2026-10-20 07:43:14 EDT |

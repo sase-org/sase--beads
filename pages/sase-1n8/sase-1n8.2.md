@@ -13,7 +13,7 @@ prepare-stage-guard: resolve the check's stage source from the tool catalog, pas
 
 ## Dependencies
 
-- **Depends on:** [sase-1n8.1](sase-1n8.1.md) ◐ · ⧖ 2026-10-20
+- **Depends on:** [sase-1n8.1](sase-1n8.1.md) ✓ · ⧖ 2026-10-20
 
 ## Agents
 
