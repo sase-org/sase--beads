@@ -17,7 +17,7 @@ skill: add `skills/mermaid_diagrams.md` to sase-research-artifacts. It holds pos
 
 ## Dependencies
 
-- **Blocks:** [sase-1nd.2](sase-1nd.2.md) ◐ · ⧖ 2026-10-20
+- **Blocks:** [sase-1nd.2](sase-1nd.2.md) ✓ · ⧖ 2026-10-20
 
 ## Agents
 
@@ -30,3 +30,15 @@ skill: add `skills/mermaid_diagrams.md` to sase-research-artifacts. It holds pos
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-research-artifacts | [`sase-research-artifacts@b16687b`](https://github.com/sase-org/sase-research-artifacts/commit/b16687b9254d7c8257ef66b09500d163c90a7707) | feat(skills): add mermaid diagram craft guidance | [sase-1nd.1](sase-1nd.1.md) | 2026-10-20 12:37:11 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1nd.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nd.1/README.md
+
+<!-- sase:referenced-by:end -->

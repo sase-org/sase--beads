@@ -16,7 +16,7 @@ The research swarm's diagrams agent proposes fewer, better Mermaid figures. Each
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-1nd.1](sase-1nd.1.md) | Ship the mermaid\_diagrams plugin skill and point the lead at it | ✓ closed | medium | 2026-10-20 | 1 | 1 |
-| [sase-1nd.2](sase-1nd.2.md) | Rewire research/diagrams around reader questions and the skill | ◐ in_progress | medium | 2026-10-20 | 1 | 0 |
+| [sase-1nd.2](sase-1nd.2.md) | Rewire research/diagrams around reader questions and the skill | ✓ closed | medium | 2026-10-20 | 1 | 1 |
 
 ## Lineage
 
@@ -24,7 +24,7 @@ The research swarm's diagrams agent proposes fewer, better Mermaid figures. Each
 flowchart TD
     n0["sase-1nd: Mermaid diagram craft for the research swarm [in_progress]"]
     n1["sase-1nd.1: Ship the mermaid_diagrams plugin skill and point the lead at it [closed]"]
-    n2["sase-1nd.2: Rewire research/diagrams around reader questions and the skill [in_progress]"]
+    n2["sase-1nd.2: Rewire research/diagrams around reader questions and the skill [closed]"]
     n0 --> n1
     n0 --> n2
     n1 -.-> n2
@@ -35,7 +35,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1nd.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nd.1/README.md) | [sase-1nd.1](sase-1nd.1.md) | 1 |
-| [bbugyi200.athena.sase-1nd.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nd.2/README.md) | [sase-1nd.2](sase-1nd.2.md) | 0 |
+| [bbugyi200.athena.sase-1nd.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nd.2/README.md) | [sase-1nd.2](sase-1nd.2.md) | 1 |
 | [bbugyi200.athena.sase-1nd.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nd.land/README.md) | [sase-1nd](README.md) | 0 |
 
 ## Commits
@@ -43,3 +43,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-research-artifacts | [`sase-research-artifacts@b16687b`](https://github.com/sase-org/sase-research-artifacts/commit/b16687b9254d7c8257ef66b09500d163c90a7707) | feat(skills): add mermaid diagram craft guidance | [sase-1nd.1](sase-1nd.1.md) | 2026-10-20 12:37:11 EDT |
+| sase-research-artifacts | [`sase-research-artifacts@af3a591`](https://github.com/sase-org/sase-research-artifacts/commit/af3a591c776d1d28206b55dbcb4be3c0d61aaada) | feat(research-diagrams): answer reader questions via the inlined skill guide | [sase-1nd.2](sase-1nd.2.md) | 2026-10-20 13:12:11 EDT |
