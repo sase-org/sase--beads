@@ -21,3 +21,15 @@ manifest-repair: extend explicit local-owner manifest repair to verified stale f
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1nf.10.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.7/README.md) | [sase-1nf.10.1.7](sase-1nf.10.1.7.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1nf.10.1.1][1] | Need later-phase consumers so unused facade APIs can be epic-symbol keyed to still-open beads | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.1/README.md
+
+<!-- sase:referenced-by:end -->

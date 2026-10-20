@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/publication_drain_fixes.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/publication_drain_fixes.md
 
@@ -37,8 +37,10 @@ Fix the measured publication failures and prove safe recovery before bulk backlo
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1nf.10.1.2][1] | Need the epic decisions governing this phase | 1 |
+| read-by | [agent:sase-1nf.10.1.1][1] | Need later-phase consumers so unused facade APIs can be epic-symbol keyed to still-open beads | 2 |
+| read-by | [agent:sase-1nf.10.1.2][2] | Need the epic decisions governing this phase | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.2/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.2/README.md
 
 <!-- sase:referenced-by:end -->
