@@ -13,7 +13,7 @@ deployed-proof: exercise the host-landed repair through release rehearsals and r
 
 ## Dependencies
 
-- **Depends on:** [sase-1n6.5.1.5.1](sase-1n6.5.1.5.1.md) ◐ · ⧖ 2026-10-20
+- **Depends on:** [sase-1n6.5.1.5.1](sase-1n6.5.1.5.1.md) ✓ · ⧖ 2026-10-20
 
 ## Agents
 
