@@ -30,3 +30,15 @@ prepare-stage-guard: resolve the check's stage source from the tool catalog, pas
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`321d881`](https://github.com/sase-org/sase/commit/321d88125082614188f79cbbdadfe3bfd282982b) | feat(final): seal prepare completion stage source, refusals and project | [sase-1n8.2](sase-1n8.2.md) | 2026-10-20 08:41:38 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1n8.2][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n8.2/README.md
+
+<!-- sase:referenced-by:end -->
