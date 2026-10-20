@@ -82,7 +82,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1n8.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n8.4/README.md) | [sase-1n8.4](sase-1n8.4.md) | 1 |
 | [bbugyi200.athena.sase-1n8.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n8.5/README.md) | [sase-1n8.5](sase-1n8.5.md) | 1 |
 | [bbugyi200.athena.sase-1n8.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n8.6/README.md) | [sase-1n8.6](sase-1n8.6.md) | 1 |
-| [bbugyi200.athena.sase-1n8.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n8.land.md) | [sase-1n8](README.md) | 1 |
+| [bbugyi200.athena.sase-1n8.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n8.land.md) | [sase-1n8](README.md) | 2 |
 
 ## Commits
 
@@ -96,3 +96,4 @@ flowchart TD
 | sase | [`379040e`](https://github.com/sase-org/sase/commit/379040e699e50e283bc72e7d598541206c6b29d3) | fix(monitor): read starter metadata when reclaiming cargo targets | [sase-1n8.4](sase-1n8.4.md) | 2026-10-20 08:55:42 EDT |
 | sase | [`2648c7c`](https://github.com/sase-org/sase/commit/2648c7cddf2e644d73fd1cacdc81d59a3c5466ff) | fix(procs): preserve command outcomes under disk exhaustion | [sase-1n8.6](sase-1n8.6.md) | 2026-10-20 09:31:22 EDT |
 | sase | [`9ecb80c`](https://github.com/sase-org/sase/commit/9ecb80cf0e2f374e36345dd6b94eed5db03c6699) | fix(final): defer epic imports out of TUI closure, share run\_silent catalog stub | [sase-1n8](README.md) | 2026-10-20 10:18:43 EDT |
+| sase--plans | [`sase--plans@a193822`](https://github.com/sase-org/sase--plans/commit/a19382246eac85100b4d151c2d8c35e506a82891) | docs(plans): mark sase-1n8 epic plan done | [sase-1n8](README.md) | 2026-10-20 10:22:30 EDT |
