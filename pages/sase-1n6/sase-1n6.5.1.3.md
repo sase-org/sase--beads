@@ -47,7 +47,9 @@ ci.yml: workflow_call inputs ref/core-source(default source)/core-version/manife
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1n6.5.1.3][1] | Need the phase scope and design file | 5 |
+| read-by | [agent:sase-1n6.5.1.4][2] | Need sibling phase contracts for release-wiring | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.3/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.4/README.md
 
 <!-- sase:referenced-by:end -->

@@ -23,7 +23,7 @@ health-facts: compose core-ensure, typed core-cut outcomes, scheduled install-ca
 
 - **Depends on:** [sase-1n6.7.1.1](sase-1n6.7.1.1.md) ✓ · ⧖ 2026-10-19
 - **Depends on:** [sase-1n6.7.1.2](sase-1n6.7.1.2.md) ✓ · ⧖ 2026-10-19
-- **Blocks:** [sase-1n6.7.1.4](sase-1n6.7.1.4.md) ◐ · ⧖ 2026-10-19
+- **Blocks:** [sase-1n6.7.1.4](sase-1n6.7.1.4.md) ✓ · ⧖ 2026-10-19
 - **Blocks:** [sase-1n6.7.1.5](sase-1n6.7.1.5.md) ◐ · ⧖ 2026-10-19
 
 ## Agents
@@ -37,3 +37,15 @@ health-facts: compose core-ensure, typed core-cut outcomes, scheduled install-ca
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`112a5f4`](https://github.com/sase-org/sase/commit/112a5f47576af6ab294354339873e15047fe5156) | feat(release-watch): add health reader, snapshot composition, and tests | [sase-1n6.7.1.3](sase-1n6.7.1.3.md) | 2026-10-20 00:07:49 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1n6.7.1.3][1] | Need phase scope, parent decisions and design | 4 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.7.1.3/README.md
+
+<!-- sase:referenced-by:end -->

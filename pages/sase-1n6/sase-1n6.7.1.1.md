@@ -19,7 +19,7 @@ policy: define the fact and decision wire contracts and implement the pure relea
 
 - **Blocks:** [sase-1n6.7.1.2](sase-1n6.7.1.2.md) ✓ · ⧖ 2026-10-19
 - **Blocks:** [sase-1n6.7.1.3](sase-1n6.7.1.3.md) ✓ · ⧖ 2026-10-19
-- **Blocks:** [sase-1n6.7.1.4](sase-1n6.7.1.4.md) ◐ · ⧖ 2026-10-19
+- **Blocks:** [sase-1n6.7.1.4](sase-1n6.7.1.4.md) ✓ · ⧖ 2026-10-19
 - **Blocks:** [sase-1n6.7.1.5](sase-1n6.7.1.5.md) ◐ · ⧖ 2026-10-19
 
 ## Agents

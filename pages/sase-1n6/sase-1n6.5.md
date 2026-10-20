@@ -35,7 +35,9 @@ qualify: ci.yml gains ref and core-source inputs, a versioned N1 inventory decid
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1n6.5.1.1][1] | Need parent-phase notes and inherited qualification decisions | 1 |
+| read-by | [agent:sase-1n6.5.1.4][2] | Need epic DECISIONS and land context | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.4/README.md
 
 <!-- sase:referenced-by:end -->

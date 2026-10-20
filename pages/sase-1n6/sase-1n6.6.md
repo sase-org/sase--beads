@@ -21,3 +21,15 @@ publish: release.yml uploads only missing files after digest checks, confirms ev
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1n6.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.6/README.md) | [sase-1n6.6](sase-1n6.6.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1n6.5.1.4][1] | Need the publish-phase contract that consumes qualify verdict | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.4/README.md
+
+<!-- sase:referenced-by:end -->
