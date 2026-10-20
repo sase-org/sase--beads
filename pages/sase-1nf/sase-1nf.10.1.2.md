@@ -17,7 +17,7 @@ timeout-cleanup: make streaming Git cancellation kill and reap its process group
 
 ## Dependencies
 
-- **Blocks:** [sase-1nf.10.1.3](sase-1nf.10.1.3.md) ◐ · ⧖ 2026-10-20
+- **Blocks:** [sase-1nf.10.1.3](sase-1nf.10.1.3.md) ✓ · ⧖ 2026-10-20
 
 ## Agents
 

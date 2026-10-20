@@ -20,7 +20,7 @@ manifest-repair: extend explicit local-owner manifest repair to verified stale f
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1nf.10.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.7/README.md) | [sase-1nf.10.1.7](sase-1nf.10.1.7.md) | 0 |
+| [bbugyi200.athena.sase-1nf.10.1.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.10.1.7.md) | [sase-1nf.10.1.7](sase-1nf.10.1.7.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 

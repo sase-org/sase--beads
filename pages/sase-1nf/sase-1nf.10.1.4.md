@@ -13,7 +13,7 @@ inventory-scope: filter indexed, dismissed, and historical records before payloa
 
 ## Dependencies
 
-- **Depends on:** [sase-1nf.10.1.3](sase-1nf.10.1.3.md) ◐ · ⧖ 2026-10-20
+- **Depends on:** [sase-1nf.10.1.3](sase-1nf.10.1.3.md) ✓ · ⧖ 2026-10-20
 - **Blocks:** [sase-1nf.10.1.5](sase-1nf.10.1.5.md) ◐ · ⧖ 2026-10-20
 
 ## Agents
