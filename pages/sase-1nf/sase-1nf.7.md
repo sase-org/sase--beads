@@ -20,7 +20,7 @@ links-project: move the core pin, classify every bead endpoint by owning store, 
 ## Dependencies
 
 - **Depends on:** [sase-1nf.6](sase-1nf.6.md) ✓ · ⧖ 2026-10-20
-- **Blocks:** [sase-1nf.8](sase-1nf.8.md) ◐ · ⧖ 2026-10-20
+- **Blocks:** [sase-1nf.8](sase-1nf.8.md) ✓ · ⧖ 2026-10-20
 
 ## Agents
 
