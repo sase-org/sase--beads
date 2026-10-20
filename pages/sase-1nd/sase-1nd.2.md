@@ -36,3 +36,15 @@ diagrams: retarget candidate selection to named reader questions. Replace the dr
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-research-artifacts | [`sase-research-artifacts@af3a591`](https://github.com/sase-org/sase-research-artifacts/commit/af3a591c776d1d28206b55dbcb4be3c0d61aaada) | feat(research-diagrams): answer reader questions via the inlined skill guide | [sase-1nd.2](sase-1nd.2.md) | 2026-10-20 13:12:11 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1nd.2][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nd.2/README.md
+
+<!-- sase:referenced-by:end -->
