@@ -70,7 +70,7 @@ flowchart TD
     n19["sase-1n6.7.1.2: Read release trains and publication evidence [closed]"]
     n20["sase-1n6.7.1.3: Read core, canary, and escalation evidence [closed]"]
     n21["sase-1n6.7.1.4: Execute idempotent train and escalation actions [closed]"]
-    n22["sase-1n6.7.1.5: Replace the watcher CLI and install the observe-only host [in_progress]"]
+    n22["sase-1n6.7.1.5: Replace the watcher CLI and install the observe-only host [closed]"]
     n23["sase-1n6.8: Release-green record and release metrics [in_progress]"]
     n24["sase-1n6.9: Cut releases over to release.yml and hand merges to the steward [in_progress]"]
     n0 --> n1
@@ -141,7 +141,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1n6.5.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.3/README.md) | [sase-1n6.5.1.3](sase-1n6.5.1.3.md) | 1 |
 | [bbugyi200.athena.sase-1n6.5.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.4/README.md) | [sase-1n6.5.1.4](sase-1n6.5.1.4.md) | 1 |
 | [bbugyi200.athena.sase-1n6.5.1.5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.5.1/README.md) | [sase-1n6.5.1.5.1](sase-1n6.5.1.5.1.md) | 1 |
-| [bbugyi200.athena.sase-1n6.5.1.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.5.2/README.md) | [sase-1n6.5.1.5.2](sase-1n6.5.1.5.2.md) | 0 |
+| [bbugyi200.athena.sase-1n6.5.1.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.5.2/README.md) | [sase-1n6.5.1.5.2](sase-1n6.5.1.5.2.md) | 1 |
 | [bbugyi200.athena.sase-1n6.5.1.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.5.land/README.md) | [sase-1n6.5.1.5](sase-1n6.5.1.5.md) | 0 |
 | [bbugyi200.athena.sase-1n6.5.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.5.1.land.md) | [sase-1n6.5.1](sase-1n6.5.1.md) | 0 |
 | [bbugyi200.athena.sase-1n6.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.6/README.md) | [sase-1n6.6](sase-1n6.6.md) | 0 |
@@ -175,6 +175,7 @@ flowchart TD
 | sase | [`dab5776`](https://github.com/sase-org/sase/commit/dab57765835ea8f61dfe1143570ce5a0bb0c2235) | feat(release-watch): add restart-safe actions and issue sinks | [sase-1n6.7.1.4](sase-1n6.7.1.4.md) | 2026-10-20 00:49:28 EDT |
 | sase | [`400572e`](https://github.com/sase-org/sase/commit/400572eab602681aa64f44653484a1dfc9ab0b38) | fix(release): repair qualification evidence transport and prove it | [sase-1n6.5.1.5.1](sase-1n6.5.1.5.1.md) | 2026-10-20 00:53:39 EDT |
 | sase | [`812cdd9`](https://github.com/sase-org/sase/commit/812cdd9e21ae5bc164d6d149b34ab9866207db03) | feat(release): replace release\_watch with an observe-only steward tick | [sase-1n6.7.1.5](sase-1n6.7.1.5.md) | 2026-10-20 01:29:29 EDT |
+| sase | [`e10fa95`](https://github.com/sase-org/sase/commit/e10fa95c0dec856fe1cc0426bfb35fac1f0834a8) | fix(ci): move qualify session path off reusable job env | [sase-1n6.5.1.5.2](sase-1n6.5.1.5.2.md) | 2026-10-20 01:36:57 EDT |
 
 <!-- sase:referenced-by:start -->
 

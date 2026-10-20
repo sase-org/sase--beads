@@ -19,6 +19,8 @@ Remaining epic defects, reproduced from actual code: (1) ci.yml writer steps exp
 
 FOLLOW-UP TRIAGE: no child proposals to create, corroborate, or decline. A separately discovered pre-existing manifest core-source-pin/containment gap was processed through /sase_new_task; no duplicate task found, and a DISCOVERED ISSUE was attached to causal active outer epic sase-1n6 (exact-build/core-pin scope). No new task created. It is not silently counted as satisfied by a green qualification. A remaining-work child epic will serialize one bounded repair phase and a live-proof phase, because the approved acceptance requires exercising deployed workflow bytes after the repair is host-landed; a tale cannot wait on its own eventual commit. Keep this epic and phase sase-1n6.5 open until those proofs exist.
 
+[2026-10-20T05:35:29Z · sase-1n6.5.1.5.2] sase-1n6.5.1.5.2 deployed-proof blocked before rehearsal: release.yml dispatch at 400572eab6 422'd because ci.yml test job-level env used ${{ runner.temp }} (parse error on reusable call). Fix is in this phase's pending commit (step-level SASE_QUALIFY_EVIDENCE_PATH). Live green/probe proofs and exact-SHA source comparison are still required after that SHA is on master. Probe candidate: sase-core-rs 0.34.48. Source pin dd817d56 is in no published tag; do not credit qualification for the sase-1n6 containment gap.
+
 ## Agents
 
 | Agent | Bead | Commits |

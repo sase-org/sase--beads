@@ -15,6 +15,8 @@ qualify: ci.yml gains ref and core-source inputs, a versioned N1 inventory decid
 
 [2026-10-20T04:07:35Z · sase-1n6.5.1.4] PUBLISH INTEGRATION SEAM from release-wiring (sase-1n6.5.1.4): publication (sase-1n6.6) must depend on the qualify job verdict plus exercise, never on the qualify-ci aggregate. qualify exposes verdict/observation/token/run-id/attempt/candidate-id/generation/intended-core-version/tested-core-version outputs; its result is success-with-red-verdict only via the always() final verdict step, so publish needs an explicit status condition such as needs.qualify.outputs.verdict == pass. That condition must pass through required verdicts even when an advisory ancestor failed: default success propagation would silently skip publication after a red advisory job fails qualify-ci. Red qualification observations persist on the draft (release) or as artifacts (rehearse) under candidate-gen<N>-qualification-run<R>-attempt<A>.json.
 
+[2026-10-20T05:35:34Z · sase-1n6.5.1.5.2] Qualification live proofs still outstanding. sase-1n6.5.1.5.2 could not dispatch release.yml rehearse at 400572eab6: reusable ci.yml rejected job-level ${{ runner.temp }} (HTTP 422). A step-level fix is landing with that phase. Pre-existing toobig in tests/test_release_watch_health.py (1253 lines) still fails just lint, so qualify-ci lint will stay red until toobig_split. Publish seam from sase-1n6.5.1.4 is unchanged.
+
 ## Dependencies
 
 - **Depends on:** [sase-1n6.2](sase-1n6.2.md) ✓ · ⧖ 2026-10-19

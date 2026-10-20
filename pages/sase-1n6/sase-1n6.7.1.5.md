@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1n6.7.1](sase-1n6.7.1.md) / sase-1n6.7.1.5
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-1n6.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.7.md) · **Assignee:** `sase-1n6.7.1.5` · **Size:** medium
-**Created:** 2026-10-19 19:56:23 EDT
+**Created:** 2026-10-19 19:56:23 EDT · **Closed:** 2026-10-20 01:32:52 EDT
 **Plan:** [202610/release\_steward\_observe.md](https://github.com/sase-org/sase--plans/blob/main/202610/release_steward_observe.md)
 
 ## Description
@@ -18,6 +18,8 @@ cli-host: switch release_watch to the new reconciler, migrate legacy tests, and 
 [2026-10-20T05:20:46Z · sase-1n6.7.1.5] PROPOSED FOLLOW-UP: handover sase-1n6.9 must rewrite docs/contribute/rust-backend.md — it still documents tools/release_watch --version/--fixed-sha/--once/--dry-run and names _release_watch_api.py plus _release_watch_engine.py, which this phase deleted.
 
 [2026-10-20T05:20:51Z · sase-1n6.7.1.5] HANDOVER: RELEASE_STEWARD_MERGE_ENABLED is unset (disabled). Local --once used interactive gh, not secrets.SASE_RELEASE_TOKEN. Core Actions reads succeeded with that token; workflow-dispatch write permission was not probed. Missing contracted install-canary linux/macos artifacts produced INSTALL_BROKEN secondaries. Observe-only did not open the proposed install_broken issue.
+
+[2026-10-20T05:32:52Z · sase-1n6.7.1.5--mon] Closed by explicit `sase stitch create -B close` after create_commit landed 812cdd9e21 ("feat(release): replace release_watch with an observe-only steward tick"). The commit author requested bead completion after verifying the bead scope. Reopen with `sase bead open sase-1n6.7.1.5` if more work remains.
 
 ## Dependencies
 
