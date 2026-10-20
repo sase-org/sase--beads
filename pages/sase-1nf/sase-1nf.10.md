@@ -21,3 +21,15 @@ pub-fix: plan from the measurement report, then stop repo-wide failures from cha
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1nf.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10/README.md) | [sase-1nf.10](sase-1nf.10.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1nf.9--2][1] | Check whether pub-fix phase will consume pub-measure instrumentation symbols | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.9.md
+
+<!-- sase:referenced-by:end -->
