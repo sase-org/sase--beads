@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/athena_apollo_audit_fixes.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/athena_apollo_audit_fixes.md
 
@@ -59,7 +59,7 @@ flowchart TD
     n8["sase-1nf.10.1.5: Render selected hoods and their affected browsing indexes [closed]"]
     n9["sase-1nf.10.1.6: Expose bounded retries without full reconciliation [closed]"]
     n10["sase-1nf.10.1.7: Repair verified stale explicit manifest entries [closed]"]
-    n11["sase-1nf.10.1.8: Build and prove the backup-first stale-replay recovery procedure [in_progress]"]
+    n11["sase-1nf.10.1.8: Build and prove the backup-first stale-replay recovery procedure [closed]"]
     n12["sase-1nf.10.1.9: Repair Apollo and prove bounded publication on both hosts [in_progress]"]
     n13["sase-1nf.11: Drain the publication backlog on athena and apollo in bounded batches [in_progress]"]
     n14["sase-1nf.12: GC attribution telemetry and an acceptance-grade freeze report [closed]"]
@@ -128,7 +128,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1nf.10.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.5/README.md) | [sase-1nf.10.1.5](sase-1nf.10.1.5.md) | 1 |
 | [bbugyi200.athena.sase-1nf.10.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.6/README.md) | [sase-1nf.10.1.6](sase-1nf.10.1.6.md) | 1 |
 | [bbugyi200.athena.sase-1nf.10.1.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.10.1.7.md) | [sase-1nf.10.1.7](sase-1nf.10.1.7.md) | 2 |
-| [bbugyi200.athena.sase-1nf.10.1.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.8/README.md) | [sase-1nf.10.1.8](sase-1nf.10.1.8.md) | 0 |
+| [bbugyi200.athena.sase-1nf.10.1.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.8/README.md) | [sase-1nf.10.1.8](sase-1nf.10.1.8.md) | 1 |
 | [bbugyi200.athena.sase-1nf.10.1.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.9/README.md) | [sase-1nf.10.1.9](sase-1nf.10.1.9.md) | 0 |
 | [bbugyi200.athena.sase-1nf.10.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.land/README.md) | [sase-1nf.10.1](sase-1nf.10.1.md) | 0 |
 | [bbugyi200.athena.sase-1nf.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.11/README.md) | [sase-1nf.11](sase-1nf.11.md) | 0 |
@@ -167,6 +167,7 @@ flowchart TD
 | sase | [`1f107c4`](https://github.com/sase-org/sase/commit/1f107c4a891953fc02c2276e1ae27c18002d5a61) | feat(agents-sync): scope inventory hydration to requested hoods | [sase-1nf.10.1.4](sase-1nf.10.1.4.md) | 2026-10-20 21:36:29 EDT |
 | sase | [`8c6699f`](https://github.com/sase-org/sase/commit/8c6699f413fd89607a250cb82d04cffbb9d91ae8) | feat(agents-sync): render targeted payloads for selected hoods | [sase-1nf.10.1.5](sase-1nf.10.1.5.md) | 2026-10-20 22:06:51 EDT |
 | sase | [`7a08bf2`](https://github.com/sase-org/sase/commit/7a08bf2fda1afae8950d04730092fd27df847092) | feat(agents-sync): expose bounded publication retries | [sase-1nf.10.1.6](sase-1nf.10.1.6.md) | 2026-10-20 23:05:54 EDT |
+| sase-core | [`sase-core@461e7a1`](https://github.com/sase-org/sase-core/commit/461e7a1818903ac578c0c0bf0377a9c206bacf32) | feat(vcs): add stale-replay conflict and preservation policy | [sase-1nf.10.1.8](sase-1nf.10.1.8.md) | 2026-10-21 01:22:19 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -175,11 +176,13 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1nf.1][1] | Need parent epic DECISIONS and phase list | 1 |
-| read-by | [agent:sase-1nf.3][2] | Need parent epic context and remaining phases | 1 |
-| read-by | [agent:sase-1nf.8][3] | Need parent epic scope and remaining phases | 1 |
+| read-by | [agent:sase-1nf.10.1.6][2] | Need parent scopes and epic decisions for this phase | 1 |
+| read-by | [agent:sase-1nf.3][3] | Need parent epic context and remaining phases | 1 |
+| read-by | [agent:sase-1nf.8][4] | Need parent epic scope and remaining phases | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.1/README.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.3/README.md
-[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.8/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.6/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.3/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.8/README.md
 
 <!-- sase:referenced-by:end -->

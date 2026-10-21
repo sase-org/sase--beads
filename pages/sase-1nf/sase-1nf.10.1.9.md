@@ -13,7 +13,7 @@ recovery-proof: verify installed revisions, preserve unique Apollo content befor
 
 ## Dependencies
 
-- **Depends on:** [sase-1nf.10.1.8](sase-1nf.10.1.8.md) ◐ · ⧖ 2026-10-20
+- **Depends on:** [sase-1nf.10.1.8](sase-1nf.10.1.8.md) ✓ · ⧖ 2026-10-20
 
 ## Agents
 

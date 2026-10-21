@@ -43,7 +43,9 @@ inventory-scope: filter indexed, dismissed, and historical records before payloa
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1nf.10.1.4--3][1] | Need phase status, notes, and whether work already landed | 1 |
+| read-by | [agent:sase-1nf.10.1.6][2] | Identify whether the recurring prompt archive failure has an existing owner before recording a follow-up | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.10.1.4.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.6/README.md
 
 <!-- sase:referenced-by:end -->

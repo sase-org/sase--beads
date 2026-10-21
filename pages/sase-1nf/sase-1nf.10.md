@@ -28,8 +28,10 @@ pub-fix: plan from the measurement report, then stop repo-wide failures from cha
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1nf.9--2][1] | Check whether pub-fix phase will consume pub-measure instrumentation symbols | 1 |
+| read-by | [agent:sase-1nf.10.1.6][1] | Need parent scopes and epic decisions for this phase | 1 |
+| read-by | [agent:sase-1nf.9--2][2] | Check whether pub-fix phase will consume pub-measure instrumentation symbols | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.9.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.6/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.9.md
 
 <!-- sase:referenced-by:end -->

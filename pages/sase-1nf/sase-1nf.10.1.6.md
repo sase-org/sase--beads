@@ -20,7 +20,7 @@ bounded-cli: add retry limit and error-class options, use Rust selection under t
 ## Dependencies
 
 - **Depends on:** [sase-1nf.10.1.5](sase-1nf.10.1.5.md) ✓ · ⧖ 2026-10-20
-- **Blocks:** [sase-1nf.10.1.8](sase-1nf.10.1.8.md) ◐ · ⧖ 2026-10-20
+- **Blocks:** [sase-1nf.10.1.8](sase-1nf.10.1.8.md) ✓ · ⧖ 2026-10-20
 
 ## Agents
 
@@ -33,3 +33,15 @@ bounded-cli: add retry limit and error-class options, use Rust selection under t
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`7a08bf2`](https://github.com/sase-org/sase/commit/7a08bf2fda1afae8950d04730092fd27df847092) | feat(agents-sync): expose bounded publication retries | [sase-1nf.10.1.6](sase-1nf.10.1.6.md) | 2026-10-20 23:05:54 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1nf.10.1.6][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.6/README.md
+
+<!-- sase:referenced-by:end -->
