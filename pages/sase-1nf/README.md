@@ -69,7 +69,7 @@ flowchart TD
     n18["sase-1nf.10.1.9.1.5: Prove fixture recovery and automatic publication after installation [closed]"]
     n19["sase-1nf.10.1.9.1.6: Fix the confirmed publication blockers and finish recovery acceptance [in_progress]"]
     n20["sase-1nf.10.1.9.1.6.1: Remove the quadratic name scan and the cached-snapshot digest regression [closed]"]
-    n21["sase-1nf.10.1.9.1.6.2: Make stale-replay recovery binary-safe and merge-base aware [in_progress]"]
+    n21["sase-1nf.10.1.9.1.6.2: Make stale-replay recovery binary-safe and merge-base aware [closed]"]
     n22["sase-1nf.10.1.9.1.6.3: Install the fixes on both hosts and recover Apollo bob-cli content [in_progress]"]
     n23["sase-1nf.10.1.9.1.6.4: Prove bounded publication for each repaired class on both hosts [in_progress]"]
     n24["sase-1nf.10.1.9.1.6.5: Prove fixtures and automatic publication, and publish the acceptance report [in_progress]"]
@@ -167,8 +167,8 @@ flowchart TD
 | [bbugyi200.athena.sase-1nf.10.1.9.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.10.1.9.1.3.md) | [sase-1nf.10.1.9.1.3](sase-1nf.10.1.9.1.3.md) | 0 |
 | [bbugyi200.athena.sase-1nf.10.1.9.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.10.1.9.1.4.md) | [sase-1nf.10.1.9.1.4](sase-1nf.10.1.9.1.4.md) | 0 |
 | [bbugyi200.athena.sase-1nf.10.1.9.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.9.1.5/README.md) | [sase-1nf.10.1.9.1.5](sase-1nf.10.1.9.1.5.md) | 0 |
-| [bbugyi200.athena.sase-1nf.10.1.9.1.6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.9.1.6.1/README.md) | [sase-1nf.10.1.9.1.6.1](sase-1nf.10.1.9.1.6.1.md) | 1 |
-| [bbugyi200.athena.sase-1nf.10.1.9.1.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.9.1.6.2/README.md) | [sase-1nf.10.1.9.1.6.2](sase-1nf.10.1.9.1.6.2.md) | 0 |
+| [bbugyi200.athena.sase-1nf.10.1.9.1.6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.9.1.6.1/README.md) | [sase-1nf.10.1.9.1.6.1](sase-1nf.10.1.9.1.6.1.md) | 0 |
+| [bbugyi200.athena.sase-1nf.10.1.9.1.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.9.1.6.2/README.md) | [sase-1nf.10.1.9.1.6.2](sase-1nf.10.1.9.1.6.2.md) | 1 |
 | [bbugyi200.athena.sase-1nf.10.1.9.1.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.9.1.6.3/README.md) | [sase-1nf.10.1.9.1.6.3](sase-1nf.10.1.9.1.6.3.md) | 0 |
 | [bbugyi200.athena.sase-1nf.10.1.9.1.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.9.1.6.4/README.md) | [sase-1nf.10.1.9.1.6.4](sase-1nf.10.1.9.1.6.4.md) | 0 |
 | [bbugyi200.athena.sase-1nf.10.1.9.1.6.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.9.1.6.5/README.md) | [sase-1nf.10.1.9.1.6.5](sase-1nf.10.1.9.1.6.5.md) | 0 |
@@ -213,7 +213,7 @@ flowchart TD
 | sase | [`7a08bf2`](https://github.com/sase-org/sase/commit/7a08bf2fda1afae8950d04730092fd27df847092) | feat(agents-sync): expose bounded publication retries | [sase-1nf.10.1.6](sase-1nf.10.1.6.md) | 2026-10-20 23:05:54 EDT |
 | sase-core | [`sase-core@461e7a1`](https://github.com/sase-org/sase-core/commit/461e7a1818903ac578c0c0bf0377a9c206bacf32) | feat(vcs): add stale-replay conflict and preservation policy | [sase-1nf.10.1.8](sase-1nf.10.1.8.md) | 2026-10-21 01:22:19 EDT |
 | sase | [`5803ddf`](https://github.com/sase-org/sase/commit/5803ddfa0b900dfbff7829e06fb71b10868cc8f5) | feat(agents-sync): add backup-first stale-replay recovery | [sase-1nf.10.1.8](sase-1nf.10.1.8.md) | 2026-10-21 01:26:43 EDT |
-| sase | [`54779b6`](https://github.com/sase-org/sase/commit/54779b62f57805fbec295240f4de7201c87a4376) | perf(agents-sync): fix quadratic reserved-session scan and snapshot digest regression | [sase-1nf.10.1.9.1.6.1](sase-1nf.10.1.9.1.6.1.md) | 2026-10-21 11:19:30 EDT |
+| sase-core | [`sase-core@1503d60`](https://github.com/sase-org/sase-core/commit/1503d604844a32a8a93e944addabb0887f8d9bc4) | feat(replay): accept merge-base bytes in recovery policy | [sase-1nf.10.1.9.1.6.2](sase-1nf.10.1.9.1.6.2.md) | 2026-10-21 12:08:48 EDT |
 
 <!-- sase:referenced-by:start -->
 

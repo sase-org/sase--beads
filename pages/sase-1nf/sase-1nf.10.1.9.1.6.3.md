@@ -14,7 +14,7 @@ install-replay: confirm both fixes landed, gate sase update on athena and apollo
 ## Dependencies
 
 - **Depends on:** [sase-1nf.10.1.9.1.6.1](sase-1nf.10.1.9.1.6.1.md) ✓ · ⧖ 2026-10-21
-- **Depends on:** [sase-1nf.10.1.9.1.6.2](sase-1nf.10.1.9.1.6.2.md) ◐ · ⧖ 2026-10-21
+- **Depends on:** [sase-1nf.10.1.9.1.6.2](sase-1nf.10.1.9.1.6.2.md) ✓ · ⧖ 2026-10-21
 - **Blocks:** [sase-1nf.10.1.9.1.6.4](sase-1nf.10.1.9.1.6.4.md) ◐ · ⧖ 2026-10-21
 
 ## Agents
