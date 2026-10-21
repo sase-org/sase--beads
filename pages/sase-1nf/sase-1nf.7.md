@@ -41,7 +41,9 @@ links-project: move the core pin, classify every bead endpoint by owning store, 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1nf.7--2][1] | Need remaining notes, design file, DECISIONS, and whether earlier work already landed | 3 |
+| read-by | [agent:sase-1nf.8][2] | Need links-project landing notes and what already shipped | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.7.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.8/README.md
 
 <!-- sase:referenced-by:end -->

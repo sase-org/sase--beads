@@ -14,7 +14,7 @@ replay-recovery: add an explicit resumable recovery helper that preserves unpubl
 ## Dependencies
 
 - **Depends on:** [sase-1nf.10.1.6](sase-1nf.10.1.6.md) ◐ · ⧖ 2026-10-20
-- **Depends on:** [sase-1nf.10.1.7](sase-1nf.10.1.7.md) ◐ · ⧖ 2026-10-20
+- **Depends on:** [sase-1nf.10.1.7](sase-1nf.10.1.7.md) ✓ · ⧖ 2026-10-20
 - **Blocks:** [sase-1nf.10.1.9](sase-1nf.10.1.9.md) ◐ · ⧖ 2026-10-20
 
 ## Agents

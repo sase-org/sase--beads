@@ -26,7 +26,7 @@ retry-policy: extend publication recovery wire types, centralize error classes a
 ## Dependencies
 
 - **Blocks:** [sase-1nf.10.1.3](sase-1nf.10.1.3.md) ✓ · ⧖ 2026-10-20
-- **Blocks:** [sase-1nf.10.1.7](sase-1nf.10.1.7.md) ◐ · ⧖ 2026-10-20
+- **Blocks:** [sase-1nf.10.1.7](sase-1nf.10.1.7.md) ✓ · ⧖ 2026-10-20
 
 ## Agents
 
@@ -48,7 +48,9 @@ retry-policy: extend publication recovery wire types, centralize error classes a
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1nf.10.1.1][1] | Need the phase scope and design file | 3 |
+| read-by | [agent:sase-1nf.10.1.3][2] | Need prior phase work to consume Rust policy | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.3/README.md
 
 <!-- sase:referenced-by:end -->

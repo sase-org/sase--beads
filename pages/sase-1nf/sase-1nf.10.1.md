@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/publication_drain_fixes.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/publication_drain_fixes.md
 
@@ -24,6 +24,12 @@ _Plus 2 automatic references — see [Referenced By](#referenced-by)._
 ## Description
 
 Fix the measured publication failures and prove safe recovery before bulk backlog draining
+
+## Notes
+
+[2026-10-20T23:47:26Z · 9n--3] DISCOVERED ISSUE during conflict repair on paused base fe45b86f28: required sase tool run check e5ef36a8a683509a2f1174167a8eac6d exited 1 at Symvision because all five --epic-symbol entries for sase-1nf.10.1.3 now name a closed phase (closed 2026-10-20T23:42:10Z). The repair changes tests only; Justfile and the entire src tree match HEAD exactly. All earlier check stages passed. The phase close note says its landing cleaned the epic-symbols, so this is a frozen rebase base observing a newer external bead status; please preserve the cleanup in the epic landing. No out-of-scope whitelist edits were included in the repair.
+
+[2026-10-20T23:52:55Z · toobig-8c.test_deck_split_pilot.0] INDEPENDENT REPRODUCTION (2026-10-20): this workspace's just _lint-symvision and final sase tool run check f7aea2cddb7ed22548a3aa728a0468d0 fail on the same five --epic-symbol flags for closed phase sase-1nf.10.1.3 (closed 2026-10-20T23:42:10Z); check stops before tests. The deck split and focused tests pass, and no Justfile or src changes are in the split diff.
 
 ## Agents
 
@@ -37,10 +43,14 @@ Fix the measured publication failures and prove safe recovery before bulk backlo
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1nf.10.1.1][1] | Need later-phase consumers so unused facade APIs can be epic-symbol keyed to still-open beads | 2 |
-| read-by | [agent:sase-1nf.10.1.2][2] | Need the epic decisions governing this phase | 1 |
+| read-by | [agent:9n--3][1] | Confirm active ownership of the closed-phase Symvision exclusions blocking required rebase verification | 1 |
+| read-by | [agent:sase-1nf.10.1.1][2] | Need later-phase consumers so unused facade APIs can be epic-symbol keyed to still-open beads | 2 |
+| read-by | [agent:sase-1nf.10.1.2][3] | Need the epic decisions governing this phase | 1 |
+| read-by | [agent:sase-1nf.10.1.3][4] | Need epic DECISIONS for phase work | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.1/README.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.2/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.9n.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.1/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.2/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.3/README.md
 
 <!-- sase:referenced-by:end -->

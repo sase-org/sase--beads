@@ -25,13 +25,7 @@ drain-accounting: thread structured failure provenance and selected logical keys
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1nf.10.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.3/README.md) | [sase-1nf.10.1.3](sase-1nf.10.1.3.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase | [`1a69c89`](https://github.com/sase-org/sase/commit/1a69c8947d47666c0e4a548ee21bc41ba1e9d9e1) | feat(agents-sync): commit publication drain accounting | [sase-1nf.10.1.3](sase-1nf.10.1.3.md) | 2026-10-20 19:44:10 EDT |
+| [bbugyi200.athena.sase-1nf.10.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.3/README.md) | [sase-1nf.10.1.3](sase-1nf.10.1.3.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
@@ -39,8 +33,12 @@ drain-accounting: thread structured failure provenance and selected logical keys
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1nf.10.1.1][1] | Need later-phase consumers so unused facade APIs can be epic-symbol keyed to still-open beads | 1 |
+| read-by | [agent:9n--3][1] | Verify unchanged upstream Symvision whitelist is stale after its owning phase closed | 1 |
+| read-by | [agent:sase-1nf.10.1.1][2] | Need later-phase consumers so unused facade APIs can be epic-symbol keyed to still-open beads | 1 |
+| read-by | [agent:sase-1nf.10.1.3][3] | Need the phase scope and design file | 3 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.1/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.9n.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.1/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.3/README.md
 
 <!-- sase:referenced-by:end -->

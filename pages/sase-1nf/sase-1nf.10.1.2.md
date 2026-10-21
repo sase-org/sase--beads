@@ -38,7 +38,9 @@ timeout-cleanup: make streaming Git cancellation kill and reap its process group
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1nf.10.1.2][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:sase-1nf.10.1.3][2] | Need prior phase work for timeout cleanup contract | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.2/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.3/README.md
 
 <!-- sase:referenced-by:end -->
