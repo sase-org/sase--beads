@@ -27,10 +27,23 @@ replay-recovery: add an explicit resumable recovery helper that preserves unpubl
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1nf.10.1.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.8/README.md) | [sase-1nf.10.1.8](sase-1nf.10.1.8.md) | 1 |
+| [bbugyi200.athena.sase-1nf.10.1.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.8/README.md) | [sase-1nf.10.1.8](sase-1nf.10.1.8.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@461e7a1`](https://github.com/sase-org/sase-core/commit/461e7a1818903ac578c0c0bf0377a9c206bacf32) | feat(vcs): add stale-replay conflict and preservation policy | [sase-1nf.10.1.8](sase-1nf.10.1.8.md) | 2026-10-21 01:22:19 EDT |
+| sase | [`5803ddf`](https://github.com/sase-org/sase/commit/5803ddfa0b900dfbff7829e06fb71b10868cc8f5) | feat(agents-sync): add backup-first stale-replay recovery | [sase-1nf.10.1.8](sase-1nf.10.1.8.md) | 2026-10-21 01:26:43 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1nf.10.1.8][1] | Need remaining notes, decisions, and design details | 4 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.8/README.md
+
+<!-- sase:referenced-by:end -->
