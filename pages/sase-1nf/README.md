@@ -41,7 +41,7 @@ Apollo's and athena's managed-tmp reaper reclaims dead scratch even with SSH ses
 | [sase-1nf.5](sase-1nf.5.md) | sase doctor survives unbound macro templates | ✓ closed | small | 2026-10-20 | 1 | 1 |
 | [sase-1nf.6](sase-1nf.6.md) | sase-core partial bead link projection and per-endpoint receipts | ✓ closed | medium | 2026-10-20 | 1 | 1 |
 | [sase-1nf.7](sase-1nf.7.md) | Route, isolate, and commit artifact-link bead endpoints per operation | ✓ closed | medium | 2026-10-20 | 1 | 1 |
-| [sase-1nf.8](sase-1nf.8.md) | Parked endpoints leave the retry loop and the sweep converges | ✓ closed | medium | 2026-10-20 | 1 | 0 |
+| [sase-1nf.8](sase-1nf.8.md) | Parked endpoints leave the retry loop and the sweep converges | ✓ closed | medium | 2026-10-20 | 1 | 1 |
 | [sase-1nf.9](sase-1nf.9.md) | Instrument and measure agent-hood publication drains | ✓ closed | medium | 2026-10-20 | 1 | 1 |
 
 ## Lineage
@@ -123,11 +123,11 @@ flowchart TD
 | [bbugyi200.athena.sase-1nf.10](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.10.md) | [sase-1nf.10](sase-1nf.10.md) | 0 |
 | [bbugyi200.athena.sase-1nf.10.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.1/README.md) | [sase-1nf.10.1.1](sase-1nf.10.1.1.md) | 2 |
 | [bbugyi200.athena.sase-1nf.10.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.2/README.md) | [sase-1nf.10.1.2](sase-1nf.10.1.2.md) | 1 |
-| [bbugyi200.athena.sase-1nf.10.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.3/README.md) | [sase-1nf.10.1.3](sase-1nf.10.1.3.md) | 0 |
+| [bbugyi200.athena.sase-1nf.10.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.3/README.md) | [sase-1nf.10.1.3](sase-1nf.10.1.3.md) | 1 |
 | [bbugyi200.athena.sase-1nf.10.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.4/README.md) | [sase-1nf.10.1.4](sase-1nf.10.1.4.md) | 0 |
 | [bbugyi200.athena.sase-1nf.10.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.5/README.md) | [sase-1nf.10.1.5](sase-1nf.10.1.5.md) | 0 |
 | [bbugyi200.athena.sase-1nf.10.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.6/README.md) | [sase-1nf.10.1.6](sase-1nf.10.1.6.md) | 0 |
-| [bbugyi200.athena.sase-1nf.10.1.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.10.1.7.md) | [sase-1nf.10.1.7](sase-1nf.10.1.7.md) | 1 |
+| [bbugyi200.athena.sase-1nf.10.1.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.10.1.7.md) | [sase-1nf.10.1.7](sase-1nf.10.1.7.md) | 2 |
 | [bbugyi200.athena.sase-1nf.10.1.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.8/README.md) | [sase-1nf.10.1.8](sase-1nf.10.1.8.md) | 0 |
 | [bbugyi200.athena.sase-1nf.10.1.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.9/README.md) | [sase-1nf.10.1.9](sase-1nf.10.1.9.md) | 0 |
 | [bbugyi200.athena.sase-1nf.10.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.land/README.md) | [sase-1nf.10.1](sase-1nf.10.1.md) | 0 |
@@ -141,7 +141,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1nf.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.5/README.md) | [sase-1nf.5](sase-1nf.5.md) | 1 |
 | [bbugyi200.athena.sase-1nf.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.6.md) | [sase-1nf.6](sase-1nf.6.md) | 1 |
 | [bbugyi200.athena.sase-1nf.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.7.md) | [sase-1nf.7](sase-1nf.7.md) | 1 |
-| [bbugyi200.athena.sase-1nf.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.8/README.md) | [sase-1nf.8](sase-1nf.8.md) | 0 |
+| [bbugyi200.athena.sase-1nf.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.8/README.md) | [sase-1nf.8](sase-1nf.8.md) | 1 |
 | [bbugyi200.athena.sase-1nf.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.9.md) | [sase-1nf.9](sase-1nf.9.md) | 1 |
 | [bbugyi200.athena.sase-1nf.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.land/README.md) | [sase-1nf](README.md) | 0 |
 
@@ -160,7 +160,10 @@ flowchart TD
 | sase | [`eb96eaf`](https://github.com/sase-org/sase/commit/eb96eafd442a28cd96ad2e4c35603845d179450c) | feat(artifact-links): classify and isolate bead endpoints per operation | [sase-1nf.7](sase-1nf.7.md) | 2026-10-20 16:56:11 EDT |
 | sase-core | [`sase-core@f9aa563`](https://github.com/sase-org/sase-core/commit/f9aa563c114c1fb1a4ee6a22f6b893ee42ef756f) | feat(publication-recovery): add failure accounting and bounded drain selection | [sase-1nf.10.1.1](sase-1nf.10.1.1.md) | 2026-10-20 17:20:54 EDT |
 | sase | [`69dc952`](https://github.com/sase-org/sase/commit/69dc95277dd42d5758f6f122550e51916dc17acb) | feat(publication-recovery): facade for failure accounting and drain selection | [sase-1nf.10.1.1](sase-1nf.10.1.1.md) | 2026-10-20 18:41:04 EDT |
+| sase | [`1a69c89`](https://github.com/sase-org/sase/commit/1a69c8947d47666c0e4a548ee21bc41ba1e9d9e1) | feat(agents-sync): commit publication drain accounting | [sase-1nf.10.1.3](sase-1nf.10.1.3.md) | 2026-10-20 19:44:10 EDT |
+| sase | [`40c47cf`](https://github.com/sase-org/sase/commit/40c47cf6cd48ff94d8a1130b76e8be9f24f216fd) | feat(artifact-links): park unconverged outbox operations off the retry loop | [sase-1nf.8](sase-1nf.8.md) | 2026-10-20 19:44:42 EDT |
 | sase-core | [`sase-core@cfae073`](https://github.com/sase-org/sase-core/commit/cfae07381f846808ab7708e108456d1fea0fba5c) | feat(vcs): expose verified manifest repair policy | [sase-1nf.10.1.7](sase-1nf.10.1.7.md) | 2026-10-20 20:05:42 EDT |
+| sase | [`b6a7a58`](https://github.com/sase-org/sase/commit/b6a7a58fdd0afb34310f6786d6e2ebfa310cf3e1) | feat(agents-sync): repair verified stale manifest lists | [sase-1nf.10.1.7](sase-1nf.10.1.7.md) | 2026-10-20 20:10:06 EDT |
 
 <!-- sase:referenced-by:start -->
 
