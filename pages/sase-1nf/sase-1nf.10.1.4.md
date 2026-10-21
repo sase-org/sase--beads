@@ -22,7 +22,7 @@ inventory-scope: filter indexed, dismissed, and historical records before payloa
 ## Dependencies
 
 - **Depends on:** [sase-1nf.10.1.3](sase-1nf.10.1.3.md) ✓ · ⧖ 2026-10-20
-- **Blocks:** [sase-1nf.10.1.5](sase-1nf.10.1.5.md) ◐ · ⧖ 2026-10-20
+- **Blocks:** [sase-1nf.10.1.5](sase-1nf.10.1.5.md) ✓ · ⧖ 2026-10-20
 
 ## Agents
 
@@ -35,3 +35,15 @@ inventory-scope: filter indexed, dismissed, and historical records before payloa
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`1f107c4`](https://github.com/sase-org/sase/commit/1f107c4a891953fc02c2276e1ae27c18002d5a61) | feat(agents-sync): scope inventory hydration to requested hoods | [sase-1nf.10.1.4](sase-1nf.10.1.4.md) | 2026-10-20 21:36:29 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1nf.10.1.4--3][1] | Need phase status, notes, and whether work already landed | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.10.1.4.md
+
+<!-- sase:referenced-by:end -->

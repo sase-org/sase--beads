@@ -13,7 +13,7 @@ bounded-cli: add retry limit and error-class options, use Rust selection under t
 
 ## Dependencies
 
-- **Depends on:** [sase-1nf.10.1.5](sase-1nf.10.1.5.md) ◐ · ⧖ 2026-10-20
+- **Depends on:** [sase-1nf.10.1.5](sase-1nf.10.1.5.md) ✓ · ⧖ 2026-10-20
 - **Blocks:** [sase-1nf.10.1.8](sase-1nf.10.1.8.md) ◐ · ⧖ 2026-10-20
 
 ## Agents
