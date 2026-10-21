@@ -13,7 +13,7 @@ payload-scope: produce targeted page payloads while preserving complete manifest
 
 ## Dependencies
 
-- **Depends on:** [sase-1nf.10.1.4](sase-1nf.10.1.4.md) ◐ · ⧖ 2026-10-20
+- **Depends on:** [sase-1nf.10.1.4](sase-1nf.10.1.4.md) ✓ · ⧖ 2026-10-20
 - **Blocks:** [sase-1nf.10.1.6](sase-1nf.10.1.6.md) ◐ · ⧖ 2026-10-20
 
 ## Agents

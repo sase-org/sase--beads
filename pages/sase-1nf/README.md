@@ -55,7 +55,7 @@ flowchart TD
     n4["sase-1nf.10.1.1: Put failure accounting and bounded selection policy in Rust [closed]"]
     n5["sase-1nf.10.1.2: Terminate interrupted Git transfers and restore publication paths [closed]"]
     n6["sase-1nf.10.1.3: Apply failure scope and bounded selection to commit drains [closed]"]
-    n7["sase-1nf.10.1.4: Load expensive inventory data only for requested hoods [in_progress]"]
+    n7["sase-1nf.10.1.4: Load expensive inventory data only for requested hoods [closed]"]
     n8["sase-1nf.10.1.5: Render selected hoods and their affected browsing indexes [in_progress]"]
     n9["sase-1nf.10.1.6: Expose bounded retries without full reconciliation [in_progress]"]
     n10["sase-1nf.10.1.7: Repair verified stale explicit manifest entries [closed]"]
@@ -124,7 +124,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1nf.10.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.1/README.md) | [sase-1nf.10.1.1](sase-1nf.10.1.1.md) | 2 |
 | [bbugyi200.athena.sase-1nf.10.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.2/README.md) | [sase-1nf.10.1.2](sase-1nf.10.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1nf.10.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.3/README.md) | [sase-1nf.10.1.3](sase-1nf.10.1.3.md) | 1 |
-| [bbugyi200.athena.sase-1nf.10.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.4/README.md) | [sase-1nf.10.1.4](sase-1nf.10.1.4.md) | 0 |
+| [bbugyi200.athena.sase-1nf.10.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.10.1.4.md) | [sase-1nf.10.1.4](sase-1nf.10.1.4.md) | 1 |
 | [bbugyi200.athena.sase-1nf.10.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.5/README.md) | [sase-1nf.10.1.5](sase-1nf.10.1.5.md) | 0 |
 | [bbugyi200.athena.sase-1nf.10.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.6/README.md) | [sase-1nf.10.1.6](sase-1nf.10.1.6.md) | 0 |
 | [bbugyi200.athena.sase-1nf.10.1.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.10.1.7.md) | [sase-1nf.10.1.7](sase-1nf.10.1.7.md) | 2 |
@@ -164,6 +164,7 @@ flowchart TD
 | sase | [`40c47cf`](https://github.com/sase-org/sase/commit/40c47cf6cd48ff94d8a1130b76e8be9f24f216fd) | feat(artifact-links): park unconverged outbox operations off the retry loop | [sase-1nf.8](sase-1nf.8.md) | 2026-10-20 19:44:42 EDT |
 | sase-core | [`sase-core@cfae073`](https://github.com/sase-org/sase-core/commit/cfae07381f846808ab7708e108456d1fea0fba5c) | feat(vcs): expose verified manifest repair policy | [sase-1nf.10.1.7](sase-1nf.10.1.7.md) | 2026-10-20 20:05:42 EDT |
 | sase | [`b6a7a58`](https://github.com/sase-org/sase/commit/b6a7a58fdd0afb34310f6786d6e2ebfa310cf3e1) | feat(agents-sync): repair verified stale manifest lists | [sase-1nf.10.1.7](sase-1nf.10.1.7.md) | 2026-10-20 20:10:06 EDT |
+| sase | [`1f107c4`](https://github.com/sase-org/sase/commit/1f107c4a891953fc02c2276e1ae27c18002d5a61) | feat(agents-sync): scope inventory hydration to requested hoods | [sase-1nf.10.1.4](sase-1nf.10.1.4.md) | 2026-10-20 21:36:29 EDT |
 
 <!-- sase:referenced-by:start -->
 

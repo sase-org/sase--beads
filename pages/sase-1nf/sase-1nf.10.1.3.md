@@ -19,7 +19,7 @@ drain-accounting: thread structured failure provenance and selected logical keys
 
 - **Depends on:** [sase-1nf.10.1.1](sase-1nf.10.1.1.md) ✓ · ⧖ 2026-10-20
 - **Depends on:** [sase-1nf.10.1.2](sase-1nf.10.1.2.md) ✓ · ⧖ 2026-10-20
-- **Blocks:** [sase-1nf.10.1.4](sase-1nf.10.1.4.md) ◐ · ⧖ 2026-10-20
+- **Blocks:** [sase-1nf.10.1.4](sase-1nf.10.1.4.md) ✓ · ⧖ 2026-10-20
 
 ## Agents
 
