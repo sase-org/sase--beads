@@ -20,7 +20,7 @@ payload-scope: produce targeted page payloads while preserving complete manifest
 ## Dependencies
 
 - **Depends on:** [sase-1nf.10.1.4](sase-1nf.10.1.4.md) ✓ · ⧖ 2026-10-20
-- **Blocks:** [sase-1nf.10.1.6](sase-1nf.10.1.6.md) ◐ · ⧖ 2026-10-20
+- **Blocks:** [sase-1nf.10.1.6](sase-1nf.10.1.6.md) ✓ · ⧖ 2026-10-20
 
 ## Agents
 
@@ -33,3 +33,15 @@ payload-scope: produce targeted page payloads while preserving complete manifest
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`8c6699f`](https://github.com/sase-org/sase/commit/8c6699f413fd89607a250cb82d04cffbb9d91ae8) | feat(agents-sync): render targeted payloads for selected hoods | [sase-1nf.10.1.5](sase-1nf.10.1.5.md) | 2026-10-20 22:06:51 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1nf.10.1.5][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.5/README.md
+
+<!-- sase:referenced-by:end -->
