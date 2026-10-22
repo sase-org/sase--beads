@@ -22,6 +22,8 @@
 | related | file:explicit:f1176d53bef9cf9cc67f3d1d | attached via sase artifact create --bead |
 | related | file:explicit:f3ae6ce054168755bc7f3a4a | attached via sase artifact create --bead |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 <!-- sase:links:end -->
 
 ## Description
@@ -45,3 +47,15 @@ install-replay: confirm both fixes landed, gate sase update on athena and apollo
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1nf.10.1.9.1.6.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.10.1.9.1.6.3.md) | [sase-1nf.10.1.9.1.6.3](sase-1nf.10.1.9.1.6.3.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1nf.10.1.9.1.6.5][1] | Review the parent epic, phase evidence, and remaining acceptance scope before doing acceptance work | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.9.1.6.5/README.md
+
+<!-- sase:referenced-by:end -->

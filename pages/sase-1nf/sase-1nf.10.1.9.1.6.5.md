@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | related | file:explicit:2c04408af2441e0bc4710cae | attached via sase artifact create --bead |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 <!-- sase:links:end -->
 
 ## Description
@@ -45,3 +47,15 @@ acceptance: rerun the real-Git recovery fixtures, correlate a natural post-insta
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase--research | [`sase--research@d8c6067`](https://github.com/sase-org/sase--research/commit/d8c60672d0b4b55bb6953f0a17a544959acf573b) | docs(research): publish publication recovery acceptance | [sase-1nf.10.1.9.1.6.5](sase-1nf.10.1.9.1.6.5.md) | 2026-10-22 08:21:25 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1nf.10.1.9.1.6.5][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.9.1.6.5/README.md
+
+<!-- sase:referenced-by:end -->

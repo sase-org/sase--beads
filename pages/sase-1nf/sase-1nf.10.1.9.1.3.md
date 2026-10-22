@@ -21,6 +21,8 @@
 | related | file:explicit:c6b747b80129746156d979ec | attached via sase artifact create --bead |
 | related | file:explicit:c891f25f8c6e92bc1d7fa099 | attached via sase artifact create --bead |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 <!-- sase:links:end -->
 
 ## Description
@@ -43,3 +45,15 @@ athena-canary: profile the selected timeout hood, run the bounded production can
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1nf.10.1.9.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.10.1.9.1.3.md) | [sase-1nf.10.1.9.1.3](sase-1nf.10.1.9.1.3.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1nf.10.1.9.1.6.5][1] | Recheck original production acceptance evidence and identify which checks remain unmet after the fixes | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.9.1.6.5/README.md
+
+<!-- sase:referenced-by:end -->

@@ -20,6 +20,8 @@
 | related | file:explicit:dd0fbaede0466d626da83b7f | attached via sase artifact create --bead |
 | related | file:explicit:fab55063151ed8e839d9958d | attached via sase artifact create --bead |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 <!-- sase:links:end -->
 
 ## Description
@@ -42,3 +44,15 @@ apollo-canaries: run bounded canaries for bob-cli replay and sase manifest failu
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1nf.10.1.9.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.10.1.9.1.4.md) | [sase-1nf.10.1.9.1.4](sase-1nf.10.1.9.1.4.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1nf.10.1.9.1.6.5][1] | Review required parent epic and phase evidence before final acceptance | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.9.1.6.5/README.md
+
+<!-- sase:referenced-by:end -->

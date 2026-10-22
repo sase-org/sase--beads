@@ -17,6 +17,8 @@
 | related | file:explicit:05af6c55b55e24008cbd9f2f | attached via sase artifact create --bead |
 | related | file:explicit:5c0712e63bd61170cc2a3b9f | attached via sase artifact create --bead |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 <!-- sase:links:end -->
 
 ## Description
@@ -40,3 +42,15 @@ apollo-replay: execute the backup-first stale-replay helper, prove unique conten
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1nf.10.1.9.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.9.1.1/README.md) | [sase-1nf.10.1.9.1.1](sase-1nf.10.1.9.1.1.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1nf.10.1.9.1.6.5][1] | Review required parent epic and phase evidence before final acceptance | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.9.1.6.5/README.md
+
+<!-- sase:referenced-by:end -->
