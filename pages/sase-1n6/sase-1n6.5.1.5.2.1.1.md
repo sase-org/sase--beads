@@ -67,3 +67,15 @@ Focused tests passed: test_github_actions_ci_master_gate, test_github_actions_ci
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`3db3b51`](https://github.com/sase-org/sase/commit/3db3b51d5362c8c3fd9485e6452b48d910624300) | fix(ci): grant Full CI actions:read and parse core suffix blocks | [sase-1n6.5.1.5.2.1.1](sase-1n6.5.1.5.2.1.1.md) | 2026-10-20 16:40:43 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1n6.5.1.5.2.1.1--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.5.1.5.2.1.1.md
+
+<!-- sase:referenced-by:end -->
