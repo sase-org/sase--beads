@@ -26,7 +26,7 @@ drain-bound: compute reserved agent-session names once per registry snapshot dur
 
 ## Dependencies
 
-- **Blocks:** [sase-1nf.10.1.9.1.6.3](sase-1nf.10.1.9.1.6.3.md) ◐ · ⧖ 2026-10-21
+- **Blocks:** [sase-1nf.10.1.9.1.6.3](sase-1nf.10.1.9.1.6.3.md) ✓ · ⧖ 2026-10-21
 
 ## Agents
 

@@ -19,7 +19,7 @@ replay-policy: read upstream blobs as bytes in the stale-replay helper, add an o
 
 ## Dependencies
 
-- **Blocks:** [sase-1nf.10.1.9.1.6.3](sase-1nf.10.1.9.1.6.3.md) ◐ · ⧖ 2026-10-21
+- **Blocks:** [sase-1nf.10.1.9.1.6.3](sase-1nf.10.1.9.1.6.3.md) ✓ · ⧖ 2026-10-21
 
 ## Agents
 

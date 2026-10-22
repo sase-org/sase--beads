@@ -33,6 +33,10 @@ recovery-proof: verify installed revisions, preserve unique Apollo content befor
 
 [2026-10-21T11:36:10Z · sase-1nf.10.1.9] RECOVERY-PROOF CONTINUATION (2026-10-21 11:31 UTC): both hosts now run clean SASE 5639375bfd0b43bb49dfd761d96a4bf6668fabe6 and core 461e7a1818903ac578c0c0bf0377a9c206bacf32; local ancestry confirms 5803ddfa0b is included. Fresh doctor: athena 3395 rows (3389 quarantined, 4 active, 2 retired); apollo 787 (497 quarantined, 6 active, 284 retired). Apollo bob-cli remains 1 ahead/566 behind on cached refs, 388 quarantined errors name 2abeff3f9; 298 sase errors name bbugyi200.apollo.03. No production repair/retry performed. Baseline attached as file:explicit:eaaaade9836ab612d5ce7c78. Per the user requirement for previously unfinished phases, preparing a validated five-phase child epic for replay recovery, manifest repair, Athena canary, Apollo canaries, and fixture/automatic-completion proof, with its land agent closing only this enclosing phase after acceptance. Shared canary budgets persist across continuations. epic-symbols empty; no tracked source or memory changes.
 
+## References
+
+- research:202610/publication\_recovery\_acceptance.md
+
 ## Dependencies
 
 - **Depends on:** [sase-1nf.10.1.8](sase-1nf.10.1.8.md) ✓ · ⧖ 2026-10-20
