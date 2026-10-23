@@ -20,7 +20,7 @@ core-pin: dispatch the guarded sase-core release cut, wait for a complete sase-c
 ## Dependencies
 
 - **Depends on:** [sase-1nn.1](sase-1nn.1.md) ✓ · ⧖ 2026-10-23
-- **Blocks:** [sase-1nn.7](sase-1nn.7.md) ◐ · ⧖ 2026-10-23
+- **Blocks:** [sase-1nn.7](sase-1nn.7.md) ✓ · ⧖ 2026-10-23
 
 ## Agents
 

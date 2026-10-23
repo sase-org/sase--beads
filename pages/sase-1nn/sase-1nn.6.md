@@ -26,7 +26,7 @@ full-ci: get a Full CI run on a tip containing the build-core fix, triage every 
 ## Dependencies
 
 - **Depends on:** [sase-1nn.3](sase-1nn.3.md) ✓ · ⧖ 2026-10-23
-- **Blocks:** [sase-1nn.7](sase-1nn.7.md) ◐ · ⧖ 2026-10-23
+- **Blocks:** [sase-1nn.7](sase-1nn.7.md) ✓ · ⧖ 2026-10-23
 
 ## Agents
 
@@ -47,9 +47,11 @@ full-ci: get a Full CI run on a tip containing the build-core fix, triage every 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:research.2a.cld][1] | E3 readiness: sase-1nn status | 1 |
-| read-by | [agent:sase-1nn.6][2] | Need the phase scope and design file | 3 |
+| read-by | [agent:sase-1n6.5.1.5.2.1.2--1][2] | Need existing timeout evidence for proposed follow-up routing | 1 |
+| read-by | [agent:sase-1nn.6][3] | Need the phase scope and design file | 3 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2a.cld/README.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.6/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.5.1.5.2.1.2.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.6/README.md
 
 <!-- sase:referenced-by:end -->

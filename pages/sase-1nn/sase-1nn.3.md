@@ -20,7 +20,7 @@ ci-workflows: move build-core's setup-uv step after the sase-core checkouts, giv
 ## Dependencies
 
 - **Blocks:** [sase-1nn.6](sase-1nn.6.md) ✓ · ⧖ 2026-10-23
-- **Blocks:** [sase-1nn.7](sase-1nn.7.md) ◐ · ⧖ 2026-10-23
+- **Blocks:** [sase-1nn.7](sase-1nn.7.md) ✓ · ⧖ 2026-10-23
 
 ## Agents
 

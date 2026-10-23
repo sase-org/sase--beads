@@ -20,7 +20,7 @@ modal-sizing: replace pause-then-assert resize checks in test_custom_gate_modal_
 ## Dependencies
 
 - **Blocks:** [sase-1nn.5](sase-1nn.5.md) ✓ · ⧖ 2026-10-23
-- **Blocks:** [sase-1nn.7](sase-1nn.7.md) ◐ · ⧖ 2026-10-23
+- **Blocks:** [sase-1nn.7](sase-1nn.7.md) ✓ · ⧖ 2026-10-23
 
 ## Agents
 
