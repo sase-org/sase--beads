@@ -33,3 +33,17 @@ The SASE_RELEASE_TOKEN core Actions read probe passed; dispatch write access was
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1n6.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.7.md) | [sase-1n6.7](sase-1n6.7.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:research.2a.cld][1] | E3 readiness: E2 status | 1 |
+| read-by | [agent:research.2a.mus][2] | E3 readiness: remaining E2 phases status | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2a.cld/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2a.mus/README.md
+
+<!-- sase:referenced-by:end -->

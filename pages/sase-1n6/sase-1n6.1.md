@@ -41,8 +41,10 @@ core-release: in sase-core, the release-plz merge job reruns failed checks once 
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1n6.1][1] | Verify phase closure and the clean-base follow-up note | 6 |
+| read-by | [agent:research.2a.cld][1] | E3 readiness: E2 status | 1 |
+| read-by | [agent:sase-1n6.1][2] | Verify phase closure and the clean-base follow-up note | 6 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.1/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2a.cld/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.1/README.md
 
 <!-- sase:referenced-by:end -->

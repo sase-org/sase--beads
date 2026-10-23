@@ -47,10 +47,14 @@ exact-build: a new tag-dispatched release.yml with an identity assertion, one bu
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1n6.1][1] | Check existing follow-ups for the exact parser-help and contract-manifest failures | 1 |
-| read-by | [agent:sase-1n6.2][2] | Need phase scope, notes, remaining work | 2 |
+| read-by | [agent:research.2a.cld][1] | E3 readiness: E2 status | 1 |
+| read-by | [agent:research.2a.mus][2] | E3 readiness: exact-build developer behavior | 1 |
+| read-by | [agent:sase-1n6.1][3] | Check existing follow-ups for the exact parser-help and contract-manifest failures | 1 |
+| read-by | [agent:sase-1n6.2][4] | Need phase scope, notes, remaining work | 2 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.1/README.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.2/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2a.cld/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2a.mus/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.1/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.2/README.md
 
 <!-- sase:referenced-by:end -->

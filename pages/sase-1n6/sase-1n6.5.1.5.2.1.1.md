@@ -54,7 +54,7 @@ Focused tests passed: test_github_actions_ci_master_gate, test_github_actions_ci
 
 ## Dependencies
 
-- **Blocks:** [sase-1n6.5.1.5.2.1.2](sase-1n6.5.1.5.2.1.2.md) ◐ · ⧖ 2026-10-20
+- **Blocks:** [sase-1n6.5.1.5.2.1.2](sase-1n6.5.1.5.2.1.2.md) ✓ · ⧖ 2026-10-20
 
 ## Agents
 
@@ -74,8 +74,10 @@ Focused tests passed: test_github_actions_ci_master_gate, test_github_actions_ci
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1n6.5.1.5.2.1.1--1][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:13d][1] | Research which agents stalled the sase-1n6 epic: unblock epic and its phases | 1 |
+| read-by | [agent:sase-1n6.5.1.5.2.1.1--1][2] | Need the phase scope and design file | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.5.1.5.2.1.1.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.13d/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.5.1.5.2.1.1.md
 
 <!-- sase:referenced-by:end -->

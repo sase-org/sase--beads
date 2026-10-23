@@ -54,8 +54,10 @@ metrics: a read-only tools/release_metrics derives release-green per SHA and the
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1n6.8][1] | Need the phase scope and design file | 5 |
+| read-by | [agent:research.2a.cld][1] | E3 readiness: E2 status | 1 |
+| read-by | [agent:sase-1n6.8][2] | Need the phase scope and design file | 5 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.8/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2a.cld/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.8/README.md
 
 <!-- sase:referenced-by:end -->

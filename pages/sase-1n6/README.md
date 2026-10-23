@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/e2_release_train_steward.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 10 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/e2_release_train_steward.md
 
@@ -83,7 +83,7 @@ flowchart TD
     n14["sase-1n6.5.1.5.2: Retain green and wrong-core rehearsal proofs [in_progress]"]
     n15["sase-1n6.5.1.5.2.1: Unblock and retain the deployed qualification proofs [in_progress]"]
     n16["sase-1n6.5.1.5.2.1.1: Clear the three blockers between master and a live rehearsal [closed]"]
-    n17["sase-1n6.5.1.5.2.1.2: Dispatch and retain the green, probe and exact-SHA source proofs [in_progress]"]
+    n17["sase-1n6.5.1.5.2.1.2: Dispatch and retain the green, probe and exact-SHA source proofs [closed]"]
     n18["sase-1n6.6: Digest-checked publish, PyPI confirmation, and un-draft [in_progress]"]
     n19["sase-1n6.7: Stateless release steward in observe mode [closed]"]
     n20["sase-1n6.7.1: Stateless release steward with an observe-only workflow [closed]"]
@@ -168,10 +168,9 @@ flowchart TD
 | [bbugyi200.athena.sase-1n6.5.1.5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.5.1/README.md) | [sase-1n6.5.1.5.1](sase-1n6.5.1.5.1.md) | 1 |
 | [bbugyi200.athena.sase-1n6.5.1.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.5.2/README.md) | [sase-1n6.5.1.5.2](sase-1n6.5.1.5.2.md) | 1 |
 | [bbugyi200.athena.sase-1n6.5.1.5.2.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.5.1.5.2.1.1.md) | [sase-1n6.5.1.5.2.1.1](sase-1n6.5.1.5.2.1.1.md) | 1 |
-| [bbugyi200.athena.sase-1n6.5.1.5.2.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.5.1.5.2.1.2.md) | [sase-1n6.5.1.5.2.1.2](sase-1n6.5.1.5.2.1.2.md) | 1 |
+| [bbugyi200.athena.sase-1n6.5.1.5.2.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.5.1.5.2.1.2.md) | [sase-1n6.5.1.5.2.1.2](sase-1n6.5.1.5.2.1.2.md) | 2 |
 | [bbugyi200.athena.sase-1n6.5.1.5.2.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.5.2.1.land/README.md) | [sase-1n6.5.1.5.2.1](sase-1n6.5.1.5.2.1.md) | 0 |
 | [bbugyi200.athena.sase-1n6.5.1.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.5.land/README.md) | [sase-1n6.5.1.5](sase-1n6.5.1.5.md) | 0 |
-| [bbugyi200.athena.sase-1n6.5.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.5.1.land.md) | [sase-1n6.5.1](sase-1n6.5.1.md) | 0 |
 | [bbugyi200.athena.sase-1n6.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.6/README.md) | [sase-1n6.6](sase-1n6.6.md) | 0 |
 | [bbugyi200.athena.sase-1n6.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.7.md) | [sase-1n6.7](sase-1n6.7.md) | 0 |
 | [bbugyi200.athena.sase-1n6.7.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.7.1.1/README.md) | [sase-1n6.7.1.1](sase-1n6.7.1.1.md) | 2 |
@@ -207,6 +206,7 @@ flowchart TD
 | sase | [`b15cc3f`](https://github.com/sase-org/sase/commit/b15cc3fb5b56156729f0264cdd172e4274f771dd) | feat(release): add read-only release\_metrics and exact-SHA green evidence | [sase-1n6.8](sase-1n6.8.md) | 2026-10-20 13:42:41 EDT |
 | sase | [`3db3b51`](https://github.com/sase-org/sase/commit/3db3b51d5362c8c3fd9485e6452b48d910624300) | fix(ci): grant Full CI actions:read and parse core suffix blocks | [sase-1n6.5.1.5.2.1.1](sase-1n6.5.1.5.2.1.1.md) | 2026-10-20 16:40:43 EDT |
 | sase | [`ba7ab4e`](https://github.com/sase-org/sase/commit/ba7ab4e96bce13fdf71b9e429bffe92a8cf39205) | fix(release): repair identity version validation | [sase-1n6.5.1.5.2.1.2](sase-1n6.5.1.5.2.1.2.md) | 2026-10-22 06:28:03 EDT |
+| sase | [`2d1e7fd`](https://github.com/sase-org/sase/commit/2d1e7fd48646c6240f99ba6ac44f5c6e0f75f3c0) | fix(release): retain qualification observations after evaluation | [sase-1n6.5.1.5.2.1.2](sase-1n6.5.1.5.2.1.2.md) | 2026-10-23 17:53:29 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -214,10 +214,26 @@ flowchart TD
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1n6.5.1.4][1] | Need epic DECISIONS and land context | 1 |
-| read-by | [agent:sase-1n6.5.1.5.2][2] | Need outer epic DISCOVERED ISSUE about core-source-pin gap before interpreting live core-lag refusal | 1 |
+| read-by | [agent:13d][1] | Research which agents stalled this epic | 2 |
+| read-by | [agent:research.2a.cdx][2] | Verify E1 delivery and remaining E2 dependencies for E3 | 1 |
+| read-by | [agent:research.2a.cld][3] | Understand E2 epic state for E3 readiness research | 2 |
+| read-by | [agent:research.2a.final][4] | Verify E2 phase states and open discovered issues for E3 readiness | 1 |
+| read-by | [agent:research.2a.gem][5] | Check E2 status and what has been done | 1 |
+| read-by | [agent:research.2a.grk][6] | Need E2 epic status, remaining phases, and notes to assess E3 readiness | 1 |
+| read-by | [agent:research.2a.mus][7] | E3 readiness: need E2 scope and status | 1 |
+| read-by | [agent:sase-1n6.5.1.4][8] | Need epic DECISIONS and land context | 1 |
+| read-by | [agent:sase-1n6.5.1.5.2][9] | Need outer epic DISCOVERED ISSUE about core-source-pin gap before interpreting live core-lag refusal | 1 |
+| read-by | [agent:sase-1n6.5.1.5.2.1.2--3][10] | Update the existing DISCOVERED ISSUE #1 with refreshed core pin containment status | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.4/README.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.5.2/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.13d/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2a.cdx/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2a.cld/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2a.final/README.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2a.gem/README.md
+[6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2a.grk/README.md
+[7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2a.mus/README.md
+[8]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.4/README.md
+[9]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.5.2/README.md
+[10]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.5.1.5.2.1.2.md
 
 <!-- sase:referenced-by:end -->

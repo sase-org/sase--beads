@@ -55,3 +55,21 @@ Landing evidence: sase-core check passed (ToolRun 8a4be3d1be5ee56baa180c72f255fc
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1n6.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.9/README.md) | [sase-1n6.9](sase-1n6.9.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:13d][1] | Research which agents stalled the sase-1n6 epic: in-progress phases | 1 |
+| read-by | [agent:research.2a.cld][2] | E3 readiness: E2 status | 1 |
+| read-by | [agent:research.2a.grk][3] | Need remaining open E2 phase statuses and blockers before designing E3 | 1 |
+| read-by | [agent:research.2a.mus][4] | E3 readiness: remaining E2 phases status | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.13d/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2a.cld/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2a.grk/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2a.mus/README.md
+
+<!-- sase:referenced-by:end -->

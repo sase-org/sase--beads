@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/published_core_qualification.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 4 automatic references — see [Referenced By](#referenced-by)._
+_Plus 7 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/published_core_qualification.md
 
@@ -51,11 +51,15 @@ Containment remains a separate blocker. Compared SHA used pin 6f354df4d965077708
 
 [2026-10-22T10:26:56Z · sase-1n6.5.1.5.2.1.2--3] LIVE-PROOF RETRY STATUS (2026-10-22): after the bounded 36-hour wait, refreshed sase origin/master is 16d63cf9b0a4fc1a4e5c56a4660d2e45348ea0e8. Current core source pin ce6104b19cf36a8c71267c67c1afa0b52ac4c8ec is on core origin/master 1503d604844a32a8a93e944addabb0887f8d9bc4, but no fetched tag contains it; latest published core release is v0.42.1. PR #333 remains OPEN at head eb15c8a6187335bce0ec721716cd879b6769cb7b. The release identity syntax fix and compiling contract assertion still have not landed on sase origin/master, so both dispatch gates remain false. No workflows were dispatched; keep child live-proof phase open. Prior aligned runs 39495874381, 39495879106 and 39495882967 remain failed at SHA 4adee846d3c32f0927639193f3d3c2717df946ee without acceptable qualification artifacts; see file:explicit:79476a9749f868b5d7c7f2d4 and acceptance mapping file:explicit:f27fe0e4e8e21041282b6bfd.
 
-## Agents
+[2026-10-23T21:42:43Z · sase-1n6.5.1.5.2.1.2--1] REPROOF REQUIRED (2026-10-23): compared SHA bdec291c77b0de1aab4c00abecef7430761db736. Green https://github.com/sase-org/sase/actions/runs/40000653149, probe https://github.com/sase-org/sase/actions/runs/40000657197, and source Full CI https://github.com/sase-org/sase/actions/runs/40000661173 all completed failure at attempt 1. No reruns or further dispatches performed.
 
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-1n6.5.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.5.1.land.md) | [sase-1n6.5.1](sase-1n6.5.1.md) | 0 |
+Acceptance mapping: file:explicit:88fe402c602e56f995848006. Full raw bundle (133 files, original candidate ZIPs, per-job evidence, complete paginated job/artifact responses, logs, local replays and digest verification): file:explicit:d1d05f2daface15a4c425e9f. Required-job/source/advisory summary: file:explicit:2c9807d13101d7e4f1920d8c. Individual deployed manifests: green file:explicit:8bc875efcb830c862a8c0a3d, probe file:explicit:9135aae02237170b0632e49b.
+
+Both qualify jobs lost their observation upload because release.yml's inline asset reader was missing a closing parenthesis and hid stderr. Fixed asset/reason reads to pass filenames through sys.argv and retain diagnostics. Existing green/probe transport tests now execute the actual full workflow evaluate step and validate the upload outputs; both reproduced the old error, and all 32 focused release/transport tests pass with the repair. Required check is running under ToolRun 63ce16272c90ed2e5dca334ffbf86a98; its final verification note must precede closure. Actionlint reports identical pre-existing SC2012 findings on clean base and changed workflow; workflow-only validation passes.
+
+LIVE ACCEPTANCE UNMET: green lint and test 3.12 passed; test 3.13/3.14 failed the modal-resize timeout. Probe lint names all nine missing bindings with installed 0.42.1 versus sealed/intended 0.42.2, but neither workflow retained an observation artifact. Local reconstructed QUALIFY_RED reports are diagnostic only: green has test-only rerun eligibility, probe is not eligible. Archived empty observation lists correctly refuse qualification/exercise and are not rerun-eligible. Source lint passes all 875 bindings from pin 246e28743538b6cd4d4e098b6960085c3e8ef5a9, but all three source test legs are red (3.12 also deck Ctrl-J timeout). Source is separately eligible for at most one test retry;
+
+… and 2848 more characters
 
 <!-- sase:referenced-by:start -->
 
@@ -63,14 +67,20 @@ Containment remains a separate blocker. Compared SHA used pin 6f354df4d965077708
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1n6.5.1.1][1] | Need the child epic decisions for the evidence phase | 1 |
-| read-by | [agent:sase-1n6.5.1.3][2] | Need parent epic DECISIONS and remaining phases | 1 |
-| read-by | [agent:sase-1n6.5.1.4][3] | Need epic DECISIONS and land context | 1 |
-| read-by | [agent:sase-1n6.5.1.5.2][4] | Need original qualification landing notes and remaining live proofs | 1 |
+| read-by | [agent:13d][1] | Research which agents stalled the sase-1n6 epic: qualification child epic | 1 |
+| read-by | [agent:research.2a.grk][2] | Need remaining open E2 phase statuses and blockers before designing E3 | 1 |
+| read-by | [agent:sase-1n6.5.1.1][3] | Need the child epic decisions for the evidence phase | 1 |
+| read-by | [agent:sase-1n6.5.1.3][4] | Need parent epic DECISIONS and remaining phases | 1 |
+| read-by | [agent:sase-1n6.5.1.4][5] | Need epic DECISIONS and land context | 1 |
+| read-by | [agent:sase-1n6.5.1.5.2][6] | Need original qualification landing notes and remaining live proofs | 1 |
+| read-by | [agent:sase-1n6.5.1.5.2.1.2--3][7] | Record current qualification retry blocker on the epic handoff | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.1/README.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.3/README.md
-[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.4/README.md
-[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.5.2/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.13d/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2a.grk/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.1/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.3/README.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.4/README.md
+[6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.5.2/README.md
+[7]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.5.1.5.2.1.2.md
 
 <!-- sase:referenced-by:end -->
