@@ -13,7 +13,7 @@ full-ci: get a Full CI run on a tip containing the build-core fix, triage every 
 
 ## Dependencies
 
-- **Depends on:** [sase-1nn.3](sase-1nn.3.md) ◎ · ⧖ 2026-10-23
+- **Depends on:** [sase-1nn.3](sase-1nn.3.md) ✓ · ⧖ 2026-10-23
 - **Blocks:** [sase-1nn.7](sase-1nn.7.md) ◐ · ⧖ 2026-10-23
 
 ## Agents

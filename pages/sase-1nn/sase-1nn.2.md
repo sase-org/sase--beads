@@ -20,4 +20,16 @@ core-pin: dispatch the guarded sase-core release cut, wait for a complete sase-c
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1nn.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.2/README.md) | [sase-1nn.2](sase-1nn.2.md) | 0 |
+| [bbugyi200.athena.sase-1nn.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nn.2.md) | [sase-1nn.2](sase-1nn.2.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:research.2a.grk][1] | Need whether 0.18.1 is raising the exact core pin that E2's CORE_LAG depends on | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2a.grk/README.md
+
+<!-- sase:referenced-by:end -->
