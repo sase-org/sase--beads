@@ -16,7 +16,7 @@ Monitor follow-up prompts show the real tail of the monitored command's output, 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-1nk.1](sase-1nk.1.md) | Show the real output tail in monitor follow-up prompts | ✓ closed | small | 2026-10-23 | 1 | 1 |
-| [sase-1nk.2](sase-1nk.2.md) | Restore the host PATH for agent launches made from agent shells | ◐ in_progress | medium | 2026-10-23 | 1 | 0 |
+| [sase-1nk.2](sase-1nk.2.md) | Restore the host PATH for agent launches made from agent shells | ✓ closed | medium | 2026-10-23 | 1 | 1 |
 
 ## Lineage
 
@@ -24,7 +24,7 @@ Monitor follow-up prompts show the real tail of the monitored command's output, 
 flowchart TD
     n0["sase-1nk: Fix monitor follow-up output excerpts and host PATH loss in agent-shell launches [in_progress]"]
     n1["sase-1nk.1: Show the real output tail in monitor follow-up prompts [closed]"]
-    n2["sase-1nk.2: Restore the host PATH for agent launches made from agent shells [in_progress]"]
+    n2["sase-1nk.2: Restore the host PATH for agent launches made from agent shells [closed]"]
     n0 --> n1
     n0 --> n2
 ```
@@ -34,7 +34,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1nk.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nk.1/README.md) | [sase-1nk.1](sase-1nk.1.md) | 1 |
-| [bbugyi200.athena.sase-1nk.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nk.2/README.md) | [sase-1nk.2](sase-1nk.2.md) | 0 |
+| [bbugyi200.athena.sase-1nk.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nk.2/README.md) | [sase-1nk.2](sase-1nk.2.md) | 1 |
 | [bbugyi200.athena.sase-1nk.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nk.land/README.md) | [sase-1nk](README.md) | 0 |
 
 ## Commits
@@ -42,3 +42,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`def4c66`](https://github.com/sase-org/sase/commit/def4c66ce37b1999e656331cd415d21675a51f04) | fix(monitor): show retained output tail in follow-ups | [sase-1nk.1](sase-1nk.1.md) | 2026-10-23 10:02:19 EDT |
+| sase | [`ed321c5`](https://github.com/sase-org/sase/commit/ed321c5434bba31c7636bdc8dadc80afba040a7f) | fix(agent-launch): restore host PATH for nested launches | [sase-1nk.2](sase-1nk.2.md) | 2026-10-23 10:05:29 EDT |
