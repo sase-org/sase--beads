@@ -13,7 +13,7 @@ visual-lane: inventory golden drift with a full TZ=UTC screenshot check, fix non
 
 ## Dependencies
 
-- **Depends on:** [sase-1nn.4](sase-1nn.4.md) ◐ · ⧖ 2026-10-23
+- **Depends on:** [sase-1nn.4](sase-1nn.4.md) ✓ · ⧖ 2026-10-23
 - **Blocks:** [sase-1nn.7](sase-1nn.7.md) ◐ · ⧖ 2026-10-23
 
 ## Agents
