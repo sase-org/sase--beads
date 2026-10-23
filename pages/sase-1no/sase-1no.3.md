@@ -13,7 +13,7 @@ agents-rows: add the off-thread stranded-view cache and its warmup lane. Render 
 
 ## Dependencies
 
-- **Depends on:** [sase-1no.2](sase-1no.2.md) ◐ · ⧖ 2026-10-23
+- **Depends on:** [sase-1no.2](sase-1no.2.md) ✓ · ⧖ 2026-10-23
 - **Blocks:** [sase-1no.4](sase-1no.4.md) ◐ · ⧖ 2026-10-23
 
 ## Agents

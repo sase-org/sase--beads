@@ -13,7 +13,7 @@ beads-pane: add a deferred stranded pass and the phase/epic ⚐ badges, the lege
 
 ## Dependencies
 
-- **Depends on:** [sase-1no.2](sase-1no.2.md) ◐ · ⧖ 2026-10-23
+- **Depends on:** [sase-1no.2](sase-1no.2.md) ✓ · ⧖ 2026-10-23
 - **Blocks:** [sase-1no.6](sase-1no.6.md) ◐ · ⧖ 2026-10-23
 
 ## Agents

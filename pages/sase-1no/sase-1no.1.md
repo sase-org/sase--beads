@@ -17,7 +17,7 @@ core: add the pure Rust reducer that maps bead and session-member facts to owned
 
 ## Dependencies
 
-- **Blocks:** [sase-1no.2](sase-1no.2.md) ◐ · ⧖ 2026-10-23
+- **Blocks:** [sase-1no.2](sase-1no.2.md) ✓ · ⧖ 2026-10-23
 
 ## Agents
 
@@ -30,3 +30,15 @@ core: add the pure Rust reducer that maps bead and session-member facts to owned
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@58aca5f`](https://github.com/sase-org/sase-core/commit/58aca5fe69158286092e3a33685687a52f8d2b8f) | feat(stranded-work): add pure facts-to-verdicts reducer with PyO3 binding | [sase-1no.1](sase-1no.1.md) | 2026-10-23 15:03:40 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1no.1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1no.1/README.md
+
+<!-- sase:referenced-by:end -->
