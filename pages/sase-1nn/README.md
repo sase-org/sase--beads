@@ -34,7 +34,7 @@ Master Gate is green at master HEAD, a fresh Full CI run on master is green, ci_
 | [sase-1nn.3](sase-1nn.3.md) | Restore Full CI's build-core job and authenticate release metadata sync | ✓ closed | small | 2026-10-23 | 1 | 1 |
 | [sase-1nn.4](sase-1nn.4.md) | Make the custom gate modal sizing tests deterministic | ✓ closed | small | 2026-10-23 | 1 | 1 |
 | [sase-1nn.5](sase-1nn.5.md) | Make the visual screenshot check clean on UTC runners | ◐ in_progress | medium | 2026-10-23 | 1 | 0 |
-| [sase-1nn.6](sase-1nn.6.md) | Run Full CI on the repaired tip and fix every other red | ◐ in_progress | medium | 2026-10-23 | 1 | 0 |
+| [sase-1nn.6](sase-1nn.6.md) | Run Full CI on the repaired tip and fix every other red | ✓ closed | medium | 2026-10-23 | 1 | 1 |
 | [sase-1nn.7](sase-1nn.7.md) | Watch v0.18.1 through ci\_watch, Publish, and PyPI with a self-closing monitor | ◐ in_progress | small | 2026-10-23 | 1 | 0 |
 
 ## Lineage
@@ -47,7 +47,7 @@ flowchart TD
     n3["sase-1nn.3: Restore Full CI's build-core job and authenticate release metadata sync [closed]"]
     n4["sase-1nn.4: Make the custom gate modal sizing tests deterministic [closed]"]
     n5["sase-1nn.5: Make the visual screenshot check clean on UTC runners [in_progress]"]
-    n6["sase-1nn.6: Run Full CI on the repaired tip and fix every other red [in_progress]"]
+    n6["sase-1nn.6: Run Full CI on the repaired tip and fix every other red [closed]"]
     n7["sase-1nn.7: Watch v0.18.1 through ci_watch, Publish, and PyPI with a self-closing monitor [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -75,7 +75,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1nn.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nn.3.md) | [sase-1nn.3](sase-1nn.3.md) | 1 |
 | [bbugyi200.athena.sase-1nn.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.4/README.md) | [sase-1nn.4](sase-1nn.4.md) | 1 |
 | [bbugyi200.athena.sase-1nn.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nn.5.md) | [sase-1nn.5](sase-1nn.5.md) | 0 |
-| [bbugyi200.athena.sase-1nn.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.6/README.md) | [sase-1nn.6](sase-1nn.6.md) | 0 |
+| [bbugyi200.athena.sase-1nn.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.6/README.md) | [sase-1nn.6](sase-1nn.6.md) | 1 |
 | [bbugyi200.athena.sase-1nn.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.7/README.md) | [sase-1nn.7](sase-1nn.7.md) | 0 |
 | [bbugyi200.athena.sase-1nn.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.land/README.md) | [sase-1nn](README.md) | 0 |
 
@@ -87,6 +87,7 @@ flowchart TD
 | sase | [`b2a4c38`](https://github.com/sase-org/sase/commit/b2a4c380cf464ee2bda5c49d24c08812081e2900) | fix(ci): restore Full CI build-core job and authenticate release metadata sync | [sase-1nn.3](sase-1nn.3.md) | 2026-10-23 12:25:45 EDT |
 | sase | [`1a3a702`](https://github.com/sase-org/sase/commit/1a3a7022d1878b395a36f67a2837546dca2684ea) | fix(ace): wait for settled custom-gate modal geometry after resize | [sase-1nn.4](sase-1nn.4.md) | 2026-10-23 12:29:01 EDT |
 | sase | [`b97e6c4`](https://github.com/sase-org/sase/commit/b97e6c4b91da1382db9a0f8f0f43b5d37e8cc307) | chore(core): raise sase-core-rs pin 0.42.0 to 0.42.2 | [sase-1nn.2](sase-1nn.2.md) | 2026-10-23 13:51:54 EDT |
+| sase | [`bdec291`](https://github.com/sase-org/sase/commit/bdec291c77b0de1aab4c00abecef7430761db736) | fix(ci): treat PYTEST\_ADDOPTS -p values as plugins, not selectors | [sase-1nn.6](sase-1nn.6.md) | 2026-10-23 13:59:55 EDT |
 
 <!-- sase:referenced-by:start -->
 

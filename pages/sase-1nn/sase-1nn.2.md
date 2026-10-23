@@ -42,8 +42,10 @@ core-pin: dispatch the guarded sase-core release cut, wait for a complete sase-c
 | --- | --- | --- | ---: |
 | read-by | [agent:research.2a.cld][1] | E3 readiness: sase-1nn status | 1 |
 | read-by | [agent:research.2a.grk][2] | Need whether 0.18.1 is raising the exact core pin that E2's CORE_LAG depends on | 1 |
+| read-by | [agent:sase-1nn.2--2][3] | core-pin follow-up after cut wait | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2a.cld/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2a.grk/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nn.2.md
 
 <!-- sase:referenced-by:end -->

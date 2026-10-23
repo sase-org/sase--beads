@@ -17,7 +17,7 @@ watch: make no repo edits; verify prerequisites, then start one no-follow-up mon
 - **Depends on:** [sase-1nn.3](sase-1nn.3.md) ✓ · ⧖ 2026-10-23
 - **Depends on:** [sase-1nn.4](sase-1nn.4.md) ✓ · ⧖ 2026-10-23
 - **Depends on:** [sase-1nn.5](sase-1nn.5.md) ◐ · ⧖ 2026-10-23
-- **Depends on:** [sase-1nn.6](sase-1nn.6.md) ◐ · ⧖ 2026-10-23
+- **Depends on:** [sase-1nn.6](sase-1nn.6.md) ✓ · ⧖ 2026-10-23
 
 ## Agents
 
