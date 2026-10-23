@@ -63,7 +63,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-1nk.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nk.1/README.md) | [sase-1nk.1](sase-1nk.1.md) | 1 |
 | [bbugyi200.athena.sase-1nk.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nk.2/README.md) | [sase-1nk.2](sase-1nk.2.md) | 1 |
-| [bbugyi200.athena.sase-1nk.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nk.land.md) | [sase-1nk](README.md) | 1 |
+| [bbugyi200.athena.sase-1nk.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nk.land.md) | [sase-1nk](README.md) | 2 |
 
 ## Commits
 
@@ -72,3 +72,4 @@ flowchart TD
 | sase | [`def4c66`](https://github.com/sase-org/sase/commit/def4c66ce37b1999e656331cd415d21675a51f04) | fix(monitor): show retained output tail in follow-ups | [sase-1nk.1](sase-1nk.1.md) | 2026-10-23 10:02:19 EDT |
 | sase | [`ed321c5`](https://github.com/sase-org/sase/commit/ed321c5434bba31c7636bdc8dadc80afba040a7f) | fix(agent-launch): restore host PATH for nested launches | [sase-1nk.2](sase-1nk.2.md) | 2026-10-23 10:05:29 EDT |
 | sase | [`7552ebe`](https://github.com/sase-org/sase/commit/7552ebe590c07d4f9bf5fd62bf583a30d79c31b3) | test(monitor): prove proc-backed follow-up prompts show the output tail | [sase-1nk](README.md) | 2026-10-23 10:50:56 EDT |
+| sase--plans | [`sase--plans@c29ad06`](https://github.com/sase-org/sase--plans/commit/c29ad067e08763d75da901d1735311b26f3b333f) | docs(plans): mark monitor follow-up output and host PATH epic done | [sase-1nk](README.md) | 2026-10-23 10:52:56 EDT |
