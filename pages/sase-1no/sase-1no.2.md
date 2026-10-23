@@ -20,8 +20,8 @@ collect: move the core pin. Add the binding facade and the cheap, dismissal-proo
 ## Dependencies
 
 - **Depends on:** [sase-1no.1](sase-1no.1.md) ✓ · ⧖ 2026-10-23
-- **Blocks:** [sase-1no.3](sase-1no.3.md) ◐ · ⧖ 2026-10-23
-- **Blocks:** [sase-1no.5](sase-1no.5.md) ◐ · ⧖ 2026-10-23
+- **Blocks:** [sase-1no.3](sase-1no.3.md) ✓ · ⧖ 2026-10-23
+- **Blocks:** [sase-1no.5](sase-1no.5.md) ✓ · ⧖ 2026-10-23
 
 ## Agents
 
@@ -34,3 +34,15 @@ collect: move the core pin. Add the binding facade and the cheap, dismissal-proo
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`5d982d2`](https://github.com/sase-org/sase/commit/5d982d2bb9241a5b4e3db8baf38d0cae7ebeb53f) | feat(beads): collect stranded-work facts and doctor WARNING | [sase-1no.2](sase-1no.2.md) | 2026-10-23 17:21:03 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1no.2--5][1] | Need the phase scope, design file, notes, and DECISIONS after monitor recovery | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1no.2.md
+
+<!-- sase:referenced-by:end -->
