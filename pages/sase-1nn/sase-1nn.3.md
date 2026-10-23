@@ -42,8 +42,10 @@ ci-workflows: move build-core's setup-uv step after the sase-core checkouts, giv
 | --- | --- | --- | ---: |
 | read-by | [agent:research.2a.cld][1] | E3 readiness: sase-1nn status | 1 |
 | read-by | [agent:sase-1nn.3--1][2] | Need the phase scope and design file | 2 |
+| read-by | [agent:sase-1nn.6][3] | Need sibling phase close notes and epic status before Full CI triage | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2a.cld/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nn.3.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.6/README.md
 
 <!-- sase:referenced-by:end -->

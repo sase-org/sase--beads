@@ -19,7 +19,7 @@ modal-sizing: replace pause-then-assert resize checks in test_custom_gate_modal_
 
 ## Dependencies
 
-- **Blocks:** [sase-1nn.5](sase-1nn.5.md) ◐ · ⧖ 2026-10-23
+- **Blocks:** [sase-1nn.5](sase-1nn.5.md) ✓ · ⧖ 2026-10-23
 - **Blocks:** [sase-1nn.7](sase-1nn.7.md) ◐ · ⧖ 2026-10-23
 
 ## Agents
@@ -42,8 +42,10 @@ modal-sizing: replace pause-then-assert resize checks in test_custom_gate_modal_
 | --- | --- | --- | ---: |
 | read-by | [agent:research.2a.cld][1] | E3 readiness: sase-1nn status | 1 |
 | read-by | [agent:sase-1nn.4][2] | Need full notes, remaining work, and design file path | 2 |
+| read-by | [agent:sase-1nn.6][3] | Need sibling phase close notes and epic status before Full CI triage | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2a.cld/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.4/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.6/README.md
 
 <!-- sase:referenced-by:end -->
