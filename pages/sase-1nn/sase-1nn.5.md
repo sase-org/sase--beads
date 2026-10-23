@@ -20,4 +20,16 @@ visual-lane: inventory golden drift with a full TZ=UTC screenshot check, fix non
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1nn.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.5/README.md) | [sase-1nn.5](sase-1nn.5.md) | 0 |
+| [bbugyi200.athena.sase-1nn.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nn.5.md) | [sase-1nn.5](sase-1nn.5.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:research.2a.cld][1] | E3 readiness: sase-1nn status | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2a.cld/README.md
+
+<!-- sase:referenced-by:end -->

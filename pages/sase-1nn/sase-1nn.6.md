@@ -21,3 +21,15 @@ full-ci: get a Full CI run on a tip containing the build-core fix, triage every 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1nn.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.6/README.md) | [sase-1nn.6](sase-1nn.6.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:research.2a.cld][1] | E3 readiness: sase-1nn status | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2a.cld/README.md
+
+<!-- sase:referenced-by:end -->
