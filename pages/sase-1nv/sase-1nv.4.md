@@ -13,7 +13,7 @@ stale-row-repair: add a report-first, audited `sase agent sync` repair that maps
 
 ## Dependencies
 
-- **Depends on:** [sase-1nv.3](sase-1nv.3.md) ◐ · ⧖ 2026-10-24
+- **Depends on:** [sase-1nv.3](sase-1nv.3.md) ✓ · ⧖ 2026-10-24
 - **Blocks:** [sase-1nv.5](sase-1nv.5.md) ◐ · ⧖ 2026-10-24
 
 ## Agents

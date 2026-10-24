@@ -13,7 +13,7 @@ pub-closeout: install the fixes on both hosts, run the repair, prove checks 1 an
 
 ## Dependencies
 
-- **Depends on:** [sase-1nv.2](sase-1nv.2.md) ◐ · ⧖ 2026-10-24
+- **Depends on:** [sase-1nv.2](sase-1nv.2.md) ✓ · ⧖ 2026-10-24
 - **Depends on:** [sase-1nv.4](sase-1nv.4.md) ◐ · ⧖ 2026-10-24
 
 ## Agents
