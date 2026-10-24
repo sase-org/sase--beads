@@ -24,10 +24,23 @@ stale-row-repair: add a report-first, audited `sase agent sync` repair that maps
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1nv.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nv.4.md) | [sase-1nv.4](sase-1nv.4.md) | 1 |
+| [bbugyi200.athena.sase-1nv.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nv.4.md) | [sase-1nv.4](sase-1nv.4.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@7ec12d2`](https://github.com/sase-org/sase-core/commit/7ec12d2d7ad8e670abe26aa396259a512f330391) | feat(core): classify stale publication requests for revision repair (sase-1nv.4) | [sase-1nv.4](sase-1nv.4.md) | 2026-10-24 11:45:47 EDT |
+| sase | [`7b1b437`](https://github.com/sase-org/sase/commit/7b1b43755821fb4b6fe9ab8f51d09fcff0e46879) | feat(agents-sync): add report-first repair for stale publication revision rows (sase-1nv.4) | [sase-1nv.4](sase-1nv.4.md) | 2026-10-24 11:48:49 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1nv.4--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nv.4.md
+
+<!-- sase:referenced-by:end -->
