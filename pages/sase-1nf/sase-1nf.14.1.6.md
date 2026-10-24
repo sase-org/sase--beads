@@ -16,7 +16,7 @@ quiet-policy: require three quiet seconds for backstops, retain their due condit
 - **Depends on:** [sase-1nf.14.1.2](sase-1nf.14.1.2.md) ◐ · ⧖ 2026-10-24
 - **Depends on:** [sase-1nf.14.1.3](sase-1nf.14.1.3.md) ✓ · ⧖ 2026-10-24
 - **Depends on:** [sase-1nf.14.1.4](sase-1nf.14.1.4.md) ✓ · ⧖ 2026-10-24
-- **Depends on:** [sase-1nf.14.1.5](sase-1nf.14.1.5.md) ◐ · ⧖ 2026-10-24
+- **Depends on:** [sase-1nf.14.1.5](sase-1nf.14.1.5.md) ✓ · ⧖ 2026-10-24
 - **Blocks:** [sase-1nf.14.1.7](sase-1nf.14.1.7.md) ◐ · ⧖ 2026-10-24
 
 ## Agents

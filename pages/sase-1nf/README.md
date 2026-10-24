@@ -82,7 +82,7 @@ flowchart TD
     n31["sase-1nf.14.1.2: Attribute navigation and prompt activity to an instance [in_progress]"]
     n32["sase-1nf.14.1.3: Avoid copying Agent graphs that a load will discard [closed]"]
     n33["sase-1nf.14.1.4: Skip unchanged row rendering and Option replacement [closed]"]
-    n34["sase-1nf.14.1.5: Bound retained event and completion cache ownership [in_progress]"]
+    n34["sase-1nf.14.1.5: Bound retained event and completion cache ownership [closed]"]
     n35["sase-1nf.14.1.6: Resolve the backstop quiet-window conflict [in_progress]"]
     n36["sase-1nf.14.1.7: Verify busy-hour and four-hour acceptance on fixed code [in_progress]"]
     n37["sase-1nf.14.1.8: Complete the same-instance 24-hour soak [in_progress]"]
@@ -202,7 +202,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1nf.14.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.14.1.2/README.md) | [sase-1nf.14.1.2](sase-1nf.14.1.2.md) | 0 |
 | [bbugyi200.athena.sase-1nf.14.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.14.1.3/README.md) | [sase-1nf.14.1.3](sase-1nf.14.1.3.md) | 0 |
 | [bbugyi200.athena.sase-1nf.14.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.14.1.4/README.md) | [sase-1nf.14.1.4](sase-1nf.14.1.4.md) | 1 |
-| [bbugyi200.athena.sase-1nf.14.1.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.14.1.5.md) | [sase-1nf.14.1.5](sase-1nf.14.1.5.md) | 0 |
+| [bbugyi200.athena.sase-1nf.14.1.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.14.1.5.md) | [sase-1nf.14.1.5](sase-1nf.14.1.5.md) | 1 |
 | [bbugyi200.athena.sase-1nf.14.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.14.1.6/README.md) | [sase-1nf.14.1.6](sase-1nf.14.1.6.md) | 0 |
 | [bbugyi200.athena.sase-1nf.14.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.14.1.7/README.md) | [sase-1nf.14.1.7](sase-1nf.14.1.7.md) | 0 |
 | [bbugyi200.athena.sase-1nf.14.1.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.14.1.8/README.md) | [sase-1nf.14.1.8](sase-1nf.14.1.8.md) | 0 |
@@ -250,6 +250,7 @@ flowchart TD
 | sase--research | [`sase--research@5ca8834`](https://github.com/sase-org/sase--research/commit/5ca8834314d253e69ad67ffea782e42fd637fcd1) | docs(research): record verified four-hour TUI GC measurements | [sase-1nf.13](sase-1nf.13.md) | 2026-10-23 22:34:58 EDT |
 | sase | [`0d11a11`](https://github.com/sase-org/sase/commit/0d11a115dbfda1669ccccca0fe9ba5987807afd3) | feat(ace): skip unchanged AgentList row rendering and Option replacement | [sase-1nf.14.1.4](sase-1nf.14.1.4.md) | 2026-10-24 14:29:00 EDT |
 | sase | [`0189f13`](https://github.com/sase-org/sase/commit/0189f13f7bdb1673ee028c85e3ab68991bca8369) | fix(tui): make GC acceptance calculations trustworthy | [sase-1nf.14.1.1](sase-1nf.14.1.1.md) | 2026-10-24 14:56:50 EDT |
+| sase | [`720b2a2`](https://github.com/sase-org/sase/commit/720b2a22bc42920e0a183778bf69e9a222a0321a) | fix(tui): bound retained event and completion caches | [sase-1nf.14.1.5](sase-1nf.14.1.5.md) | 2026-10-24 15:09:23 EDT |
 
 <!-- sase:referenced-by:start -->
 

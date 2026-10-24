@@ -30,3 +30,15 @@ report-windows: repair percentile, heartbeat coverage, boundary, swap, and late-
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`0189f13`](https://github.com/sase-org/sase/commit/0189f13f7bdb1673ee028c85e3ab68991bca8369) | fix(tui): make GC acceptance calculations trustworthy | [sase-1nf.14.1.1](sase-1nf.14.1.1.md) | 2026-10-24 14:56:50 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1nf.14.1.1][1] | Need the phase scope and design file | 4 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.14.1.1/README.md
+
+<!-- sase:referenced-by:end -->
