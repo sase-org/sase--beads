@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1nf](README.md) / sase-1nf.13
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.12i](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.12i.md) · **Assignee:** `sase-1nf.13` · **Size:** medium
-**Created:** 2026-10-20 13:36:16 EDT
+**Created:** 2026-10-20 13:36:16 EDT · **Closed:** 2026-10-24 07:11:47 EDT
 **Plan:** [202610/athena\_apollo\_audit\_fixes.md](https://github.com/sase-org/sase--plans/blob/main/202610/athena_apollo_audit_fixes.md)
 
 <!-- sase:links:start -->
@@ -18,16 +18,23 @@
 | related | file:explicit:1bd8d133f72d4743a06a28c0 | attached via sase artifact create --bead |
 | related | file:explicit:2a8b4ccda43005b5ac42e5a3 | attached via sase artifact create --bead |
 | related | file:explicit:48ab8282349c800464ca383e | attached via sase artifact create --bead |
+| related | file:explicit:4c5a448c914d52aca463ecab | attached via sase artifact create --bead |
 | related | file:explicit:564c89da176b9ee0c89b760b | attached via sase artifact create --bead |
 | related | file:explicit:568bfb97748a4529952ee629 | attached via sase artifact create --bead |
 | related | file:explicit:5c16d510615f85b8ec75fe72 | attached via sase artifact create --bead |
 | related | file:explicit:8d1fcc415d3a02313416308a | attached via sase artifact create --bead |
 | related | file:explicit:9307f427262857bfe7db174f | attached via sase artifact create --bead |
+| related | file:explicit:aa1235595f6ee5ae64a9ec41 | attached via sase artifact create --bead |
 | related | file:explicit:abd61985c8cb0cbb748a7c26 | attached via sase artifact create --bead |
+| related | file:explicit:b5661e950a3aad343a5afdef | attached via sase artifact create --bead |
 | related | file:explicit:d350cd2049aee5ae9163a022 | attached via sase artifact create --bead |
 | related | file:explicit:d54703bdfa49035878bd0bdd | attached via sase artifact create --bead |
 | related | file:explicit:dc86d3b302afb42ced69208b | attached via sase artifact create --bead |
 | related | file:explicit:e3017580488af7834dafefb4 | attached via sase artifact create --bead |
+| related | file:explicit:e588245a7b27ce269ee37921 | attached via sase artifact create --bead |
+| related | file:explicit:f17c83560a3227b32ea86737 | attached via sase artifact create --bead |
+
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -55,7 +62,7 @@ gc-measure: have the user restart their TUIs onto the instrumented code, capture
 
 [2026-10-23T14:06:21Z · sase-1nf.13] CAPTURE READY 2026-10-23 14:05 UTC: Verified real census-enabled launches on BOTH hosts at 09:54 EDT. Athena PID 3821218 / instance 03f51423 / startup 13:54:05.717918Z / Python 3.14.7; Apollo PID 447205 / instance f3763ffa / startup 13:54:05.964174Z / Python 3.12.3. Both source_revision 92d271364cb5a8c20293c0a9707a31db04b6d429, both process environments have SASE_TUI_GC_CENSUS=1 and SASE_TUI_PERF=1, and each has actual tui_gc_census rows. Preserved launch proof, initial raw logs, frozen report, capture script and analysis checkpoint as file:explicit:d54703bdfa49035878bd0bdd. Capture script initial run succeeds; it samples both hosts read-only every 120s, preserves exact new JSONL lines across rotation plus wall/monotonic clock pairs and
 
-… and 16107 more characters
+… and 26034 more characters
 
 ## References
 
@@ -70,10 +77,18 @@ gc-measure: have the user restart their TUIs onto the instrumented code, capture
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1nf.13](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.13.md) | [sase-1nf.13](sase-1nf.13.md) | 1 |
+| [bbugyi200.athena.sase-1nf.13](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.13.md) | [sase-1nf.13](sase-1nf.13.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase--research | [`sase--research@5ca8834`](https://github.com/sase-org/sase--research/commit/5ca8834314d253e69ad67ffea782e42fd637fcd1) | docs(research): record verified four-hour TUI GC measurements | [sase-1nf.13](sase-1nf.13.md) | 2026-10-23 22:34:58 EDT |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1nf.13--6][1] | Verify corrected final r5 note after edit | 3 |
+| read-by | [agent:sase-1nv.1][2] | Verify the GC phase closed with its measurement handoff evidence | 5 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.13.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nv.1/README.md
+
+<!-- sase:referenced-by:end -->

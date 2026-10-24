@@ -33,7 +33,7 @@ Apollo's and athena's managed-tmp reaper reclaims dead scratch even with SSH ses
 | [sase-1nf.10](sase-1nf.10.md) | Fix the measured publication failure causes | ◐ in_progress | large | 2026-10-20 | 1 | 0 |
 | [sase-1nf.11](sase-1nf.11.md) | Drain the publication backlog on athena and apollo in bounded batches | ◐ in_progress | medium | 2026-10-20 | 1 | 0 |
 | [sase-1nf.12](sase-1nf.12.md) | GC attribution telemetry and an acceptance-grade freeze report | ✓ closed | medium | 2026-10-20 | 1 | 1 |
-| [sase-1nf.13](sase-1nf.13.md) | Measure and attribute the TUI GC freezes on restarted TUIs | ◐ in_progress | medium | 2026-10-20 | 1 | 1 |
+| [sase-1nf.13](sase-1nf.13.md) | Measure and attribute the TUI GC freezes on restarted TUIs | ✓ closed | medium | 2026-10-20 | 1 | 0 |
 | [sase-1nf.14](sase-1nf.14.md) | Fix the measured GC freeze causes | ◐ in_progress | large | 2026-10-20 | 1 | 0 |
 | [sase-1nf.2](sase-1nf.2.md) | Truthful managed\_tmp\_reap and disk\_pressure jobs on the new core | ✓ closed | medium | 2026-10-20 | 1 | 1 |
 | [sase-1nf.3](sase-1nf.3.md) | bob-cli tests stop leaking read-only vault fixtures | ✓ closed | small | 2026-10-20 | 1 | 0 |
@@ -42,7 +42,7 @@ Apollo's and athena's managed-tmp reaper reclaims dead scratch even with SSH ses
 | [sase-1nf.6](sase-1nf.6.md) | sase-core partial bead link projection and per-endpoint receipts | ✓ closed | medium | 2026-10-20 | 1 | 1 |
 | [sase-1nf.7](sase-1nf.7.md) | Route, isolate, and commit artifact-link bead endpoints per operation | ✓ closed | medium | 2026-10-20 | 1 | 1 |
 | [sase-1nf.8](sase-1nf.8.md) | Parked endpoints leave the retry loop and the sweep converges | ✓ closed | medium | 2026-10-20 | 1 | 1 |
-| [sase-1nf.9](sase-1nf.9.md) | Instrument and measure agent-hood publication drains | ✓ closed | medium | 2026-10-20 | 1 | 2 |
+| [sase-1nf.9](sase-1nf.9.md) | Instrument and measure agent-hood publication drains | ✓ closed | medium | 2026-10-20 | 1 | 1 |
 
 ## Lineage
 
@@ -75,16 +75,25 @@ flowchart TD
     n24["sase-1nf.10.1.9.1.6.5: Prove fixtures and automatic publication, and publish the acceptance report [closed]"]
     n25["sase-1nf.11: Drain the publication backlog on athena and apollo in bounded batches [in_progress]"]
     n26["sase-1nf.12: GC attribution telemetry and an acceptance-grade freeze report [closed]"]
-    n27["sase-1nf.13: Measure and attribute the TUI GC freezes on restarted TUIs [in_progress]"]
+    n27["sase-1nf.13: Measure and attribute the TUI GC freezes on restarted TUIs [closed]"]
     n28["sase-1nf.14: Fix the measured GC freeze causes [in_progress]"]
-    n29["sase-1nf.2: Truthful managed_tmp_reap and disk_pressure jobs on the new core [closed]"]
-    n30["sase-1nf.3: bob-cli tests stop leaking read-only vault fixtures [closed]"]
-    n31["sase-1nf.4: Lossless EpicFollowView encoding for bundles and cleanup payloads [closed]"]
-    n32["sase-1nf.5: sase doctor survives unbound macro templates [closed]"]
-    n33["sase-1nf.6: sase-core partial bead link projection and per-endpoint receipts [closed]"]
-    n34["sase-1nf.7: Route, isolate, and commit artifact-link bead endpoints per operation [closed]"]
-    n35["sase-1nf.8: Parked endpoints leave the retry loop and the sweep converges [closed]"]
-    n36["sase-1nf.9: Instrument and measure agent-hood publication drains [closed]"]
+    n29["sase-1nf.14.1: Reduce measured TUI GC producers and verify both hosts [in_progress]"]
+    n30["sase-1nf.14.1.1: Make GC acceptance calculations trustworthy [in_progress]"]
+    n31["sase-1nf.14.1.2: Attribute navigation and prompt activity to an instance [in_progress]"]
+    n32["sase-1nf.14.1.3: Avoid copying Agent graphs that a load will discard [closed]"]
+    n33["sase-1nf.14.1.4: Skip unchanged row rendering and Option replacement [closed]"]
+    n34["sase-1nf.14.1.5: Bound retained event and completion cache ownership [in_progress]"]
+    n35["sase-1nf.14.1.6: Resolve the backstop quiet-window conflict [in_progress]"]
+    n36["sase-1nf.14.1.7: Verify busy-hour and four-hour acceptance on fixed code [in_progress]"]
+    n37["sase-1nf.14.1.8: Complete the same-instance 24-hour soak [in_progress]"]
+    n38["sase-1nf.2: Truthful managed_tmp_reap and disk_pressure jobs on the new core [closed]"]
+    n39["sase-1nf.3: bob-cli tests stop leaking read-only vault fixtures [closed]"]
+    n40["sase-1nf.4: Lossless EpicFollowView encoding for bundles and cleanup payloads [closed]"]
+    n41["sase-1nf.5: sase doctor survives unbound macro templates [closed]"]
+    n42["sase-1nf.6: sase-core partial bead link projection and per-endpoint receipts [closed]"]
+    n43["sase-1nf.7: Route, isolate, and commit artifact-link bead endpoints per operation [closed]"]
+    n44["sase-1nf.8: Parked endpoints leave the retry loop and the sweep converges [closed]"]
+    n45["sase-1nf.9: Instrument and measure agent-hood publication drains [closed]"]
     n0 --> n1
     n0 --> n2
     n2 --> n3
@@ -113,15 +122,24 @@ flowchart TD
     n0 --> n26
     n0 --> n27
     n0 --> n28
-    n0 --> n29
-    n0 --> n30
-    n0 --> n31
-    n0 --> n32
-    n0 --> n33
-    n0 --> n34
-    n0 --> n35
-    n0 --> n36
-    n1 -.-> n29
+    n28 --> n29
+    n29 --> n30
+    n29 --> n31
+    n29 --> n32
+    n29 --> n33
+    n29 --> n34
+    n29 --> n35
+    n29 --> n36
+    n29 --> n37
+    n0 --> n38
+    n0 --> n39
+    n0 --> n40
+    n0 --> n41
+    n0 --> n42
+    n0 --> n43
+    n0 --> n44
+    n0 --> n45
+    n1 -.-> n38
     n2 -.-> n25
     n4 -.-> n6
     n4 -.-> n10
@@ -142,9 +160,16 @@ flowchart TD
     n23 -.-> n24
     n26 -.-> n27
     n27 -.-> n28
-    n33 -.-> n34
+    n30 -.-> n31
+    n31 -.-> n35
+    n32 -.-> n35
+    n33 -.-> n35
     n34 -.-> n35
-    n36 -.-> n2
+    n35 -.-> n36
+    n36 -.-> n37
+    n42 -.-> n43
+    n43 -.-> n44
+    n45 -.-> n2
 ```
 
 ## Agents
@@ -166,13 +191,22 @@ flowchart TD
 | [bbugyi200.athena.sase-1nf.10.1.9.1.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.9.1.6.2/README.md) | [sase-1nf.10.1.9.1.6.2](sase-1nf.10.1.9.1.6.2.md) | 2 |
 | [bbugyi200.athena.sase-1nf.10.1.9.1.6.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.10.1.9.1.6.3.md) | [sase-1nf.10.1.9.1.6.3](sase-1nf.10.1.9.1.6.3.md) | 0 |
 | [bbugyi200.athena.sase-1nf.10.1.9.1.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.9.1.6.4/README.md) | [sase-1nf.10.1.9.1.6.4](sase-1nf.10.1.9.1.6.4.md) | 0 |
-| [bbugyi200.athena.sase-1nf.10.1.9.1.6.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.9.1.6.5/README.md) | [sase-1nf.10.1.9.1.6.5](sase-1nf.10.1.9.1.6.5.md) | 1 |
+| [bbugyi200.athena.sase-1nf.10.1.9.1.6.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.9.1.6.5/README.md) | [sase-1nf.10.1.9.1.6.5](sase-1nf.10.1.9.1.6.5.md) | 0 |
 | [bbugyi200.athena.sase-1nf.10.1.9.1.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.9.1.6.land/README.md) | [sase-1nf.10.1.9.1.6](sase-1nf.10.1.9.1.6.md) | 1 |
 | [bbugyi200.athena.sase-1nf.10.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.land/README.md) | [sase-1nf.10.1](sase-1nf.10.1.md) | 0 |
 | [bbugyi200.athena.sase-1nf.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.11/README.md) | [sase-1nf.11](sase-1nf.11.md) | 0 |
 | [bbugyi200.athena.sase-1nf.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.12/README.md) | [sase-1nf.12](sase-1nf.12.md) | 1 |
-| [bbugyi200.athena.sase-1nf.13](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.13.md) | [sase-1nf.13](sase-1nf.13.md) | 1 |
-| [bbugyi200.athena.sase-1nf.14](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.14/README.md) | [sase-1nf.14](sase-1nf.14.md) | 0 |
+| [bbugyi200.athena.sase-1nf.13](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.13.md) | [sase-1nf.13](sase-1nf.13.md) | 0 |
+| [bbugyi200.athena.sase-1nf.14](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.14.md) | [sase-1nf.14](sase-1nf.14.md) | 0 |
+| [bbugyi200.athena.sase-1nf.14.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.14.1.1/README.md) | [sase-1nf.14.1.1](sase-1nf.14.1.1.md) | 0 |
+| [bbugyi200.athena.sase-1nf.14.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.14.1.2/README.md) | [sase-1nf.14.1.2](sase-1nf.14.1.2.md) | 0 |
+| [bbugyi200.athena.sase-1nf.14.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.14.1.3/README.md) | [sase-1nf.14.1.3](sase-1nf.14.1.3.md) | 0 |
+| [bbugyi200.athena.sase-1nf.14.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.14.1.4/README.md) | [sase-1nf.14.1.4](sase-1nf.14.1.4.md) | 1 |
+| [bbugyi200.athena.sase-1nf.14.1.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.14.1.5.md) | [sase-1nf.14.1.5](sase-1nf.14.1.5.md) | 0 |
+| [bbugyi200.athena.sase-1nf.14.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.14.1.6/README.md) | [sase-1nf.14.1.6](sase-1nf.14.1.6.md) | 0 |
+| [bbugyi200.athena.sase-1nf.14.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.14.1.7/README.md) | [sase-1nf.14.1.7](sase-1nf.14.1.7.md) | 0 |
+| [bbugyi200.athena.sase-1nf.14.1.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.14.1.8/README.md) | [sase-1nf.14.1.8](sase-1nf.14.1.8.md) | 0 |
+| [bbugyi200.athena.sase-1nf.14.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.14.1.land/README.md) | [sase-1nf.14.1](sase-1nf.14.1.md) | 0 |
 | [bbugyi200.athena.sase-1nf.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.2/README.md) | [sase-1nf.2](sase-1nf.2.md) | 1 |
 | [bbugyi200.athena.sase-1nf.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.3/README.md) | [sase-1nf.3](sase-1nf.3.md) | 0 |
 | [bbugyi200.athena.sase-1nf.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.4.md) | [sase-1nf.4](sase-1nf.4.md) | 1 |
@@ -180,7 +214,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1nf.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.6.md) | [sase-1nf.6](sase-1nf.6.md) | 1 |
 | [bbugyi200.athena.sase-1nf.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.7.md) | [sase-1nf.7](sase-1nf.7.md) | 1 |
 | [bbugyi200.athena.sase-1nf.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.8/README.md) | [sase-1nf.8](sase-1nf.8.md) | 1 |
-| [bbugyi200.athena.sase-1nf.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.9.md) | [sase-1nf.9](sase-1nf.9.md) | 2 |
+| [bbugyi200.athena.sase-1nf.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.9.md) | [sase-1nf.9](sase-1nf.9.md) | 1 |
 | [bbugyi200.athena.sase-1nf.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.land/README.md) | [sase-1nf](README.md) | 0 |
 
 ## Commits
@@ -194,7 +228,6 @@ flowchart TD
 | sase-core | [`sase-core@ce6104b`](https://github.com/sase-org/sase-core/commit/ce6104b19cf36a8c71267c67c1afa0b52ac4c8ec) | feat(artifact-links): add partial projection receipts | [sase-1nf.6](sase-1nf.6.md) | 2026-10-20 15:13:16 EDT |
 | sase | [`1325078`](https://github.com/sase-org/sase/commit/1325078a8edd30df84eaa6356863a8fd35f63c80) | feat(agents-sync): instrument and measure publication drains (sase-1nf.9) | [sase-1nf.9](sase-1nf.9.md) | 2026-10-20 15:17:08 EDT |
 | sase | [`aae7eae`](https://github.com/sase-org/sase/commit/aae7eae66779aa03486f215f7b44defa2912a508) | feat(tui): add GC attribution telemetry and an acceptance freeze report | [sase-1nf.12](sase-1nf.12.md) | 2026-10-20 15:19:41 EDT |
-| sase--research | [`sase--research@9b6e0fc`](https://github.com/sase-org/sase--research/commit/9b6e0fc3ba059cd5f9825122036d2146e8797d68) | docs(research): publish agent-hood publication drain measurement report | [sase-1nf.9](sase-1nf.9.md) | 2026-10-20 15:21:54 EDT |
 | sase | [`4adee84`](https://github.com/sase-org/sase/commit/4adee846d3c32f0927639193f3d3c2717df946ee) | fix(agents-sync): bound publication cleanup on interruption | [sase-1nf.10.1.2](sase-1nf.10.1.2.md) | 2026-10-20 16:41:08 EDT |
 | sase | [`eb96eaf`](https://github.com/sase-org/sase/commit/eb96eafd442a28cd96ad2e4c35603845d179450c) | feat(artifact-links): classify and isolate bead endpoints per operation | [sase-1nf.7](sase-1nf.7.md) | 2026-10-20 16:56:11 EDT |
 | sase-core | [`sase-core@f9aa563`](https://github.com/sase-org/sase-core/commit/f9aa563c114c1fb1a4ee6a22f6b893ee42ef756f) | feat(publication-recovery): add failure accounting and bounded drain selection | [sase-1nf.10.1.1](sase-1nf.10.1.1.md) | 2026-10-20 17:20:54 EDT |
@@ -211,9 +244,8 @@ flowchart TD
 | sase | [`54779b6`](https://github.com/sase-org/sase/commit/54779b62f57805fbec295240f4de7201c87a4376) | perf(agents-sync): fix quadratic reserved-session scan and snapshot digest regression | [sase-1nf.10.1.9.1.6.1](sase-1nf.10.1.9.1.6.1.md) | 2026-10-21 11:19:30 EDT |
 | sase-core | [`sase-core@1503d60`](https://github.com/sase-org/sase-core/commit/1503d604844a32a8a93e944addabb0887f8d9bc4) | feat(replay): accept merge-base bytes in recovery policy | [sase-1nf.10.1.9.1.6.2](sase-1nf.10.1.9.1.6.2.md) | 2026-10-21 12:08:48 EDT |
 | sase | [`16d63cf`](https://github.com/sase-org/sase/commit/16d63cf9b0a4fc1a4e5c56a4660d2e45348ea0e8) | fix(agents-sync): preserve binary replay changes from merge base | [sase-1nf.10.1.9.1.6.2](sase-1nf.10.1.9.1.6.2.md) | 2026-10-21 12:12:14 EDT |
-| sase--research | [`sase--research@d8c6067`](https://github.com/sase-org/sase--research/commit/d8c60672d0b4b55bb6953f0a17a544959acf573b) | docs(research): publish publication recovery acceptance | [sase-1nf.10.1.9.1.6.5](sase-1nf.10.1.9.1.6.5.md) | 2026-10-22 08:21:25 EDT |
 | sase--plans | [`sase--plans@8ecd7e0`](https://github.com/sase-org/sase--plans/commit/8ecd7e09ff7c476a7a8126db2d7aa524dc6e0e43) | chore(plans): mark publication blockers acceptance plan done | [sase-1nf.10.1.9.1.6](sase-1nf.10.1.9.1.6.md) | 2026-10-22 08:48:02 EDT |
-| sase--research | [`sase--research@5ca8834`](https://github.com/sase-org/sase--research/commit/5ca8834314d253e69ad67ffea782e42fd637fcd1) | docs(research): record verified four-hour TUI GC measurements | [sase-1nf.13](sase-1nf.13.md) | 2026-10-23 22:34:58 EDT |
+| sase | [`0d11a11`](https://github.com/sase-org/sase/commit/0d11a115dbfda1669ccccca0fe9ba5987807afd3) | feat(ace): skip unchanged AgentList row rendering and Option replacement | [sase-1nf.14.1.4](sase-1nf.14.1.4.md) | 2026-10-24 14:29:00 EDT |
 
 <!-- sase:referenced-by:start -->
 
