@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/v0_18_1_release.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 5 automatic references — see [Referenced By](#referenced-by)._
+_Plus 6 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/v0_18_1_release.md
 
@@ -74,7 +74,7 @@ flowchart TD
     n7["sase-1nn.7: Watch v0.18.1 through ci_watch, Publish, and PyPI with a self-closing monitor [closed]"]
     n8["sase-1nn.8: Finish the sase v0.18.1 release blockers left by sase-1nn and watch it to PyPI [in_progress]"]
     n9["sase-1nn.8.1: Fix the CI-only modal resize wait and the env-dependent perf golden [closed]"]
-    n10["sase-1nn.8.2: Cut sase-core-rs 0.42.3 and raise sase's exact core pin [in_progress]"]
+    n10["sase-1nn.8.2: Cut sase-core-rs 0.42.3 and raise sase's exact core pin [closed]"]
     n11["sase-1nn.8.3: Watch v0.18.1 through ci_watch, Publish, and PyPI with a self-closing monitor [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -111,7 +111,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1nn.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.6/README.md) | [sase-1nn.6](sase-1nn.6.md) | 1 |
 | [bbugyi200.athena.sase-1nn.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nn.7.md) | [sase-1nn.7](sase-1nn.7.md) | 0 |
 | [bbugyi200.athena.sase-1nn.8.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.8.1/README.md) | [sase-1nn.8.1](sase-1nn.8.1.md) | 1 |
-| [bbugyi200.athena.sase-1nn.8.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nn.8.2.md) | [sase-1nn.8.2](sase-1nn.8.2.md) | 0 |
+| [bbugyi200.athena.sase-1nn.8.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nn.8.2.md) | [sase-1nn.8.2](sase-1nn.8.2.md) | 1 |
 | [bbugyi200.athena.sase-1nn.8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.8.3/README.md) | [sase-1nn.8.3](sase-1nn.8.3.md) | 0 |
 | [bbugyi200.athena.sase-1nn.8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.8.land/README.md) | [sase-1nn.8](sase-1nn.8.md) | 0 |
 | [bbugyi200.athena.sase-1nn.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nn.land.md) | [sase-1nn](README.md) | 0 |
@@ -127,6 +127,7 @@ flowchart TD
 | sase | [`bdec291`](https://github.com/sase-org/sase/commit/bdec291c77b0de1aab4c00abecef7430761db736) | fix(ci): treat PYTEST\_ADDOPTS -p values as plugins, not selectors | [sase-1nn.6](sase-1nn.6.md) | 2026-10-23 13:59:55 EDT |
 | sase | [`62c5934`](https://github.com/sase-org/sase/commit/62c5934eb6ba1c30f32805cc30d52ae084d4de5c) | test(tui): stabilize visual snapshot lane | [sase-1nn.5](sase-1nn.5.md) | 2026-10-23 16:40:38 EDT |
 | sase | [`43314db`](https://github.com/sase-org/sase/commit/43314db7ad3b9e90ac8234b38ef5bb20009fef33) | fix(tui): prove screen reflow in resize waits and scrub ambient TUI profiling env | [sase-1nn.8.1](sase-1nn.8.1.md) | 2026-10-23 19:39:34 EDT |
+| sase | [`dd0c6d8`](https://github.com/sase-org/sase/commit/dd0c6d8d191d2c7c099ec939dbec80cd5ceaf06a) | chore(deps): pin sase-core-rs to 0.42.3 | [sase-1nn.8.2](sase-1nn.8.2.md) | 2026-10-23 20:24:14 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -139,11 +140,13 @@ flowchart TD
 | read-by | [agent:research.2a.gem][3] | Check sase-1nn status and what has been done | 1 |
 | read-by | [agent:research.2a.grk][4] | Need current 0.18.1 release-gate epic status because it races E2 cutover | 1 |
 | read-by | [agent:sase-1nn.6][5] | Need sibling phase close notes and epic status before Full CI triage | 1 |
+| read-by | [agent:sase-1nn.8.1][6] | Need grandparent epic scope and decisions | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2a.cld/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2a.final/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2a.gem/README.md
 [4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2a.grk/README.md
 [5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.6/README.md
+[6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.8.1/README.md
 
 <!-- sase:referenced-by:end -->

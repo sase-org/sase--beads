@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/v0_18_1_release_landing.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/v0_18_1_release_landing.md
 
 <!-- sase:links:end -->
@@ -28,3 +30,15 @@ Master Gate and Full CI are green on a tip that contains the custom-gate resize 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1nn.8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.8.land/README.md) | [sase-1nn.8](sase-1nn.8.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1nn.8.1][1] | Need parent epic scope, decisions, plan | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.8.1/README.md
+
+<!-- sase:referenced-by:end -->
