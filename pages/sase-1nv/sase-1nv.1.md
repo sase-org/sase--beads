@@ -15,10 +15,16 @@ gc-closeout: finish sase-1nf.13 under the chosen scope, append the closure and h
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1nv.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nv.1/README.md) | [sase-1nv.1](sase-1nv.1.md) | 1 |
+| [bbugyi200.athena.sase-1nv.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nv.1/README.md) | [sase-1nv.1](sase-1nv.1.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase--research | [`sase--research@8a52879`](https://github.com/sase-org/sase--research/commit/8a52879e709041fd180d151f36d1aa8c164058fa) | docs(research): close out TUI GC measurement handoff | [sase-1nv.1](sase-1nv.1.md) | 2026-10-24 07:12:29 EDT |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1nv.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nv.1/README.md
+
+<!-- sase:referenced-by:end -->
