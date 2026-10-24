@@ -20,7 +20,7 @@ agents-detail: add the AGENT TURN header callout, the [beads] wait-lane and WAVE
 ## Dependencies
 
 - **Depends on:** [sase-1no.3](sase-1no.3.md) ✓ · ⧖ 2026-10-23
-- **Blocks:** [sase-1no.6](sase-1no.6.md) ◐ · ⧖ 2026-10-23
+- **Blocks:** [sase-1no.6](sase-1no.6.md) ✓ · ⧖ 2026-10-23
 
 ## Agents
 

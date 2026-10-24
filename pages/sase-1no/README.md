@@ -31,6 +31,8 @@ An in_progress phase or epic bead that nothing will ever resume can no longer si
 
 [2026-10-24T06:39:39Z · sase-1nn.8.land] DISCOVERED ISSUE from sase-1nn.8.1 note 1, independently verified by sase-1nn.8.land: bb81495765 (sase-1no.3) adds three Help legend rows without updating agents_archive_help_120x40.png. Full CI 40063272183, job 120783473777 at 102c6ee847 reports exactly 52757/1520532 changed pixels; prior Full CI 40054807788 reports the same delta. This blocks the 0.18.1 release. The remaining-work child plan under sase-1nn.8 will repair this golden using deterministic local capture and inspect Archive visibility; do not duplicate that repair. The published-core gap in note 1 is resolved: dd0c6d8d19 pins complete PyPI 0.42.3, tag f726ca1e contains 58aca5fe, and an isolated binding probe passes all 876 bindings.
 
+[2026-10-24T12:55:30Z · sase-1nn.8.4.land] RESOLVED DISCOVERED ISSUE note 2: release integration commit dc2cc11324 (sase-1nn.8.4.1) regenerates agents_archive_help_120x40.png for the three stranded-work Help rows. Phase records 52757/1520532 pixels, local dual-zone exact checks and full clean visual check. Independent land review viewed the committed image and confirmed Archive (read-only) heading and restore footer; both visibility assertions remain. Full CI 40085700689 visual job 120851129789 passes check/clean with 1123 unchanged. Later Beads-pane commit c793bff54b changes Artifacts Help only and its own goldens, with no conflicting Agents Help edit. No duplicate repair needed; this epic remains open. Evidence file:explicit:c12008cebe29a875c6afb8fe.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -40,7 +42,7 @@ An in_progress phase or epic bead that nothing will ever resume can no longer si
 | [sase-1no.3](sase-1no.3.md) | Agents tab rows, clans, waiters, and info strip | ✓ closed | medium | 2026-10-23 | 1 | 1 |
 | [sase-1no.4](sase-1no.4.md) | Agents detail callouts, toast, and query field | ✓ closed | small | 2026-10-23 | 1 | 1 |
 | [sase-1no.5](sase-1no.5.md) | Beads pane stranded badges | ✓ closed | small | 2026-10-23 | 1 | 1 |
-| [sase-1no.6](sase-1no.6.md) | One-keystroke resolution from any flagged row | ◐ in_progress | medium | 2026-10-23 | 1 | 0 |
+| [sase-1no.6](sase-1no.6.md) | One-keystroke resolution from any flagged row | ✓ closed | medium | 2026-10-23 | 1 | 1 |
 
 ## Lineage
 
@@ -52,7 +54,7 @@ flowchart TD
     n3["sase-1no.3: Agents tab rows, clans, waiters, and info strip [closed]"]
     n4["sase-1no.4: Agents detail callouts, toast, and query field [closed]"]
     n5["sase-1no.5: Beads pane stranded badges [closed]"]
-    n6["sase-1no.6: One-keystroke resolution from any flagged row [in_progress]"]
+    n6["sase-1no.6: One-keystroke resolution from any flagged row [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -76,7 +78,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1no.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1no.3/README.md) | [sase-1no.3](sase-1no.3.md) | 1 |
 | [bbugyi200.athena.sase-1no.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1no.4.md) | [sase-1no.4](sase-1no.4.md) | 1 |
 | [bbugyi200.athena.sase-1no.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1no.5.md) | [sase-1no.5](sase-1no.5.md) | 1 |
-| [bbugyi200.athena.sase-1no.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1no.6/README.md) | [sase-1no.6](sase-1no.6.md) | 0 |
+| [bbugyi200.athena.sase-1no.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1no.6.md) | [sase-1no.6](sase-1no.6.md) | 1 |
 | [bbugyi200.athena.sase-1no.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1no.land/README.md) | [sase-1no](README.md) | 0 |
 
 ## Commits
@@ -88,6 +90,7 @@ flowchart TD
 | sase | [`bb81495`](https://github.com/sase-org/sase/commit/bb81495765e9afe676552b285c8e487b1a144814) | feat(agents): show stranded bead work in agent rows | [sase-1no.3](sase-1no.3.md) | 2026-10-23 18:22:50 EDT |
 | sase | [`a7996c3`](https://github.com/sase-org/sase/commit/a7996c3b77d155a9b3449d97b5e79b46b0ddd7f3) | feat(ace): show stranded work in agent details | [sase-1no.4](sase-1no.4.md) | 2026-10-23 20:06:53 EDT |
 | sase | [`c793bff`](https://github.com/sase-org/sase/commit/c793bff54b0382194527c3c422b0416b11d87a1f) | feat(tui): flag stranded work in the Beads pane | [sase-1no.5](sase-1no.5.md) | 2026-10-24 06:53:28 EDT |
+| sase | [`0a1a8ab`](https://github.com/sase-org/sase/commit/0a1a8aba2fa75e3ab72df3d3ec703086d515ecd9) | feat(ace): add stranded Enter resolve modal and PNG goldens (sase-1no.6) | [sase-1no.6](sase-1no.6.md) | 2026-10-24 09:02:38 EDT |
 
 <!-- sase:referenced-by:start -->
 

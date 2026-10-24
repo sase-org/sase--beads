@@ -44,7 +44,7 @@ Prior close: 2026-10-23T22:20:03Z · done.
 ## Dependencies
 
 - **Depends on:** [sase-1no.2](sase-1no.2.md) ✓ · ⧖ 2026-10-23
-- **Blocks:** [sase-1no.6](sase-1no.6.md) ◐ · ⧖ 2026-10-23
+- **Blocks:** [sase-1no.6](sase-1no.6.md) ✓ · ⧖ 2026-10-23
 
 ## Agents
 
@@ -57,3 +57,15 @@ Prior close: 2026-10-23T22:20:03Z · done.
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`c793bff`](https://github.com/sase-org/sase/commit/c793bff54b0382194527c3c422b0416b11d87a1f) | feat(tui): flag stranded work in the Beads pane | [sase-1no.5](sase-1no.5.md) | 2026-10-24 06:53:28 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1no.5--2][1] | Confirm remaining phase scope, design and closure evidence after successful monitor | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1no.5.md
+
+<!-- sase:referenced-by:end -->
