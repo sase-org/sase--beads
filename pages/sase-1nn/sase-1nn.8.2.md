@@ -25,7 +25,7 @@ core-cut: dispatch the guarded sase-core cut for v0.42.3, wait for a complete 0.
 
 ## Dependencies
 
-- **Blocks:** [sase-1nn.8.3](sase-1nn.8.3.md) ◐ · ⧖ 2026-10-23
+- **Blocks:** [sase-1nn.8.3](sase-1nn.8.3.md) ✓ · ⧖ 2026-10-23
 
 ## Agents
 
@@ -38,3 +38,15 @@ core-cut: dispatch the guarded sase-core cut for v0.42.3, wait for a complete 0.
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`dd0c6d8`](https://github.com/sase-org/sase/commit/dd0c6d8d191d2c7c099ec939dbec80cd5ceaf06a) | chore(deps): pin sase-core-rs to 0.42.3 | [sase-1nn.8.2](sase-1nn.8.2.md) | 2026-10-23 20:24:14 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1nn.8.2--2][1] | Confirm this phase closed before final declaration | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nn.8.2.md
+
+<!-- sase:referenced-by:end -->

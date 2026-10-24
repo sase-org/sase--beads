@@ -48,6 +48,8 @@ Follow-up triage:
 - sase-1nn.6#4 (test_owner_cleanup_stops_monitor_child_and_suppresses_followup failed once at -n 8): created sase-1ns (flake, large).
 - Lander-found: Master Gate 39998578927 shard 7 test_existing_typeahead_seeds_finder_query NoMatches, +1 on sase-1mu. Textual 8.2.8 vs 8.0.1 install drift (the root cause of 1), +1 on sase-1cs, which stays open.
 
+[2026-10-24T06:44:34Z · sase-1nn.8.land] CHILD LANDING UPDATE from sase-1nn.8.land: sase-1nn.8 remains open because 0.18.1 is still absent from PyPI and #321 is open. Its implementation and core pin are verified; watcher .8.3 canceled on real Full CI reds. The two remaining deterministic blockers are archive-help PNG drift from bb81495765 and duplicated Python 3.12 stats-help golden lines from 102c6ee847 (new small ci task sase-1nt). Preparing a two-phase child under sase-1nn.8 so repairs commit before the release watch. Full audit and follow-up outcomes are in the new sase-1nn.8 LANDING AUDIT note and file:explicit:8e0989eee98b211b259bfe9b. Resolved env-leak tasks sase-1np and sase-1nq are closed. The future successful lander must recheck and close sase-1nn.8, then this plan, normally and without force.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -75,7 +77,10 @@ flowchart TD
     n8["sase-1nn.8: Finish the sase v0.18.1 release blockers left by sase-1nn and watch it to PyPI [in_progress]"]
     n9["sase-1nn.8.1: Fix the CI-only modal resize wait and the env-dependent perf golden [closed]"]
     n10["sase-1nn.8.2: Cut sase-core-rs 0.42.3 and raise sase's exact core pin [closed]"]
-    n11["sase-1nn.8.3: Watch v0.18.1 through ci_watch, Publish, and PyPI with a self-closing monitor [in_progress]"]
+    n11["sase-1nn.8.3: Watch v0.18.1 through ci_watch, Publish, and PyPI with a self-closing monitor [closed]"]
+    n12["sase-1nn.8.4: Repair the remaining release goldens and publish sase 0.18.1 [in_progress]"]
+    n13["sase-1nn.8.4.1: Repair the Python 3.12 CLI and Archive help goldens [closed]"]
+    n14["sase-1nn.8.4.2: Watch the committed repairs through release gates and PyPI [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -87,6 +92,9 @@ flowchart TD
     n8 --> n9
     n8 --> n10
     n8 --> n11
+    n8 --> n12
+    n12 --> n13
+    n12 --> n14
     n1 -.-> n2
     n2 -.-> n7
     n3 -.-> n6
@@ -97,6 +105,7 @@ flowchart TD
     n6 -.-> n7
     n9 -.-> n11
     n10 -.-> n11
+    n13 -.-> n14
 ```
 
 ## Agents
@@ -112,8 +121,11 @@ flowchart TD
 | [bbugyi200.athena.sase-1nn.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nn.7.md) | [sase-1nn.7](sase-1nn.7.md) | 0 |
 | [bbugyi200.athena.sase-1nn.8.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.8.1/README.md) | [sase-1nn.8.1](sase-1nn.8.1.md) | 1 |
 | [bbugyi200.athena.sase-1nn.8.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nn.8.2.md) | [sase-1nn.8.2](sase-1nn.8.2.md) | 1 |
-| [bbugyi200.athena.sase-1nn.8.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.8.3/README.md) | [sase-1nn.8.3](sase-1nn.8.3.md) | 0 |
-| [bbugyi200.athena.sase-1nn.8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.8.land/README.md) | [sase-1nn.8](sase-1nn.8.md) | 0 |
+| [bbugyi200.athena.sase-1nn.8.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nn.8.3.md) | [sase-1nn.8.3](sase-1nn.8.3.md) | 0 |
+| [bbugyi200.athena.sase-1nn.8.4.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nn.8.4.1.md) | [sase-1nn.8.4.1](sase-1nn.8.4.1.md) | 1 |
+| [bbugyi200.athena.sase-1nn.8.4.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.8.4.2/README.md) | [sase-1nn.8.4.2](sase-1nn.8.4.2.md) | 0 |
+| [bbugyi200.athena.sase-1nn.8.4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.8.4.land/README.md) | [sase-1nn.8.4](sase-1nn.8.4.md) | 0 |
+| [bbugyi200.athena.sase-1nn.8.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nn.8.land.md) | [sase-1nn.8](sase-1nn.8.md) | 0 |
 | [bbugyi200.athena.sase-1nn.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nn.land.md) | [sase-1nn](README.md) | 0 |
 
 ## Commits
@@ -128,6 +140,7 @@ flowchart TD
 | sase | [`62c5934`](https://github.com/sase-org/sase/commit/62c5934eb6ba1c30f32805cc30d52ae084d4de5c) | test(tui): stabilize visual snapshot lane | [sase-1nn.5](sase-1nn.5.md) | 2026-10-23 16:40:38 EDT |
 | sase | [`43314db`](https://github.com/sase-org/sase/commit/43314db7ad3b9e90ac8234b38ef5bb20009fef33) | fix(tui): prove screen reflow in resize waits and scrub ambient TUI profiling env | [sase-1nn.8.1](sase-1nn.8.1.md) | 2026-10-23 19:39:34 EDT |
 | sase | [`dd0c6d8`](https://github.com/sase-org/sase/commit/dd0c6d8d191d2c7c099ec939dbec80cd5ceaf06a) | chore(deps): pin sase-core-rs to 0.42.3 | [sase-1nn.8.2](sase-1nn.8.2.md) | 2026-10-23 20:24:14 EDT |
+| sase | [`dc2cc11`](https://github.com/sase-org/sase/commit/dc2cc11324f6cd3696603ec56e2458f113936ab1) | test(stats): repair Python 3.12 project help and Archive help goldens | [sase-1nn.8.4.1](sase-1nn.8.4.1.md) | 2026-10-24 03:32:15 EDT |
 
 <!-- sase:referenced-by:start -->
 

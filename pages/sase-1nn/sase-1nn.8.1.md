@@ -19,7 +19,7 @@ ci-reds: make the custom-gate sizing resize wait prove the screen reflowed under
 
 ## Dependencies
 
-- **Blocks:** [sase-1nn.8.3](sase-1nn.8.3.md) ◐ · ⧖ 2026-10-23
+- **Blocks:** [sase-1nn.8.3](sase-1nn.8.3.md) ✓ · ⧖ 2026-10-23
 
 ## Agents
 
