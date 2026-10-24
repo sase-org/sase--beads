@@ -20,4 +20,10 @@ interaction-evidence: add attributable perf and prompt-state evidence, consume a
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1nf.14.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.14.1.2/README.md) | [sase-1nf.14.1.2](sase-1nf.14.1.2.md) | 0 |
+| [bbugyi200.athena.sase-1nf.14.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.14.1.2/README.md) | [sase-1nf.14.1.2](sase-1nf.14.1.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`3d70e0a`](https://github.com/sase-org/sase/commit/3d70e0a81b5538d3bc6dd16ca435b89bd7c3c28e) | feat(tui): add freeze-report perf attribution tooling and lifecycle split | [sase-1nf.14.1.2](sase-1nf.14.1.2.md) | 2026-10-24 16:25:23 EDT |
