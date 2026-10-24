@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/publication_blockers_acceptance.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/publication_blockers_acceptance.md
 
@@ -94,8 +94,10 @@ epic-symbols: none.
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1nf.10.1.9.1.6.1][1] | parent epic context for drain-bound | 1 |
 | read-by | [agent:sase-1nf.10.1.9.1.6.5][2] | Review the parent epic, phase evidence, and remaining acceptance scope before doing acceptance work | 1 |
+| read-by | [agent:sase-1nf.10.1.9.1.6.land][3] | Need the epic scope, children, and linked plan file | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.9.1.6.1/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.9.1.6.5/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.9.1.6.land/README.md
 
 <!-- sase:referenced-by:end -->

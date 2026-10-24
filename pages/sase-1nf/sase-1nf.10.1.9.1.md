@@ -20,7 +20,7 @@
 | related | file:explicit:b2ebf67eabeaef7b5e0a1265 | attached via sase artifact create --bead |
 | related | file:explicit:f3576bf6104be8530cc534e2 | attached via sase artifact create --bead |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/publication_recovery_proof.md
 
@@ -62,12 +62,6 @@ Human decision needed:
 
 When resolved, the closeout continues as already written: close sase-1nf.10.1.9.1, set status: done in plan:202610/publication_recovery_proof.md, then close only sase-1nf.10.1.9 with the research reference.
 
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-1nf.10.1.9.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.10.1.9.1.land.md) | [sase-1nf.10.1.9.1](sase-1nf.10.1.9.1.md) | 0 |
-
 <!-- sase:referenced-by:start -->
 
 ## Referenced By
@@ -75,7 +69,9 @@ When resolved, the closeout continues as already written: close sase-1nf.10.1.9.
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1nf.10.1.9.1.6.5][1] | Review required parent epic and phase evidence before final acceptance | 1 |
+| read-by | [agent:sase-1nf.10.1.9.1.6.land][2] | Need the parent link, previous landing note, and descendant state to decide parent closure | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.9.1.6.5/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.9.1.6.land/README.md
 
 <!-- sase:referenced-by:end -->

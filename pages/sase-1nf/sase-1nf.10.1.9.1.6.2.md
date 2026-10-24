@@ -42,8 +42,10 @@ replay-policy: read upstream blobs as bytes in the stale-replay helper, add an o
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1nf.10.1.9.1.6.2][1] | Need the phase scope and design file | 1 |
 | read-by | [agent:sase-1nf.10.1.9.1.6.5][2] | Review the parent epic, phase evidence, and remaining acceptance scope before doing acceptance work | 1 |
+| read-by | [agent:sase-1nf.10.1.9.1.6.land][3] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.9.1.6.2/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.9.1.6.5/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.9.1.6.land/README.md
 
 <!-- sase:referenced-by:end -->

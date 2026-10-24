@@ -30,12 +30,6 @@ completion-proof: run the existing real-Git recovery fixtures and verify a newly
 
 - **Depends on:** [sase-1nf.10.1.9.1.4](sase-1nf.10.1.9.1.4.md) ✓ · ⧖ 2026-10-21
 
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-1nf.10.1.9.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.9.1.5/README.md) | [sase-1nf.10.1.9.1.5](sase-1nf.10.1.9.1.5.md) | 0 |
-
 <!-- sase:referenced-by:start -->
 
 ## Referenced By

@@ -32,7 +32,7 @@
 | related | file:explicit:e2b80a5337eeff574ca1d16e | attached via sase artifact create --bead |
 | related | file:explicit:f1d0549ad3202e2e760a09ca | attached via sase artifact create --bead |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -68,7 +68,9 @@ canaries: run the bounded athena timeout, apollo bob-cli rebase-conflict, and ap
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1nf.10.1.9.1.6.5][1] | Review the parent epic, phase evidence, and remaining acceptance scope before doing acceptance work | 2 |
+| read-by | [agent:sase-1nf.10.1.9.1.6.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.9.1.6.5/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.9.1.6.land/README.md
 
 <!-- sase:referenced-by:end -->

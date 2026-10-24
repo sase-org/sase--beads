@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | related | [bead:sase-1nj][1] | Dud rows consume the bounded drain budget this phase will spend |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-1nj/README.md
 
 <!-- sase:links:end -->
@@ -36,3 +38,15 @@ pub-recover: on both hosts, back up unique unpublished content, retry quarantine
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1nf.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.11/README.md) | [sase-1nf.11](sase-1nf.11.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1nf.10.1.9.1.6.land][1] | Check existing owners for proposed follow-ups (TUI import budget, bulk drain backlog) | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.9.1.6.land/README.md
+
+<!-- sase:referenced-by:end -->

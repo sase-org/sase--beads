@@ -37,12 +37,6 @@ apollo-replay: execute the backup-first stale-replay helper, prove unique conten
 
 - **Blocks:** [sase-1nf.10.1.9.1.2](sase-1nf.10.1.9.1.2.md) ✓ · ⧖ 2026-10-21
 
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-1nf.10.1.9.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.9.1.1/README.md) | [sase-1nf.10.1.9.1.1](sase-1nf.10.1.9.1.1.md) | 0 |
-
 <!-- sase:referenced-by:start -->
 
 ## Referenced By

@@ -17,7 +17,7 @@ gc-instrument: fix tui_freeze_report's startup-row, rotation, and trigger handli
 
 ## Dependencies
 
-- **Blocks:** [sase-1nf.13](sase-1nf.13.md) ○ · ⧖ 2026-10-20
+- **Blocks:** [sase-1nf.13](sase-1nf.13.md) ◐ · ⧖ 2026-10-20
 
 ## Agents
 

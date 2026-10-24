@@ -33,7 +33,7 @@ Apollo's and athena's managed-tmp reaper reclaims dead scratch even with SSH ses
 | [sase-1nf.10](sase-1nf.10.md) | Fix the measured publication failure causes | ◐ in_progress | large | 2026-10-20 | 1 | 0 |
 | [sase-1nf.11](sase-1nf.11.md) | Drain the publication backlog on athena and apollo in bounded batches | ◐ in_progress | medium | 2026-10-20 | 1 | 0 |
 | [sase-1nf.12](sase-1nf.12.md) | GC attribution telemetry and an acceptance-grade freeze report | ✓ closed | medium | 2026-10-20 | 1 | 1 |
-| [sase-1nf.13](sase-1nf.13.md) | Measure and attribute the TUI GC freezes on restarted TUIs | ○ open | medium | 2026-10-20 | 1 | 0 |
+| [sase-1nf.13](sase-1nf.13.md) | Measure and attribute the TUI GC freezes on restarted TUIs | ◐ in_progress | medium | 2026-10-20 | 1 | 1 |
 | [sase-1nf.14](sase-1nf.14.md) | Fix the measured GC freeze causes | ◐ in_progress | large | 2026-10-20 | 1 | 0 |
 | [sase-1nf.2](sase-1nf.2.md) | Truthful managed\_tmp\_reap and disk\_pressure jobs on the new core | ✓ closed | medium | 2026-10-20 | 1 | 1 |
 | [sase-1nf.3](sase-1nf.3.md) | bob-cli tests stop leaking read-only vault fixtures | ✓ closed | small | 2026-10-20 | 1 | 0 |
@@ -75,7 +75,7 @@ flowchart TD
     n24["sase-1nf.10.1.9.1.6.5: Prove fixtures and automatic publication, and publish the acceptance report [closed]"]
     n25["sase-1nf.11: Drain the publication backlog on athena and apollo in bounded batches [in_progress]"]
     n26["sase-1nf.12: GC attribution telemetry and an acceptance-grade freeze report [closed]"]
-    n27["sase-1nf.13: Measure and attribute the TUI GC freezes on restarted TUIs [open]"]
+    n27["sase-1nf.13: Measure and attribute the TUI GC freezes on restarted TUIs [in_progress]"]
     n28["sase-1nf.14: Fix the measured GC freeze causes [in_progress]"]
     n29["sase-1nf.2: Truthful managed_tmp_reap and disk_pressure jobs on the new core [closed]"]
     n30["sase-1nf.3: bob-cli tests stop leaking read-only vault fixtures [closed]"]
@@ -162,22 +162,16 @@ flowchart TD
 | [bbugyi200.athena.sase-1nf.10.1.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.10.1.7.md) | [sase-1nf.10.1.7](sase-1nf.10.1.7.md) | 2 |
 | [bbugyi200.athena.sase-1nf.10.1.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.8/README.md) | [sase-1nf.10.1.8](sase-1nf.10.1.8.md) | 2 |
 | [bbugyi200.athena.sase-1nf.10.1.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.10.1.9.md) | [sase-1nf.10.1.9](sase-1nf.10.1.9.md) | 0 |
-| [bbugyi200.athena.sase-1nf.10.1.9.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.9.1.1/README.md) | [sase-1nf.10.1.9.1.1](sase-1nf.10.1.9.1.1.md) | 0 |
-| [bbugyi200.athena.sase-1nf.10.1.9.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.10.1.9.1.2.md) | [sase-1nf.10.1.9.1.2](sase-1nf.10.1.9.1.2.md) | 0 |
-| [bbugyi200.athena.sase-1nf.10.1.9.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.10.1.9.1.3.md) | [sase-1nf.10.1.9.1.3](sase-1nf.10.1.9.1.3.md) | 0 |
-| [bbugyi200.athena.sase-1nf.10.1.9.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.10.1.9.1.4.md) | [sase-1nf.10.1.9.1.4](sase-1nf.10.1.9.1.4.md) | 0 |
-| [bbugyi200.athena.sase-1nf.10.1.9.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.9.1.5/README.md) | [sase-1nf.10.1.9.1.5](sase-1nf.10.1.9.1.5.md) | 0 |
 | [bbugyi200.athena.sase-1nf.10.1.9.1.6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.9.1.6.1/README.md) | [sase-1nf.10.1.9.1.6.1](sase-1nf.10.1.9.1.6.1.md) | 1 |
 | [bbugyi200.athena.sase-1nf.10.1.9.1.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.9.1.6.2/README.md) | [sase-1nf.10.1.9.1.6.2](sase-1nf.10.1.9.1.6.2.md) | 2 |
 | [bbugyi200.athena.sase-1nf.10.1.9.1.6.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.10.1.9.1.6.3.md) | [sase-1nf.10.1.9.1.6.3](sase-1nf.10.1.9.1.6.3.md) | 0 |
 | [bbugyi200.athena.sase-1nf.10.1.9.1.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.9.1.6.4/README.md) | [sase-1nf.10.1.9.1.6.4](sase-1nf.10.1.9.1.6.4.md) | 0 |
 | [bbugyi200.athena.sase-1nf.10.1.9.1.6.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.9.1.6.5/README.md) | [sase-1nf.10.1.9.1.6.5](sase-1nf.10.1.9.1.6.5.md) | 1 |
 | [bbugyi200.athena.sase-1nf.10.1.9.1.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.9.1.6.land/README.md) | [sase-1nf.10.1.9.1.6](sase-1nf.10.1.9.1.6.md) | 1 |
-| [bbugyi200.athena.sase-1nf.10.1.9.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.10.1.9.1.land.md) | [sase-1nf.10.1.9.1](sase-1nf.10.1.9.1.md) | 0 |
 | [bbugyi200.athena.sase-1nf.10.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.land/README.md) | [sase-1nf.10.1](sase-1nf.10.1.md) | 0 |
 | [bbugyi200.athena.sase-1nf.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.11/README.md) | [sase-1nf.11](sase-1nf.11.md) | 0 |
 | [bbugyi200.athena.sase-1nf.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.12/README.md) | [sase-1nf.12](sase-1nf.12.md) | 1 |
-| [bbugyi200.athena.sase-1nf.13](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.13.md) | [sase-1nf.13](sase-1nf.13.md) | 0 |
+| [bbugyi200.athena.sase-1nf.13](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.13.md) | [sase-1nf.13](sase-1nf.13.md) | 1 |
 | [bbugyi200.athena.sase-1nf.14](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.14/README.md) | [sase-1nf.14](sase-1nf.14.md) | 0 |
 | [bbugyi200.athena.sase-1nf.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.2/README.md) | [sase-1nf.2](sase-1nf.2.md) | 1 |
 | [bbugyi200.athena.sase-1nf.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.3/README.md) | [sase-1nf.3](sase-1nf.3.md) | 0 |
@@ -219,6 +213,7 @@ flowchart TD
 | sase | [`16d63cf`](https://github.com/sase-org/sase/commit/16d63cf9b0a4fc1a4e5c56a4660d2e45348ea0e8) | fix(agents-sync): preserve binary replay changes from merge base | [sase-1nf.10.1.9.1.6.2](sase-1nf.10.1.9.1.6.2.md) | 2026-10-21 12:12:14 EDT |
 | sase--research | [`sase--research@d8c6067`](https://github.com/sase-org/sase--research/commit/d8c60672d0b4b55bb6953f0a17a544959acf573b) | docs(research): publish publication recovery acceptance | [sase-1nf.10.1.9.1.6.5](sase-1nf.10.1.9.1.6.5.md) | 2026-10-22 08:21:25 EDT |
 | sase--plans | [`sase--plans@8ecd7e0`](https://github.com/sase-org/sase--plans/commit/8ecd7e09ff7c476a7a8126db2d7aa524dc6e0e43) | chore(plans): mark publication blockers acceptance plan done | [sase-1nf.10.1.9.1.6](sase-1nf.10.1.9.1.6.md) | 2026-10-22 08:48:02 EDT |
+| sase--research | [`sase--research@5ca8834`](https://github.com/sase-org/sase--research/commit/5ca8834314d253e69ad67ffea782e42fd637fcd1) | docs(research): record verified four-hour TUI GC measurements | [sase-1nf.13](sase-1nf.13.md) | 2026-10-23 22:34:58 EDT |
 
 <!-- sase:referenced-by:start -->
 

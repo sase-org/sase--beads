@@ -33,12 +33,6 @@ apollo-manifest: repair the verified local-owner explicit-list mismatch through 
 - **Depends on:** [sase-1nf.10.1.9.1.1](sase-1nf.10.1.9.1.1.md) ✓ · ⧖ 2026-10-21
 - **Blocks:** [sase-1nf.10.1.9.1.3](sase-1nf.10.1.9.1.3.md) ✓ · ⧖ 2026-10-21
 
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-1nf.10.1.9.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.10.1.9.1.2.md) | [sase-1nf.10.1.9.1.2](sase-1nf.10.1.9.1.2.md) | 0 |
-
 <!-- sase:referenced-by:start -->
 
 ## Referenced By

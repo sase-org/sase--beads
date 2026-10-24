@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | related | file:explicit:2c04408af2441e0bc4710cae | attached via sase artifact create --bead |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -55,7 +55,9 @@ acceptance: rerun the real-Git recovery fixtures, correlate a natural post-insta
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1nf.10.1.9.1.6.5][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:sase-1nf.10.1.9.1.6.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.9.1.6.5/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.9.1.6.land/README.md
 
 <!-- sase:referenced-by:end -->
