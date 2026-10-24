@@ -33,3 +33,15 @@ resolve: add a `stranded` Enter target and a resolve modal offering Continue (a 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`0a1a8ab`](https://github.com/sase-org/sase/commit/0a1a8aba2fa75e3ab72df3d3ec703086d515ecd9) | feat(ace): add stranded Enter resolve modal and PNG goldens (sase-1no.6) | [sase-1no.6](sase-1no.6.md) | 2026-10-24 09:02:38 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1no.6--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1no.6.md
+
+<!-- sase:referenced-by:end -->
