@@ -40,7 +40,9 @@ ci-reds: make the custom-gate sizing resize wait prove the screen reflowed under
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1nn.8.1][1] | Need the phase scope and design file | 3 |
+| read-by | [agent:sase-1nn.8.4.3.2][2] | Need prior resize owner evidence for classifying current Full CI one-off | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.8.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.8.4.3.2/README.md
 
 <!-- sase:referenced-by:end -->

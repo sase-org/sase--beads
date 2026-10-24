@@ -15,7 +15,7 @@ watch: verify the three sibling phases landed, then start one bounded watcher mo
 
 - **Depends on:** [sase-1nn.8.4.3.1](sase-1nn.8.4.3.1.md) ✓ · ⧖ 2026-10-24
 - **Depends on:** [sase-1nn.8.4.3.2](sase-1nn.8.4.3.2.md) ✓ · ⧖ 2026-10-24
-- **Depends on:** [sase-1nn.8.4.3.3](sase-1nn.8.4.3.3.md) ◎ · ⧖ 2026-10-24
+- **Depends on:** [sase-1nn.8.4.3.3](sase-1nn.8.4.3.3.md) ✓ · ⧖ 2026-10-24
 
 ## Agents
 

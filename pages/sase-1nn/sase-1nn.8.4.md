@@ -17,7 +17,7 @@
 | related | [bead:sase-1o4][2] | Observed as a blocking strict visual failure during the approved 0.18.1 release-gate recheck. |
 | related | file:explicit:c12008cebe29a875c6afb8fe | attached via sase artifact create --bead |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/v0_18_1_final_goldens.md
 [2]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-1o4/README.md
@@ -69,8 +69,10 @@ Latest completed Full CI is red. Active Full CI 40122422443 is still running on 
 | --- | --- | --- | ---: |
 | read-by | [agent:13s][1] | Classify bead type of an agent lane that started a wait monitor (zero-weight monitor research) | 1 |
 | read-by | [agent:sase-1nn.8.4.1--1][2] | Need parent epic DECISIONS before closing the goldens phase | 1 |
+| read-by | [agent:sase-1nn.8.4.3.2][3] | Need notes #2 to #4 before working its descendant phase | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.13s/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nn.8.4.1.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.8.4.3.2/README.md
 
 <!-- sase:referenced-by:end -->

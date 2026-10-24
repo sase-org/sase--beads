@@ -32,3 +32,15 @@ gate-tests: add the missing monitor --weight completion metadata and regenerate 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`e788b17`](https://github.com/sase-org/sase/commit/e788b1718a92758732fa043df6b3a09a217cc4b1) | fix(ace): stabilize archive tests and monitor completion hints | [sase-1nn.8.4.3.2](sase-1nn.8.4.3.2.md) | 2026-10-24 17:07:52 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1nn.8.4.3.2][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.8.4.3.2/README.md
+
+<!-- sase:referenced-by:end -->
