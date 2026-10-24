@@ -30,7 +30,7 @@ Both stalled sase-1nf tracks move again without anyone waiting on a question. gc
 | [sase-1nv.1](sase-1nv.1.md) | Close gc-measure and hand its findings to gc-fix | ◐ in_progress | medium | 2026-10-24 | 1 | 0 |
 | [sase-1nv.2](sase-1nv.2.md) | Apollo GitHub pushes authenticate as bbugyi200 | ✓ closed | small | 2026-10-24 | 1 | 0 |
 | [sase-1nv.3](sase-1nv.3.md) | Publication requests name the committed revision | ✓ closed | medium | 2026-10-24 | 1 | 2 |
-| [sase-1nv.4](sase-1nv.4.md) | Explicit repair for existing stale-revision outbox rows | ◐ in_progress | medium | 2026-10-24 | 1 | 0 |
+| [sase-1nv.4](sase-1nv.4.md) | Explicit repair for existing stale-revision outbox rows | ✓ closed | medium | 2026-10-24 | 1 | 1 |
 | [sase-1nv.5](sase-1nv.5.md) | Prove recovery on both hosts and close recovery-proof | ◐ in_progress | medium | 2026-10-24 | 1 | 0 |
 
 ## Lineage
@@ -41,7 +41,7 @@ flowchart TD
     n1["sase-1nv.1: Close gc-measure and hand its findings to gc-fix [in_progress]"]
     n2["sase-1nv.2: Apollo GitHub pushes authenticate as bbugyi200 [closed]"]
     n3["sase-1nv.3: Publication requests name the committed revision [closed]"]
-    n4["sase-1nv.4: Explicit repair for existing stale-revision outbox rows [in_progress]"]
+    n4["sase-1nv.4: Explicit repair for existing stale-revision outbox rows [closed]"]
     n5["sase-1nv.5: Prove recovery on both hosts and close recovery-proof [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -60,7 +60,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1nv.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nv.1/README.md) | [sase-1nv.1](sase-1nv.1.md) | 0 |
 | [bbugyi200.athena.sase-1nv.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nv.2/README.md) | [sase-1nv.2](sase-1nv.2.md) | 0 |
 | [bbugyi200.athena.sase-1nv.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nv.3.md) | [sase-1nv.3](sase-1nv.3.md) | 2 |
-| [bbugyi200.athena.sase-1nv.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nv.4/README.md) | [sase-1nv.4](sase-1nv.4.md) | 0 |
+| [bbugyi200.athena.sase-1nv.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nv.4.md) | [sase-1nv.4](sase-1nv.4.md) | 1 |
 | [bbugyi200.athena.sase-1nv.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nv.5/README.md) | [sase-1nv.5](sase-1nv.5.md) | 0 |
 | [bbugyi200.athena.sase-1nv.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nv.land/README.md) | [sase-1nv](README.md) | 0 |
 
@@ -70,3 +70,4 @@ flowchart TD
 |---|---|---|---|---|
 | sase-core | [`sase-core@e80f08d`](https://github.com/sase-org/sase-core/commit/e80f08dae98224ccc192a569d97fc13177a6d76f) | feat(publication): fulfill linked-scope rows when the page exists | [sase-1nv.3](sase-1nv.3.md) | 2026-10-24 09:22:13 EDT |
 | sase | [`02cd3b3`](https://github.com/sase-org/sase/commit/02cd3b39b64358f37b2fa097f0ebfa1db2960e53) | feat(agents-sync): name publications with the post-commit SHA | [sase-1nv.3](sase-1nv.3.md) | 2026-10-24 09:25:19 EDT |
+| sase-core | [`sase-core@7ec12d2`](https://github.com/sase-org/sase-core/commit/7ec12d2d7ad8e670abe26aa396259a512f330391) | feat(core): classify stale publication requests for revision repair (sase-1nv.4) | [sase-1nv.4](sase-1nv.4.md) | 2026-10-24 11:45:47 EDT |

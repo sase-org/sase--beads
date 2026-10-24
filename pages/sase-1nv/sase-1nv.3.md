@@ -21,7 +21,7 @@ request-revision: record the pre-dispatch HEAD separately, publish with the post
 
 ## Dependencies
 
-- **Blocks:** [sase-1nv.4](sase-1nv.4.md) ◐ · ⧖ 2026-10-24
+- **Blocks:** [sase-1nv.4](sase-1nv.4.md) ✓ · ⧖ 2026-10-24
 
 ## Agents
 
