@@ -33,3 +33,15 @@ agents-detail: add the AGENT TURN header callout, the [beads] wait-lane and WAVE
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`a7996c3`](https://github.com/sase-org/sase/commit/a7996c3b77d155a9b3449d97b5e79b46b0ddd7f3) | feat(ace): show stranded work in agent details | [sase-1no.4](sase-1no.4.md) | 2026-10-23 20:06:53 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1no.4--2][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1no.4.md
+
+<!-- sase:referenced-by:end -->
