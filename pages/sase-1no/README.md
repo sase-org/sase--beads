@@ -108,7 +108,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1no.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1no.4.md) | [sase-1no.4](sase-1no.4.md) | 1 |
 | [bbugyi200.athena.sase-1no.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1no.5.md) | [sase-1no.5](sase-1no.5.md) | 1 |
 | [bbugyi200.athena.sase-1no.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1no.6.md) | [sase-1no.6](sase-1no.6.md) | 1 |
-| [bbugyi200.athena.sase-1no.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1no.land.md) | [sase-1no](README.md) | 1 |
+| [bbugyi200.athena.sase-1no.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1no.land.md) | [sase-1no](README.md) | 2 |
 
 ## Commits
 
@@ -121,6 +121,7 @@ flowchart TD
 | sase | [`c793bff`](https://github.com/sase-org/sase/commit/c793bff54b0382194527c3c422b0416b11d87a1f) | feat(tui): flag stranded work in the Beads pane | [sase-1no.5](sase-1no.5.md) | 2026-10-24 06:53:28 EDT |
 | sase | [`0a1a8ab`](https://github.com/sase-org/sase/commit/0a1a8aba2fa75e3ab72df3d3ec703086d515ecd9) | feat(ace): add stranded Enter resolve modal and PNG goldens (sase-1no.6) | [sase-1no.6](sase-1no.6.md) | 2026-10-24 09:02:38 EDT |
 | sase | [`206bda9`](https://github.com/sase-org/sase/commit/206bda93be1e2f303370bf0d2fcb567b099e8f3d) | feat(ace): finish bead-anchored stranded flags and land sase-1no | [sase-1no](README.md) | 2026-10-24 10:48:02 EDT |
+| sase--plans | [`sase--plans@69e2ff7`](https://github.com/sase-org/sase--plans/commit/69e2ff7d87f24460b0efe50bb118d9084b3ecfea) | docs(plans): mark stranded\_epic\_work as done | [sase-1no](README.md) | 2026-10-24 10:50:39 EDT |
 
 <!-- sase:referenced-by:start -->
 
