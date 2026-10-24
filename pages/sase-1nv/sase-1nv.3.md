@@ -27,10 +27,23 @@ request-revision: record the pre-dispatch HEAD separately, publish with the post
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1nv.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nv.3.md) | [sase-1nv.3](sase-1nv.3.md) | 1 |
+| [bbugyi200.athena.sase-1nv.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nv.3.md) | [sase-1nv.3](sase-1nv.3.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@e80f08d`](https://github.com/sase-org/sase-core/commit/e80f08dae98224ccc192a569d97fc13177a6d76f) | feat(publication): fulfill linked-scope rows when the page exists | [sase-1nv.3](sase-1nv.3.md) | 2026-10-24 09:22:13 EDT |
+| sase | [`02cd3b3`](https://github.com/sase-org/sase/commit/02cd3b39b64358f37b2fa097f0ebfa1db2960e53) | feat(agents-sync): name publications with the post-commit SHA | [sase-1nv.3](sase-1nv.3.md) | 2026-10-24 09:25:19 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1nv.3--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nv.3.md
+
+<!-- sase:referenced-by:end -->
