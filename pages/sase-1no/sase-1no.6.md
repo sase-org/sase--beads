@@ -13,7 +13,7 @@ resolve: add a `stranded` Enter target and a resolve modal offering Continue (a 
 
 ## Dependencies
 
-- **Depends on:** [sase-1no.4](sase-1no.4.md) ◐ · ⧖ 2026-10-23
+- **Depends on:** [sase-1no.4](sase-1no.4.md) ✓ · ⧖ 2026-10-23
 - **Depends on:** [sase-1no.5](sase-1no.5.md) ✓ · ⧖ 2026-10-23
 
 ## Agents

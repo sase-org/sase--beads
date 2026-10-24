@@ -22,7 +22,7 @@ agents-rows: add the off-thread stranded-view cache and its warmup lane. Render 
 ## Dependencies
 
 - **Depends on:** [sase-1no.2](sase-1no.2.md) ✓ · ⧖ 2026-10-23
-- **Blocks:** [sase-1no.4](sase-1no.4.md) ◐ · ⧖ 2026-10-23
+- **Blocks:** [sase-1no.4](sase-1no.4.md) ✓ · ⧖ 2026-10-23
 
 ## Agents
 
@@ -35,3 +35,15 @@ agents-rows: add the off-thread stranded-view cache and its warmup lane. Render 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`bb81495`](https://github.com/sase-org/sase/commit/bb81495765e9afe676552b285c8e487b1a144814) | feat(agents): show stranded bead work in agent rows | [sase-1no.3](sase-1no.3.md) | 2026-10-23 18:22:50 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1no.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1no.3/README.md
+
+<!-- sase:referenced-by:end -->

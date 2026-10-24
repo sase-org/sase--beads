@@ -36,7 +36,7 @@ An in_progress phase or epic bead that nothing will ever resume can no longer si
 | [sase-1no.1](sase-1no.1.md) | Stranded-work reducer in sase-core | ✓ closed | medium | 2026-10-23 | 1 | 1 |
 | [sase-1no.2](sase-1no.2.md) | Python fact collector, facade, presentation vocabulary, and doctor | ✓ closed | medium | 2026-10-23 | 1 | 1 |
 | [sase-1no.3](sase-1no.3.md) | Agents tab rows, clans, waiters, and info strip | ✓ closed | medium | 2026-10-23 | 1 | 1 |
-| [sase-1no.4](sase-1no.4.md) | Agents detail callouts, toast, and query field | ◐ in_progress | small | 2026-10-23 | 1 | 0 |
+| [sase-1no.4](sase-1no.4.md) | Agents detail callouts, toast, and query field | ✓ closed | small | 2026-10-23 | 1 | 1 |
 | [sase-1no.5](sase-1no.5.md) | Beads pane stranded badges | ✓ closed | small | 2026-10-23 | 1 | 0 |
 | [sase-1no.6](sase-1no.6.md) | One-keystroke resolution from any flagged row | ◐ in_progress | medium | 2026-10-23 | 1 | 0 |
 
@@ -48,7 +48,7 @@ flowchart TD
     n1["sase-1no.1: Stranded-work reducer in sase-core [closed]"]
     n2["sase-1no.2: Python fact collector, facade, presentation vocabulary, and doctor [closed]"]
     n3["sase-1no.3: Agents tab rows, clans, waiters, and info strip [closed]"]
-    n4["sase-1no.4: Agents detail callouts, toast, and query field [in_progress]"]
+    n4["sase-1no.4: Agents detail callouts, toast, and query field [closed]"]
     n5["sase-1no.5: Beads pane stranded badges [closed]"]
     n6["sase-1no.6: One-keystroke resolution from any flagged row [in_progress]"]
     n0 --> n1
@@ -72,7 +72,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1no.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1no.1/README.md) | [sase-1no.1](sase-1no.1.md) | 1 |
 | [bbugyi200.athena.sase-1no.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1no.2.md) | [sase-1no.2](sase-1no.2.md) | 1 |
 | [bbugyi200.athena.sase-1no.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1no.3/README.md) | [sase-1no.3](sase-1no.3.md) | 1 |
-| [bbugyi200.athena.sase-1no.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1no.4/README.md) | [sase-1no.4](sase-1no.4.md) | 0 |
+| [bbugyi200.athena.sase-1no.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1no.4.md) | [sase-1no.4](sase-1no.4.md) | 1 |
 | [bbugyi200.athena.sase-1no.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1no.5.md) | [sase-1no.5](sase-1no.5.md) | 0 |
 | [bbugyi200.athena.sase-1no.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1no.6/README.md) | [sase-1no.6](sase-1no.6.md) | 0 |
 | [bbugyi200.athena.sase-1no.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1no.land/README.md) | [sase-1no](README.md) | 0 |
@@ -84,6 +84,7 @@ flowchart TD
 | sase-core | [`sase-core@58aca5f`](https://github.com/sase-org/sase-core/commit/58aca5fe69158286092e3a33685687a52f8d2b8f) | feat(stranded-work): add pure facts-to-verdicts reducer with PyO3 binding | [sase-1no.1](sase-1no.1.md) | 2026-10-23 15:03:40 EDT |
 | sase | [`5d982d2`](https://github.com/sase-org/sase/commit/5d982d2bb9241a5b4e3db8baf38d0cae7ebeb53f) | feat(beads): collect stranded-work facts and doctor WARNING | [sase-1no.2](sase-1no.2.md) | 2026-10-23 17:21:03 EDT |
 | sase | [`bb81495`](https://github.com/sase-org/sase/commit/bb81495765e9afe676552b285c8e487b1a144814) | feat(agents): show stranded bead work in agent rows | [sase-1no.3](sase-1no.3.md) | 2026-10-23 18:22:50 EDT |
+| sase | [`a7996c3`](https://github.com/sase-org/sase/commit/a7996c3b77d155a9b3449d97b5e79b46b0ddd7f3) | feat(ace): show stranded work in agent details | [sase-1no.4](sase-1no.4.md) | 2026-10-23 20:06:53 EDT |
 
 <!-- sase:referenced-by:start -->
 
