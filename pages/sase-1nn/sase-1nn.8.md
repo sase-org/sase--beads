@@ -46,7 +46,7 @@ HANDOFF: authoring a two-phase remaining-work child epic with parent_bead sase-1
 
 ## Dependencies
 
-- **Blocks:** [sase-1nt](../sase-1nt/README.md) ◇ · ⧖ 2026-10-24
+- **Blocks:** [sase-1nt](../sase-1nt/README.md) ✓ · ⧖ 2026-10-24
 
 ## Agents
 

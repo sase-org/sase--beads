@@ -35,10 +35,12 @@ watch: make no repo edits; verify prerequisites, then start one no-follow-up mon
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:research.2a.cld][1] | E3 readiness: sase-1nn status | 1 |
-| read-by | [agent:sase-1nn.6][2] | Need sibling phase close notes and epic status before Full CI triage | 1 |
+| read-by | [agent:13s][1] | Classify bead type of an agent lane that started a wait monitor (zero-weight monitor research) | 1 |
+| read-by | [agent:research.2a.cld][2] | E3 readiness: sase-1nn status | 1 |
+| read-by | [agent:sase-1nn.6][3] | Need sibling phase close notes and epic status before Full CI triage | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2a.cld/README.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.6/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.13s/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2a.cld/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.6/README.md
 
 <!-- sase:referenced-by:end -->

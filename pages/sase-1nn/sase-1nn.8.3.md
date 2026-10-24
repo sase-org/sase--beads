@@ -91,3 +91,15 @@ sase monitor start -C "$PWD" -r 'Watch sase v0.18.1 through ci_watch, Publish, a
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1nn.8.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nn.8.3.md) | [sase-1nn.8.3](sase-1nn.8.3.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:13s][1] | Classify bead type of an agent lane that started a wait monitor (zero-weight monitor research) | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.13s/README.md
+
+<!-- sase:referenced-by:end -->

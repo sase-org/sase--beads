@@ -45,8 +45,10 @@ core-cut: dispatch the guarded sase-core cut for v0.42.3, wait for a complete 0.
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1nn.8.2--2][1] | Confirm this phase closed before final declaration | 2 |
+| read-by | [agent:13s][1] | Classify bead type of an agent lane that started a wait monitor (zero-weight monitor research) | 1 |
+| read-by | [agent:sase-1nn.8.2--2][2] | Confirm this phase closed before final declaration | 2 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nn.8.2.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.13s/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nn.8.2.md
 
 <!-- sase:referenced-by:end -->

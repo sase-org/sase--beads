@@ -23,7 +23,7 @@ goldens: integrate the stats and stranded-work changes by repairing their two de
 
 ## Dependencies
 
-- **Blocks:** [sase-1nn.8.4.2](sase-1nn.8.4.2.md) ◐ · ⧖ 2026-10-24
+- **Blocks:** [sase-1nn.8.4.2](sase-1nn.8.4.2.md) ✓ · ⧖ 2026-10-24
 
 ## Agents
 
@@ -36,3 +36,17 @@ goldens: integrate the stats and stranded-work changes by repairing their two de
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`dc2cc11`](https://github.com/sase-org/sase/commit/dc2cc11324f6cd3696603ec56e2458f113936ab1) | test(stats): repair Python 3.12 project help and Archive help goldens | [sase-1nn.8.4.1](sase-1nn.8.4.1.md) | 2026-10-24 03:32:15 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1nn.8.4.1--1][1] | Need the phase scope, notes, and design before closing | 1 |
+| read-by | [agent:sase-1nv.3--1][2] | Need how a recent phase recorded the identical clean-tree import-budget failure | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nn.8.4.1.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nv.3.md
+
+<!-- sase:referenced-by:end -->

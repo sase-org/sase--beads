@@ -80,7 +80,12 @@ flowchart TD
     n11["sase-1nn.8.3: Watch v0.18.1 through ci_watch, Publish, and PyPI with a self-closing monitor [closed]"]
     n12["sase-1nn.8.4: Repair the remaining release goldens and publish sase 0.18.1 [in_progress]"]
     n13["sase-1nn.8.4.1: Repair the Python 3.12 CLI and Archive help goldens [closed]"]
-    n14["sase-1nn.8.4.2: Watch the committed repairs through release gates and PyPI [in_progress]"]
+    n14["sase-1nn.8.4.2: Watch the committed repairs through release gates and PyPI [closed]"]
+    n15["sase-1nn.8.4.3: Unblock both release gates, cut sase-core 0.42.5, and ship sase v0.18.1 [in_progress]"]
+    n16["sase-1nn.8.4.3.1: Start the sase-core-rs release that contains sase's source pin [closed]"]
+    n17["sase-1nn.8.4.3.2: Repair the Master Gate and Full CI test-lane reds [closed]"]
+    n18["sase-1nn.8.4.3.3: Repair the Full CI visual-test reds [claimed]"]
+    n19["sase-1nn.8.4.3.4: Watch core, release gates, ci_watch, Publish, and PyPI with a self-closing monitor [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -95,6 +100,11 @@ flowchart TD
     n8 --> n12
     n12 --> n13
     n12 --> n14
+    n12 --> n15
+    n15 --> n16
+    n15 --> n17
+    n15 --> n18
+    n15 --> n19
     n1 -.-> n2
     n2 -.-> n7
     n3 -.-> n6
@@ -106,6 +116,9 @@ flowchart TD
     n9 -.-> n11
     n10 -.-> n11
     n13 -.-> n14
+    n16 -.-> n19
+    n17 -.-> n19
+    n18 -.-> n19
 ```
 
 ## Agents
@@ -123,8 +136,13 @@ flowchart TD
 | [bbugyi200.athena.sase-1nn.8.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nn.8.2.md) | [sase-1nn.8.2](sase-1nn.8.2.md) | 1 |
 | [bbugyi200.athena.sase-1nn.8.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nn.8.3.md) | [sase-1nn.8.3](sase-1nn.8.3.md) | 0 |
 | [bbugyi200.athena.sase-1nn.8.4.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nn.8.4.1.md) | [sase-1nn.8.4.1](sase-1nn.8.4.1.md) | 1 |
-| [bbugyi200.athena.sase-1nn.8.4.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.8.4.2/README.md) | [sase-1nn.8.4.2](sase-1nn.8.4.2.md) | 0 |
-| [bbugyi200.athena.sase-1nn.8.4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.8.4.land/README.md) | [sase-1nn.8.4](sase-1nn.8.4.md) | 0 |
+| [bbugyi200.athena.sase-1nn.8.4.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nn.8.4.2.md) | [sase-1nn.8.4.2](sase-1nn.8.4.2.md) | 0 |
+| [bbugyi200.athena.sase-1nn.8.4.3.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nn.8.4.3.1.md) | [sase-1nn.8.4.3.1](sase-1nn.8.4.3.1.md) | 0 |
+| [bbugyi200.athena.sase-1nn.8.4.3.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.8.4.3.2/README.md) | [sase-1nn.8.4.3.2](sase-1nn.8.4.3.2.md) | 1 |
+| [bbugyi200.athena.sase-1nn.8.4.3.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nn.8.4.3.3.md) | [sase-1nn.8.4.3.3](sase-1nn.8.4.3.3.md) | 0 |
+| [bbugyi200.athena.sase-1nn.8.4.3.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.8.4.3.4/README.md) | [sase-1nn.8.4.3.4](sase-1nn.8.4.3.4.md) | 0 |
+| [bbugyi200.athena.sase-1nn.8.4.3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.8.4.3.land/README.md) | [sase-1nn.8.4.3](sase-1nn.8.4.3.md) | 0 |
+| [bbugyi200.athena.sase-1nn.8.4.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nn.8.4.land.md) | [sase-1nn.8.4](sase-1nn.8.4.md) | 0 |
 | [bbugyi200.athena.sase-1nn.8.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nn.8.land.md) | [sase-1nn.8](sase-1nn.8.md) | 0 |
 | [bbugyi200.athena.sase-1nn.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nn.land.md) | [sase-1nn](README.md) | 0 |
 
@@ -141,6 +159,7 @@ flowchart TD
 | sase | [`43314db`](https://github.com/sase-org/sase/commit/43314db7ad3b9e90ac8234b38ef5bb20009fef33) | fix(tui): prove screen reflow in resize waits and scrub ambient TUI profiling env | [sase-1nn.8.1](sase-1nn.8.1.md) | 2026-10-23 19:39:34 EDT |
 | sase | [`dd0c6d8`](https://github.com/sase-org/sase/commit/dd0c6d8d191d2c7c099ec939dbec80cd5ceaf06a) | chore(deps): pin sase-core-rs to 0.42.3 | [sase-1nn.8.2](sase-1nn.8.2.md) | 2026-10-23 20:24:14 EDT |
 | sase | [`dc2cc11`](https://github.com/sase-org/sase/commit/dc2cc11324f6cd3696603ec56e2458f113936ab1) | test(stats): repair Python 3.12 project help and Archive help goldens | [sase-1nn.8.4.1](sase-1nn.8.4.1.md) | 2026-10-24 03:32:15 EDT |
+| sase | [`e788b17`](https://github.com/sase-org/sase/commit/e788b1718a92758732fa043df6b3a09a217cc4b1) | fix(ace): stabilize archive tests and monitor completion hints | [sase-1nn.8.4.3.2](sase-1nn.8.4.3.2.md) | 2026-10-24 17:07:52 EDT |
 
 <!-- sase:referenced-by:start -->
 
