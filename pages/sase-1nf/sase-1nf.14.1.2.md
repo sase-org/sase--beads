@@ -13,7 +13,7 @@ interaction-evidence: add attributable perf and prompt-state evidence, consume a
 
 ## Dependencies
 
-- **Depends on:** [sase-1nf.14.1.1](sase-1nf.14.1.1.md) ◐ · ⧖ 2026-10-24
+- **Depends on:** [sase-1nf.14.1.1](sase-1nf.14.1.1.md) ✓ · ⧖ 2026-10-24
 - **Blocks:** [sase-1nf.14.1.6](sase-1nf.14.1.6.md) ◐ · ⧖ 2026-10-24
 
 ## Agents

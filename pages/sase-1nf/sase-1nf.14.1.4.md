@@ -30,3 +30,15 @@ render-allocation: remove unconditional AgentList row invalidation when complete
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`0d11a11`](https://github.com/sase-org/sase/commit/0d11a115dbfda1669ccccca0fe9ba5987807afd3) | feat(ace): skip unchanged AgentList row rendering and Option replacement | [sase-1nf.14.1.4](sase-1nf.14.1.4.md) | 2026-10-24 14:29:00 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1nf.14.1.4][1] | full phase scope | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.14.1.4/README.md
+
+<!-- sase:referenced-by:end -->

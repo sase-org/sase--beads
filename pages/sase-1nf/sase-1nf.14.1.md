@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/measured_tui_gc_fixes.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/measured_tui_gc_fixes.md
 
 <!-- sase:links:end -->
@@ -28,3 +30,15 @@ Reduce graph and render churn and retained UI caches, preserve quiet-time memory
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1nf.14.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.14.1.land/README.md) | [sase-1nf.14.1](sase-1nf.14.1.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1nf.14.1.4][1] | parent epic scope and decisions | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.14.1.4/README.md
+
+<!-- sase:referenced-by:end -->
