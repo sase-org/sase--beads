@@ -13,7 +13,7 @@ exit: confirm the human handover steps, watch the first real release through the
 
 ## Dependencies
 
-- **Depends on:** [sase-1n6.9](sase-1n6.9.md) ◐ · ⧖ 2026-10-19
+- **Depends on:** [sase-1n6.9](sase-1n6.9.md) ✓ · ⧖ 2026-10-19
 
 ## Agents
 

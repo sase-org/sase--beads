@@ -20,7 +20,7 @@ publish: release.yml uploads only missing files after digest checks, confirms ev
 ## Dependencies
 
 - **Depends on:** [sase-1n6.5](sase-1n6.5.md) ✓ · ⧖ 2026-10-19
-- **Blocks:** [sase-1n6.9](sase-1n6.9.md) ◐ · ⧖ 2026-10-19
+- **Blocks:** [sase-1n6.9](sase-1n6.9.md) ✓ · ⧖ 2026-10-19
 
 ## Agents
 
@@ -45,11 +45,13 @@ publish: release.yml uploads only missing files after digest checks, confirms ev
 | read-by | [agent:research.2a.grk][3] | Need remaining open E2 phase statuses and blockers before designing E3 | 1 |
 | read-by | [agent:research.2a.mus][4] | E3 readiness: remaining E2 phases status | 1 |
 | read-by | [agent:sase-1n6.5.1.4][5] | Need the publish-phase contract that consumes qualify verdict | 1 |
+| read-by | [agent:sase-1n6.6--1][6] | Need the phase scope and design file | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.13d/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2a.cld/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2a.grk/README.md
 [4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2a.mus/README.md
 [5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.4/README.md
+[6]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.6.md
 
 <!-- sase:referenced-by:end -->

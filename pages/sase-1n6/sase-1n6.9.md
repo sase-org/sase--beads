@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1n6](README.md) / sase-1n6.9
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.11y](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.11y.md) · **Assignee:** `sase-1n6.9` · **Size:** medium
-**Created:** 2026-10-19 16:40:09 EDT
+**Created:** 2026-10-19 16:40:09 EDT · **Closed:** 2026-10-25 17:34:03 EDT
 **Plan:** [202610/e2\_release\_train\_steward.md](https://github.com/sase-org/sase--plans/blob/main/202610/e2_release_train_steward.md)
 
 ## Description
@@ -43,6 +43,12 @@ Read-only checks found no release-steward issues and no workflow_dispatch runs f
 
 Landing evidence: sase-core check passed (ToolRun 8a4be3d1be5ee56baa180c72f255fc3e). The primary check (ToolRun 7eaf7837d9cc9d39ea99f2d13c97cfb7) stopped on unrelated full-suite terminal/renderer/TUI failures; the focused 21-test run for those cases passed. The live read-only --once --json result is retained at file:explicit:fb884a84728efd9ed363ab97 (exit 0, core_lag). Existing handover note #1 already records ReleaseFactsReader/ReleaseHealthReader APIs and the obsolete Watching a release documentation that sase-1n6.9 owns.
 
+[2026-10-25T21:33:47Z · sase-1n6.9] Handover done and verified (2026-10-25 UTC). Code: (1) release-please-config.json gains draft:true + force-tag-creation:true. (2) publish.yml keeps only release + sync-release-metadata; build/install-smoke/install-smoke-core-floor/publish jobs and the publish_existing input are gone; steward still dispatches it bare in metadata mode; contract tests rewritten. (3) Steward live: scheduled release-steward.yml ticks pass --live (merges stay gated on RELEASE_STEWARD_MERGE_ENABLED, still unset); manual dispatch stays observe-only unless live=true; new once-daily 09:00-UTC release_metrics block appended to the step summary, informational only. Rust policy already reports releasable with the merge suppressed when authority is off — no Rust change. (4) chezmoi home/dot_config/sase/sase_athena.yml drops sase-org/sase from release_repositories/merge_order/merge_method/gating_workflows/heavy_workflows/heavy_max_age_hours/heavy_dispatch_every_hours (kept in repos; routine description updated) — uncommitted, human applies via gate step 1. (5) Docs: release-train.md gains The steward + steward-report metrics paragraph and the live-schedule wording; release-safety.md gains resume-an-interrupted-train (mode=resume); rust-backend Watching section already current; no stale publish_existing/ratchet_core_window refs in docs/. Verified: sase tool run check 1dd86e123b0ebaa4b1769b252d8465d6 exit 0 (all lint + docs + scoped tests green). Live tools/release_watch --once --json exit 0, state core_cut_red (typed core-side block, unrelated). Rehearse: release.yml mode=rehearse dispatched at master as run 40234446645 (in progress at close; wheel exercise legs failing with the same UPGRADE_NO_INSTALLABLE_PREVIOUS signature as the pre-change 11:33 UTC run 40189365714 — see follow-up). Handover gate custom-69faba44-62d3-42fd-9129-27998a15b021 (notification 1f2301e3-2666-4743-8eb1-506d042a9e73) lists the 4 human steps in order with the landed RELEASE_STEWARD_MERGE_ENABLED name. Prerequisites confirmed: exact-build gate no longer pending with its steps observably done (release.yml publishes via trusted publisher; pypi env has the v* tag rule per gh api: master + v* both present).
+
+[2026-10-25T21:33:54Z · sase-1n6.9] PROPOSED FOLLOW-UP: release.yml rehearse exercise wheel legs fail with UPGRADE_NO_INSTALLABLE_PREVIOUS (no installable PyPI release at or below 0.18.0) on master — reproduced on the pre-change 11:33 UTC run 40189365714 and the handover rehearse run 40234446645 alike; upgrade-from-N-1 probe needs a resolvable floor or a skip rule for the no-previous-release case
+
+[2026-10-25T21:34:03Z · sase-1n6.9] Handover complete: release-please draft+forced tags; publish.yml trimmed to release+metadata sync; steward live on schedule with merge authority off and a once-daily metrics block; ci_watch drops sase releases (chezmoi edit awaiting human apply); docs updated. Verified: sase tool run check exit 0, live --once exit 0 (core_cut_red), rehearse run 40234446645 dispatched (wheel-leg failure matches the pre-change signature, filed as follow-up). Human gate custom-69faba44-62d3-42fd-9129-27998a15b021 raised for the 4 cutover steps.
+
 ## Dependencies
 
 - **Blocks:** [sase-1n6.10](sase-1n6.10.md) ◐ · ⧖ 2026-10-19
@@ -54,7 +60,13 @@ Landing evidence: sase-core check passed (ToolRun 8a4be3d1be5ee56baa180c72f255fc
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1n6.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.9/README.md) | [sase-1n6.9](sase-1n6.9.md) | 0 |
+| [bbugyi200.athena.sase-1n6.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.9/README.md) | [sase-1n6.9](sase-1n6.9.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`ff50879`](https://github.com/sase-org/sase/commit/ff50879f32f4920d2947ee716f614809a755e91e) | feat(release): cut over to release-please with live steward and trimmed publish | [sase-1n6.9](sase-1n6.9.md) | 2026-10-25 17:35:55 EDT |
 
 <!-- sase:referenced-by:start -->
 

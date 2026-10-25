@@ -65,12 +65,6 @@ Follow-ups: all nine di
 
 … and 1922 more characters
 
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-1n6.5.1.5.2.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.5.1.5.2.1.land.md) | [sase-1n6.5.1.5.2.1](sase-1n6.5.1.5.2.1.md) | 0 |
-
 <!-- sase:referenced-by:start -->
 
 ## Referenced By

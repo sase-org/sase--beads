@@ -34,7 +34,7 @@ metrics: a read-only tools/release_metrics derives release-green per SHA and the
 ## Dependencies
 
 - **Depends on:** [sase-1n6.7](sase-1n6.7.md) ✓ · ⧖ 2026-10-19
-- **Blocks:** [sase-1n6.9](sase-1n6.9.md) ◐ · ⧖ 2026-10-19
+- **Blocks:** [sase-1n6.9](sase-1n6.9.md) ✓ · ⧖ 2026-10-19
 
 ## Agents
 

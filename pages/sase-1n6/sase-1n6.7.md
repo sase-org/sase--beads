@@ -26,7 +26,7 @@ The SASE_RELEASE_TOKEN core Actions read probe passed; dispatch write access was
 - **Depends on:** [sase-1n6.2](sase-1n6.2.md) ✓ · ⧖ 2026-10-19
 - **Depends on:** [sase-1n6.3](sase-1n6.3.md) ✓ · ⧖ 2026-10-19
 - **Blocks:** [sase-1n6.8](sase-1n6.8.md) ✓ · ⧖ 2026-10-19
-- **Blocks:** [sase-1n6.9](sase-1n6.9.md) ◐ · ⧖ 2026-10-19
+- **Blocks:** [sase-1n6.9](sase-1n6.9.md) ✓ · ⧖ 2026-10-19
 
 ## Agents
 
