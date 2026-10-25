@@ -30,3 +30,15 @@ docs: document the QUESTIONS section and the question GATE phase in the Agents r
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`113d799`](https://github.com/sase-org/sase/commit/113d799b2c29f0ad49c46bf57ad55876bc5e9856) | docs(questions): document QUESTIONS section and skill sentence | [sase-1o5.6](sase-1o5.6.md) | 2026-10-25 00:03:18 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1o5.6][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1o5.6/README.md
+
+<!-- sase:referenced-by:end -->
