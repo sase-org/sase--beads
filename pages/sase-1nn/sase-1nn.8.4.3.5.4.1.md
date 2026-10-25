@@ -17,7 +17,7 @@ timezone: normalize question model timestamps through the existing configured-ti
 
 ## Dependencies
 
-- **Blocks:** [sase-1nn.8.4.3.5.4.2](sase-1nn.8.4.3.5.4.2.md) ◐ · ⧖ 2026-10-25
+- **Blocks:** [sase-1nn.8.4.3.5.4.2](sase-1nn.8.4.3.5.4.2.md) ✓ · ⧖ 2026-10-25
 
 ## Agents
 
@@ -30,3 +30,15 @@ timezone: normalize question model timestamps through the existing configured-ti
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`abe1bd4`](https://github.com/sase-org/sase/commit/abe1bd456e9b6c23d42750a3bd5348f7d2b5a5be) | fix(questions): normalize question timestamp fallbacks through the configured-time adapter | [sase-1nn.8.4.3.5.4.1](sase-1nn.8.4.3.5.4.1.md) | 2026-10-25 03:59:10 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1nn.8.4.3.5.4.1][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.8.4.3.5.4.1/README.md
+
+<!-- sase:referenced-by:end -->

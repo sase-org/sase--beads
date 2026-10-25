@@ -39,10 +39,12 @@ ci-reds: make the custom-gate sizing resize wait prove the screen reflowed under
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1nn.8.1][1] | Need the phase scope and design file | 3 |
-| read-by | [agent:sase-1nn.8.4.3.2][2] | Need prior resize owner evidence for classifying current Full CI one-off | 1 |
+| read-by | [agent:sase-1n6.5.1.5.2.1.3.1--1][1] | Verify the landed modal resize fix status and whether the issue remains an active blocker | 2 |
+| read-by | [agent:sase-1nn.8.1][2] | Need the phase scope and design file | 3 |
+| read-by | [agent:sase-1nn.8.4.3.2][3] | Need prior resize owner evidence for classifying current Full CI one-off | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.8.1/README.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.8.4.3.2/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.5.1.5.2.1.3.1.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.8.1/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.8.4.3.2/README.md
 
 <!-- sase:referenced-by:end -->

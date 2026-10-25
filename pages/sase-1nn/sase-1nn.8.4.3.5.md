@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1nn.8.4.3](sase-1nn.8.4.3.md) / sase-1nn.8.4.3.5
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-1nn.8.4.3.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nn.8.4.3.land.md) · **Assignee:** `sase-1nn.8.4.3.5.land`
-**Created:** 2026-10-24 22:21:50 EDT
+**Created:** 2026-10-24 22:21:50 EDT · **Closed:** 2026-10-25 13:16:04 EDT
 **Plan:** [202610/v0\_18\_1\_release\_integration.md](https://github.com/sase-org/sase--plans/blob/main/202610/v0_18_1_release_integration.md)
 
 <!-- sase:links:start -->
@@ -49,6 +49,8 @@ Earlier ancestor proposals remain disposed by sase-1nn.8.4.3 note 1; no duplicat
 EVIDENCE: file:explicit:133becdc381754837787779d retains CI excerpts/source/archive audit; file:explicit:c855286573bb6fa4ceb034f1 retains local timezone fail/pass and singleton pass. The additional production fallback reproduction is recorded with exact values above.
 
 sase bead epic-symbols sase-1nn.8.4.3.5 reports none. No tracked product/source/config/golden files changed in this audit; only a scratch plan was authored, so no file-change just check was needed. Remaining work is a two-phase child epic parented here: bounded medium timestamp repair, then medium corrected publication watch after the host commit. A tale cannot prove publication containing its own future commit; this is the necessary phase boundary. Parent closeout is not a child phase. The new lander must retain actual release plus Python 3.12 clean-install evidence, re-evaluate canceled watches through reopen/normal close, retire symbols, close normally, mark plans done, and recheck directly parented plan ancestors. Never force successful nested landing.
+
+[2026-10-25T17:16:04Z · sase-1nn.8.4.3.5.4.land] Landing 2026-10-25 at db31bf43dc: all three direct phases closed (.1 done evidence/archival, .2 done eligible PR337, .3 canceled CORE_LAG at 0.42.5 now superseded by child epic .4 which observed publication). Child epic sase-1nn.8.4.3.5.4 closed done with corrected watcher proof 101/101 (watch file:explicit:c9c67d045dc4ab3914700c7f, wrapper file:explicit:1e0ab9ab99957072dc97bc3c, results file:explicit:0e4a6b022c54bb52b5c89b40). Missed containing-core cut fulfilled: guarded cut 40178573904 merged PR337 at 09:27:30Z, core publication 40180720930 succeeded at tag 7c0a7b8f25 containing pin 3156d11f33; original phase .2 notes preserved. Release proved: PR321 merged 16:19:06Z at db31bf43dc, v0.18.1 published 16:19:51Z, Master Gate 40188728401 and Full CI 40189680772 green on 7423fa8380, Publish 40211137125 all green, PyPI 0.18.1 unyanked with core 0.42.6, fresh 3.12.11 install health ok. Canceled watch .3 left canceled as historical truth (correct CORE_LAG at the time); successful observation belongs to .4.2 done. Follow-ups: .1 notes already routed to sase-1od/sase-1ic; no duplicates. Epic-symbols clean. Drift since child close: none (HEAD still db31bf43dc).
 
 ## Agents
 

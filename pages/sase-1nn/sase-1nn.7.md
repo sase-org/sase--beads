@@ -23,12 +23,6 @@ watch: make no repo edits; verify prerequisites, then start one no-follow-up mon
 - **Depends on:** [sase-1nn.5](sase-1nn.5.md) ✓ · ⧖ 2026-10-23
 - **Depends on:** [sase-1nn.6](sase-1nn.6.md) ✓ · ⧖ 2026-10-23
 
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-1nn.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nn.7.md) | [sase-1nn.7](sase-1nn.7.md) | 0 |
-
 <!-- sase:referenced-by:start -->
 
 ## Referenced By

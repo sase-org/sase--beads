@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1nn.8.4](sase-1nn.8.4.md) / sase-1nn.8.4.3
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.13x](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.13x.md) · **Assignee:** `sase-1nn.8.4.3.land`
-**Created:** 2026-10-24 16:37:48 EDT
+**Created:** 2026-10-24 16:37:48 EDT · **Closed:** 2026-10-25 13:18:53 EDT
 **Plan:** [202610/v0\_18\_1\_release\_unblock.md](https://github.com/sase-org/sase--plans/blob/main/202610/v0_18_1_release_unblock.md)
 
 <!-- sase:links:start -->
@@ -49,6 +49,8 @@ New tasks default to large because causes remain unknown and need planning, not 
 Closed the verified resolved task beads normally: sase-1o4 (deterministic Beads golden), sase-1o3 (autonomy/question contracts), and sase-1mj (Archive readiness/pulse Enter), with the implementation and CI evidence above. This does not close any release epic.
 
 sase bead epic-symbols sase-1nn.8.4.3 lists no entries. No tracked source/golden/config files changed in this audit, so no file-change check was needed. Remaining work is being proposed as a three-phase child epic (integration, independent guarded core cut, bounded publication watch), parent_bead sase-1nn.8.4.3. The release must observe the host-committed repairs on remote CI and PyPI; a single tale cannot wait for its own future commit, so the phases are necessary here. No parent closeout is assigned as a phase. Its lander must retain release/clean-install evidence, close normally, and recheck this epic and plan ancestors; never force successful nested landing.
+
+[2026-10-25T17:18:53Z · sase-1nn.8.4.3.5.4.land] Landing 2026-10-25 at db31bf43dc: all four phases closed (.1 core-cut dispatch, .2 gate repair, .3 visual repair, .4 canceled GATE_RED at 5497b59c now superseded). Child epic sase-1nn.8.4.3.5 closed done with corrected watcher 101/101 (results file:explicit:0e4a6b022c54bb52b5c89b40) and release proof (PR321 merged 16:19:06Z, v0.18.1 published 16:19:51Z, Gate 40188728401 and Full 40189680772 green on 7423fa8380, Publish 40211137125 green, PyPI unyanked, core 0.42.6 contains pin, cut 40178573904/publication 40180720930, fresh install health ok). Canceled watch .4 left canceled as historical truth; successful observation belongs to sase-1nn.8.4.3.5.4.2 done. Epic-symbols clean. Drift: none since child close (HEAD db31bf43dc).
 
 ## Agents
 

@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / sase-1nn
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.137](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.137.md) · **Assignee:** `sase-1nn.land`
-**Created:** 2026-10-23 11:30:05 EDT
+**Created:** 2026-10-23 11:30:05 EDT · **Closed:** 2026-10-25 13:21:59 EDT
 **Plan:** [202610/v0\_18\_1\_release.md](https://github.com/sase-org/sase--plans/blob/main/202610/v0_18_1_release.md)
 
 <!-- sase:links:start -->
@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/v0_18_1_release.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 6 automatic references — see [Referenced By](#referenced-by)._
+_Plus 7 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/v0_18_1_release.md
 
@@ -50,6 +50,8 @@ Follow-up triage:
 
 [2026-10-24T06:44:34Z · sase-1nn.8.land] CHILD LANDING UPDATE from sase-1nn.8.land: sase-1nn.8 remains open because 0.18.1 is still absent from PyPI and #321 is open. Its implementation and core pin are verified; watcher .8.3 canceled on real Full CI reds. The two remaining deterministic blockers are archive-help PNG drift from bb81495765 and duplicated Python 3.12 stats-help golden lines from 102c6ee847 (new small ci task sase-1nt). Preparing a two-phase child under sase-1nn.8 so repairs commit before the release watch. Full audit and follow-up outcomes are in the new sase-1nn.8 LANDING AUDIT note and file:explicit:8e0989eee98b211b259bfe9b. Resolved env-leak tasks sase-1np and sase-1nq are closed. The future successful lander must recheck and close sase-1nn.8, then this plan, normally and without force.
 
+[2026-10-25T17:21:59Z · sase-1nn.8.4.3.5.4.land] Landing 2026-10-25 at db31bf43dc: phases .1-.6 done and .7 canceled watcher-exit superseded; child epic sase-1nn.8 closed done with corrected watcher 101/101 and release proof (PR321 merged 16:19:06Z at db31bf43dc, v0.18.1 published 16:19:51Z, Gate 40188728401/Full 40189680772 green on 7423fa8380, Publish 40211137125 green, PyPI 0.18.1 unyanked with core 0.42.6 contains pin 3156d11f33, cut 40178573904/publication 40180720930, fresh 3.12.11 install health ok). Canceled watch .7 left canceled; successful observation in sase-1nn.8.4.3.5.4.2. Epic-symbols clean. Drift none since child close.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -60,13 +62,13 @@ Follow-up triage:
 | [sase-1nn.4](sase-1nn.4.md) | Make the custom gate modal sizing tests deterministic | ✓ closed | small | 2026-10-23 | 1 | 1 |
 | [sase-1nn.5](sase-1nn.5.md) | Make the visual screenshot check clean on UTC runners | ✓ closed | medium | 2026-10-23 | 1 | 1 |
 | [sase-1nn.6](sase-1nn.6.md) | Run Full CI on the repaired tip and fix every other red | ✓ closed | medium | 2026-10-23 | 1 | 1 |
-| [sase-1nn.7](sase-1nn.7.md) | Watch v0.18.1 through ci\_watch, Publish, and PyPI with a self-closing monitor | ✓ closed | small | 2026-10-23 | 1 | 0 |
+| [sase-1nn.7](sase-1nn.7.md) | Watch v0.18.1 through ci\_watch, Publish, and PyPI with a self-closing monitor | ✓ closed | small | 2026-10-23 | 0 | 0 |
 
 ## Lineage
 
 ```mermaid
 flowchart TD
-    n0["sase-1nn: Green master's release gates and ship sase v0.18.1 to PyPI through ci_watch [in_progress]"]
+    n0["sase-1nn: Green master's release gates and ship sase v0.18.1 to PyPI through ci_watch [closed]"]
     n1["sase-1nn.1: Repair sase-core's release-plz merge filter [closed]"]
     n2["sase-1nn.2: Cut sase-core-rs 0.42.2 and raise sase's exact core pin [closed]"]
     n3["sase-1nn.3: Restore Full CI's build-core job and authenticate release metadata sync [closed]"]
@@ -74,25 +76,25 @@ flowchart TD
     n5["sase-1nn.5: Make the visual screenshot check clean on UTC runners [closed]"]
     n6["sase-1nn.6: Run Full CI on the repaired tip and fix every other red [closed]"]
     n7["sase-1nn.7: Watch v0.18.1 through ci_watch, Publish, and PyPI with a self-closing monitor [closed]"]
-    n8["sase-1nn.8: Finish the sase v0.18.1 release blockers left by sase-1nn and watch it to PyPI [in_progress]"]
+    n8["sase-1nn.8: Finish the sase v0.18.1 release blockers left by sase-1nn and watch it to PyPI [closed]"]
     n9["sase-1nn.8.1: Fix the CI-only modal resize wait and the env-dependent perf golden [closed]"]
     n10["sase-1nn.8.2: Cut sase-core-rs 0.42.3 and raise sase's exact core pin [closed]"]
     n11["sase-1nn.8.3: Watch v0.18.1 through ci_watch, Publish, and PyPI with a self-closing monitor [closed]"]
-    n12["sase-1nn.8.4: Repair the remaining release goldens and publish sase 0.18.1 [in_progress]"]
+    n12["sase-1nn.8.4: Repair the remaining release goldens and publish sase 0.18.1 [closed]"]
     n13["sase-1nn.8.4.1: Repair the Python 3.12 CLI and Archive help goldens [closed]"]
     n14["sase-1nn.8.4.2: Watch the committed repairs through release gates and PyPI [closed]"]
-    n15["sase-1nn.8.4.3: Unblock both release gates, cut sase-core 0.42.5, and ship sase v0.18.1 [in_progress]"]
+    n15["sase-1nn.8.4.3: Unblock both release gates, cut sase-core 0.42.5, and ship sase v0.18.1 [closed]"]
     n16["sase-1nn.8.4.3.1: Start the sase-core-rs release that contains sase's source pin [closed]"]
     n17["sase-1nn.8.4.3.2: Repair the Master Gate and Full CI test-lane reds [closed]"]
     n18["sase-1nn.8.4.3.3: Repair the Full CI visual-test reds [closed]"]
     n19["sase-1nn.8.4.3.4: Watch core, release gates, ci_watch, Publish, and PyPI with a self-closing monitor [closed]"]
-    n20["sase-1nn.8.4.3.5: Integrate the remaining release blockers and publish sase 0.18.1 [in_progress]"]
+    n20["sase-1nn.8.4.3.5: Integrate the remaining release blockers and publish sase 0.18.1 [closed]"]
     n21["sase-1nn.8.4.3.5.1: Repair the current release gate integration failures [closed]"]
     n22["sase-1nn.8.4.3.5.2: Start a containing core release for the current source pin [closed]"]
     n23["sase-1nn.8.4.3.5.3: Observe the committed repairs through publication [closed]"]
-    n24["sase-1nn.8.4.3.5.4: Repair question timezone conversions and finish the 0.18.1 publication watch [in_progress]"]
+    n24["sase-1nn.8.4.3.5.4: Repair question timezone conversions and finish the 0.18.1 publication watch [closed]"]
     n25["sase-1nn.8.4.3.5.4.1: Correct question timestamp fallbacks and fixtures under timezone divergence [closed]"]
-    n26["sase-1nn.8.4.3.5.4.2: Correct the release watcher and observe the committed repair through publication [in_progress]"]
+    n26["sase-1nn.8.4.3.5.4.2: Correct the release watcher and observe the committed repair through publication [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -148,7 +150,6 @@ flowchart TD
 | [bbugyi200.athena.sase-1nn.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.4/README.md) | [sase-1nn.4](sase-1nn.4.md) | 1 |
 | [bbugyi200.athena.sase-1nn.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nn.5.md) | [sase-1nn.5](sase-1nn.5.md) | 1 |
 | [bbugyi200.athena.sase-1nn.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.6/README.md) | [sase-1nn.6](sase-1nn.6.md) | 1 |
-| [bbugyi200.athena.sase-1nn.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nn.7.md) | [sase-1nn.7](sase-1nn.7.md) | 0 |
 | [bbugyi200.athena.sase-1nn.8.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.8.1/README.md) | [sase-1nn.8.1](sase-1nn.8.1.md) | 1 |
 | [bbugyi200.athena.sase-1nn.8.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nn.8.2.md) | [sase-1nn.8.2](sase-1nn.8.2.md) | 1 |
 | [bbugyi200.athena.sase-1nn.8.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nn.8.3.md) | [sase-1nn.8.3](sase-1nn.8.3.md) | 0 |
@@ -162,13 +163,12 @@ flowchart TD
 | [bbugyi200.athena.sase-1nn.8.4.3.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.8.4.3.5.2/README.md) | [sase-1nn.8.4.3.5.2](sase-1nn.8.4.3.5.2.md) | 0 |
 | [bbugyi200.athena.sase-1nn.8.4.3.5.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nn.8.4.3.5.3.md) | [sase-1nn.8.4.3.5.3](sase-1nn.8.4.3.5.3.md) | 0 |
 | [bbugyi200.athena.sase-1nn.8.4.3.5.4.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.8.4.3.5.4.1/README.md) | [sase-1nn.8.4.3.5.4.1](sase-1nn.8.4.3.5.4.1.md) | 1 |
-| [bbugyi200.athena.sase-1nn.8.4.3.5.4.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.8.4.3.5.4.2/README.md) | [sase-1nn.8.4.3.5.4.2](sase-1nn.8.4.3.5.4.2.md) | 0 |
-| [bbugyi200.athena.sase-1nn.8.4.3.5.4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.8.4.3.5.4.land/README.md) | [sase-1nn.8.4.3.5.4](sase-1nn.8.4.3.5.4.md) | 0 |
+| [bbugyi200.athena.sase-1nn.8.4.3.5.4.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nn.8.4.3.5.4.2.md) | [sase-1nn.8.4.3.5.4.2](sase-1nn.8.4.3.5.4.2.md) | 0 |
+| [bbugyi200.athena.sase-1nn.8.4.3.5.4.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nn.8.4.3.5.4.land.md) | [sase-1nn.8.4.3.5.4](sase-1nn.8.4.3.5.4.md) | 1 |
 | [bbugyi200.athena.sase-1nn.8.4.3.5.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nn.8.4.3.5.land.md) | [sase-1nn.8.4.3.5](sase-1nn.8.4.3.5.md) | 0 |
 | [bbugyi200.athena.sase-1nn.8.4.3.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nn.8.4.3.land.md) | [sase-1nn.8.4.3](sase-1nn.8.4.3.md) | 0 |
 | [bbugyi200.athena.sase-1nn.8.4.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nn.8.4.land.md) | [sase-1nn.8.4](sase-1nn.8.4.md) | 0 |
 | [bbugyi200.athena.sase-1nn.8.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nn.8.land.md) | [sase-1nn.8](sase-1nn.8.md) | 0 |
-| [bbugyi200.athena.sase-1nn.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nn.land.md) | [sase-1nn](README.md) | 0 |
 
 ## Commits
 
@@ -187,6 +187,7 @@ flowchart TD
 | sase | [`5e79f64`](https://github.com/sase-org/sase/commit/5e79f6405f263f48fffc2e9f9f59ca34fa2ce23f) | fix(visual): regenerate stranded Beads golden and prove full screenshot check clean | [sase-1nn.8.4.3.3](sase-1nn.8.4.3.3.md) | 2026-10-24 17:14:56 EDT |
 | sase | [`3d13864`](https://github.com/sase-org/sase/commit/3d13864e7632da0911e98ef2ba7e00e669527556) | chore(integrate): archive recovery evidence and remove tracked .sase-evidence | [sase-1nn.8.4.3.5.1](sase-1nn.8.4.3.5.1.md) | 2026-10-24 23:02:56 EDT |
 | sase | [`abe1bd4`](https://github.com/sase-org/sase/commit/abe1bd456e9b6c23d42750a3bd5348f7d2b5a5be) | fix(questions): normalize question timestamp fallbacks through the configured-time adapter | [sase-1nn.8.4.3.5.4.1](sase-1nn.8.4.3.5.4.1.md) | 2026-10-25 03:59:10 EDT |
+| sase--plans | [`sase--plans@3282b15`](https://github.com/sase-org/sase--plans/commit/3282b155dce7c6535cb01ea5a4472e8483719588) | feat(release): land corrected watcher and published 0.18.1 release chain | [sase-1nn.8.4.3.5.4](sase-1nn.8.4.3.5.4.md) | 2026-10-25 13:24:28 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -198,14 +199,16 @@ flowchart TD
 | read-by | [agent:research.2a.final][2] | Check current state of 0.18.1 firefight epic overlapping E3 surfaces | 1 |
 | read-by | [agent:research.2a.gem][3] | Check sase-1nn status and what has been done | 1 |
 | read-by | [agent:research.2a.grk][4] | Need current 0.18.1 release-gate epic status because it races E2 cutover | 1 |
-| read-by | [agent:sase-1nn.6][5] | Need sibling phase close notes and epic status before Full CI triage | 1 |
-| read-by | [agent:sase-1nn.8.1][6] | Need grandparent epic scope and decisions | 1 |
+| read-by | [agent:sase-1n6.5.1.5.2.1.3.1--1][5] | Recheck current modal resize repair owner and status for the dependent deployed proof | 1 |
+| read-by | [agent:sase-1nn.6][6] | Need sibling phase close notes and epic status before Full CI triage | 1 |
+| read-by | [agent:sase-1nn.8.1][7] | Need grandparent epic scope and decisions | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2a.cld/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2a.final/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2a.gem/README.md
 [4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2a.grk/README.md
-[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.6/README.md
-[6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.8.1/README.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.5.1.5.2.1.3.1.md
+[6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.6/README.md
+[7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.8.1/README.md
 
 <!-- sase:referenced-by:end -->

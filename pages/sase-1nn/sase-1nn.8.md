@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1nn](README.md) / sase-1nn.8
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-1nn.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nn.land.md) · **Assignee:** `sase-1nn.8.land`
-**Created:** 2026-10-23 18:32:22 EDT
+**Created:** 2026-10-23 18:32:22 EDT · **Closed:** 2026-10-25 13:21:00 EDT
 **Plan:** [202610/v0\_18\_1\_release\_landing.md](https://github.com/sase-org/sase--plans/blob/main/202610/v0_18_1_release_landing.md)
 
 <!-- sase:links:start -->
@@ -16,7 +16,7 @@
 | implemented-by | [plan:202610/v0_18_1_release_landing.md][1] | derived from the plan's `bead_id:` frontmatter field |
 | related | file:explicit:8e0989eee98b211b259bfe9b | attached via sase artifact create --bead |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/v0_18_1_release_landing.md
 
@@ -44,6 +44,8 @@ Follow-up triage (all PROPOSED FOLLOW-UP entries accounted for):
 
 HANDOFF: authoring a two-phase remaining-work child epic with parent_bead sase-1nn.8: repair the two deterministic goldens, then a self-closing release watch after the repair commit reaches master. This needs separate phases because verification/publication must observe a committed repair; a single tale cannot wait for its own end-of-turn commit. The child lander will verify actual release evidence and resume this epic and then sase-1nn. No source, golden, pin, memory, or Justfile edits were made in this audit turn; no just check-full was run.
 
+[2026-10-25T17:21:00Z · sase-1nn.8.4.3.5.4.land] Landing 2026-10-25 at db31bf43dc: phases .1/.2 done and .3 canceled FULL_CI_RED superseded; child epic sase-1nn.8.4 closed done with corrected watcher 101/101 and release proof (PR321 merged, v0.18.1 published, Gate 40188728401/Full 40189680772 green, Publish 40211137125 green, PyPI unyanked, core 0.42.6 contains pin, cut 40178573904/publication 40180720930, fresh install ok). Canceled watch .3 left canceled; successful observation in sase-1nn.8.4.3.5.4.2. Epic-symbols clean. Drift none.
+
 ## Dependencies
 
 - **Blocks:** [sase-1nt](../sase-1nt/README.md) ✓ · ⧖ 2026-10-24
@@ -60,8 +62,10 @@ HANDOFF: authoring a two-phase remaining-work child epic with parent_bead sase-1
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1nn.8.1][1] | Need parent epic scope, decisions, plan | 1 |
+| read-by | [agent:sase-1n6.5.1.5.2.1.3.1--1][1] | Check the current nested repair phase status and owner for modal resize before deployed qualification | 1 |
+| read-by | [agent:sase-1nn.8.1][2] | Need parent epic scope, decisions, plan | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.8.1/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.5.1.5.2.1.3.1.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.8.1/README.md
 
 <!-- sase:referenced-by:end -->

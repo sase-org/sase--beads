@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1nn.8](sase-1nn.8.md) / sase-1nn.8.4
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-1nn.8.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nn.8.land.md) · **Assignee:** `sase-1nn.8.4.land`
-**Created:** 2026-10-24 02:46:44 EDT
+**Created:** 2026-10-24 02:46:44 EDT · **Closed:** 2026-10-25 13:19:56 EDT
 **Plan:** [202610/v0\_18\_1\_final\_goldens.md](https://github.com/sase-org/sase--plans/blob/main/202610/v0_18_1_final_goldens.md)
 
 <!-- sase:links:start -->
@@ -54,6 +54,8 @@ No tracked sase file edits and no just check-full run. Remaining work is operati
 Full CI 40109539212 completed failure on 2026-10-24T19:30:26Z at SHA 7b1b43755821fb4b6fe9ab8f51d09fcff0e46879. Failed jobs: test 3.12/3.13/3.14 (24/23/23 failures, shared autonomy/question-gate contract mismatch cluster, auto-question response FileNotFoundError; 3.12 also image-modal resize timeout) and visual-test (artifacts_beads_stranded_120x40, 6793/1520532 changed pixels). Same visual mismatch at same SHA in Full CI 40108758095. Corroborated sase-1o3 and filed visual blocker sase-1o4.
 
 Latest completed Full CI is red. Active Full CI 40122422443 is still running on older SHA 0d11a115dbfda1669ccccca0fe9ba5987807afd3; no duplicate dispatched. PR 321 is OPEN at ce94fbdb0693d235bc6d6ba9832d62dd54dbd2ce, base 4d5fe3ff5a3fb6b080e423ff8bcbee519c2d051e; required core-floor smoke 40118610787 fails because PyPI sase-core-rs 0.42.3 lacks autonomy_effective_record and classify_stale_publication_request (2/879). Latest published core is 0.42.4; sase 0.18.1 is HTTP 404. Publish 40118535862 failed metadata reconciliation because pin 7ec12d2 has no complete published core release; build/install/core-floor/publish jobs skipped. Cutover sase-1n6.9 and dependency sase-1n6.6 remain IN_PROGRESS. Leave release epics and canceled watch phase unchanged; do not hand-merge, dispatch release.yml, or run the live steward.
+
+[2026-10-25T17:19:56Z · sase-1nn.8.4.3.5.4.land] Landing 2026-10-25 at db31bf43dc: phases .1 goldens done and .2 canceled FULL_CI_RED superseded; child epic sase-1nn.8.4.3 closed done with corrected watcher 101/101 and release proof (PR321 merged, v0.18.1 published, Gate 40188728401/Full 40189680772 green, Publish 40211137125 green, PyPI unyanked, core 0.42.6 contains pin, cut 40178573904/publication 40180720930, fresh install ok). Canceled watch .2 left canceled as historical truth; successful observation in sase-1nn.8.4.3.5.4.2. Epic-symbols clean. Drift none.
 
 ## Agents
 
