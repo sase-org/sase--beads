@@ -17,6 +17,8 @@
 | related | file:explicit:57fd79de8bb8e8659718a4cd | attached via sase artifact create --bead |
 | related | file:explicit:eca15519850917b7992759fe | attached via sase artifact create --bead |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/v0_18_1_release_unblock.md
 
 <!-- sase:links:end -->
@@ -53,3 +55,15 @@ sase bead epic-symbols sase-1nn.8.4.3 lists no entries. No tracked source/golden
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1nn.8.4.3.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nn.8.4.3.land.md) | [sase-1nn.8.4.3](sase-1nn.8.4.3.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1o5.land][1] | Check whether the release lander resolved the sase-1o5 core pin/CORE_LAG and stale epic-symbol issue | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1o5.land/README.md
+
+<!-- sase:referenced-by:end -->

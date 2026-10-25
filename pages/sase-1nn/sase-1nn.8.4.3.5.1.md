@@ -27,7 +27,7 @@ integrate: preserve recovery evidence outside tracked source, remove stale Symvi
 
 ## Dependencies
 
-- **Blocks:** [sase-1nn.8.4.3.5.3](sase-1nn.8.4.3.5.3.md) ◐ · ⧖ 2026-10-24
+- **Blocks:** [sase-1nn.8.4.3.5.3](sase-1nn.8.4.3.5.3.md) ✓ · ⧖ 2026-10-24
 
 ## Agents
 
@@ -40,3 +40,15 @@ integrate: preserve recovery evidence outside tracked source, remove stale Symvi
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`3d13864`](https://github.com/sase-org/sase/commit/3d13864e7632da0911e98ef2ba7e00e669527556) | chore(integrate): archive recovery evidence and remove tracked .sase-evidence | [sase-1nn.8.4.3.5.1](sase-1nn.8.4.3.5.1.md) | 2026-10-24 23:02:56 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1nn.8.4.3.5.1--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nn.8.4.3.5.1.md
+
+<!-- sase:referenced-by:end -->

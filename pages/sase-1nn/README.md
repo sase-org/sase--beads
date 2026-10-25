@@ -89,7 +89,10 @@ flowchart TD
     n20["sase-1nn.8.4.3.5: Integrate the remaining release blockers and publish sase 0.18.1 [in_progress]"]
     n21["sase-1nn.8.4.3.5.1: Repair the current release gate integration failures [closed]"]
     n22["sase-1nn.8.4.3.5.2: Start a containing core release for the current source pin [closed]"]
-    n23["sase-1nn.8.4.3.5.3: Observe the committed repairs through publication [in_progress]"]
+    n23["sase-1nn.8.4.3.5.3: Observe the committed repairs through publication [closed]"]
+    n24["sase-1nn.8.4.3.5.4: Repair question timezone conversions and finish the 0.18.1 publication watch [in_progress]"]
+    n25["sase-1nn.8.4.3.5.4.1: Correct question timestamp fallbacks and fixtures under timezone divergence [closed]"]
+    n26["sase-1nn.8.4.3.5.4.2: Correct the release watcher and observe the committed repair through publication [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -113,6 +116,9 @@ flowchart TD
     n20 --> n21
     n20 --> n22
     n20 --> n23
+    n20 --> n24
+    n24 --> n25
+    n24 --> n26
     n1 -.-> n2
     n2 -.-> n7
     n3 -.-> n6
@@ -129,6 +135,7 @@ flowchart TD
     n18 -.-> n19
     n21 -.-> n23
     n22 -.-> n23
+    n25 -.-> n26
 ```
 
 ## Agents
@@ -153,8 +160,11 @@ flowchart TD
 | [bbugyi200.athena.sase-1nn.8.4.3.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nn.8.4.3.4.md) | [sase-1nn.8.4.3.4](sase-1nn.8.4.3.4.md) | 0 |
 | [bbugyi200.athena.sase-1nn.8.4.3.5.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nn.8.4.3.5.1.md) | [sase-1nn.8.4.3.5.1](sase-1nn.8.4.3.5.1.md) | 1 |
 | [bbugyi200.athena.sase-1nn.8.4.3.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.8.4.3.5.2/README.md) | [sase-1nn.8.4.3.5.2](sase-1nn.8.4.3.5.2.md) | 0 |
-| [bbugyi200.athena.sase-1nn.8.4.3.5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.8.4.3.5.3/README.md) | [sase-1nn.8.4.3.5.3](sase-1nn.8.4.3.5.3.md) | 0 |
-| [bbugyi200.athena.sase-1nn.8.4.3.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.8.4.3.5.land/README.md) | [sase-1nn.8.4.3.5](sase-1nn.8.4.3.5.md) | 0 |
+| [bbugyi200.athena.sase-1nn.8.4.3.5.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nn.8.4.3.5.3.md) | [sase-1nn.8.4.3.5.3](sase-1nn.8.4.3.5.3.md) | 0 |
+| [bbugyi200.athena.sase-1nn.8.4.3.5.4.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.8.4.3.5.4.1/README.md) | [sase-1nn.8.4.3.5.4.1](sase-1nn.8.4.3.5.4.1.md) | 1 |
+| [bbugyi200.athena.sase-1nn.8.4.3.5.4.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.8.4.3.5.4.2/README.md) | [sase-1nn.8.4.3.5.4.2](sase-1nn.8.4.3.5.4.2.md) | 0 |
+| [bbugyi200.athena.sase-1nn.8.4.3.5.4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.8.4.3.5.4.land/README.md) | [sase-1nn.8.4.3.5.4](sase-1nn.8.4.3.5.4.md) | 0 |
+| [bbugyi200.athena.sase-1nn.8.4.3.5.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nn.8.4.3.5.land.md) | [sase-1nn.8.4.3.5](sase-1nn.8.4.3.5.md) | 0 |
 | [bbugyi200.athena.sase-1nn.8.4.3.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nn.8.4.3.land.md) | [sase-1nn.8.4.3](sase-1nn.8.4.3.md) | 0 |
 | [bbugyi200.athena.sase-1nn.8.4.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nn.8.4.land.md) | [sase-1nn.8.4](sase-1nn.8.4.md) | 0 |
 | [bbugyi200.athena.sase-1nn.8.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nn.8.land.md) | [sase-1nn.8](sase-1nn.8.md) | 0 |
@@ -176,6 +186,7 @@ flowchart TD
 | sase | [`e788b17`](https://github.com/sase-org/sase/commit/e788b1718a92758732fa043df6b3a09a217cc4b1) | fix(ace): stabilize archive tests and monitor completion hints | [sase-1nn.8.4.3.2](sase-1nn.8.4.3.2.md) | 2026-10-24 17:07:52 EDT |
 | sase | [`5e79f64`](https://github.com/sase-org/sase/commit/5e79f6405f263f48fffc2e9f9f59ca34fa2ce23f) | fix(visual): regenerate stranded Beads golden and prove full screenshot check clean | [sase-1nn.8.4.3.3](sase-1nn.8.4.3.3.md) | 2026-10-24 17:14:56 EDT |
 | sase | [`3d13864`](https://github.com/sase-org/sase/commit/3d13864e7632da0911e98ef2ba7e00e669527556) | chore(integrate): archive recovery evidence and remove tracked .sase-evidence | [sase-1nn.8.4.3.5.1](sase-1nn.8.4.3.5.1.md) | 2026-10-24 23:02:56 EDT |
+| sase | [`abe1bd4`](https://github.com/sase-org/sase/commit/abe1bd456e9b6c23d42750a3bd5348f7d2b5a5be) | fix(questions): normalize question timestamp fallbacks through the configured-time adapter | [sase-1nn.8.4.3.5.4.1](sase-1nn.8.4.3.5.4.1.md) | 2026-10-25 03:59:10 EDT |
 
 <!-- sase:referenced-by:start -->
 

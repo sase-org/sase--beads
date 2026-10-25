@@ -19,7 +19,7 @@ core-cut: re-inventory published core and active cuts, dispatch the guarded rele
 
 ## Dependencies
 
-- **Blocks:** [sase-1nn.8.4.3.5.3](sase-1nn.8.4.3.5.3.md) ◐ · ⧖ 2026-10-24
+- **Blocks:** [sase-1nn.8.4.3.5.3](sase-1nn.8.4.3.5.3.md) ✓ · ⧖ 2026-10-24
 
 ## Agents
 
