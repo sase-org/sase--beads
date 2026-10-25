@@ -13,7 +13,7 @@ lane: add in-memory scoping of question gate rows for container, asking turn, an
 
 ## Dependencies
 
-- **Depends on:** [sase-1o5.2](sase-1o5.2.md) ○ · ⧖ 2026-10-24
+- **Depends on:** [sase-1o5.2](sase-1o5.2.md) ✓ · ⧖ 2026-10-24
 - **Blocks:** [sase-1o5.5](sase-1o5.5.md) ◐ · ⧖ 2026-10-24
 
 ## Agents
