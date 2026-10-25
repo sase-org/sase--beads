@@ -31,8 +31,8 @@ Selecting an agent session, the turn that asked, or a question gate turn on the 
 |---|---|---|---|---|---:|---:|
 | [sase-1o5.1](sase-1o5.1.md) | Fix the two latent shared question bugs | ✓ closed | small | 2026-10-24 | 1 | 1 |
 | [sase-1o5.2](sase-1o5.2.md) | Core question-round projection, binding, and Python read model | ✓ closed | medium | 2026-10-24 | 1 | 2 |
-| [sase-1o5.3](sase-1o5.3.md) | Rich presenter and GATE-phase swap for question gates | ◐ in_progress | medium | 2026-10-24 | 1 | 0 |
-| [sase-1o5.4](sase-1o5.4.md) | Question-round scoping and the questions summary lane | ◐ in_progress | medium | 2026-10-24 | 1 | 0 |
+| [sase-1o5.3](sase-1o5.3.md) | Rich presenter and GATE-phase swap for question gates | ✓ closed | medium | 2026-10-24 | 1 | 1 |
+| [sase-1o5.4](sase-1o5.4.md) | Question-round scoping and the questions summary lane | ○ open | medium | 2026-10-24 | 1 | 0 |
 | [sase-1o5.5](sase-1o5.5.md) | Mount the QUESTIONS section on the Context card | ◐ in_progress | medium | 2026-10-24 | 1 | 0 |
 | [sase-1o5.6](sase-1o5.6.md) | Reference docs and the questions skill sentence | ◐ in_progress | small | 2026-10-24 | 1 | 0 |
 
@@ -43,8 +43,8 @@ flowchart TD
     n0["sase-1o5: Questions and answers on the Agents Main deck [in_progress]"]
     n1["sase-1o5.1: Fix the two latent shared question bugs [closed]"]
     n2["sase-1o5.2: Core question-round projection, binding, and Python read model [closed]"]
-    n3["sase-1o5.3: Rich presenter and GATE-phase swap for question gates [in_progress]"]
-    n4["sase-1o5.4: Question-round scoping and the questions summary lane [in_progress]"]
+    n3["sase-1o5.3: Rich presenter and GATE-phase swap for question gates [closed]"]
+    n4["sase-1o5.4: Question-round scoping and the questions summary lane [open]"]
     n5["sase-1o5.5: Mount the QUESTIONS section on the Context card [in_progress]"]
     n6["sase-1o5.6: Reference docs and the questions skill sentence [in_progress]"]
     n0 --> n1
@@ -66,8 +66,8 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-1o5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1o5.1/README.md) | [sase-1o5.1](sase-1o5.1.md) | 1 |
 | [bbugyi200.athena.sase-1o5.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1o5.2.md) | [sase-1o5.2](sase-1o5.2.md) | 2 |
-| [bbugyi200.athena.sase-1o5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1o5.3/README.md) | [sase-1o5.3](sase-1o5.3.md) | 0 |
-| [bbugyi200.athena.sase-1o5.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1o5.4/README.md) | [sase-1o5.4](sase-1o5.4.md) | 0 |
+| [bbugyi200.athena.sase-1o5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1o5.3/README.md) | [sase-1o5.3](sase-1o5.3.md) | 1 |
+| [bbugyi200.athena.sase-1o5.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1o5.4.md) | [sase-1o5.4](sase-1o5.4.md) | 0 |
 | [bbugyi200.athena.sase-1o5.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1o5.5/README.md) | [sase-1o5.5](sase-1o5.5.md) | 0 |
 | [bbugyi200.athena.sase-1o5.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1o5.6/README.md) | [sase-1o5.6](sase-1o5.6.md) | 0 |
 | [bbugyi200.athena.sase-1o5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1o5.land/README.md) | [sase-1o5](README.md) | 0 |
@@ -79,6 +79,7 @@ flowchart TD
 | sase | [`b76183e`](https://github.com/sase-org/sase/commit/b76183e9382941b325c46be867f71089b7bc8127) | fix(gates): render free-text answers and park option-less auto rounds as manual gates | [sase-1o5.1](sase-1o5.1.md) | 2026-10-24 20:14:43 EDT |
 | sase-core | [`sase-core@3156d11`](https://github.com/sase-org/sase-core/commit/3156d11f33d5a5277ff806a78b92a9490f78d6be) | feat(question-round): add pure question\_round projection and project binding | [sase-1o5.2](sase-1o5.2.md) | 2026-10-24 21:03:41 EDT |
 | sase | [`5497b59`](https://github.com/sase-org/sase/commit/5497b59c5ddac82c20cf92bd0f63394a1f5e2d82) | feat(questions): add question-round facade, projection loader, and core binding validation | [sase-1o5.2](sase-1o5.2.md) | 2026-10-24 21:06:42 EDT |
+| sase | [`393430d`](https://github.com/sase-org/sase/commit/393430da551e6a981ebb0e3cf0f821eb2bf8cc60) | feat(ace): rich text presenter for question gates with GATE-phase swap | [sase-1o5.3](sase-1o5.3.md) | 2026-10-24 22:14:40 EDT |
 
 <!-- sase:referenced-by:start -->
 

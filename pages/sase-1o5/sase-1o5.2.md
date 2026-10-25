@@ -19,8 +19,8 @@ core-projection: add the pure sase_core question_round projection and its projec
 
 ## Dependencies
 
-- **Blocks:** [sase-1o5.3](sase-1o5.3.md) ◐ · ⧖ 2026-10-24
-- **Blocks:** [sase-1o5.4](sase-1o5.4.md) ◐ · ⧖ 2026-10-24
+- **Blocks:** [sase-1o5.3](sase-1o5.3.md) ✓ · ⧖ 2026-10-24
+- **Blocks:** [sase-1o5.4](sase-1o5.4.md) ○ · ⧖ 2026-10-24
 
 ## Agents
 
