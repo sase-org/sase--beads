@@ -22,7 +22,7 @@ presenter: build the pure Rich Text presenter for question rounds and replace th
 ## Dependencies
 
 - **Depends on:** [sase-1o5.2](sase-1o5.2.md) ✓ · ⧖ 2026-10-24
-- **Blocks:** [sase-1o5.5](sase-1o5.5.md) ◐ · ⧖ 2026-10-24
+- **Blocks:** [sase-1o5.5](sase-1o5.5.md) ✓ · ⧖ 2026-10-24
 
 ## Agents
 

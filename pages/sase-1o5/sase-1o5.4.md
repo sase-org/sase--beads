@@ -22,7 +22,7 @@ lane: add in-memory scoping of question gate rows for container, asking turn, an
 ## Dependencies
 
 - **Depends on:** [sase-1o5.2](sase-1o5.2.md) ✓ · ⧖ 2026-10-24
-- **Blocks:** [sase-1o5.5](sase-1o5.5.md) ◐ · ⧖ 2026-10-24
+- **Blocks:** [sase-1o5.5](sase-1o5.5.md) ✓ · ⧖ 2026-10-24
 
 ## Agents
 
@@ -35,3 +35,15 @@ lane: add in-memory scoping of question gate rows for container, asking turn, an
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`518717c`](https://github.com/sase-org/sase/commit/518717cdaca4b05ed19427ceab4371987c60d16f) | feat(questions): add question-round scoping and questions summary lane | [sase-1o5.4](sase-1o5.4.md) | 2026-10-24 22:42:58 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1o5.4--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1o5.4.md
+
+<!-- sase:referenced-by:end -->

@@ -38,7 +38,9 @@ qa-bugs: stop build_merged_qa_markdown from dropping free-text answers and comme
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1o5.1][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1o5.4--1][2] | Need macro terminology tracking bead reference | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1o5.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1o5.4.md
 
 <!-- sase:referenced-by:end -->

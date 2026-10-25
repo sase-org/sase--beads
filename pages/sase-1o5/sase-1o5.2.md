@@ -42,7 +42,9 @@ core-projection: add the pure sase_core question_round projection and its projec
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1o5.2--2][1] | check notes before close | 3 |
+| read-by | [agent:sase-1o5.4--1][2] | Need prior phase follow-up note for macro terminology witness | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1o5.2.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1o5.4.md
 
 <!-- sase:referenced-by:end -->

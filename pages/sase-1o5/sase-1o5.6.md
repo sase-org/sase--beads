@@ -13,7 +13,7 @@ docs: document the QUESTIONS section and the question GATE phase in the Agents r
 
 ## Dependencies
 
-- **Depends on:** [sase-1o5.5](sase-1o5.5.md) ◐ · ⧖ 2026-10-24
+- **Depends on:** [sase-1o5.5](sase-1o5.5.md) ✓ · ⧖ 2026-10-24
 
 ## Agents
 
