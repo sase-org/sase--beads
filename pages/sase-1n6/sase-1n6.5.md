@@ -75,6 +75,7 @@ Outer DISCOVERED ISSUE #1 on sase-1n6 REMAINS OPEN. Published v0.42.2 independen
 | read-by | [agent:sase-1n6.5.1.1][5] | Need parent-phase notes and inherited qualification decisions | 1 |
 | read-by | [agent:sase-1n6.5.1.4][6] | Need epic DECISIONS and land context | 1 |
 | read-by | [agent:sase-1n6.5.1.5.2][7] | Need outer release-train phase live-acceptance requirements | 1 |
+| read-by | [agent:sase-1n6.5.1.5.2.1.2--1][8] | Need inherited proof acceptance, repairs, and outer issue ownership | 1 |
 | read-by | [agent:sase-1n6.5.1.5.2.1.2--3][8] | Record current published-core containment blocker on the outer qualification phase | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.13d/README.md

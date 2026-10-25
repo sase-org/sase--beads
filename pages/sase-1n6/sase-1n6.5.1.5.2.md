@@ -47,7 +47,7 @@ LIVE ACCEPTANCE UNMET: green lint and test 3.12 passed; test 3.13/3.14 failed th
 
 After the repair lands and unrelated blocking tests are addressed: fetch master, verify repair ancestry and current core completeness/containment, choose the nearest older incompatible probe if the pin changed, and ensure no release run is pending. Dispatch back-to-back `gh workflow run relea
 
-… and 2246 more characters
+… and 3145 more characters
 
 ## Dependencies
 
@@ -73,6 +73,7 @@ After the repair lands and unrelated blocking tests are addressed: fetch master,
 | --- | --- | --- | ---: |
 | read-by | [agent:13d][1] | Research which agents stalled the sase-1n6 epic: nested repair/proof epics | 1 |
 | read-by | [agent:sase-1n6.5.1.5.2][2] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1n6.5.1.5.2.1.2--1][3] | Need inherited proof acceptance, repairs, and outer issue ownership | 1 |
 | read-by | [agent:sase-1n6.5.1.5.2.1.2--3][3] | Record the fresh deployed-proof retry blocker on the parent handoff | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.13d/README.md

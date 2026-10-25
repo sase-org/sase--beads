@@ -17,7 +17,7 @@
 | related | file:explicit:9fefc427867bf5b0dffffea4 | attached via sase artifact create --bead |
 | related | file:explicit:fb884a84728efd9ed363ab97 | attached via sase artifact create --bead |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/release_steward_observe.md
 
@@ -60,12 +60,14 @@ Epic-symbols for sase-1n6.7.1 and sase-1n6.7: none.
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1n6.7.1.1][1] | Need parent epic DECISIONS and full design context | 1 |
-| read-by | [agent:sase-1n6.7.1.3][2] | parent epic decisions and design | 2 |
-| read-by | [agent:sase-1n6.7.1.4--1][3] | Need epic decisions and scope for this phase | 2 |
+| read-by | [agent:13s][1] | Classify bead type of an agent lane that started a wait monitor (zero-weight monitor research) | 1 |
+| read-by | [agent:sase-1n6.7.1.1][2] | Need parent epic DECISIONS and full design context | 1 |
+| read-by | [agent:sase-1n6.7.1.3][3] | parent epic decisions and design | 2 |
+| read-by | [agent:sase-1n6.7.1.4--1][4] | Need epic decisions and scope for this phase | 2 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.7.1.1/README.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.7.1.3/README.md
-[3]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.7.1.4.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.13s/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.7.1.1/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.7.1.3/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.7.1.4.md
 
 <!-- sase:referenced-by:end -->

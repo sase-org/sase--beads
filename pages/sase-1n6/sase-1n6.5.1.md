@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/published_core_qualification.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 7 automatic references — see [Referenced By](#referenced-by)._
+_Plus 8 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/published_core_qualification.md
 
@@ -73,6 +73,7 @@ LIVE ACCEPTANCE UNMET: green lint and test 3.12 passed; test 3.13/3.14 failed th
 | read-by | [agent:sase-1n6.5.1.3][4] | Need parent epic DECISIONS and remaining phases | 1 |
 | read-by | [agent:sase-1n6.5.1.4][5] | Need epic DECISIONS and land context | 1 |
 | read-by | [agent:sase-1n6.5.1.5.2][6] | Need original qualification landing notes and remaining live proofs | 1 |
+| read-by | [agent:sase-1n6.5.1.5.2.1.2--1][7] | Need inherited proof acceptance, repairs, and outer issue ownership | 1 |
 | read-by | [agent:sase-1n6.5.1.5.2.1.2--3][7] | Record current qualification retry blocker on the epic handoff | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.13d/README.md
