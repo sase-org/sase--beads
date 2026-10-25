@@ -184,7 +184,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1n6.5.1.5.2.1.3.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.5.1.5.2.1.3.2.md) | [sase-1n6.5.1.5.2.1.3.2](sase-1n6.5.1.5.2.1.3.2.md) | 0 |
 | [bbugyi200.athena.sase-1n6.5.1.5.2.1.3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.5.2.1.3.land/README.md) | [sase-1n6.5.1.5.2.1.3](sase-1n6.5.1.5.2.1.3.md) | 1 |
 | [bbugyi200.athena.sase-1n6.5.1.5.2.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.5.1.5.2.1.land.md) | [sase-1n6.5.1.5.2.1](sase-1n6.5.1.5.2.1.md) | 0 |
-| [bbugyi200.athena.sase-1n6.5.1.5.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.5.1.5.land.md) | [sase-1n6.5.1.5](sase-1n6.5.1.5.md) | 1 |
+| [bbugyi200.athena.sase-1n6.5.1.5.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.5.1.5.land.md) | [sase-1n6.5.1.5](sase-1n6.5.1.5.md) | 2 |
 | [bbugyi200.athena.sase-1n6.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.6/README.md) | [sase-1n6.6](sase-1n6.6.md) | 0 |
 | [bbugyi200.athena.sase-1n6.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.7.md) | [sase-1n6.7](sase-1n6.7.md) | 0 |
 | [bbugyi200.athena.sase-1n6.7.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.7.1.1/README.md) | [sase-1n6.7.1.1](sase-1n6.7.1.1.md) | 2 |
@@ -224,6 +224,7 @@ flowchart TD
 | sase | [`7423fa8`](https://github.com/sase-org/sase/commit/7423fa8380eceee38cc3e4fbb37dceb2feb8b641) | chore(deps): pin complete published core 0.42.6 | [sase-1n6.5.1.5.2.1.3.1](sase-1n6.5.1.5.2.1.3.1.md) | 2026-10-25 07:24:20 EDT |
 | sase--plans | [`sase--plans@10b9675`](https://github.com/sase-org/sase--plans/commit/10b9675bb58f1c5bf9d8fd796713ca3378711db0) | chore(plans): complete verified deployed qualification plans | [sase-1n6.5.1.5.2.1.3](sase-1n6.5.1.5.2.1.3.md) | 2026-10-25 14:49:11 EDT |
 | sase | [`5bf39b5`](https://github.com/sase-org/sase/commit/5bf39b5cc61b819781cd1ad7b105ed1496a27f08) | fix(release): delegate metrics inventory to shared qualification validator | [sase-1n6.5.1.5](sase-1n6.5.1.5.md) | 2026-10-25 15:39:49 EDT |
+| sase--plans | [`sase--plans@142c696`](https://github.com/sase-org/sase--plans/commit/142c696ebb214474f248ac56ea90194947113c37) | docs(plans): mark qualification landing plans done | [sase-1n6.5.1.5](sase-1n6.5.1.5.md) | 2026-10-25 15:42:54 EDT |
 
 <!-- sase:referenced-by:start -->
 
