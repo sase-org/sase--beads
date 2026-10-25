@@ -23,7 +23,7 @@ context-section: render QUESTIONS on the Context card from stubs then lane data,
 
 - **Depends on:** [sase-1o5.3](sase-1o5.3.md) ✓ · ⧖ 2026-10-24
 - **Depends on:** [sase-1o5.4](sase-1o5.4.md) ✓ · ⧖ 2026-10-24
-- **Blocks:** [sase-1o5.6](sase-1o5.6.md) ◐ · ⧖ 2026-10-24
+- **Blocks:** [sase-1o5.6](sase-1o5.6.md) ✓ · ⧖ 2026-10-24
 
 ## Agents
 
@@ -36,3 +36,15 @@ context-section: render QUESTIONS on the Context card from stubs then lane data,
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`2066212`](https://github.com/sase-org/sase/commit/2066212dfa5de8c57020bd604cd33f5f96196f33) | feat(ace): mount QUESTIONS section on Context card | [sase-1o5.5](sase-1o5.5.md) | 2026-10-24 23:44:30 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1o5.5][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1o5.5/README.md
+
+<!-- sase:referenced-by:end -->

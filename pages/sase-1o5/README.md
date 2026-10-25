@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/questions_main_deck.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/questions_main_deck.md
 
@@ -38,7 +38,7 @@ Selecting an agent session, the turn that asked, or a question gate turn on the 
 | [sase-1o5.3](sase-1o5.3.md) | Rich presenter and GATE-phase swap for question gates | ✓ closed | medium | 2026-10-24 | 1 | 1 |
 | [sase-1o5.4](sase-1o5.4.md) | Question-round scoping and the questions summary lane | ✓ closed | medium | 2026-10-24 | 1 | 1 |
 | [sase-1o5.5](sase-1o5.5.md) | Mount the QUESTIONS section on the Context card | ✓ closed | medium | 2026-10-24 | 1 | 1 |
-| [sase-1o5.6](sase-1o5.6.md) | Reference docs and the questions skill sentence | ◐ in_progress | small | 2026-10-24 | 1 | 0 |
+| [sase-1o5.6](sase-1o5.6.md) | Reference docs and the questions skill sentence | ✓ closed | small | 2026-10-24 | 1 | 1 |
 
 ## Lineage
 
@@ -50,7 +50,7 @@ flowchart TD
     n3["sase-1o5.3: Rich presenter and GATE-phase swap for question gates [closed]"]
     n4["sase-1o5.4: Question-round scoping and the questions summary lane [closed]"]
     n5["sase-1o5.5: Mount the QUESTIONS section on the Context card [closed]"]
-    n6["sase-1o5.6: Reference docs and the questions skill sentence [in_progress]"]
+    n6["sase-1o5.6: Reference docs and the questions skill sentence [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -73,7 +73,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1o5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1o5.3/README.md) | [sase-1o5.3](sase-1o5.3.md) | 1 |
 | [bbugyi200.athena.sase-1o5.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1o5.4.md) | [sase-1o5.4](sase-1o5.4.md) | 1 |
 | [bbugyi200.athena.sase-1o5.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1o5.5/README.md) | [sase-1o5.5](sase-1o5.5.md) | 1 |
-| [bbugyi200.athena.sase-1o5.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1o5.6/README.md) | [sase-1o5.6](sase-1o5.6.md) | 0 |
+| [bbugyi200.athena.sase-1o5.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1o5.6/README.md) | [sase-1o5.6](sase-1o5.6.md) | 1 |
 | [bbugyi200.athena.sase-1o5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1o5.land/README.md) | [sase-1o5](README.md) | 0 |
 
 ## Commits
@@ -86,6 +86,7 @@ flowchart TD
 | sase | [`393430d`](https://github.com/sase-org/sase/commit/393430da551e6a981ebb0e3cf0f821eb2bf8cc60) | feat(ace): rich text presenter for question gates with GATE-phase swap | [sase-1o5.3](sase-1o5.3.md) | 2026-10-24 22:14:40 EDT |
 | sase | [`518717c`](https://github.com/sase-org/sase/commit/518717cdaca4b05ed19427ceab4371987c60d16f) | feat(questions): add question-round scoping and questions summary lane | [sase-1o5.4](sase-1o5.4.md) | 2026-10-24 22:42:58 EDT |
 | sase | [`2066212`](https://github.com/sase-org/sase/commit/2066212dfa5de8c57020bd604cd33f5f96196f33) | feat(ace): mount QUESTIONS section on Context card | [sase-1o5.5](sase-1o5.5.md) | 2026-10-24 23:44:30 EDT |
+| sase | [`113d799`](https://github.com/sase-org/sase/commit/113d799b2c29f0ad49c46bf57ad55876bc5e9856) | docs(questions): document QUESTIONS section and skill sentence | [sase-1o5.6](sase-1o5.6.md) | 2026-10-25 00:03:18 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -95,8 +96,10 @@ flowchart TD
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1o5.1][1] | epic context for phase | 1 |
 | read-by | [agent:sase-1o5.3][2] | Need phase scope, epic notes, and prior work | 1 |
+| read-by | [agent:sase-1o5.5][3] | Need parent epic context and decisions | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1o5.1/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1o5.3/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1o5.5/README.md
 
 <!-- sase:referenced-by:end -->
