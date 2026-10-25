@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/qualification_landing_repairs.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 5 automatic references — see [Referenced By](#referenced-by)._
+_Plus 6 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/qualification_landing_repairs.md
 
@@ -54,14 +54,13 @@ Keep sase-1n6.5.1.5 and plan:202610/qualification_landing_repairs.md open. A sma
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1n6.5.1.5.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.5.1.5.land.md) | [sase-1n6.5.1.5](sase-1n6.5.1.5.md) | 2 |
+| [bbugyi200.athena.sase-1n6.5.1.5.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.5.1.5.land.md) | [sase-1n6.5.1.5](sase-1n6.5.1.5.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`5bf39b5`](https://github.com/sase-org/sase/commit/5bf39b5cc61b819781cd1ad7b105ed1496a27f08) | fix(release): delegate metrics inventory to shared qualification validator | [sase-1n6.5.1.5](sase-1n6.5.1.5.md) | 2026-10-25 15:39:49 EDT |
-| sase--plans | [`sase--plans@142c696`](https://github.com/sase-org/sase--plans/commit/142c696ebb214474f248ac56ea90194947113c37) | docs(plans): mark qualification landing plans done | [sase-1n6.5.1.5](sase-1n6.5.1.5.md) | 2026-10-25 15:42:54 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -74,11 +73,13 @@ Keep sase-1n6.5.1.5 and plan:202610/qualification_landing_repairs.md open. A sma
 | read-by | [agent:sase-1n6.5.1.5.1][3] | Need parent epic decisions and notes | 1 |
 | read-by | [agent:sase-1n6.5.1.5.2.1.2--1][4] | Need inherited proof acceptance, repairs, and outer issue ownership | 1 |
 | read-by | [agent:sase-1n6.5.1.5.2.1.3.land][5] | Confirm final landing boundaries and containing epic ownership | 1 |
+| read-by | [agent:sase-1n6.5.1.5.land--1][6] | Confirm descendants closed and audit proof after drift for tale closeout | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.13d/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2a.grk/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.5.1/README.md
 [4]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.5.1.5.2.1.2.md
 [5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.5.2.1.3.land/README.md
+[6]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.5.1.5.land.md
 
 <!-- sase:referenced-by:end -->

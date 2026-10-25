@@ -46,7 +46,7 @@ Landing evidence: sase-core check passed (ToolRun 8a4be3d1be5ee56baa180c72f255fc
 ## Dependencies
 
 - **Blocks:** [sase-1n6.10](sase-1n6.10.md) ◐ · ⧖ 2026-10-19
-- **Depends on:** [sase-1n6.6](sase-1n6.6.md) ◐ · ⧖ 2026-10-19
+- **Depends on:** [sase-1n6.6](sase-1n6.6.md) ✓ · ⧖ 2026-10-19
 - **Depends on:** [sase-1n6.7](sase-1n6.7.md) ✓ · ⧖ 2026-10-19
 - **Depends on:** [sase-1n6.8](sase-1n6.8.md) ✓ · ⧖ 2026-10-19
 

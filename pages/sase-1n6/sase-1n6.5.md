@@ -54,7 +54,7 @@ Outer DISCOVERED ISSUE #1 on sase-1n6 REMAINS OPEN. Published v0.42.2 independen
 - **Depends on:** [sase-1n6.2](sase-1n6.2.md) ✓ · ⧖ 2026-10-19
 - **Depends on:** [sase-1n6.3](sase-1n6.3.md) ✓ · ⧖ 2026-10-19
 - **Depends on:** [sase-1n6.4](sase-1n6.4.md) ✓ · ⧖ 2026-10-19
-- **Blocks:** [sase-1n6.6](sase-1n6.6.md) ◐ · ⧖ 2026-10-19
+- **Blocks:** [sase-1n6.6](sase-1n6.6.md) ✓ · ⧖ 2026-10-19
 
 ## Agents
 
@@ -77,6 +77,7 @@ Outer DISCOVERED ISSUE #1 on sase-1n6 REMAINS OPEN. Published v0.42.2 independen
 | read-by | [agent:sase-1n6.5.1.5.2][7] | Need outer release-train phase live-acceptance requirements | 1 |
 | read-by | [agent:sase-1n6.5.1.5.2.1.2--1][8] | Need inherited proof acceptance, repairs, and outer issue ownership | 1 |
 | read-by | [agent:sase-1n6.5.1.5.2.1.2--3][8] | Record current published-core containment blocker on the outer qualification phase | 1 |
+| read-by | [agent:sase-1n6.5.1.5.land--1][9] | Verify phase state after parent close | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.13d/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2a.cld/README.md
@@ -86,5 +87,6 @@ Outer DISCOVERED ISSUE #1 on sase-1n6 REMAINS OPEN. Published v0.42.2 independen
 [6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.4/README.md
 [7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.5.2/README.md
 [8]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.5.1.5.2.1.2.md
+[9]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.5.1.5.land.md
 
 <!-- sase:referenced-by:end -->

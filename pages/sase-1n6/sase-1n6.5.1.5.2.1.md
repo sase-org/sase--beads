@@ -16,7 +16,7 @@
 | implemented-by | [plan:202610/deployed_qualification_proof.md][1] | derived from the plan's `bead_id:` frontmatter field |
 | related | file:explicit:15c7ad369468dbc665ab8141 | attached via sase artifact create --bead |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/deployed_qualification_proof.md
 
@@ -80,9 +80,11 @@ Follow-ups: all nine di
 | read-by | [agent:13d][1] | Research which agents stalled the sase-1n6 epic: unblock epic and its phases | 1 |
 | read-by | [agent:sase-1n6.5.1.5.2.1.1--1][2] | Need parent epic DECISIONS and remaining phases | 1 |
 | read-by | [agent:sase-1n6.5.1.5.2.1.3.land][3] | Confirm final landing boundaries and containing epic ownership | 5 |
+| read-by | [agent:sase-1n6.5.1.5.land--1][4] | Verify nested epic closed | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.13d/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.5.1.5.2.1.1.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.5.2.1.3.land/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.5.1.5.land.md
 
 <!-- sase:referenced-by:end -->
