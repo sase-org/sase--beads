@@ -85,7 +85,11 @@ flowchart TD
     n16["sase-1nn.8.4.3.1: Start the sase-core-rs release that contains sase's source pin [closed]"]
     n17["sase-1nn.8.4.3.2: Repair the Master Gate and Full CI test-lane reds [closed]"]
     n18["sase-1nn.8.4.3.3: Repair the Full CI visual-test reds [closed]"]
-    n19["sase-1nn.8.4.3.4: Watch core, release gates, ci_watch, Publish, and PyPI with a self-closing monitor [in_progress]"]
+    n19["sase-1nn.8.4.3.4: Watch core, release gates, ci_watch, Publish, and PyPI with a self-closing monitor [closed]"]
+    n20["sase-1nn.8.4.3.5: Integrate the remaining release blockers and publish sase 0.18.1 [in_progress]"]
+    n21["sase-1nn.8.4.3.5.1: Repair the current release gate integration failures [closed]"]
+    n22["sase-1nn.8.4.3.5.2: Start a containing core release for the current source pin [closed]"]
+    n23["sase-1nn.8.4.3.5.3: Observe the committed repairs through publication [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -105,6 +109,10 @@ flowchart TD
     n15 --> n17
     n15 --> n18
     n15 --> n19
+    n15 --> n20
+    n20 --> n21
+    n20 --> n22
+    n20 --> n23
     n1 -.-> n2
     n2 -.-> n7
     n3 -.-> n6
@@ -119,6 +127,8 @@ flowchart TD
     n16 -.-> n19
     n17 -.-> n19
     n18 -.-> n19
+    n21 -.-> n23
+    n22 -.-> n23
 ```
 
 ## Agents
@@ -140,8 +150,12 @@ flowchart TD
 | [bbugyi200.athena.sase-1nn.8.4.3.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nn.8.4.3.1.md) | [sase-1nn.8.4.3.1](sase-1nn.8.4.3.1.md) | 0 |
 | [bbugyi200.athena.sase-1nn.8.4.3.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.8.4.3.2/README.md) | [sase-1nn.8.4.3.2](sase-1nn.8.4.3.2.md) | 1 |
 | [bbugyi200.athena.sase-1nn.8.4.3.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nn.8.4.3.3.md) | [sase-1nn.8.4.3.3](sase-1nn.8.4.3.3.md) | 1 |
-| [bbugyi200.athena.sase-1nn.8.4.3.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.8.4.3.4/README.md) | [sase-1nn.8.4.3.4](sase-1nn.8.4.3.4.md) | 0 |
-| [bbugyi200.athena.sase-1nn.8.4.3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.8.4.3.land/README.md) | [sase-1nn.8.4.3](sase-1nn.8.4.3.md) | 0 |
+| [bbugyi200.athena.sase-1nn.8.4.3.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nn.8.4.3.4.md) | [sase-1nn.8.4.3.4](sase-1nn.8.4.3.4.md) | 0 |
+| [bbugyi200.athena.sase-1nn.8.4.3.5.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nn.8.4.3.5.1.md) | [sase-1nn.8.4.3.5.1](sase-1nn.8.4.3.5.1.md) | 1 |
+| [bbugyi200.athena.sase-1nn.8.4.3.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.8.4.3.5.2/README.md) | [sase-1nn.8.4.3.5.2](sase-1nn.8.4.3.5.2.md) | 0 |
+| [bbugyi200.athena.sase-1nn.8.4.3.5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.8.4.3.5.3/README.md) | [sase-1nn.8.4.3.5.3](sase-1nn.8.4.3.5.3.md) | 0 |
+| [bbugyi200.athena.sase-1nn.8.4.3.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nn.8.4.3.5.land/README.md) | [sase-1nn.8.4.3.5](sase-1nn.8.4.3.5.md) | 0 |
+| [bbugyi200.athena.sase-1nn.8.4.3.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nn.8.4.3.land.md) | [sase-1nn.8.4.3](sase-1nn.8.4.3.md) | 0 |
 | [bbugyi200.athena.sase-1nn.8.4.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nn.8.4.land.md) | [sase-1nn.8.4](sase-1nn.8.4.md) | 0 |
 | [bbugyi200.athena.sase-1nn.8.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nn.8.land.md) | [sase-1nn.8](sase-1nn.8.md) | 0 |
 | [bbugyi200.athena.sase-1nn.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nn.land.md) | [sase-1nn](README.md) | 0 |
@@ -161,6 +175,7 @@ flowchart TD
 | sase | [`dc2cc11`](https://github.com/sase-org/sase/commit/dc2cc11324f6cd3696603ec56e2458f113936ab1) | test(stats): repair Python 3.12 project help and Archive help goldens | [sase-1nn.8.4.1](sase-1nn.8.4.1.md) | 2026-10-24 03:32:15 EDT |
 | sase | [`e788b17`](https://github.com/sase-org/sase/commit/e788b1718a92758732fa043df6b3a09a217cc4b1) | fix(ace): stabilize archive tests and monitor completion hints | [sase-1nn.8.4.3.2](sase-1nn.8.4.3.2.md) | 2026-10-24 17:07:52 EDT |
 | sase | [`5e79f64`](https://github.com/sase-org/sase/commit/5e79f6405f263f48fffc2e9f9f59ca34fa2ce23f) | fix(visual): regenerate stranded Beads golden and prove full screenshot check clean | [sase-1nn.8.4.3.3](sase-1nn.8.4.3.3.md) | 2026-10-24 17:14:56 EDT |
+| sase | [`3d13864`](https://github.com/sase-org/sase/commit/3d13864e7632da0911e98ef2ba7e00e669527556) | chore(integrate): archive recovery evidence and remove tracked .sase-evidence | [sase-1nn.8.4.3.5.1](sase-1nn.8.4.3.5.1.md) | 2026-10-24 23:02:56 EDT |
 
 <!-- sase:referenced-by:start -->
 

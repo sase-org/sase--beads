@@ -19,7 +19,7 @@ gate-tests: add the missing monitor --weight completion metadata and regenerate 
 
 ## Dependencies
 
-- **Blocks:** [sase-1nn.8.4.3.4](sase-1nn.8.4.3.4.md) ◐ · ⧖ 2026-10-24
+- **Blocks:** [sase-1nn.8.4.3.4](sase-1nn.8.4.3.4.md) ✓ · ⧖ 2026-10-24
 
 ## Agents
 
