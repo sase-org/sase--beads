@@ -14,7 +14,7 @@ context-section: render QUESTIONS on the Context card from stubs then lane data,
 ## Dependencies
 
 - **Depends on:** [sase-1o5.3](sase-1o5.3.md) ✓ · ⧖ 2026-10-24
-- **Depends on:** [sase-1o5.4](sase-1o5.4.md) ○ · ⧖ 2026-10-24
+- **Depends on:** [sase-1o5.4](sase-1o5.4.md) ✓ · ⧖ 2026-10-24
 - **Blocks:** [sase-1o5.6](sase-1o5.6.md) ◐ · ⧖ 2026-10-24
 
 ## Agents

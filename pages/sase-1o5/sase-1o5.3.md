@@ -35,3 +35,15 @@ presenter: build the pure Rich Text presenter for question rounds and replace th
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`393430d`](https://github.com/sase-org/sase/commit/393430da551e6a981ebb0e3cf0f821eb2bf8cc60) | feat(ace): rich text presenter for question gates with GATE-phase swap | [sase-1o5.3](sase-1o5.3.md) | 2026-10-24 22:14:40 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1o5.3][1] | Need phase scope, epic notes, and prior work | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1o5.3/README.md
+
+<!-- sase:referenced-by:end -->
