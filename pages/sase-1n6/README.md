@@ -84,13 +84,13 @@ flowchart TD
     n11["sase-1n6.5.1.4: Integrate qualification, negative probes and durable observations [closed]"]
     n12["sase-1n6.5.1.5: Repair qualification evidence transport and prove the deployed workflow [in_progress]"]
     n13["sase-1n6.5.1.5.1: Repair qualification producer and consumer integration [closed]"]
-    n14["sase-1n6.5.1.5.2: Retain green and wrong-core rehearsal proofs [in_progress]"]
-    n15["sase-1n6.5.1.5.2.1: Unblock and retain the deployed qualification proofs [in_progress]"]
+    n14["sase-1n6.5.1.5.2: Retain green and wrong-core rehearsal proofs [closed]"]
+    n15["sase-1n6.5.1.5.2.1: Unblock and retain the deployed qualification proofs [closed]"]
     n16["sase-1n6.5.1.5.2.1.1: Clear the three blockers between master and a live rehearsal [closed]"]
     n17["sase-1n6.5.1.5.2.1.2: Dispatch and retain the green, probe and exact-SHA source proofs [closed]"]
-    n18["sase-1n6.5.1.5.2.1.3: Integrate the new core binding and retain deployed qualification proof [in_progress]"]
+    n18["sase-1n6.5.1.5.2.1.3: Integrate the new core binding and retain deployed qualification proof [closed]"]
     n19["sase-1n6.5.1.5.2.1.3.1: Integrate a complete published core containing the current source pin [closed]"]
-    n20["sase-1n6.5.1.5.2.1.3.2: Retain aligned green, incompatible-core, and source proofs [in_progress]"]
+    n20["sase-1n6.5.1.5.2.1.3.2: Retain aligned green, incompatible-core, and source proofs [closed]"]
     n21["sase-1n6.6: Digest-checked publish, PyPI confirmation, and un-draft [in_progress]"]
     n22["sase-1n6.7: Stateless release steward in observe mode [closed]"]
     n23["sase-1n6.7.1: Stateless release steward with an observe-only workflow [closed]"]
@@ -181,8 +181,8 @@ flowchart TD
 | [bbugyi200.athena.sase-1n6.5.1.5.2.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.5.1.5.2.1.1.md) | [sase-1n6.5.1.5.2.1.1](sase-1n6.5.1.5.2.1.1.md) | 1 |
 | [bbugyi200.athena.sase-1n6.5.1.5.2.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.5.1.5.2.1.2.md) | [sase-1n6.5.1.5.2.1.2](sase-1n6.5.1.5.2.1.2.md) | 2 |
 | [bbugyi200.athena.sase-1n6.5.1.5.2.1.3.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.5.1.5.2.1.3.1.md) | [sase-1n6.5.1.5.2.1.3.1](sase-1n6.5.1.5.2.1.3.1.md) | 1 |
-| [bbugyi200.athena.sase-1n6.5.1.5.2.1.3.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.5.2.1.3.2/README.md) | [sase-1n6.5.1.5.2.1.3.2](sase-1n6.5.1.5.2.1.3.2.md) | 0 |
-| [bbugyi200.athena.sase-1n6.5.1.5.2.1.3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.5.2.1.3.land/README.md) | [sase-1n6.5.1.5.2.1.3](sase-1n6.5.1.5.2.1.3.md) | 0 |
+| [bbugyi200.athena.sase-1n6.5.1.5.2.1.3.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.5.1.5.2.1.3.2.md) | [sase-1n6.5.1.5.2.1.3.2](sase-1n6.5.1.5.2.1.3.2.md) | 0 |
+| [bbugyi200.athena.sase-1n6.5.1.5.2.1.3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.5.2.1.3.land/README.md) | [sase-1n6.5.1.5.2.1.3](sase-1n6.5.1.5.2.1.3.md) | 1 |
 | [bbugyi200.athena.sase-1n6.5.1.5.2.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.5.1.5.2.1.land.md) | [sase-1n6.5.1.5.2.1](sase-1n6.5.1.5.2.1.md) | 0 |
 | [bbugyi200.athena.sase-1n6.5.1.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.5.land/README.md) | [sase-1n6.5.1.5](sase-1n6.5.1.5.md) | 0 |
 | [bbugyi200.athena.sase-1n6.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.6/README.md) | [sase-1n6.6](sase-1n6.6.md) | 0 |
@@ -222,6 +222,7 @@ flowchart TD
 | sase | [`ba7ab4e`](https://github.com/sase-org/sase/commit/ba7ab4e96bce13fdf71b9e429bffe92a8cf39205) | fix(release): repair identity version validation | [sase-1n6.5.1.5.2.1.2](sase-1n6.5.1.5.2.1.2.md) | 2026-10-22 06:28:03 EDT |
 | sase | [`2d1e7fd`](https://github.com/sase-org/sase/commit/2d1e7fd48646c6240f99ba6ac44f5c6e0f75f3c0) | fix(release): retain qualification observations after evaluation | [sase-1n6.5.1.5.2.1.2](sase-1n6.5.1.5.2.1.2.md) | 2026-10-23 17:53:29 EDT |
 | sase | [`7423fa8`](https://github.com/sase-org/sase/commit/7423fa8380eceee38cc3e4fbb37dceb2feb8b641) | chore(deps): pin complete published core 0.42.6 | [sase-1n6.5.1.5.2.1.3.1](sase-1n6.5.1.5.2.1.3.1.md) | 2026-10-25 07:24:20 EDT |
+| sase--plans | [`sase--plans@10b9675`](https://github.com/sase-org/sase--plans/commit/10b9675bb58f1c5bf9d8fd796713ca3378711db0) | chore(plans): complete verified deployed qualification plans | [sase-1n6.5.1.5.2.1.3](sase-1n6.5.1.5.2.1.3.md) | 2026-10-25 14:49:11 EDT |
 
 <!-- sase:referenced-by:start -->
 

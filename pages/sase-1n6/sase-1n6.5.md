@@ -47,7 +47,7 @@ Outer DISCOVERED ISSUE #1 on sase-1n6 REMAINS OPEN. Published v0.42.2 independen
 
 [2026-10-23T21:52:05Z · sase-1n6.5.1.5.2.1.2--1] FINAL LOCAL VERIFICATION for the REPROOF REQUIRED repair: evidence file:explicit:e021a91a561c8a6e9a41f557 supplements the pending-check paragraph in mapping file:explicit:88fe402c602e56f995848006. The observation-reader repair passes all 32 focused release/transport tests, including two tests that reproduce the old deployed error before the fix. Formatting and diff checks pass. Required check 63ce16272c90ed2e5dca334ffbf86a98 completed exit 1: all lint stages passed; test lane 57,203 passed / 5 failed / 17 skipped. Stored triage is four KNOWN TUI failures plus one NEW artifact-tab descriptor assertion. That one passes on the unchanged repaired tree and on clean HEAD, with all 13 tests in its file passing on clean HEAD; the suite-context follow-up is recorded on the assigned phase. Original nonzero exit and NEW
 
-… and 512 more characters
+… and 1256 more characters
 
 ## Dependencies
 

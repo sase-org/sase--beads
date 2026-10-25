@@ -19,7 +19,7 @@ repair: fix authoritative job identity, paginated artifact transport, observatio
 
 ## Dependencies
 
-- **Blocks:** [sase-1n6.5.1.5.2](sase-1n6.5.1.5.2.md) ◐ · ⧖ 2026-10-20
+- **Blocks:** [sase-1n6.5.1.5.2](sase-1n6.5.1.5.2.md) ✓ · ⧖ 2026-10-20
 
 ## Agents
 

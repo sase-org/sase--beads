@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1n6.5.1.5.2](sase-1n6.5.1.5.2.md) / sase-1n6.5.1.5.2.1
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.12n](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.12n.md) · **Assignee:** `sase-1n6.5.1.5.2.1.land`
-**Created:** 2026-10-20 15:25:38 EDT
+**Created:** 2026-10-20 15:25:38 EDT · **Closed:** 2026-10-25 14:47:16 EDT
 **Plan:** [202610/deployed\_qualification\_proof.md](https://github.com/sase-org/sase--plans/blob/main/202610/deployed_qualification_proof.md)
 
 <!-- sase:links:start -->
@@ -50,6 +50,20 @@ Searches covered matching ci/flake/bug and all-task statuses, the last-week task
 CLOSEOUT: do not close this epic or mark plan:202610/deployed_qualification_proof.md done yet. The validated remaining child epic uses parent_bead sase-1n6.5.1.5.2.1 so its lander resumes this landing after actual proof. When ready, recheck descendants/notes/linked-plan readiness and drift, clear epic-symbols, close normally, run just symvision, mark linked plan done; then verify and close only parent phase sase-1n6.5.1.5.2. Leave containing epic sase-1n6.5.1.5 to its already-waiting land agent. Never force a successful nested landing.
 
 [2026-10-23T22:24:33Z · sase-1n6.5.1.5.2.1.land] Audit precision: git rev-list --count 3db3b51d53^..2d1e7fd486 reports 41 commits including the first epic commit (40 afterward). The Files Ctrl-J repair cited above is sase-1mk.3. Task sase-1a7 is now READY after its post-close +1; sase-1nq and sase-1nr are READY. Refreshed core origin/master remains 58aca5fe and git tag --contains that pin is still empty. No implementation or acceptance conclusion changes.
+
+[2026-10-25T18:31:08Z · sase-1n6.5.1.5.2.1.3.2--3] Deployed-reproof acceptance (from sase-1n6.5.1.5.2.1.3.2 close-out, SHA 7423fa8380eceee38cc3e4fbb37dceb2feb8b641): green rehearse 40189341606 qualify-PASS (core 0.42.6); probe 40189365714 QUALIFY_RED as designed (0.42.2, 4 missing bindings); source Full CI 40189680772 success (lint + 3.12/3.13/3.14, 57521 collected, 0 fail). Refs: file:explicit:e38ba06b3bdb3c52a52a2657 (source proof), file:explicit:dfa30156a15eeca38cbfce64 (abandoned-run flakes), file:explicit:d214a552d318b5ebbe68e847 (acceptance mapping). Runs: https://github.com/sase-org/sase/actions/runs/40189341606 https://github.com/sase-org/sase/actions/runs/40189365714 https://github.com/sase-org/sase/actions/runs/40189680772
+
+[2026-10-25T18:47:16Z · sase-1n6.5.1.5.2.1.3.land] RESUMED LANDING VERIFIED (2026-10-25) after normal close of child epic sase-1n6.5.1.5.2.1.3. Re-read the prior LAND AUDIT AND FOLLOW-UP TRIAGE notes, every original phase note (4 unblock and 14 live-proof), both child phases and all 11 notes, the child close note, deployed_qualification_proof.md, reprove_published_qualification.md, and the deployed-proof acceptance in qualification_landing_repairs.md. All named phases and nested descendants are complete; linked plans resolve and validate in archived mode with accepted rerun_once=once intact. Authoring-mode rejection of system-written answer/decided_by is expected for this already approved plan; archived validation reports zero diagnostics.
+
+Read original implementation commits 3db3b51d53, ba7ab4e96b, 2d1e7fd486 and pin integration 7423fa8380, plus actual current workflow/parser/evaluator/collector/writer code. Reviewed post-landing and post-child drift through master 529a1bd46d: no qualification path drift after the observation repair; newer core consumers are covered by the 0.42.6 dependency. Release 0.18.1 metadata and gate-turn dispatch changes add no integration conflict. Shared suffix parsing, Full CI token grants, identity reader, actual observation upload output and contract manifest remain correct; 143 focused tests pass.
+
+Historical repair-only REPROOF REQUIRED notes are now satisfied by independently checked deployed evidence at exact SHA 7423fa8380eceee38cc3e4fbb37dceb2feb8b641: https://github.com/sase-org/sase/actions/runs/40189341606 green qualification pass with intended/installed 0.42.6; https://github.com/sase-org/sase/actions/runs/40189365714 typed QUALIFY_RED for tested/installed 0.42.2, lint names autonomy_effective_record, classify_stale_publication_request, project_question_round, stranded_work_reduce, rerun_eligible=false; https://github.com/sase-org/sase/actions/runs/40189680772 scheduled exact-SHA source comparison with first-attempt lint and Python 3.12/3.13/3.14 success, 57521 collected each, zero failures/errors. Actual logs prove source revision 3156d11f33d5a5277ff806a78b92a9490f78d6be and all 880 bindings. Tag v0.42.6 contains that pin and all five PyPI files/digests match the lock. Retained uploaded JSON matches fresh downloads; shared evaluator reproduces both qualification verdicts. The source advisory retry is not needed for blocking acceptance; failed host run 40199727112 is retained separately after one eligible test rerun. No new workflow runs/reruns performed.
+
+Retained evidence: file:explicit:ee80ee363315fb88efc6d612 (landing-verification inputs, fresh source logs/evidence and evaluator results), file:explicit:d214a552d318b5ebbe68e847 (acceptance mapping), file:explicit:e38ba06b3bdb3c52a52a2657 (source summary), file:explicit:dfa30156a15eeca38cbfce64 (abandoned-run flakes).
+
+Follow-ups: all nine di
+
+… and 1922 more characters
 
 ## Agents
 
