@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1n6.5](sase-1n6.5.md) / sase-1n6.5.1
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-1n6.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.5.md) · **Assignee:** `sase-1n6.5.1.land`
-**Created:** 2026-10-19 20:21:18 EDT
+**Created:** 2026-10-19 20:21:18 EDT · **Closed:** 2026-10-25 15:37:27 EDT
 **Plan:** [202610/published\_core\_qualification.md](https://github.com/sase-org/sase--plans/blob/main/202610/published_core_qualification.md)
 
 <!-- sase:links:start -->
@@ -59,7 +59,7 @@ Both qualify jobs lost their observation upload because release.yml's inline ass
 
 LIVE ACCEPTANCE UNMET: green lint and test 3.12 passed; test 3.13/3.14 failed the modal-resize timeout. Probe lint names all nine missing bindings with installed 0.42.1 versus sealed/intended 0.42.2, but neither workflow retained an observation artifact. Local reconstructed QUALIFY_RED reports are diagnostic only: green has test-only rerun eligibility, probe is not eligible. Archived empty observation lists correctly refuse qualification/exercise and are not rerun-eligible. Source lint passes all 875 bindings from pin 246e28743538b6cd4d4e098b6960085c3e8ef5a9, but all three source test legs are red (3.12 also deck Ctrl-J timeout). Source is separately eligible for at most one test retry;
 
-… and 3592 more characters
+… and 4719 more characters
 
 <!-- sase:referenced-by:start -->
 

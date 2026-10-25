@@ -13,7 +13,7 @@ publish: release.yml uploads only missing files after digest checks, confirms ev
 
 ## Dependencies
 
-- **Depends on:** [sase-1n6.5](sase-1n6.5.md) ◐ · ⧖ 2026-10-19
+- **Depends on:** [sase-1n6.5](sase-1n6.5.md) ✓ · ⧖ 2026-10-19
 - **Blocks:** [sase-1n6.9](sase-1n6.9.md) ◐ · ⧖ 2026-10-19
 
 ## Agents

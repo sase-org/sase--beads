@@ -45,8 +45,10 @@ published-pin: wait for the authorized daily core release, integrate its exact d
 | --- | --- | --- | ---: |
 | read-by | [agent:13s][1] | Classify bead type of an agent lane that started a wait monitor (zero-weight monitor research) | 1 |
 | read-by | [agent:sase-1n6.5.1.5.2.1.3.1--1][2] | Need the phase scope and design file after the bounded release wait | 1 |
+| read-by | [agent:sase-1n6.5.1.5.2.1.3.land][3] | Check all current descendants are closed and the linked plan is ready | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.13s/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.5.1.5.2.1.3.1.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.5.2.1.3.land/README.md
 
 <!-- sase:referenced-by:end -->

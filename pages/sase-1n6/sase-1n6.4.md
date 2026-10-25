@@ -22,7 +22,7 @@ exercise: release.yml installs the stashed wheel and sdist into clean environmen
 ## Dependencies
 
 - **Depends on:** [sase-1n6.2](sase-1n6.2.md) ✓ · ⧖ 2026-10-19
-- **Blocks:** [sase-1n6.5](sase-1n6.5.md) ◐ · ⧖ 2026-10-19
+- **Blocks:** [sase-1n6.5](sase-1n6.5.md) ✓ · ⧖ 2026-10-19
 
 ## Agents
 

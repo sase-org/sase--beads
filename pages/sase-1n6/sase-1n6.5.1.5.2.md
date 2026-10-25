@@ -75,9 +75,11 @@ After the repair lands and unrelated blocking tests are addressed: fetch master,
 | read-by | [agent:sase-1n6.5.1.5.2][2] | Need the phase scope and design file | 1 |
 | read-by | [agent:sase-1n6.5.1.5.2.1.2--1][3] | Need inherited proof acceptance, repairs, and outer issue ownership | 1 |
 | read-by | [agent:sase-1n6.5.1.5.2.1.2--3][3] | Record the fresh deployed-proof retry blocker on the parent handoff | 1 |
+| read-by | [agent:sase-1n6.5.1.5.2.1.3.land][4] | Verify completed parent chain and parent phase closeout | 3 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.13d/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.5.2/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.5.1.5.2.1.2.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.5.2.1.3.land/README.md
 
 <!-- sase:referenced-by:end -->

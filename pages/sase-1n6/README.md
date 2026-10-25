@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/e2_release_train_steward.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 12 automatic references — see [Referenced By](#referenced-by)._
+_Plus 13 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/e2_release_train_steward.md
 
@@ -60,7 +60,7 @@ The pending deployed-proof phase also found its separate release identity repair
 | [sase-1n6.2](sase-1n6.2.md) | release.yml builds once at the tag and seals the candidate manifest | ✓ closed | medium | 2026-10-19 | 1 | 1 |
 | [sase-1n6.3](sase-1n6.3.md) | Exact core pin and the shared core-ensure rule | ✓ closed | medium | 2026-10-19 | 1 | 1 |
 | [sase-1n6.4](sase-1n6.4.md) | Exercise the exact files on Linux and macOS | ✓ closed | medium | 2026-10-19 | 1 | 1 |
-| [sase-1n6.5](sase-1n6.5.md) | Qualify the candidate against the published core | ◐ in_progress | large | 2026-10-19 | 1 | 0 |
+| [sase-1n6.5](sase-1n6.5.md) | Qualify the candidate against the published core | ✓ closed | large | 2026-10-19 | 1 | 0 |
 | [sase-1n6.6](sase-1n6.6.md) | Digest-checked publish, PyPI confirmation, and un-draft | ◐ in_progress | medium | 2026-10-19 | 1 | 0 |
 | [sase-1n6.7](sase-1n6.7.md) | Stateless release steward in observe mode | ✓ closed | large | 2026-10-19 | 1 | 0 |
 | [sase-1n6.8](sase-1n6.8.md) | Release-green record and release metrics | ✓ closed | medium | 2026-10-19 | 1 | 1 |
@@ -76,13 +76,13 @@ flowchart TD
     n3["sase-1n6.2: release.yml builds once at the tag and seals the candidate manifest [closed]"]
     n4["sase-1n6.3: Exact core pin and the shared core-ensure rule [closed]"]
     n5["sase-1n6.4: Exercise the exact files on Linux and macOS [closed]"]
-    n6["sase-1n6.5: Qualify the candidate against the published core [in_progress]"]
-    n7["sase-1n6.5.1: Qualify release candidates against their exact published core [in_progress]"]
+    n6["sase-1n6.5: Qualify the candidate against the published core [closed]"]
+    n7["sase-1n6.5.1: Qualify release candidates against their exact published core [closed]"]
     n8["sase-1n6.5.1.1: Define the qualification inventory and fail-closed evaluator [closed]"]
     n9["sase-1n6.5.1.2: Supply verified published core artifacts to the CI setup action [closed]"]
     n10["sase-1n6.5.1.3: Run reusable CI at an explicit ref and report qualification evidence [closed]"]
     n11["sase-1n6.5.1.4: Integrate qualification, negative probes and durable observations [closed]"]
-    n12["sase-1n6.5.1.5: Repair qualification evidence transport and prove the deployed workflow [in_progress]"]
+    n12["sase-1n6.5.1.5: Repair qualification evidence transport and prove the deployed workflow [closed]"]
     n13["sase-1n6.5.1.5.1: Repair qualification producer and consumer integration [closed]"]
     n14["sase-1n6.5.1.5.2: Retain green and wrong-core rehearsal proofs [closed]"]
     n15["sase-1n6.5.1.5.2.1: Unblock and retain the deployed qualification proofs [closed]"]
@@ -184,7 +184,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1n6.5.1.5.2.1.3.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.5.1.5.2.1.3.2.md) | [sase-1n6.5.1.5.2.1.3.2](sase-1n6.5.1.5.2.1.3.2.md) | 0 |
 | [bbugyi200.athena.sase-1n6.5.1.5.2.1.3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.5.2.1.3.land/README.md) | [sase-1n6.5.1.5.2.1.3](sase-1n6.5.1.5.2.1.3.md) | 1 |
 | [bbugyi200.athena.sase-1n6.5.1.5.2.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.5.1.5.2.1.land.md) | [sase-1n6.5.1.5.2.1](sase-1n6.5.1.5.2.1.md) | 0 |
-| [bbugyi200.athena.sase-1n6.5.1.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.5.land/README.md) | [sase-1n6.5.1.5](sase-1n6.5.1.5.md) | 0 |
+| [bbugyi200.athena.sase-1n6.5.1.5.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.5.1.5.land.md) | [sase-1n6.5.1.5](sase-1n6.5.1.5.md) | 1 |
 | [bbugyi200.athena.sase-1n6.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.6/README.md) | [sase-1n6.6](sase-1n6.6.md) | 0 |
 | [bbugyi200.athena.sase-1n6.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.7.md) | [sase-1n6.7](sase-1n6.7.md) | 0 |
 | [bbugyi200.athena.sase-1n6.7.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.7.1.1/README.md) | [sase-1n6.7.1.1](sase-1n6.7.1.1.md) | 2 |
@@ -223,6 +223,7 @@ flowchart TD
 | sase | [`2d1e7fd`](https://github.com/sase-org/sase/commit/2d1e7fd48646c6240f99ba6ac44f5c6e0f75f3c0) | fix(release): retain qualification observations after evaluation | [sase-1n6.5.1.5.2.1.2](sase-1n6.5.1.5.2.1.2.md) | 2026-10-23 17:53:29 EDT |
 | sase | [`7423fa8`](https://github.com/sase-org/sase/commit/7423fa8380eceee38cc3e4fbb37dceb2feb8b641) | chore(deps): pin complete published core 0.42.6 | [sase-1n6.5.1.5.2.1.3.1](sase-1n6.5.1.5.2.1.3.1.md) | 2026-10-25 07:24:20 EDT |
 | sase--plans | [`sase--plans@10b9675`](https://github.com/sase-org/sase--plans/commit/10b9675bb58f1c5bf9d8fd796713ca3378711db0) | chore(plans): complete verified deployed qualification plans | [sase-1n6.5.1.5.2.1.3](sase-1n6.5.1.5.2.1.3.md) | 2026-10-25 14:49:11 EDT |
+| sase | [`5bf39b5`](https://github.com/sase-org/sase/commit/5bf39b5cc61b819781cd1ad7b105ed1496a27f08) | fix(release): delegate metrics inventory to shared qualification validator | [sase-1n6.5.1.5](sase-1n6.5.1.5.md) | 2026-10-25 15:39:49 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -242,6 +243,7 @@ flowchart TD
 | read-by | [agent:sase-1n6.5.1.5.2][10] | Need outer epic DISCOVERED ISSUE about core-source-pin gap before interpreting live core-lag refusal | 1 |
 | read-by | [agent:sase-1n6.5.1.5.2.1.2--1][11] | Need inherited proof acceptance, repairs, and outer issue ownership | 1 |
 | read-by | [agent:sase-1n6.5.1.5.2.1.2--3][11] | Update the existing DISCOVERED ISSUE #1 with refreshed core pin containment status | 1 |
+| read-by | [agent:sase-1n6.5.1.5.2.1.3.land][12] | Verify inherited release decisions and separate outer obligations | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.13d/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.141/README.md
@@ -254,5 +256,6 @@ flowchart TD
 [9]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.4/README.md
 [10]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.5.2/README.md
 [11]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.5.1.5.2.1.2.md
+[12]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.5.2.1.3.land/README.md
 
 <!-- sase:referenced-by:end -->

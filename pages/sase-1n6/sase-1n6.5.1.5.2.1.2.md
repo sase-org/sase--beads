@@ -32,7 +32,7 @@
 | related | file:explicit:f7620f53009d4743a99d9694 | attached via sase artifact create --bead |
 | related | file:explicit:fad2903cc032f8bb9de4f553 | attached via sase artifact create --bead |
 
-_Plus 4 automatic references — see [Referenced By](#referenced-by)._
+_Plus 5 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -103,9 +103,11 @@ Durable readiness/preflight record: file:explicit:4b085fa3c19a8eccb6d96032. Alig
 | read-by | [agent:13s][2] | Classify bead type of an agent lane that started a wait monitor (zero-weight monitor research) | 1 |
 | read-by | [agent:sase-1n6.5.1.5.2.1.2--1][3] | Need the phase scope and design file | 1 |
 | read-by | [agent:sase-1n6.5.1.5.2.1.2--3][3] | Need the current phase scope, prior notes, and design file | 1 |
+| read-by | [agent:sase-1n6.5.1.5.2.1.3.land][4] | Review all parent descendant scope and notes before nested landing | 3 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.13d/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.13s/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.5.1.5.2.1.2.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.5.2.1.3.land/README.md
 
 <!-- sase:referenced-by:end -->

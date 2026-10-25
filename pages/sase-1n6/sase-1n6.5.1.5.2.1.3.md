@@ -16,6 +16,8 @@
 | implemented-by | [plan:202610/reprove_published_qualification.md][1] | derived from the plan's `bead_id:` frontmatter field |
 | related | file:explicit:ee80ee363315fb88efc6d612 | attached via sase artifact create --bead |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/reprove_published_qualification.md
 
 <!-- sase:links:end -->
@@ -51,3 +53,15 @@ Verification: 143 focused release/core/workflow/transport/manifest tests passed;
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase--plans | [`sase--plans@10b9675`](https://github.com/sase-org/sase--plans/commit/10b9675bb58f1c5bf9d8fd796713ca3378711db0) | chore(plans): complete verified deployed qualification plans | [sase-1n6.5.1.5.2.1.3](sase-1n6.5.1.5.2.1.3.md) | 2026-10-25 14:49:11 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1n6.5.1.5.2.1.3.land][1] | Confirm final landing boundaries and containing epic ownership | 6 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.5.2.1.3.land/README.md
+
+<!-- sase:referenced-by:end -->

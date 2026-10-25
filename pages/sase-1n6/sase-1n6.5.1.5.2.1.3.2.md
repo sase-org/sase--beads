@@ -42,6 +42,8 @@
 | related | file:explicit:e7cf9f77495941d45cb96233 | attached via sase artifact create --bead |
 | related | file:explicit:eaca1d0ff401f43ef7ff7715 | attached via sase artifact create --bead |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 <!-- sase:links:end -->
 
 ## Description
@@ -73,3 +75,15 @@ deployed-reproof: exercise the host-landed pin and observation repair, retain ac
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1n6.5.1.5.2.1.3.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.5.1.5.2.1.3.2.md) | [sase-1n6.5.1.5.2.1.3.2](sase-1n6.5.1.5.2.1.3.2.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1n6.5.1.5.2.1.3.land][1] | Need the child scope and notes | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.5.1.5.2.1.3.land/README.md
+
+<!-- sase:referenced-by:end -->
