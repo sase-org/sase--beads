@@ -84,7 +84,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1o5.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1o5.4.md) | [sase-1o5.4](sase-1o5.4.md) | 1 |
 | [bbugyi200.athena.sase-1o5.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1o5.5/README.md) | [sase-1o5.5](sase-1o5.5.md) | 1 |
 | [bbugyi200.athena.sase-1o5.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1o5.6/README.md) | [sase-1o5.6](sase-1o5.6.md) | 1 |
-| [bbugyi200.athena.sase-1o5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1o5.land/README.md) | [sase-1o5](README.md) | 1 |
+| [bbugyi200.athena.sase-1o5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1o5.land/README.md) | [sase-1o5](README.md) | 2 |
 
 ## Commits
 
@@ -98,6 +98,7 @@ flowchart TD
 | sase | [`2066212`](https://github.com/sase-org/sase/commit/2066212dfa5de8c57020bd604cd33f5f96196f33) | feat(ace): mount QUESTIONS section on Context card | [sase-1o5.5](sase-1o5.5.md) | 2026-10-24 23:44:30 EDT |
 | sase | [`113d799`](https://github.com/sase-org/sase/commit/113d799b2c29f0ad49c46bf57ad55876bc5e9856) | docs(questions): document QUESTIONS section and skill sentence | [sase-1o5.6](sase-1o5.6.md) | 2026-10-25 00:03:18 EDT |
 | sase | [`369ac34`](https://github.com/sase-org/sase/commit/369ac34168e6ee3787c40f42dc015422141b2286) | chore(questions): land sase-1o5 and retire its epic-symbol rows | [sase-1o5](README.md) | 2026-10-25 00:55:29 EDT |
+| sase--plans | [`sase--plans@e0bc0c5`](https://github.com/sase-org/sase--plans/commit/e0bc0c5637225245546d85c1b3211f095735c012) | chore(plans): mark questions\_main\_deck plan done | [sase-1o5](README.md) | 2026-10-25 00:58:03 EDT |
 
 <!-- sase:referenced-by:start -->
 
