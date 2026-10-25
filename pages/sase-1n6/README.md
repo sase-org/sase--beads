@@ -64,7 +64,7 @@ The pending deployed-proof phase also found its separate release identity repair
 | [sase-1n6.6](sase-1n6.6.md) | Digest-checked publish, PyPI confirmation, and un-draft | ✓ closed | medium | 2026-10-19 | 1 | 1 |
 | [sase-1n6.7](sase-1n6.7.md) | Stateless release steward in observe mode | ✓ closed | large | 2026-10-19 | 1 | 0 |
 | [sase-1n6.8](sase-1n6.8.md) | Release-green record and release metrics | ✓ closed | medium | 2026-10-19 | 1 | 1 |
-| [sase-1n6.9](sase-1n6.9.md) | Cut releases over to release.yml and hand merges to the steward | ✓ closed | medium | 2026-10-19 | 1 | 1 |
+| [sase-1n6.9](sase-1n6.9.md) | Cut releases over to release.yml and hand merges to the steward | ✓ closed | medium | 2026-10-19 | 1 | 2 |
 
 ## Lineage
 
@@ -193,7 +193,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1n6.7.1.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.7.1.5.md) | [sase-1n6.7.1.5](sase-1n6.7.1.5.md) | 1 |
 | [bbugyi200.athena.sase-1n6.7.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.7.1.land.md) | [sase-1n6.7.1](sase-1n6.7.1.md) | 0 |
 | [bbugyi200.athena.sase-1n6.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.8/README.md) | [sase-1n6.8](sase-1n6.8.md) | 1 |
-| [bbugyi200.athena.sase-1n6.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.9/README.md) | [sase-1n6.9](sase-1n6.9.md) | 1 |
+| [bbugyi200.athena.sase-1n6.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.9/README.md) | [sase-1n6.9](sase-1n6.9.md) | 2 |
 | [bbugyi200.athena.sase-1n6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.land/README.md) | [sase-1n6](README.md) | 0 |
 
 ## Commits
@@ -226,6 +226,7 @@ flowchart TD
 | sase--plans | [`sase--plans@142c696`](https://github.com/sase-org/sase--plans/commit/142c696ebb214474f248ac56ea90194947113c37) | docs(plans): mark qualification landing plans done | [sase-1n6.5.1.5](sase-1n6.5.1.5.md) | 2026-10-25 15:42:54 EDT |
 | sase | [`d1a04e6`](https://github.com/sase-org/sase/commit/d1a04e62509793813d0c352e27db6698a334ed48) | feat(release): digest-checked publish with PyPI confirm and contract budget 88 | [sase-1n6.6](sase-1n6.6.md) | 2026-10-25 16:42:53 EDT |
 | sase | [`ff50879`](https://github.com/sase-org/sase/commit/ff50879f32f4920d2947ee716f614809a755e91e) | feat(release): cut over to release-please with live steward and trimmed publish | [sase-1n6.9](sase-1n6.9.md) | 2026-10-25 17:35:55 EDT |
+| chezmoi | [`chezmoi@027a28b`](https://github.com/bbugyi200/dotfiles/commit/027a28b96fb8067ae081796f5e1a75894f2f099d) | feat(chezmoi): drop sase-org/sase from athena ci\_watch release lists | [sase-1n6.9](sase-1n6.9.md) | 2026-10-25 17:38:58 EDT |
 
 <!-- sase:referenced-by:start -->
 

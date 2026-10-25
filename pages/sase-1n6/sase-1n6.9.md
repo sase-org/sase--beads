@@ -60,13 +60,14 @@ Landing evidence: sase-core check passed (ToolRun 8a4be3d1be5ee56baa180c72f255fc
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1n6.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.9/README.md) | [sase-1n6.9](sase-1n6.9.md) | 1 |
+| [bbugyi200.athena.sase-1n6.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.9/README.md) | [sase-1n6.9](sase-1n6.9.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`ff50879`](https://github.com/sase-org/sase/commit/ff50879f32f4920d2947ee716f614809a755e91e) | feat(release): cut over to release-please with live steward and trimmed publish | [sase-1n6.9](sase-1n6.9.md) | 2026-10-25 17:35:55 EDT |
+| chezmoi | [`chezmoi@027a28b`](https://github.com/bbugyi200/dotfiles/commit/027a28b96fb8067ae081796f5e1a75894f2f099d) | feat(chezmoi): drop sase-org/sase from athena ci\_watch release lists | [sase-1n6.9](sase-1n6.9.md) | 2026-10-25 17:38:58 EDT |
 
 <!-- sase:referenced-by:start -->
 
