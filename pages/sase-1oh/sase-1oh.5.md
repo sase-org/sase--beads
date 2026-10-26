@@ -20,3 +20,15 @@ sidecar-secret-scan: run the core attachment secret scanner over agent transcrip
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1oh.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1oh.5.md) | [sase-1oh.5](sase-1oh.5.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1oh.5.1.1][1] | Need the child epic binding decisions before implementing its phase | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.5.1.1/README.md
+
+<!-- sase:referenced-by:end -->

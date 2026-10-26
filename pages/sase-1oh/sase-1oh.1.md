@@ -19,7 +19,13 @@ stats-goldens: confirm the 7 drifting config_center_statistics PNG goldens refle
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1oh.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.1/README.md) | [sase-1oh.1](sase-1oh.1.md) | 0 |
+| [bbugyi200.athena.sase-1oh.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.1/README.md) | [sase-1oh.1](sase-1oh.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`dd12f98`](https://github.com/sase-org/sase/commit/dd12f981ae3256d135114dc46aaa2eb4ecb73ddf) | test(ace): refresh statistics language snapshots | [sase-1oh.1](sase-1oh.1.md) | 2026-10-26 15:41:28 EDT |
 
 <!-- sase:referenced-by:start -->
 

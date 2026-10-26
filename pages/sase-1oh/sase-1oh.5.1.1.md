@@ -26,10 +26,23 @@ protection-policy: reuse the attachment scanner, implement Rust-owned publicatio
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1oh.5.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.5.1.1/README.md) | [sase-1oh.5.1.1](sase-1oh.5.1.1.md) | 1 |
+| [bbugyi200.athena.sase-1oh.5.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.5.1.1/README.md) | [sase-1oh.5.1.1](sase-1oh.5.1.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@416db28`](https://github.com/sase-org/sase-core/commit/416db28904d080f5fc1ed884dfc256a4d0427fa6) | feat(core): add publication protection policy | [sase-1oh.5.1.1](sase-1oh.5.1.1.md) | 2026-10-26 17:06:52 EDT |
+| sase | [`f4591e9`](https://github.com/sase-org/sase/commit/f4591e9106830fb5e558d71f506b4a2d9fe9791b) | feat(agents-sync): add publication protection state | [sase-1oh.5.1.1](sase-1oh.5.1.1.md) | 2026-10-26 17:10:06 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1oh.5.1.1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.5.1.1/README.md
+
+<!-- sase:referenced-by:end -->
