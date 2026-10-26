@@ -13,7 +13,7 @@ recovery-surfaces: feed reopened completion failures into the stranded-work coll
 
 ## Dependencies
 
-- **Depends on:** [sase-1oh.4.1.1](sase-1oh.4.1.1.md) ◐ · ⧖ 2026-10-26
+- **Depends on:** [sase-1oh.4.1.1](sase-1oh.4.1.1.md) ✓ · ⧖ 2026-10-26
 - **Depends on:** [sase-1oh.4.1.2](sase-1oh.4.1.2.md) ◐ · ⧖ 2026-10-26
 
 ## Agents

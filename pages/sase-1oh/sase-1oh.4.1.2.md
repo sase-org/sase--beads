@@ -13,7 +13,7 @@ host-recovery: pin the landed core API, carry close provenance through Python, a
 
 ## Dependencies
 
-- **Depends on:** [sase-1oh.4.1.1](sase-1oh.4.1.1.md) ◐ · ⧖ 2026-10-26
+- **Depends on:** [sase-1oh.4.1.1](sase-1oh.4.1.1.md) ✓ · ⧖ 2026-10-26
 - **Blocks:** [sase-1oh.4.1.3](sase-1oh.4.1.3.md) ◐ · ⧖ 2026-10-26
 
 ## Agents
