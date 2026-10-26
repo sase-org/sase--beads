@@ -7,6 +7,20 @@
 **Created:** 2026-10-26 18:05:03 EDT
 **Plan:** [202610/finish\_publication\_recovery\_proof.md](https://github.com/sase-org/sase--plans/blob/main/202610/finish_publication_recovery_proof.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202610/finish_publication_recovery_proof.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/sase-org/sase--plans/blob/main/202610/finish_publication_recovery_proof.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 Prove named historical publication requests on Athena and Apollo and close only the enclosing phase sase-1nv.5.
@@ -16,3 +30,15 @@ Prove named historical publication requests on Athena and Apollo and close only 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1nv.5.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nv.5.1.land/README.md) | [sase-1nv.5.1](sase-1nv.5.1.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1nv.5.1.1][1] | Need decisions list | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nv.5.1.1/README.md
+
+<!-- sase:referenced-by:end -->

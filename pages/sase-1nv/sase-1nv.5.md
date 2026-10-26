@@ -17,7 +17,7 @@
 | related | file:explicit:ddc1ff91f98de4e168df0d63 | attached via sase artifact create --bead |
 | related | research:202610/publication_recovery_acceptance.md | Records the installed repair results, acceptance checks, canary outcomes, and remaining check-1 blocker |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -51,7 +51,9 @@ pub-closeout: install the fixes on both hosts, run the repair, prove checks 1 an
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1nv.5--j][1] | Need the phase scope, notes, and design file before resuming work | 4 |
+| read-by | [agent:sase-1nv.5.1.1][2] | Need the enclosing phase and its remaining work | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nv.5.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nv.5.1.1/README.md
 
 <!-- sase:referenced-by:end -->

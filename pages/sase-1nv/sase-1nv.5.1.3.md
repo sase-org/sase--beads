@@ -13,7 +13,7 @@ readiness: install only missing landed fixes through the approved update gate, r
 
 ## Dependencies
 
-- **Depends on:** [sase-1nv.5.1.2](sase-1nv.5.1.2.md) ◐ · ⧖ 2026-10-26
+- **Depends on:** [sase-1nv.5.1.2](sase-1nv.5.1.2.md) ✓ · ⧖ 2026-10-26
 - **Blocks:** [sase-1nv.5.1.4](sase-1nv.5.1.4.md) ◐ · ⧖ 2026-10-26
 
 ## Agents

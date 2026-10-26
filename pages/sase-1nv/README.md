@@ -49,7 +49,7 @@ flowchart TD
     n5["sase-1nv.5: Prove recovery on both hosts and close recovery-proof [in_progress]"]
     n6["sase-1nv.5.1: Finish the remaining publication recovery proof [in_progress]"]
     n7["sase-1nv.5.1.1: Add exact-request selection to the Rust publication policy [closed]"]
-    n8["sase-1nv.5.1.2: Expose exact publication retries through the existing CLI [in_progress]"]
+    n8["sase-1nv.5.1.2: Expose exact publication retries through the existing CLI [closed]"]
     n9["sase-1nv.5.1.3: Verify host readiness and identify three publishable stopped requests [in_progress]"]
     n10["sase-1nv.5.1.4: Prove one formerly failing Athena timeout request [in_progress]"]
     n11["sase-1nv.5.1.5: Prove one formerly failing Apollo bob-cli request [in_progress]"]
@@ -89,7 +89,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1nv.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nv.4.md) | [sase-1nv.4](sase-1nv.4.md) | 2 |
 | [bbugyi200.athena.sase-1nv.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nv.5.md) | [sase-1nv.5](sase-1nv.5.md) | 0 |
 | [bbugyi200.athena.sase-1nv.5.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nv.5.1.1/README.md) | [sase-1nv.5.1.1](sase-1nv.5.1.1.md) | 1 |
-| [bbugyi200.athena.sase-1nv.5.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nv.5.1.2/README.md) | [sase-1nv.5.1.2](sase-1nv.5.1.2.md) | 0 |
+| [bbugyi200.athena.sase-1nv.5.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nv.5.1.2/README.md) | [sase-1nv.5.1.2](sase-1nv.5.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1nv.5.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nv.5.1.3/README.md) | [sase-1nv.5.1.3](sase-1nv.5.1.3.md) | 0 |
 | [bbugyi200.athena.sase-1nv.5.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nv.5.1.4/README.md) | [sase-1nv.5.1.4](sase-1nv.5.1.4.md) | 0 |
 | [bbugyi200.athena.sase-1nv.5.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nv.5.1.5/README.md) | [sase-1nv.5.1.5](sase-1nv.5.1.5.md) | 0 |
@@ -107,3 +107,4 @@ flowchart TD
 | sase-core | [`sase-core@7ec12d2`](https://github.com/sase-org/sase-core/commit/7ec12d2d7ad8e670abe26aa396259a512f330391) | feat(core): classify stale publication requests for revision repair (sase-1nv.4) | [sase-1nv.4](sase-1nv.4.md) | 2026-10-24 11:45:47 EDT |
 | sase | [`7b1b437`](https://github.com/sase-org/sase/commit/7b1b43755821fb4b6fe9ab8f51d09fcff0e46879) | feat(agents-sync): add report-first repair for stale publication revision rows (sase-1nv.4) | [sase-1nv.4](sase-1nv.4.md) | 2026-10-24 11:48:49 EDT |
 | sase-core | [`sase-core@ae38a60`](https://github.com/sase-org/sase-core/commit/ae38a60e8324214a60248df2286bd6963484676e) | feat(publication-recovery): add exact-key constraint to drain selection | [sase-1nv.5.1.1](sase-1nv.5.1.1.md) | 2026-10-26 18:31:53 EDT |
+| sase | [`aa97e54`](https://github.com/sase-org/sase/commit/aa97e544b0e68c0f1c0211bdfb75cf1b0b3e48d1) | feat(agents-sync): add --retry-key for exact publication retries | [sase-1nv.5.1.2](sase-1nv.5.1.2.md) | 2026-10-26 19:53:11 EDT |
