@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/backlog_epic_top_five_task_beads.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/backlog_epic_top_five_task_beads.md
 
 <!-- sase:links:end -->
@@ -27,9 +29,9 @@ The five most important open task beads in the sase project are resolved on mast
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-1oh.1](sase-1oh.1.md) | Green Full CI's visual-test after the Statistics language breakdown (sase-1of) | ◐ in_progress | small | 2026-10-26 | 1 | 0 |
+| [sase-1oh.1](sase-1oh.1.md) | Green Full CI's visual-test after the Statistics language breakdown (sase-1of) | ✓ closed | small | 2026-10-26 | 1 | 0 |
 | [sase-1oh.2](sase-1oh.2.md) | Refresh the shard-timings table and make the ratchet catch drift (sase-14r) | ✓ closed | medium | 2026-10-26 | 1 | 0 |
-| [sase-1oh.3](sase-1oh.3.md) | Make a crate-version mismatch converge in the bead read model (sase-1nw) | ◐ in_progress | large | 2026-10-26 | 1 | 0 |
+| [sase-1oh.3](sase-1oh.3.md) | Make a crate-version mismatch converge in the bead read model (sase-1nw) | ✓ closed | large | 2026-10-26 | 1 | 1 |
 | [sase-1oh.4](sase-1oh.4.md) | Never leave a bead closed as done when its turn's commit never lands (sase-yo) | ◐ in_progress | large | 2026-10-26 | 1 | 0 |
 | [sase-1oh.5](sase-1oh.5.md) | Scan agents-sidecar transcripts before publication and survive GH013 (sase-1dp) | ◐ in_progress | large | 2026-10-26 | 1 | 0 |
 
@@ -38,9 +40,9 @@ The five most important open task beads in the sase project are resolved on mast
 ```mermaid
 flowchart TD
     n0["sase-1oh: Task-bead backlog, epic 1: fix the five most important open task beads [in_progress]"]
-    n1["sase-1oh.1: Green Full CI's visual-test after the Statistics language breakdown (sase-1of) [in_progress]"]
+    n1["sase-1oh.1: Green Full CI's visual-test after the Statistics language breakdown (sase-1of) [closed]"]
     n2["sase-1oh.2: Refresh the shard-timings table and make the ratchet catch drift (sase-14r) [closed]"]
-    n3["sase-1oh.3: Make a crate-version mismatch converge in the bead read model (sase-1nw) [in_progress]"]
+    n3["sase-1oh.3: Make a crate-version mismatch converge in the bead read model (sase-1nw) [closed]"]
     n4["sase-1oh.4: Never leave a bead closed as done when its turn's commit never lands (sase-yo) [in_progress]"]
     n5["sase-1oh.4.1: Reopen beads whose completed work fails host finalization [in_progress]"]
     n6["sase-1oh.4.1.1: Add atomic Rust recovery of closes owned by a failed run [closed]"]
@@ -85,7 +87,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-1oh.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.1/README.md) | [sase-1oh.1](sase-1oh.1.md) | 0 |
 | [bbugyi200.athena.sase-1oh.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.2/README.md) | [sase-1oh.2](sase-1oh.2.md) | 0 |
-| [bbugyi200.athena.sase-1oh.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1oh.3.md) | [sase-1oh.3](sase-1oh.3.md) | 0 |
+| [bbugyi200.athena.sase-1oh.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1oh.3.md) | [sase-1oh.3](sase-1oh.3.md) | 1 |
 | [bbugyi200.athena.sase-1oh.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1oh.4.md) | [sase-1oh.4](sase-1oh.4.md) | 0 |
 | [bbugyi200.athena.sase-1oh.4.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.4.1.1/README.md) | [sase-1oh.4.1.1](sase-1oh.4.1.1.md) | 1 |
 | [bbugyi200.athena.sase-1oh.4.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.4.1.2/README.md) | [sase-1oh.4.1.2](sase-1oh.4.1.2.md) | 0 |
@@ -105,3 +107,16 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@4f17b72`](https://github.com/sase-org/sase-core/commit/4f17b727bdbff69515a5cebc5db099ca549edf98) | feat(beads): recover failed-run closes atomically | [sase-1oh.4.1.1](sase-1oh.4.1.1.md) | 2026-10-26 15:40:41 EDT |
+| sase-core | [`sase-core@7b88b98`](https://github.com/sase-org/sase-core/commit/7b88b98d40162590c4226192fa27993f08d024a5) | fix(bead-read-model): converge crate-version mismatch recovery | [sase-1oh.3](sase-1oh.3.md) | 2026-10-26 16:14:28 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1oh.4.1.1][1] | Need source task and parent-plan context for the recovery phase | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.4.1.1/README.md
+
+<!-- sase:referenced-by:end -->

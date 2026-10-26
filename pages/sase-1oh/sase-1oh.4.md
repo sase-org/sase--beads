@@ -16,3 +16,15 @@ stranded-close: when the host commit finalizer fails to land the work of a turn 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1oh.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1oh.4.md) | [sase-1oh.4](sase-1oh.4.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1oh.4.1.1][1] | Need parent phase and epic decisions for recovery-core | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.4.1.1/README.md
+
+<!-- sase:referenced-by:end -->
