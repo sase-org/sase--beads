@@ -25,10 +25,23 @@ cut-red: in sase-core, handle_no_train reports CoreCutRed only when the newest d
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1oe.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oe.2/README.md) | [sase-1oe.2](sase-1oe.2.md) | 1 |
+| [bbugyi200.athena.sase-1oe.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oe.2/README.md) | [sase-1oe.2](sase-1oe.2.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@f956906`](https://github.com/sase-org/sase-core/commit/f95690648dadfbe9a1f02e3282f1840f81ed6589) | fix(release-steward): treat only the newest decisive core cut as red | [sase-1oe.2](sase-1oe.2.md) | 2026-10-26 09:53:57 EDT |
+| sase | [`6083264`](https://github.com/sase-org/sase/commit/60832648be4292fc5f49565a34b44402c40cba1b) | docs(release-train): core\_cut\_red is the newest completed core cut | [sase-1oe.2](sase-1oe.2.md) | 2026-10-26 09:56:50 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1oe.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oe.2/README.md
+
+<!-- sase:referenced-by:end -->

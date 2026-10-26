@@ -37,7 +37,13 @@ resolver: release.yml's previous-release resolver moves into tools/exercise_rele
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1oe.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oe.1/README.md) | [sase-1oe.1](sase-1oe.1.md) | 0 |
+| [bbugyi200.athena.sase-1oe.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oe.1/README.md) | [sase-1oe.1](sase-1oe.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`72a1e3a`](https://github.com/sase-org/sase/commit/72a1e3a18eabfaca84c45a03feac447caaadb842) | feat(release): resolve previous release in a throwaway uv venv | [sase-1oe.1](sase-1oe.1.md) | 2026-10-26 09:41:46 EDT |
 
 <!-- sase:referenced-by:start -->
 
