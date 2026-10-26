@@ -13,7 +13,7 @@ verify-athena: once the host runs the landed code (propose the reinstall through
 
 ## Dependencies
 
-- **Depends on:** [sase-1oj.3](sase-1oj.3.md) ◐ · ⧖ 2026-10-26
+- **Depends on:** [sase-1oj.3](sase-1oj.3.md) ✓ · ⧖ 2026-10-26
 - **Depends on:** [sase-1oj.4](sase-1oj.4.md) ◐ · ⧖ 2026-10-26
 - **Depends on:** [sase-1oj.5](sase-1oj.5.md) ◐ · ⧖ 2026-10-26
 

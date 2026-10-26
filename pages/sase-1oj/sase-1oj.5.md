@@ -15,6 +15,8 @@ codex-private-sessions: give each shadow CODEX_HOME a private sessions tree whos
 
 [2026-10-26T21:17:41Z · sase-1oj.5] Live probe (codex exec --json, trivial prompt, -C /tmp): sessions/ is a real dir; state_5.sqlite=278528 bytes (~0.27 MB vs 347 MB baseline); session_meta first rollout line at 2026-10-26T21:09:31.529Z (~0.7s after filename 21:09:30); rollout landed at ~/.codex/sessions/2026/10/26/rollout-2026-10-26T21-09-30-01a17a0c-0641-78d3-bfa6-6794b34feb80.jsonl; shadow home removed after teardown. Codex stderr included "failed to record rollout items: thread not found" with exit 0; rollout still contains the full session. Tests: 32 passed (private sessions + shadow home + dir-op audit). No feature flag: old sessions symlink was an implementation detail; SASE_CODEX_DISABLE_SHADOW_HOME=1 remains.
 
+[2026-10-26T22:28:39Z · sase-1oj.5--1] Recovery: discovery test now uses monkeypatched dates; 32 targeted tests passed (private sessions + shadow home + dir-op audit); just fix clean. Previous just check timed out after fmt on model-policy under load1~10-20; re-running just check for host completion.
+
 ## Dependencies
 
 - **Blocks:** [sase-1oj.6](sase-1oj.6.md) ◐ · ⧖ 2026-10-26

@@ -17,7 +17,7 @@ core-read-model-heal: in sase-core's bead read model, classify SQLITE_CORRUPT wr
 
 ## Dependencies
 
-- **Blocks:** [sase-1oj.3](sase-1oj.3.md) ◐ · ⧖ 2026-10-26
+- **Blocks:** [sase-1oj.3](sase-1oj.3.md) ✓ · ⧖ 2026-10-26
 - **Blocks:** [sase-1oj.4](sase-1oj.4.md) ◐ · ⧖ 2026-10-26
 
 ## Agents
@@ -31,3 +31,15 @@ core-read-model-heal: in sase-core's bead read model, classify SQLITE_CORRUPT wr
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@651d193`](https://github.com/sase-org/sase-core/commit/651d19330651f911ffdf20c8768d7b3a3d5e2634) | fix(bead-read-model): repair corrupt caches in place | [sase-1oj.2](sase-1oj.2.md) | 2026-10-26 18:05:21 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1oj.2][1] | Check whether earlier work left a recorded remainder before planning | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1oj.2/README.md
+
+<!-- sase:referenced-by:end -->
