@@ -14,7 +14,7 @@ sase-capacity-adopt: ratchet sase-core-revision.txt past both core phases, add a
 ## Dependencies
 
 - **Depends on:** [sase-1oj.1](sase-1oj.1.md) ✓ · ⧖ 2026-10-26
-- **Depends on:** [sase-1oj.2](sase-1oj.2.md) ◐ · ⧖ 2026-10-26
+- **Depends on:** [sase-1oj.2](sase-1oj.2.md) ✓ · ⧖ 2026-10-26
 - **Blocks:** [sase-1oj.6](sase-1oj.6.md) ◐ · ⧖ 2026-10-26
 
 ## Agents

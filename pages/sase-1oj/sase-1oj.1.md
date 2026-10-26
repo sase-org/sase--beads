@@ -31,3 +31,15 @@ core-capacity-prune: in sase-core's agent_scan scanner, extend the capacity_only
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@d14a32c`](https://github.com/sase-org/sase-core/commit/d14a32c8242aea936f39711a8452ef0ba08b121d) | feat(agent-scan): prune never-live capacity records | [sase-1oj.1](sase-1oj.1.md) | 2026-10-26 17:21:29 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1oj.1][1] | Confirm the phase is closed and its verification note is accurate | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1oj.1/README.md
+
+<!-- sase:referenced-by:end -->

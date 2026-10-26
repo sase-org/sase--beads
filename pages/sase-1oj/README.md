@@ -28,7 +28,7 @@ SASE stops rewriting large derived state on athena's root NVMe. The runner-slot 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-1oj.1](sase-1oj.1.md) | Prune never-live dirs from the capacity\_only scan | ✓ closed | medium | 2026-10-26 | 1 | 1 |
-| [sase-1oj.2](sase-1oj.2.md) | Self-heal the corrupt bead read-model cache | ◐ in_progress | medium | 2026-10-26 | 1 | 0 |
+| [sase-1oj.2](sase-1oj.2.md) | Self-heal the corrupt bead read-model cache | ✓ closed | medium | 2026-10-26 | 1 | 1 |
 | [sase-1oj.3](sase-1oj.3.md) | Consolidate sase-core integration-test binaries | ◐ in_progress | medium | 2026-10-26 | 1 | 0 |
 | [sase-1oj.4](sase-1oj.4.md) | Adopt the pruned capacity scan in sase | ◐ in_progress | small | 2026-10-26 | 1 | 0 |
 | [sase-1oj.5](sase-1oj.5.md) | Stop per-launch Codex thread backfill | ◐ in_progress | medium | 2026-10-26 | 1 | 0 |
@@ -40,7 +40,7 @@ SASE stops rewriting large derived state on athena's root NVMe. The runner-slot 
 flowchart TD
     n0["sase-1oj: Cut athena's SSD writes from SASE's own churn [in_progress]"]
     n1["sase-1oj.1: Prune never-live dirs from the capacity_only scan [closed]"]
-    n2["sase-1oj.2: Self-heal the corrupt bead read-model cache [in_progress]"]
+    n2["sase-1oj.2: Self-heal the corrupt bead read-model cache [closed]"]
     n3["sase-1oj.3: Consolidate sase-core integration-test binaries [in_progress]"]
     n4["sase-1oj.4: Adopt the pruned capacity scan in sase [in_progress]"]
     n5["sase-1oj.5: Stop per-launch Codex thread backfill [in_progress]"]
@@ -65,7 +65,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.apollo.sase-1oj.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1oj.1/README.md) | [sase-1oj.1](sase-1oj.1.md) | 1 |
-| [bbugyi200.apollo.sase-1oj.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1oj.2/README.md) | [sase-1oj.2](sase-1oj.2.md) | 0 |
+| [bbugyi200.apollo.sase-1oj.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1oj.2/README.md) | [sase-1oj.2](sase-1oj.2.md) | 1 |
 | [bbugyi200.apollo.sase-1oj.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1oj.3/README.md) | [sase-1oj.3](sase-1oj.3.md) | 0 |
 | [bbugyi200.apollo.sase-1oj.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1oj.4/README.md) | [sase-1oj.4](sase-1oj.4.md) | 0 |
 | [bbugyi200.apollo.sase-1oj.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1oj.5.md) | [sase-1oj.5](sase-1oj.5.md) | 0 |
@@ -77,3 +77,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@d14a32c`](https://github.com/sase-org/sase-core/commit/d14a32c8242aea936f39711a8452ef0ba08b121d) | feat(agent-scan): prune never-live capacity records | [sase-1oj.1](sase-1oj.1.md) | 2026-10-26 17:21:29 EDT |
+| sase-core | [`sase-core@651d193`](https://github.com/sase-org/sase-core/commit/651d19330651f911ffdf20c8768d7b3a3d5e2634) | fix(bead-read-model): repair corrupt caches in place | [sase-1oj.2](sase-1oj.2.md) | 2026-10-26 18:05:21 EDT |
