@@ -1,0 +1,107 @@
+# Bead: sase-1oh — Task-bead backlog, epic 1: fix the five most important open task beads
+
+[Bead Pages](../README.md) / sase-1oh
+
+**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.14m](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.14m.md) · **Assignee:** `sase-1oh.land`
+**Created:** 2026-10-26 14:14:58 EDT
+**Plan:** [202610/backlog\_epic\_top\_five\_task\_beads.md](https://github.com/sase-org/sase--plans/blob/main/202610/backlog_epic_top_five_task_beads.md)
+
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202610/backlog_epic_top_five_task_beads.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/sase-org/sase--plans/blob/main/202610/backlog_epic_top_five_task_beads.md
+
+<!-- sase:links:end -->
+
+## Description
+
+The five most important open task beads in the sase project are resolved on master and closed with recorded evidence: sase-1of (Full CI visual-test red), sase-14r (the shard-timings table is about to turn Master Gate red), sase-1nw (the stuck bead read model burns CPU and disk on athena), sase-yo (closed-as-done beads strand unlanded work), and sase-1dp (agent transcripts reach the public sidecar unscanned). The land agent then starts the next backlog epic, five beads at a time, until no workable task bead remains.
+
+## Phases
+
+| Bead | Title | Status | Size | Created | Agents | Commits |
+|---|---|---|---|---|---:|---:|
+| [sase-1oh.1](sase-1oh.1.md) | Green Full CI's visual-test after the Statistics language breakdown (sase-1of) | ◐ in_progress | small | 2026-10-26 | 1 | 0 |
+| [sase-1oh.2](sase-1oh.2.md) | Refresh the shard-timings table and make the ratchet catch drift (sase-14r) | ✓ closed | medium | 2026-10-26 | 1 | 1 |
+| [sase-1oh.3](sase-1oh.3.md) | Make a crate-version mismatch converge in the bead read model (sase-1nw) | ◐ in_progress | large | 2026-10-26 | 1 | 0 |
+| [sase-1oh.4](sase-1oh.4.md) | Never leave a bead closed as done when its turn's commit never lands (sase-yo) | ◐ in_progress | large | 2026-10-26 | 1 | 0 |
+| [sase-1oh.5](sase-1oh.5.md) | Scan agents-sidecar transcripts before publication and survive GH013 (sase-1dp) | ◐ in_progress | large | 2026-10-26 | 1 | 0 |
+
+## Lineage
+
+```mermaid
+flowchart TD
+    n0["sase-1oh: Task-bead backlog, epic 1: fix the five most important open task beads [in_progress]"]
+    n1["sase-1oh.1: Green Full CI's visual-test after the Statistics language breakdown (sase-1of) [in_progress]"]
+    n2["sase-1oh.2: Refresh the shard-timings table and make the ratchet catch drift (sase-14r) [closed]"]
+    n3["sase-1oh.3: Make a crate-version mismatch converge in the bead read model (sase-1nw) [in_progress]"]
+    n4["sase-1oh.4: Never leave a bead closed as done when its turn's commit never lands (sase-yo) [in_progress]"]
+    n5["sase-1oh.4.1: Reopen beads whose completed work fails host finalization [in_progress]"]
+    n6["sase-1oh.4.1.1: Add atomic Rust recovery of closes owned by a failed run [in_progress]"]
+    n7["sase-1oh.4.1.2: Connect terminal finalizer failures to durable bead recovery [in_progress]"]
+    n8["sase-1oh.4.1.3: Verify reopened work blocks progress and appears in stranded surfaces [in_progress]"]
+    n9["sase-1oh.5: Scan agents-sidecar transcripts before publication and survive GH013 (sase-1dp) [in_progress]"]
+    n10["sase-1oh.5.1: Protect agents-sidecar publication from secrets and recover from GH013 [in_progress]"]
+    n11["sase-1oh.5.1.1: Define core publication protection and durable blocked-content state [in_progress]"]
+    n12["sase-1oh.5.1.2: Withhold unsafe run files without breaking snapshots or clean runs [in_progress]"]
+    n13["sase-1oh.5.1.3: Protect prompt documents, captured objects, and deferred restoration [in_progress]"]
+    n14["sase-1oh.5.1.4: Recover all publisher paths from GH013 without replaying blocked bytes [in_progress]"]
+    n15["sase-1oh.5.1.5: Audit published content privately and prepare reviewed rollout actions [in_progress]"]
+    n0 --> n1
+    n0 --> n2
+    n0 --> n3
+    n0 --> n4
+    n4 --> n5
+    n5 --> n6
+    n5 --> n7
+    n5 --> n8
+    n0 --> n9
+    n9 --> n10
+    n10 --> n11
+    n10 --> n12
+    n10 --> n13
+    n10 --> n14
+    n10 --> n15
+    n6 -.-> n7
+    n6 -.-> n8
+    n7 -.-> n8
+    n11 -.-> n12
+    n11 -.-> n13
+    n12 -.-> n13
+    n12 -.-> n14
+    n13 -.-> n14
+    n14 -.-> n15
+```
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-1oh.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.1/README.md) | [sase-1oh.1](sase-1oh.1.md) | 0 |
+| [bbugyi200.athena.sase-1oh.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.2/README.md) | [sase-1oh.2](sase-1oh.2.md) | 1 |
+| [bbugyi200.athena.sase-1oh.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1oh.3.md) | [sase-1oh.3](sase-1oh.3.md) | 0 |
+| [bbugyi200.athena.sase-1oh.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1oh.4.md) | [sase-1oh.4](sase-1oh.4.md) | 0 |
+| [bbugyi200.athena.sase-1oh.4.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.4.1.1/README.md) | [sase-1oh.4.1.1](sase-1oh.4.1.1.md) | 0 |
+| [bbugyi200.athena.sase-1oh.4.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.4.1.2/README.md) | [sase-1oh.4.1.2](sase-1oh.4.1.2.md) | 0 |
+| [bbugyi200.athena.sase-1oh.4.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.4.1.3/README.md) | [sase-1oh.4.1.3](sase-1oh.4.1.3.md) | 0 |
+| [bbugyi200.athena.sase-1oh.4.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.4.1.land/README.md) | [sase-1oh.4.1](sase-1oh.4.1.md) | 0 |
+| [bbugyi200.athena.sase-1oh.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1oh.5.md) | [sase-1oh.5](sase-1oh.5.md) | 0 |
+| [bbugyi200.athena.sase-1oh.5.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.5.1.1/README.md) | [sase-1oh.5.1.1](sase-1oh.5.1.1.md) | 0 |
+| [bbugyi200.athena.sase-1oh.5.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.5.1.2/README.md) | [sase-1oh.5.1.2](sase-1oh.5.1.2.md) | 0 |
+| [bbugyi200.athena.sase-1oh.5.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.5.1.3/README.md) | [sase-1oh.5.1.3](sase-1oh.5.1.3.md) | 0 |
+| [bbugyi200.athena.sase-1oh.5.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.5.1.4/README.md) | [sase-1oh.5.1.4](sase-1oh.5.1.4.md) | 0 |
+| [bbugyi200.athena.sase-1oh.5.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.5.1.5/README.md) | [sase-1oh.5.1.5](sase-1oh.5.1.5.md) | 0 |
+| [bbugyi200.athena.sase-1oh.5.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.5.1.land/README.md) | [sase-1oh.5.1](sase-1oh.5.1.md) | 0 |
+| [bbugyi200.athena.sase-1oh.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.land/README.md) | [sase-1oh](README.md) | 0 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`7c9bfa8`](https://github.com/sase-org/sase/commit/7c9bfa89f78f79df699327904d578dea02034e4f) | fix(ci): catch shard timing drift before gate breaks | [sase-1oh.2](sase-1oh.2.md) | 2026-10-26 15:11:20 EDT |
