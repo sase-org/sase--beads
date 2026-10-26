@@ -13,7 +13,7 @@ core-pin: once a complete published sase-core-rs (expected 0.42.7) contains sase
 
 ## Dependencies
 
-- **Depends on:** [sase-1oe.2](sase-1oe.2.md) ◐ · ⧖ 2026-10-26
+- **Depends on:** [sase-1oe.2](sase-1oe.2.md) ✓ · ⧖ 2026-10-26
 - **Blocks:** [sase-1oe.4](sase-1oe.4.md) ◐ · ⧖ 2026-10-26
 
 ## Agents
