@@ -13,7 +13,7 @@ prompt-publication: protect direct and deferred prompt archives and pending text
 
 ## Dependencies
 
-- **Depends on:** [sase-1oh.5.1.1](sase-1oh.5.1.1.md) ◐ · ⧖ 2026-10-26
+- **Depends on:** [sase-1oh.5.1.1](sase-1oh.5.1.1.md) ✓ · ⧖ 2026-10-26
 - **Depends on:** [sase-1oh.5.1.2](sase-1oh.5.1.2.md) ◐ · ⧖ 2026-10-26
 - **Blocks:** [sase-1oh.5.1.4](sase-1oh.5.1.4.md) ◐ · ⧖ 2026-10-26
 

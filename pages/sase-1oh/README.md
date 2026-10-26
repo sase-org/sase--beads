@@ -30,7 +30,7 @@ The five most important open task beads in the sase project are resolved on mast
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-1oh.1](sase-1oh.1.md) | Green Full CI's visual-test after the Statistics language breakdown (sase-1of) | ✓ closed | small | 2026-10-26 | 1 | 0 |
-| [sase-1oh.2](sase-1oh.2.md) | Refresh the shard-timings table and make the ratchet catch drift (sase-14r) | ✓ closed | medium | 2026-10-26 | 1 | 0 |
+| [sase-1oh.2](sase-1oh.2.md) | Refresh the shard-timings table and make the ratchet catch drift (sase-14r) | ✓ closed | medium | 2026-10-26 | 1 | 1 |
 | [sase-1oh.3](sase-1oh.3.md) | Make a crate-version mismatch converge in the bead read model (sase-1nw) | ✓ closed | large | 2026-10-26 | 1 | 1 |
 | [sase-1oh.4](sase-1oh.4.md) | Never leave a bead closed as done when its turn's commit never lands (sase-yo) | ◐ in_progress | large | 2026-10-26 | 1 | 0 |
 | [sase-1oh.5](sase-1oh.5.md) | Scan agents-sidecar transcripts before publication and survive GH013 (sase-1dp) | ◐ in_progress | large | 2026-10-26 | 1 | 0 |
@@ -50,7 +50,7 @@ flowchart TD
     n8["sase-1oh.4.1.3: Verify reopened work blocks progress and appears in stranded surfaces [in_progress]"]
     n9["sase-1oh.5: Scan agents-sidecar transcripts before publication and survive GH013 (sase-1dp) [in_progress]"]
     n10["sase-1oh.5.1: Protect agents-sidecar publication from secrets and recover from GH013 [in_progress]"]
-    n11["sase-1oh.5.1.1: Define core publication protection and durable blocked-content state [in_progress]"]
+    n11["sase-1oh.5.1.1: Define core publication protection and durable blocked-content state [closed]"]
     n12["sase-1oh.5.1.2: Withhold unsafe run files without breaking snapshots or clean runs [in_progress]"]
     n13["sase-1oh.5.1.3: Protect prompt documents, captured objects, and deferred restoration [in_progress]"]
     n14["sase-1oh.5.1.4: Recover all publisher paths from GH013 without replaying blocked bytes [in_progress]"]
@@ -86,7 +86,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1oh.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.1/README.md) | [sase-1oh.1](sase-1oh.1.md) | 0 |
-| [bbugyi200.athena.sase-1oh.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.2/README.md) | [sase-1oh.2](sase-1oh.2.md) | 0 |
+| [bbugyi200.athena.sase-1oh.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.2/README.md) | [sase-1oh.2](sase-1oh.2.md) | 1 |
 | [bbugyi200.athena.sase-1oh.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1oh.3.md) | [sase-1oh.3](sase-1oh.3.md) | 1 |
 | [bbugyi200.athena.sase-1oh.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1oh.4.md) | [sase-1oh.4](sase-1oh.4.md) | 0 |
 | [bbugyi200.athena.sase-1oh.4.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.4.1.1/README.md) | [sase-1oh.4.1.1](sase-1oh.4.1.1.md) | 1 |
@@ -94,7 +94,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1oh.4.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.4.1.3/README.md) | [sase-1oh.4.1.3](sase-1oh.4.1.3.md) | 0 |
 | [bbugyi200.athena.sase-1oh.4.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.4.1.land/README.md) | [sase-1oh.4.1](sase-1oh.4.1.md) | 0 |
 | [bbugyi200.athena.sase-1oh.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1oh.5.md) | [sase-1oh.5](sase-1oh.5.md) | 0 |
-| [bbugyi200.athena.sase-1oh.5.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.5.1.1/README.md) | [sase-1oh.5.1.1](sase-1oh.5.1.1.md) | 0 |
+| [bbugyi200.athena.sase-1oh.5.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.5.1.1/README.md) | [sase-1oh.5.1.1](sase-1oh.5.1.1.md) | 1 |
 | [bbugyi200.athena.sase-1oh.5.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.5.1.2/README.md) | [sase-1oh.5.1.2](sase-1oh.5.1.2.md) | 0 |
 | [bbugyi200.athena.sase-1oh.5.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.5.1.3/README.md) | [sase-1oh.5.1.3](sase-1oh.5.1.3.md) | 0 |
 | [bbugyi200.athena.sase-1oh.5.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.5.1.4/README.md) | [sase-1oh.5.1.4](sase-1oh.5.1.4.md) | 0 |
@@ -106,8 +106,10 @@ flowchart TD
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
+| sase | [`7c9bfa8`](https://github.com/sase-org/sase/commit/7c9bfa89f78f79df699327904d578dea02034e4f) | fix(ci): catch shard timing drift before gate breaks | [sase-1oh.2](sase-1oh.2.md) | 2026-10-26 15:11:20 EDT |
 | sase-core | [`sase-core@4f17b72`](https://github.com/sase-org/sase-core/commit/4f17b727bdbff69515a5cebc5db099ca549edf98) | feat(beads): recover failed-run closes atomically | [sase-1oh.4.1.1](sase-1oh.4.1.1.md) | 2026-10-26 15:40:41 EDT |
 | sase-core | [`sase-core@7b88b98`](https://github.com/sase-org/sase-core/commit/7b88b98d40162590c4226192fa27993f08d024a5) | fix(bead-read-model): converge crate-version mismatch recovery | [sase-1oh.3](sase-1oh.3.md) | 2026-10-26 16:14:28 EDT |
+| sase-core | [`sase-core@416db28`](https://github.com/sase-org/sase-core/commit/416db28904d080f5fc1ed884dfc256a4d0427fa6) | feat(core): add publication protection policy | [sase-1oh.5.1.1](sase-1oh.5.1.1.md) | 2026-10-26 17:06:52 EDT |
 
 <!-- sase:referenced-by:start -->
 

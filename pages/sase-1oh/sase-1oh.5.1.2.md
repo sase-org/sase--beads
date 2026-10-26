@@ -13,7 +13,7 @@ transcript-publication: enforce the protection contract in full and targeted hoo
 
 ## Dependencies
 
-- **Depends on:** [sase-1oh.5.1.1](sase-1oh.5.1.1.md) ◐ · ⧖ 2026-10-26
+- **Depends on:** [sase-1oh.5.1.1](sase-1oh.5.1.1.md) ✓ · ⧖ 2026-10-26
 - **Blocks:** [sase-1oh.5.1.3](sase-1oh.5.1.3.md) ◐ · ⧖ 2026-10-26
 - **Blocks:** [sase-1oh.5.1.4](sase-1oh.5.1.4.md) ◐ · ⧖ 2026-10-26
 
