@@ -17,7 +17,7 @@ report-windows: repair percentile, heartbeat coverage, boundary, swap, and late-
 
 ## Dependencies
 
-- **Blocks:** [sase-1nf.14.1.2](sase-1nf.14.1.2.md) ◐ · ⧖ 2026-10-24
+- **Blocks:** [sase-1nf.14.1.2](sase-1nf.14.1.2.md) ✓ · ⧖ 2026-10-24
 
 ## Agents
 

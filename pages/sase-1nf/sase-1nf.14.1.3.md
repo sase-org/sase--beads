@@ -18,9 +18,3 @@ graph-allocation: classify cached-row use before detaching graphs, copy only req
 ## Dependencies
 
 - **Blocks:** [sase-1nf.14.1.6](sase-1nf.14.1.6.md) ◐ · ⧖ 2026-10-24
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-1nf.14.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.14.1.3/README.md) | [sase-1nf.14.1.3](sase-1nf.14.1.3.md) | 0 |

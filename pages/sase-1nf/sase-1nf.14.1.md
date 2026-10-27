@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/measured_tui_gc_fixes.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/measured_tui_gc_fixes.md
 
@@ -38,11 +38,13 @@ Reduce graph and render churn and retained UI caches, preserve quiet-time memory
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1nf.14.1.1][1] | Need the epic decisions and design context for this phase | 1 |
-| read-by | [agent:sase-1nf.14.1.4][2] | parent epic scope and decisions | 1 |
-| read-by | [agent:sase-1nf.14.1.5--2][3] | Need epic decisions governing this phase | 1 |
+| read-by | [agent:sase-1nf.14.1.2][2] | epic decisions | 1 |
+| read-by | [agent:sase-1nf.14.1.4][3] | parent epic scope and decisions | 1 |
+| read-by | [agent:sase-1nf.14.1.5--2][4] | Need epic decisions governing this phase | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.14.1.1/README.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.14.1.4/README.md
-[3]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.14.1.5.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.14.1.2/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.14.1.4/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.14.1.5.md
 
 <!-- sase:referenced-by:end -->

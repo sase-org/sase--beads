@@ -42,12 +42,6 @@ install-replay: confirm both fixes landed, gate sase update on athena and apollo
 - **Depends on:** [sase-1nf.10.1.9.1.6.2](sase-1nf.10.1.9.1.6.2.md) ✓ · ⧖ 2026-10-21
 - **Blocks:** [sase-1nf.10.1.9.1.6.4](sase-1nf.10.1.9.1.6.4.md) ✓ · ⧖ 2026-10-21
 
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-1nf.10.1.9.1.6.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.10.1.9.1.6.3.md) | [sase-1nf.10.1.9.1.6.3](sase-1nf.10.1.9.1.6.3.md) | 0 |
-
 <!-- sase:referenced-by:start -->
 
 ## Referenced By

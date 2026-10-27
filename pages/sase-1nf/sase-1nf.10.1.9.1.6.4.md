@@ -55,12 +55,6 @@ canaries: run the bounded athena timeout, apollo bob-cli rebase-conflict, and ap
 - **Depends on:** [sase-1nf.10.1.9.1.6.3](sase-1nf.10.1.9.1.6.3.md) ✓ · ⧖ 2026-10-21
 - **Blocks:** [sase-1nf.10.1.9.1.6.5](sase-1nf.10.1.9.1.6.5.md) ✓ · ⧖ 2026-10-21
 
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-1nf.10.1.9.1.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.9.1.6.4/README.md) | [sase-1nf.10.1.9.1.6.4](sase-1nf.10.1.9.1.6.4.md) | 0 |
-
 <!-- sase:referenced-by:start -->
 
 ## Referenced By
