@@ -25,6 +25,8 @@
 | related | file:explicit:dcdb074200fedcafa5a9f497 | attached via sase artifact create --bead |
 | related | file:explicit:e81105351838d35a34702195 | attached via sase artifact create --bead |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 <!-- sase:links:end -->
 
 ## Description
@@ -57,10 +59,23 @@ caller-integration: consume the landed core policy in Python, preserve explicit 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1ou.2.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ou.2.1.2.md) | [sase-1ou.2.1.2](sase-1ou.2.1.2.md) | 1 |
+| [bbugyi200.athena.sase-1ou.2.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ou.2.1.2.md) | [sase-1ou.2.1.2](sase-1ou.2.1.2.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@3f8baa7`](https://github.com/sase-org/sase-core/commit/3f8baa79844d9c856d211ad23149985afccccc70) | fix(tool-run): count the WAL probe against the busy budget | [sase-1ou.2.1.2](sase-1ou.2.1.2.md) | 2026-10-27 17:37:25 EDT |
+| sase | [`57d5f41`](https://github.com/sase-org/sase/commit/57d5f411e41e543ffa10d9a91ab45fd66f62ebb6) | fix(tool): delegate default contention budgets to Rust | [sase-1ou.2.1.2](sase-1ou.2.1.2.md) | 2026-10-27 17:40:35 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ou.2.1.2--3][1] | Need phase scope, decisions, prior notes, and final evidence requirements | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ou.2.1.2.md
+
+<!-- sase:referenced-by:end -->
