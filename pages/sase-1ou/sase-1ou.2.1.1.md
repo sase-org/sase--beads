@@ -29,10 +29,16 @@ EVIDENCE: unfixed core 89576266 / sase pin 800caef4. WAL BEGIN IMMEDIATE/EXCLUSI
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1ou.2.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ou.2.1.1/README.md) | [sase-1ou.2.1.1](sase-1ou.2.1.1.md) | 1 |
+| [bbugyi200.athena.sase-1ou.2.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ou.2.1.1/README.md) | [sase-1ou.2.1.1](sase-1ou.2.1.1.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase-core | [`sase-core@6d11122`](https://github.com/sase-org/sase-core/commit/6d11122eed284f2589ecfd99d3c60c02fc949dbc) | fix(tool\_run): bound SQLite store contention at the connection boundary | [sase-1ou.2.1.1](sase-1ou.2.1.1.md) | 2026-10-27 12:05:44 EDT |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ou.2.1.1][1] | Need the phase scope and design file | 4 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ou.2.1.1/README.md
+
+<!-- sase:referenced-by:end -->

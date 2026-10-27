@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1ou](README.md) / sase-1ou.4
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-1oh.land--1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1oh.land.md) · **Assignee:** `sase-1ou.4` · **Size:** large
-**Created:** 2026-10-27 09:20:59 EDT
+**Created:** 2026-10-27 09:20:59 EDT · **Closed:** 2026-10-27 12:10:55 EDT
 **Plan:** [202610/backlog\_epic\_2\_top\_five\_task\_beads.md](https://github.com/sase-org/sase--plans/blob/main/202610/backlog_epic_2_top_five_task_beads.md)
 
 ## Description
@@ -43,6 +43,8 @@ After (same env/load):
 
 Lander: close sase-1a7 on this evidence; no memory edits, no new beads, no ancestor closes. Baseline disposition: node remains absent, add nothing.
 
+[2026-10-27T16:10:55Z · sase-1ou.4--1] Verified Files ctrl+j page-anchor race fix. Cause: hidden paged AgentFilePanel shared VerticalScroll anchor restore reset spread scroll_y 6->0 with no visibility guard; spread navigation 8-attempt call_after_refresh chain with no pending state abandoned late anchors, recomputed from stale scroll_y, watcher re-derived during flight. Fix: hidden paged view never captures/applies anchors (_is_hidden_for_scroll); pending Files navigation with immediate scroll_to, two-consecutive confirm, layout resume, superseding chains, unmount clears; _publish_section_layout resumes pending; transitions/new-subject bump generation; leaving spread clears pending; scroll watcher holds pending page. Regression: tests/ace/tui/widgets/decks/test_files_anchor_ownership.py 4 real-widget tests (hidden restore, visible restore+return offset, supersede+manual hold, late-layout resume) — 10x runs green, 5x decks -n6 green (712 each), 50x isolated target test green, 67 focused tests green. Stress: 6x yes/busy-loop load, core pin, same env as before. Check: sase tool run check 0832dea1c87b939b0133374d264d28ba verdict no_new_failures (3 KNOWN pre-existing: 2x snapshot drift witness 12ddc4cc6cb7331ddf8d6fddd35d571d, 1x import budget witness 01564beb93f5085605d33a22bce43f1f; touched=false, possible_owners empty). selection_health --fail-on-new-flake exit 0. epic-symbols sase-1ou.4 none. Baseline tests/reproducible_flake_baseline.txt has no entry for exact node, left absent. Leaving sase-1a7 and ancestors for lander.
+
 ## Dependencies
 
 - **Depends on:** [sase-1ou.1](sase-1ou.1.md) ✓ · ⧖ 2026-10-27
@@ -51,4 +53,10 @@ Lander: close sase-1a7 on this evidence; no memory edits, no new beads, no ances
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1ou.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ou.4.md) | [sase-1ou.4](sase-1ou.4.md) | 0 |
+| [bbugyi200.athena.sase-1ou.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ou.4.md) | [sase-1ou.4](sase-1ou.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`691ef46`](https://github.com/sase-org/sase/commit/691ef461533d08759fa6d2fce30eee7bac48bddb) | fix(ace-tui): resolve Files ctrl+j page-anchor scroll race | [sase-1ou.4](sase-1ou.4.md) | 2026-10-27 12:12:53 EDT |
