@@ -27,12 +27,12 @@ sase keeps an always-on, privacy-by-construction census of which of its surfaces
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-1p1.1](sase-1p1.1.md) | Feature catalog, ID scheme, overlay, and drift guard | ✓ closed | medium | 2026-10-27 | 1 | 0 |
+| [sase-1p1.1](sase-1p1.1.md) | Feature catalog, ID scheme, overlay, and drift guard | ✓ closed | medium | 2026-10-27 | 1 | 1 |
 | [sase-1p1.10](sase-1p1.10.md) | Evidence card panel and feature finder | ◐ in_progress | medium | 2026-10-27 | 1 | 0 |
 | [sase-1p1.11](sase-1p1.11.md) | Decide picker, finish review, and the | ◐ in_progress | medium | 2026-10-27 | 1 | 0 |
 | [sase-1p1.12](sase-1p1.12.md) | Identity-free export packs and multi-machine merge | ◐ in_progress | medium | 2026-10-27 | 1 | 0 |
 | [sase-1p1.13](sase-1p1.13.md) | Docs reconciliation, end-to-end smoke, and memory | ◐ in_progress | small | 2026-10-27 | 1 | 0 |
-| [sase-1p1.2](sase-1p1.2.md) | Rust ledger, spool fold, and status (sase-core) | ✓ closed | medium | 2026-10-27 | 1 | 1 |
+| [sase-1p1.2](sase-1p1.2.md) | Rust ledger, spool fold, and status (sase-core) | ✓ closed | medium | 2026-10-27 | 1 | 2 |
 | [sase-1p1.3](sase-1p1.3.md) | CLI recorder, spool writer, and mode switch | ◐ in_progress | medium | 2026-10-27 | 1 | 0 |
 | [sase-1p1.4](sase-1p1.4.md) | TUI counters, dispatch seams, and flush thread | ◐ in_progress | medium | 2026-10-27 | 1 | 0 |
 | [sase-1p1.5](sase-1p1.5.md) | Fold driver, hourly job, status, clear, and disclosure | ◐ in_progress | medium | 2026-10-27 | 1 | 0 |
@@ -94,12 +94,12 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1p1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1p1.1.md) | [sase-1p1.1](sase-1p1.1.md) | 0 |
+| [bbugyi200.athena.sase-1p1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1p1.1.md) | [sase-1p1.1](sase-1p1.1.md) | 1 |
 | [bbugyi200.athena.sase-1p1.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.10/README.md) | [sase-1p1.10](sase-1p1.10.md) | 0 |
 | [bbugyi200.athena.sase-1p1.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.11/README.md) | [sase-1p1.11](sase-1p1.11.md) | 0 |
 | [bbugyi200.athena.sase-1p1.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.12/README.md) | [sase-1p1.12](sase-1p1.12.md) | 0 |
 | [bbugyi200.athena.sase-1p1.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.13/README.md) | [sase-1p1.13](sase-1p1.13.md) | 0 |
-| [bbugyi200.athena.sase-1p1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.2/README.md) | [sase-1p1.2](sase-1p1.2.md) | 1 |
+| [bbugyi200.athena.sase-1p1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.2/README.md) | [sase-1p1.2](sase-1p1.2.md) | 2 |
 | [bbugyi200.athena.sase-1p1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1p1.3.md) | [sase-1p1.3](sase-1p1.3.md) | 0 |
 | [bbugyi200.athena.sase-1p1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.4/README.md) | [sase-1p1.4](sase-1p1.4.md) | 0 |
 | [bbugyi200.athena.sase-1p1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.5/README.md) | [sase-1p1.5](sase-1p1.5.md) | 0 |
@@ -113,4 +113,6 @@ flowchart TD
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
+| sase | [`a520737`](https://github.com/sase-org/sase/commit/a5207375e7235f6ebfcbcbd920bfc679802dd2af) | feat(footprint): add feature catalog, overlay, drift guard and sase footprint catalog | [sase-1p1.1](sase-1p1.1.md) | 2026-10-27 16:54:42 EDT |
 | sase-core | [`sase-core@2d0b62e`](https://github.com/sase-org/sase-core/commit/2d0b62e20db963e606ff852075617d19d1b74c76) | feat(footprint): add ledger, spool fold, catalog ingest, and status | [sase-1p1.2](sase-1p1.2.md) | 2026-10-27 17:32:48 EDT |
+| sase | [`daf54c5`](https://github.com/sase-org/sase/commit/daf54c5b2d39ed483df935fbf98b209b47e1f276) | feat(footprint): add Python ledger facade and core-rs binding probes | [sase-1p1.2](sase-1p1.2.md) | 2026-10-27 18:29:37 EDT |
