@@ -13,7 +13,7 @@ cli: move `sase agent load` onto the tiered view per the cli_parity decision, de
 
 ## Dependencies
 
-- **Depends on:** [sase-1ox.2](sase-1ox.2.md) ◐ · ⧖ 2026-10-27
+- **Depends on:** [sase-1ox.2](sase-1ox.2.md) ✓ · ⧖ 2026-10-27
 
 ## Agents
 

@@ -25,7 +25,7 @@ view-model: additively extend the shared stdlib-only capacity view with a verdic
 
 ## Dependencies
 
-- **Blocks:** [sase-1ox.2](sase-1ox.2.md) ◐ · ⧖ 2026-10-27
+- **Blocks:** [sase-1ox.2](sase-1ox.2.md) ✓ · ⧖ 2026-10-27
 
 ## Agents
 
@@ -38,3 +38,15 @@ view-model: additively extend the shared stdlib-only capacity view with a verdic
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`d16b79f`](https://github.com/sase-org/sase/commit/d16b79f3c13c80d787e0f2975a1953e9c7479dab) | feat(capacity): add tiered view-model verdict, gauge, and durations | [sase-1ox.1](sase-1ox.1.md) | 2026-10-27 14:07:09 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ox.1--4][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ox.1.md
+
+<!-- sase:referenced-by:end -->
