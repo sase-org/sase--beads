@@ -13,7 +13,7 @@ queries: add the sase-core report/card queries (map, eight lenses, tiles, trust 
 
 ## Dependencies
 
-- **Depends on:** [sase-1p1.2](sase-1p1.2.md) ◐ · ⧖ 2026-10-27
+- **Depends on:** [sase-1p1.2](sase-1p1.2.md) ✓ · ⧖ 2026-10-27
 - **Blocks:** [sase-1p1.8](sase-1p1.8.md) ◐ · ⧖ 2026-10-27
 
 ## Agents
