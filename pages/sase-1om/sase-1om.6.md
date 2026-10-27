@@ -22,4 +22,4 @@ tui-report-feed: compute the machine report off the event loop on token change p
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1om.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1om.6/README.md) | [sase-1om.6](sase-1om.6.md) | 0 |
+| [bbugyi200.athena.sase-1om.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1om.6.md) | [sase-1om.6](sase-1om.6.md) | 0 |

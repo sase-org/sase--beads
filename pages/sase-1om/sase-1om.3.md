@@ -25,7 +25,7 @@ machine-report: one read-only Python adapter that builds the machine's capacity 
 
 - **Depends on:** [sase-1om.2](sase-1om.2.md) ✓ · ⧖ 2026-10-26
 - **Blocks:** [sase-1om.4](sase-1om.4.md) ◐ · ⧖ 2026-10-26
-- **Blocks:** [sase-1om.5](sase-1om.5.md) ◐ · ⧖ 2026-10-26
+- **Blocks:** [sase-1om.5](sase-1om.5.md) ✓ · ⧖ 2026-10-26
 - **Blocks:** [sase-1om.6](sase-1om.6.md) ◐ · ⧖ 2026-10-26
 
 ## Agents
@@ -39,3 +39,17 @@ machine-report: one read-only Python adapter that builds the machine's capacity 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`dd9e740`](https://github.com/sase-org/sase/commit/dd9e740aec9bfb6efaf3ed26d59d8116d444760a) | feat(runner-slots): add read-only machine capacity report | [sase-1om.3](sase-1om.3.md) | 2026-10-27 00:18:41 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1oi.2][1] | Verify prior clean-base evidence and whether an existing task tracks the capacity scan failures | 1 |
+| read-by | [agent:sase-1om.3][2] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oi.2/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1om.3/README.md
+
+<!-- sase:referenced-by:end -->
