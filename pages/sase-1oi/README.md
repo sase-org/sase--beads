@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/muse_commentary_live_reply.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/muse_commentary_live_reply.md
 
 <!-- sase:links:end -->
@@ -28,8 +30,8 @@ While a Muse agent runs, each commentary message Muse commits to its session log
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-1oi.1](sase-1oi.1.md) | Commentary tail in the Muse adapter | ✓ closed | medium | 2026-10-26 | 1 | 1 |
-| [sase-1oi.2](sase-1oi.2.md) | Production-shaped mounted TUI fixture | ◐ in_progress | medium | 2026-10-26 | 1 | 0 |
-| [sase-1oi.3](sase-1oi.3.md) | Muse 1.4.13 capture and end-to-end check | ◐ in_progress | medium | 2026-10-26 | 1 | 0 |
+| [sase-1oi.2](sase-1oi.2.md) | Production-shaped mounted TUI fixture | ✓ closed | medium | 2026-10-26 | 1 | 1 |
+| [sase-1oi.3](sase-1oi.3.md) | Muse 1.4.13 capture and end-to-end check | ○ open | medium | 2026-10-26 | 1 | 0 |
 
 ## Lineage
 
@@ -37,8 +39,8 @@ While a Muse agent runs, each commentary message Muse commits to its session log
 flowchart TD
     n0["sase-1oi: Stream Muse commentary into the live Reply card [in_progress]"]
     n1["sase-1oi.1: Commentary tail in the Muse adapter [closed]"]
-    n2["sase-1oi.2: Production-shaped mounted TUI fixture [in_progress]"]
-    n3["sase-1oi.3: Muse 1.4.13 capture and end-to-end check [in_progress]"]
+    n2["sase-1oi.2: Production-shaped mounted TUI fixture [closed]"]
+    n3["sase-1oi.3: Muse 1.4.13 capture and end-to-end check [open]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -51,8 +53,8 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1oi.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oi.1/README.md) | [sase-1oi.1](sase-1oi.1.md) | 1 |
-| [bbugyi200.athena.sase-1oi.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oi.2/README.md) | [sase-1oi.2](sase-1oi.2.md) | 0 |
-| [bbugyi200.athena.sase-1oi.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oi.3/README.md) | [sase-1oi.3](sase-1oi.3.md) | 0 |
+| [bbugyi200.athena.sase-1oi.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oi.2/README.md) | [sase-1oi.2](sase-1oi.2.md) | 1 |
+| [bbugyi200.athena.sase-1oi.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1oi.3.md) | [sase-1oi.3](sase-1oi.3.md) | 0 |
 | [bbugyi200.athena.sase-1oi.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oi.land/README.md) | [sase-1oi](README.md) | 0 |
 
 ## Commits
@@ -60,3 +62,16 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`cf9b9db`](https://github.com/sase-org/sase/commit/cf9b9dbf39737dfc7bf924bd9979b9f3273985b3) | feat(llm-provider): tail Muse session-log commentary into live\_reply.md | [sase-1oi.1](sase-1oi.1.md) | 2026-10-26 23:09:56 EDT |
+| sase | [`027125d`](https://github.com/sase-org/sase/commit/027125d57b651d99cdd31d6f294476395bef7e85) | test(tui): mount production-shaped Muse commentary fixture in live-reply follow tests | [sase-1oi.2](sase-1oi.2.md) | 2026-10-27 00:23:57 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1oi.1][1] | Need epic scope and remaining phases | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oi.1/README.md
+
+<!-- sase:referenced-by:end -->

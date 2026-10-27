@@ -25,8 +25,8 @@ commentary-tail: add a fail-soft session-log tail driven by a new on_tick hook i
 
 ## Dependencies
 
-- **Blocks:** [sase-1oi.2](sase-1oi.2.md) ◐ · ⧖ 2026-10-26
-- **Blocks:** [sase-1oi.3](sase-1oi.3.md) ◐ · ⧖ 2026-10-26
+- **Blocks:** [sase-1oi.2](sase-1oi.2.md) ✓ · ⧖ 2026-10-26
+- **Blocks:** [sase-1oi.3](sase-1oi.3.md) ○ · ⧖ 2026-10-26
 
 ## Agents
 
@@ -39,3 +39,15 @@ commentary-tail: add a fail-soft session-log tail driven by a new on_tick hook i
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`cf9b9db`](https://github.com/sase-org/sase/commit/cf9b9dbf39737dfc7bf924bd9979b9f3273985b3) | feat(llm-provider): tail Muse session-log commentary into live\_reply.md | [sase-1oi.1](sase-1oi.1.md) | 2026-10-26 23:09:56 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1oi.1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oi.1/README.md
+
+<!-- sase:referenced-by:end -->
