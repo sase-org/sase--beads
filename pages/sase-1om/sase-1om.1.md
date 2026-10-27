@@ -25,7 +25,7 @@ roster-fixes: give monitor rows their supervisor PID from agent_meta (then the r
 
 ## Dependencies
 
-- **Blocks:** [sase-1om.6](sase-1om.6.md) ◐ · ⧖ 2026-10-26
+- **Blocks:** [sase-1om.6](sase-1om.6.md) ✓ · ⧖ 2026-10-26
 
 ## Agents
 

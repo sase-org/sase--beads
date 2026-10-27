@@ -13,7 +13,7 @@ occupancy-marks: attach accounting entries to Agent rows, draw a charged-now mar
 
 ## Dependencies
 
-- **Depends on:** [sase-1om.6](sase-1om.6.md) ◐ · ⧖ 2026-10-26
+- **Depends on:** [sase-1om.6](sase-1om.6.md) ✓ · ⧖ 2026-10-26
 
 ## Agents
 

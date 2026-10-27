@@ -26,7 +26,7 @@ machine-report: one read-only Python adapter that builds the machine's capacity 
 - **Depends on:** [sase-1om.2](sase-1om.2.md) ✓ · ⧖ 2026-10-26
 - **Blocks:** [sase-1om.4](sase-1om.4.md) ✓ · ⧖ 2026-10-26
 - **Blocks:** [sase-1om.5](sase-1om.5.md) ✓ · ⧖ 2026-10-26
-- **Blocks:** [sase-1om.6](sase-1om.6.md) ◐ · ⧖ 2026-10-26
+- **Blocks:** [sase-1om.6](sase-1om.6.md) ✓ · ⧖ 2026-10-26
 
 ## Agents
 

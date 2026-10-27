@@ -13,7 +13,7 @@ cap-chip: rename the gauge to a machine-labelled `cap` chip that keeps its label
 
 ## Dependencies
 
-- **Depends on:** [sase-1om.6](sase-1om.6.md) ◐ · ⧖ 2026-10-26
+- **Depends on:** [sase-1om.6](sase-1om.6.md) ✓ · ⧖ 2026-10-26
 - **Blocks:** [sase-1om.9](sase-1om.9.md) ◐ · ⧖ 2026-10-26
 
 ## Agents
