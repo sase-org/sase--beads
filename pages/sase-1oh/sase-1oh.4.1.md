@@ -41,13 +41,14 @@ Follow-up triage preserved, not refiled: group-revival flake sase-1on; claim-che
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1oh.4.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1oh.4.1.land.md) | [sase-1oh.4.1](sase-1oh.4.1.md) | 1 |
+| [bbugyi200.athena.sase-1oh.4.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1oh.4.1.land.md) | [sase-1oh.4.1](sase-1oh.4.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@800caef`](https://github.com/sase-org/sase-core/commit/800caef4c70039ccf299a0ecca379142f80234c2) | fix(beads): recover every eligible failed-run close in one mutation | [sase-1oh.4.1](sase-1oh.4.1.md) | 2026-10-27 01:14:00 EDT |
+| sase | [`3f00441`](https://github.com/sase-org/sase/commit/3f0044196d5e385912b09efbd5477d6c58cee2c7) | fix(finalizers): require current landing proof and retry recovery commits | [sase-1oh.4.1](sase-1oh.4.1.md) | 2026-10-27 02:21:17 EDT |
 
 <!-- sase:referenced-by:start -->
 

@@ -11,6 +11,10 @@
 
 rejection-recovery: wire core rejection classification into all pushes, isolate offending publications, preserve local-only objects, reset only the managed publication clone, and prove unrelated publication continues.
 
+## Notes
+
+[2026-10-27T05:32:05Z · sase-1oh.5.1.4] Implementation complete, verification pending: shared publication_recovery adapter + wiring into all 4 push writers + 24 regression tests (all pass) + 482-test agents_sync suite (all pass). Joined check run a01099a0d3817e9d5e96e4eefeb3984f still running (building lint tooling); close only after it goes green. Epic-symbols already empty.
+
 ## Dependencies
 
 - **Depends on:** [sase-1oh.5.1.2](sase-1oh.5.1.2.md) ✓ · ⧖ 2026-10-26
@@ -21,4 +25,4 @@ rejection-recovery: wire core rejection classification into all pushes, isolate 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1oh.5.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.5.1.4/README.md) | [sase-1oh.5.1.4](sase-1oh.5.1.4.md) | 0 |
+| [bbugyi200.athena.sase-1oh.5.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1oh.5.1.4.md) | [sase-1oh.5.1.4](sase-1oh.5.1.4.md) | 0 |
