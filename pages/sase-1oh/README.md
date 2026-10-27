@@ -47,7 +47,7 @@ flowchart TD
     n5["sase-1oh.4.1: Reopen beads whose completed work fails host finalization [in_progress]"]
     n6["sase-1oh.4.1.1: Add atomic Rust recovery of closes owned by a failed run [closed]"]
     n7["sase-1oh.4.1.2: Connect terminal finalizer failures to durable bead recovery [closed]"]
-    n8["sase-1oh.4.1.3: Verify reopened work blocks progress and appears in stranded surfaces [in_progress]"]
+    n8["sase-1oh.4.1.3: Verify reopened work blocks progress and appears in stranded surfaces [closed]"]
     n9["sase-1oh.5: Scan agents-sidecar transcripts before publication and survive GH013 (sase-1dp) [in_progress]"]
     n10["sase-1oh.5.1: Protect agents-sidecar publication from secrets and recover from GH013 [in_progress]"]
     n11["sase-1oh.5.1.1: Define core publication protection and durable blocked-content state [closed]"]
@@ -90,8 +90,8 @@ flowchart TD
 | [bbugyi200.athena.sase-1oh.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1oh.3.md) | [sase-1oh.3](sase-1oh.3.md) | 1 |
 | [bbugyi200.athena.sase-1oh.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1oh.4.md) | [sase-1oh.4](sase-1oh.4.md) | 0 |
 | [bbugyi200.athena.sase-1oh.4.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.4.1.1/README.md) | [sase-1oh.4.1.1](sase-1oh.4.1.1.md) | 1 |
-| [bbugyi200.athena.sase-1oh.4.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.4.1.2/README.md) | [sase-1oh.4.1.2](sase-1oh.4.1.2.md) | 0 |
-| [bbugyi200.athena.sase-1oh.4.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.4.1.3/README.md) | [sase-1oh.4.1.3](sase-1oh.4.1.3.md) | 0 |
+| [bbugyi200.athena.sase-1oh.4.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.4.1.2/README.md) | [sase-1oh.4.1.2](sase-1oh.4.1.2.md) | 1 |
+| [bbugyi200.athena.sase-1oh.4.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.4.1.3/README.md) | [sase-1oh.4.1.3](sase-1oh.4.1.3.md) | 1 |
 | [bbugyi200.athena.sase-1oh.4.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.4.1.land/README.md) | [sase-1oh.4.1](sase-1oh.4.1.md) | 0 |
 | [bbugyi200.athena.sase-1oh.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1oh.5.md) | [sase-1oh.5](sase-1oh.5.md) | 0 |
 | [bbugyi200.athena.sase-1oh.5.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.5.1.1/README.md) | [sase-1oh.5.1.1](sase-1oh.5.1.1.md) | 2 |
@@ -113,6 +113,8 @@ flowchart TD
 | sase-core | [`sase-core@416db28`](https://github.com/sase-org/sase-core/commit/416db28904d080f5fc1ed884dfc256a4d0427fa6) | feat(core): add publication protection policy | [sase-1oh.5.1.1](sase-1oh.5.1.1.md) | 2026-10-26 17:06:52 EDT |
 | sase | [`f4591e9`](https://github.com/sase-org/sase/commit/f4591e9106830fb5e558d71f506b4a2d9fe9791b) | feat(agents-sync): add publication protection state | [sase-1oh.5.1.1](sase-1oh.5.1.1.md) | 2026-10-26 17:10:06 EDT |
 | sase | [`67edb96`](https://github.com/sase-org/sase/commit/67edb9677d23a2cdc93b71d944c551336f6416e3) | feat(agents-sync): withhold unsafe transcript bytes without breaking clean publication | [sase-1oh.5.1.2](sase-1oh.5.1.2.md) | 2026-10-26 20:17:10 EDT |
+| sase | [`eb365af`](https://github.com/sase-org/sase/commit/eb365afe30ba8a1b8c5c291f6e0e1be26c999a12) | fix(finalizers): resolve symvision items for failed-close recovery | [sase-1oh.4.1.2](sase-1oh.4.1.2.md) | 2026-10-26 20:18:19 EDT |
+| sase | [`13abbfb`](https://github.com/sase-org/sase/commit/13abbfb01ed4df28e9330ce07b70c2c3d03ecae0) | feat(beads): surface recovered open work as stranded | [sase-1oh.4.1.3](sase-1oh.4.1.3.md) | 2026-10-26 22:59:23 EDT |
 
 <!-- sase:referenced-by:start -->
 

@@ -36,3 +36,15 @@ transcript-publication: enforce the protection contract in full and targeted hoo
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`67edb96`](https://github.com/sase-org/sase/commit/67edb9677d23a2cdc93b71d944c551336f6416e3) | feat(agents-sync): withhold unsafe transcript bytes without breaking clean publication | [sase-1oh.5.1.2](sase-1oh.5.1.2.md) | 2026-10-26 20:17:10 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1oh.5.1.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.5.1.2/README.md
+
+<!-- sase:referenced-by:end -->

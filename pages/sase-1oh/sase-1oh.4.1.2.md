@@ -20,7 +20,7 @@ host-recovery: pin the landed core API, carry close provenance through Python, a
 ## Dependencies
 
 - **Depends on:** [sase-1oh.4.1.1](sase-1oh.4.1.1.md) ✓ · ⧖ 2026-10-26
-- **Blocks:** [sase-1oh.4.1.3](sase-1oh.4.1.3.md) ◐ · ⧖ 2026-10-26
+- **Blocks:** [sase-1oh.4.1.3](sase-1oh.4.1.3.md) ✓ · ⧖ 2026-10-26
 
 ## Agents
 
@@ -33,3 +33,15 @@ host-recovery: pin the landed core API, carry close provenance through Python, a
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`eb365af`](https://github.com/sase-org/sase/commit/eb365afe30ba8a1b8c5c291f6e0e1be26c999a12) | fix(finalizers): resolve symvision items for failed-close recovery | [sase-1oh.4.1.2](sase-1oh.4.1.2.md) | 2026-10-26 20:18:19 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1oh.4.1.2][1] | check prior work notes | 9 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.4.1.2/README.md
+
+<!-- sase:referenced-by:end -->
