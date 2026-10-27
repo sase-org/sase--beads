@@ -29,7 +29,7 @@ The header capacity chip always matches what runner admission sees on this machi
 |---|---|---|---|---|---:|---:|
 | [sase-1om.1](sase-1om.1.md) | Stop the TUI roster from dropping monitors and mislabelling holders | ✓ closed | medium | 2026-10-26 | 1 | 1 |
 | [sase-1om.2](sase-1om.2.md) | Per-record capacity accounting in the Rust snapshot | ✓ closed | medium | 2026-10-26 | 1 | 2 |
-| [sase-1om.3](sase-1om.3.md) | Shared authoritative machine capacity report | ◐ in_progress | medium | 2026-10-26 | 1 | 0 |
+| [sase-1om.3](sase-1om.3.md) | Shared authoritative machine capacity report | ✓ closed | medium | 2026-10-26 | 1 | 1 |
 | [sase-1om.4](sase-1om.4.md) | The sase agent load command and shared capacity view model | ◐ in_progress | medium | 2026-10-26 | 1 | 0 |
 | [sase-1om.5](sase-1om.5.md) | Retire the Python holder predicate behind sase agent list | ◐ in_progress | small | 2026-10-26 | 1 | 0 |
 | [sase-1om.6](sase-1om.6.md) | Feed the TUI from the authoritative report | ◐ in_progress | medium | 2026-10-26 | 1 | 0 |
@@ -44,7 +44,7 @@ flowchart TD
     n0["sase-1om: Make machine capacity legible and correct [claimed]"]
     n1["sase-1om.1: Stop the TUI roster from dropping monitors and mislabelling holders [closed]"]
     n2["sase-1om.2: Per-record capacity accounting in the Rust snapshot [closed]"]
-    n3["sase-1om.3: Shared authoritative machine capacity report [in_progress]"]
+    n3["sase-1om.3: Shared authoritative machine capacity report [closed]"]
     n4["sase-1om.4: The sase agent load command and shared capacity view model [in_progress]"]
     n5["sase-1om.5: Retire the Python holder predicate behind sase agent list [in_progress]"]
     n6["sase-1om.6: Feed the TUI from the authoritative report [in_progress]"]
@@ -77,7 +77,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-1om.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1om.1.md) | [sase-1om.1](sase-1om.1.md) | 1 |
 | [bbugyi200.athena.sase-1om.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1om.2.md) | [sase-1om.2](sase-1om.2.md) | 2 |
-| [bbugyi200.athena.sase-1om.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1om.3/README.md) | [sase-1om.3](sase-1om.3.md) | 0 |
+| [bbugyi200.athena.sase-1om.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1om.3/README.md) | [sase-1om.3](sase-1om.3.md) | 1 |
 | [bbugyi200.athena.sase-1om.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1om.4/README.md) | [sase-1om.4](sase-1om.4.md) | 0 |
 | [bbugyi200.athena.sase-1om.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1om.5/README.md) | [sase-1om.5](sase-1om.5.md) | 0 |
 | [bbugyi200.athena.sase-1om.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1om.6/README.md) | [sase-1om.6](sase-1om.6.md) | 0 |
@@ -93,3 +93,4 @@ flowchart TD
 | sase-core | [`sase-core@f1ea08f`](https://github.com/sase-org/sase-core/commit/f1ea08fbdeb7fe40271b369892c91750a0b5c947) | feat!: per-record capacity accounting in Rust snapshot | [sase-1om.2](sase-1om.2.md) | 2026-10-26 21:44:10 EDT |
 | sase | [`cef4bb1`](https://github.com/sase-org/sase/commit/cef4bb119942ee627f18ad82e153124620dbbdd0) | fix(tui): preserve monitor capacity in roster projections | [sase-1om.1](sase-1om.1.md) | 2026-10-26 21:50:26 EDT |
 | sase | [`4a64ff9`](https://github.com/sase-org/sase/commit/4a64ff9a28e859e92badc9eb6206a78555ccccfd) | feat: adapt record builders for core capacity accounting | [sase-1om.2](sase-1om.2.md) | 2026-10-26 22:34:33 EDT |
+| sase | [`dd9e740`](https://github.com/sase-org/sase/commit/dd9e740aec9bfb6efaf3ed26d59d8116d444760a) | feat(runner-slots): add read-only machine capacity report | [sase-1om.3](sase-1om.3.md) | 2026-10-27 00:18:41 EDT |

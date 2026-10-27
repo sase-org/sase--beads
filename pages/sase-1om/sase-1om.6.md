@@ -14,7 +14,7 @@ tui-report-feed: compute the machine report off the event loop on token change p
 ## Dependencies
 
 - **Depends on:** [sase-1om.1](sase-1om.1.md) ✓ · ⧖ 2026-10-26
-- **Depends on:** [sase-1om.3](sase-1om.3.md) ◐ · ⧖ 2026-10-26
+- **Depends on:** [sase-1om.3](sase-1om.3.md) ✓ · ⧖ 2026-10-26
 - **Blocks:** [sase-1om.7](sase-1om.7.md) ◐ · ⧖ 2026-10-26
 - **Blocks:** [sase-1om.8](sase-1om.8.md) ◐ · ⧖ 2026-10-26
 

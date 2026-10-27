@@ -19,7 +19,7 @@ core-accounting: in sase-core, add an accounting list (state, charged weight, we
 
 ## Dependencies
 
-- **Blocks:** [sase-1om.3](sase-1om.3.md) ◐ · ⧖ 2026-10-26
+- **Blocks:** [sase-1om.3](sase-1om.3.md) ✓ · ⧖ 2026-10-26
 
 ## Agents
 

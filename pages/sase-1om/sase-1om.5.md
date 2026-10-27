@@ -13,7 +13,7 @@ list-holder-parity: source `holds_runner_slot`, `runner_slot_holders`, and `runn
 
 ## Dependencies
 
-- **Depends on:** [sase-1om.3](sase-1om.3.md) ◐ · ⧖ 2026-10-26
+- **Depends on:** [sase-1om.3](sase-1om.3.md) ✓ · ⧖ 2026-10-26
 
 ## Agents
 
