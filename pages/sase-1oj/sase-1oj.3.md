@@ -21,7 +21,7 @@ core-test-binaries: merge sase_core's 23 and sase_macro_lsp's 10 integration-tes
 
 - **Depends on:** [sase-1oj.1](sase-1oj.1.md) ✓ · ⧖ 2026-10-26
 - **Depends on:** [sase-1oj.2](sase-1oj.2.md) ✓ · ⧖ 2026-10-26
-- **Blocks:** [sase-1oj.6](sase-1oj.6.md) ◐ · ⧖ 2026-10-26
+- **Blocks:** [sase-1oj.6](sase-1oj.6.md) ✓ · ⧖ 2026-10-26
 
 ## Agents
 

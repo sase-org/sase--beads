@@ -21,6 +21,20 @@
 >
 > Reopened 2026-10-27T02:12:36Z by `sase bead open`
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| related | [bead:sase-1oy][1] | Phase whose check run (ToolRun 5721d601) first proposed this unmatched sudo settlement failure |
+
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-1oy/README.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 sase-capacity-adopt: ratchet sase-core-revision.txt past both core phases, add a Python differential admission test through the real binding, sweep stale scan-cache temp files, and update the capacity_only docstring and runner-slot docs.
@@ -41,7 +55,7 @@ sase-capacity-adopt: ratchet sase-core-revision.txt past both core phases, add a
 
 - **Depends on:** [sase-1oj.1](sase-1oj.1.md) ✓ · ⧖ 2026-10-26
 - **Depends on:** [sase-1oj.2](sase-1oj.2.md) ✓ · ⧖ 2026-10-26
-- **Blocks:** [sase-1oj.6](sase-1oj.6.md) ◐ · ⧖ 2026-10-26
+- **Blocks:** [sase-1oj.6](sase-1oj.6.md) ✓ · ⧖ 2026-10-26
 
 ## Agents
 
@@ -62,8 +76,13 @@ sase-capacity-adopt: ratchet sase-core-revision.txt past both core phases, add a
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1oj.4][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:sase-1oi.land][1] | Need capacity adoption fixes for proposed follow-ups | 1 |
+| read-by | [agent:sase-1oj.4][2] | Need the phase scope and design file | 2 |
+| read-by | [agent:sase-1oj.4--2][2] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1om.6--2][3] | Confirm the pruned capacity scan dependency landed before this phase relies on its cache | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1oj.4.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1oi.land/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1oj.4.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1om.6.md
 
 <!-- sase:referenced-by:end -->

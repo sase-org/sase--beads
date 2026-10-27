@@ -21,7 +21,7 @@ codex-private-sessions: give each shadow CODEX_HOME a private sessions tree whos
 
 ## Dependencies
 
-- **Blocks:** [sase-1oj.6](sase-1oj.6.md) ◐ · ⧖ 2026-10-26
+- **Blocks:** [sase-1oj.6](sase-1oj.6.md) ✓ · ⧖ 2026-10-26
 
 ## Agents
 
