@@ -20,4 +20,4 @@ capacity-inspector: a modal rendering the shared view model, opened from a chip 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1om.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1om.9/README.md) | [sase-1om.9](sase-1om.9.md) | 0 |
+| [bbugyi200.athena.sase-1om.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1om.9.md) | [sase-1om.9](sase-1om.9.md) | 0 |
