@@ -60,3 +60,15 @@ Lander: close sase-1a7 on this evidence; no memory edits, no new beads, no ances
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`691ef46`](https://github.com/sase-org/sase/commit/691ef461533d08759fa6d2fce30eee7bac48bddb) | fix(ace-tui): resolve Files ctrl+j page-anchor scroll race | [sase-1ou.4](sase-1ou.4.md) | 2026-10-27 12:12:53 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ou.4--1][1] | final verification before close | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ou.4.md
+
+<!-- sase:referenced-by:end -->

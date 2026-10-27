@@ -26,7 +26,7 @@ flake-baseline: drop the duplicate fixed-at directive that makes tools/selection
 ## Dependencies
 
 - **Blocks:** [sase-1ou.2](sase-1ou.2.md) ◐ · ⧖ 2026-10-27
-- **Blocks:** [sase-1ou.3](sase-1ou.3.md) ◐ · ⧖ 2026-10-27
+- **Blocks:** [sase-1ou.3](sase-1ou.3.md) ✓ · ⧖ 2026-10-27
 - **Blocks:** [sase-1ou.4](sase-1ou.4.md) ✓ · ⧖ 2026-10-27
 
 ## Agents
