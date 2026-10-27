@@ -1,0 +1,93 @@
+# Bead: sase-1om — Make machine capacity legible and correct
+
+[Bead Pages](../README.md) / sase-1om
+
+**Status:** ◎ claimed · **Type:** ▸ plan · **Tier:** epic
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.research.5e.linker.w0](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.research.5e.linker.w0.md) · **Assignee:** `sase-1om.land`
+**Created:** 2026-10-26 20:19:43 EDT
+**Plan:** [202610/machine\_capacity\_transparency.md](https://github.com/sase-org/sase--plans/blob/main/202610/machine_capacity_transparency.md)
+
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202610/machine_capacity_transparency.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/sase-org/sase--plans/blob/main/202610/machine_capacity_transparency.md
+
+<!-- sase:links:end -->
+
+## Description
+
+The header capacity chip always matches what runner admission sees on this machine, and every unit (or zero) can be traced to a named agent and a stated reason: on the chip, on every Running-bucket row, in a keyboard-reachable inspector, and from `sase agent load`. The athena screenshot case (6 running, 5.0 occupied) reads `5/8`, not `3/8`.
+
+## Phases
+
+| Bead | Title | Status | Size | Created | Agents | Commits |
+|---|---|---|---|---|---:|---:|
+| [sase-1om.1](sase-1om.1.md) | Stop the TUI roster from dropping monitors and mislabelling holders | ◐ in_progress | medium | 2026-10-26 | 1 | 0 |
+| [sase-1om.2](sase-1om.2.md) | Per-record capacity accounting in the Rust snapshot | ✓ closed | medium | 2026-10-26 | 1 | 1 |
+| [sase-1om.3](sase-1om.3.md) | Shared authoritative machine capacity report | ◐ in_progress | medium | 2026-10-26 | 1 | 0 |
+| [sase-1om.4](sase-1om.4.md) | The sase agent load command and shared capacity view model | ◐ in_progress | medium | 2026-10-26 | 1 | 0 |
+| [sase-1om.5](sase-1om.5.md) | Retire the Python holder predicate behind sase agent list | ◐ in_progress | small | 2026-10-26 | 1 | 0 |
+| [sase-1om.6](sase-1om.6.md) | Feed the TUI from the authoritative report | ◐ in_progress | medium | 2026-10-26 | 1 | 0 |
+| [sase-1om.7](sase-1om.7.md) | Machine-labelled cap chip with provenance, staleness, fault, and overage | ◐ in_progress | medium | 2026-10-26 | 1 | 0 |
+| [sase-1om.8](sase-1om.8.md) | Occupancy marks on Running rows and a Capacity detail line | ◐ in_progress | medium | 2026-10-26 | 1 | 0 |
+| [sase-1om.9](sase-1om.9.md) | Keyboard-first capacity inspector | ◐ in_progress | medium | 2026-10-26 | 1 | 0 |
+
+## Lineage
+
+```mermaid
+flowchart TD
+    n0["sase-1om: Make machine capacity legible and correct [claimed]"]
+    n1["sase-1om.1: Stop the TUI roster from dropping monitors and mislabelling holders [in_progress]"]
+    n2["sase-1om.2: Per-record capacity accounting in the Rust snapshot [closed]"]
+    n3["sase-1om.3: Shared authoritative machine capacity report [in_progress]"]
+    n4["sase-1om.4: The sase agent load command and shared capacity view model [in_progress]"]
+    n5["sase-1om.5: Retire the Python holder predicate behind sase agent list [in_progress]"]
+    n6["sase-1om.6: Feed the TUI from the authoritative report [in_progress]"]
+    n7["sase-1om.7: Machine-labelled cap chip with provenance, staleness, fault, and overage [in_progress]"]
+    n8["sase-1om.8: Occupancy marks on Running rows and a Capacity detail line [in_progress]"]
+    n9["sase-1om.9: Keyboard-first capacity inspector [in_progress]"]
+    n0 --> n1
+    n0 --> n2
+    n0 --> n3
+    n0 --> n4
+    n0 --> n5
+    n0 --> n6
+    n0 --> n7
+    n0 --> n8
+    n0 --> n9
+    n1 -.-> n6
+    n2 -.-> n3
+    n3 -.-> n4
+    n3 -.-> n5
+    n3 -.-> n6
+    n4 -.-> n9
+    n6 -.-> n7
+    n6 -.-> n8
+    n7 -.-> n9
+```
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-1om.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1om.1.md) | [sase-1om.1](sase-1om.1.md) | 0 |
+| [bbugyi200.athena.sase-1om.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1om.2.md) | [sase-1om.2](sase-1om.2.md) | 1 |
+| [bbugyi200.athena.sase-1om.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1om.3/README.md) | [sase-1om.3](sase-1om.3.md) | 0 |
+| [bbugyi200.athena.sase-1om.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1om.4/README.md) | [sase-1om.4](sase-1om.4.md) | 0 |
+| [bbugyi200.athena.sase-1om.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1om.5/README.md) | [sase-1om.5](sase-1om.5.md) | 0 |
+| [bbugyi200.athena.sase-1om.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1om.6/README.md) | [sase-1om.6](sase-1om.6.md) | 0 |
+| [bbugyi200.athena.sase-1om.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1om.7/README.md) | [sase-1om.7](sase-1om.7.md) | 0 |
+| [bbugyi200.athena.sase-1om.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1om.8/README.md) | [sase-1om.8](sase-1om.8.md) | 0 |
+| [bbugyi200.athena.sase-1om.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1om.9/README.md) | [sase-1om.9](sase-1om.9.md) | 0 |
+| [bbugyi200.athena.sase-1om.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1om.land/README.md) | [sase-1om](README.md) | 0 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase-core | [`sase-core@f1ea08f`](https://github.com/sase-org/sase-core/commit/f1ea08fbdeb7fe40271b369892c91750a0b5c947) | feat!: per-record capacity accounting in Rust snapshot | [sase-1om.2](sase-1om.2.md) | 2026-10-26 21:44:10 EDT |
