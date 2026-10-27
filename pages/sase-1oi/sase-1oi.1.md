@@ -26,7 +26,7 @@ commentary-tail: add a fail-soft session-log tail driven by a new on_tick hook i
 ## Dependencies
 
 - **Blocks:** [sase-1oi.2](sase-1oi.2.md) ✓ · ⧖ 2026-10-26
-- **Blocks:** [sase-1oi.3](sase-1oi.3.md) ○ · ⧖ 2026-10-26
+- **Blocks:** [sase-1oi.3](sase-1oi.3.md) ✓ · ⧖ 2026-10-26
 
 ## Agents
 

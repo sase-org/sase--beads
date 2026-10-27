@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1oi](README.md) / sase-1oi.3
 
-**Status:** ○ open · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** `bbugyi200.apollo.research.2i.linker.w0` · **Size:** medium
-**Created:** 2026-10-26 15:05:48 EDT
+**Created:** 2026-10-26 15:05:48 EDT · **Closed:** 2026-10-27 00:24:55 EDT
 **Plan:** [202610/muse\_commentary\_live\_reply.md](https://github.com/sase-org/sase--plans/blob/main/202610/muse_commentary_live_reply.md)
 
 ## Description
@@ -19,6 +19,10 @@ live-capture: record sanitized 1.4.13 stdout and session-log fixtures from a rea
 
 [2026-10-27T03:32:48Z · sase-1oi.3] PROPOSED FOLLOW-UP: retire the commentary tail once muse exec --json exports message phase — parse the new event in _process_muse_json_line, dedupe by message_id against the tail during the transition, then delete _muse_commentary_tail.py and the on_tick call site
 
+[2026-10-27T04:24:45Z · sase-1oi.3--1] PROPOSED FOLLOW-UP: just check exit 1 from 2 KNOWN failures only (witness 0566e366503499cf069999411d2921fa, no owner) — test_capacity_only_scan_preserves_admission_and_candidate_decisions and test_capacity_blocked_waiter_does_not_park_the_queue_behind_it; verdict no_new_failures, unrelated to live-capture (capacity scan vs Muse commentary fixtures)
+
+[2026-10-27T04:24:55Z · sase-1oi.3--1] live-capture done: sanitized 1.4.13 fixtures (exec 89KB + session-log 12KB), replay test passes (1 passed), docs fixture-release note updated, E2E evidence in note #1; just check exit 1 from 2 KNOWN capacity-scan failures only (witness 0566e366, verdict no_new_failures), epic-symbols clean
+
 ## Dependencies
 
 - **Depends on:** [sase-1oi.1](sase-1oi.1.md) ✓ · ⧖ 2026-10-26
@@ -27,4 +31,10 @@ live-capture: record sanitized 1.4.13 stdout and session-log fixtures from a rea
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1oi.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1oi.3.md) | [sase-1oi.3](sase-1oi.3.md) | 0 |
+| [bbugyi200.athena.sase-1oi.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1oi.3.md) | [sase-1oi.3](sase-1oi.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`260b9ca`](https://github.com/sase-org/sase/commit/260b9caa3fccf9e9be33fb04bdb7c48d9bfc2473) | feat(muse-provider): add 1.4.13 live-capture fixtures and replay test | [sase-1oi.3](sase-1oi.3.md) | 2026-10-27 00:26:26 EDT |

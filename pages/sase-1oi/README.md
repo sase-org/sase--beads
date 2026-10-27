@@ -31,7 +31,7 @@ While a Muse agent runs, each commentary message Muse commits to its session log
 |---|---|---|---|---|---:|---:|
 | [sase-1oi.1](sase-1oi.1.md) | Commentary tail in the Muse adapter | ✓ closed | medium | 2026-10-26 | 1 | 1 |
 | [sase-1oi.2](sase-1oi.2.md) | Production-shaped mounted TUI fixture | ✓ closed | medium | 2026-10-26 | 1 | 1 |
-| [sase-1oi.3](sase-1oi.3.md) | Muse 1.4.13 capture and end-to-end check | ○ open | medium | 2026-10-26 | 1 | 0 |
+| [sase-1oi.3](sase-1oi.3.md) | Muse 1.4.13 capture and end-to-end check | ✓ closed | medium | 2026-10-26 | 1 | 1 |
 
 ## Lineage
 
@@ -40,7 +40,7 @@ flowchart TD
     n0["sase-1oi: Stream Muse commentary into the live Reply card [in_progress]"]
     n1["sase-1oi.1: Commentary tail in the Muse adapter [closed]"]
     n2["sase-1oi.2: Production-shaped mounted TUI fixture [closed]"]
-    n3["sase-1oi.3: Muse 1.4.13 capture and end-to-end check [open]"]
+    n3["sase-1oi.3: Muse 1.4.13 capture and end-to-end check [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -54,7 +54,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-1oi.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oi.1/README.md) | [sase-1oi.1](sase-1oi.1.md) | 1 |
 | [bbugyi200.athena.sase-1oi.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oi.2/README.md) | [sase-1oi.2](sase-1oi.2.md) | 1 |
-| [bbugyi200.athena.sase-1oi.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1oi.3.md) | [sase-1oi.3](sase-1oi.3.md) | 0 |
+| [bbugyi200.athena.sase-1oi.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1oi.3.md) | [sase-1oi.3](sase-1oi.3.md) | 1 |
 | [bbugyi200.athena.sase-1oi.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oi.land/README.md) | [sase-1oi](README.md) | 0 |
 
 ## Commits
@@ -63,6 +63,7 @@ flowchart TD
 |---|---|---|---|---|
 | sase | [`cf9b9db`](https://github.com/sase-org/sase/commit/cf9b9dbf39737dfc7bf924bd9979b9f3273985b3) | feat(llm-provider): tail Muse session-log commentary into live\_reply.md | [sase-1oi.1](sase-1oi.1.md) | 2026-10-26 23:09:56 EDT |
 | sase | [`027125d`](https://github.com/sase-org/sase/commit/027125d57b651d99cdd31d6f294476395bef7e85) | test(tui): mount production-shaped Muse commentary fixture in live-reply follow tests | [sase-1oi.2](sase-1oi.2.md) | 2026-10-27 00:23:57 EDT |
+| sase | [`260b9ca`](https://github.com/sase-org/sase/commit/260b9caa3fccf9e9be33fb04bdb7c48d9bfc2473) | feat(muse-provider): add 1.4.13 live-capture fixtures and replay test | [sase-1oi.3](sase-1oi.3.md) | 2026-10-27 00:26:26 EDT |
 
 <!-- sase:referenced-by:start -->
 
