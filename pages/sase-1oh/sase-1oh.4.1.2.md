@@ -26,4 +26,10 @@ host-recovery: pin the landed core API, carry close provenance through Python, a
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1oh.4.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.4.1.2/README.md) | [sase-1oh.4.1.2](sase-1oh.4.1.2.md) | 0 |
+| [bbugyi200.athena.sase-1oh.4.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.4.1.2/README.md) | [sase-1oh.4.1.2](sase-1oh.4.1.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`eb365af`](https://github.com/sase-org/sase/commit/eb365afe30ba8a1b8c5c291f6e0e1be26c999a12) | fix(finalizers): resolve symvision items for failed-close recovery | [sase-1oh.4.1.2](sase-1oh.4.1.2.md) | 2026-10-26 20:18:19 EDT |
