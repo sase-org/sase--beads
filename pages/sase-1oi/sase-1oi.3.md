@@ -38,3 +38,15 @@ live-capture: record sanitized 1.4.13 stdout and session-log fixtures from a rea
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`260b9ca`](https://github.com/sase-org/sase/commit/260b9caa3fccf9e9be33fb04bdb7c48d9bfc2473) | feat(muse-provider): add 1.4.13 live-capture fixtures and replay test | [sase-1oi.3](sase-1oi.3.md) | 2026-10-27 00:26:26 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1oi.3--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1oi.3.md
+
+<!-- sase:referenced-by:end -->

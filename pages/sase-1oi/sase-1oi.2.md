@@ -46,3 +46,15 @@ mounted-fixture: rewrite gated_muse_script so stdout carries no mid-run deltas a
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`027125d`](https://github.com/sase-org/sase/commit/027125d57b651d99cdd31d6f294476395bef7e85) | test(tui): mount production-shaped Muse commentary fixture in live-reply follow tests | [sase-1oi.2](sase-1oi.2.md) | 2026-10-27 00:23:57 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1oi.2][1] | Confirm final close note and bead status | 8 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oi.2/README.md
+
+<!-- sase:referenced-by:end -->
