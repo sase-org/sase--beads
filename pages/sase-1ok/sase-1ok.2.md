@@ -13,7 +13,7 @@ stranded-bead-wait-alert: make wait_checks classify the unclosed beads that live
 
 ## Dependencies
 
-- **Depends on:** [sase-1ok.1](sase-1ok.1.md) ○ · ⧖ 2026-10-26
+- **Depends on:** [sase-1ok.1](sase-1ok.1.md) ✓ · ⧖ 2026-10-26
 
 ## Agents
 

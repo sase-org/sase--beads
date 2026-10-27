@@ -27,17 +27,17 @@ A phase agent that misreads its own bead ID is warned or refused at the CLI. A s
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-1ok.1](sase-1ok.1.md) | Let the stranded-work collector see single-turn sessions | ○ open | medium | 2026-10-26 | 1 | 0 |
+| [sase-1ok.1](sase-1ok.1.md) | Let the stranded-work collector see single-turn sessions | ✓ closed | medium | 2026-10-26 | 1 | 1 |
 | [sase-1ok.2](sase-1ok.2.md) | Raise one wait alert per stranded bead a live waiter is blocked on | ◐ in_progress | medium | 2026-10-26 | 1 | 0 |
 | [sase-1ok.3](sase-1ok.3.md) | Warn or refuse when an agent targets a one-segment near-miss of its assigned bead | ◐ in_progress | medium | 2026-10-26 | 1 | 0 |
-| [sase-1ok.4](sase-1ok.4.md) | Stop plan propose from parenting new epics under an already-closed bead | ✓ closed | small | 2026-10-26 | 1 | 1 |
+| [sase-1ok.4](sase-1ok.4.md) | Stop plan propose from parenting new epics under an already-closed bead | ✓ closed | small | 2026-10-26 | 1 | 0 |
 
 ## Lineage
 
 ```mermaid
 flowchart TD
     n0["sase-1ok: Catch phases that end without closing their bead, and stop agents from working the wrong bead [in_progress]"]
-    n1["sase-1ok.1: Let the stranded-work collector see single-turn sessions [open]"]
+    n1["sase-1ok.1: Let the stranded-work collector see single-turn sessions [closed]"]
     n2["sase-1ok.2: Raise one wait alert per stranded bead a live waiter is blocked on [in_progress]"]
     n3["sase-1ok.3: Warn or refuse when an agent targets a one-segment near-miss of its assigned bead [in_progress]"]
     n4["sase-1ok.4: Stop plan propose from parenting new epics under an already-closed bead [closed]"]
@@ -52,14 +52,14 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1ok.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ok.1/README.md) | [sase-1ok.1](sase-1ok.1.md) | 0 |
+| [bbugyi200.athena.sase-1ok.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ok.1/README.md) | [sase-1ok.1](sase-1ok.1.md) | 1 |
 | [bbugyi200.athena.sase-1ok.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ok.2/README.md) | [sase-1ok.2](sase-1ok.2.md) | 0 |
 | [bbugyi200.athena.sase-1ok.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ok.3/README.md) | [sase-1ok.3](sase-1ok.3.md) | 0 |
-| [bbugyi200.athena.sase-1ok.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ok.4/README.md) | [sase-1ok.4](sase-1ok.4.md) | 1 |
+| [bbugyi200.athena.sase-1ok.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ok.4/README.md) | [sase-1ok.4](sase-1ok.4.md) | 0 |
 | [bbugyi200.athena.sase-1ok.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ok.land/README.md) | [sase-1ok](README.md) | 0 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| sase | [`538736f`](https://github.com/sase-org/sase/commit/538736f0f276dd860e59332fb90e222331a76910) | fix(plan): skip closed active bead parents | [sase-1ok.4](sase-1ok.4.md) | 2026-10-26 19:30:13 EDT |
+| sase-core | [`sase-core@03dce1f`](https://github.com/sase-org/sase-core/commit/03dce1f20be40ad7d127dba3ec52c387d5352b5c) | feat(agent-scan): add AgentName candidate-filter variant | [sase-1ok.1](sase-1ok.1.md) | 2026-10-26 20:09:43 EDT |
