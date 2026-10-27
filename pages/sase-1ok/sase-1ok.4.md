@@ -19,7 +19,13 @@ closed-parent-stamp: skip the automatic parent_bead stamp in sase plan propose w
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1ok.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ok.4/README.md) | [sase-1ok.4](sase-1ok.4.md) | 0 |
+| [bbugyi200.athena.sase-1ok.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ok.4/README.md) | [sase-1ok.4](sase-1ok.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`538736f`](https://github.com/sase-org/sase/commit/538736f0f276dd860e59332fb90e222331a76910) | fix(plan): skip closed active bead parents | [sase-1ok.4](sase-1ok.4.md) | 2026-10-26 19:30:13 EDT |
 
 <!-- sase:referenced-by:start -->
 
