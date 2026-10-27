@@ -14,7 +14,7 @@ cutover: prove a green master rehearsal of release.yml and a steward verdict pas
 ## Dependencies
 
 - **Depends on:** [sase-1oe.1](sase-1oe.1.md) ✓ · ⧖ 2026-10-26
-- **Depends on:** [sase-1oe.3](sase-1oe.3.md) ◐ · ⧖ 2026-10-26
+- **Depends on:** [sase-1oe.3](sase-1oe.3.md) ✓ · ⧖ 2026-10-26
 
 ## Agents
 

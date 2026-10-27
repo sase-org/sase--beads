@@ -19,7 +19,7 @@ cut-red: in sase-core, handle_no_train reports CoreCutRed only when the newest d
 
 ## Dependencies
 
-- **Blocks:** [sase-1oe.3](sase-1oe.3.md) ◐ · ⧖ 2026-10-26
+- **Blocks:** [sase-1oe.3](sase-1oe.3.md) ✓ · ⧖ 2026-10-26
 
 ## Agents
 
