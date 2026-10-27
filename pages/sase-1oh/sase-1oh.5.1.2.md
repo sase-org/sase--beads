@@ -44,7 +44,9 @@ transcript-publication: enforce the protection contract in full and targeted hoo
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1oh.5.1.2][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1oh.5.1.3][2] | Need transcript-publication implementation evidence | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.5.1.2/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.5.1.3/README.md
 
 <!-- sase:referenced-by:end -->

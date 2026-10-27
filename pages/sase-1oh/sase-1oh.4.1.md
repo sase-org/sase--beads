@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1oh.4](sase-1oh.4.md) / sase-1oh.4.1
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-1oh.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1oh.4.md) · **Assignee:** `sase-1oh.4.1.land`
-**Created:** 2026-10-26 14:34:47 EDT
+**Created:** 2026-10-26 14:34:47 EDT · **Closed:** 2026-10-27 01:10:35 EDT
 **Plan:** [202610/failed\_stitch\_bead\_recovery.md](https://github.com/sase-org/sase--plans/blob/main/202610/failed_stitch_bead_recovery.md)
 
 <!-- sase:links:start -->
@@ -31,11 +31,23 @@ A failed host commit cannot leave this run's unlanded work marked done, and reco
 
 [2026-10-27T03:23:03Z · sase-1oh.4.1.land] FOLLOW-UP TRIAGE COMPLETE before tale proposal: sase-1oh.4.1.1 had no proposals. For sase-1oh.4.1.2 note #1, inspected retained ToolRun b412703e30ebc1ac6c17565e3f554091, searched all task statuses and the last week, and reviewed plausible active-epic ownership. Created large flake task sase-1on for the group-revival extra-agent failure and large flake task sase-1oo for claim-check prepass/index isolation. Both exact claim nodes are recorded on sase-1oo; initial draft sase-1op is superseded as redundant, not launched. Size large reflects unresolved root cause; current serial files pass. Retired umbrella sase-ct was deliberately not reopened or given +1; related links capture context. For sase-1oh.4.1.3 note #1, appended independent current-base evidence to active causal epic sase-1oj, declining a separate capacity task because dead-PID pruning adoption already owns the remaining fake-PID fixture. The other two capacity nodes now pass. No child proposal was silently dropped. Four recovery defects found by this land audit are remaining epic work, not follow-up tasks. A validated medium tale will implement them and explicitly close sase-1oh.4.1, run symvision, mark plan:202610/failed_stitch_bead_recovery.md done, then verify and close only parent phase sase-1oh.4.
 
+[2026-10-27T05:10:35Z · sase-1oh.4.1.land] Four landing gaps repaired and original stranded-close contract verified. Classify every close against the pre-mutation view, recover all eligible episodes, then ordinary-reopen leftover closed ancestors without minting IssueOpened over a recovered fact. Shared landing assessment lives in Rust assess_repository_landing_proof; host supplies LandingMarkerFactWire/LandingAttemptFactWire from commit_results markers plus stitch attempt inputs. Latest remaining same-repo/same-run marker wins; unpushed/no-SHA is not landed; attempt coverage is by operation_id with authenticated executor markers only when source_run_id authenticates. Recovery-store retry commits dirty leftover events; already_applied is not a commit receipt. Diagnostics go through bound_and_redact_text (4000 chars) before bead notes, request/outcome, and journal.
+
+Verified: sase_core completion_recovery 5, landing 7, sase_core_py repository_landing_proof 1; just rust-install; focused Python recovery/facade 30/30; sase-core sase tool run check f0944961eca9cf0237b40e5eb6072912 succeeded; sase sase tool run check 0b38eca67f3c2b63b34e6c9ca5afaa66 verdict no_new_failures (2 KNOWN capacity owned by sase-1oj; 57936 passed). epic-symbols sase-1oh.4.1 empty. Nested landing wire types constructed in failed_close_recovery.py so Symvision sees real non-test consumers.
+
+Follow-up triage preserved, not refiled: group-revival flake sase-1on; claim-check isolation sase-1oo (sase-1op superseded); capacity fixture owned by sase-1oj. Parent decisions secret_scan=build and dormant_flakes=close honored. No memory edits. Core pin is host-owned when both repos are declared; did not invent sase-core-revision.txt. Did not close sase-1oh or sase-yo.
+
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1oh.4.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1oh.4.1.land.md) | [sase-1oh.4.1](sase-1oh.4.1.md) | 0 |
+| [bbugyi200.athena.sase-1oh.4.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1oh.4.1.land.md) | [sase-1oh.4.1](sase-1oh.4.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase-core | [`sase-core@800caef`](https://github.com/sase-org/sase-core/commit/800caef4c70039ccf299a0ecca379142f80234c2) | fix(beads): recover every eligible failed-run close in one mutation | [sase-1oh.4.1](sase-1oh.4.1.md) | 2026-10-27 01:14:00 EDT |
 
 <!-- sase:referenced-by:start -->
 

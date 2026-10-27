@@ -27,10 +27,16 @@ prompt-publication: protect direct and deferred prompt archives and pending text
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1oh.5.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.5.1.3/README.md) | [sase-1oh.5.1.3](sase-1oh.5.1.3.md) | 1 |
+| [bbugyi200.athena.sase-1oh.5.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.5.1.3/README.md) | [sase-1oh.5.1.3](sase-1oh.5.1.3.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase | [`0f76e05`](https://github.com/sase-org/sase/commit/0f76e05de4dfcef4655a2eae0f9ca74e44f68211) | feat(agents-sync): withhold unsafe prompt-archive text without breaking clean publication | [sase-1oh.5.1.3](sase-1oh.5.1.3.md) | 2026-10-27 00:54:32 EDT |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1oh.5.1.3][1] | Need the phase scope and design file | 4 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.5.1.3/README.md
+
+<!-- sase:referenced-by:end -->

@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/agents_publication_secret_scan.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/agents_publication_secret_scan.md
 
@@ -39,8 +39,10 @@ Withhold unsafe transcript and prompt bytes, keep clean publications moving, and
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1oh.5.1.1][1] | Need the child epic decision set and constraints for this phase | 1 |
 | read-by | [agent:sase-1oh.5.1.2][2] | Need epic DECISIONS and child phase constraints | 2 |
+| read-by | [agent:sase-1oh.5.1.3][3] | Need full DECISIONS section | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.5.1.1/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.5.1.2/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.5.1.3/README.md
 
 <!-- sase:referenced-by:end -->
