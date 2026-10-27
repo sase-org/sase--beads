@@ -32,3 +32,15 @@ stranded-bead-wait-alert: make wait_checks classify the unclosed beads that live
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`fabfff0`](https://github.com/sase-org/sase/commit/fabfff06e0e2a2c358c210b1a6b91f4c616840b8) | feat(wait-checks): alert on stranded blocking beads | [sase-1ok.2](sase-1ok.2.md) | 2026-10-26 21:48:59 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ok.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ok.2/README.md
+
+<!-- sase:referenced-by:end -->

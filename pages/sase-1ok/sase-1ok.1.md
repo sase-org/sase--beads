@@ -42,10 +42,14 @@ stranded-root-members: add an agent_name candidate-filter field to the sase-core
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1ok.1][1] | Need the phase scope and design file | 1 |
-| read-by | [agent:sase-1ok.3][2] | Cite existing KNOWN capacity-test follow-up from sibling phase | 1 |
+| read-by | [agent:sase-1oh.4.1.3][1] | Cite existing tracking for capacity_only scan test failure | 1 |
+| read-by | [agent:sase-1ok.1][2] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1ok.2][3] | Confirm the already recorded capacity-scan follow-up and whether it names a tracking task bead | 1 |
+| read-by | [agent:sase-1ok.3][4] | Cite existing KNOWN capacity-test follow-up from sibling phase | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ok.1/README.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ok.3/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.4.1.3/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ok.1/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ok.2/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ok.3/README.md
 
 <!-- sase:referenced-by:end -->
