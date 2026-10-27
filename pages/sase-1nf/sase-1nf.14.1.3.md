@@ -17,4 +17,4 @@ graph-allocation: classify cached-row use before detaching graphs, copy only req
 
 ## Dependencies
 
-- **Blocks:** [sase-1nf.14.1.6](sase-1nf.14.1.6.md) ◐ · ⧖ 2026-10-24
+- **Blocks:** [sase-1nf.14.1.6](sase-1nf.14.1.6.md) ✓ · ⧖ 2026-10-24

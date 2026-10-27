@@ -38,7 +38,7 @@ Reduce graph and render churn and retained UI caches, preserve quiet-time memory
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1nf.14.1.1][1] | Need the epic decisions and design context for this phase | 1 |
-| read-by | [agent:sase-1nf.14.1.2][2] | epic decisions | 1 |
+| read-by | [agent:sase-1nf.14.1.2][2] | epic decisions | 2 |
 | read-by | [agent:sase-1nf.14.1.4][3] | parent epic scope and decisions | 1 |
 | read-by | [agent:sase-1nf.14.1.5--2][4] | Need epic decisions governing this phase | 1 |
 

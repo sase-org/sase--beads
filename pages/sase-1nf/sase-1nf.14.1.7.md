@@ -13,7 +13,7 @@ fixed-capture: verify installed revisions and user restarts, preflight real navi
 
 ## Dependencies
 
-- **Depends on:** [sase-1nf.14.1.6](sase-1nf.14.1.6.md) ◐ · ⧖ 2026-10-24
+- **Depends on:** [sase-1nf.14.1.6](sase-1nf.14.1.6.md) ✓ · ⧖ 2026-10-24
 - **Blocks:** [sase-1nf.14.1.8](sase-1nf.14.1.8.md) ◐ · ⧖ 2026-10-24
 
 ## Agents

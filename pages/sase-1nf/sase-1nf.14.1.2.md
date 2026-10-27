@@ -32,7 +32,7 @@ interaction-evidence: add attributable perf and prompt-state evidence, consume a
 ## Dependencies
 
 - **Depends on:** [sase-1nf.14.1.1](sase-1nf.14.1.1.md) ✓ · ⧖ 2026-10-24
-- **Blocks:** [sase-1nf.14.1.6](sase-1nf.14.1.6.md) ◐ · ⧖ 2026-10-24
+- **Blocks:** [sase-1nf.14.1.6](sase-1nf.14.1.6.md) ✓ · ⧖ 2026-10-24
 
 ## Agents
 
@@ -53,7 +53,7 @@ interaction-evidence: add attributable perf and prompt-state evidence, consume a
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1nf.14.1.2][1] | Need phase scope | 2 |
+| read-by | [agent:sase-1nf.14.1.2][1] | Need phase scope | 5 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.14.1.2/README.md
 
