@@ -32,3 +32,15 @@ occupancy-marks: attach accounting entries to Agent rows, draw a charged-now mar
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`212a476`](https://github.com/sase-org/sase/commit/212a4767861c1a796aa1ba46bdfa6888f3edf808) | feat(ace): add agent capacity accounting and occupancy marks | [sase-1om.8](sase-1om.8.md) | 2026-10-27 05:40:30 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1om.8--2][1] | check remaining work and notes before close | 4 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1om.8.md
+
+<!-- sase:referenced-by:end -->

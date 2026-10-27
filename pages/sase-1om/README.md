@@ -37,7 +37,7 @@ The header capacity chip always matches what runner admission sees on this machi
 | [sase-1om.6](sase-1om.6.md) | Feed the TUI from the authoritative report | ✓ closed | medium | 2026-10-26 | 1 | 1 |
 | [sase-1om.7](sase-1om.7.md) | Machine-labelled cap chip with provenance, staleness, fault, and overage | ✓ closed | medium | 2026-10-26 | 1 | 1 |
 | [sase-1om.8](sase-1om.8.md) | Occupancy marks on Running rows and a Capacity detail line | ○ open | medium | 2026-10-26 | 1 | 1 |
-| [sase-1om.9](sase-1om.9.md) | Keyboard-first capacity inspector | ◐ in_progress | medium | 2026-10-26 | 1 | 0 |
+| [sase-1om.9](sase-1om.9.md) | Keyboard-first capacity inspector | ✓ closed | medium | 2026-10-26 | 1 | 1 |
 
 ## Lineage
 
@@ -52,7 +52,7 @@ flowchart TD
     n6["sase-1om.6: Feed the TUI from the authoritative report [closed]"]
     n7["sase-1om.7: Machine-labelled cap chip with provenance, staleness, fault, and overage [closed]"]
     n8["sase-1om.8: Occupancy marks on Running rows and a Capacity detail line [open]"]
-    n9["sase-1om.9: Keyboard-first capacity inspector [in_progress]"]
+    n9["sase-1om.9: Keyboard-first capacity inspector [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -85,7 +85,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1om.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1om.6.md) | [sase-1om.6](sase-1om.6.md) | 1 |
 | [bbugyi200.athena.sase-1om.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1om.7.md) | [sase-1om.7](sase-1om.7.md) | 1 |
 | [bbugyi200.athena.sase-1om.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1om.8.md) | [sase-1om.8](sase-1om.8.md) | 1 |
-| [bbugyi200.athena.sase-1om.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1om.9.md) | [sase-1om.9](sase-1om.9.md) | 0 |
+| [bbugyi200.athena.sase-1om.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1om.9.md) | [sase-1om.9](sase-1om.9.md) | 1 |
 | [bbugyi200.athena.sase-1om.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1om.land/README.md) | [sase-1om](README.md) | 0 |
 
 ## Commits
@@ -101,6 +101,7 @@ flowchart TD
 | sase | [`f843bd8`](https://github.com/sase-org/sase/commit/f843bd810031b35431803b02dc315bdcf345d84f) | feat(ace): feed capacity header from machine report | [sase-1om.6](sase-1om.6.md) | 2026-10-27 02:49:50 EDT |
 | sase | [`ff516a4`](https://github.com/sase-org/sase/commit/ff516a42b9ed32e26de10cea74760437de33f086) | feat(tui): restyle Agents header load gauge as a cap chip | [sase-1om.7](sase-1om.7.md) | 2026-10-27 04:42:49 EDT |
 | sase | [`212a476`](https://github.com/sase-org/sase/commit/212a4767861c1a796aa1ba46bdfa6888f3edf808) | feat(ace): add agent capacity accounting and occupancy marks | [sase-1om.8](sase-1om.8.md) | 2026-10-27 05:40:30 EDT |
+| sase | [`7d1584c`](https://github.com/sase-org/sase/commit/7d1584c47efb1b1c1350b44ab94a67bbeb0f5196) | feat(ace): add keyboard-first capacity inspector | [sase-1om.9](sase-1om.9.md) | 2026-10-27 06:05:37 EDT |
 
 <!-- sase:referenced-by:start -->
 

@@ -18,7 +18,7 @@ load-cli: a TUI-free view model (holders, live rows holding nothing grouped by r
 ## Dependencies
 
 - **Depends on:** [sase-1om.3](sase-1om.3.md) ✓ · ⧖ 2026-10-26
-- **Blocks:** [sase-1om.9](sase-1om.9.md) ◐ · ⧖ 2026-10-26
+- **Blocks:** [sase-1om.9](sase-1om.9.md) ✓ · ⧖ 2026-10-26
 
 ## Agents
 
