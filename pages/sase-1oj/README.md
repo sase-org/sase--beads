@@ -120,7 +120,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-1oj.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1oj.4.md) | [sase-1oj.4](sase-1oj.4.md) | 2 |
 | [bbugyi200.apollo.sase-1oj.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1oj.5.md) | [sase-1oj.5](sase-1oj.5.md) | 1 |
 | [bbugyi200.apollo.sase-1oj.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1oj.6/README.md) | [sase-1oj.6](sase-1oj.6.md) | 0 |
-| [bbugyi200.apollo.sase-1oj.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1oj.land/README.md) | [sase-1oj](README.md) | 1 |
+| [bbugyi200.apollo.sase-1oj.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1oj.land/README.md) | [sase-1oj](README.md) | 2 |
 
 ## Commits
 
@@ -134,6 +134,7 @@ flowchart TD
 | sase | [`e7d9f7a`](https://github.com/sase-org/sase/commit/e7d9f7a479664f412422ce40c0e679d29e5db41c) | feat(runner-slots): adopt pruned capacity scan | [sase-1oj.4](sase-1oj.4.md) | 2026-10-26 22:05:57 EDT |
 | sase | [`f837112`](https://github.com/sase-org/sase/commit/f83711219c0c5cb137d5b94a25a8923cd7357adf) | test(runner-slots): pin live pids in capacity-scan adoption tests | [sase-1oj.4](sase-1oj.4.md) | 2026-10-26 23:45:36 EDT |
 | sase | [`c328233`](https://github.com/sase-org/sase/commit/c328233430e4699d92a8abcc4a38ed7e009d1e9c) | test(runner-slots): pin live pids in the persisted-lineage capacity scan test | [sase-1oj](README.md) | 2026-10-27 15:22:53 EDT |
+| sase--plans | [`sase--plans@d4ea4b6`](https://github.com/sase-org/sase--plans/commit/d4ea4b6e86cd4448b187498275efeb3ce8b9850c) | chore(plans): mark athena\_disk\_write\_diet done after sase-1oj landing | [sase-1oj](README.md) | 2026-10-27 15:25:24 EDT |
 
 <!-- sase:referenced-by:start -->
 
