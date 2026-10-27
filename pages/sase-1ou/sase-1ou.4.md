@@ -11,6 +11,38 @@
 
 deck-anchor: reproduce the intermittent wait_for_anchor_scroll timeout in test_files_ctrl_j_scrolls_page_anchor_to_top (it fails about 1 in 4 even in isolation), fix the Files spread scroll/anchor race in production code, prove it with isolated and loaded stress loops, and close sase-1a7.
 
+## Notes
+
+[2026-10-27T15:37:17Z · sase-1ou.4] Phase sase-1ou.4 evidence (before monitor handoff):
+
+Cause: Files spread Ctrl-J race had two backlog-era gaps. (1) Hidden paged AgentFilePanel shares the same VerticalScroll as FilesSpreadView; its anchor capture/restore had no visibility guard, so a delayed static-read restore reset spread scroll_y 6->0 (reproduced deterministically). (2) Spread navigation used an 8-attempt call_after_refresh chain with no pending state; late anchors/reserve after the burst abandoned the request. Rapid Ctrl-J also recomputed from stale scroll_y instead of pending, and the scroll watcher re-derived during flight.
+
+Fix (presentation-only, this repo):
+- src/sase/ace/tui/widgets/file_panel/_content.py: hidden paged view never captures or applies scroll anchors (_is_hidden_for_scroll guard in _capture/_apply/_note_slot_change).
+- src/sase/ace/tui/widgets/decks/panel_spread.py: pending Files navigation (_files_pending_scroll_index/generation/retry/confirmed), immediate scroll_to, two-consecutive confirm, layout resume via _reschedule_files_scroll_after_layout, superseding chains from pending, unmount clears.
+- src/sase/ace/tui/widgets/decks/files_spread.py: _publish_section_layout resumes pending navigation.
+- src/sase/ace/tui/widgets/decks/panel_files.py: transitions and new-subject probe bump generation and clear pending.
+- src/sase/ace/tui/widgets/decks/panel.py: leaving spread clears pending.
+- src/sase/ace/tui/widgets/decks/panel_interaction.py: scroll watcher holds pending page instead of re-deriving.
+- tests/ace/tui/widgets/decks/test_files_anchor_ownership.py: 4 real-widget regression tests (hidden restore, visible restore+return offset, supersede+manual hold, late-layout resume).
+
+Before (base 98668bf4313401248966b09d896b417eadd82259, Python 3.14.7, textual 8.0.1, 64 cores, load ~18-34, 6x yes/busy-loop load, core pin 800caef4c70039ccf299a0ecca379142f80234c2):
+- 50 isolated test_files_ctrl_j_scrolls_page_anchor_to_top: 50 passed, 0 failed.
+- 5x tests/ace/tui/widgets/decks/ -n6: 5 passed (708 each), 0 failed.
+- Natural loop green, so induced interleaving required: hidden paged restore moved scroll 6->0 (probe). New regression on stashed base: 3 failed, 1 passed (visible-restore coverage passes both).
+
+After (same env/load):
+- 50 isolated: 50 passed, 0 failed.
+- 5x decks/ -n6: 5 passed (712 each with new tests), 0 failed.
+- 10x new regression file: 10 passed, 0 failed.
+- Focused: test_deck_spread_pilot + new + spread_landing + file_panel anchor/async (67 passed).
+- Original pilot unchanged as e2e check.
+- Baseline: no entry for exact node (rechecked); no suppression added. selection_health --fail-on-new-flake exit 0 (other owners exceedances separate). epic-symbols sase-1ou.4: none.
+- just fmt pass; check_test_wait_helpers pass after pause-loop fix.
+- sase tool run check 0832dea1c87b939b0133374d264d28ba: all lint gates pass (fmt, keep-sorted, ruff, mypy, feature-flags, pyscripts, test-waits, changelog, terminology, symvision, docs, SASE validation, committed plans); test lane still running at handoff (handed to monitor). No visual goldens changed (no rendered-output change); targeted PNG run deferred to monitor if needed.
+
+Lander: close sase-1a7 on this evidence; no memory edits, no new beads, no ancestor closes. Baseline disposition: node remains absent, add nothing.
+
 ## Dependencies
 
 - **Depends on:** [sase-1ou.1](sase-1ou.1.md) ✓ · ⧖ 2026-10-27
@@ -19,4 +51,4 @@ deck-anchor: reproduce the intermittent wait_for_anchor_scroll timeout in test_f
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1ou.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ou.4/README.md) | [sase-1ou.4](sase-1ou.4.md) | 0 |
+| [bbugyi200.athena.sase-1ou.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ou.4.md) | [sase-1ou.4](sase-1ou.4.md) | 0 |

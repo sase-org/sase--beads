@@ -35,7 +35,7 @@ private-triage: account for every original finding and reachable historical vari
 
 ## Dependencies
 
-- **Blocks:** [sase-1ou.5.1.3](sase-1ou.5.1.3.md) ◐ · ⧖ 2026-10-27
+- **Blocks:** [sase-1ou.5.1.3](sase-1ou.5.1.3.md) ✓ · ⧖ 2026-10-27
 
 ## Agents
 

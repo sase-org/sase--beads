@@ -19,4 +19,4 @@ toolrun-busy: identify which sase-core ToolRun store transactions hold the SQLit
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1ou.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ou.2/README.md) | [sase-1ou.2](sase-1ou.2.md) | 0 |
+| [bbugyi200.athena.sase-1ou.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ou.2.md) | [sase-1ou.2](sase-1ou.2.md) | 0 |

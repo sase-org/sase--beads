@@ -35,7 +35,7 @@ PROPOSED FOLLOW-UP: Mac sase/core is behind athena/apollo (0.18.0+83 / 0.42.1 vs
 
 ## Dependencies
 
-- **Blocks:** [sase-1ou.5.1.3](sase-1ou.5.1.3.md) ◐ · ⧖ 2026-10-27
+- **Blocks:** [sase-1ou.5.1.3](sase-1ou.5.1.3.md) ✓ · ⧖ 2026-10-27
 
 ## Agents
 

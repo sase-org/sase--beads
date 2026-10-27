@@ -40,3 +40,15 @@ flake-baseline: drop the duplicate fixed-at directive that makes tools/selection
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`e608de2`](https://github.com/sase-org/sase/commit/e608de2db6c2406bf614d53f31c34c774dbd47c0) | fix(tests): repair flake-baseline gate verdict and baseline hygiene | [sase-1ou.1](sase-1ou.1.md) | 2026-10-27 10:25:35 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ou.1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ou.1/README.md
+
+<!-- sase:referenced-by:end -->
