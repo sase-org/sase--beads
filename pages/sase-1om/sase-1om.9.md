@@ -14,7 +14,7 @@ capacity-inspector: a modal rendering the shared view model, opened from a chip 
 ## Dependencies
 
 - **Depends on:** [sase-1om.4](sase-1om.4.md) ✓ · ⧖ 2026-10-26
-- **Depends on:** [sase-1om.7](sase-1om.7.md) ◐ · ⧖ 2026-10-26
+- **Depends on:** [sase-1om.7](sase-1om.7.md) ✓ · ⧖ 2026-10-26
 
 ## Agents
 

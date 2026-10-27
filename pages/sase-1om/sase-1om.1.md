@@ -46,7 +46,9 @@ roster-fixes: give monitor rows their supervisor PID from agent_meta (then the r
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1om.1--1][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1om.6--2][2] | Compare the clean-base test reproduction and known failures with this phase's check result | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1om.1.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1om.6.md
 
 <!-- sase:referenced-by:end -->

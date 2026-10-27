@@ -39,8 +39,8 @@ The 16 terminal-dependent rendering failures are already tracked by sase-1ll. Th
 
 - **Depends on:** [sase-1om.1](sase-1om.1.md) ✓ · ⧖ 2026-10-26
 - **Depends on:** [sase-1om.3](sase-1om.3.md) ✓ · ⧖ 2026-10-26
-- **Blocks:** [sase-1om.7](sase-1om.7.md) ◐ · ⧖ 2026-10-26
-- **Blocks:** [sase-1om.8](sase-1om.8.md) ◐ · ⧖ 2026-10-26
+- **Blocks:** [sase-1om.7](sase-1om.7.md) ✓ · ⧖ 2026-10-26
+- **Blocks:** [sase-1om.8](sase-1om.8.md) ○ · ⧖ 2026-10-26
 
 ## Agents
 
@@ -53,3 +53,15 @@ The 16 terminal-dependent rendering failures are already tracked by sase-1ll. Th
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`f843bd8`](https://github.com/sase-org/sase/commit/f843bd810031b35431803b02dc315bdcf345d84f) | feat(ace): feed capacity header from machine report | [sase-1om.6](sase-1om.6.md) | 2026-10-27 02:49:50 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1om.6--2][1] | Need phase scope, design file, decisions, and prior remaining work | 4 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1om.6.md
+
+<!-- sase:referenced-by:end -->

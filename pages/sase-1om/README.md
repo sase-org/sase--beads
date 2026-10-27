@@ -35,8 +35,8 @@ The header capacity chip always matches what runner admission sees on this machi
 | [sase-1om.4](sase-1om.4.md) | The sase agent load command and shared capacity view model | ✓ closed | medium | 2026-10-26 | 1 | 1 |
 | [sase-1om.5](sase-1om.5.md) | Retire the Python holder predicate behind sase agent list | ✓ closed | small | 2026-10-26 | 1 | 1 |
 | [sase-1om.6](sase-1om.6.md) | Feed the TUI from the authoritative report | ✓ closed | medium | 2026-10-26 | 1 | 1 |
-| [sase-1om.7](sase-1om.7.md) | Machine-labelled cap chip with provenance, staleness, fault, and overage | ◐ in_progress | medium | 2026-10-26 | 1 | 0 |
-| [sase-1om.8](sase-1om.8.md) | Occupancy marks on Running rows and a Capacity detail line | ◐ in_progress | medium | 2026-10-26 | 1 | 0 |
+| [sase-1om.7](sase-1om.7.md) | Machine-labelled cap chip with provenance, staleness, fault, and overage | ✓ closed | medium | 2026-10-26 | 1 | 1 |
+| [sase-1om.8](sase-1om.8.md) | Occupancy marks on Running rows and a Capacity detail line | ○ open | medium | 2026-10-26 | 1 | 0 |
 | [sase-1om.9](sase-1om.9.md) | Keyboard-first capacity inspector | ◐ in_progress | medium | 2026-10-26 | 1 | 0 |
 
 ## Lineage
@@ -50,8 +50,8 @@ flowchart TD
     n4["sase-1om.4: The sase agent load command and shared capacity view model [closed]"]
     n5["sase-1om.5: Retire the Python holder predicate behind sase agent list [closed]"]
     n6["sase-1om.6: Feed the TUI from the authoritative report [closed]"]
-    n7["sase-1om.7: Machine-labelled cap chip with provenance, staleness, fault, and overage [in_progress]"]
-    n8["sase-1om.8: Occupancy marks on Running rows and a Capacity detail line [in_progress]"]
+    n7["sase-1om.7: Machine-labelled cap chip with provenance, staleness, fault, and overage [closed]"]
+    n8["sase-1om.8: Occupancy marks on Running rows and a Capacity detail line [open]"]
     n9["sase-1om.9: Keyboard-first capacity inspector [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -83,8 +83,8 @@ flowchart TD
 | [bbugyi200.athena.sase-1om.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1om.4/README.md) | [sase-1om.4](sase-1om.4.md) | 1 |
 | [bbugyi200.athena.sase-1om.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1om.5/README.md) | [sase-1om.5](sase-1om.5.md) | 1 |
 | [bbugyi200.athena.sase-1om.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1om.6.md) | [sase-1om.6](sase-1om.6.md) | 1 |
-| [bbugyi200.athena.sase-1om.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1om.7/README.md) | [sase-1om.7](sase-1om.7.md) | 0 |
-| [bbugyi200.athena.sase-1om.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1om.8/README.md) | [sase-1om.8](sase-1om.8.md) | 0 |
+| [bbugyi200.athena.sase-1om.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1om.7.md) | [sase-1om.7](sase-1om.7.md) | 1 |
+| [bbugyi200.athena.sase-1om.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1om.8.md) | [sase-1om.8](sase-1om.8.md) | 0 |
 | [bbugyi200.athena.sase-1om.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1om.9/README.md) | [sase-1om.9](sase-1om.9.md) | 0 |
 | [bbugyi200.athena.sase-1om.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1om.land/README.md) | [sase-1om](README.md) | 0 |
 
@@ -99,6 +99,7 @@ flowchart TD
 | sase | [`e2b04a8`](https://github.com/sase-org/sase/commit/e2b04a88e2a3653e2ce02c08ff30387cb4e083a5) | feat(agents): source list occupancy from Rust accounting | [sase-1om.5](sase-1om.5.md) | 2026-10-27 00:49:41 EDT |
 | sase | [`78f60cd`](https://github.com/sase-org/sase/commit/78f60cd602e7d416bce656952dddd7fec72b87a3) | feat(agent): add sase agent load capacity view command | [sase-1om.4](sase-1om.4.md) | 2026-10-27 01:36:26 EDT |
 | sase | [`f843bd8`](https://github.com/sase-org/sase/commit/f843bd810031b35431803b02dc315bdcf345d84f) | feat(ace): feed capacity header from machine report | [sase-1om.6](sase-1om.6.md) | 2026-10-27 02:49:50 EDT |
+| sase | [`ff516a4`](https://github.com/sase-org/sase/commit/ff516a42b9ed32e26de10cea74760437de33f086) | feat(tui): restyle Agents header load gauge as a cap chip | [sase-1om.7](sase-1om.7.md) | 2026-10-27 04:42:49 EDT |
 
 <!-- sase:referenced-by:start -->
 
