@@ -30,3 +30,15 @@ assigned-bead-near-miss: detect, inside SASE agents, bead IDs that differ from t
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`9cb3585`](https://github.com/sase-org/sase/commit/9cb35859c9454b01d0d130e4cd74cb6d38f55251) | feat(beads): warn or refuse assigned-bead one-segment near-misses | [sase-1ok.3](sase-1ok.3.md) | 2026-10-26 21:28:07 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ok.3][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ok.3/README.md
+
+<!-- sase:referenced-by:end -->
