@@ -18,7 +18,7 @@ inspector: rebuild the modal around the gauge, verdict, tiered sections, and det
 ## Dependencies
 
 - **Depends on:** [sase-1ox.1](sase-1ox.1.md) ✓ · ⧖ 2026-10-27
-- **Blocks:** [sase-1ox.3](sase-1ox.3.md) ◐ · ⧖ 2026-10-27
+- **Blocks:** [sase-1ox.3](sase-1ox.3.md) ✓ · ⧖ 2026-10-27
 
 ## Agents
 
@@ -31,3 +31,15 @@ inspector: rebuild the modal around the gauge, verdict, tiered sections, and det
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`c8bc7a5`](https://github.com/sase-org/sase/commit/c8bc7a58e20799a3a310ac397d2d79ce6739956f) | feat(tui): redesign capacity inspector | [sase-1ox.2](sase-1ox.2.md) | 2026-10-27 14:56:24 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ox.2--1][1] | Need the phase scope, design file, notes, and prior work status | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ox.2.md
+
+<!-- sase:referenced-by:end -->
