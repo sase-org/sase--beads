@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1om](README.md) / sase-1om.1
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.research.5e.linker.w0](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.research.5e.linker.w0.md) · **Assignee:** `sase-1om.1` · **Size:** medium
-**Created:** 2026-10-26 20:19:44 EDT
+**Created:** 2026-10-26 20:19:44 EDT · **Closed:** 2026-10-26 21:49:14 EDT
 **Plan:** [202610/machine\_capacity\_transparency.md](https://github.com/sase-org/sase--plans/blob/main/202610/machine_capacity_transparency.md)
 
 ## Description
@@ -21,6 +21,8 @@ roster-fixes: give monitor rows their supervisor PID from agent_meta (then the r
 
 [2026-10-27T01:23:02Z · sase-1om.1] Implementation complete; remaining work is final verification and closure only, which fits one continuation. Final code recovers monitor PIDs from meta then running markers, marks recovered PIDs unverified, uses the existing monitor.supervisor_identity wire field with shared process_identity_matches (no extra marker reads), preserves runner_claim_owner_key, and skips only workflow-step children in both capacity maps. Final targeted loader/capacity/dedup run: 97 passed. Weighted-capacity screenshot maintenance rerun after the cleanup: clean, 2 unchanged goldens, report b29367a1584d49e2a9a19233a5f7ef3e inspected. just fix and git diff --check pass; epic-symbols reports none. Final just check will run under a verify monitor. Close only sase-1om.1 after reviewing it, accepting the separately documented identical clean-base failures if they recur.
 
+[2026-10-27T01:49:14Z · sase-1om.1--1] Verified roster-fixes against the approved design: monitor supervisor PIDs recover from metadata then running markers across all loaders, process identity excludes reused PIDs, runner_claim_owner_key survives enrichment/dedup/projection, and workflow-step rows cannot replace holder or queue labels. Final ToolRun 91b805cb164fd954e29096d4d8919ef5: all lint/validation stages passed; 11,709 tests passed, with only two KNOWN capacity-scan fixture failures and verdict no_new_failures (exit 1). Both failures match the identical clean-base evidence and sase-1oj.4 integration follow-up recorded in note 3. Prior final targeted loader/capacity/dedup run passed 97 tests; weighted-capacity PNG maintenance was clean with 2 unchanged goldens (report b29367a1584d49e2a9a19233a5f7ef3e inspected). Final git diff --check passed and epic-symbols reported no entries. Only this phase is closed; sase-1ol and the parent epic remain for the land agent.
+
 ## Dependencies
 
 - **Blocks:** [sase-1om.6](sase-1om.6.md) ◐ · ⧖ 2026-10-26
@@ -29,4 +31,10 @@ roster-fixes: give monitor rows their supervisor PID from agent_meta (then the r
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1om.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1om.1.md) | [sase-1om.1](sase-1om.1.md) | 0 |
+| [bbugyi200.athena.sase-1om.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1om.1.md) | [sase-1om.1](sase-1om.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`cef4bb1`](https://github.com/sase-org/sase/commit/cef4bb119942ee627f18ad82e153124620dbbdd0) | fix(tui): preserve monitor capacity in roster projections | [sase-1om.1](sase-1om.1.md) | 2026-10-26 21:50:26 EDT |
