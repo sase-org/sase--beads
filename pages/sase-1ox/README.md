@@ -69,7 +69,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1ox.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ox.1.md) | [sase-1ox.1](sase-1ox.1.md) | 1 |
 | [bbugyi200.athena.sase-1ox.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ox.2.md) | [sase-1ox.2](sase-1ox.2.md) | 1 |
 | [bbugyi200.athena.sase-1ox.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ox.3/README.md) | [sase-1ox.3](sase-1ox.3.md) | 1 |
-| [bbugyi200.athena.sase-1ox.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ox.land.md) | [sase-1ox](README.md) | 1 |
+| [bbugyi200.athena.sase-1ox.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ox.land.md) | [sase-1ox](README.md) | 2 |
 
 ## Commits
 
@@ -79,6 +79,7 @@ flowchart TD
 | sase | [`c8bc7a5`](https://github.com/sase-org/sase/commit/c8bc7a58e20799a3a310ac397d2d79ce6739956f) | feat(tui): redesign capacity inspector | [sase-1ox.2](sase-1ox.2.md) | 2026-10-27 14:56:24 EDT |
 | sase | [`daa96a5`](https://github.com/sase-org/sase/commit/daa96a5bd05c2eb23c8ce23e3dccb67af8b1afb0) | feat(cli): give sase agent load the inspector's tiered capacity view | [sase-1ox.3](sase-1ox.3.md) | 2026-10-27 15:26:16 EDT |
 | sase | [`83b1822`](https://github.com/sase-org/sase/commit/83b1822411e5495f0c26b42defd46e2b07ad5629) | fix(ace): land remaining capacity inspector presentation defects | [sase-1ox](README.md) | 2026-10-27 16:26:00 EDT |
+| sase--plans | [`sase--plans@f5058ac`](https://github.com/sase-org/sase--plans/commit/f5058ac2cd176a94b6e2a458f5b04027b29aa74a) | docs(plans): mark capacity inspector redesign and landing tale done | [sase-1ox](README.md) | 2026-10-27 16:29:19 EDT |
 
 <!-- sase:referenced-by:start -->
 
