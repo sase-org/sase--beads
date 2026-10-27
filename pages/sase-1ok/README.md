@@ -80,7 +80,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1ok.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ok.2/README.md) | [sase-1ok.2](sase-1ok.2.md) | 1 |
 | [bbugyi200.athena.sase-1ok.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ok.3/README.md) | [sase-1ok.3](sase-1ok.3.md) | 1 |
 | [bbugyi200.athena.sase-1ok.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ok.4/README.md) | [sase-1ok.4](sase-1ok.4.md) | 1 |
-| [bbugyi200.athena.sase-1ok.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ok.land.md) | [sase-1ok](README.md) | 1 |
+| [bbugyi200.athena.sase-1ok.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ok.land.md) | [sase-1ok](README.md) | 2 |
 
 ## Commits
 
@@ -92,6 +92,7 @@ flowchart TD
 | sase | [`9cb3585`](https://github.com/sase-org/sase/commit/9cb35859c9454b01d0d130e4cd74cb6d38f55251) | feat(beads): warn or refuse assigned-bead one-segment near-misses | [sase-1ok.3](sase-1ok.3.md) | 2026-10-26 21:28:07 EDT |
 | sase | [`fabfff0`](https://github.com/sase-org/sase/commit/fabfff06e0e2a2c358c210b1a6b91f4c616840b8) | feat(wait-checks): alert on stranded blocking beads | [sase-1ok.2](sase-1ok.2.md) | 2026-10-26 21:48:59 EDT |
 | sase | [`c74a32c`](https://github.com/sase-org/sase/commit/c74a32c5c46afb1687751df2d0e0068dc6353596) | fix(wait-checks): dismiss stranded-bead alerts after external waiter release | [sase-1ok](README.md) | 2026-10-26 23:05:05 EDT |
+| sase--plans | [`sase--plans@1813139`](https://github.com/sase-org/sase--plans/commit/181313957e9d8e806ae56130eee62780b8abe1e5) | docs(plans): mark stranded-wait epic and reconciliation tale done | [sase-1ok](README.md) | 2026-10-26 23:07:15 EDT |
 
 <!-- sase:referenced-by:start -->
 
