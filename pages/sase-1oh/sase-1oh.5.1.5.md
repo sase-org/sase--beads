@@ -13,7 +13,7 @@ private-audit: scan the current agents sidecar through the core scanner, attach 
 
 ## Dependencies
 
-- **Depends on:** [sase-1oh.5.1.4](sase-1oh.5.1.4.md) ◐ · ⧖ 2026-10-26
+- **Depends on:** [sase-1oh.5.1.4](sase-1oh.5.1.4.md) ✓ · ⧖ 2026-10-26
 
 ## Agents
 

@@ -53,7 +53,7 @@ flowchart TD
     n11["sase-1oh.5.1.1: Define core publication protection and durable blocked-content state [closed]"]
     n12["sase-1oh.5.1.2: Withhold unsafe run files without breaking snapshots or clean runs [closed]"]
     n13["sase-1oh.5.1.3: Protect prompt documents, captured objects, and deferred restoration [closed]"]
-    n14["sase-1oh.5.1.4: Recover all publisher paths from GH013 without replaying blocked bytes [in_progress]"]
+    n14["sase-1oh.5.1.4: Recover all publisher paths from GH013 without replaying blocked bytes [closed]"]
     n15["sase-1oh.5.1.5: Audit published content privately and prepare reviewed rollout actions [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -92,12 +92,12 @@ flowchart TD
 | [bbugyi200.athena.sase-1oh.4.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.4.1.1/README.md) | [sase-1oh.4.1.1](sase-1oh.4.1.1.md) | 1 |
 | [bbugyi200.athena.sase-1oh.4.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.4.1.2/README.md) | [sase-1oh.4.1.2](sase-1oh.4.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1oh.4.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.4.1.3/README.md) | [sase-1oh.4.1.3](sase-1oh.4.1.3.md) | 1 |
-| [bbugyi200.athena.sase-1oh.4.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1oh.4.1.land.md) | [sase-1oh.4.1](sase-1oh.4.1.md) | 3 |
+| [bbugyi200.athena.sase-1oh.4.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1oh.4.1.land.md) | [sase-1oh.4.1](sase-1oh.4.1.md) | 2 |
 | [bbugyi200.athena.sase-1oh.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1oh.5.md) | [sase-1oh.5](sase-1oh.5.md) | 0 |
 | [bbugyi200.athena.sase-1oh.5.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.5.1.1/README.md) | [sase-1oh.5.1.1](sase-1oh.5.1.1.md) | 2 |
 | [bbugyi200.athena.sase-1oh.5.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.5.1.2/README.md) | [sase-1oh.5.1.2](sase-1oh.5.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1oh.5.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.5.1.3/README.md) | [sase-1oh.5.1.3](sase-1oh.5.1.3.md) | 1 |
-| [bbugyi200.athena.sase-1oh.5.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1oh.5.1.4.md) | [sase-1oh.5.1.4](sase-1oh.5.1.4.md) | 0 |
+| [bbugyi200.athena.sase-1oh.5.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1oh.5.1.4.md) | [sase-1oh.5.1.4](sase-1oh.5.1.4.md) | 1 |
 | [bbugyi200.athena.sase-1oh.5.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.5.1.5/README.md) | [sase-1oh.5.1.5](sase-1oh.5.1.5.md) | 0 |
 | [bbugyi200.athena.sase-1oh.5.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.5.1.land/README.md) | [sase-1oh.5.1](sase-1oh.5.1.md) | 0 |
 | [bbugyi200.athena.sase-1oh.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.land/README.md) | [sase-1oh](README.md) | 0 |
@@ -118,7 +118,7 @@ flowchart TD
 | sase | [`0f76e05`](https://github.com/sase-org/sase/commit/0f76e05de4dfcef4655a2eae0f9ca74e44f68211) | feat(agents-sync): withhold unsafe prompt-archive text without breaking clean publication | [sase-1oh.5.1.3](sase-1oh.5.1.3.md) | 2026-10-27 00:54:32 EDT |
 | sase-core | [`sase-core@800caef`](https://github.com/sase-org/sase-core/commit/800caef4c70039ccf299a0ecca379142f80234c2) | fix(beads): recover every eligible failed-run close in one mutation | [sase-1oh.4.1](sase-1oh.4.1.md) | 2026-10-27 01:14:00 EDT |
 | sase | [`3f00441`](https://github.com/sase-org/sase/commit/3f0044196d5e385912b09efbd5477d6c58cee2c7) | fix(finalizers): require current landing proof and retry recovery commits | [sase-1oh.4.1](sase-1oh.4.1.md) | 2026-10-27 02:21:17 EDT |
-| sase--plans | [`sase--plans@d940a57`](https://github.com/sase-org/sase--plans/commit/d940a57a9479d74d4d956bcb429a94ee2970b733) | docs(plans): mark failed-close recovery plans done after landing | [sase-1oh.4.1](sase-1oh.4.1.md) | 2026-10-27 02:27:41 EDT |
+| sase | [`cecfbba`](https://github.com/sase-org/sase/commit/cecfbbab2f40f9457f6565cd8d0a55bb358ffce8) | feat(agents-sync): recover all publisher paths from GH013 without replaying blocked bytes | [sase-1oh.5.1.4](sase-1oh.5.1.4.md) | 2026-10-27 02:44:27 EDT |
 
 <!-- sase:referenced-by:start -->
 
