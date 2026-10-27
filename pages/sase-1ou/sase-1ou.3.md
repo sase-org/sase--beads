@@ -34,3 +34,15 @@ capacity-e2e: find what consumes the fakey land agent's 5 s budget under load in
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`a42eedc`](https://github.com/sase-org/sase/commit/a42eedc1c4679612ccfbcc277f302c88c1960b2f) | fix(tests): make monitor capacity e2e load-robust via canonical artifact path | [sase-1ou.3](sase-1ou.3.md) | 2026-10-27 13:22:09 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ou.3--2][1] | Verify phase state before recording stress evidence and closing | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ou.3.md
+
+<!-- sase:referenced-by:end -->

@@ -42,7 +42,7 @@ flowchart TD
     n2["sase-1ou.2: Stop the ToolRun store failing with \"database is locked\" under parallel load (sase-18t) [in_progress]"]
     n3["sase-1ou.2.1: Fix ToolRun SQLite contention at the store boundary [in_progress]"]
     n4["sase-1ou.2.1.1: Diagnose and fix the Rust store contention policy [closed]"]
-    n5["sase-1ou.2.1.2: Adopt the core policy and prove the affected ToolRun flows [in_progress]"]
+    n5["sase-1ou.2.1.2: Adopt the core policy and prove the affected ToolRun flows [closed]"]
     n6["sase-1ou.3: Make the weight-two land-agent-session capacity e2e load-robust (sase-12f) [closed]"]
     n7["sase-1ou.4: Fix the Files ctrl+j page-anchor scroll race (sase-1a7) [closed]"]
     n8["sase-1ou.5: Rotate and purge the historical secret-scanner hits in public sase--agents history (sase-1ot) [in_progress]"]
@@ -80,7 +80,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1ou.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ou.1/README.md) | [sase-1ou.1](sase-1ou.1.md) | 1 |
 | [bbugyi200.athena.sase-1ou.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ou.2.md) | [sase-1ou.2](sase-1ou.2.md) | 0 |
 | [bbugyi200.athena.sase-1ou.2.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ou.2.1.1/README.md) | [sase-1ou.2.1.1](sase-1ou.2.1.1.md) | 1 |
-| [bbugyi200.athena.sase-1ou.2.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ou.2.1.2.md) | [sase-1ou.2.1.2](sase-1ou.2.1.2.md) | 0 |
+| [bbugyi200.athena.sase-1ou.2.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ou.2.1.2.md) | [sase-1ou.2.1.2](sase-1ou.2.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1ou.2.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ou.2.1.land/README.md) | [sase-1ou.2.1](sase-1ou.2.1.md) | 0 |
 | [bbugyi200.athena.sase-1ou.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ou.3.md) | [sase-1ou.3](sase-1ou.3.md) | 1 |
 | [bbugyi200.athena.sase-1ou.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ou.4.md) | [sase-1ou.4](sase-1ou.4.md) | 1 |
@@ -100,3 +100,4 @@ flowchart TD
 | sase-core | [`sase-core@6d11122`](https://github.com/sase-org/sase-core/commit/6d11122eed284f2589ecfd99d3c60c02fc949dbc) | fix(tool\_run): bound SQLite store contention at the connection boundary | [sase-1ou.2.1.1](sase-1ou.2.1.1.md) | 2026-10-27 12:05:44 EDT |
 | sase | [`691ef46`](https://github.com/sase-org/sase/commit/691ef461533d08759fa6d2fce30eee7bac48bddb) | fix(ace-tui): resolve Files ctrl+j page-anchor scroll race | [sase-1ou.4](sase-1ou.4.md) | 2026-10-27 12:12:53 EDT |
 | sase | [`a42eedc`](https://github.com/sase-org/sase/commit/a42eedc1c4679612ccfbcc277f302c88c1960b2f) | fix(tests): make monitor capacity e2e load-robust via canonical artifact path | [sase-1ou.3](sase-1ou.3.md) | 2026-10-27 13:22:09 EDT |
+| sase-core | [`sase-core@3f8baa7`](https://github.com/sase-org/sase-core/commit/3f8baa79844d9c856d211ad23149985afccccc70) | fix(tool-run): count the WAL probe against the busy budget | [sase-1ou.2.1.2](sase-1ou.2.1.2.md) | 2026-10-27 17:37:25 EDT |

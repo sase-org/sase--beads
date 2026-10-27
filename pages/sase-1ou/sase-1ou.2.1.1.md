@@ -23,7 +23,7 @@ EVIDENCE: unfixed core 89576266 / sase pin 800caef4. WAL BEGIN IMMEDIATE/EXCLUSI
 
 ## Dependencies
 
-- **Blocks:** [sase-1ou.2.1.2](sase-1ou.2.1.2.md) ◐ · ⧖ 2026-10-27
+- **Blocks:** [sase-1ou.2.1.2](sase-1ou.2.1.2.md) ✓ · ⧖ 2026-10-27
 
 ## Agents
 
