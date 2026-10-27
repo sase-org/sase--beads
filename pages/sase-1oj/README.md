@@ -32,8 +32,8 @@ SASE stops rewriting large derived state on athena's root NVMe. The runner-slot 
 | [sase-1oj.1](sase-1oj.1.md) | Prune never-live dirs from the capacity\_only scan | ✓ closed | medium | 2026-10-26 | 1 | 1 |
 | [sase-1oj.2](sase-1oj.2.md) | Self-heal the corrupt bead read-model cache | ✓ closed | medium | 2026-10-26 | 1 | 1 |
 | [sase-1oj.3](sase-1oj.3.md) | Consolidate sase-core integration-test binaries | ✓ closed | medium | 2026-10-26 | 1 | 2 |
-| [sase-1oj.4](sase-1oj.4.md) | Adopt the pruned capacity scan in sase | ◐ in_progress | small | 2026-10-26 | 1 | 0 |
-| [sase-1oj.5](sase-1oj.5.md) | Stop per-launch Codex thread backfill | ◐ in_progress | medium | 2026-10-26 | 1 | 1 |
+| [sase-1oj.4](sase-1oj.4.md) | Adopt the pruned capacity scan in sase | ✓ closed | small | 2026-10-26 | 1 | 1 |
+| [sase-1oj.5](sase-1oj.5.md) | Stop per-launch Codex thread backfill | ✓ closed | medium | 2026-10-26 | 1 | 1 |
 | [sase-1oj.6](sase-1oj.6.md) | Measure the write reduction on athena | ◐ in_progress | small | 2026-10-26 | 1 | 0 |
 
 ## Lineage
@@ -44,8 +44,8 @@ flowchart TD
     n1["sase-1oj.1: Prune never-live dirs from the capacity_only scan [closed]"]
     n2["sase-1oj.2: Self-heal the corrupt bead read-model cache [closed]"]
     n3["sase-1oj.3: Consolidate sase-core integration-test binaries [closed]"]
-    n4["sase-1oj.4: Adopt the pruned capacity scan in sase [in_progress]"]
-    n5["sase-1oj.5: Stop per-launch Codex thread backfill [in_progress]"]
+    n4["sase-1oj.4: Adopt the pruned capacity scan in sase [closed]"]
+    n5["sase-1oj.5: Stop per-launch Codex thread backfill [closed]"]
     n6["sase-1oj.6: Measure the write reduction on athena [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -69,7 +69,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-1oj.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1oj.1/README.md) | [sase-1oj.1](sase-1oj.1.md) | 1 |
 | [bbugyi200.apollo.sase-1oj.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1oj.2/README.md) | [sase-1oj.2](sase-1oj.2.md) | 1 |
 | [bbugyi200.apollo.sase-1oj.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1oj.3/README.md) | [sase-1oj.3](sase-1oj.3.md) | 2 |
-| [bbugyi200.apollo.sase-1oj.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1oj.4/README.md) | [sase-1oj.4](sase-1oj.4.md) | 0 |
+| [bbugyi200.apollo.sase-1oj.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1oj.4/README.md) | [sase-1oj.4](sase-1oj.4.md) | 1 |
 | [bbugyi200.apollo.sase-1oj.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1oj.5.md) | [sase-1oj.5](sase-1oj.5.md) | 1 |
 | [bbugyi200.apollo.sase-1oj.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1oj.6/README.md) | [sase-1oj.6](sase-1oj.6.md) | 0 |
 | [bbugyi200.apollo.sase-1oj.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1oj.land/README.md) | [sase-1oj](README.md) | 0 |
@@ -83,6 +83,7 @@ flowchart TD
 | sase-core | [`sase-core@b12e581`](https://github.com/sase-org/sase-core/commit/b12e5815289b1a83c244ab2bc7d620fa3eb662be) | test(core): merge integration tests into one binary per crate | [sase-1oj.3](sase-1oj.3.md) | 2026-10-26 18:52:13 EDT |
 | sase | [`60498dc`](https://github.com/sase-org/sase/commit/60498dcb5ec08bd945a8e89055c74e182065fbab) | docs(rust-backend): point test paths at consolidated integration targets | [sase-1oj.3](sase-1oj.3.md) | 2026-10-26 18:56:43 EDT |
 | sase | [`d6d8b2b`](https://github.com/sase-org/sase/commit/d6d8b2b9425ae2c4e88aa689ad8a89c03852732b) | feat(codex): isolate shadow-home sessions to today and tomorrow | [sase-1oj.5](sase-1oj.5.md) | 2026-10-26 19:48:02 EDT |
+| sase | [`e7d9f7a`](https://github.com/sase-org/sase/commit/e7d9f7a479664f412422ce40c0e679d29e5db41c) | feat(runner-slots): adopt pruned capacity scan | [sase-1oj.4](sase-1oj.4.md) | 2026-10-26 22:05:57 EDT |
 
 <!-- sase:referenced-by:start -->
 

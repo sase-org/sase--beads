@@ -18,7 +18,7 @@ core-read-model-heal: in sase-core's bead read model, classify SQLITE_CORRUPT wr
 ## Dependencies
 
 - **Blocks:** [sase-1oj.3](sase-1oj.3.md) ✓ · ⧖ 2026-10-26
-- **Blocks:** [sase-1oj.4](sase-1oj.4.md) ◐ · ⧖ 2026-10-26
+- **Blocks:** [sase-1oj.4](sase-1oj.4.md) ✓ · ⧖ 2026-10-26
 
 ## Agents
 

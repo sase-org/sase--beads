@@ -18,7 +18,7 @@ core-capacity-prune: in sase-core's agent_scan scanner, extend the capacity_only
 ## Dependencies
 
 - **Blocks:** [sase-1oj.3](sase-1oj.3.md) ✓ · ⧖ 2026-10-26
-- **Blocks:** [sase-1oj.4](sase-1oj.4.md) ◐ · ⧖ 2026-10-26
+- **Blocks:** [sase-1oj.4](sase-1oj.4.md) ✓ · ⧖ 2026-10-26
 
 ## Agents
 
