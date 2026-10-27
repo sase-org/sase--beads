@@ -42,8 +42,10 @@ recovery-core: add close provenance, durable completion-failure facts, and an id
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1oh.4.1.1][1] | Need the phase scope and design file | 1 |
 | read-by | [agent:sase-1oh.4.1.2][2] | need landed core API binding names | 1 |
+| read-by | [agent:sase-1oh.4.1.3][3] | Need recovery-core binding names and close evidence | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.4.1.1/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.4.1.2/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.4.1.3/README.md
 
 <!-- sase:referenced-by:end -->

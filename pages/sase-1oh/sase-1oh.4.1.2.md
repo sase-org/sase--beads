@@ -41,7 +41,9 @@ host-recovery: pin the landed core API, carry close provenance through Python, a
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1oh.4.1.2][1] | check prior work notes | 9 |
+| read-by | [agent:sase-1oh.4.1.3][2] | Need host-recovery API names and close evidence | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.4.1.2/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.4.1.3/README.md
 
 <!-- sase:referenced-by:end -->

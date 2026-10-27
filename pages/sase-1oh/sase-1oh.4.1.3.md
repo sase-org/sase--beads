@@ -35,3 +35,15 @@ Verified: tests/test_stranded_collector_recovery.py (6), tests/test_stranded_rec
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`13abbfb`](https://github.com/sase-org/sase/commit/13abbfb01ed4df28e9330ce07b70c2c3d03ecae0) | feat(beads): surface recovered open work as stranded | [sase-1oh.4.1.3](sase-1oh.4.1.3.md) | 2026-10-26 22:59:23 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1oh.4.1.3][1] | Need the phase scope and design file | 4 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.4.1.3/README.md
+
+<!-- sase:referenced-by:end -->
