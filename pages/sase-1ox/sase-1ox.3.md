@@ -30,3 +30,15 @@ cli: move `sase agent load` onto the tiered view per the cli_parity decision, de
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`daa96a5`](https://github.com/sase-org/sase/commit/daa96a5bd05c2eb23c8ce23e3dccb67af8b1afb0) | feat(cli): give sase agent load the inspector's tiered capacity view | [sase-1ox.3](sase-1ox.3.md) | 2026-10-27 15:26:16 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ox.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ox.3/README.md
+
+<!-- sase:referenced-by:end -->
