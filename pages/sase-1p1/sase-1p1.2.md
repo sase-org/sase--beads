@@ -22,7 +22,7 @@ ledger: add the sase-core `footprint` domain (spool line validation, catalog ing
 ## Dependencies
 
 - **Blocks:** [sase-1p1.5](sase-1p1.5.md) ◐ · ⧖ 2026-10-27
-- **Blocks:** [sase-1p1.6](sase-1p1.6.md) ○ · ⧖ 2026-10-27
+- **Blocks:** [sase-1p1.6](sase-1p1.6.md) ✓ · ⧖ 2026-10-27
 
 ## Agents
 
@@ -45,8 +45,10 @@ ledger: add the sase-core `footprint` domain (spool line validation, catalog ing
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1ou.2.1.land--1][1] | Verify when the unrelated footprint phase closed and whether exemption cleanup is owned there | 1 |
 | read-by | [agent:sase-1p1.2][2] | Need notes section | 4 |
+| read-by | [agent:sase-1p1.3--2][3] | Determine which footprint epic phase owns the two overlapping Symvision allowlist symbols | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ou.2.1.land.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.2/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1p1.3.md
 
 <!-- sase:referenced-by:end -->

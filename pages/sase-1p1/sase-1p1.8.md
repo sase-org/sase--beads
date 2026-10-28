@@ -15,7 +15,7 @@ cli_report: build the shared Rich render layer (heat strips, tiles, rows, eviden
 
 - **Blocks:** [sase-1p1.12](sase-1p1.12.md) ◐ · ⧖ 2026-10-27
 - **Depends on:** [sase-1p1.5](sase-1p1.5.md) ◐ · ⧖ 2026-10-27
-- **Depends on:** [sase-1p1.6](sase-1p1.6.md) ○ · ⧖ 2026-10-27
+- **Depends on:** [sase-1p1.6](sase-1p1.6.md) ✓ · ⧖ 2026-10-27
 - **Blocks:** [sase-1p1.9](sase-1p1.9.md) ◐ · ⧖ 2026-10-27
 
 ## Agents
@@ -23,3 +23,15 @@ cli_report: build the shared Rich render layer (heat strips, tiles, rows, eviden
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1p1.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.8/README.md) | [sase-1p1.8](sase-1p1.8.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1p1.3--2][1] | Confirm which active Footprint phases are expected to consume the currently unused Rust facade exports | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1p1.3.md
+
+<!-- sase:referenced-by:end -->

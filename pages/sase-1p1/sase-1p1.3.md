@@ -27,10 +27,16 @@ cli_recording: record one spool line per CLI process from a single try/finally i
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1p1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1p1.3.md) | [sase-1p1.3](sase-1p1.3.md) | 1 |
+| [bbugyi200.athena.sase-1p1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1p1.3.md) | [sase-1p1.3](sase-1p1.3.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase | [`63468c9`](https://github.com/sase-org/sase/commit/63468c96aeaaa7fbe0d69225b88fe884c4d6ab36) | feat(footprint): add CLI usage recorder and mode controls | [sase-1p1.3](sase-1p1.3.md) | 2026-10-27 20:20:32 EDT |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1p1.3--2][1] | Determine which footprint epic phase owns the two overlapping Symvision allowlist symbols | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1p1.3.md
+
+<!-- sase:referenced-by:end -->
