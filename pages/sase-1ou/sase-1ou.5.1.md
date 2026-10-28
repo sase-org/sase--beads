@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/agents_history_remediation.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/agents_history_remediation.md
 
 <!-- sase:links:end -->
@@ -54,3 +56,15 @@ INTEGRATION: no source commit in sase or agents/plans history mentions this epic
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase--plans | [`sase--plans@3e08345`](https://github.com/sase-org/sase--plans/commit/3e08345486d7fd0653a803995542ba59f5f7f49b) | docs(plan): finish sase-1ou.5.1 after verified owner decline | [sase-1ou.5.1](sase-1ou.5.1.md) | 2026-10-28 14:57:09 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ou.5.1.land][1] | Need the epic scope, children, and linked plan file | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ou.5.1.land/README.md
+
+<!-- sase:referenced-by:end -->

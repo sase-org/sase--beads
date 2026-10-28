@@ -42,3 +42,15 @@ PROPOSED FOLLOW-UP: Mac sase/core is behind athena/apollo (0.18.0+83 / 0.42.1 vs
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1ou.5.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ou.5.1.2/README.md) | [sase-1ou.5.1.2](sase-1ou.5.1.2.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ou.5.1.land][1] | Need the child scope and notes | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ou.5.1.land/README.md
+
+<!-- sase:referenced-by:end -->
