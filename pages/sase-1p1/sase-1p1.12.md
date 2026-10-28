@@ -29,6 +29,12 @@ export_import: add the Rust weekly export projection (buckets, no identity, byte
 
 [2026-10-28T08:15:52Z · sase-1p1.12--3] Identity-free export/import verified: Python tests/footprint/test_export.py + binding smoke + validate_sase_core_rs (27 passed); sase-core transfer tests (13 passed: buckets, forbidden IDs, replace-all/nonce, merge min(7,local+imported) and observed max, dry-run); preview bytes match file; catalog has cli:footprint.export/import; no leftover --epic-symbol. just check remains no_new (KNOWN _RecoveryAssessment private import + unrelated workspace/axe flakes; follow-ups already recorded).
 
+[2026-10-28T08:55:12Z · sase-1p1.12--4] PROPOSED FOLLOW-UP: sase-core just check load-flake: tool_run::store::tests::contention::{barrier_orders_exclusive_holder_then_show, retry_after_releasable_lock_does_not_duplicate_run} failed under full check (SQLite busy/WAL timeout), passed in isolation; witness e806578cc8f9fec509172149f2c41b66. Related to sase-18t store-busy flake family.
+
+[2026-10-28T11:57:00Z · sase-1p1.12--9] Catalog match test now generates in a clean subprocess so xdist pollution cannot fail test_checked_in_catalog_matches_generator (was NEW 3652 vs 3653 on just check b01c34b3803ce9e898654eba5873e86b). KNOWN _RecoveryAssessment private import remains a recorded follow-up.
+
+[2026-10-28T12:58:19Z · sase-1p1.12--b] PROPOSED FOLLOW-UP: NEW-classified just check flake tests/test_sudo_ledger_settlement.py::test_sudo_answer_defers_after_long_lock_timeout_and_reclaim_settles_later (assert settled==deferred; touched=false, first_seen before this phase; witness fc0af6fd52c7e17438adc338aeb29e5b)
+
 ## Dependencies
 
 - **Blocks:** [sase-1p1.13](sase-1p1.13.md) ◐ · ⧖ 2026-10-27
@@ -38,4 +44,10 @@ export_import: add the Rust weekly export projection (buckets, no identity, byte
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1p1.12](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1p1.12.md) | [sase-1p1.12](sase-1p1.12.md) | 0 |
+| [bbugyi200.athena.sase-1p1.12](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1p1.12.md) | [sase-1p1.12](sase-1p1.12.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase-core | [`sase-core@65546fd`](https://github.com/sase-org/sase-core/commit/65546fd244ec43ee023369fdafb5b5edb6197061) | feat(footprint): add identity-free weekly export and replace-all import | [sase-1p1.12](sase-1p1.12.md) | 2026-10-28 09:57:03 EDT |
