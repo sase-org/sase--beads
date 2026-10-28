@@ -2,14 +2,22 @@
 
 [Bead Pages](../README.md) / [sase-1p1](README.md) / sase-1p1.8
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.14w](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.14w.md) · **Assignee:** `sase-1p1.8` · **Size:** medium
-**Created:** 2026-10-27 15:21:49 EDT
+**Created:** 2026-10-27 15:21:49 EDT · **Closed:** 2026-10-27 23:49:06 EDT
 **Plan:** [202610/footprint\_usage\_census.md](https://github.com/sase-org/sase--plans/blob/main/202610/footprint_usage_census.md)
 
 ## Description
 
 cli_report: build the shared Rich render layer (heat strips, tiles, rows, evidence card, evidence sentence) and add `sase footprint list`, `show`, and `decide` in rich, JSON, and agent-ready Markdown.
+
+## Notes
+
+[2026-10-28T03:44:56Z · sase-1p1.8] PROPOSED FOLLOW-UP: symvision dead-private _reset_for_tests in src/sase/footprint/_tui.py blocks just check green (reproduces on clean base HEAD 067eeeb17b; 1p1.4 seam, consider delegating _reset_after_fork to it like telemetry/_registry.py)
+
+[2026-10-28T03:45:06Z · sase-1p1.8] PROPOSED FOLLOW-UP: first fold storing records logs ValueError dedup_key requires plus_one_note from fold.py _upsert_disclosure_notification (Rust store requires plus_one_note with dedup_key); fold succeeds via warning guard but the disclosure notification is never stored
+
+[2026-10-28T03:49:06Z · sase-1p1.8] cli_report done: shared render layer (heat strips, tiles, rows, card, evidence sentences, legend) + footprint list/show/decide in rich/JSON/markdown. 100 footprint tests green (21 new), mypy/ruff clean, epic-symbols for 1p1.8 fully dropped. sase tool run check green except pre-existing symvision _reset_for_tests in _tui.py (reproduces on clean base, filed as follow-up) + disclosure-notification follow-up filed.
 
 ## Dependencies
 
@@ -22,7 +30,13 @@ cli_report: build the shared Rich render layer (heat strips, tiles, rows, eviden
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1p1.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.8/README.md) | [sase-1p1.8](sase-1p1.8.md) | 0 |
+| [bbugyi200.athena.sase-1p1.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.8/README.md) | [sase-1p1.8](sase-1p1.8.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`c80a6c7`](https://github.com/sase-org/sase/commit/c80a6c791ada99b14e1df2e1d828cf8e1e39c37e) | feat(footprint): add query builder, render layer, and list/show/decide CLI | [sase-1p1.8](sase-1p1.8.md) | 2026-10-27 23:50:57 EDT |
 
 <!-- sase:referenced-by:start -->
 

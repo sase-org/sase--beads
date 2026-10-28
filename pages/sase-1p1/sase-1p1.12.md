@@ -14,7 +14,7 @@ export_import: add the Rust weekly export projection (buckets, no identity, byte
 ## Dependencies
 
 - **Blocks:** [sase-1p1.13](sase-1p1.13.md) ◐ · ⧖ 2026-10-27
-- **Depends on:** [sase-1p1.8](sase-1p1.8.md) ◐ · ⧖ 2026-10-27
+- **Depends on:** [sase-1p1.8](sase-1p1.8.md) ✓ · ⧖ 2026-10-27
 
 ## Agents
 

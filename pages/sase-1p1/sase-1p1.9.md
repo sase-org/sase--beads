@@ -15,7 +15,7 @@ tui_view: register Statistics view 09 with lenses as groupings, an interactive r
 
 - **Blocks:** [sase-1p1.10](sase-1p1.10.md) ◐ · ⧖ 2026-10-27
 - **Depends on:** [sase-1p1.4](sase-1p1.4.md) ✓ · ⧖ 2026-10-27
-- **Depends on:** [sase-1p1.8](sase-1p1.8.md) ◐ · ⧖ 2026-10-27
+- **Depends on:** [sase-1p1.8](sase-1p1.8.md) ✓ · ⧖ 2026-10-27
 
 ## Agents
 
