@@ -21,7 +21,7 @@ ledger: add the sase-core `footprint` domain (spool line validation, catalog ing
 
 ## Dependencies
 
-- **Blocks:** [sase-1p1.5](sase-1p1.5.md) ◐ · ⧖ 2026-10-27
+- **Blocks:** [sase-1p1.5](sase-1p1.5.md) ✓ · ⧖ 2026-10-27
 - **Blocks:** [sase-1p1.6](sase-1p1.6.md) ✓ · ⧖ 2026-10-27
 
 ## Agents

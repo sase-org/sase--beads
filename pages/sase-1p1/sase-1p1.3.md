@@ -21,7 +21,7 @@ cli_recording: record one spool line per CLI process from a single try/finally i
 
 - **Depends on:** [sase-1p1.1](sase-1p1.1.md) ✓ · ⧖ 2026-10-27
 - **Blocks:** [sase-1p1.4](sase-1p1.4.md) ✓ · ⧖ 2026-10-27
-- **Blocks:** [sase-1p1.5](sase-1p1.5.md) ◐ · ⧖ 2026-10-27
+- **Blocks:** [sase-1p1.5](sase-1p1.5.md) ✓ · ⧖ 2026-10-27
 
 ## Agents
 
