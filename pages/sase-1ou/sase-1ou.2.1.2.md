@@ -25,7 +25,7 @@
 | related | file:explicit:dcdb074200fedcafa5a9f497 | attached via sase artifact create --bead |
 | related | file:explicit:e81105351838d35a34702195 | attached via sase artifact create --bead |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -75,7 +75,9 @@ caller-integration: consume the landed core policy in Python, preserve explicit 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1ou.2.1.2--3][1] | Need phase scope, decisions, prior notes, and final evidence requirements | 1 |
+| read-by | [agent:sase-1ou.2.1.land--1][2] | Check current child scope and notes for changes since the landing audit | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ou.2.1.2.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ou.2.1.land.md
 
 <!-- sase:referenced-by:end -->

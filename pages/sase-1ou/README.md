@@ -35,7 +35,7 @@ The five most important workable task beads in the sase project are resolved on 
 | [sase-1ou.2](sase-1ou.2.md) | Stop the ToolRun store failing with "database is locked" under parallel load (sase-18t) | ✓ closed | large | 2026-10-27 | 1 | 0 |
 | [sase-1ou.3](sase-1ou.3.md) | Make the weight-two land-agent-session capacity e2e load-robust (sase-12f) | ✓ closed | large | 2026-10-27 | 1 | 1 |
 | [sase-1ou.4](sase-1ou.4.md) | Fix the Files ctrl+j page-anchor scroll race (sase-1a7) | ✓ closed | large | 2026-10-27 | 1 | 1 |
-| [sase-1ou.5](sase-1ou.5.md) | Rotate and purge the historical secret-scanner hits in public sase--agents history (sase-1ot) | ◐ in_progress | large | 2026-10-27 | 1 | 0 |
+| [sase-1ou.5](sase-1ou.5.md) | Rotate and purge the historical secret-scanner hits in public sase--agents history (sase-1ot) | ✓ closed | large | 2026-10-27 | 1 | 0 |
 
 ## Lineage
 
@@ -49,12 +49,12 @@ flowchart TD
     n5["sase-1ou.2.1.2: Adopt the core policy and prove the affected ToolRun flows [closed]"]
     n6["sase-1ou.3: Make the weight-two land-agent-session capacity e2e load-robust (sase-12f) [closed]"]
     n7["sase-1ou.4: Fix the Files ctrl+j page-anchor scroll race (sase-1a7) [closed]"]
-    n8["sase-1ou.5: Rotate and purge the historical secret-scanner hits in public sase--agents history (sase-1ot) [in_progress]"]
-    n9["sase-1ou.5.1: Rotate exposed credentials and purge agents-sidecar history [in_progress]"]
+    n8["sase-1ou.5: Rotate and purge the historical secret-scanner hits in public sase--agents history (sase-1ot) [closed]"]
+    n9["sase-1ou.5.1: Rotate exposed credentials and purge agents-sidecar history [closed]"]
     n10["sase-1ou.5.1.1: Classify findings and prepare the rotation checklist [closed]"]
     n11["sase-1ou.5.1.2: Prepare and test the three-host maintenance procedure [closed]"]
     n12["sase-1ou.5.1.3: Rehearse the purge and assemble the execution package [closed]"]
-    n13["sase-1ou.5.1.4: Gate execution and verify the published result [in_progress]"]
+    n13["sase-1ou.5.1.4: Gate execution and verify the published result [closed]"]
     n0 --> n1
     n0 --> n2
     n2 --> n3
@@ -93,7 +93,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1ou.5.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ou.5.1.2/README.md) | [sase-1ou.5.1.2](sase-1ou.5.1.2.md) | 0 |
 | [bbugyi200.athena.sase-1ou.5.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ou.5.1.3.md) | [sase-1ou.5.1.3](sase-1ou.5.1.3.md) | 0 |
 | [bbugyi200.athena.sase-1ou.5.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ou.5.1.4.md) | [sase-1ou.5.1.4](sase-1ou.5.1.4.md) | 0 |
-| [bbugyi200.athena.sase-1ou.5.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ou.5.1.land/README.md) | [sase-1ou.5.1](sase-1ou.5.1.md) | 0 |
+| [bbugyi200.athena.sase-1ou.5.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ou.5.1.land/README.md) | [sase-1ou.5.1](sase-1ou.5.1.md) | 1 |
 | [bbugyi200.athena.sase-1ou.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ou.land/README.md) | [sase-1ou](README.md) | 0 |
 
 ## Commits
@@ -107,3 +107,4 @@ flowchart TD
 | sase-core | [`sase-core@3f8baa7`](https://github.com/sase-org/sase-core/commit/3f8baa79844d9c856d211ad23149985afccccc70) | fix(tool-run): count the WAL probe against the busy budget | [sase-1ou.2.1.2](sase-1ou.2.1.2.md) | 2026-10-27 17:37:25 EDT |
 | sase | [`57d5f41`](https://github.com/sase-org/sase/commit/57d5f411e41e543ffa10d9a91ab45fd66f62ebb6) | fix(tool): delegate default contention budgets to Rust | [sase-1ou.2.1.2](sase-1ou.2.1.2.md) | 2026-10-27 17:40:35 EDT |
 | sase--plans | [`sase--plans@4dee3ff`](https://github.com/sase-org/sase--plans/commit/4dee3ff5a788932c679bef5d9ed15c69861362db) | docs(plans): mark ToolRun contention epic complete | [sase-1ou.2.1](sase-1ou.2.1.md) | 2026-10-27 18:10:40 EDT |
+| sase--plans | [`sase--plans@3e08345`](https://github.com/sase-org/sase--plans/commit/3e08345486d7fd0653a803995542ba59f5f7f49b) | docs(plan): finish sase-1ou.5.1 after verified owner decline | [sase-1ou.5.1](sase-1ou.5.1.md) | 2026-10-28 14:57:09 EDT |

@@ -48,7 +48,9 @@ Per the approved child plan's explicit ownership rule, this phase's completion l
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1ou.2.1.1][1] | Need outer phase context, DECISIONS, and sase-18t evidence | 1 |
+| read-by | [agent:sase-1ou.2.1.land--1][2] | Verify the parent phase scope and child-plan completion before closing only this phase | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ou.2.1.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ou.2.1.land.md
 
 <!-- sase:referenced-by:end -->

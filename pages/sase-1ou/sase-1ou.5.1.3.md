@@ -47,7 +47,7 @@ purge-rehearsal: bind the private removal manifest to frozen refs, rehearse the 
 
 - **Depends on:** [sase-1ou.5.1.1](sase-1ou.5.1.1.md) ✓ · ⧖ 2026-10-27
 - **Depends on:** [sase-1ou.5.1.2](sase-1ou.5.1.2.md) ✓ · ⧖ 2026-10-27
-- **Blocks:** [sase-1ou.5.1.4](sase-1ou.5.1.4.md) ◐ · ⧖ 2026-10-27
+- **Blocks:** [sase-1ou.5.1.4](sase-1ou.5.1.4.md) ✓ · ⧖ 2026-10-27
 
 ## Agents
 

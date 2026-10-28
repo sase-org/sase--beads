@@ -44,7 +44,9 @@ EVIDENCE: unfixed core 89576266 / sase pin 800caef4. WAL BEGIN IMMEDIATE/EXCLUSI
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1ou.2.1.1][1] | Need the phase scope and design file | 4 |
+| read-by | [agent:sase-1ou.2.1.land--1][2] | Check current child scope and notes for changes since the landing audit | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ou.2.1.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ou.2.1.land.md
 
 <!-- sase:referenced-by:end -->
