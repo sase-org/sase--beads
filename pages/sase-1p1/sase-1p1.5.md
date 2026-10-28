@@ -43,7 +43,9 @@ fold_status: add the Python fold driver (catalog ingest with LOC enrichment, fol
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1p1.3--2][1] | Confirm which active Footprint phases are expected to consume the currently unused Rust facade exports | 1 |
+| read-by | [agent:sase-1p1.5][2] | Verify the phase closed after implementation | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1p1.3.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.5/README.md
 
 <!-- sase:referenced-by:end -->

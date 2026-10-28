@@ -11,6 +11,10 @@
 
 derived_sources: fold usage that already exists elsewhere into the ledger as derived rows: macro launch history, skill counts, config overrides, and automation. Also add the opt-in zsh-history backfill command.
 
+## Notes
+
+[2026-10-28T02:40:56Z · sase-1p1.7] --list
+
 ## Dependencies
 
 - **Blocks:** [sase-1p1.13](sase-1p1.13.md) ◐ · ⧖ 2026-10-27
