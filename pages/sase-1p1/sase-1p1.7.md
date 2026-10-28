@@ -28,13 +28,14 @@ derived_sources: fold usage that already exists elsewhere into the ledger as der
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1p1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.7/README.md) | [sase-1p1.7](sase-1p1.7.md) | 1 |
+| [bbugyi200.athena.sase-1p1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.7/README.md) | [sase-1p1.7](sase-1p1.7.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@31deb0d`](https://github.com/sase-org/sase-core/commit/31deb0d2ff7ed0024ad810b6be1a5243c2099399) | feat(stats): add query\_macro\_usage and accept config via | [sase-1p1.7](sase-1p1.7.md) | 2026-10-28 00:43:55 EDT |
+| sase | [`95bd848`](https://github.com/sase-org/sase/commit/95bd848d261988e01d7bd105178d5b599884a451) | feat(footprint): fold derived sources and add history backfill | [sase-1p1.7](sase-1p1.7.md) | 2026-10-28 04:55:52 EDT |
 
 <!-- sase:referenced-by:start -->
 

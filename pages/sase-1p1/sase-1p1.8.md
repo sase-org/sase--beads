@@ -21,7 +21,7 @@ cli_report: build the shared Rich render layer (heat strips, tiles, rows, eviden
 
 ## Dependencies
 
-- **Blocks:** [sase-1p1.12](sase-1p1.12.md) ○ · ⧖ 2026-10-27
+- **Blocks:** [sase-1p1.12](sase-1p1.12.md) ✓ · ⧖ 2026-10-27
 - **Depends on:** [sase-1p1.5](sase-1p1.5.md) ✓ · ⧖ 2026-10-27
 - **Depends on:** [sase-1p1.6](sase-1p1.6.md) ✓ · ⧖ 2026-10-27
 - **Blocks:** [sase-1p1.9](sase-1p1.9.md) ✓ · ⧖ 2026-10-27

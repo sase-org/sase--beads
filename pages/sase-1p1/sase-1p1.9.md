@@ -49,8 +49,10 @@ tui_view: register Statistics view 09 with lenses as groupings, an interactive r
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1p1.9][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:sase-1p1.11][1] | Confirm prior clean-base Symvision follow-up tracking | 2 |
+| read-by | [agent:sase-1p1.9][2] | Need the phase scope and design file | 2 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.9/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.11/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.9/README.md
 
 <!-- sase:referenced-by:end -->

@@ -43,14 +43,14 @@ sase keeps an always-on, privacy-by-construction census of which of its surfaces
 | [sase-1p1.1](sase-1p1.1.md) | Feature catalog, ID scheme, overlay, and drift guard | ✓ closed | medium | 2026-10-27 | 1 | 1 |
 | [sase-1p1.10](sase-1p1.10.md) | Evidence card panel and feature finder | ✓ closed | medium | 2026-10-27 | 1 | 1 |
 | [sase-1p1.11](sase-1p1.11.md) | Decide picker, finish review, and the | ✓ closed | medium | 2026-10-27 | 1 | 1 |
-| [sase-1p1.12](sase-1p1.12.md) | Identity-free export packs and multi-machine merge | ○ open | medium | 2026-10-27 | 1 | 0 |
+| [sase-1p1.12](sase-1p1.12.md) | Identity-free export packs and multi-machine merge | ✓ closed | medium | 2026-10-27 | 1 | 0 |
 | [sase-1p1.13](sase-1p1.13.md) | Docs reconciliation, end-to-end smoke, and memory | ◐ in_progress | small | 2026-10-27 | 1 | 0 |
 | [sase-1p1.2](sase-1p1.2.md) | Rust ledger, spool fold, and status (sase-core) | ✓ closed | medium | 2026-10-27 | 1 | 2 |
 | [sase-1p1.3](sase-1p1.3.md) | CLI recorder, spool writer, and mode switch | ✓ closed | medium | 2026-10-27 | 1 | 1 |
 | [sase-1p1.4](sase-1p1.4.md) | TUI counters, dispatch seams, and flush thread | ✓ closed | medium | 2026-10-27 | 1 | 1 |
 | [sase-1p1.5](sase-1p1.5.md) | Fold driver, hourly job, status, clear, and disclosure | ✓ closed | medium | 2026-10-27 | 1 | 1 |
 | [sase-1p1.6](sase-1p1.6.md) | Rust lens engine, evidence states, and review decisions | ✓ closed | medium | 2026-10-27 | 1 | 2 |
-| [sase-1p1.7](sase-1p1.7.md) | Derived sources and history backfill | ✓ closed | medium | 2026-10-27 | 1 | 1 |
+| [sase-1p1.7](sase-1p1.7.md) | Derived sources and history backfill | ✓ closed | medium | 2026-10-27 | 1 | 2 |
 | [sase-1p1.8](sase-1p1.8.md) | Shared renderers and the \`sase footprint\` report commands | ✓ closed | medium | 2026-10-27 | 1 | 1 |
 | [sase-1p1.9](sase-1p1.9.md) | Statistics view 09 Footprint (map, lenses, drill-down) | ✓ closed | medium | 2026-10-27 | 1 | 1 |
 
@@ -62,7 +62,7 @@ flowchart TD
     n1["sase-1p1.1: Feature catalog, ID scheme, overlay, and drift guard [closed]"]
     n2["sase-1p1.10: Evidence card panel and feature finder [closed]"]
     n3["sase-1p1.11: Decide picker, finish review, and the [closed]"]
-    n4["sase-1p1.12: Identity-free export packs and multi-machine merge [open]"]
+    n4["sase-1p1.12: Identity-free export packs and multi-machine merge [closed]"]
     n5["sase-1p1.13: Docs reconciliation, end-to-end smoke, and memory [in_progress]"]
     n6["sase-1p1.2: Rust ledger, spool fold, and status (sase-core) [closed]"]
     n7["sase-1p1.3: CLI recorder, spool writer, and mode switch [closed]"]
@@ -117,7 +117,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1p1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1p1.4.md) | [sase-1p1.4](sase-1p1.4.md) | 1 |
 | [bbugyi200.athena.sase-1p1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.5/README.md) | [sase-1p1.5](sase-1p1.5.md) | 1 |
 | [bbugyi200.athena.sase-1p1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.6/README.md) | [sase-1p1.6](sase-1p1.6.md) | 2 |
-| [bbugyi200.athena.sase-1p1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.7/README.md) | [sase-1p1.7](sase-1p1.7.md) | 1 |
+| [bbugyi200.athena.sase-1p1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.7/README.md) | [sase-1p1.7](sase-1p1.7.md) | 2 |
 | [bbugyi200.athena.sase-1p1.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.8/README.md) | [sase-1p1.8](sase-1p1.8.md) | 1 |
 | [bbugyi200.athena.sase-1p1.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.9/README.md) | [sase-1p1.9](sase-1p1.9.md) | 1 |
 | [bbugyi200.athena.sase-1p1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.land/README.md) | [sase-1p1](README.md) | 0 |
@@ -139,6 +139,7 @@ flowchart TD
 | sase | [`a9abdd5`](https://github.com/sase-org/sase/commit/a9abdd5c97a05b7365b60300b3bbfde4f17f2804) | feat(stats): add Footprint view 09 with lenses and drill-down | [sase-1p1.9](sase-1p1.9.md) | 2026-10-28 01:43:43 EDT |
 | sase | [`dae555a`](https://github.com/sase-org/sase/commit/dae555aa201c2b4264d24b2019cb10f8004a5293) | feat(ace): add statistics footprint evidence cards and feature finder | [sase-1p1.10](sase-1p1.10.md) | 2026-10-28 02:27:11 EDT |
 | sase | [`0028e67`](https://github.com/sase-org/sase/commit/0028e6765de55118d4e163b36cd3e5fb66c8c9bf) | feat(footprint): add review decision and launch flow | [sase-1p1.11](sase-1p1.11.md) | 2026-10-28 03:21:03 EDT |
+| sase | [`95bd848`](https://github.com/sase-org/sase/commit/95bd848d261988e01d7bd105178d5b599884a451) | feat(footprint): fold derived sources and add history backfill | [sase-1p1.7](sase-1p1.7.md) | 2026-10-28 04:55:52 EDT |
 
 <!-- sase:referenced-by:start -->
 

@@ -39,3 +39,15 @@ review_loop: add the TUI decide picker, the finish-review confirm-and-launch flo
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`0028e67`](https://github.com/sase-org/sase/commit/0028e6765de55118d4e163b36cd3e5fb66c8c9bf) | feat(footprint): add review decision and launch flow | [sase-1p1.11](sase-1p1.11.md) | 2026-10-28 03:21:03 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1p1.11][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.11/README.md
+
+<!-- sase:referenced-by:end -->
