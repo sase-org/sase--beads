@@ -28,14 +28,13 @@ queries: add the sase-core report/card queries (map, eight lenses, tiles, trust 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1p1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.6/README.md) | [sase-1p1.6](sase-1p1.6.md) | 2 |
+| [bbugyi200.athena.sase-1p1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.6/README.md) | [sase-1p1.6](sase-1p1.6.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@83b010d`](https://github.com/sase-org/sase-core/commit/83b010ddbe635effecf286a82611b73b51888425) | feat(footprint): add lens engine, evidence states, and review decisions | [sase-1p1.6](sase-1p1.6.md) | 2026-10-27 20:51:31 EDT |
-| sase | [`067eeeb`](https://github.com/sase-org/sase/commit/067eeeb17b52aad338587bf21c03d81d561691f9) | feat(footprint): add report/card/decide query facades and bindings | [sase-1p1.6](sase-1p1.6.md) | 2026-10-27 23:08:49 EDT |
 
 <!-- sase:referenced-by:start -->
 

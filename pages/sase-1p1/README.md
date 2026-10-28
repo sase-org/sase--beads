@@ -16,7 +16,7 @@
 | implemented-by | [plan:202610/footprint_usage_census.md][1] | derived from the plan's `bead_id:` frontmatter field |
 | related | file:explicit:e8362613147409c299a8d713 | attached via sase artifact create --bead |
 
-_Plus 5 automatic references — see [Referenced By](#referenced-by)._
+_Plus 6 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/footprint_usage_census.md
 
@@ -34,6 +34,8 @@ sase keeps an always-on, privacy-by-construction census of which of its surfaces
 
 [2026-10-27T23:29:23Z · toobig-8o.panel_spread.0] Supplemental verification detail: a project-wide Symvision scan using the recipe environment and only still-open epic exemptions reported no findings in the panel_spread facade or its private Files-scroll helper. It reported exactly custom_id and other_id in src/sase/footprint/ids.py, plus effective_mode, mode_path, and spool_dir in src/sase/footprint/paths.py. Those five helpers explain why the stale whitelist removal needs footprint-owned symbol cleanup or re-keying.
 
+[2026-10-28T03:52:18Z · bob-cli-df.4.1.land] DISCOVERED ISSUE from bob-cli-df.4.1.land, consolidating proposals bob-cli-df.4.1.1 #2, .2 #1, .3 #1, and .4 #1: recovery phases repeatedly failed just check on your Footprint Symvision exemptions (KNOWN witnesses d7760f1346444dcb440fd30f5f921aac and c65495a42177023e3c2c7bb989a06055). At current SASE dcb7d2a6e7, Justfile still exempts sase-1p1(other_id/custom_id), but both have production callers in footprint/_tui.py and _tui_seams.py. Resolve the redundant exemptions in this causal epic. The separate closed-phase Overlay/load_overlay report is already addressed: current rows use still-open sase-1p1.8, confirmed by audited read. No recovery source edits or new task for this issue.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -47,9 +49,9 @@ sase keeps an always-on, privacy-by-construction census of which of its surfaces
 | [sase-1p1.3](sase-1p1.3.md) | CLI recorder, spool writer, and mode switch | ✓ closed | medium | 2026-10-27 | 1 | 1 |
 | [sase-1p1.4](sase-1p1.4.md) | TUI counters, dispatch seams, and flush thread | ✓ closed | medium | 2026-10-27 | 1 | 1 |
 | [sase-1p1.5](sase-1p1.5.md) | Fold driver, hourly job, status, clear, and disclosure | ✓ closed | medium | 2026-10-27 | 1 | 1 |
-| [sase-1p1.6](sase-1p1.6.md) | Rust lens engine, evidence states, and review decisions | ✓ closed | medium | 2026-10-27 | 1 | 2 |
-| [sase-1p1.7](sase-1p1.7.md) | Derived sources and history backfill | ◐ in_progress | medium | 2026-10-27 | 1 | 0 |
-| [sase-1p1.8](sase-1p1.8.md) | Shared renderers and the \`sase footprint\` report commands | ✓ closed | medium | 2026-10-27 | 1 | 1 |
+| [sase-1p1.6](sase-1p1.6.md) | Rust lens engine, evidence states, and review decisions | ✓ closed | medium | 2026-10-27 | 1 | 1 |
+| [sase-1p1.7](sase-1p1.7.md) | Derived sources and history backfill | ✓ closed | medium | 2026-10-27 | 1 | 1 |
+| [sase-1p1.8](sase-1p1.8.md) | Shared renderers and the \`sase footprint\` report commands | ✓ closed | medium | 2026-10-27 | 1 | 0 |
 | [sase-1p1.9](sase-1p1.9.md) | Statistics view 09 Footprint (map, lenses, drill-down) | ◐ in_progress | medium | 2026-10-27 | 1 | 0 |
 
 ## Lineage
@@ -67,7 +69,7 @@ flowchart TD
     n8["sase-1p1.4: TUI counters, dispatch seams, and flush thread [closed]"]
     n9["sase-1p1.5: Fold driver, hourly job, status, clear, and disclosure [closed]"]
     n10["sase-1p1.6: Rust lens engine, evidence states, and review decisions [closed]"]
-    n11["sase-1p1.7: Derived sources and history backfill [in_progress]"]
+    n11["sase-1p1.7: Derived sources and history backfill [closed]"]
     n12["sase-1p1.8: Shared renderers and the `sase footprint` report commands [closed]"]
     n13["sase-1p1.9: Statistics view 09 Footprint (map, lenses, drill-down) [in_progress]"]
     n0 --> n1
@@ -114,9 +116,9 @@ flowchart TD
 | [bbugyi200.athena.sase-1p1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1p1.3.md) | [sase-1p1.3](sase-1p1.3.md) | 1 |
 | [bbugyi200.athena.sase-1p1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1p1.4.md) | [sase-1p1.4](sase-1p1.4.md) | 1 |
 | [bbugyi200.athena.sase-1p1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.5/README.md) | [sase-1p1.5](sase-1p1.5.md) | 1 |
-| [bbugyi200.athena.sase-1p1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.6/README.md) | [sase-1p1.6](sase-1p1.6.md) | 2 |
-| [bbugyi200.athena.sase-1p1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.7/README.md) | [sase-1p1.7](sase-1p1.7.md) | 0 |
-| [bbugyi200.athena.sase-1p1.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.8/README.md) | [sase-1p1.8](sase-1p1.8.md) | 1 |
+| [bbugyi200.athena.sase-1p1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.6/README.md) | [sase-1p1.6](sase-1p1.6.md) | 1 |
+| [bbugyi200.athena.sase-1p1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.7/README.md) | [sase-1p1.7](sase-1p1.7.md) | 1 |
+| [bbugyi200.athena.sase-1p1.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.8/README.md) | [sase-1p1.8](sase-1p1.8.md) | 0 |
 | [bbugyi200.athena.sase-1p1.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.9/README.md) | [sase-1p1.9](sase-1p1.9.md) | 0 |
 | [bbugyi200.athena.sase-1p1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.land/README.md) | [sase-1p1](README.md) | 0 |
 
@@ -131,8 +133,7 @@ flowchart TD
 | sase-core | [`sase-core@83b010d`](https://github.com/sase-org/sase-core/commit/83b010ddbe635effecf286a82611b73b51888425) | feat(footprint): add lens engine, evidence states, and review decisions | [sase-1p1.6](sase-1p1.6.md) | 2026-10-27 20:51:31 EDT |
 | sase | [`ad90e3d`](https://github.com/sase-org/sase/commit/ad90e3dff14d059a157b7cbdeaddf1daa9db38a4) | feat(footprint): add TUI action counters, dispatch seams, and flush thread | [sase-1p1.4](sase-1p1.4.md) | 2026-10-27 21:50:22 EDT |
 | sase | [`7446c88`](https://github.com/sase-org/sase/commit/7446c885f289512244c21d4f750816ddba6b250f) | feat(footprint): add fold, status, and housekeeping | [sase-1p1.5](sase-1p1.5.md) | 2026-10-27 22:19:58 EDT |
-| sase | [`067eeeb`](https://github.com/sase-org/sase/commit/067eeeb17b52aad338587bf21c03d81d561691f9) | feat(footprint): add report/card/decide query facades and bindings | [sase-1p1.6](sase-1p1.6.md) | 2026-10-27 23:08:49 EDT |
-| sase | [`c80a6c7`](https://github.com/sase-org/sase/commit/c80a6c791ada99b14e1df2e1d828cf8e1e39c37e) | feat(footprint): add query builder, render layer, and list/show/decide CLI | [sase-1p1.8](sase-1p1.8.md) | 2026-10-27 23:50:57 EDT |
+| sase-core | [`sase-core@31deb0d`](https://github.com/sase-org/sase-core/commit/31deb0d2ff7ed0024ad810b6be1a5243c2099399) | feat(stats): add query\_macro\_usage and accept config via | [sase-1p1.7](sase-1p1.7.md) | 2026-10-28 00:43:55 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -144,12 +145,14 @@ flowchart TD
 | read-by | [agent:sase-1p1.3--2][2] | Determine which footprint epic phase owns the two overlapping Symvision allowlist symbols | 1 |
 | read-by | [agent:sase-1p1.4--2][3] | Need epic DECISIONS and symbol scope for phase close | 1 |
 | read-by | [agent:sase-1p1.5][4] | Find an open phase for symbols still planned after 1p1.6 | 1 |
-| read-by | [agent:toobig-8o.panel_spread.0][5] | Determine whether this active footprint epic owns the closed-phase Symvision entries found by the requested check | 2 |
+| read-by | [agent:sase-1p1.8][5] | epic context | 1 |
+| read-by | [agent:toobig-8o.panel_spread.0][6] | Determine whether this active footprint epic owns the closed-phase Symvision entries found by the requested check | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ou.2.1.land.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1p1.3.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1p1.4.md
 [4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.5/README.md
-[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-8o.panel_spread.0/README.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.8/README.md
+[6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-8o.panel_spread.0/README.md
 
 <!-- sase:referenced-by:end -->
