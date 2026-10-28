@@ -44,8 +44,8 @@ sase keeps an always-on, privacy-by-construction census of which of its surfaces
 | [sase-1p1.12](sase-1p1.12.md) | Identity-free export packs and multi-machine merge | ◐ in_progress | medium | 2026-10-27 | 1 | 0 |
 | [sase-1p1.13](sase-1p1.13.md) | Docs reconciliation, end-to-end smoke, and memory | ◐ in_progress | small | 2026-10-27 | 1 | 0 |
 | [sase-1p1.2](sase-1p1.2.md) | Rust ledger, spool fold, and status (sase-core) | ✓ closed | medium | 2026-10-27 | 1 | 2 |
-| [sase-1p1.3](sase-1p1.3.md) | CLI recorder, spool writer, and mode switch | ✓ closed | medium | 2026-10-27 | 1 | 0 |
-| [sase-1p1.4](sase-1p1.4.md) | TUI counters, dispatch seams, and flush thread | ◐ in_progress | medium | 2026-10-27 | 1 | 0 |
+| [sase-1p1.3](sase-1p1.3.md) | CLI recorder, spool writer, and mode switch | ✓ closed | medium | 2026-10-27 | 1 | 1 |
+| [sase-1p1.4](sase-1p1.4.md) | TUI counters, dispatch seams, and flush thread | ✓ closed | medium | 2026-10-27 | 1 | 1 |
 | [sase-1p1.5](sase-1p1.5.md) | Fold driver, hourly job, status, clear, and disclosure | ◐ in_progress | medium | 2026-10-27 | 1 | 0 |
 | [sase-1p1.6](sase-1p1.6.md) | Rust lens engine, evidence states, and review decisions | ✓ closed | medium | 2026-10-27 | 1 | 1 |
 | [sase-1p1.7](sase-1p1.7.md) | Derived sources and history backfill | ◐ in_progress | medium | 2026-10-27 | 1 | 0 |
@@ -64,7 +64,7 @@ flowchart TD
     n5["sase-1p1.13: Docs reconciliation, end-to-end smoke, and memory [in_progress]"]
     n6["sase-1p1.2: Rust ledger, spool fold, and status (sase-core) [closed]"]
     n7["sase-1p1.3: CLI recorder, spool writer, and mode switch [closed]"]
-    n8["sase-1p1.4: TUI counters, dispatch seams, and flush thread [in_progress]"]
+    n8["sase-1p1.4: TUI counters, dispatch seams, and flush thread [closed]"]
     n9["sase-1p1.5: Fold driver, hourly job, status, clear, and disclosure [in_progress]"]
     n10["sase-1p1.6: Rust lens engine, evidence states, and review decisions [closed]"]
     n11["sase-1p1.7: Derived sources and history backfill [in_progress]"]
@@ -111,8 +111,8 @@ flowchart TD
 | [bbugyi200.athena.sase-1p1.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.12/README.md) | [sase-1p1.12](sase-1p1.12.md) | 0 |
 | [bbugyi200.athena.sase-1p1.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.13/README.md) | [sase-1p1.13](sase-1p1.13.md) | 0 |
 | [bbugyi200.athena.sase-1p1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.2/README.md) | [sase-1p1.2](sase-1p1.2.md) | 2 |
-| [bbugyi200.athena.sase-1p1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1p1.3.md) | [sase-1p1.3](sase-1p1.3.md) | 0 |
-| [bbugyi200.athena.sase-1p1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.4/README.md) | [sase-1p1.4](sase-1p1.4.md) | 0 |
+| [bbugyi200.athena.sase-1p1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1p1.3.md) | [sase-1p1.3](sase-1p1.3.md) | 1 |
+| [bbugyi200.athena.sase-1p1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1p1.4.md) | [sase-1p1.4](sase-1p1.4.md) | 1 |
 | [bbugyi200.athena.sase-1p1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.5/README.md) | [sase-1p1.5](sase-1p1.5.md) | 0 |
 | [bbugyi200.athena.sase-1p1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.6/README.md) | [sase-1p1.6](sase-1p1.6.md) | 1 |
 | [bbugyi200.athena.sase-1p1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.7/README.md) | [sase-1p1.7](sase-1p1.7.md) | 0 |
@@ -127,7 +127,9 @@ flowchart TD
 | sase | [`a520737`](https://github.com/sase-org/sase/commit/a5207375e7235f6ebfcbcbd920bfc679802dd2af) | feat(footprint): add feature catalog, overlay, drift guard and sase footprint catalog | [sase-1p1.1](sase-1p1.1.md) | 2026-10-27 16:54:42 EDT |
 | sase-core | [`sase-core@2d0b62e`](https://github.com/sase-org/sase-core/commit/2d0b62e20db963e606ff852075617d19d1b74c76) | feat(footprint): add ledger, spool fold, catalog ingest, and status | [sase-1p1.2](sase-1p1.2.md) | 2026-10-27 17:32:48 EDT |
 | sase | [`daf54c5`](https://github.com/sase-org/sase/commit/daf54c5b2d39ed483df935fbf98b209b47e1f276) | feat(footprint): add Python ledger facade and core-rs binding probes | [sase-1p1.2](sase-1p1.2.md) | 2026-10-27 18:29:37 EDT |
+| sase | [`63468c9`](https://github.com/sase-org/sase/commit/63468c96aeaaa7fbe0d69225b88fe884c4d6ab36) | feat(footprint): add CLI usage recorder and mode controls | [sase-1p1.3](sase-1p1.3.md) | 2026-10-27 20:20:32 EDT |
 | sase-core | [`sase-core@83b010d`](https://github.com/sase-org/sase-core/commit/83b010ddbe635effecf286a82611b73b51888425) | feat(footprint): add lens engine, evidence states, and review decisions | [sase-1p1.6](sase-1p1.6.md) | 2026-10-27 20:51:31 EDT |
+| sase | [`ad90e3d`](https://github.com/sase-org/sase/commit/ad90e3dff14d059a157b7cbdeaddf1daa9db38a4) | feat(footprint): add TUI action counters, dispatch seams, and flush thread | [sase-1p1.4](sase-1p1.4.md) | 2026-10-27 21:50:22 EDT |
 
 <!-- sase:referenced-by:start -->
 

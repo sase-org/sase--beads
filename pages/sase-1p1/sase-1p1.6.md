@@ -43,7 +43,9 @@ queries: add the sase-core report/card queries (map, eight lenses, tiles, trust 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1p1.3--2][1] | Confirm which active Footprint phases are expected to consume the currently unused Rust facade exports | 1 |
+| read-by | [agent:sase-1p1.6][2] | Need full bead body including notes, attachments, and remaining work | 7 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1p1.3.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.6/README.md
 
 <!-- sase:referenced-by:end -->

@@ -20,14 +20,20 @@ cli_recording: record one spool line per CLI process from a single try/finally i
 ## Dependencies
 
 - **Depends on:** [sase-1p1.1](sase-1p1.1.md) ✓ · ⧖ 2026-10-27
-- **Blocks:** [sase-1p1.4](sase-1p1.4.md) ◐ · ⧖ 2026-10-27
+- **Blocks:** [sase-1p1.4](sase-1p1.4.md) ✓ · ⧖ 2026-10-27
 - **Blocks:** [sase-1p1.5](sase-1p1.5.md) ◐ · ⧖ 2026-10-27
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1p1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1p1.3.md) | [sase-1p1.3](sase-1p1.3.md) | 0 |
+| [bbugyi200.athena.sase-1p1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1p1.3.md) | [sase-1p1.3](sase-1p1.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`63468c9`](https://github.com/sase-org/sase/commit/63468c96aeaaa7fbe0d69225b88fe884c4d6ab36) | feat(footprint): add CLI usage recorder and mode controls | [sase-1p1.3](sase-1p1.3.md) | 2026-10-27 20:20:32 EDT |
 
 <!-- sase:referenced-by:start -->
 
