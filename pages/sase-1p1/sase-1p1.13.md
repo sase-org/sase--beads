@@ -13,8 +13,8 @@ closeout: reconcile the reference and contribute docs, point the telemetry docs 
 
 ## Dependencies
 
-- **Depends on:** [sase-1p1.11](sase-1p1.11.md) ◐ · ⧖ 2026-10-27
-- **Depends on:** [sase-1p1.12](sase-1p1.12.md) ✓ · ⧖ 2026-10-27
+- **Depends on:** [sase-1p1.11](sase-1p1.11.md) ✓ · ⧖ 2026-10-27
+- **Depends on:** [sase-1p1.12](sase-1p1.12.md) ○ · ⧖ 2026-10-27
 - **Depends on:** [sase-1p1.7](sase-1p1.7.md) ✓ · ⧖ 2026-10-27
 
 ## Agents

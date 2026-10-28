@@ -25,7 +25,7 @@ tui_card: add the responsive evidence card beside or below the list (debounced),
 
 ## Dependencies
 
-- **Blocks:** [sase-1p1.11](sase-1p1.11.md) ◐ · ⧖ 2026-10-27
+- **Blocks:** [sase-1p1.11](sase-1p1.11.md) ✓ · ⧖ 2026-10-27
 - **Depends on:** [sase-1p1.9](sase-1p1.9.md) ✓ · ⧖ 2026-10-27
 
 ## Agents
@@ -39,3 +39,15 @@ tui_card: add the responsive evidence card beside or below the list (debounced),
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`dae555a`](https://github.com/sase-org/sase/commit/dae555aa201c2b4264d24b2019cb10f8004a5293) | feat(ace): add statistics footprint evidence cards and feature finder | [sase-1p1.10](sase-1p1.10.md) | 2026-10-28 02:27:11 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1p1.10][1] | check notes | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.10/README.md
+
+<!-- sase:referenced-by:end -->
