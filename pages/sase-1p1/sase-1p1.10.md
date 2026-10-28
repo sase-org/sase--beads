@@ -14,7 +14,7 @@ tui_card: add the responsive evidence card beside or below the list (debounced),
 ## Dependencies
 
 - **Blocks:** [sase-1p1.11](sase-1p1.11.md) ◐ · ⧖ 2026-10-27
-- **Depends on:** [sase-1p1.9](sase-1p1.9.md) ◐ · ⧖ 2026-10-27
+- **Depends on:** [sase-1p1.9](sase-1p1.9.md) ✓ · ⧖ 2026-10-27
 
 ## Agents
 

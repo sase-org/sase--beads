@@ -43,7 +43,9 @@ derived_sources: fold usage that already exists elsewhere into the ledger as der
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1p1.3--2][1] | Confirm which active Footprint phases are expected to consume the currently unused Rust facade exports | 1 |
+| read-by | [agent:sase-1p1.7][2] | Need remaining notes and full description | 3 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1p1.3.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.7/README.md
 
 <!-- sase:referenced-by:end -->

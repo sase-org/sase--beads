@@ -24,13 +24,19 @@ cli_report: build the shared Rich render layer (heat strips, tiles, rows, eviden
 - **Blocks:** [sase-1p1.12](sase-1p1.12.md) ◐ · ⧖ 2026-10-27
 - **Depends on:** [sase-1p1.5](sase-1p1.5.md) ✓ · ⧖ 2026-10-27
 - **Depends on:** [sase-1p1.6](sase-1p1.6.md) ✓ · ⧖ 2026-10-27
-- **Blocks:** [sase-1p1.9](sase-1p1.9.md) ◐ · ⧖ 2026-10-27
+- **Blocks:** [sase-1p1.9](sase-1p1.9.md) ✓ · ⧖ 2026-10-27
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1p1.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.8/README.md) | [sase-1p1.8](sase-1p1.8.md) | 0 |
+| [bbugyi200.athena.sase-1p1.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.8/README.md) | [sase-1p1.8](sase-1p1.8.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`c80a6c7`](https://github.com/sase-org/sase/commit/c80a6c791ada99b14e1df2e1d828cf8e1e39c37e) | feat(footprint): add query builder, render layer, and list/show/decide CLI | [sase-1p1.8](sase-1p1.8.md) | 2026-10-27 23:50:57 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -39,9 +45,11 @@ cli_report: build the shared Rich render layer (heat strips, tiles, rows, eviden
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1p1.3--2][1] | Confirm which active Footprint phases are expected to consume the currently unused Rust facade exports | 1 |
-| read-by | [agent:sase-1p1.8][2] | Need the phase scope and design file | 2 |
+| read-by | [agent:sase-1p1.7][2] | Need to know if overlay phase landed Overlay/load_overlay so stale epic-symbols can be dropped or re-keyed | 1 |
+| read-by | [agent:sase-1p1.8][3] | Need the phase scope and design file | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1p1.3.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.8/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.7/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.8/README.md
 
 <!-- sase:referenced-by:end -->
