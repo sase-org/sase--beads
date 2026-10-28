@@ -27,7 +27,7 @@ tui_view: register Statistics view 09 with lenses as groupings, an interactive r
 
 ## Dependencies
 
-- **Blocks:** [sase-1p1.10](sase-1p1.10.md) ◐ · ⧖ 2026-10-27
+- **Blocks:** [sase-1p1.10](sase-1p1.10.md) ✓ · ⧖ 2026-10-27
 - **Depends on:** [sase-1p1.4](sase-1p1.4.md) ✓ · ⧖ 2026-10-27
 - **Depends on:** [sase-1p1.8](sase-1p1.8.md) ✓ · ⧖ 2026-10-27
 
@@ -42,3 +42,15 @@ tui_view: register Statistics view 09 with lenses as groupings, an interactive r
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`a9abdd5`](https://github.com/sase-org/sase/commit/a9abdd5c97a05b7365b60300b3bbfde4f17f2804) | feat(stats): add Footprint view 09 with lenses and drill-down | [sase-1p1.9](sase-1p1.9.md) | 2026-10-28 01:43:43 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1p1.9][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.9/README.md
+
+<!-- sase:referenced-by:end -->

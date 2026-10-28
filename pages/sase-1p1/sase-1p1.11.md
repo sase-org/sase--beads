@@ -13,7 +13,7 @@ review_loop: add the TUI decide picker, the finish-review confirm-and-launch flo
 
 ## Dependencies
 
-- **Depends on:** [sase-1p1.10](sase-1p1.10.md) ◐ · ⧖ 2026-10-27
+- **Depends on:** [sase-1p1.10](sase-1p1.10.md) ✓ · ⧖ 2026-10-27
 - **Blocks:** [sase-1p1.13](sase-1p1.13.md) ◐ · ⧖ 2026-10-27
 
 ## Agents
