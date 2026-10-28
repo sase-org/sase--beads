@@ -14,6 +14,9 @@
 | Relation | Artifact | Why |
 | --- | --- | --- |
 | implemented-by | [plan:202610/footprint_usage_census.md][1] | derived from the plan's `bead_id:` frontmatter field |
+| related | file:explicit:e8362613147409c299a8d713 | attached via sase artifact create --bead |
+
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/footprint_usage_census.md
 
@@ -22,6 +25,14 @@
 ## Description
 
 sase keeps an always-on, privacy-by-construction census of which of its surfaces (CLI commands and options, TUI actions and keys, views and modals, macros, skills, config leaves, automation) are used, by whom, and how. The census costs at most one appended line per CLI process and one in-memory counter bump per TUI action. A Statistics → Footprint view and a `sase footprint` command turn it into a review workflow that ends in keep reasons and deletion task beads. The local data contains only allowlisted IDs and enum values, so it can later be exported, and export packs carry no identity.
+
+## Notes
+
+[2026-10-27T22:09:19Z · sase-1ou.2.1.land--1] DISCOVERED ISSUE: Post-close validation during unrelated ToolRun landing sase-1ou.2.1 on 2026-10-27, clean primary HEAD/origin/master 57d5f411e41e543ffa10d9a91ab45fd66f62ebb6: `just --set sase_core_dir <opened-linked-core> symvision` exits 1 with `Error: --epic-symbol 'sase-1p1.2(other_id)': bead 'sase-1p1.2' is closed. Remove this stale --epic-symbol entry and clean up the symbol.` No tracked primary files were modified by this landing. Justfile line 483 was introduced by footprint catalog commit a5207375e7 (phase sase-1p1.1), and still keys other_id to phase sase-1p1.2, which closed done at 2026-10-27T21:31:40Z. Its note says its facade rows were re-keyed to parent sase-1p1, but this separate ids.py helper exemption remains on the closed phase. `other_id` remains a public def at src/sase/footprint/ids.py:134; within src/sase/footprint the only other reference is its export list. Footprint epic sase-1p1 is still in progress, so its remaining phases/lander own resolving the helper or re-keying it only to a still-open bead that genuinely needs it. This is independent evidence for the existing sase-o7 close-time whitelist lifecycle defect and a concrete issue for active epic sase-1p1; no new task or ToolRun code change is warranted. ToolRun epic and parent-phase epic-symbol audits are both empty. The failed Symvision command is retained as failed; the ToolRun test result remains 272/272 passing.
+
+[2026-10-27T23:26:21Z · toobig-8o.panel_spread.0] DISCOVERED ISSUE: Independent reproduction during the panel_spread split on 2026-10-27. `sase tool run check` ToolRun a59d91b3418eefff7abffa92a8e88bae failed at lint (symvision) with five stale --epic-symbol entries for the now-closed phases sase-1p1.2 (other_id) and sase-1p1.3 (custom_id, spool_dir, mode_path, effective_mode). Justfile was unchanged by the split. This extends the earlier post-close other_id report with the four remaining closed-phase entries; the Justfile snapshot is attached as file:explicit:e8362613147409c299a8d713. The active epic still owns resolving or correctly re-keying these symbols.
+
+[2026-10-27T23:29:23Z · toobig-8o.panel_spread.0] Supplemental verification detail: a project-wide Symvision scan using the recipe environment and only still-open epic exemptions reported no findings in the panel_spread facade or its private Files-scroll helper. It reported exactly custom_id and other_id in src/sase/footprint/ids.py, plus effective_mode, mode_path, and spool_dir in src/sase/footprint/paths.py. Those five helpers explain why the stale whitelist removal needs footprint-owned symbol cleanup or re-keying.
 
 ## Phases
 
@@ -33,10 +44,10 @@ sase keeps an always-on, privacy-by-construction census of which of its surfaces
 | [sase-1p1.12](sase-1p1.12.md) | Identity-free export packs and multi-machine merge | ◐ in_progress | medium | 2026-10-27 | 1 | 0 |
 | [sase-1p1.13](sase-1p1.13.md) | Docs reconciliation, end-to-end smoke, and memory | ◐ in_progress | small | 2026-10-27 | 1 | 0 |
 | [sase-1p1.2](sase-1p1.2.md) | Rust ledger, spool fold, and status (sase-core) | ✓ closed | medium | 2026-10-27 | 1 | 2 |
-| [sase-1p1.3](sase-1p1.3.md) | CLI recorder, spool writer, and mode switch | ◐ in_progress | medium | 2026-10-27 | 1 | 0 |
+| [sase-1p1.3](sase-1p1.3.md) | CLI recorder, spool writer, and mode switch | ✓ closed | medium | 2026-10-27 | 1 | 1 |
 | [sase-1p1.4](sase-1p1.4.md) | TUI counters, dispatch seams, and flush thread | ◐ in_progress | medium | 2026-10-27 | 1 | 0 |
 | [sase-1p1.5](sase-1p1.5.md) | Fold driver, hourly job, status, clear, and disclosure | ◐ in_progress | medium | 2026-10-27 | 1 | 0 |
-| [sase-1p1.6](sase-1p1.6.md) | Rust lens engine, evidence states, and review decisions | ◐ in_progress | medium | 2026-10-27 | 1 | 0 |
+| [sase-1p1.6](sase-1p1.6.md) | Rust lens engine, evidence states, and review decisions | ○ open | medium | 2026-10-27 | 1 | 0 |
 | [sase-1p1.7](sase-1p1.7.md) | Derived sources and history backfill | ◐ in_progress | medium | 2026-10-27 | 1 | 0 |
 | [sase-1p1.8](sase-1p1.8.md) | Shared renderers and the \`sase footprint\` report commands | ◐ in_progress | medium | 2026-10-27 | 1 | 0 |
 | [sase-1p1.9](sase-1p1.9.md) | Statistics view 09 Footprint (map, lenses, drill-down) | ◐ in_progress | medium | 2026-10-27 | 1 | 0 |
@@ -52,10 +63,10 @@ flowchart TD
     n4["sase-1p1.12: Identity-free export packs and multi-machine merge [in_progress]"]
     n5["sase-1p1.13: Docs reconciliation, end-to-end smoke, and memory [in_progress]"]
     n6["sase-1p1.2: Rust ledger, spool fold, and status (sase-core) [closed]"]
-    n7["sase-1p1.3: CLI recorder, spool writer, and mode switch [in_progress]"]
+    n7["sase-1p1.3: CLI recorder, spool writer, and mode switch [closed]"]
     n8["sase-1p1.4: TUI counters, dispatch seams, and flush thread [in_progress]"]
     n9["sase-1p1.5: Fold driver, hourly job, status, clear, and disclosure [in_progress]"]
-    n10["sase-1p1.6: Rust lens engine, evidence states, and review decisions [in_progress]"]
+    n10["sase-1p1.6: Rust lens engine, evidence states, and review decisions [open]"]
     n11["sase-1p1.7: Derived sources and history backfill [in_progress]"]
     n12["sase-1p1.8: Shared renderers and the `sase footprint` report commands [in_progress]"]
     n13["sase-1p1.9: Statistics view 09 Footprint (map, lenses, drill-down) [in_progress]"]
@@ -100,7 +111,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1p1.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.12/README.md) | [sase-1p1.12](sase-1p1.12.md) | 0 |
 | [bbugyi200.athena.sase-1p1.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.13/README.md) | [sase-1p1.13](sase-1p1.13.md) | 0 |
 | [bbugyi200.athena.sase-1p1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.2/README.md) | [sase-1p1.2](sase-1p1.2.md) | 2 |
-| [bbugyi200.athena.sase-1p1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1p1.3.md) | [sase-1p1.3](sase-1p1.3.md) | 0 |
+| [bbugyi200.athena.sase-1p1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1p1.3.md) | [sase-1p1.3](sase-1p1.3.md) | 1 |
 | [bbugyi200.athena.sase-1p1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.4/README.md) | [sase-1p1.4](sase-1p1.4.md) | 0 |
 | [bbugyi200.athena.sase-1p1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.5/README.md) | [sase-1p1.5](sase-1p1.5.md) | 0 |
 | [bbugyi200.athena.sase-1p1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.6/README.md) | [sase-1p1.6](sase-1p1.6.md) | 0 |
@@ -116,3 +127,18 @@ flowchart TD
 | sase | [`a520737`](https://github.com/sase-org/sase/commit/a5207375e7235f6ebfcbcbd920bfc679802dd2af) | feat(footprint): add feature catalog, overlay, drift guard and sase footprint catalog | [sase-1p1.1](sase-1p1.1.md) | 2026-10-27 16:54:42 EDT |
 | sase-core | [`sase-core@2d0b62e`](https://github.com/sase-org/sase-core/commit/2d0b62e20db963e606ff852075617d19d1b74c76) | feat(footprint): add ledger, spool fold, catalog ingest, and status | [sase-1p1.2](sase-1p1.2.md) | 2026-10-27 17:32:48 EDT |
 | sase | [`daf54c5`](https://github.com/sase-org/sase/commit/daf54c5b2d39ed483df935fbf98b209b47e1f276) | feat(footprint): add Python ledger facade and core-rs binding probes | [sase-1p1.2](sase-1p1.2.md) | 2026-10-27 18:29:37 EDT |
+| sase | [`63468c9`](https://github.com/sase-org/sase/commit/63468c96aeaaa7fbe0d69225b88fe884c4d6ab36) | feat(footprint): add CLI usage recorder and mode controls | [sase-1p1.3](sase-1p1.3.md) | 2026-10-27 20:20:32 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ou.2.1.land--1][1] | Identify the owning active epic for the post-close Symvision stale footprint exemption | 1 |
+| read-by | [agent:toobig-8o.panel_spread.0][2] | Determine whether this active footprint epic owns the closed-phase Symvision entries found by the requested check | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ou.2.1.land.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-8o.panel_spread.0/README.md
+
+<!-- sase:referenced-by:end -->

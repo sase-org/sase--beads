@@ -14,7 +14,7 @@ fold_status: add the Python fold driver (catalog ingest with LOC enrichment, fol
 ## Dependencies
 
 - **Depends on:** [sase-1p1.2](sase-1p1.2.md) ✓ · ⧖ 2026-10-27
-- **Depends on:** [sase-1p1.3](sase-1p1.3.md) ◐ · ⧖ 2026-10-27
+- **Depends on:** [sase-1p1.3](sase-1p1.3.md) ✓ · ⧖ 2026-10-27
 - **Blocks:** [sase-1p1.7](sase-1p1.7.md) ◐ · ⧖ 2026-10-27
 - **Blocks:** [sase-1p1.8](sase-1p1.8.md) ◐ · ⧖ 2026-10-27
 

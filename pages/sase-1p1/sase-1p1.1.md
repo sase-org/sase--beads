@@ -21,7 +21,7 @@ catalog: create the stdlib-only footprint package foundation (ids, paths), the g
 
 ## Dependencies
 
-- **Blocks:** [sase-1p1.3](sase-1p1.3.md) ◐ · ⧖ 2026-10-27
+- **Blocks:** [sase-1p1.3](sase-1p1.3.md) ✓ · ⧖ 2026-10-27
 
 ## Agents
 

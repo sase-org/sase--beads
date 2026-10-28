@@ -13,7 +13,7 @@ tui_recording: count TUI actions at the run_action, palette, prefix-mode, view-e
 
 ## Dependencies
 
-- **Depends on:** [sase-1p1.3](sase-1p1.3.md) ◐ · ⧖ 2026-10-27
+- **Depends on:** [sase-1p1.3](sase-1p1.3.md) ✓ · ⧖ 2026-10-27
 - **Blocks:** [sase-1p1.9](sase-1p1.9.md) ◐ · ⧖ 2026-10-27
 
 ## Agents
