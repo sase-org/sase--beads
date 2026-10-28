@@ -21,7 +21,7 @@ derived_sources: fold usage that already exists elsewhere into the ledger as der
 
 ## Dependencies
 
-- **Blocks:** [sase-1p1.13](sase-1p1.13.md) ◐ · ⧖ 2026-10-27
+- **Blocks:** [sase-1p1.13](sase-1p1.13.md) ✓ · ⧖ 2026-10-27
 - **Depends on:** [sase-1p1.5](sase-1p1.5.md) ✓ · ⧖ 2026-10-27
 
 ## Agents
