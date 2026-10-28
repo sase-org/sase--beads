@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / sase-1p1
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.14w](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.14w.md) · **Assignee:** `sase-1p1.land`
-**Created:** 2026-10-27 15:21:48 EDT
+**Created:** 2026-10-27 15:21:48 EDT · **Closed:** 2026-10-28 14:09:36 EDT
 **Plan:** [202610/footprint\_usage\_census.md](https://github.com/sase-org/sase--plans/blob/main/202610/footprint_usage_census.md)
 
 <!-- sase:links:start -->
@@ -36,6 +36,38 @@ sase keeps an always-on, privacy-by-construction census of which of its surfaces
 
 [2026-10-28T03:52:18Z · bob-cli-df.4.1.land] DISCOVERED ISSUE from bob-cli-df.4.1.land, consolidating proposals bob-cli-df.4.1.1 #2, .2 #1, .3 #1, and .4 #1: recovery phases repeatedly failed just check on your Footprint Symvision exemptions (KNOWN witnesses d7760f1346444dcb440fd30f5f921aac and c65495a42177023e3c2c7bb989a06055). At current SASE dcb7d2a6e7, Justfile still exempts sase-1p1(other_id/custom_id), but both have production callers in footprint/_tui.py and _tui_seams.py. Resolve the redundant exemptions in this causal epic. The separate closed-phase Overlay/load_overlay report is already addressed: current rows use still-open sase-1p1.8, confirmed by audited read. No recovery source edits or new task for this issue.
 
+[2026-10-28T16:10:41Z · sase-1p1.land] LAND TRIAGE (sase-1p1.land, master e6d44254b0). Outcomes for every PROPOSED FOLLOW-UP collected from the phase beads:
+
+EPIC-CAUSED (handled as epic work, no task):
+- sase-1p1.13 #1 / .12 #3: export/import is absent from sase master. Only sase-core 65546fd2 landed; the sase facade, CLI, catalog, tests, docs, and pin move never did. Remaining-work tale planned.
+- .6 #2: catalog pytest mismatch. The .12--9 subprocess-isolation fix also never landed. Folded into the tale.
+- .4 #2, .6 #1, epic notes #1-#4: stale epic-symbol rows. Already re-keyed or dropped by .7/.8. The tale resolves the last two rows (footprint_wire_schema_version, footprint_validate_overlay).
+- .8 #1: _reset_for_tests dead private. Resolved: _reset_after_fork calls it.
+- .8 #2: disclosure plus_one_note. Fixed in 7f2cc62869.
+- .9 #3 / .11 #2: footprint show/decide completion metadata and snapshot. Resolved: tests/completion and tests/main completion and help tests pass.
+
+CORROBORATED (existing tasks):
+- TUI import budget (.1 #1, .2 #1, .5 #1, .7 #2, .9 #2, .11 #3): supplementary note on sase-1ic, no +1, because the test now passes on master.
+- _RecoveryAssessment Symvision private import (.9 #1, .10 #2, .11 #1, .12 #2): +1 on sase-1p3, reproduced.
+- sudo ledger settlement flake (.12 #7): +1 on sase-1oy.
+- agents_sync bounded-drain flake (.1 #2): +1 on closed sase-xo (recurred after its close).
+
+NEW TASKS:
+- .12 #8 artifact-dir audit: sase-1p5 (ci, small). The node is deterministically red because of five workspace-snapshot sites, not Footprint, and the sase-n1 baseline masks it.
+- .12 #5 sase-core ToolRun contention flake: sase-1p6 (flake, large), related to sase-18t.
+- .13 #2 SASE_CLIENT in nvim and telegram: sase-1p7 (feature, small).
+- .13 #7 go/no-go review of view:stats.footprint: sase-1p8 (feature, small), snoozed to 2026-12-27.
+
+DECLINED:
+- .13 #3-#6 (sys.monitoring lens, HTML atlas, listen digest, share mode/sase.sh): deliberate plan non-goals under decisions:corpus-before-mechanism. Folded into sase-1p8 to revisit only if the first review shows need.
+- .2 #2 completion snapshot drift (sase-1om): tests pass on master.
+- .3 #1 45-minute escalation timeout: one observation with no failure; long lanes on the shared host are documented.
+- .9 #4/#5, .11 #4 workspace/bead-sync and finalizer binding failures: 404/405 pass on master. The only failure is the audit node, now sase-1p5. The binding mismatch was venv drift.
+- .10 #3 toobig test_reset_replay.py at 1079 lines: owned by the toobig_split routine.
+- .10 #4 stale workspace venv: environment-only. The current venv has the footprint bindings.
+
+[2026-10-28T18:09:36Z · sase-1p1.land--2] Landed: phases .1-.11 and .13 verified in tree by the land agent (catalog/ids/overlay/drift guard, Rust ledger+fold, CLI recorder incl. post-split entry.py/_dispatch_* fast paths, TUI seams+flusher, fold/status/clear/AXE job/disclosure, query engine, derived sources+zsh backfill, render+list/show/decide, view 09, evidence card+finder, decide/finish-review/#footprint_review, docs+closeout smoke); integration reviewed for the 24 non-epic commits since a5207375e7 (entry split 3d52c6ce74 keeps recording; statistics/catalog_gen splits are footprint-internal). Remaining .12 sase side finished here: facade footprint_export/import, sase footprint export/import, catalog IDs, +N imported packs note, test_export.py + smoke, Merging machines/Export governance docs, sase-core pin moved past 65546fd2; retired epic symbols footprint_wire_schema_version/footprint_validate_overlay (deleted, Rust validates overlay in queries); catalog-match test runs in a subprocess. Land-agent fixes in this final pass: weeks completion hint + snapshot regen, export mutex total 22, closeout seed actor unknown. Follow-up triage recorded in the LAND TRIAGE note (sase-1ic note, +1 sase-1p3/sase-1oy/sase-xo, new sase-1p5/1p6/1p7/1p8). sase tool run check: no_new_failures — 1 KNOWN, 1 FLAKY; exit 1 (run 807f7df9b1668c725290dccffb38c2b8).
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -58,7 +90,7 @@ sase keeps an always-on, privacy-by-construction census of which of its surfaces
 
 ```mermaid
 flowchart TD
-    n0["sase-1p1: Footprint: a local usage census for finding what sase should delete [in_progress]"]
+    n0["sase-1p1: Footprint: a local usage census for finding what sase should delete [closed]"]
     n1["sase-1p1.1: Feature catalog, ID scheme, overlay, and drift guard [closed]"]
     n2["sase-1p1.10: Evidence card panel and feature finder [closed]"]
     n3["sase-1p1.11: Decide picker, finish review, and the [closed]"]
@@ -120,7 +152,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1p1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.7/README.md) | [sase-1p1.7](sase-1p1.7.md) | 2 |
 | [bbugyi200.athena.sase-1p1.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.8/README.md) | [sase-1p1.8](sase-1p1.8.md) | 1 |
 | [bbugyi200.athena.sase-1p1.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.9/README.md) | [sase-1p1.9](sase-1p1.9.md) | 1 |
-| [bbugyi200.athena.sase-1p1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.land/README.md) | [sase-1p1](README.md) | 0 |
+| [bbugyi200.athena.sase-1p1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1p1.land.md) | [sase-1p1](README.md) | 1 |
 
 ## Commits
 
@@ -142,6 +174,7 @@ flowchart TD
 | sase | [`95bd848`](https://github.com/sase-org/sase/commit/95bd848d261988e01d7bd105178d5b599884a451) | feat(footprint): fold derived sources and add history backfill | [sase-1p1.7](sase-1p1.7.md) | 2026-10-28 04:55:52 EDT |
 | sase-core | [`sase-core@65546fd`](https://github.com/sase-org/sase-core/commit/65546fd244ec43ee023369fdafb5b5edb6197061) | feat(footprint): add identity-free weekly export and replace-all import | [sase-1p1.12](sase-1p1.12.md) | 2026-10-28 09:57:03 EDT |
 | sase | [`7f2cc62`](https://github.com/sase-org/sase/commit/7f2cc62869bc08c467f17e83c0593b02c306a50f) | docs(footprint): reconcile closeout docs, add smoke test and fix fold disclosure | [sase-1p1.13](sase-1p1.13.md) | 2026-10-28 11:31:15 EDT |
+| sase | [`d8b91b9`](https://github.com/sase-org/sase/commit/d8b91b934fc3d7a3a5722b65fda50213fa866db8) | feat(footprint): land sase-side export/import for epic sase-1p1 | [sase-1p1](README.md) | 2026-10-28 14:12:06 EDT |
 
 <!-- sase:referenced-by:start -->
 

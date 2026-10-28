@@ -63,7 +63,9 @@ export_import: add the Rust weekly export projection (buckets, no identity, byte
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1p1.12--d][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:sase-1p1.13][2] | Check what export phase actually delivered | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1p1.12.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.13/README.md
 
 <!-- sase:referenced-by:end -->

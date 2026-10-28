@@ -46,3 +46,15 @@ closeout: reconcile the reference and contribute docs, point the telemetry docs 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`7f2cc62`](https://github.com/sase-org/sase/commit/7f2cc62869bc08c467f17e83c0593b02c306a50f) | docs(footprint): reconcile closeout docs, add smoke test and fix fold disclosure | [sase-1p1.13](sase-1p1.13.md) | 2026-10-28 11:31:15 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1p1.13][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.13/README.md
+
+<!-- sase:referenced-by:end -->
