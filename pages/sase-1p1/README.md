@@ -16,7 +16,7 @@
 | implemented-by | [plan:202610/footprint_usage_census.md][1] | derived from the plan's `bead_id:` frontmatter field |
 | related | file:explicit:e8362613147409c299a8d713 | attached via sase artifact create --bead |
 
-_Plus 7 automatic references — see [Referenced By](#referenced-by)._
+_Plus 8 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/footprint_usage_census.md
 
@@ -152,7 +152,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1p1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.7/README.md) | [sase-1p1.7](sase-1p1.7.md) | 2 |
 | [bbugyi200.athena.sase-1p1.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.8/README.md) | [sase-1p1.8](sase-1p1.8.md) | 1 |
 | [bbugyi200.athena.sase-1p1.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.9/README.md) | [sase-1p1.9](sase-1p1.9.md) | 1 |
-| [bbugyi200.athena.sase-1p1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1p1.land.md) | [sase-1p1](README.md) | 1 |
+| [bbugyi200.athena.sase-1p1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1p1.land.md) | [sase-1p1](README.md) | 2 |
 
 ## Commits
 
@@ -175,6 +175,7 @@ flowchart TD
 | sase-core | [`sase-core@65546fd`](https://github.com/sase-org/sase-core/commit/65546fd244ec43ee023369fdafb5b5edb6197061) | feat(footprint): add identity-free weekly export and replace-all import | [sase-1p1.12](sase-1p1.12.md) | 2026-10-28 09:57:03 EDT |
 | sase | [`7f2cc62`](https://github.com/sase-org/sase/commit/7f2cc62869bc08c467f17e83c0593b02c306a50f) | docs(footprint): reconcile closeout docs, add smoke test and fix fold disclosure | [sase-1p1.13](sase-1p1.13.md) | 2026-10-28 11:31:15 EDT |
 | sase | [`d8b91b9`](https://github.com/sase-org/sase/commit/d8b91b934fc3d7a3a5722b65fda50213fa866db8) | feat(footprint): land sase-side export/import for epic sase-1p1 | [sase-1p1](README.md) | 2026-10-28 14:12:06 EDT |
+| sase--plans | [`sase--plans@33a4b7f`](https://github.com/sase-org/sase--plans/commit/33a4b7f92292718bec1c77743b079882e095d2fc) | docs(plans): mark footprint export/import landing done | [sase-1p1](README.md) | 2026-10-28 14:16:23 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -188,7 +189,8 @@ flowchart TD
 | read-by | [agent:sase-1p1.4--2][4] | Need epic DECISIONS and symbol scope for phase close | 1 |
 | read-by | [agent:sase-1p1.5][5] | Find an open phase for symbols still planned after 1p1.6 | 1 |
 | read-by | [agent:sase-1p1.8][6] | epic context | 1 |
-| read-by | [agent:toobig-8o.panel_spread.0][7] | Determine whether this active footprint epic owns the closed-phase Symvision entries found by the requested check | 2 |
+| read-by | [agent:sase-1p1.land--2][7] | Need epic state before closing footprint landing | 1 |
+| read-by | [agent:toobig-8o.panel_spread.0][8] | Determine whether this active footprint epic owns the closed-phase Symvision entries found by the requested check | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ou.2.1.land.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.10/README.md
@@ -196,6 +198,7 @@ flowchart TD
 [4]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1p1.4.md
 [5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.5/README.md
 [6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1p1.8/README.md
-[7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-8o.panel_spread.0/README.md
+[7]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1p1.land.md
+[8]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-8o.panel_spread.0/README.md
 
 <!-- sase:referenced-by:end -->
