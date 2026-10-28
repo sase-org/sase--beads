@@ -35,6 +35,10 @@ export_import: add the Rust weekly export projection (buckets, no identity, byte
 
 [2026-10-28T12:58:19Z · sase-1p1.12--b] PROPOSED FOLLOW-UP: NEW-classified just check flake tests/test_sudo_ledger_settlement.py::test_sudo_answer_defers_after_long_lock_timeout_and_reclaim_settles_later (assert settled==deferred; touched=false, first_seen before this phase; witness fc0af6fd52c7e17438adc338aeb29e5b)
 
+[2026-10-28T14:47:21Z · sase-1p1.12--d] PROPOSED FOLLOW-UP: FLAKY just check tests/test_agent_artifact_directory_operation_audit.py::test_artifact_directory_operation_sites_are_reviewed (artifact-dir site allowlist drift; touched=false, in reproducible_flake_baseline.txt@3d52c6ce744b; witness e1d42fd027a7e99b9bc1b540b21e6d73)
+
+[2026-10-28T14:47:23Z · sase-1p1.12--d] Identity-free export/import rebased onto origin/master 3d52c6ce74; pin sase-core-revision.txt to 65546fd (export/import bindings). just check e1d42fd027a7e99b9bc1b540b21e6d73: no_new_failures, lint/symvision green, 1 FLAKY artifact-dir audit (baseline, out of scope). No leftover --epic-symbol.
+
 ## Dependencies
 
 - **Blocks:** [sase-1p1.13](sase-1p1.13.md) ◐ · ⧖ 2026-10-27
@@ -44,10 +48,11 @@ export_import: add the Rust weekly export projection (buckets, no identity, byte
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1p1.12](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1p1.12.md) | [sase-1p1.12](sase-1p1.12.md) | 1 |
+| [bbugyi200.athena.sase-1p1.12](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1p1.12.md) | [sase-1p1.12](sase-1p1.12.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@65546fd`](https://github.com/sase-org/sase-core/commit/65546fd244ec43ee023369fdafb5b5edb6197061) | feat(footprint): add identity-free weekly export and replace-all import | [sase-1p1.12](sase-1p1.12.md) | 2026-10-28 09:57:03 EDT |
+| sase | [`9026202`](https://github.com/sase-org/sase/commit/90262021ea8bc9fe57e1f5534f22b3d470f84968) | feat(footprint): add identity-free export packs and import merge | [sase-1p1.12](sase-1p1.12.md) | 2026-10-28 10:49:04 EDT |
