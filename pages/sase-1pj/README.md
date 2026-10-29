@@ -131,7 +131,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1pj.2.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.2.1.3/README.md) | [sase-1pj.2.1.3](sase-1pj.2.1.3.md) | 2 |
 | [bbugyi200.athena.sase-1pj.2.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.2.1.4/README.md) | [sase-1pj.2.1.4](sase-1pj.2.1.4.md) | 1 |
 | [bbugyi200.athena.sase-1pj.2.1.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.2.1.5.md) | [sase-1pj.2.1.5](sase-1pj.2.1.5.md) | 1 |
-| [bbugyi200.athena.sase-1pj.2.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.2.1.land/README.md) | [sase-1pj.2.1](sase-1pj.2.1.md) | 1 |
+| [bbugyi200.athena.sase-1pj.2.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.2.1.land/README.md) | [sase-1pj.2.1](sase-1pj.2.1.md) | 2 |
 | [bbugyi200.athena.sase-1pj.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.3/README.md) | [sase-1pj.3](sase-1pj.3.md) | 0 |
 | [bbugyi200.athena.sase-1pj.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4/README.md) | [sase-1pj.4](sase-1pj.4.md) | 0 |
 | [bbugyi200.athena.sase-1pj.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.5/README.md) | [sase-1pj.5](sase-1pj.5.md) | 0 |
@@ -162,6 +162,7 @@ flowchart TD
 | sase | [`d30932e`](https://github.com/sase-org/sase/commit/d30932ec877a0407f175d4a6f2904a979ca0ba65) | feat(finalizer): protect prepared monitor work through starter finalization | [sase-1pj.2.1.4](sase-1pj.2.1.4.md) | 2026-10-29 12:26:55 EDT |
 | sase | [`d8706bd`](https://github.com/sase-org/sase/commit/d8706bda929c5a274ce3036800e78be2230f4b31) | feat(staged): adopt carried work with durable successor custody | [sase-1pj.2.1.5](sase-1pj.2.1.5.md) | 2026-10-29 13:34:12 EDT |
 | sase | [`d97902c`](https://github.com/sase-org/sase/commit/d97902c0df463e81b2c67c974de272b95c61ad22) | fix(finalizer): keep handoff carry modules off the TUI import path | [sase-1pj.2.1](sase-1pj.2.1.md) | 2026-10-29 14:26:44 EDT |
+| sase--plans | [`sase--plans@be25784`](https://github.com/sase-org/sase--plans/commit/be257845fe5491f1721ac4e4cb5d2937d830b1c4) | chore(plans): mark handoff\_wire\_carry epic plan done | [sase-1pj.2.1](sase-1pj.2.1.md) | 2026-10-29 14:31:25 EDT |
 
 <!-- sase:referenced-by:start -->
 

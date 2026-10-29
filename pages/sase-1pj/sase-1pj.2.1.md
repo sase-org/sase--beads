@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/handoff_wire_carry.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 5 automatic references — see [Referenced By](#referenced-by)._
+_Plus 6 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/handoff_wire_carry.md
 
@@ -35,13 +35,14 @@ Complete sase-1pj.2 with validated carry dispositions, prepared-monitor protecti
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1pj.2.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.2.1.land/README.md) | [sase-1pj.2.1](sase-1pj.2.1.md) | 1 |
+| [bbugyi200.athena.sase-1pj.2.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.2.1.land/README.md) | [sase-1pj.2.1](sase-1pj.2.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`d97902c`](https://github.com/sase-org/sase/commit/d97902c0df463e81b2c67c974de272b95c61ad22) | fix(finalizer): keep handoff carry modules off the TUI import path | [sase-1pj.2.1](sase-1pj.2.1.md) | 2026-10-29 14:26:44 EDT |
+| sase--plans | [`sase--plans@be25784`](https://github.com/sase-org/sase--plans/commit/be257845fe5491f1721ac4e4cb5d2937d830b1c4) | chore(plans): mark handoff\_wire\_carry epic plan done | [sase-1pj.2.1](sase-1pj.2.1.md) | 2026-10-29 14:31:25 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -54,11 +55,13 @@ Complete sase-1pj.2 with validated carry dispositions, prepared-monitor protecti
 | read-by | [agent:sase-1pj.2.1.3][3] | Need the epic decisions governing this phase | 1 |
 | read-by | [agent:sase-1pj.2.1.4][4] | Need parent epic DECISIONS and phase context | 1 |
 | read-by | [agent:sase-1pj.2.1.5--1][5] | Need epic DECISIONS | 2 |
+| read-by | [agent:sase-1pj.2.1.land][6] | Need the epic scope, children, and linked plan file | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.2.1.1.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.2.1.2/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.2.1.3/README.md
 [4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.2.1.4/README.md
 [5]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.2.1.5.md
+[6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.2.1.land/README.md
 
 <!-- sase:referenced-by:end -->

@@ -42,8 +42,10 @@ core-policy: add the optional finalizer handoff wire, Rust disposition and prepa
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1pj.2.1.1--1][1] | Need the phase scope and design file | 3 |
 | read-by | [agent:sase-1pj.2.1.2][2] | Need parent DECISIONS and closed phase notes | 2 |
+| read-by | [agent:sase-1pj.2.1.land][3] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.2.1.1.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.2.1.2/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.2.1.land/README.md
 
 <!-- sase:referenced-by:end -->

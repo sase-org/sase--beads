@@ -38,7 +38,9 @@ custody-adoption: accept proven carry/prepared coverage in staged adoption, pers
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1pj.2.1.5--1][1] | Need notes to check remaining work | 4 |
+| read-by | [agent:sase-1pj.2.1.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.2.1.5.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.2.1.land/README.md
 
 <!-- sase:referenced-by:end -->

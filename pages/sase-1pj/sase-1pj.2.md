@@ -43,10 +43,12 @@ handoff-wire: add a handoff descriptor to the sase-core finalizer context, a car
 | read-by | [agent:sase-1pj.2.1.3][2] | Need parent epic decisions and cross-phase boundaries | 1 |
 | read-by | [agent:sase-1pj.2.1.4][3] | Need parent phase notes, DECISIONS, and remaining monitor-staging contract | 1 |
 | read-by | [agent:sase-1pj.2.1.5--1][4] | Need epic DECISIONS | 2 |
+| read-by | [agent:sase-1pj.2.1.land][5] | Need the parent link and parent phase scope/notes | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.2.1.2/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.2.1.3/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.2.1.4/README.md
 [4]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.2.1.5.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.2.1.land/README.md
 
 <!-- sase:referenced-by:end -->

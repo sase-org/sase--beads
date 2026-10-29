@@ -42,8 +42,10 @@ carry-execution: validate carry through Rust, satisfy carried repository obligat
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1pj.2.1.2][1] | Need full notes, decisions, and remaining work | 3 |
 | read-by | [agent:sase-1pj.2.1.3][2] | Need the completed carry-execution phase notes before extending declaration context | 1 |
+| read-by | [agent:sase-1pj.2.1.land][3] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.2.1.2/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.2.1.3/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.2.1.land/README.md
 
 <!-- sase:referenced-by:end -->
