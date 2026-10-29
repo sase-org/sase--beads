@@ -21,7 +21,13 @@ claude-isolation: make ClaudeCodeProvider launches refuse cross-session inbound 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1pn.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pn.1/README.md) | [sase-1pn.1](sase-1pn.1.md) | 0 |
+| [bbugyi200.athena.sase-1pn.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pn.1/README.md) | [sase-1pn.1](sase-1pn.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`464125c`](https://github.com/sase-org/sase/commit/464125cfa6491523c3297a4584d565490534baa7) | fix(claude): isolate SASE agent sessions | [sase-1pn.1](sase-1pn.1.md) | 2026-10-29 11:55:46 EDT |
 
 <!-- sase:referenced-by:start -->
 

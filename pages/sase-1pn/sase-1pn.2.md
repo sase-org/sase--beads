@@ -25,10 +25,23 @@ slot-refusal: remember launch-time nested-preservation refusals per workspace, a
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1pn.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pn.2/README.md) | [sase-1pn.2](sase-1pn.2.md) | 1 |
+| [bbugyi200.athena.sase-1pn.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pn.2/README.md) | [sase-1pn.2](sase-1pn.2.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@1762b33`](https://github.com/sase-org/sase-core/commit/1762b33a12a9d91841162dde52db5d9e4d429916) | fix(workspace): skip quarantined slots in allocate\_and\_claim | [sase-1pn.2](sase-1pn.2.md) | 2026-10-29 13:20:57 EDT |
+| sase | [`01dcc2e`](https://github.com/sase-org/sase/commit/01dcc2e5f5671d351ade5cbac5e5e4c5908c9d86) | fix(workspace): quarantine slots after nested-preservation refusal | [sase-1pn.2](sase-1pn.2.md) | 2026-10-29 15:58:27 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pn.2][1] | Need the phase scope, design file, notes, and DECISIONS before continuing | 6 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pn.2/README.md
+
+<!-- sase:referenced-by:end -->
