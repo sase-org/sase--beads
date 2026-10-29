@@ -31,10 +31,23 @@ record-contract: implement Rust-owned staged-handoff contracts and guards, a thi
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1pj.1.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.1.1.1/README.md) | [sase-1pj.1.1.1](sase-1pj.1.1.1.md) | 1 |
+| [bbugyi200.athena.sase-1pj.1.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.1.1.1/README.md) | [sase-1pj.1.1.1](sase-1pj.1.1.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@cd62c83`](https://github.com/sase-org/sase-core/commit/cd62c83df285e70a43fb5fa215a5a95367c8c32d) | feat(staged\_handoff): add staged-handoff wire contract and admission guards | [sase-1pj.1.1.1](sase-1pj.1.1.1.md) | 2026-10-28 22:35:43 EDT |
+| sase | [`06cd630`](https://github.com/sase-org/sase/commit/06cd630543ab655702474cb75b8f394e6c39cafb) | feat(handoff): add staged-handoff storage, guards, and staged\_handoffs flag | [sase-1pj.1.1.1](sase-1pj.1.1.1.md) | 2026-10-28 23:37:51 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pj.1.1.1][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.1.1.1/README.md
+
+<!-- sase:referenced-by:end -->

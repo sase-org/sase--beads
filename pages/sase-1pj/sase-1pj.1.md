@@ -30,3 +30,15 @@ plan-staging: create the staged_handoffs beta flag, the staged-handoff record an
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1pj.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.1.md) | [sase-1pj.1](sase-1pj.1.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pj.1.1.1][1] | Need parent phase DECISIONS and remaining work | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.1.1.1/README.md
+
+<!-- sase:referenced-by:end -->
