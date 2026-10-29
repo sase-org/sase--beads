@@ -41,8 +41,10 @@ acceptance-matrix: prove primary-plus-linked repository ordering, declaration re
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:toobig-8s.invoke.0--1][1] | Need to assess whether the active staged-handoff phase still requires the stale symvision whitelist entries | 1 |
+| read-by | [agent:sase-1pj.1.1.5][1] | Need DECISIONS and notes for remaining work | 5 |
+| read-by | [agent:toobig-8s.invoke.0--1][2] | Need to assess whether the active staged-handoff phase still requires the stale symvision whitelist entries | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.toobig-8s.invoke.0.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.1.1.5/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.toobig-8s.invoke.0.md
 
 <!-- sase:referenced-by:end -->

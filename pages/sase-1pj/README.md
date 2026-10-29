@@ -29,7 +29,7 @@ Turn-ending commands (plan propose, questions, pipe, gate create, sudo request, 
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-1pj.1](sase-1pj.1.md) | Staged-handoff foundation and plan proposals | ◐ in_progress | large | 2026-10-28 | 1 | 0 |
+| [sase-1pj.1](sase-1pj.1.md) | Staged-handoff foundation and plan proposals | ✓ closed | large | 2026-10-28 | 1 | 0 |
 | [sase-1pj.2](sase-1pj.2.md) | Handoff descriptor and carry disposition in the finalizer wire | ◐ in_progress | large | 2026-10-28 | 1 | 0 |
 | [sase-1pj.3](sase-1pj.3.md) | Stage questions and pipe handoffs | ◐ in_progress | medium | 2026-10-28 | 1 | 0 |
 | [sase-1pj.4](sase-1pj.4.md) | Stage gate, sudo, launch, run, and workflow HITL gates | ◐ in_progress | large | 2026-10-28 | 1 | 0 |
@@ -44,8 +44,8 @@ Turn-ending commands (plan propose, questions, pipe, gate create, sudo request, 
 ```mermaid
 flowchart TD
     n0["sase-1pj: Staged handoffs end through host completion [in_progress]"]
-    n1["sase-1pj.1: Staged-handoff foundation and plan proposals [in_progress]"]
-    n2["sase-1pj.1.1: Stage plan handoffs after host finalization [in_progress]"]
+    n1["sase-1pj.1: Staged-handoff foundation and plan proposals [closed]"]
+    n2["sase-1pj.1.1: Stage plan handoffs after host finalization [closed]"]
     n3["sase-1pj.1.1.1: Staged record contract, storage, guards, and rollout flag [closed]"]
     n4["sase-1pj.1.1.2: Normal completion adoption and authentic planner chats [closed]"]
     n5["sase-1pj.1.1.3: Provider failure, failed finalization, and lifecycle boundaries [closed]"]
@@ -108,7 +108,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1pj.1.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.1.1.3.md) | [sase-1pj.1.1.3](sase-1pj.1.1.3.md) | 2 |
 | [bbugyi200.athena.sase-1pj.1.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.1.1.4.md) | [sase-1pj.1.1.4](sase-1pj.1.1.4.md) | 1 |
 | [bbugyi200.athena.sase-1pj.1.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.1.1.5/README.md) | [sase-1pj.1.1.5](sase-1pj.1.1.5.md) | 1 |
-| [bbugyi200.athena.sase-1pj.1.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.1.1.land/README.md) | [sase-1pj.1.1](sase-1pj.1.1.md) | 0 |
+| [bbugyi200.athena.sase-1pj.1.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.1.1.land.md) | [sase-1pj.1.1](sase-1pj.1.1.md) | 1 |
 | [bbugyi200.athena.sase-1pj.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.2/README.md) | [sase-1pj.2](sase-1pj.2.md) | 0 |
 | [bbugyi200.athena.sase-1pj.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.3/README.md) | [sase-1pj.3](sase-1pj.3.md) | 0 |
 | [bbugyi200.athena.sase-1pj.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4/README.md) | [sase-1pj.4](sase-1pj.4.md) | 0 |
@@ -130,6 +130,7 @@ flowchart TD
 | sase | [`0f73623`](https://github.com/sase-org/sase/commit/0f7362359115682e59f9f8b96e4c2ea67abe3198) | feat(handoff): finalize staged turns after provider failures without retrying ordinary work | [sase-1pj.1.1.3](sase-1pj.1.1.3.md) | 2026-10-29 01:58:19 EDT |
 | sase | [`9f88875`](https://github.com/sase-org/sase/commit/9f88875b989530ff8ed8171bcab2c891cc4e1323) | feat(plan): stage proposals after host finalization | [sase-1pj.1.1.4](sase-1pj.1.1.4.md) | 2026-10-29 03:29:31 EDT |
 | sase | [`cc32e69`](https://github.com/sase-org/sase/commit/cc32e69dbbf5ba106c585291f84fe96f2d389844) | test(plan): prove staged commit-before-approval acceptance matrix | [sase-1pj.1.1.5](sase-1pj.1.1.5.md) | 2026-10-29 04:31:20 EDT |
+| sase | [`894317d`](https://github.com/sase-org/sase/commit/894317dccd7214c99e7440f6653789f4b97fa5e4) | feat(plan): land staged plan-handoff foundation (sase-1pj.1.1) | [sase-1pj.1.1](sase-1pj.1.1.md) | 2026-10-29 05:39:49 EDT |
 
 <!-- sase:referenced-by:start -->
 
