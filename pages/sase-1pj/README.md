@@ -1,0 +1,124 @@
+# Bead: sase-1pj — Staged handoffs end through host completion
+
+[Bead Pages](../README.md) / sase-1pj
+
+**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.research.5f.linker.w0](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.research.5f.linker.w0.md) · **Assignee:** `sase-1pj.land`
+**Created:** 2026-10-28 20:28:57 EDT
+**Plan:** [202610/staged\_handoffs.md](https://github.com/sase-org/sase--plans/blob/main/202610/staged_handoffs.md)
+
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202610/staged_handoffs.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/sase-org/sase--plans/blob/main/202610/staged_handoffs.md
+
+<!-- sase:links:end -->
+
+## Description
+
+Turn-ending commands (plan propose, questions, pipe, gate create, sudo request, launch request, run, monitor start) stage their handoff instead of killing the agent runner. Every root turn ends normally through /sase_final, the host runs the selected finalizers to their fixed point, and only then does a fixed host-owned step adopt the staged handoff. Agents can commit file changes and propose a plan (or start a monitor) in the same turn, and no handoff ever silently drops uncommitted work.
+
+## Phases
+
+| Bead | Title | Status | Size | Created | Agents | Commits |
+|---|---|---|---|---|---:|---:|
+| [sase-1pj.1](sase-1pj.1.md) | Staged-handoff foundation and plan proposals | ◐ in_progress | large | 2026-10-28 | 1 | 0 |
+| [sase-1pj.2](sase-1pj.2.md) | Handoff descriptor and carry disposition in the finalizer wire | ◐ in_progress | large | 2026-10-28 | 1 | 0 |
+| [sase-1pj.3](sase-1pj.3.md) | Stage questions and pipe handoffs | ◐ in_progress | medium | 2026-10-28 | 1 | 0 |
+| [sase-1pj.4](sase-1pj.4.md) | Stage gate, sudo, launch, run, and workflow HITL gates | ◐ in_progress | large | 2026-10-28 | 1 | 0 |
+| [sase-1pj.5](sase-1pj.5.md) | Stage monitor starts and spawn after finalization | ◐ in_progress | large | 2026-10-28 | 1 | 0 |
+| [sase-1pj.6](sase-1pj.6.md) | Idempotent adoption, crash reconciliation, and re-adopt | ◐ in_progress | large | 2026-10-28 | 1 | 0 |
+| [sase-1pj.7](sase-1pj.7.md) | Hold workspaces whose carried work has no successor | ◐ in_progress | large | 2026-10-28 | 1 | 0 |
+| [sase-1pj.8](sase-1pj.8.md) | Remove the flag and the kill-path machinery | ◐ in_progress | large | 2026-10-28 | 1 | 0 |
+| [sase-1pj.9](sase-1pj.9.md) | Final skills, docs, and memory | ◐ in_progress | medium | 2026-10-28 | 1 | 0 |
+
+## Lineage
+
+```mermaid
+flowchart TD
+    n0["sase-1pj: Staged handoffs end through host completion [in_progress]"]
+    n1["sase-1pj.1: Staged-handoff foundation and plan proposals [in_progress]"]
+    n2["sase-1pj.1.1: Stage plan handoffs after host finalization [in_progress]"]
+    n3["sase-1pj.1.1.1: Staged record contract, storage, guards, and rollout flag [closed]"]
+    n4["sase-1pj.1.1.2: Normal completion adoption and authentic planner chats [in_progress]"]
+    n5["sase-1pj.1.1.3: Provider failure, failed finalization, and lifecycle boundaries [in_progress]"]
+    n6["sase-1pj.1.1.4: Enable staged plan proposals and dual-state instructions [in_progress]"]
+    n7["sase-1pj.1.1.5: Verify commit-before-approval and failure isolation [in_progress]"]
+    n8["sase-1pj.2: Handoff descriptor and carry disposition in the finalizer wire [in_progress]"]
+    n9["sase-1pj.3: Stage questions and pipe handoffs [in_progress]"]
+    n10["sase-1pj.4: Stage gate, sudo, launch, run, and workflow HITL gates [in_progress]"]
+    n11["sase-1pj.5: Stage monitor starts and spawn after finalization [in_progress]"]
+    n12["sase-1pj.6: Idempotent adoption, crash reconciliation, and re-adopt [in_progress]"]
+    n13["sase-1pj.7: Hold workspaces whose carried work has no successor [in_progress]"]
+    n14["sase-1pj.8: Remove the flag and the kill-path machinery [in_progress]"]
+    n15["sase-1pj.9: Final skills, docs, and memory [in_progress]"]
+    n0 --> n1
+    n1 --> n2
+    n2 --> n3
+    n2 --> n4
+    n2 --> n5
+    n2 --> n6
+    n2 --> n7
+    n0 --> n8
+    n0 --> n9
+    n0 --> n10
+    n0 --> n11
+    n0 --> n12
+    n0 --> n13
+    n0 --> n14
+    n0 --> n15
+    n1 -.-> n8
+    n1 -.-> n9
+    n1 -.-> n10
+    n1 -.-> n11
+    n1 -.-> n12
+    n3 -.-> n4
+    n4 -.-> n5
+    n5 -.-> n6
+    n6 -.-> n7
+    n8 -.-> n9
+    n8 -.-> n10
+    n8 -.-> n11
+    n8 -.-> n13
+    n9 -.-> n12
+    n9 -.-> n13
+    n10 -.-> n12
+    n10 -.-> n13
+    n11 -.-> n12
+    n11 -.-> n13
+    n12 -.-> n14
+    n13 -.-> n14
+    n14 -.-> n15
+```
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-1pj.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.1.md) | [sase-1pj.1](sase-1pj.1.md) | 0 |
+| [bbugyi200.athena.sase-1pj.1.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.1.1.1/README.md) | [sase-1pj.1.1.1](sase-1pj.1.1.1.md) | 1 |
+| [bbugyi200.athena.sase-1pj.1.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.1.1.2/README.md) | [sase-1pj.1.1.2](sase-1pj.1.1.2.md) | 0 |
+| [bbugyi200.athena.sase-1pj.1.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.1.1.3/README.md) | [sase-1pj.1.1.3](sase-1pj.1.1.3.md) | 0 |
+| [bbugyi200.athena.sase-1pj.1.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.1.1.4/README.md) | [sase-1pj.1.1.4](sase-1pj.1.1.4.md) | 0 |
+| [bbugyi200.athena.sase-1pj.1.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.1.1.5/README.md) | [sase-1pj.1.1.5](sase-1pj.1.1.5.md) | 0 |
+| [bbugyi200.athena.sase-1pj.1.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.1.1.land/README.md) | [sase-1pj.1.1](sase-1pj.1.1.md) | 0 |
+| [bbugyi200.athena.sase-1pj.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.2/README.md) | [sase-1pj.2](sase-1pj.2.md) | 0 |
+| [bbugyi200.athena.sase-1pj.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.3/README.md) | [sase-1pj.3](sase-1pj.3.md) | 0 |
+| [bbugyi200.athena.sase-1pj.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4/README.md) | [sase-1pj.4](sase-1pj.4.md) | 0 |
+| [bbugyi200.athena.sase-1pj.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.5/README.md) | [sase-1pj.5](sase-1pj.5.md) | 0 |
+| [bbugyi200.athena.sase-1pj.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6/README.md) | [sase-1pj.6](sase-1pj.6.md) | 0 |
+| [bbugyi200.athena.sase-1pj.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7/README.md) | [sase-1pj.7](sase-1pj.7.md) | 0 |
+| [bbugyi200.athena.sase-1pj.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.8/README.md) | [sase-1pj.8](sase-1pj.8.md) | 0 |
+| [bbugyi200.athena.sase-1pj.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.9/README.md) | [sase-1pj.9](sase-1pj.9.md) | 0 |
+| [bbugyi200.athena.sase-1pj.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.land/README.md) | [sase-1pj](README.md) | 0 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase-core | [`sase-core@cd62c83`](https://github.com/sase-org/sase-core/commit/cd62c83df285e70a43fb5fa215a5a95367c8c32d) | feat(staged\_handoff): add staged-handoff wire contract and admission guards | [sase-1pj.1.1.1](sase-1pj.1.1.1.md) | 2026-10-28 22:35:43 EDT |
