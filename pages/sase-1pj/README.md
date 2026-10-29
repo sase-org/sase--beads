@@ -31,7 +31,7 @@ Turn-ending commands (plan propose, questions, pipe, gate create, sudo request, 
 |---|---|---|---|---|---:|---:|
 | [sase-1pj.1](sase-1pj.1.md) | Staged-handoff foundation and plan proposals | ✓ closed | large | 2026-10-28 | 1 | 0 |
 | [sase-1pj.2](sase-1pj.2.md) | Handoff descriptor and carry disposition in the finalizer wire | ✓ closed | large | 2026-10-28 | 1 | 0 |
-| [sase-1pj.3](sase-1pj.3.md) | Stage questions and pipe handoffs | ◐ in_progress | medium | 2026-10-28 | 1 | 0 |
+| [sase-1pj.3](sase-1pj.3.md) | Stage questions and pipe handoffs | ◐ in_progress | medium | 2026-10-28 | 1 | 1 |
 | [sase-1pj.4](sase-1pj.4.md) | Stage gate, sudo, launch, run, and workflow HITL gates | ◐ in_progress | large | 2026-10-28 | 1 | 0 |
 | [sase-1pj.5](sase-1pj.5.md) | Stage monitor starts and spawn after finalization | ◐ in_progress | large | 2026-10-28 | 1 | 0 |
 | [sase-1pj.6](sase-1pj.6.md) | Idempotent adoption, crash reconciliation, and re-adopt | ◐ in_progress | large | 2026-10-28 | 1 | 0 |
@@ -60,11 +60,23 @@ flowchart TD
     n14["sase-1pj.2.1.5: Adopt carried work with durable successor custody [closed]"]
     n15["sase-1pj.3: Stage questions and pipe handoffs [in_progress]"]
     n16["sase-1pj.4: Stage gate, sudo, launch, run, and workflow HITL gates [in_progress]"]
-    n17["sase-1pj.5: Stage monitor starts and spawn after finalization [in_progress]"]
-    n18["sase-1pj.6: Idempotent adoption, crash reconciliation, and re-adopt [in_progress]"]
-    n19["sase-1pj.7: Hold workspaces whose carried work has no successor [in_progress]"]
-    n20["sase-1pj.8: Remove the flag and the kill-path machinery [in_progress]"]
-    n21["sase-1pj.9: Final skills, docs, and memory [in_progress]"]
+    n17["sase-1pj.4.1: Stage gate requests before host publication [in_progress]"]
+    n18["sase-1pj.4.1.1: Durable gate staging contract [in_progress]"]
+    n19["sase-1pj.4.1.2: Publish staged gates from persisted creator context [in_progress]"]
+    n20["sase-1pj.4.1.3: Stage custom and sudo gates through one entry helper [in_progress]"]
+    n21["sase-1pj.4.1.4: Stage launch requests and agent-origin run requests [in_progress]"]
+    n22["sase-1pj.4.1.5: Bring workflow review into host completion [in_progress]"]
+    n23["sase-1pj.4.1.6: Suspend workflow execution on staged review [in_progress]"]
+    n24["sase-1pj.5: Stage monitor starts and spawn after finalization [in_progress]"]
+    n25["sase-1pj.5.1: Stage monitor starts and launch after finalization [in_progress]"]
+    n26["sase-1pj.5.1.1: Define staged monitor and ToolRun reservation contracts [in_progress]"]
+    n27["sase-1pj.5.1.2: Split monitor preparation from process launch [in_progress]"]
+    n28["sase-1pj.5.1.3: Preserve prepared completion and joins across staging [in_progress]"]
+    n29["sase-1pj.5.1.4: Connect staged starts to runner adoption and document the protocol [in_progress]"]
+    n30["sase-1pj.6: Idempotent adoption, crash reconciliation, and re-adopt [in_progress]"]
+    n31["sase-1pj.7: Hold workspaces whose carried work has no successor [in_progress]"]
+    n32["sase-1pj.8: Remove the flag and the kill-path machinery [in_progress]"]
+    n33["sase-1pj.9: Final skills, docs, and memory [in_progress]"]
     n0 --> n1
     n1 --> n2
     n2 --> n3
@@ -81,37 +93,57 @@ flowchart TD
     n9 --> n14
     n0 --> n15
     n0 --> n16
-    n0 --> n17
-    n0 --> n18
-    n0 --> n19
-    n0 --> n20
-    n0 --> n21
+    n16 --> n17
+    n17 --> n18
+    n17 --> n19
+    n17 --> n20
+    n17 --> n21
+    n17 --> n22
+    n17 --> n23
+    n0 --> n24
+    n24 --> n25
+    n25 --> n26
+    n25 --> n27
+    n25 --> n28
+    n25 --> n29
+    n0 --> n30
+    n0 --> n31
+    n0 --> n32
+    n0 --> n33
     n1 -.-> n8
     n1 -.-> n15
     n1 -.-> n16
-    n1 -.-> n17
-    n1 -.-> n18
+    n1 -.-> n24
+    n1 -.-> n30
     n3 -.-> n4
     n4 -.-> n5
     n5 -.-> n6
     n6 -.-> n7
     n8 -.-> n15
     n8 -.-> n16
-    n8 -.-> n17
-    n8 -.-> n19
+    n8 -.-> n24
+    n8 -.-> n31
     n10 -.-> n11
     n11 -.-> n12
     n12 -.-> n13
     n13 -.-> n14
-    n15 -.-> n18
-    n15 -.-> n19
-    n16 -.-> n18
-    n16 -.-> n19
-    n17 -.-> n18
-    n17 -.-> n19
-    n18 -.-> n20
+    n15 -.-> n30
+    n15 -.-> n31
+    n16 -.-> n30
+    n16 -.-> n31
+    n18 -.-> n19
     n19 -.-> n20
     n20 -.-> n21
+    n20 -.-> n22
+    n22 -.-> n23
+    n24 -.-> n30
+    n24 -.-> n31
+    n26 -.-> n27
+    n27 -.-> n28
+    n28 -.-> n29
+    n30 -.-> n32
+    n31 -.-> n32
+    n32 -.-> n33
 ```
 
 ## Agents
@@ -131,10 +163,22 @@ flowchart TD
 | [bbugyi200.athena.sase-1pj.2.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.2.1.3/README.md) | [sase-1pj.2.1.3](sase-1pj.2.1.3.md) | 2 |
 | [bbugyi200.athena.sase-1pj.2.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.2.1.4/README.md) | [sase-1pj.2.1.4](sase-1pj.2.1.4.md) | 1 |
 | [bbugyi200.athena.sase-1pj.2.1.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.2.1.5.md) | [sase-1pj.2.1.5](sase-1pj.2.1.5.md) | 1 |
-| [bbugyi200.athena.sase-1pj.2.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.2.1.land/README.md) | [sase-1pj.2.1](sase-1pj.2.1.md) | 2 |
-| [bbugyi200.athena.sase-1pj.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.3/README.md) | [sase-1pj.3](sase-1pj.3.md) | 0 |
-| [bbugyi200.athena.sase-1pj.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4/README.md) | [sase-1pj.4](sase-1pj.4.md) | 0 |
-| [bbugyi200.athena.sase-1pj.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.5/README.md) | [sase-1pj.5](sase-1pj.5.md) | 0 |
+| [bbugyi200.athena.sase-1pj.2.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.2.1.land/README.md) | [sase-1pj.2.1](sase-1pj.2.1.md) | 1 |
+| [bbugyi200.athena.sase-1pj.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.3/README.md) | [sase-1pj.3](sase-1pj.3.md) | 1 |
+| [bbugyi200.athena.sase-1pj.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.4.md) | [sase-1pj.4](sase-1pj.4.md) | 0 |
+| [bbugyi200.athena.sase-1pj.4.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.1/README.md) | [sase-1pj.4.1.1](sase-1pj.4.1.1.md) | 0 |
+| [bbugyi200.athena.sase-1pj.4.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.2/README.md) | [sase-1pj.4.1.2](sase-1pj.4.1.2.md) | 0 |
+| [bbugyi200.athena.sase-1pj.4.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.3/README.md) | [sase-1pj.4.1.3](sase-1pj.4.1.3.md) | 0 |
+| [bbugyi200.athena.sase-1pj.4.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.4/README.md) | [sase-1pj.4.1.4](sase-1pj.4.1.4.md) | 0 |
+| [bbugyi200.athena.sase-1pj.4.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.5/README.md) | [sase-1pj.4.1.5](sase-1pj.4.1.5.md) | 0 |
+| [bbugyi200.athena.sase-1pj.4.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.6/README.md) | [sase-1pj.4.1.6](sase-1pj.4.1.6.md) | 0 |
+| [bbugyi200.athena.sase-1pj.4.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.land/README.md) | [sase-1pj.4.1](sase-1pj.4.1.md) | 0 |
+| [bbugyi200.athena.sase-1pj.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.5.md) | [sase-1pj.5](sase-1pj.5.md) | 0 |
+| [bbugyi200.athena.sase-1pj.5.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.5.1.1/README.md) | [sase-1pj.5.1.1](sase-1pj.5.1.1.md) | 0 |
+| [bbugyi200.athena.sase-1pj.5.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.5.1.2/README.md) | [sase-1pj.5.1.2](sase-1pj.5.1.2.md) | 0 |
+| [bbugyi200.athena.sase-1pj.5.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.5.1.3/README.md) | [sase-1pj.5.1.3](sase-1pj.5.1.3.md) | 0 |
+| [bbugyi200.athena.sase-1pj.5.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.5.1.4/README.md) | [sase-1pj.5.1.4](sase-1pj.5.1.4.md) | 0 |
+| [bbugyi200.athena.sase-1pj.5.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.5.1.land/README.md) | [sase-1pj.5.1](sase-1pj.5.1.md) | 0 |
 | [bbugyi200.athena.sase-1pj.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6/README.md) | [sase-1pj.6](sase-1pj.6.md) | 0 |
 | [bbugyi200.athena.sase-1pj.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7/README.md) | [sase-1pj.7](sase-1pj.7.md) | 0 |
 | [bbugyi200.athena.sase-1pj.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.8/README.md) | [sase-1pj.8](sase-1pj.8.md) | 0 |
@@ -162,7 +206,7 @@ flowchart TD
 | sase | [`d30932e`](https://github.com/sase-org/sase/commit/d30932ec877a0407f175d4a6f2904a979ca0ba65) | feat(finalizer): protect prepared monitor work through starter finalization | [sase-1pj.2.1.4](sase-1pj.2.1.4.md) | 2026-10-29 12:26:55 EDT |
 | sase | [`d8706bd`](https://github.com/sase-org/sase/commit/d8706bda929c5a274ce3036800e78be2230f4b31) | feat(staged): adopt carried work with durable successor custody | [sase-1pj.2.1.5](sase-1pj.2.1.5.md) | 2026-10-29 13:34:12 EDT |
 | sase | [`d97902c`](https://github.com/sase-org/sase/commit/d97902c0df463e81b2c67c974de272b95c61ad22) | fix(finalizer): keep handoff carry modules off the TUI import path | [sase-1pj.2.1](sase-1pj.2.1.md) | 2026-10-29 14:26:44 EDT |
-| sase--plans | [`sase--plans@be25784`](https://github.com/sase-org/sase--plans/commit/be257845fe5491f1721ac4e4cb5d2937d830b1c4) | chore(plans): mark handoff\_wire\_carry epic plan done | [sase-1pj.2.1](sase-1pj.2.1.md) | 2026-10-29 14:31:25 EDT |
+| sase | [`aa1c183`](https://github.com/sase-org/sase/commit/aa1c1832040c2ce893d4e86aebd3307ec30de968) | feat(handoff): stage questions and pipe through host completion | [sase-1pj.3](sase-1pj.3.md) | 2026-10-29 15:28:42 EDT |
 
 <!-- sase:referenced-by:start -->
 
