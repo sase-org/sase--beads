@@ -26,10 +26,23 @@ live-declarations: project staged handoffs into final context and human output, 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1pj.2.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.2.1.3/README.md) | [sase-1pj.2.1.3](sase-1pj.2.1.3.md) | 1 |
+| [bbugyi200.athena.sase-1pj.2.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.2.1.3/README.md) | [sase-1pj.2.1.3](sase-1pj.2.1.3.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@7a5b215`](https://github.com/sase-org/sase-core/commit/7a5b215f49c561f4ce2db15b093276685fb8fce8) | fix(finalizer): accept optional dirty commit payloads for carry | [sase-1pj.2.1.3](sase-1pj.2.1.3.md) | 2026-10-29 10:38:24 EDT |
+| sase | [`89c40e3`](https://github.com/sase-org/sase/commit/89c40e30b004255e71f678dfe5b90f5741afca02) | feat(finalizer): synthesize staged handoff carry | [sase-1pj.2.1.3](sase-1pj.2.1.3.md) | 2026-10-29 11:07:47 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pj.2.1.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.2.1.3/README.md
+
+<!-- sase:referenced-by:end -->
