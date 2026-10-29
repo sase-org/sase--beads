@@ -14,7 +14,7 @@ questions-pipe: make `sase questions` and `sase pipe` stage with carry allowed, 
 ## Dependencies
 
 - **Depends on:** [sase-1pj.1](sase-1pj.1.md) ✓ · ⧖ 2026-10-28
-- **Depends on:** [sase-1pj.2](sase-1pj.2.md) ◐ · ⧖ 2026-10-28
+- **Depends on:** [sase-1pj.2](sase-1pj.2.md) ✓ · ⧖ 2026-10-28
 - **Blocks:** [sase-1pj.6](sase-1pj.6.md) ◐ · ⧖ 2026-10-28
 - **Blocks:** [sase-1pj.7](sase-1pj.7.md) ◐ · ⧖ 2026-10-28
 

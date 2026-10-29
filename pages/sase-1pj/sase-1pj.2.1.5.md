@@ -30,3 +30,15 @@ custody-adoption: accept proven carry/prepared coverage in staged adoption, pers
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`d8706bd`](https://github.com/sase-org/sase/commit/d8706bda929c5a274ce3036800e78be2230f4b31) | feat(staged): adopt carried work with durable successor custody | [sase-1pj.2.1.5](sase-1pj.2.1.5.md) | 2026-10-29 13:34:12 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pj.2.1.5--1][1] | Need notes to check remaining work | 4 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.2.1.5.md
+
+<!-- sase:referenced-by:end -->
