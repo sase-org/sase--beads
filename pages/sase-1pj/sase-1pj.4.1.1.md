@@ -32,3 +32,15 @@ gate-contract: define the Rust-owned staged gate payload and workspace dispositi
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@f4aa8fb`](https://github.com/sase-org/sase-core/commit/f4aa8fb6438eb737923a652364c295df40418dcd) | feat(gate): Rust-owned staged gate payload and workspace disposition | [sase-1pj.4.1.1](sase-1pj.4.1.1.md) | 2026-10-29 17:24:47 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pj.4.1.1--1][1] | check phase notes and remaining work | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.4.1.1.md
+
+<!-- sase:referenced-by:end -->

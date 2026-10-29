@@ -13,7 +13,7 @@ start-transaction: persist a reconstructible staged member, reserve ordinary Too
 
 ## Dependencies
 
-- **Depends on:** [sase-1pj.5.1.1](sase-1pj.5.1.1.md) ◐ · ⧖ 2026-10-29
+- **Depends on:** [sase-1pj.5.1.1](sase-1pj.5.1.1.md) ✓ · ⧖ 2026-10-29
 - **Blocks:** [sase-1pj.5.1.3](sase-1pj.5.1.3.md) ◐ · ⧖ 2026-10-29
 
 ## Agents

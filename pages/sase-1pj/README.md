@@ -69,7 +69,7 @@ flowchart TD
     n23["sase-1pj.4.1.6: Suspend workflow execution on staged review [in_progress]"]
     n24["sase-1pj.5: Stage monitor starts and spawn after finalization [in_progress]"]
     n25["sase-1pj.5.1: Stage monitor starts and launch after finalization [in_progress]"]
-    n26["sase-1pj.5.1.1: Define staged monitor and ToolRun reservation contracts [in_progress]"]
+    n26["sase-1pj.5.1.1: Define staged monitor and ToolRun reservation contracts [closed]"]
     n27["sase-1pj.5.1.2: Split monitor preparation from process launch [in_progress]"]
     n28["sase-1pj.5.1.3: Preserve prepared completion and joins across staging [in_progress]"]
     n29["sase-1pj.5.1.4: Connect staged starts to runner adoption and document the protocol [in_progress]"]
@@ -174,7 +174,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1pj.4.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.6/README.md) | [sase-1pj.4.1.6](sase-1pj.4.1.6.md) | 0 |
 | [bbugyi200.athena.sase-1pj.4.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.land/README.md) | [sase-1pj.4.1](sase-1pj.4.1.md) | 0 |
 | [bbugyi200.athena.sase-1pj.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.5.md) | [sase-1pj.5](sase-1pj.5.md) | 0 |
-| [bbugyi200.athena.sase-1pj.5.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.5.1.1.md) | [sase-1pj.5.1.1](sase-1pj.5.1.1.md) | 0 |
+| [bbugyi200.athena.sase-1pj.5.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.5.1.1.md) | [sase-1pj.5.1.1](sase-1pj.5.1.1.md) | 1 |
 | [bbugyi200.athena.sase-1pj.5.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.5.1.2/README.md) | [sase-1pj.5.1.2](sase-1pj.5.1.2.md) | 0 |
 | [bbugyi200.athena.sase-1pj.5.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.5.1.3/README.md) | [sase-1pj.5.1.3](sase-1pj.5.1.3.md) | 0 |
 | [bbugyi200.athena.sase-1pj.5.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.5.1.4/README.md) | [sase-1pj.5.1.4](sase-1pj.5.1.4.md) | 0 |
@@ -208,6 +208,7 @@ flowchart TD
 | sase | [`d97902c`](https://github.com/sase-org/sase/commit/d97902c0df463e81b2c67c974de272b95c61ad22) | fix(finalizer): keep handoff carry modules off the TUI import path | [sase-1pj.2.1](sase-1pj.2.1.md) | 2026-10-29 14:26:44 EDT |
 | sase--plans | [`sase--plans@be25784`](https://github.com/sase-org/sase--plans/commit/be257845fe5491f1721ac4e4cb5d2937d830b1c4) | chore(plans): mark handoff\_wire\_carry epic plan done | [sase-1pj.2.1](sase-1pj.2.1.md) | 2026-10-29 14:31:25 EDT |
 | sase-core | [`sase-core@f4aa8fb`](https://github.com/sase-org/sase-core/commit/f4aa8fb6438eb737923a652364c295df40418dcd) | feat(gate): Rust-owned staged gate payload and workspace disposition | [sase-1pj.4.1.1](sase-1pj.4.1.1.md) | 2026-10-29 17:24:47 EDT |
+| sase-core | [`sase-core@2a62513`](https://github.com/sase-org/sase-core/commit/2a625131e32f8d8e6c935683834d241a0651d06c) | feat(staged-monitor): add Rust-owned staged payload and ToolRun reservation contracts | [sase-1pj.5.1.1](sase-1pj.5.1.1.md) | 2026-10-29 18:25:55 EDT |
 
 <!-- sase:referenced-by:start -->
 
