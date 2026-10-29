@@ -7,6 +7,18 @@
 **Created:** 2026-10-29 14:37:29 EDT
 **Plan:** [202610/gate\_staging.md](https://github.com/sase-org/sase--plans/blob/main/202610/gate_staging.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202610/gate_staging.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/sase-org/sase--plans/blob/main/202610/gate_staging.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 Complete sase-1pj.4 so agent-created gates publish only after host completion, with synchronous auto gates and preserved legacy behavior.

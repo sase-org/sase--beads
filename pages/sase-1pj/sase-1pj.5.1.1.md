@@ -11,6 +11,12 @@
 
 contracts: implement Rust-owned staged monitor payload validation, staged-owner liveness and self-wait decisions, and atomic ToolRun join reservation/activation/release. Add bindings, contract tests, thin Python adapters, and the required core revision pin. Keep public monitor starts on their existing path until activation.
 
+## Notes
+
+[2026-10-29T20:28:53Z · sase-1pj.5.1.1] Progress: Rust contracts + bindings + Python adapters + contract tests implemented and green (Rust staged_handoff/staged_join/prepared_reservation unit tests pass; sase_core_py 370 pass; 15 Python contract tests pass; symvision clean). sase-core `sase tool run check` (run f5f47f7b0b5093c86232d63010ee52a7) still running; sase-repo `just check` and bead close remain.
+
+[2026-10-29T20:57:50Z · sase-1pj.5.1.1--1] PROPOSED FOLLOW-UP: sase_gateway IPC test listener_creates_private_socket_and_rejects_symlink flaked under host load (loadavg ~27) in full sase-core check run f5f47f7b0b5093c86232d63010ee52a7 with AlreadyRunning lock error; passes in isolation and full -p sase_gateway --lib rerun showed 243 passed — consider serializing or hardening that test
+
 ## Dependencies
 
 - **Blocks:** [sase-1pj.5.1.2](sase-1pj.5.1.2.md) ◐ · ⧖ 2026-10-29
@@ -19,4 +25,4 @@ contracts: implement Rust-owned staged monitor payload validation, staged-owner 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1pj.5.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.5.1.1/README.md) | [sase-1pj.5.1.1](sase-1pj.5.1.1.md) | 0 |
+| [bbugyi200.athena.sase-1pj.5.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.5.1.1.md) | [sase-1pj.5.1.1](sase-1pj.5.1.1.md) | 0 |

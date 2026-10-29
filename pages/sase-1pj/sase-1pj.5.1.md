@@ -7,6 +7,18 @@
 **Created:** 2026-10-29 14:48:36 EDT
 **Plan:** [202610/monitor\_staging.md](https://github.com/sase-org/sase--plans/blob/main/202610/monitor_staging.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202610/monitor_staging.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/sase-org/sase--plans/blob/main/202610/monitor_staging.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 Complete sase-1pj.5 so in-agent monitor starts stage durable work and launch only after host finalization, preserving prepared completion and existing ToolRun joins.

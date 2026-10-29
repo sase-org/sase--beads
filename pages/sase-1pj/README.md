@@ -31,7 +31,7 @@ Turn-ending commands (plan propose, questions, pipe, gate create, sudo request, 
 |---|---|---|---|---|---:|---:|
 | [sase-1pj.1](sase-1pj.1.md) | Staged-handoff foundation and plan proposals | ✓ closed | large | 2026-10-28 | 1 | 0 |
 | [sase-1pj.2](sase-1pj.2.md) | Handoff descriptor and carry disposition in the finalizer wire | ✓ closed | large | 2026-10-28 | 1 | 0 |
-| [sase-1pj.3](sase-1pj.3.md) | Stage questions and pipe handoffs | ◐ in_progress | medium | 2026-10-28 | 1 | 1 |
+| [sase-1pj.3](sase-1pj.3.md) | Stage questions and pipe handoffs | ◐ in_progress | medium | 2026-10-28 | 1 | 0 |
 | [sase-1pj.4](sase-1pj.4.md) | Stage gate, sudo, launch, run, and workflow HITL gates | ◐ in_progress | large | 2026-10-28 | 1 | 0 |
 | [sase-1pj.5](sase-1pj.5.md) | Stage monitor starts and spawn after finalization | ◐ in_progress | large | 2026-10-28 | 1 | 0 |
 | [sase-1pj.6](sase-1pj.6.md) | Idempotent adoption, crash reconciliation, and re-adopt | ◐ in_progress | large | 2026-10-28 | 1 | 0 |
@@ -61,7 +61,7 @@ flowchart TD
     n15["sase-1pj.3: Stage questions and pipe handoffs [in_progress]"]
     n16["sase-1pj.4: Stage gate, sudo, launch, run, and workflow HITL gates [in_progress]"]
     n17["sase-1pj.4.1: Stage gate requests before host publication [in_progress]"]
-    n18["sase-1pj.4.1.1: Durable gate staging contract [in_progress]"]
+    n18["sase-1pj.4.1.1: Durable gate staging contract [closed]"]
     n19["sase-1pj.4.1.2: Publish staged gates from persisted creator context [in_progress]"]
     n20["sase-1pj.4.1.3: Stage custom and sudo gates through one entry helper [in_progress]"]
     n21["sase-1pj.4.1.4: Stage launch requests and agent-origin run requests [in_progress]"]
@@ -163,10 +163,10 @@ flowchart TD
 | [bbugyi200.athena.sase-1pj.2.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.2.1.3/README.md) | [sase-1pj.2.1.3](sase-1pj.2.1.3.md) | 2 |
 | [bbugyi200.athena.sase-1pj.2.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.2.1.4/README.md) | [sase-1pj.2.1.4](sase-1pj.2.1.4.md) | 1 |
 | [bbugyi200.athena.sase-1pj.2.1.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.2.1.5.md) | [sase-1pj.2.1.5](sase-1pj.2.1.5.md) | 1 |
-| [bbugyi200.athena.sase-1pj.2.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.2.1.land/README.md) | [sase-1pj.2.1](sase-1pj.2.1.md) | 1 |
-| [bbugyi200.athena.sase-1pj.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.3/README.md) | [sase-1pj.3](sase-1pj.3.md) | 1 |
+| [bbugyi200.athena.sase-1pj.2.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.2.1.land/README.md) | [sase-1pj.2.1](sase-1pj.2.1.md) | 2 |
+| [bbugyi200.athena.sase-1pj.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.3/README.md) | [sase-1pj.3](sase-1pj.3.md) | 0 |
 | [bbugyi200.athena.sase-1pj.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.4.md) | [sase-1pj.4](sase-1pj.4.md) | 0 |
-| [bbugyi200.athena.sase-1pj.4.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.1/README.md) | [sase-1pj.4.1.1](sase-1pj.4.1.1.md) | 0 |
+| [bbugyi200.athena.sase-1pj.4.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.4.1.1.md) | [sase-1pj.4.1.1](sase-1pj.4.1.1.md) | 1 |
 | [bbugyi200.athena.sase-1pj.4.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.2/README.md) | [sase-1pj.4.1.2](sase-1pj.4.1.2.md) | 0 |
 | [bbugyi200.athena.sase-1pj.4.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.3/README.md) | [sase-1pj.4.1.3](sase-1pj.4.1.3.md) | 0 |
 | [bbugyi200.athena.sase-1pj.4.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.4/README.md) | [sase-1pj.4.1.4](sase-1pj.4.1.4.md) | 0 |
@@ -174,7 +174,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1pj.4.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.6/README.md) | [sase-1pj.4.1.6](sase-1pj.4.1.6.md) | 0 |
 | [bbugyi200.athena.sase-1pj.4.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.land/README.md) | [sase-1pj.4.1](sase-1pj.4.1.md) | 0 |
 | [bbugyi200.athena.sase-1pj.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.5.md) | [sase-1pj.5](sase-1pj.5.md) | 0 |
-| [bbugyi200.athena.sase-1pj.5.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.5.1.1/README.md) | [sase-1pj.5.1.1](sase-1pj.5.1.1.md) | 0 |
+| [bbugyi200.athena.sase-1pj.5.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.5.1.1.md) | [sase-1pj.5.1.1](sase-1pj.5.1.1.md) | 0 |
 | [bbugyi200.athena.sase-1pj.5.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.5.1.2/README.md) | [sase-1pj.5.1.2](sase-1pj.5.1.2.md) | 0 |
 | [bbugyi200.athena.sase-1pj.5.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.5.1.3/README.md) | [sase-1pj.5.1.3](sase-1pj.5.1.3.md) | 0 |
 | [bbugyi200.athena.sase-1pj.5.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.5.1.4/README.md) | [sase-1pj.5.1.4](sase-1pj.5.1.4.md) | 0 |
@@ -206,7 +206,8 @@ flowchart TD
 | sase | [`d30932e`](https://github.com/sase-org/sase/commit/d30932ec877a0407f175d4a6f2904a979ca0ba65) | feat(finalizer): protect prepared monitor work through starter finalization | [sase-1pj.2.1.4](sase-1pj.2.1.4.md) | 2026-10-29 12:26:55 EDT |
 | sase | [`d8706bd`](https://github.com/sase-org/sase/commit/d8706bda929c5a274ce3036800e78be2230f4b31) | feat(staged): adopt carried work with durable successor custody | [sase-1pj.2.1.5](sase-1pj.2.1.5.md) | 2026-10-29 13:34:12 EDT |
 | sase | [`d97902c`](https://github.com/sase-org/sase/commit/d97902c0df463e81b2c67c974de272b95c61ad22) | fix(finalizer): keep handoff carry modules off the TUI import path | [sase-1pj.2.1](sase-1pj.2.1.md) | 2026-10-29 14:26:44 EDT |
-| sase | [`aa1c183`](https://github.com/sase-org/sase/commit/aa1c1832040c2ce893d4e86aebd3307ec30de968) | feat(handoff): stage questions and pipe through host completion | [sase-1pj.3](sase-1pj.3.md) | 2026-10-29 15:28:42 EDT |
+| sase--plans | [`sase--plans@be25784`](https://github.com/sase-org/sase--plans/commit/be257845fe5491f1721ac4e4cb5d2937d830b1c4) | chore(plans): mark handoff\_wire\_carry epic plan done | [sase-1pj.2.1](sase-1pj.2.1.md) | 2026-10-29 14:31:25 EDT |
+| sase-core | [`sase-core@f4aa8fb`](https://github.com/sase-org/sase-core/commit/f4aa8fb6438eb737923a652364c295df40418dcd) | feat(gate): Rust-owned staged gate payload and workspace disposition | [sase-1pj.4.1.1](sase-1pj.4.1.1.md) | 2026-10-29 17:24:47 EDT |
 
 <!-- sase:referenced-by:start -->
 

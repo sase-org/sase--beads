@@ -28,10 +28,16 @@ questions-pipe: make `sase questions` and `sase pipe` stage with carry allowed, 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1pj.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.3/README.md) | [sase-1pj.3](sase-1pj.3.md) | 1 |
+| [bbugyi200.athena.sase-1pj.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.3/README.md) | [sase-1pj.3](sase-1pj.3.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase | [`aa1c183`](https://github.com/sase-org/sase/commit/aa1c1832040c2ce893d4e86aebd3307ec30de968) | feat(handoff): stage questions and pipe through host completion | [sase-1pj.3](sase-1pj.3.md) | 2026-10-29 15:28:42 EDT |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pj.3][1] | Need the phase scope, notes, and design file after compaction | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.3/README.md
+
+<!-- sase:referenced-by:end -->
