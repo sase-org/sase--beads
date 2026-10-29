@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/staged_handoffs.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/staged_handoffs.md
 
@@ -55,7 +55,7 @@ flowchart TD
     n9["sase-1pj.2.1: Handoff context and carried repository completion [in_progress]"]
     n10["sase-1pj.2.1.1: Rust handoff and repository disposition contracts [closed]"]
     n11["sase-1pj.2.1.2: Execute explicit carry decisions and reach a fixed point [closed]"]
-    n12["sase-1pj.2.1.3: Publish staged context and synthesize default carry [in_progress]"]
+    n12["sase-1pj.2.1.3: Publish staged context and synthesize default carry [closed]"]
     n13["sase-1pj.2.1.4: Protect prepared monitor work through starter finalization [in_progress]"]
     n14["sase-1pj.2.1.5: Adopt carried work with durable successor custody [in_progress]"]
     n15["sase-1pj.3: Stage questions and pipe handoffs [in_progress]"]
@@ -128,7 +128,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1pj.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.2.md) | [sase-1pj.2](sase-1pj.2.md) | 0 |
 | [bbugyi200.athena.sase-1pj.2.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.2.1.1.md) | [sase-1pj.2.1.1](sase-1pj.2.1.1.md) | 2 |
 | [bbugyi200.athena.sase-1pj.2.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.2.1.2/README.md) | [sase-1pj.2.1.2](sase-1pj.2.1.2.md) | 1 |
-| [bbugyi200.athena.sase-1pj.2.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.2.1.3/README.md) | [sase-1pj.2.1.3](sase-1pj.2.1.3.md) | 0 |
+| [bbugyi200.athena.sase-1pj.2.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.2.1.3/README.md) | [sase-1pj.2.1.3](sase-1pj.2.1.3.md) | 1 |
 | [bbugyi200.athena.sase-1pj.2.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.2.1.4/README.md) | [sase-1pj.2.1.4](sase-1pj.2.1.4.md) | 0 |
 | [bbugyi200.athena.sase-1pj.2.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.2.1.5/README.md) | [sase-1pj.2.1.5](sase-1pj.2.1.5.md) | 0 |
 | [bbugyi200.athena.sase-1pj.2.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.2.1.land/README.md) | [sase-1pj.2.1](sase-1pj.2.1.md) | 0 |
@@ -157,6 +157,7 @@ flowchart TD
 | sase-core | [`sase-core@24e160d`](https://github.com/sase-org/sase-core/commit/24e160d1b99b107475efd47e791ea3597376c1e8) | feat(core-policy): add handoff disposition and prepared-coverage predicates with bindings | [sase-1pj.2.1.1](sase-1pj.2.1.1.md) | 2026-10-29 07:24:12 EDT |
 | sase | [`9c0a31f`](https://github.com/sase-org/sase/commit/9c0a31fba576ffa20feedbe93662d6bb871ed0a2) | feat(core-policy): add finalizer handoff wire, disposition checks and prepared-coverage mirrors | [sase-1pj.2.1.1](sase-1pj.2.1.1.md) | 2026-10-29 07:29:18 EDT |
 | sase | [`b10abaf`](https://github.com/sase-org/sase/commit/b10abafcf07450a22334253569725ea2a2251396) | feat(commit): execute explicit carry without stitch or hooks | [sase-1pj.2.1.2](sase-1pj.2.1.2.md) | 2026-10-29 08:46:05 EDT |
+| sase-core | [`sase-core@7a5b215`](https://github.com/sase-org/sase-core/commit/7a5b215f49c561f4ce2db15b093276685fb8fce8) | fix(finalizer): accept optional dirty commit payloads for carry | [sase-1pj.2.1.3](sase-1pj.2.1.3.md) | 2026-10-29 10:38:24 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -166,8 +167,10 @@ flowchart TD
 | --- | --- | --- | ---: |
 | read-by | [agent:research.5h.final][1] | Assess whether staged handoffs now wait on commit-stage latency | 1 |
 | read-by | [agent:sase-1pj.1.1.2][2] | Need governing epic decisions for this assigned phase | 1 |
+| read-by | [agent:sase-1pj.2.1.2][3] | Need parent DECISIONS and closed phase notes | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.5h.final/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.1.1.2/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.2.1.2/README.md
 
 <!-- sase:referenced-by:end -->

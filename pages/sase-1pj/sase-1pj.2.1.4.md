@@ -13,7 +13,7 @@ prepared-bridge: connect staged monitor intent reservation/binding facts to the 
 
 ## Dependencies
 
-- **Depends on:** [sase-1pj.2.1.3](sase-1pj.2.1.3.md) ◐ · ⧖ 2026-10-29
+- **Depends on:** [sase-1pj.2.1.3](sase-1pj.2.1.3.md) ✓ · ⧖ 2026-10-29
 - **Blocks:** [sase-1pj.2.1.5](sase-1pj.2.1.5.md) ◐ · ⧖ 2026-10-29
 
 ## Agents

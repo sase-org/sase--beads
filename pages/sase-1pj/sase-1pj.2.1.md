@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/handoff_wire_carry.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/handoff_wire_carry.md
 
@@ -24,6 +24,10 @@ _Plus 1 automatic references — see [Referenced By](#referenced-by)._
 ## Description
 
 Complete sase-1pj.2 with validated carry dispositions, prepared-monitor protection, and auditable successor custody.
+
+## Notes
+
+[2026-10-29T14:32:03Z · sase-1pm.land] DISCOVERED ISSUE: tests/test_contract_manifest.py::test_contract_manifest_matches_marker_selection fails on master cddea47cc6 because tests/test_core_finalizer_handoff.py (added by 9c0a31fba5, sase-1pj.2.1.1) is contract-marked but missing from tests/contract_manifest.txt; tests/test_ratchet_core_window_tool_ref.py (sase-1pi.3) is the other missing entry, already relayed on sase-1pi. Fix: just refresh-contract-manifest and check the contract budget. Found by sase-1pm.land while verifying sase-1pm.1 note #1's follow-up.
 
 ## Agents
 
@@ -38,7 +42,9 @@ Complete sase-1pj.2 with validated carry dispositions, prepared-monitor protecti
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1pj.2.1.1--1][1] | Need epic DECISIONS section for phase compliance | 2 |
+| read-by | [agent:sase-1pj.2.1.2][2] | Need epic DECISIONS and phase design for carry-execution | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.2.1.1.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.2.1.2/README.md
 
 <!-- sase:referenced-by:end -->

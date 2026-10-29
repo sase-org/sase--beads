@@ -20,7 +20,7 @@ carry-execution: validate carry through Rust, satisfy carried repository obligat
 ## Dependencies
 
 - **Depends on:** [sase-1pj.2.1.1](sase-1pj.2.1.1.md) ✓ · ⧖ 2026-10-29
-- **Blocks:** [sase-1pj.2.1.3](sase-1pj.2.1.3.md) ◐ · ⧖ 2026-10-29
+- **Blocks:** [sase-1pj.2.1.3](sase-1pj.2.1.3.md) ✓ · ⧖ 2026-10-29
 
 ## Agents
 
@@ -33,3 +33,15 @@ carry-execution: validate carry through Rust, satisfy carried repository obligat
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`b10abaf`](https://github.com/sase-org/sase/commit/b10abafcf07450a22334253569725ea2a2251396) | feat(commit): execute explicit carry without stitch or hooks | [sase-1pj.2.1.2](sase-1pj.2.1.2.md) | 2026-10-29 08:46:05 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pj.2.1.2][1] | Need full notes, decisions, and remaining work | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.2.1.2/README.md
+
+<!-- sase:referenced-by:end -->
