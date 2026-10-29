@@ -13,7 +13,7 @@ import-checker: implement repo tooling using Python AST and importlib, with exac
 
 ## Dependencies
 
-- **Depends on:** [sase-1pm.5.1.1](sase-1pm.5.1.1.md) ◐ · ⧖ 2026-10-29
+- **Depends on:** [sase-1pm.5.1.1](sase-1pm.5.1.1.md) ✓ · ⧖ 2026-10-29
 - **Blocks:** [sase-1pm.5.1.4](sase-1pm.5.1.4.md) ◐ · ⧖ 2026-10-29
 
 ## Agents

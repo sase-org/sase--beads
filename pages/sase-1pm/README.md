@@ -27,10 +27,10 @@ The five costliest open task beads (sase-1nh, sase-1ll, sase-1p5, sase-1ic, sase
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-1pm.1](sase-1pm.1.md) | Count stitch SHA receipts as successful commits (sase-1nh) | ✓ closed | small | 2026-10-29 | 1 | 1 |
+| [sase-1pm.1](sase-1pm.1.md) | Count stitch SHA receipts as successful commits (sase-1nh) | ✓ closed | small | 2026-10-29 | 1 | 0 |
 | [sase-1pm.2](sase-1pm.2.md) | Make rendering tests hermetic against the ambient terminal (sase-1ll) | ✓ closed | small | 2026-10-29 | 1 | 0 |
-| [sase-1pm.3](sase-1pm.3.md) | Review the five workspace snapshot directory-operation sites (sase-1p5) | ✓ closed | small | 2026-10-29 | 1 | 1 |
-| [sase-1pm.4](sase-1pm.4.md) | Stop the TUI import-budget guard from re-breaking weekly (sase-1ic) | ✓ closed | medium | 2026-10-29 | 1 | 1 |
+| [sase-1pm.3](sase-1pm.3.md) | Review the five workspace snapshot directory-operation sites (sase-1p5) | ✓ closed | small | 2026-10-29 | 1 | 0 |
+| [sase-1pm.4](sase-1pm.4.md) | Stop the TUI import-budget guard from re-breaking weekly (sase-1ic) | ✓ closed | medium | 2026-10-29 | 1 | 0 |
 | [sase-1pm.5](sase-1pm.5.md) | Check the combined tree before pushing a rebased stitch (sase-1cb) | ◐ in_progress | large | 2026-10-29 | 1 | 0 |
 
 ## Lineage
@@ -44,7 +44,7 @@ flowchart TD
     n4["sase-1pm.4: Stop the TUI import-budget guard from re-breaking weekly (sase-1ic) [closed]"]
     n5["sase-1pm.5: Check the combined tree before pushing a rebased stitch (sase-1cb) [in_progress]"]
     n6["sase-1pm.5.1: Check rebased stitches before publication [in_progress]"]
-    n7["sase-1pm.5.1.1: Define the shared rebase gate contract in Rust [in_progress]"]
+    n7["sase-1pm.5.1.1: Define the shared rebase gate contract in Rust [closed]"]
     n8["sase-1pm.5.1.2: Execute configurable rebase hooks with a hard deadline [in_progress]"]
     n9["sase-1pm.5.1.3: Resolve changed-file first-party imports on the rebased tree [in_progress]"]
     n10["sase-1pm.5.1.4: Gate initial rebases, push retries, and checkpoint resumes [in_progress]"]
@@ -68,12 +68,12 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1pm.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pm.1/README.md) | [sase-1pm.1](sase-1pm.1.md) | 1 |
+| [bbugyi200.athena.sase-1pm.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pm.1/README.md) | [sase-1pm.1](sase-1pm.1.md) | 0 |
 | [bbugyi200.athena.sase-1pm.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pm.2.md) | [sase-1pm.2](sase-1pm.2.md) | 0 |
-| [bbugyi200.athena.sase-1pm.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pm.3/README.md) | [sase-1pm.3](sase-1pm.3.md) | 1 |
-| [bbugyi200.athena.sase-1pm.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pm.4.md) | [sase-1pm.4](sase-1pm.4.md) | 1 |
+| [bbugyi200.athena.sase-1pm.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pm.3/README.md) | [sase-1pm.3](sase-1pm.3.md) | 0 |
+| [bbugyi200.athena.sase-1pm.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pm.4.md) | [sase-1pm.4](sase-1pm.4.md) | 0 |
 | [bbugyi200.athena.sase-1pm.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pm.5.md) | [sase-1pm.5](sase-1pm.5.md) | 0 |
-| [bbugyi200.athena.sase-1pm.5.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pm.5.1.1/README.md) | [sase-1pm.5.1.1](sase-1pm.5.1.1.md) | 0 |
+| [bbugyi200.athena.sase-1pm.5.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pm.5.1.1/README.md) | [sase-1pm.5.1.1](sase-1pm.5.1.1.md) | 1 |
 | [bbugyi200.athena.sase-1pm.5.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pm.5.1.2/README.md) | [sase-1pm.5.1.2](sase-1pm.5.1.2.md) | 0 |
 | [bbugyi200.athena.sase-1pm.5.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pm.5.1.3/README.md) | [sase-1pm.5.1.3](sase-1pm.5.1.3.md) | 0 |
 | [bbugyi200.athena.sase-1pm.5.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pm.5.1.4/README.md) | [sase-1pm.5.1.4](sase-1pm.5.1.4.md) | 0 |
@@ -84,6 +84,4 @@ flowchart TD
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| sase | [`4d22cee`](https://github.com/sase-org/sase/commit/4d22ceefa597e5251336dd4c437c534a7bb0c313) | test: audit workspace snapshot directory operations | [sase-1pm.3](sase-1pm.3.md) | 2026-10-29 02:32:03 EDT |
-| sase | [`2456160`](https://github.com/sase-org/sase/commit/24561602cc26a699f7994496006e7fefa4fbf176) | fix(tui): ratchet first-party TUI import budget instead of total modules | [sase-1pm.4](sase-1pm.4.md) | 2026-10-29 02:51:48 EDT |
-| sase | [`45ded07`](https://github.com/sase-org/sase/commit/45ded07c148fd583e089f7b3f22f10ff0fe0272a) | fix(monitor): accept production SHA result markers as successful receipts | [sase-1pm.1](sase-1pm.1.md) | 2026-10-29 03:24:15 EDT |
+| sase-core | [`sase-core@60fe51d`](https://github.com/sase-org/sase-core/commit/60fe51d627a6b5df57511d9d9f0388ec39ddc4b7) | feat(vcs): add rebase gate policy bindings | [sase-1pm.5.1.1](sase-1pm.5.1.1.md) | 2026-10-29 03:37:24 EDT |

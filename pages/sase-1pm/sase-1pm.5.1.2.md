@@ -13,7 +13,7 @@ gate-runner: implement project-scoped configuration, bounded process execution a
 
 ## Dependencies
 
-- **Depends on:** [sase-1pm.5.1.1](sase-1pm.5.1.1.md) ◐ · ⧖ 2026-10-29
+- **Depends on:** [sase-1pm.5.1.1](sase-1pm.5.1.1.md) ✓ · ⧖ 2026-10-29
 - **Blocks:** [sase-1pm.5.1.4](sase-1pm.5.1.4.md) ◐ · ⧖ 2026-10-29
 
 ## Agents

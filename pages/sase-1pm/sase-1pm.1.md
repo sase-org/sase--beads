@@ -23,10 +23,16 @@ receipt: accept the SHA results write_result_marker actually writes, so passing 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1pm.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pm.1/README.md) | [sase-1pm.1](sase-1pm.1.md) | 1 |
+| [bbugyi200.athena.sase-1pm.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pm.1/README.md) | [sase-1pm.1](sase-1pm.1.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase | [`45ded07`](https://github.com/sase-org/sase/commit/45ded07c148fd583e089f7b3f22f10ff0fe0272a) | fix(monitor): accept production SHA result markers as successful receipts | [sase-1pm.1](sase-1pm.1.md) | 2026-10-29 03:24:15 EDT |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pm.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pm.1/README.md
+
+<!-- sase:referenced-by:end -->
