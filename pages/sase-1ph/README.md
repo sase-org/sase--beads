@@ -15,8 +15,8 @@ Every source change that a land or closeout agent made and then lost by ending i
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-1ph.1](sase-1ph.1.md) | Restore the lost sase-core ToolRun contention and quarantine fix (sase-1p6) | ◐ in_progress | small | 2026-10-28 | 1 | 0 |
-| [sase-1ph.2](sase-1ph.2.md) | Restore the lost sase flake-baseline reconciliation | ✓ closed | medium | 2026-10-28 | 1 | 1 |
+| [sase-1ph.1](sase-1ph.1.md) | Restore the lost sase-core ToolRun contention and quarantine fix (sase-1p6) | ✓ closed | small | 2026-10-28 | 1 | 1 |
+| [sase-1ph.2](sase-1ph.2.md) | Restore the lost sase flake-baseline reconciliation | ✓ closed | medium | 2026-10-28 | 1 | 0 |
 | [sase-1ph.3](sase-1ph.3.md) | Re-implement nested committed-plan validation read context in sase | ◐ in_progress | medium | 2026-10-28 | 1 | 0 |
 | [sase-1ph.4](sase-1ph.4.md) | Restore bob-cli's manual-heading-number predicate fix | ✓ closed | small | 2026-10-28 | 1 | 0 |
 | [sase-1ph.5](sase-1ph.5.md) | Port bob-cli's lost theme-rename trailing-whitespace verifier fix | ◐ in_progress | medium | 2026-10-28 | 1 | 0 |
@@ -26,7 +26,7 @@ Every source change that a land or closeout agent made and then lost by ending i
 ```mermaid
 flowchart TD
     n0["sase-1ph: Recover the edits lost across epic-plan handoffs on 2026-10-27/28 [in_progress]"]
-    n1["sase-1ph.1: Restore the lost sase-core ToolRun contention and quarantine fix (sase-1p6) [in_progress]"]
+    n1["sase-1ph.1: Restore the lost sase-core ToolRun contention and quarantine fix (sase-1p6) [closed]"]
     n2["sase-1ph.2: Restore the lost sase flake-baseline reconciliation [closed]"]
     n3["sase-1ph.3: Re-implement nested committed-plan validation read context in sase [in_progress]"]
     n4["sase-1ph.4: Restore bob-cli's manual-heading-number predicate fix [closed]"]
@@ -42,8 +42,8 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1ph.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ph.1/README.md) | [sase-1ph.1](sase-1ph.1.md) | 0 |
-| [bbugyi200.athena.sase-1ph.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ph.2/README.md) | [sase-1ph.2](sase-1ph.2.md) | 1 |
+| [bbugyi200.athena.sase-1ph.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ph.1/README.md) | [sase-1ph.1](sase-1ph.1.md) | 1 |
+| [bbugyi200.athena.sase-1ph.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ph.2/README.md) | [sase-1ph.2](sase-1ph.2.md) | 0 |
 | [bbugyi200.athena.sase-1ph.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ph.3/README.md) | [sase-1ph.3](sase-1ph.3.md) | 0 |
 | [bbugyi200.athena.sase-1ph.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ph.4/README.md) | [sase-1ph.4](sase-1ph.4.md) | 0 |
 | [bbugyi200.athena.sase-1ph.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ph.5/README.md) | [sase-1ph.5](sase-1ph.5.md) | 0 |
@@ -53,4 +53,16 @@ flowchart TD
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| sase | [`df0070b`](https://github.com/sase-org/sase/commit/df0070b0aab3fffbeaf585ffa6c6804876fa31fd) | test(flake-baseline): restore lost sase-1ou landing reconciliation | [sase-1ph.2](sase-1ph.2.md) | 2026-10-28 20:24:06 EDT |
+| sase-core | [`sase-core@df14e8f`](https://github.com/sase-org/sase-core/commit/df14e8f4386bc64f6614ad48cf0de19026a8cd18) | fix(tool\_run): owe every call one store open and recreate after quarantine | [sase-1ph.1](sase-1ph.1.md) | 2026-10-28 20:32:43 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ph.2][1] | epic context | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ph.2/README.md
+
+<!-- sase:referenced-by:end -->
