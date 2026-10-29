@@ -52,13 +52,19 @@ flowchart TD
     n6["sase-1pj.1.1.4: Enable staged plan proposals and dual-state instructions [closed]"]
     n7["sase-1pj.1.1.5: Verify commit-before-approval and failure isolation [closed]"]
     n8["sase-1pj.2: Handoff descriptor and carry disposition in the finalizer wire [in_progress]"]
-    n9["sase-1pj.3: Stage questions and pipe handoffs [in_progress]"]
-    n10["sase-1pj.4: Stage gate, sudo, launch, run, and workflow HITL gates [in_progress]"]
-    n11["sase-1pj.5: Stage monitor starts and spawn after finalization [in_progress]"]
-    n12["sase-1pj.6: Idempotent adoption, crash reconciliation, and re-adopt [in_progress]"]
-    n13["sase-1pj.7: Hold workspaces whose carried work has no successor [in_progress]"]
-    n14["sase-1pj.8: Remove the flag and the kill-path machinery [in_progress]"]
-    n15["sase-1pj.9: Final skills, docs, and memory [in_progress]"]
+    n9["sase-1pj.2.1: Handoff context and carried repository completion [in_progress]"]
+    n10["sase-1pj.2.1.1: Rust handoff and repository disposition contracts [closed]"]
+    n11["sase-1pj.2.1.2: Execute explicit carry decisions and reach a fixed point [in_progress]"]
+    n12["sase-1pj.2.1.3: Publish staged context and synthesize default carry [in_progress]"]
+    n13["sase-1pj.2.1.4: Protect prepared monitor work through starter finalization [in_progress]"]
+    n14["sase-1pj.2.1.5: Adopt carried work with durable successor custody [in_progress]"]
+    n15["sase-1pj.3: Stage questions and pipe handoffs [in_progress]"]
+    n16["sase-1pj.4: Stage gate, sudo, launch, run, and workflow HITL gates [in_progress]"]
+    n17["sase-1pj.5: Stage monitor starts and spawn after finalization [in_progress]"]
+    n18["sase-1pj.6: Idempotent adoption, crash reconciliation, and re-adopt [in_progress]"]
+    n19["sase-1pj.7: Hold workspaces whose carried work has no successor [in_progress]"]
+    n20["sase-1pj.8: Remove the flag and the kill-path machinery [in_progress]"]
+    n21["sase-1pj.9: Final skills, docs, and memory [in_progress]"]
     n0 --> n1
     n1 --> n2
     n2 --> n3
@@ -67,35 +73,45 @@ flowchart TD
     n2 --> n6
     n2 --> n7
     n0 --> n8
-    n0 --> n9
-    n0 --> n10
-    n0 --> n11
-    n0 --> n12
-    n0 --> n13
-    n0 --> n14
+    n8 --> n9
+    n9 --> n10
+    n9 --> n11
+    n9 --> n12
+    n9 --> n13
+    n9 --> n14
     n0 --> n15
+    n0 --> n16
+    n0 --> n17
+    n0 --> n18
+    n0 --> n19
+    n0 --> n20
+    n0 --> n21
     n1 -.-> n8
-    n1 -.-> n9
-    n1 -.-> n10
-    n1 -.-> n11
-    n1 -.-> n12
+    n1 -.-> n15
+    n1 -.-> n16
+    n1 -.-> n17
+    n1 -.-> n18
     n3 -.-> n4
     n4 -.-> n5
     n5 -.-> n6
     n6 -.-> n7
-    n8 -.-> n9
-    n8 -.-> n10
-    n8 -.-> n11
-    n8 -.-> n13
-    n9 -.-> n12
-    n9 -.-> n13
-    n10 -.-> n12
-    n10 -.-> n13
+    n8 -.-> n15
+    n8 -.-> n16
+    n8 -.-> n17
+    n8 -.-> n19
+    n10 -.-> n11
     n11 -.-> n12
-    n11 -.-> n13
-    n12 -.-> n14
+    n12 -.-> n13
     n13 -.-> n14
-    n14 -.-> n15
+    n15 -.-> n18
+    n15 -.-> n19
+    n16 -.-> n18
+    n16 -.-> n19
+    n17 -.-> n18
+    n17 -.-> n19
+    n18 -.-> n20
+    n19 -.-> n20
+    n20 -.-> n21
 ```
 
 ## Agents
@@ -109,7 +125,13 @@ flowchart TD
 | [bbugyi200.athena.sase-1pj.1.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.1.1.4.md) | [sase-1pj.1.1.4](sase-1pj.1.1.4.md) | 1 |
 | [bbugyi200.athena.sase-1pj.1.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.1.1.5/README.md) | [sase-1pj.1.1.5](sase-1pj.1.1.5.md) | 1 |
 | [bbugyi200.athena.sase-1pj.1.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.1.1.land.md) | [sase-1pj.1.1](sase-1pj.1.1.md) | 2 |
-| [bbugyi200.athena.sase-1pj.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.2/README.md) | [sase-1pj.2](sase-1pj.2.md) | 0 |
+| [bbugyi200.athena.sase-1pj.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.2.md) | [sase-1pj.2](sase-1pj.2.md) | 0 |
+| [bbugyi200.athena.sase-1pj.2.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.2.1.1.md) | [sase-1pj.2.1.1](sase-1pj.2.1.1.md) | 1 |
+| [bbugyi200.athena.sase-1pj.2.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.2.1.2/README.md) | [sase-1pj.2.1.2](sase-1pj.2.1.2.md) | 0 |
+| [bbugyi200.athena.sase-1pj.2.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.2.1.3/README.md) | [sase-1pj.2.1.3](sase-1pj.2.1.3.md) | 0 |
+| [bbugyi200.athena.sase-1pj.2.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.2.1.4/README.md) | [sase-1pj.2.1.4](sase-1pj.2.1.4.md) | 0 |
+| [bbugyi200.athena.sase-1pj.2.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.2.1.5/README.md) | [sase-1pj.2.1.5](sase-1pj.2.1.5.md) | 0 |
+| [bbugyi200.athena.sase-1pj.2.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.2.1.land/README.md) | [sase-1pj.2.1](sase-1pj.2.1.md) | 0 |
 | [bbugyi200.athena.sase-1pj.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.3/README.md) | [sase-1pj.3](sase-1pj.3.md) | 0 |
 | [bbugyi200.athena.sase-1pj.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4/README.md) | [sase-1pj.4](sase-1pj.4.md) | 0 |
 | [bbugyi200.athena.sase-1pj.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.5/README.md) | [sase-1pj.5](sase-1pj.5.md) | 0 |
@@ -132,6 +154,7 @@ flowchart TD
 | sase | [`cc32e69`](https://github.com/sase-org/sase/commit/cc32e69dbbf5ba106c585291f84fe96f2d389844) | test(plan): prove staged commit-before-approval acceptance matrix | [sase-1pj.1.1.5](sase-1pj.1.1.5.md) | 2026-10-29 04:31:20 EDT |
 | sase | [`894317d`](https://github.com/sase-org/sase/commit/894317dccd7214c99e7440f6653789f4b97fa5e4) | feat(plan): land staged plan-handoff foundation (sase-1pj.1.1) | [sase-1pj.1.1](sase-1pj.1.1.md) | 2026-10-29 05:39:49 EDT |
 | sase--plans | [`sase--plans@71cfd8e`](https://github.com/sase-org/sase--plans/commit/71cfd8e5c53269447ee862449716f8ac48106c47) | docs(plans): mark staged\_plan\_foundation.md done after sase-1pj.1.1 landing | [sase-1pj.1.1](sase-1pj.1.1.md) | 2026-10-29 05:41:51 EDT |
+| sase-core | [`sase-core@24e160d`](https://github.com/sase-org/sase-core/commit/24e160d1b99b107475efd47e791ea3597376c1e8) | feat(core-policy): add handoff disposition and prepared-coverage predicates with bindings | [sase-1pj.2.1.1](sase-1pj.2.1.1.md) | 2026-10-29 07:24:12 EDT |
 
 <!-- sase:referenced-by:start -->
 
