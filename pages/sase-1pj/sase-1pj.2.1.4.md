@@ -20,7 +20,7 @@ prepared-bridge: connect staged monitor intent reservation/binding facts to the 
 ## Dependencies
 
 - **Depends on:** [sase-1pj.2.1.3](sase-1pj.2.1.3.md) ✓ · ⧖ 2026-10-29
-- **Blocks:** [sase-1pj.2.1.5](sase-1pj.2.1.5.md) ◐ · ⧖ 2026-10-29
+- **Blocks:** [sase-1pj.2.1.5](sase-1pj.2.1.5.md) ✓ · ⧖ 2026-10-29
 
 ## Agents
 
@@ -33,3 +33,15 @@ prepared-bridge: connect staged monitor intent reservation/binding facts to the 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`d30932e`](https://github.com/sase-org/sase/commit/d30932ec877a0407f175d4a6f2904a979ca0ba65) | feat(finalizer): protect prepared monitor work through starter finalization | [sase-1pj.2.1.4](sase-1pj.2.1.4.md) | 2026-10-29 12:26:55 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pj.2.1.4][1] | Confirm phase status before final submit | 4 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.2.1.4/README.md
+
+<!-- sase:referenced-by:end -->

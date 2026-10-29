@@ -57,7 +57,7 @@ flowchart TD
     n11["sase-1pj.2.1.2: Execute explicit carry decisions and reach a fixed point [closed]"]
     n12["sase-1pj.2.1.3: Publish staged context and synthesize default carry [closed]"]
     n13["sase-1pj.2.1.4: Protect prepared monitor work through starter finalization [closed]"]
-    n14["sase-1pj.2.1.5: Adopt carried work with durable successor custody [in_progress]"]
+    n14["sase-1pj.2.1.5: Adopt carried work with durable successor custody [closed]"]
     n15["sase-1pj.3: Stage questions and pipe handoffs [in_progress]"]
     n16["sase-1pj.4: Stage gate, sudo, launch, run, and workflow HITL gates [in_progress]"]
     n17["sase-1pj.5: Stage monitor starts and spawn after finalization [in_progress]"]
@@ -130,7 +130,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1pj.2.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.2.1.2/README.md) | [sase-1pj.2.1.2](sase-1pj.2.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1pj.2.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.2.1.3/README.md) | [sase-1pj.2.1.3](sase-1pj.2.1.3.md) | 2 |
 | [bbugyi200.athena.sase-1pj.2.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.2.1.4/README.md) | [sase-1pj.2.1.4](sase-1pj.2.1.4.md) | 1 |
-| [bbugyi200.athena.sase-1pj.2.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.2.1.5/README.md) | [sase-1pj.2.1.5](sase-1pj.2.1.5.md) | 0 |
+| [bbugyi200.athena.sase-1pj.2.1.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.2.1.5.md) | [sase-1pj.2.1.5](sase-1pj.2.1.5.md) | 1 |
 | [bbugyi200.athena.sase-1pj.2.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.2.1.land/README.md) | [sase-1pj.2.1](sase-1pj.2.1.md) | 0 |
 | [bbugyi200.athena.sase-1pj.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.3/README.md) | [sase-1pj.3](sase-1pj.3.md) | 0 |
 | [bbugyi200.athena.sase-1pj.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4/README.md) | [sase-1pj.4](sase-1pj.4.md) | 0 |
@@ -160,6 +160,7 @@ flowchart TD
 | sase-core | [`sase-core@7a5b215`](https://github.com/sase-org/sase-core/commit/7a5b215f49c561f4ce2db15b093276685fb8fce8) | fix(finalizer): accept optional dirty commit payloads for carry | [sase-1pj.2.1.3](sase-1pj.2.1.3.md) | 2026-10-29 10:38:24 EDT |
 | sase | [`89c40e3`](https://github.com/sase-org/sase/commit/89c40e30b004255e71f678dfe5b90f5741afca02) | feat(finalizer): synthesize staged handoff carry | [sase-1pj.2.1.3](sase-1pj.2.1.3.md) | 2026-10-29 11:07:47 EDT |
 | sase | [`d30932e`](https://github.com/sase-org/sase/commit/d30932ec877a0407f175d4a6f2904a979ca0ba65) | feat(finalizer): protect prepared monitor work through starter finalization | [sase-1pj.2.1.4](sase-1pj.2.1.4.md) | 2026-10-29 12:26:55 EDT |
+| sase | [`d8706bd`](https://github.com/sase-org/sase/commit/d8706bda929c5a274ce3036800e78be2230f4b31) | feat(staged): adopt carried work with durable successor custody | [sase-1pj.2.1.5](sase-1pj.2.1.5.md) | 2026-10-29 13:34:12 EDT |
 
 <!-- sase:referenced-by:start -->
 
