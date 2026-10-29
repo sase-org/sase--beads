@@ -19,4 +19,22 @@ core-contention: apply the replayed sase-1ou.land patch to sase-core (contention
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1ph.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ph.1/README.md) | [sase-1ph.1](sase-1ph.1.md) | 0 |
+| [bbugyi200.athena.sase-1ph.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ph.1/README.md) | [sase-1ph.1](sase-1ph.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase-core | [`sase-core@df14e8f`](https://github.com/sase-org/sase-core/commit/df14e8f4386bc64f6614ad48cf0de19026a8cd18) | fix(tool\_run): owe every call one store open and recreate after quarantine | [sase-1ph.1](sase-1ph.1.md) | 2026-10-28 20:32:43 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ph.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ph.1/README.md
+
+<!-- sase:referenced-by:end -->

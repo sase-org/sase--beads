@@ -19,7 +19,13 @@ flake-baseline: apply the replayed sase-1ou.land edit to tests/reproducible_flak
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1ph.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ph.2/README.md) | [sase-1ph.2](sase-1ph.2.md) | 0 |
+| [bbugyi200.athena.sase-1ph.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ph.2/README.md) | [sase-1ph.2](sase-1ph.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`df0070b`](https://github.com/sase-org/sase/commit/df0070b0aab3fffbeaf585ffa6c6804876fa31fd) | test(flake-baseline): restore lost sase-1ou landing reconciliation | [sase-1ph.2](sase-1ph.2.md) | 2026-10-28 20:24:06 EDT |
 
 <!-- sase:referenced-by:start -->
 
