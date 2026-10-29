@@ -35,13 +35,14 @@ Complete sase-1pj.1 so flag-enabled plan proposals preserve edits and publish ap
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1pj.1.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.1.1.land.md) | [sase-1pj.1.1](sase-1pj.1.1.md) | 1 |
+| [bbugyi200.athena.sase-1pj.1.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.1.1.land.md) | [sase-1pj.1.1](sase-1pj.1.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`894317d`](https://github.com/sase-org/sase/commit/894317dccd7214c99e7440f6653789f4b97fa5e4) | feat(plan): land staged plan-handoff foundation (sase-1pj.1.1) | [sase-1pj.1.1](sase-1pj.1.1.md) | 2026-10-29 05:39:49 EDT |
+| sase--plans | [`sase--plans@71cfd8e`](https://github.com/sase-org/sase--plans/commit/71cfd8e5c53269447ee862449716f8ac48106c47) | docs(plans): mark staged\_plan\_foundation.md done after sase-1pj.1.1 landing | [sase-1pj.1.1](sase-1pj.1.1.md) | 2026-10-29 05:41:51 EDT |
 
 <!-- sase:referenced-by:start -->
 
