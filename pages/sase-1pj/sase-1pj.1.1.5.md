@@ -13,7 +13,7 @@ acceptance-matrix: prove primary-plus-linked repository ordering, declaration re
 
 ## Dependencies
 
-- **Depends on:** [sase-1pj.1.1.4](sase-1pj.1.1.4.md) ◐ · ⧖ 2026-10-28
+- **Depends on:** [sase-1pj.1.1.4](sase-1pj.1.1.4.md) ✓ · ⧖ 2026-10-28
 
 ## Agents
 
