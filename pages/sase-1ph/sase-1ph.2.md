@@ -34,7 +34,9 @@ flake-baseline: apply the replayed sase-1ou.land edit to tests/reproducible_flak
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1ph.2][1] | phase scope | 2 |
+| read-by | [agent:sase-1ph.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ph.2/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ph.land/README.md
 
 <!-- sase:referenced-by:end -->

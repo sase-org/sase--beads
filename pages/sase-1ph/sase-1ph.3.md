@@ -36,7 +36,9 @@ nested-plans-validation: make validate_committed_plans resolve a repo-open neste
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1ph.3][1] | Need the phase scope and design file; check prior notes before planning | 1 |
+| read-by | [agent:sase-1ph.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ph.3/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ph.land/README.md
 
 <!-- sase:referenced-by:end -->

@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/recover_handoff_lost_edits.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/recover_handoff_lost_edits.md
 
@@ -65,7 +65,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1ph.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ph.3/README.md) | [sase-1ph.3](sase-1ph.3.md) | 1 |
 | [bbugyi200.athena.sase-1ph.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ph.4/README.md) | [sase-1ph.4](sase-1ph.4.md) | 0 |
 | [bbugyi200.athena.sase-1ph.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ph.5/README.md) | [sase-1ph.5](sase-1ph.5.md) | 0 |
-| [bbugyi200.athena.sase-1ph.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ph.land/README.md) | [sase-1ph](README.md) | 0 |
+| [bbugyi200.athena.sase-1ph.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ph.land/README.md) | [sase-1ph](README.md) | 1 |
 
 ## Commits
 
@@ -74,6 +74,7 @@ flowchart TD
 | sase | [`df0070b`](https://github.com/sase-org/sase/commit/df0070b0aab3fffbeaf585ffa6c6804876fa31fd) | test(flake-baseline): restore lost sase-1ou landing reconciliation | [sase-1ph.2](sase-1ph.2.md) | 2026-10-28 20:24:06 EDT |
 | sase-core | [`sase-core@df14e8f`](https://github.com/sase-org/sase-core/commit/df14e8f4386bc64f6614ad48cf0de19026a8cd18) | fix(tool\_run): owe every call one store open and recreate after quarantine | [sase-1ph.1](sase-1ph.1.md) | 2026-10-28 20:32:43 EDT |
 | sase | [`60a4fe8`](https://github.com/sase-org/sase/commit/60a4fe8a927234bec6b40210215f1ea9831c76bc) | fix(sdd): resolve nested checkout plan roots | [sase-1ph.3](sase-1ph.3.md) | 2026-10-28 21:44:44 EDT |
+| sase--plans | [`sase--plans@6a9f7a9`](https://github.com/sase-org/sase--plans/commit/6a9f7a96e29baf30faa04eda4d2f930c11ede7cf) | chore(plans): mark recover\_handoff\_lost\_edits done | [sase-1ph](README.md) | 2026-10-28 22:53:12 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -83,8 +84,10 @@ flowchart TD
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1ph.1][1] | epic context | 1 |
 | read-by | [agent:sase-1ph.2][2] | epic context | 1 |
+| read-by | [agent:sase-1ph.land][3] | Need the epic scope, children, and linked plan file | 3 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ph.1/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ph.2/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ph.land/README.md
 
 <!-- sase:referenced-by:end -->

@@ -20,3 +20,15 @@ rename-verifier: reproduce, then port onto current master, the lost bob-cli-dd.l
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1ph.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ph.5/README.md) | [sase-1ph.5](sase-1ph.5.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ph.land][1] | Need the child scope and notes | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ph.land/README.md
+
+<!-- sase:referenced-by:end -->
