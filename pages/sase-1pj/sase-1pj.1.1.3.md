@@ -28,10 +28,23 @@ failure-boundaries: finalize staged turns after provider failures without retryi
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1pj.1.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.1.1.3.md) | [sase-1pj.1.1.3](sase-1pj.1.1.3.md) | 1 |
+| [bbugyi200.athena.sase-1pj.1.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.1.1.3.md) | [sase-1pj.1.1.3](sase-1pj.1.1.3.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@751bba5`](https://github.com/sase-org/sase-core/commit/751bba5ff80b21cfd41e28677fee63926bdfe615) | feat(stranded): own staged handoffs and held receipts as handoff | [sase-1pj.1.1.3](sase-1pj.1.1.3.md) | 2026-10-29 01:50:31 EDT |
+| sase | [`0f73623`](https://github.com/sase-org/sase/commit/0f7362359115682e59f9f8b96e4c2ea67abe3198) | feat(handoff): finalize staged turns after provider failures without retrying ordinary work | [sase-1pj.1.1.3](sase-1pj.1.1.3.md) | 2026-10-29 01:58:19 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pj.1.1.3--1][1] | check remaining work and design | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.1.1.3.md
+
+<!-- sase:referenced-by:end -->

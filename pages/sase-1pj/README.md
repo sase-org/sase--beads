@@ -105,7 +105,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1pj.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.1.md) | [sase-1pj.1](sase-1pj.1.md) | 0 |
 | [bbugyi200.athena.sase-1pj.1.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.1.1.1/README.md) | [sase-1pj.1.1.1](sase-1pj.1.1.1.md) | 2 |
 | [bbugyi200.athena.sase-1pj.1.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.1.1.2/README.md) | [sase-1pj.1.1.2](sase-1pj.1.1.2.md) | 1 |
-| [bbugyi200.athena.sase-1pj.1.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.1.1.3.md) | [sase-1pj.1.1.3](sase-1pj.1.1.3.md) | 1 |
+| [bbugyi200.athena.sase-1pj.1.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.1.1.3.md) | [sase-1pj.1.1.3](sase-1pj.1.1.3.md) | 2 |
 | [bbugyi200.athena.sase-1pj.1.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.1.1.4/README.md) | [sase-1pj.1.1.4](sase-1pj.1.1.4.md) | 0 |
 | [bbugyi200.athena.sase-1pj.1.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.1.1.5/README.md) | [sase-1pj.1.1.5](sase-1pj.1.1.5.md) | 0 |
 | [bbugyi200.athena.sase-1pj.1.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.1.1.land/README.md) | [sase-1pj.1.1](sase-1pj.1.1.md) | 0 |
@@ -127,6 +127,7 @@ flowchart TD
 | sase | [`06cd630`](https://github.com/sase-org/sase/commit/06cd630543ab655702474cb75b8f394e6c39cafb) | feat(handoff): add staged-handoff storage, guards, and staged\_handoffs flag | [sase-1pj.1.1.1](sase-1pj.1.1.1.md) | 2026-10-28 23:37:51 EDT |
 | sase | [`dd59c28`](https://github.com/sase-org/sase/commit/dd59c28f44c7e5fc83cc75188ca58b710d4f32f7) | feat(handoff): adopt staged plans after finalizer settlement | [sase-1pj.1.1.2](sase-1pj.1.1.2.md) | 2026-10-29 00:38:34 EDT |
 | sase-core | [`sase-core@751bba5`](https://github.com/sase-org/sase-core/commit/751bba5ff80b21cfd41e28677fee63926bdfe615) | feat(stranded): own staged handoffs and held receipts as handoff | [sase-1pj.1.1.3](sase-1pj.1.1.3.md) | 2026-10-29 01:50:31 EDT |
+| sase | [`0f73623`](https://github.com/sase-org/sase/commit/0f7362359115682e59f9f8b96e4c2ea67abe3198) | feat(handoff): finalize staged turns after provider failures without retrying ordinary work | [sase-1pj.1.1.3](sase-1pj.1.1.3.md) | 2026-10-29 01:58:19 EDT |
 
 <!-- sase:referenced-by:start -->
 
