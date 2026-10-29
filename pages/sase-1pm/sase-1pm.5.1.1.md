@@ -19,8 +19,8 @@ gate-policy: implement shared gate policy in sase-core, expose and test its Pyth
 
 ## Dependencies
 
-- **Blocks:** [sase-1pm.5.1.2](sase-1pm.5.1.2.md) ◐ · ⧖ 2026-10-29
-- **Blocks:** [sase-1pm.5.1.3](sase-1pm.5.1.3.md) ◐ · ⧖ 2026-10-29
+- **Blocks:** [sase-1pm.5.1.2](sase-1pm.5.1.2.md) ✓ · ⧖ 2026-10-29
+- **Blocks:** [sase-1pm.5.1.3](sase-1pm.5.1.3.md) ○ · ⧖ 2026-10-29
 
 ## Agents
 

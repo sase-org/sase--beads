@@ -45,8 +45,8 @@ flowchart TD
     n5["sase-1pm.5: Check the combined tree before pushing a rebased stitch (sase-1cb) [in_progress]"]
     n6["sase-1pm.5.1: Check rebased stitches before publication [in_progress]"]
     n7["sase-1pm.5.1.1: Define the shared rebase gate contract in Rust [closed]"]
-    n8["sase-1pm.5.1.2: Execute configurable rebase hooks with a hard deadline [in_progress]"]
-    n9["sase-1pm.5.1.3: Resolve changed-file first-party imports on the rebased tree [in_progress]"]
+    n8["sase-1pm.5.1.2: Execute configurable rebase hooks with a hard deadline [closed]"]
+    n9["sase-1pm.5.1.3: Resolve changed-file first-party imports on the rebased tree [open]"]
     n10["sase-1pm.5.1.4: Gate initial rebases, push retries, and checkpoint resumes [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -74,8 +74,8 @@ flowchart TD
 | [bbugyi200.athena.sase-1pm.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pm.4.md) | [sase-1pm.4](sase-1pm.4.md) | 1 |
 | [bbugyi200.athena.sase-1pm.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pm.5.md) | [sase-1pm.5](sase-1pm.5.md) | 0 |
 | [bbugyi200.athena.sase-1pm.5.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pm.5.1.1/README.md) | [sase-1pm.5.1.1](sase-1pm.5.1.1.md) | 2 |
-| [bbugyi200.athena.sase-1pm.5.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pm.5.1.2/README.md) | [sase-1pm.5.1.2](sase-1pm.5.1.2.md) | 0 |
-| [bbugyi200.athena.sase-1pm.5.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pm.5.1.3/README.md) | [sase-1pm.5.1.3](sase-1pm.5.1.3.md) | 0 |
+| [bbugyi200.athena.sase-1pm.5.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pm.5.1.2.md) | [sase-1pm.5.1.2](sase-1pm.5.1.2.md) | 1 |
+| [bbugyi200.athena.sase-1pm.5.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pm.5.1.3.md) | [sase-1pm.5.1.3](sase-1pm.5.1.3.md) | 0 |
 | [bbugyi200.athena.sase-1pm.5.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pm.5.1.4/README.md) | [sase-1pm.5.1.4](sase-1pm.5.1.4.md) | 0 |
 | [bbugyi200.athena.sase-1pm.5.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pm.5.1.land/README.md) | [sase-1pm.5.1](sase-1pm.5.1.md) | 0 |
 | [bbugyi200.athena.sase-1pm.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pm.land/README.md) | [sase-1pm](README.md) | 0 |
@@ -89,3 +89,4 @@ flowchart TD
 | sase | [`45ded07`](https://github.com/sase-org/sase/commit/45ded07c148fd583e089f7b3f22f10ff0fe0272a) | fix(monitor): accept production SHA result markers as successful receipts | [sase-1pm.1](sase-1pm.1.md) | 2026-10-29 03:24:15 EDT |
 | sase-core | [`sase-core@60fe51d`](https://github.com/sase-org/sase-core/commit/60fe51d627a6b5df57511d9d9f0388ec39ddc4b7) | feat(vcs): add rebase gate policy bindings | [sase-1pm.5.1.1](sase-1pm.5.1.1.md) | 2026-10-29 03:37:24 EDT |
 | sase | [`c76fee2`](https://github.com/sase-org/sase/commit/c76fee2af11dfbad7cb57de9b670b02791b62bc0) | feat(core): add typed rebase gate facade | [sase-1pm.5.1.1](sase-1pm.5.1.1.md) | 2026-10-29 03:42:03 EDT |
+| sase | [`bb5653c`](https://github.com/sase-org/sase/commit/bb5653cb7dcd7c75cab77ccaf9b6c3144db10ca2) | feat(commit): add configurable rebase gate runner with hard deadline | [sase-1pm.5.1.2](sase-1pm.5.1.2.md) | 2026-10-29 05:13:42 EDT |
