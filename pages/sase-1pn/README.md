@@ -29,7 +29,7 @@ The five next-costliest open task beads (sase-163, sase-1p9, sase-o7, sase-1cs, 
 |---|---|---|---|---|---:|---:|
 | [sase-1pn.1](sase-1pn.1.md) | Refuse cross-session messages into SASE Claude agents (sase-163) | ✓ closed | small | 2026-10-29 | 1 | 1 |
 | [sase-1pn.2](sase-1pn.2.md) | Stop a preservation refusal from poisoning its workspace slot (sase-1p9) | ◐ in_progress | medium | 2026-10-29 | 1 | 0 |
-| [sase-1pn.3](sase-1pn.3.md) | Make the epic close guard see upstream --epic-symbol rows (sase-o7) | ○ open | medium | 2026-10-29 | 1 | 0 |
+| [sase-1pn.3](sase-1pn.3.md) | Make the epic close guard see upstream --epic-symbol rows (sase-o7) | ✓ closed | medium | 2026-10-29 | 1 | 1 |
 | [sase-1pn.4](sase-1pn.4.md) | Make the dev toolchain deterministic across CI and workspaces (sase-1cs, sase-vr) | ✓ closed | medium | 2026-10-29 | 1 | 1 |
 
 ## Lineage
@@ -39,7 +39,7 @@ flowchart TD
     n0["sase-1pn: Task-bead backlog epic 2: agent isolation, poisoned slots, close guards, and toolchain drift [in_progress]"]
     n1["sase-1pn.1: Refuse cross-session messages into SASE Claude agents (sase-163) [closed]"]
     n2["sase-1pn.2: Stop a preservation refusal from poisoning its workspace slot (sase-1p9) [in_progress]"]
-    n3["sase-1pn.3: Make the epic close guard see upstream --epic-symbol rows (sase-o7) [open]"]
+    n3["sase-1pn.3: Make the epic close guard see upstream --epic-symbol rows (sase-o7) [closed]"]
     n4["sase-1pn.4: Make the dev toolchain deterministic across CI and workspaces (sase-1cs, sase-vr) [closed]"]
     n0 --> n1
     n0 --> n2
@@ -53,7 +53,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-1pn.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pn.1/README.md) | [sase-1pn.1](sase-1pn.1.md) | 1 |
 | [bbugyi200.athena.sase-1pn.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pn.2/README.md) | [sase-1pn.2](sase-1pn.2.md) | 0 |
-| [bbugyi200.athena.sase-1pn.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pn.3/README.md) | [sase-1pn.3](sase-1pn.3.md) | 0 |
+| [bbugyi200.athena.sase-1pn.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pn.3.md) | [sase-1pn.3](sase-1pn.3.md) | 1 |
 | [bbugyi200.athena.sase-1pn.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pn.4/README.md) | [sase-1pn.4](sase-1pn.4.md) | 1 |
 | [bbugyi200.athena.sase-1pn.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pn.land/README.md) | [sase-1pn](README.md) | 0 |
 
@@ -63,3 +63,4 @@ flowchart TD
 |---|---|---|---|---|
 | sase | [`995c451`](https://github.com/sase-org/sase/commit/995c451c38eca0befedc61f7e4918b49a6c3d4f4) | chore(deps): pin dev toolchain versions | [sase-1pn.4](sase-1pn.4.md) | 2026-10-29 11:33:31 EDT |
 | sase | [`464125c`](https://github.com/sase-org/sase/commit/464125cfa6491523c3297a4584d565490534baa7) | fix(claude): isolate SASE agent sessions | [sase-1pn.1](sase-1pn.1.md) | 2026-10-29 11:55:46 EDT |
+| sase | [`8bea2e8`](https://github.com/sase-org/sase/commit/8bea2e84144a1a449b337c725a75b3c1c252cc8a) | feat(bead): include default-branch Justfile epic-symbol rows in close guard | [sase-1pn.3](sase-1pn.3.md) | 2026-10-29 12:26:49 EDT |
