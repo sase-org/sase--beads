@@ -50,7 +50,7 @@ flowchart TD
     n4["sase-1pj.1.1.2: Normal completion adoption and authentic planner chats [closed]"]
     n5["sase-1pj.1.1.3: Provider failure, failed finalization, and lifecycle boundaries [closed]"]
     n6["sase-1pj.1.1.4: Enable staged plan proposals and dual-state instructions [closed]"]
-    n7["sase-1pj.1.1.5: Verify commit-before-approval and failure isolation [in_progress]"]
+    n7["sase-1pj.1.1.5: Verify commit-before-approval and failure isolation [closed]"]
     n8["sase-1pj.2: Handoff descriptor and carry disposition in the finalizer wire [in_progress]"]
     n9["sase-1pj.3: Stage questions and pipe handoffs [in_progress]"]
     n10["sase-1pj.4: Stage gate, sudo, launch, run, and workflow HITL gates [in_progress]"]
@@ -107,7 +107,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1pj.1.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.1.1.2/README.md) | [sase-1pj.1.1.2](sase-1pj.1.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1pj.1.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.1.1.3.md) | [sase-1pj.1.1.3](sase-1pj.1.1.3.md) | 2 |
 | [bbugyi200.athena.sase-1pj.1.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.1.1.4.md) | [sase-1pj.1.1.4](sase-1pj.1.1.4.md) | 1 |
-| [bbugyi200.athena.sase-1pj.1.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.1.1.5/README.md) | [sase-1pj.1.1.5](sase-1pj.1.1.5.md) | 0 |
+| [bbugyi200.athena.sase-1pj.1.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.1.1.5/README.md) | [sase-1pj.1.1.5](sase-1pj.1.1.5.md) | 1 |
 | [bbugyi200.athena.sase-1pj.1.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.1.1.land/README.md) | [sase-1pj.1.1](sase-1pj.1.1.md) | 0 |
 | [bbugyi200.athena.sase-1pj.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.2/README.md) | [sase-1pj.2](sase-1pj.2.md) | 0 |
 | [bbugyi200.athena.sase-1pj.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.3/README.md) | [sase-1pj.3](sase-1pj.3.md) | 0 |
@@ -129,6 +129,7 @@ flowchart TD
 | sase-core | [`sase-core@751bba5`](https://github.com/sase-org/sase-core/commit/751bba5ff80b21cfd41e28677fee63926bdfe615) | feat(stranded): own staged handoffs and held receipts as handoff | [sase-1pj.1.1.3](sase-1pj.1.1.3.md) | 2026-10-29 01:50:31 EDT |
 | sase | [`0f73623`](https://github.com/sase-org/sase/commit/0f7362359115682e59f9f8b96e4c2ea67abe3198) | feat(handoff): finalize staged turns after provider failures without retrying ordinary work | [sase-1pj.1.1.3](sase-1pj.1.1.3.md) | 2026-10-29 01:58:19 EDT |
 | sase | [`9f88875`](https://github.com/sase-org/sase/commit/9f88875b989530ff8ed8171bcab2c891cc4e1323) | feat(plan): stage proposals after host finalization | [sase-1pj.1.1.4](sase-1pj.1.1.4.md) | 2026-10-29 03:29:31 EDT |
+| sase | [`cc32e69`](https://github.com/sase-org/sase/commit/cc32e69dbbf5ba106c585291f84fe96f2d389844) | test(plan): prove staged commit-before-approval acceptance matrix | [sase-1pj.1.1.5](sase-1pj.1.1.5.md) | 2026-10-29 04:31:20 EDT |
 
 <!-- sase:referenced-by:start -->
 

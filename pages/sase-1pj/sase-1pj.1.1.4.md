@@ -20,7 +20,7 @@ proposal-command: route flag-enabled plan proposals through staging, preserve ar
 ## Dependencies
 
 - **Depends on:** [sase-1pj.1.1.3](sase-1pj.1.1.3.md) ✓ · ⧖ 2026-10-28
-- **Blocks:** [sase-1pj.1.1.5](sase-1pj.1.1.5.md) ◐ · ⧖ 2026-10-28
+- **Blocks:** [sase-1pj.1.1.5](sase-1pj.1.1.5.md) ✓ · ⧖ 2026-10-28
 
 ## Agents
 
@@ -33,3 +33,19 @@ proposal-command: route flag-enabled plan proposals through staging, preserve ar
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`9f88875`](https://github.com/sase-org/sase/commit/9f88875b989530ff8ed8171bcab2c891cc4e1323) | feat(plan): stage proposals after host finalization | [sase-1pj.1.1.4](sase-1pj.1.1.4.md) | 2026-10-29 03:29:31 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pj.1.1.4--1][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:sase-1pm.5.1.1][2] | Verify the closed bead named by stale Symvision entries before recording the clean-base lint follow-up | 1 |
+| read-by | [agent:toobig-8s.invoke.0--1][3] | Need the current epic phase status before resolving its stale symvision entries | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.1.1.4.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pm.5.1.1/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.toobig-8s.invoke.0.md
+
+<!-- sase:referenced-by:end -->

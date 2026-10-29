@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/staged_plan_foundation.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/staged_plan_foundation.md
 
@@ -39,8 +39,10 @@ Complete sase-1pj.1 so flag-enabled plan proposals preserve edits and publish ap
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1pj.1.1.1][1] | Need parent epic DECISIONS, phases, and design file | 2 |
 | read-by | [agent:sase-1pj.1.1.2][2] | Need parent epic decisions governing the assigned phase | 1 |
+| read-by | [agent:sase-1pj.1.1.4--1][3] | Need epic decisions and phase context before completing the assigned phase | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.1.1.1/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.1.1.2/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.1.1.4.md
 
 <!-- sase:referenced-by:end -->
