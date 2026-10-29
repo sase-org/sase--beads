@@ -26,3 +26,15 @@ macos-core: find why wal_mode_probe_consumes_conversion_budget spends 750 ms to 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@0fd85e4`](https://github.com/sase-org/sase-core/commit/0fd85e4ab6e61ab0aec9be6b85cdb0026e71816c) | fix(tool-run): enforce SQLite wall-clock busy deadlines | [sase-1pi.1](sase-1pi.1.md) | 2026-10-28 20:58:20 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pi.1][1] | Confirm local fix checkpoint and current phase state before finalization | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pi.1/README.md
+
+<!-- sase:referenced-by:end -->
