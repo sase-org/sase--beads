@@ -35,3 +35,17 @@ publication: wire the shared git dispatch and resume paths, enable this repo's i
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`aef5524`](https://github.com/sase-org/sase/commit/aef552480b19775d3f197769a6fe7ac2173627a0) | feat(commit): gate rebase publication on project hook findings | [sase-1pm.5.1.4](sase-1pm.5.1.4.md) | 2026-10-29 06:33:12 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pj.2.1.1--1][1] | Verify stale epic-symbol bead is closed for follow-up note | 1 |
+| read-by | [agent:sase-1pm.5.1.4][2] | Need full scope notes decisions | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.2.1.1.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pm.5.1.4/README.md
+
+<!-- sase:referenced-by:end -->
