@@ -25,10 +25,23 @@ core-policy: add the optional finalizer handoff wire, Rust disposition and prepa
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1pj.2.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.2.1.1.md) | [sase-1pj.2.1.1](sase-1pj.2.1.1.md) | 1 |
+| [bbugyi200.athena.sase-1pj.2.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.2.1.1.md) | [sase-1pj.2.1.1](sase-1pj.2.1.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@24e160d`](https://github.com/sase-org/sase-core/commit/24e160d1b99b107475efd47e791ea3597376c1e8) | feat(core-policy): add handoff disposition and prepared-coverage predicates with bindings | [sase-1pj.2.1.1](sase-1pj.2.1.1.md) | 2026-10-29 07:24:12 EDT |
+| sase | [`9c0a31f`](https://github.com/sase-org/sase/commit/9c0a31fba576ffa20feedbe93662d6bb871ed0a2) | feat(core-policy): add finalizer handoff wire, disposition checks and prepared-coverage mirrors | [sase-1pj.2.1.1](sase-1pj.2.1.1.md) | 2026-10-29 07:29:18 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pj.2.1.1--1][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.2.1.1.md
+
+<!-- sase:referenced-by:end -->
