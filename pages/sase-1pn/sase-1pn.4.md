@@ -32,3 +32,15 @@ dev-toolchain: apply the toolchain_source decision so Textual, ruff and mypy res
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`995c451`](https://github.com/sase-org/sase/commit/995c451c38eca0befedc61f7e4918b49a6c3d4f4) | chore(deps): pin dev toolchain versions | [sase-1pn.4](sase-1pn.4.md) | 2026-10-29 11:33:31 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pn.4][1] | Verify the proposed follow-up and task resolution notes before closing | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pn.4/README.md
+
+<!-- sase:referenced-by:end -->
