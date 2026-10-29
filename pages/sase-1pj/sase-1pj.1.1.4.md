@@ -13,7 +13,7 @@ proposal-command: route flag-enabled plan proposals through staging, preserve ar
 
 ## Dependencies
 
-- **Depends on:** [sase-1pj.1.1.3](sase-1pj.1.1.3.md) ◐ · ⧖ 2026-10-28
+- **Depends on:** [sase-1pj.1.1.3](sase-1pj.1.1.3.md) ✓ · ⧖ 2026-10-28
 - **Blocks:** [sase-1pj.1.1.5](sase-1pj.1.1.5.md) ◐ · ⧖ 2026-10-28
 
 ## Agents

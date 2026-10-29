@@ -20,7 +20,7 @@ adoption-epilogue: adopt staged plans after successful finalizer convergence thr
 ## Dependencies
 
 - **Depends on:** [sase-1pj.1.1.1](sase-1pj.1.1.1.md) ✓ · ⧖ 2026-10-28
-- **Blocks:** [sase-1pj.1.1.3](sase-1pj.1.1.3.md) ◐ · ⧖ 2026-10-28
+- **Blocks:** [sase-1pj.1.1.3](sase-1pj.1.1.3.md) ✓ · ⧖ 2026-10-28
 
 ## Agents
 
@@ -33,3 +33,15 @@ adoption-epilogue: adopt staged plans after successful finalizer convergence thr
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`dd59c28`](https://github.com/sase-org/sase/commit/dd59c28f44c7e5fc83cc75188ca58b710d4f32f7) | feat(handoff): adopt staged plans after finalizer settlement | [sase-1pj.1.1.2](sase-1pj.1.1.2.md) | 2026-10-29 00:38:34 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pj.1.1.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.1.1.2/README.md
+
+<!-- sase:referenced-by:end -->
