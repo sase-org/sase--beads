@@ -45,7 +45,7 @@ flowchart TD
     n1["sase-1pj.1: Staged-handoff foundation and plan proposals [in_progress]"]
     n2["sase-1pj.1.1: Stage plan handoffs after host finalization [in_progress]"]
     n3["sase-1pj.1.1.1: Staged record contract, storage, guards, and rollout flag [closed]"]
-    n4["sase-1pj.1.1.2: Normal completion adoption and authentic planner chats [in_progress]"]
+    n4["sase-1pj.1.1.2: Normal completion adoption and authentic planner chats [closed]"]
     n5["sase-1pj.1.1.3: Provider failure, failed finalization, and lifecycle boundaries [in_progress]"]
     n6["sase-1pj.1.1.4: Enable staged plan proposals and dual-state instructions [in_progress]"]
     n7["sase-1pj.1.1.5: Verify commit-before-approval and failure isolation [in_progress]"]
@@ -102,7 +102,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-1pj.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.1.md) | [sase-1pj.1](sase-1pj.1.md) | 0 |
 | [bbugyi200.athena.sase-1pj.1.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.1.1.1/README.md) | [sase-1pj.1.1.1](sase-1pj.1.1.1.md) | 2 |
-| [bbugyi200.athena.sase-1pj.1.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.1.1.2/README.md) | [sase-1pj.1.1.2](sase-1pj.1.1.2.md) | 0 |
+| [bbugyi200.athena.sase-1pj.1.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.1.1.2/README.md) | [sase-1pj.1.1.2](sase-1pj.1.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1pj.1.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.1.1.3/README.md) | [sase-1pj.1.1.3](sase-1pj.1.1.3.md) | 0 |
 | [bbugyi200.athena.sase-1pj.1.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.1.1.4/README.md) | [sase-1pj.1.1.4](sase-1pj.1.1.4.md) | 0 |
 | [bbugyi200.athena.sase-1pj.1.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.1.1.5/README.md) | [sase-1pj.1.1.5](sase-1pj.1.1.5.md) | 0 |
@@ -123,3 +123,4 @@ flowchart TD
 |---|---|---|---|---|
 | sase-core | [`sase-core@cd62c83`](https://github.com/sase-org/sase-core/commit/cd62c83df285e70a43fb5fa215a5a95367c8c32d) | feat(staged\_handoff): add staged-handoff wire contract and admission guards | [sase-1pj.1.1.1](sase-1pj.1.1.1.md) | 2026-10-28 22:35:43 EDT |
 | sase | [`06cd630`](https://github.com/sase-org/sase/commit/06cd630543ab655702474cb75b8f394e6c39cafb) | feat(handoff): add staged-handoff storage, guards, and staged\_handoffs flag | [sase-1pj.1.1.1](sase-1pj.1.1.1.md) | 2026-10-28 23:37:51 EDT |
+| sase | [`dd59c28`](https://github.com/sase-org/sase/commit/dd59c28f44c7e5fc83cc75188ca58b710d4f32f7) | feat(handoff): adopt staged plans after finalizer settlement | [sase-1pj.1.1.2](sase-1pj.1.1.2.md) | 2026-10-29 00:38:34 EDT |

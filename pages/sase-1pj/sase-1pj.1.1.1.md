@@ -25,7 +25,7 @@ record-contract: implement Rust-owned staged-handoff contracts and guards, a thi
 
 ## Dependencies
 
-- **Blocks:** [sase-1pj.1.1.2](sase-1pj.1.1.2.md) ◐ · ⧖ 2026-10-28
+- **Blocks:** [sase-1pj.1.1.2](sase-1pj.1.1.2.md) ✓ · ⧖ 2026-10-28
 
 ## Agents
 
