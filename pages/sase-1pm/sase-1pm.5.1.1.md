@@ -42,7 +42,9 @@ gate-policy: implement shared gate policy in sase-core, expose and test its Pyth
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1pm.5.1.1][1] | Need the phase scope, design file, and prior notes before continuing this reserved phase | 2 |
+| read-by | [agent:sase-1pm.5.1.land--5][2] | Re-audit implementation child, descendants, delegated phase, parent, and task before closure | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pm.5.1.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pm.5.1.land.md
 
 <!-- sase:referenced-by:end -->

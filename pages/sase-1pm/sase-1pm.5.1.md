@@ -16,7 +16,7 @@
 | implemented-by | [plan:202610/rebased_stitch_gate.md][1] | derived from the plan's `bead_id:` frontmatter field |
 | related | file:explicit:116bb80ebf009ce33ea6bebd | attached via sase artifact create --bead |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/rebased_stitch_gate.md
 
@@ -38,13 +38,14 @@ Block publication of confirmed broken first-party imports introduced by combinin
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1pm.5.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pm.5.1.land.md) | [sase-1pm.5.1](sase-1pm.5.1.md) | 1 |
+| [bbugyi200.athena.sase-1pm.5.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pm.5.1.land.md) | [sase-1pm.5.1](sase-1pm.5.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@4f0fe37`](https://github.com/sase-org/sase-core/commit/4f0fe37fb6e6b51a9f193136e74a18a33a0015a0) | feat(vcs): add rebase gate policy and bindings | [sase-1pm.5.1](sase-1pm.5.1.md) | 2026-10-29 09:34:18 EDT |
+| sase | [`cddea47`](https://github.com/sase-org/sase/commit/cddea47cc6a684aa50c0eb564af3f672cf9aea5e) | fix(vcs): block broken imports after rebase | [sase-1pm.5.1](sase-1pm.5.1.md) | 2026-10-29 10:22:41 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -55,9 +56,11 @@ Block publication of confirmed broken first-party imports introduced by combinin
 | read-by | [agent:sase-1pm.5.1.1][1] | Need prior phase notes and the epic's binding decisions | 1 |
 | read-by | [agent:sase-1pm.5.1.2--1][2] | Need epic DECISIONS for gate-runner phase | 1 |
 | read-by | [agent:sase-1pm.5.1.4][3] | Need parent epic design and decisions | 2 |
+| read-by | [agent:sase-1pm.5.1.land--5][4] | Verify which beads the child epic close actually affected before continuing | 3 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pm.5.1.1/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pm.5.1.2.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pm.5.1.4/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pm.5.1.land.md
 
 <!-- sase:referenced-by:end -->

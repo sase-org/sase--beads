@@ -56,8 +56,10 @@ import-checker: implement repo tooling using Python AST and importlib, with exac
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1pm.5.1.3--4][1] | Need the phase scope and design file | 1 |
 | read-by | [agent:sase-1pm.5.1.4][2] | check prior phase evidence | 1 |
+| read-by | [agent:sase-1pm.5.1.land--5][3] | Re-audit implementation child, descendants, delegated phase, parent, and task before closure | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pm.5.1.3.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pm.5.1.4/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pm.5.1.land.md
 
 <!-- sase:referenced-by:end -->

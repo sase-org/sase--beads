@@ -29,8 +29,10 @@ rebase-gate: add a project-configurable commit hook that runs only when a stitch
 | --- | --- | --- | ---: |
 | read-by | [agent:research.5h.final][1] | Assess whether combined-tree check adds commit-stage latency | 1 |
 | read-by | [agent:sase-1pm.5.1.1][2] | Need inherited epic constraints for this phase | 1 |
+| read-by | [agent:sase-1pm.5.1.land--5][3] | Re-audit implementation child, descendants, delegated phase, parent, and task before closure | 3 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.5h.final/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pm.5.1.1/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pm.5.1.land.md
 
 <!-- sase:referenced-by:end -->

@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/task_backlog_epic_1.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/task_backlog_epic_1.md
 
 <!-- sase:links:end -->
@@ -77,7 +79,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1pm.5.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pm.5.1.2.md) | [sase-1pm.5.1.2](sase-1pm.5.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1pm.5.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pm.5.1.3.md) | [sase-1pm.5.1.3](sase-1pm.5.1.3.md) | 1 |
 | [bbugyi200.athena.sase-1pm.5.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pm.5.1.4/README.md) | [sase-1pm.5.1.4](sase-1pm.5.1.4.md) | 1 |
-| [bbugyi200.athena.sase-1pm.5.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pm.5.1.land.md) | [sase-1pm.5.1](sase-1pm.5.1.md) | 1 |
+| [bbugyi200.athena.sase-1pm.5.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pm.5.1.land.md) | [sase-1pm.5.1](sase-1pm.5.1.md) | 2 |
 | [bbugyi200.athena.sase-1pm.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pm.land/README.md) | [sase-1pm](README.md) | 0 |
 
 ## Commits
@@ -94,3 +96,16 @@ flowchart TD
 | sase | [`bcddb9e`](https://github.com/sase-org/sase/commit/bcddb9edb3182abfd1d47ff2f05bc6a7a654cf4b) | test: pin TERM so rendering contracts ignore ambient dumb terminals | [sase-1pm.2](sase-1pm.2.md) | 2026-10-29 06:09:16 EDT |
 | sase | [`aef5524`](https://github.com/sase-org/sase/commit/aef552480b19775d3f197769a6fe7ac2173627a0) | feat(commit): gate rebase publication on project hook findings | [sase-1pm.5.1.4](sase-1pm.5.1.4.md) | 2026-10-29 06:33:12 EDT |
 | sase-core | [`sase-core@4f0fe37`](https://github.com/sase-org/sase-core/commit/4f0fe37fb6e6b51a9f193136e74a18a33a0015a0) | feat(vcs): add rebase gate policy and bindings | [sase-1pm.5.1](sase-1pm.5.1.md) | 2026-10-29 09:34:18 EDT |
+| sase | [`cddea47`](https://github.com/sase-org/sase/commit/cddea47cc6a684aa50c0eb564af3f672cf9aea5e) | fix(vcs): block broken imports after rebase | [sase-1pm.5.1](sase-1pm.5.1.md) | 2026-10-29 10:22:41 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pm.5.1.land--5][1] | Verify which beads the child epic close actually affected before continuing | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pm.5.1.land.md
+
+<!-- sase:referenced-by:end -->

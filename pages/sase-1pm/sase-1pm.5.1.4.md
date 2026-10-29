@@ -44,8 +44,10 @@ publication: wire the shared git dispatch and resume paths, enable this repo's i
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1pj.2.1.1--1][1] | Verify stale epic-symbol bead is closed for follow-up note | 1 |
 | read-by | [agent:sase-1pm.5.1.4][2] | Need full scope notes decisions | 3 |
+| read-by | [agent:sase-1pm.5.1.land--5][3] | Re-audit implementation child, descendants, delegated phase, parent, and task before closure | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.2.1.1.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pm.5.1.4/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pm.5.1.land.md
 
 <!-- sase:referenced-by:end -->
