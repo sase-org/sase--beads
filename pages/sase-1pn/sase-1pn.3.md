@@ -25,10 +25,16 @@ close-guard: have sase bead close and sase bead epic-symbols read the fetched de
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1pn.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pn.3.md) | [sase-1pn.3](sase-1pn.3.md) | 1 |
+| [bbugyi200.athena.sase-1pn.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pn.3.md) | [sase-1pn.3](sase-1pn.3.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase | [`8bea2e8`](https://github.com/sase-org/sase/commit/8bea2e84144a1a449b337c725a75b3c1c252cc8a) | feat(bead): include default-branch Justfile epic-symbol rows in close guard | [sase-1pn.3](sase-1pn.3.md) | 2026-10-29 12:26:49 EDT |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pn.3--1][1] | Verify phase closed | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pn.3.md
+
+<!-- sase:referenced-by:end -->

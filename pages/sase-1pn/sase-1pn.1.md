@@ -21,13 +21,7 @@ claude-isolation: make ClaudeCodeProvider launches refuse cross-session inbound 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1pn.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pn.1/README.md) | [sase-1pn.1](sase-1pn.1.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase | [`464125c`](https://github.com/sase-org/sase/commit/464125cfa6491523c3297a4584d565490534baa7) | fix(claude): isolate SASE agent sessions | [sase-1pn.1](sase-1pn.1.md) | 2026-10-29 11:55:46 EDT |
+| [bbugyi200.athena.sase-1pn.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pn.1/README.md) | [sase-1pn.1](sase-1pn.1.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
@@ -36,7 +30,9 @@ claude-isolation: make ClaudeCodeProvider launches refuse cross-session inbound 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1pn.1][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1pn.3--1][2] | Need close note format from sibling phase | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pn.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pn.3.md
 
 <!-- sase:referenced-by:end -->
