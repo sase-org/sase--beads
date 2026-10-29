@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/rebased_stitch_gate.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/rebased_stitch_gate.md
 
@@ -38,7 +38,9 @@ Block publication of confirmed broken first-party imports introduced by combinin
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1pm.5.1.1][1] | Need prior phase notes and the epic's binding decisions | 1 |
+| read-by | [agent:sase-1pm.5.1.2--1][2] | Need epic DECISIONS for gate-runner phase | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pm.5.1.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pm.5.1.2.md
 
 <!-- sase:referenced-by:end -->

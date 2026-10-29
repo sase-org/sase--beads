@@ -33,3 +33,15 @@ gate-runner: implement project-scoped configuration, bounded process execution a
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`bb5653c`](https://github.com/sase-org/sase/commit/bb5653cb7dcd7c75cab77ccaf9b6c3144db10ca2) | feat(commit): add configurable rebase gate runner with hard deadline | [sase-1pm.5.1.2](sase-1pm.5.1.2.md) | 2026-10-29 05:13:42 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pm.5.1.2--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pm.5.1.2.md
+
+<!-- sase:referenced-by:end -->

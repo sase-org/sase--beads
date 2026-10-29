@@ -14,7 +14,7 @@ publication: wire the shared git dispatch and resume paths, enable this repo's i
 ## Dependencies
 
 - **Depends on:** [sase-1pm.5.1.2](sase-1pm.5.1.2.md) ✓ · ⧖ 2026-10-29
-- **Depends on:** [sase-1pm.5.1.3](sase-1pm.5.1.3.md) ○ · ⧖ 2026-10-29
+- **Depends on:** [sase-1pm.5.1.3](sase-1pm.5.1.3.md) ✓ · ⧖ 2026-10-29
 
 ## Agents
 

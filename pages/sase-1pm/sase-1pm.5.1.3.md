@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1pm.5.1](sase-1pm.5.1.md) / sase-1pm.5.1.3
 
-**Status:** ○ open · **Type:** ↳ phase · **↺ Reopened:** ↺1
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase · **↺ Reopened:** ↺1
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-1pm.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pm.5.md) · **Assignee:** `sase-1pm.5.1.3` · **Size:** medium
-**Created:** 2026-10-29 02:12:58 EDT
+**Created:** 2026-10-29 02:12:58 EDT · **Closed:** 2026-10-29 05:29:21 EDT
 **Plan:** [202610/rebased\_stitch\_gate.md](https://github.com/sase-org/sase--plans/blob/main/202610/rebased_stitch_gate.md)
 
 ## Previously Closed
@@ -27,6 +27,10 @@ import-checker: implement repo tooling using Python AST and importlib, with exac
 
 [2026-10-29T08:52:10Z · sase-1pm.5.1.3--2] Implemented tools/check_rebase_imports plus tools/_check_rebase_imports.py (AST + importlib, empty TYPE_CHECKING allowlist, subprocess fixtures). Listed the helper in tools/typecheck_extensionless_tools EXTRA_TYPED_HELPERS so pyscripts Rule 1 is satisfied. Did not change commit dispatch or enable after_rebase config. sase bead epic-symbols reported no leftovers. just check ToolRun 1f27e5ba8e8253998b0479129f2e03d1 triaged no_new_failures (2 KNOWN monitor-start tests owned by sase-1pg, 1 FLAKY contract-manifest baseline).
 
+[2026-10-29T09:28:46Z · sase-1pm.5.1.3--4] Recovery after two passing just check runs (ToolRuns 0ae32db204eba3cc52d565f55ed1d948 and 48ee8682e7fa824b3d154849eb78d143) whose host completion failed with stale_worktree_fingerprint. Re-preparing on the current staged tree. Work remains: tools/check_rebase_imports, tools/_check_rebase_imports.py, tests/test_check_rebase_imports.py, and the typecheck_extensionless_tools EXTRA_TYPED_HELPERS listing. No commit dispatch or after_rebase config changes. epic-symbols: no leftovers.
+
+[2026-10-29T09:29:21Z · sase-1pm.5.1.3--4] Implemented tools/check_rebase_imports plus tools/_check_rebase_imports.py (AST + importlib, empty TYPE_CHECKING allowlist, subprocess fixtures). Listed the helper in tools/typecheck_extensionless_tools EXTRA_TYPED_HELPERS. Did not change commit dispatch or enable after_rebase config. sase bead epic-symbols reported no leftovers. just check passed twice (ToolRuns 0ae32db204eba3cc52d565f55ed1d948, 48ee8682e7fa824b3d154849eb78d143); prior host completion failed only on stale_worktree_fingerprint. just fix left the tree unchanged. Focused checker coverage is in tests/test_check_rebase_imports.py.
+
 ## Dependencies
 
 - **Depends on:** [sase-1pm.5.1.1](sase-1pm.5.1.1.md) ✓ · ⧖ 2026-10-29
@@ -36,4 +40,10 @@ import-checker: implement repo tooling using Python AST and importlib, with exac
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1pm.5.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pm.5.1.3.md) | [sase-1pm.5.1.3](sase-1pm.5.1.3.md) | 0 |
+| [bbugyi200.athena.sase-1pm.5.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pm.5.1.3.md) | [sase-1pm.5.1.3](sase-1pm.5.1.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`475b204`](https://github.com/sase-org/sase/commit/475b2048ea9728229abbf3dc25c48545ed111dac) | feat(tools): add after-rebase first-party import checker | [sase-1pm.5.1.3](sase-1pm.5.1.3.md) | 2026-10-29 05:39:46 EDT |
