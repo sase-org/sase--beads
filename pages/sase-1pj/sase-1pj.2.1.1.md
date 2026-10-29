@@ -19,7 +19,7 @@ core-policy: add the optional finalizer handoff wire, Rust disposition and prepa
 
 ## Dependencies
 
-- **Blocks:** [sase-1pj.2.1.2](sase-1pj.2.1.2.md) ◐ · ⧖ 2026-10-29
+- **Blocks:** [sase-1pj.2.1.2](sase-1pj.2.1.2.md) ✓ · ⧖ 2026-10-29
 
 ## Agents
 
