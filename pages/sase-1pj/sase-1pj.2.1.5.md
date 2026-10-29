@@ -13,7 +13,7 @@ custody-adoption: accept proven carry/prepared coverage in staged adoption, pers
 
 ## Dependencies
 
-- **Depends on:** [sase-1pj.2.1.4](sase-1pj.2.1.4.md) ◐ · ⧖ 2026-10-29
+- **Depends on:** [sase-1pj.2.1.4](sase-1pj.2.1.4.md) ✓ · ⧖ 2026-10-29
 
 ## Agents
 

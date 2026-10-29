@@ -11,6 +11,10 @@
 
 handoff-wire: add a handoff descriptor to the sase-core finalizer context, a carry repository decision legal only for same-workspace handoffs, the prepared-intent rule, host-synthesized carry, commit-finalizer support, and the revision pin move.
 
+## Notes
+
+[2026-10-29T15:43:58Z · sase-1pj.2.1.4] PREPARED-BRIDGE RESERVATION CONTRACT: persist these facts in the staged record payload *before* publishing the staged record; do not bind at staging time. Payload keys: prepared_intent_ref (artifact ref, local ref, or intent id accepted by load_prepared_completion) and prepared_reservation {staged_id, monitor_id, request_fingerprint, command} matching PreparedReservationWire. staged_id is the staged record UUID; command is the exact argv that will start; the intent stays in lifecycle state prepared until spawn binds it. Adapter: src/sase/finalizers/prepared_coverage.py. This child does not launch, reserve, or bind ToolRuns and does not change monitor/start_flow.py.
+
 ## Dependencies
 
 - **Depends on:** [sase-1pj.1](sase-1pj.1.md) ✓ · ⧖ 2026-10-28
