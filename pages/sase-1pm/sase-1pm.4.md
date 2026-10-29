@@ -28,3 +28,15 @@ import-budget: change what the module-count guard measures per the import_budget
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`2456160`](https://github.com/sase-org/sase/commit/24561602cc26a699f7994496006e7fefa4fbf176) | fix(tui): ratchet first-party TUI import budget instead of total modules | [sase-1pm.4](sase-1pm.4.md) | 2026-10-29 02:51:48 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pm.4--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pm.4.md
+
+<!-- sase:referenced-by:end -->
