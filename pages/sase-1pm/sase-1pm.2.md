@@ -34,3 +34,15 @@ term: add a session autouse conftest fixture that pins TERM and clears NO_COLOR/
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`bcddb9e`](https://github.com/sase-org/sase/commit/bcddb9edb3182abfd1d47ff2f05bc6a7a654cf4b) | test: pin TERM so rendering contracts ignore ambient dumb terminals | [sase-1pm.2](sase-1pm.2.md) | 2026-10-29 06:09:16 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pm.2--4][1] | Need status JSON and close evidence | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pm.2.md
+
+<!-- sase:referenced-by:end -->

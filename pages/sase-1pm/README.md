@@ -47,7 +47,7 @@ flowchart TD
     n7["sase-1pm.5.1.1: Define the shared rebase gate contract in Rust [closed]"]
     n8["sase-1pm.5.1.2: Execute configurable rebase hooks with a hard deadline [closed]"]
     n9["sase-1pm.5.1.3: Resolve changed-file first-party imports on the rebased tree [closed]"]
-    n10["sase-1pm.5.1.4: Gate initial rebases, push retries, and checkpoint resumes [in_progress]"]
+    n10["sase-1pm.5.1.4: Gate initial rebases, push retries, and checkpoint resumes [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -76,7 +76,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1pm.5.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pm.5.1.1/README.md) | [sase-1pm.5.1.1](sase-1pm.5.1.1.md) | 2 |
 | [bbugyi200.athena.sase-1pm.5.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pm.5.1.2.md) | [sase-1pm.5.1.2](sase-1pm.5.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1pm.5.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pm.5.1.3.md) | [sase-1pm.5.1.3](sase-1pm.5.1.3.md) | 1 |
-| [bbugyi200.athena.sase-1pm.5.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pm.5.1.4/README.md) | [sase-1pm.5.1.4](sase-1pm.5.1.4.md) | 0 |
+| [bbugyi200.athena.sase-1pm.5.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pm.5.1.4/README.md) | [sase-1pm.5.1.4](sase-1pm.5.1.4.md) | 1 |
 | [bbugyi200.athena.sase-1pm.5.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pm.5.1.land/README.md) | [sase-1pm.5.1](sase-1pm.5.1.md) | 0 |
 | [bbugyi200.athena.sase-1pm.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pm.land/README.md) | [sase-1pm](README.md) | 0 |
 
@@ -92,3 +92,4 @@ flowchart TD
 | sase | [`bb5653c`](https://github.com/sase-org/sase/commit/bb5653cb7dcd7c75cab77ccaf9b6c3144db10ca2) | feat(commit): add configurable rebase gate runner with hard deadline | [sase-1pm.5.1.2](sase-1pm.5.1.2.md) | 2026-10-29 05:13:42 EDT |
 | sase | [`475b204`](https://github.com/sase-org/sase/commit/475b2048ea9728229abbf3dc25c48545ed111dac) | feat(tools): add after-rebase first-party import checker | [sase-1pm.5.1.3](sase-1pm.5.1.3.md) | 2026-10-29 05:39:46 EDT |
 | sase | [`bcddb9e`](https://github.com/sase-org/sase/commit/bcddb9edb3182abfd1d47ff2f05bc6a7a654cf4b) | test: pin TERM so rendering contracts ignore ambient dumb terminals | [sase-1pm.2](sase-1pm.2.md) | 2026-10-29 06:09:16 EDT |
+| sase | [`aef5524`](https://github.com/sase-org/sase/commit/aef552480b19775d3f197769a6fe7ac2173627a0) | feat(commit): gate rebase publication on project hook findings | [sase-1pm.5.1.4](sase-1pm.5.1.4.md) | 2026-10-29 06:33:12 EDT |
