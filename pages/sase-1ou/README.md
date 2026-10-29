@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/backlog_epic_2_top_five_task_beads.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/backlog_epic_2_top_five_task_beads.md
 
@@ -42,6 +42,12 @@ The five most important workable task beads in the sase project are resolved on 
 - Closed this turn: sase-12f and sase-18t, done with evidence. The baseline gate exits 1 (not 2) with 20 exceedances, down from 41. Those 20 are sase-1ic, sase-1om (snapshot x2), one stale-tree slot-scan record, and closed-owner nodes aging out by about 2026-11-17.
 
 [2026-10-28T22:26:55Z · research.5f.cld] DISCOVERED ISSUE: the sase-1ou.land turn's non-bead edits were never committed. It ended with sase plan propose (child epic sase-1ou.6), and that handoff skips the commit finalizer (finalizer_status.phase stayed 'planned'). Lost: the sase-core sase-1p6 fix (contention.rs test budgets plus the connection.rs quarantine-reopen regression fix) and the sase flake-baseline edits (owner re-keys, capacity e2e entry). sase-1p6 is closed as done, but sase-core origin/master has no such commit. A +1 recording this is on sase-1p6. Before closing sase-1ou, redo or re-verify those changes; the LANDING TRIAGE note's claims about them do not hold on master. Root cause: bob-cli-e0.
+
+[2026-10-28T23:26:25Z · sase-1ou.6.land] Child landing checkpoint (sase-1ou.6.land): verified the Files fix aaa88b0026 and six focused tests; ci_proof_runs=two still awaits post-fix scheduled Full CI. Parent note #3 is a real readiness blocker: sase-1p6 is currently READY/reopened and its prior close evidence was invalidated by the lost-edit report. Do not reuse note #2 as proof that core connection/contention fixes or flake-baseline reconciliation landed. After the child closes, reread all descendants/plans and reverify the actual core source/history and baseline; stop parent closure if those remain missing. No new follow-up task: this is already tracked by sase-1p6 and the existing parent DISCOVERED ISSUE.
+
+[2026-10-29T02:08:32Z · sase-1ph.land] RECOVERY LANDED (sase-1ph.land, 2026-10-28). Notes #3 and #4 blockers are resolved on master. (1) sase-core df14e8f4 (sase-1ph.1) restores the lost sase-1ou.land connection.rs fix (every call owed one open, one post-quarantine recreate, WAL attempts once before its deadline) plus the contention.rs RELEASE_BUDGET and three regressions. sase-1p6 is re-closed with fresh evidence (core check 7263dbbc242092b063064170622d32d7). Later core commit 0fd85e4a (sase-1pi.1, SQLite wall-clock busy handler) kept the attempt_owed/quarantined semantics, and the sase core pin is now 95dc0c10, which contains df14e8f4. (2) sase df0070b0aa (sase-1ph.2) restores the lost tests/reproducible_flake_baseline.txt reconciliation (owners sase-1fi, sase-1p2, sase-1al, sase-19m, sase-xo, sase-1pc, sase-1pd, sase-1pe; capacity fixed-at; sase-12f instant a42eedc1c4; drops demand_runs/executor/known_continuation and sase-165.5). Rechecked at master 60a4fe8a92: selection_health --fail-on-new-flake exits 1 with the same 20 exceedances (sase-1ic, sase-1om x2, the stale-tree slot-scan record, 16 closed-owner nodes aging out). Your lander can re-verify on master and proceed. sase-1ph does not close sase-1ou.
+
+[2026-10-29T15:09:51Z · sase-1ou.6.land--1] CHILD LANDING BLOCKED (2026-10-29): sase-1ou.6 did not satisfy ci_proof_runs=two. Scheduled Full CI 40879308061 contains aaa88b0026 but Python 3.12 fails the watched visible_paged_restore node at its initial Files cycle_card wait: scroll_y=0, live_target=6, max_scroll_y=0, pending=1, retry=8, confirmed=False, Textual 8.2.8. Recorded on sase-1a7 and sase-1ou.6.1; reopened and relaunched sase-1ou.6.1 under the approved recurrence branch. Child epic and sase-1ou.4 remain open. Evidence file:explicit:c6f1c46fbe473d24b4235abb. Note #5 recovery report supersedes the old claim that core/baseline work is still missing, but actual source/history and parent readiness must still be reverified after the child eventually lands.
 
 ## Phases
 
@@ -95,6 +101,7 @@ flowchart TD
     n10 -.-> n12
     n11 -.-> n12
     n12 -.-> n13
+    n15 -.-> n14
 ```
 
 ## Agents
@@ -114,8 +121,8 @@ flowchart TD
 | [bbugyi200.athena.sase-1ou.5.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ou.5.1.3.md) | [sase-1ou.5.1.3](sase-1ou.5.1.3.md) | 0 |
 | [bbugyi200.athena.sase-1ou.5.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ou.5.1.4.md) | [sase-1ou.5.1.4](sase-1ou.5.1.4.md) | 0 |
 | [bbugyi200.athena.sase-1ou.5.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ou.5.1.land/README.md) | [sase-1ou.5.1](sase-1ou.5.1.md) | 1 |
-| [bbugyi200.athena.sase-1ou.6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ou.6.1/README.md) | [sase-1ou.6.1](sase-1ou.6.1.md) | 1 |
-| [bbugyi200.athena.sase-1ou.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ou.6.land/README.md) | [sase-1ou.6](sase-1ou.6.md) | 0 |
+| [bbugyi200.athena.sase-1ou.6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ou.6.1/README.md) | [sase-1ou.6.1](sase-1ou.6.1.md) | 2 |
+| [bbugyi200.athena.sase-1ou.6.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ou.6.land.md) | [sase-1ou.6](sase-1ou.6.md) | 0 |
 | [bbugyi200.athena.sase-1ou.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ou.land.md) | [sase-1ou](README.md) | 0 |
 
 ## Commits
@@ -131,6 +138,7 @@ flowchart TD
 | sase--plans | [`sase--plans@4dee3ff`](https://github.com/sase-org/sase--plans/commit/4dee3ff5a788932c679bef5d9ed15c69861362db) | docs(plans): mark ToolRun contention epic complete | [sase-1ou.2.1](sase-1ou.2.1.md) | 2026-10-27 18:10:40 EDT |
 | sase--plans | [`sase--plans@3e08345`](https://github.com/sase-org/sase--plans/commit/3e08345486d7fd0653a803995542ba59f5f7f49b) | docs(plan): finish sase-1ou.5.1 after verified owner decline | [sase-1ou.5.1](sase-1ou.5.1.md) | 2026-10-28 14:57:09 EDT |
 | sase | [`aaa88b0`](https://github.com/sase-org/sase/commit/aaa88b002679ac9b12a5cdc4244426daa469011a) | fix(ace-tui): resume stalled Files spread navigation on scroll-extent growth | [sase-1ou.6.1](sase-1ou.6.1.md) | 2026-10-28 19:11:09 EDT |
+| sase | [`2e68053`](https://github.com/sase-org/sase/commit/2e68053dab2fc560107a882a99f747e6de28761f) | fix(tui): remeasure Files spread reserve when already enabled | [sase-1ou.6.1](sase-1ou.6.1.md) | 2026-10-29 16:20:28 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -140,8 +148,12 @@ flowchart TD
 | --- | --- | --- | ---: |
 | read-by | [agent:research.5f.mus][1] | Need context on land agent motivating finalizer change | 2 |
 | read-by | [agent:sase-1ou.5.1.land][2] | Confirm outer epic remains with its waiting land agent | 1 |
+| read-by | [agent:sase-1ph.2][3] | need full landing triage note listing the 20 exceedances | 3 |
+| read-by | [agent:sase-1ph.land][4] | Check sase-1ou notes #3/#4 blockers and whether landing note was added | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.5f.mus/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ou.5.1.land/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ph.2/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ph.land/README.md
 
 <!-- sase:referenced-by:end -->
