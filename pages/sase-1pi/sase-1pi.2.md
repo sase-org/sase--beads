@@ -19,10 +19,23 @@ real-cuts: the steward's cut facts drop push and six-hourly heal runs, which nev
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1pi.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pi.2/README.md) | [sase-1pi.2](sase-1pi.2.md) | 1 |
+| [bbugyi200.athena.sase-1pi.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pi.2/README.md) | [sase-1pi.2](sase-1pi.2.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@95dc0c1`](https://github.com/sase-org/sase-core/commit/95dc0c10db564ad31bc7e63761dd4a6fab4f40e3) | feat(release-steward): bound core-cut dispatches to one per UTC day with merge authority | [sase-1pi.2](sase-1pi.2.md) | 2026-10-28 21:30:14 EDT |
+| sase | [`35b00c9`](https://github.com/sase-org/sase/commit/35b00c9dad710ecafb903c98defb7c39a4058048) | feat(release-steward): count only merge-capable release-plz runs as core cuts | [sase-1pi.2](sase-1pi.2.md) | 2026-10-28 21:36:37 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pi.2][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pi.2/README.md
+
+<!-- sase:referenced-by:end -->

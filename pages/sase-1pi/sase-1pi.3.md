@@ -28,3 +28,15 @@ master-wait: give tools/ratchet_core_pin a read-only --ref mode that checks the 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`528d5fe`](https://github.com/sase-org/sase/commit/528d5fe576f52c2398156c82e71fde69ceb04bf6) | feat(tools): check core pins named by a git ref | [sase-1pi.3](sase-1pi.3.md) | 2026-10-28 21:30:57 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pi.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pi.3/README.md
+
+<!-- sase:referenced-by:end -->

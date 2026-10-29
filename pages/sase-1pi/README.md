@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/unblock_e2_core_release_flow.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/unblock_e2_core_release_flow.md
 
 <!-- sase:links:end -->
@@ -28,8 +30,8 @@ sase-core master CI is green on macOS again, so the daily cut can merge and publ
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-1pi.1](sase-1pi.1.md) | sase-core master CI passes on macOS, and a core containing the fix publishes | ◐ in_progress | medium | 2026-10-28 | 1 | 1 |
-| [sase-1pi.2](sase-1pi.2.md) | Only merge-capable release-plz runs count as core cuts for the steward | ✓ closed | medium | 2026-10-28 | 1 | 1 |
-| [sase-1pi.3](sase-1pi.3.md) | The cutover wait follows origin/master's current pin | ◐ in_progress | small | 2026-10-28 | 1 | 0 |
+| [sase-1pi.2](sase-1pi.2.md) | Only merge-capable release-plz runs count as core cuts for the steward | ✓ closed | medium | 2026-10-28 | 1 | 2 |
+| [sase-1pi.3](sase-1pi.3.md) | The cutover wait follows origin/master's current pin | ✓ closed | small | 2026-10-28 | 1 | 1 |
 
 ## Lineage
 
@@ -38,7 +40,7 @@ flowchart TD
     n0["sase-1pi: Unblock E2 again: a green macOS core, core cuts the steward really dispatches, and a cutover wait that tracks master [in_progress]"]
     n1["sase-1pi.1: sase-core master CI passes on macOS, and a core containing the fix publishes [in_progress]"]
     n2["sase-1pi.2: Only merge-capable release-plz runs count as core cuts for the steward [closed]"]
-    n3["sase-1pi.3: The cutover wait follows origin/master's current pin [in_progress]"]
+    n3["sase-1pi.3: The cutover wait follows origin/master's current pin [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -49,8 +51,8 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1pi.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pi.1/README.md) | [sase-1pi.1](sase-1pi.1.md) | 1 |
-| [bbugyi200.athena.sase-1pi.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pi.2/README.md) | [sase-1pi.2](sase-1pi.2.md) | 1 |
-| [bbugyi200.athena.sase-1pi.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pi.3/README.md) | [sase-1pi.3](sase-1pi.3.md) | 0 |
+| [bbugyi200.athena.sase-1pi.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pi.2/README.md) | [sase-1pi.2](sase-1pi.2.md) | 2 |
+| [bbugyi200.athena.sase-1pi.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pi.3/README.md) | [sase-1pi.3](sase-1pi.3.md) | 1 |
 | [bbugyi200.athena.sase-1pi.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pi.land/README.md) | [sase-1pi](README.md) | 0 |
 
 ## Commits
@@ -59,3 +61,17 @@ flowchart TD
 |---|---|---|---|---|
 | sase-core | [`sase-core@0fd85e4`](https://github.com/sase-org/sase-core/commit/0fd85e4ab6e61ab0aec9be6b85cdb0026e71816c) | fix(tool-run): enforce SQLite wall-clock busy deadlines | [sase-1pi.1](sase-1pi.1.md) | 2026-10-28 20:58:20 EDT |
 | sase-core | [`sase-core@95dc0c1`](https://github.com/sase-org/sase-core/commit/95dc0c10db564ad31bc7e63761dd4a6fab4f40e3) | feat(release-steward): bound core-cut dispatches to one per UTC day with merge authority | [sase-1pi.2](sase-1pi.2.md) | 2026-10-28 21:30:14 EDT |
+| sase | [`528d5fe`](https://github.com/sase-org/sase/commit/528d5fe576f52c2398156c82e71fde69ceb04bf6) | feat(tools): check core pins named by a git ref | [sase-1pi.3](sase-1pi.3.md) | 2026-10-28 21:30:57 EDT |
+| sase | [`35b00c9`](https://github.com/sase-org/sase/commit/35b00c9dad710ecafb903c98defb7c39a4058048) | feat(release-steward): count only merge-capable release-plz runs as core cuts | [sase-1pi.2](sase-1pi.2.md) | 2026-10-28 21:36:37 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pi.3][1] | Need parent epic DECISIONS and remaining phases | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pi.3/README.md
+
+<!-- sase:referenced-by:end -->
