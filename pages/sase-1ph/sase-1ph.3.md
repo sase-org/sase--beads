@@ -28,3 +28,15 @@ nested-plans-validation: make validate_committed_plans resolve a repo-open neste
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`60a4fe8`](https://github.com/sase-org/sase/commit/60a4fe8a927234bec6b40210215f1ea9831c76bc) | fix(sdd): resolve nested checkout plan roots | [sase-1ph.3](sase-1ph.3.md) | 2026-10-28 21:44:44 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ph.3][1] | Need the phase scope and design file; check prior notes before planning | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ph.3/README.md
+
+<!-- sase:referenced-by:end -->
