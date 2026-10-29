@@ -47,3 +47,15 @@ import-checker: implement repo tooling using Python AST and importlib, with exac
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`475b204`](https://github.com/sase-org/sase/commit/475b2048ea9728229abbf3dc25c48545ed111dac) | feat(tools): add after-rebase first-party import checker | [sase-1pm.5.1.3](sase-1pm.5.1.3.md) | 2026-10-29 05:39:46 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pm.5.1.3--4][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pm.5.1.3.md
+
+<!-- sase:referenced-by:end -->

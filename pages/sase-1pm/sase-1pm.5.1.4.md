@@ -11,6 +11,10 @@
 
 publication: wire the shared git dispatch and resume paths, enable this repo's import gate, add temporary-repository integration coverage, and measure complete gate latency. Preserve markers and return the recoverable conflict result for confirmed findings.
 
+## Notes
+
+[2026-10-29T09:57:58Z · sase-1pm.5.1.4] Gate latency (real source, tmp clone of 212M/6184-file tree, athena, python 3.14 venv): enabled-gate dispatch 2.04s total, gate-only 1.29s (context discovery + interpreter startup + checker, 3 changed paths, 1 import site, verdict pass/clean); disabled-gate dispatch 0.27s. Overhead ~1.8s, well within the 10s budget. A first run with core/ missing from the temp checkout (host global gitignore) correctly produced warn/fail-open, not a false clean.
+
 ## Dependencies
 
 - **Depends on:** [sase-1pm.5.1.2](sase-1pm.5.1.2.md) ✓ · ⧖ 2026-10-29

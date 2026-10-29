@@ -28,7 +28,7 @@ The five costliest open task beads (sase-1nh, sase-1ll, sase-1p5, sase-1ic, sase
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-1pm.1](sase-1pm.1.md) | Count stitch SHA receipts as successful commits (sase-1nh) | ✓ closed | small | 2026-10-29 | 1 | 1 |
-| [sase-1pm.2](sase-1pm.2.md) | Make rendering tests hermetic against the ambient terminal (sase-1ll) | ✓ closed | small | 2026-10-29 | 1 | 0 |
+| [sase-1pm.2](sase-1pm.2.md) | Make rendering tests hermetic against the ambient terminal (sase-1ll) | ✓ closed | small | 2026-10-29 | 1 | 1 |
 | [sase-1pm.3](sase-1pm.3.md) | Review the five workspace snapshot directory-operation sites (sase-1p5) | ✓ closed | small | 2026-10-29 | 1 | 1 |
 | [sase-1pm.4](sase-1pm.4.md) | Stop the TUI import-budget guard from re-breaking weekly (sase-1ic) | ✓ closed | medium | 2026-10-29 | 1 | 1 |
 | [sase-1pm.5](sase-1pm.5.md) | Check the combined tree before pushing a rebased stitch (sase-1cb) | ◐ in_progress | large | 2026-10-29 | 1 | 0 |
@@ -69,7 +69,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1pm.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pm.1/README.md) | [sase-1pm.1](sase-1pm.1.md) | 1 |
-| [bbugyi200.athena.sase-1pm.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pm.2.md) | [sase-1pm.2](sase-1pm.2.md) | 0 |
+| [bbugyi200.athena.sase-1pm.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pm.2.md) | [sase-1pm.2](sase-1pm.2.md) | 1 |
 | [bbugyi200.athena.sase-1pm.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pm.3/README.md) | [sase-1pm.3](sase-1pm.3.md) | 1 |
 | [bbugyi200.athena.sase-1pm.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pm.4.md) | [sase-1pm.4](sase-1pm.4.md) | 1 |
 | [bbugyi200.athena.sase-1pm.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pm.5.md) | [sase-1pm.5](sase-1pm.5.md) | 0 |
@@ -91,3 +91,4 @@ flowchart TD
 | sase | [`c76fee2`](https://github.com/sase-org/sase/commit/c76fee2af11dfbad7cb57de9b670b02791b62bc0) | feat(core): add typed rebase gate facade | [sase-1pm.5.1.1](sase-1pm.5.1.1.md) | 2026-10-29 03:42:03 EDT |
 | sase | [`bb5653c`](https://github.com/sase-org/sase/commit/bb5653cb7dcd7c75cab77ccaf9b6c3144db10ca2) | feat(commit): add configurable rebase gate runner with hard deadline | [sase-1pm.5.1.2](sase-1pm.5.1.2.md) | 2026-10-29 05:13:42 EDT |
 | sase | [`475b204`](https://github.com/sase-org/sase/commit/475b2048ea9728229abbf3dc25c48545ed111dac) | feat(tools): add after-rebase first-party import checker | [sase-1pm.5.1.3](sase-1pm.5.1.3.md) | 2026-10-29 05:39:46 EDT |
+| sase | [`bcddb9e`](https://github.com/sase-org/sase/commit/bcddb9edb3182abfd1d47ff2f05bc6a7a654cf4b) | test: pin TERM so rendering contracts ignore ambient dumb terminals | [sase-1pm.2](sase-1pm.2.md) | 2026-10-29 06:09:16 EDT |

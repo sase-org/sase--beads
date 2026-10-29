@@ -17,8 +17,20 @@ term: add a session autouse conftest fixture that pins TERM and clears NO_COLOR/
 
 [2026-10-29T05:56:43Z · sase-1pm.2] Pinned TERM=xterm-256color and cleared NO_COLOR/FORCE_COLOR in the shared conftest layer. 64 rendering/contract nodes passed under TERM=dumb, NO_COLOR=1 TERM=dumb, and TERM=xterm-256color. No leftover --epic-symbol rows. Land agent should close sase-1ll after this lands on master.
 
+[2026-10-29T10:07:01Z · sase-1pm.2--4] PROPOSED FOLLOW-UP: tests/monitor/test_monitor_start_supervisor.py::test_start_monitor_scrubs_agent_identity_from_the_supervisor_env fails on clean HEAD bb5653cb7d (SASE_AGENT remains in captured supervisor Popen env); reproduces with and without the TERM pin; unrelated to sase-1ll.
+
+[2026-10-29T10:07:34Z · sase-1pm.2--4] PROPOSED FOLLOW-UP: clean-base just check NEW is tests/monitor/test_monitor_start_supervisor.py::test_start_monitor_scrubs_agent_identity_from_the_supervisor_env — already tracked by sase-1pg; reproduced on clean HEAD bb5653cb7d with and without the TERM pin.
+
+[2026-10-29T10:07:57Z · sase-1pm.2--4] TERM pin landed in working tree: 28 rendering/contract nodes passed under TERM=dumb; just check NEW is sase-1pg on clean HEAD bb5653cb7d (supervisor env scrub), not this phase. No leftover --epic-symbol rows.
+
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1pm.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pm.2.md) | [sase-1pm.2](sase-1pm.2.md) | 0 |
+| [bbugyi200.athena.sase-1pm.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pm.2.md) | [sase-1pm.2](sase-1pm.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`bcddb9e`](https://github.com/sase-org/sase/commit/bcddb9edb3182abfd1d47ff2f05bc6a7a654cf4b) | test: pin TERM so rendering contracts ignore ambient dumb terminals | [sase-1pm.2](sase-1pm.2.md) | 2026-10-29 06:09:16 EDT |
