@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/rebased_stitch_gate.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/rebased_stitch_gate.md
 
 <!-- sase:links:end -->
@@ -28,3 +30,15 @@ Block publication of confirmed broken first-party imports introduced by combinin
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1pm.5.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pm.5.1.land/README.md) | [sase-1pm.5.1](sase-1pm.5.1.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pm.5.1.1][1] | Need prior phase notes and the epic's binding decisions | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pm.5.1.1/README.md
+
+<!-- sase:referenced-by:end -->

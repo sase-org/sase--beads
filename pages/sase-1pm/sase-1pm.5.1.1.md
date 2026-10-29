@@ -26,10 +26,23 @@ gate-policy: implement shared gate policy in sase-core, expose and test its Pyth
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1pm.5.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pm.5.1.1/README.md) | [sase-1pm.5.1.1](sase-1pm.5.1.1.md) | 1 |
+| [bbugyi200.athena.sase-1pm.5.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pm.5.1.1/README.md) | [sase-1pm.5.1.1](sase-1pm.5.1.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@60fe51d`](https://github.com/sase-org/sase-core/commit/60fe51d627a6b5df57511d9d9f0388ec39ddc4b7) | feat(vcs): add rebase gate policy bindings | [sase-1pm.5.1.1](sase-1pm.5.1.1.md) | 2026-10-29 03:37:24 EDT |
+| sase | [`c76fee2`](https://github.com/sase-org/sase/commit/c76fee2af11dfbad7cb57de9b670b02791b62bc0) | feat(core): add typed rebase gate facade | [sase-1pm.5.1.1](sase-1pm.5.1.1.md) | 2026-10-29 03:42:03 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pm.5.1.1][1] | Need the phase scope, design file, and prior notes before continuing this reserved phase | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pm.5.1.1/README.md
+
+<!-- sase:referenced-by:end -->
