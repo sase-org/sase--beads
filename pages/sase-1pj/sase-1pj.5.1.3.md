@@ -20,7 +20,7 @@ prepared-joins: reserve sealed intents without binding, bind only at spawn, use 
 ## Dependencies
 
 - **Depends on:** [sase-1pj.5.1.2](sase-1pj.5.1.2.md) ✓ · ⧖ 2026-10-29
-- **Blocks:** [sase-1pj.5.1.4](sase-1pj.5.1.4.md) ◐ · ⧖ 2026-10-29
+- **Blocks:** [sase-1pj.5.1.4](sase-1pj.5.1.4.md) ✓ · ⧖ 2026-10-29
 
 ## Agents
 
@@ -41,7 +41,9 @@ prepared-joins: reserve sealed intents without binding, bind only at spawn, use 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1pj.5.1.3][1] | Check whether earlier phase work or remaining tasks were recorded while implementation was underway | 2 |
+| read-by | [agent:sase-1pj.5.1.4][2] | Check how prior phase closed with epic-symbols | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.5.1.3/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.5.1.4/README.md
 
 <!-- sase:referenced-by:end -->

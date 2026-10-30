@@ -80,7 +80,7 @@ flowchart TD
     n26["sase-1pj.5.1.1: Define staged monitor and ToolRun reservation contracts [closed]"]
     n27["sase-1pj.5.1.2: Split monitor preparation from process launch [closed]"]
     n28["sase-1pj.5.1.3: Preserve prepared completion and joins across staging [closed]"]
-    n29["sase-1pj.5.1.4: Connect staged starts to runner adoption and document the protocol [in_progress]"]
+    n29["sase-1pj.5.1.4: Connect staged starts to runner adoption and document the protocol [closed]"]
     n30["sase-1pj.6: Idempotent adoption, crash reconciliation, and re-adopt [in_progress]"]
     n31["sase-1pj.7: Hold workspaces whose carried work has no successor [in_progress]"]
     n32["sase-1pj.8: Remove the flag and the kill-path machinery [in_progress]"]
@@ -185,7 +185,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1pj.5.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.5.1.1.md) | [sase-1pj.5.1.1](sase-1pj.5.1.1.md) | 2 |
 | [bbugyi200.athena.sase-1pj.5.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.5.1.2.md) | [sase-1pj.5.1.2](sase-1pj.5.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1pj.5.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.5.1.3/README.md) | [sase-1pj.5.1.3](sase-1pj.5.1.3.md) | 1 |
-| [bbugyi200.athena.sase-1pj.5.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.5.1.4/README.md) | [sase-1pj.5.1.4](sase-1pj.5.1.4.md) | 1 |
+| [bbugyi200.athena.sase-1pj.5.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.5.1.4/README.md) | [sase-1pj.5.1.4](sase-1pj.5.1.4.md) | 2 |
 | [bbugyi200.athena.sase-1pj.5.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.5.1.land/README.md) | [sase-1pj.5.1](sase-1pj.5.1.md) | 0 |
 | [bbugyi200.athena.sase-1pj.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6/README.md) | [sase-1pj.6](sase-1pj.6.md) | 0 |
 | [bbugyi200.athena.sase-1pj.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7/README.md) | [sase-1pj.7](sase-1pj.7.md) | 0 |
@@ -232,6 +232,7 @@ flowchart TD
 | sase--plans | [`sase--plans@d0aa6e3`](https://github.com/sase-org/sase--plans/commit/d0aa6e33a614b1525c066de927f1f3ff1f504e6d) | chore(plans): mark gate\_staging epic done | [sase-1pj.4.1](sase-1pj.4.1.md) | 2026-10-30 05:15:31 EDT |
 | sase | [`f7eb80c`](https://github.com/sase-org/sase/commit/f7eb80c7a85acbc6f5bcab3589755e16d05de56e) | feat(monitor): preserve prepared intents and staged joins | [sase-1pj.5.1.3](sase-1pj.5.1.3.md) | 2026-10-30 05:48:21 EDT |
 | sase | [`7da649b`](https://github.com/sase-org/sase/commit/7da649b56248dcbf2ab94dd775bca61bb24a28f0) | feat(monitor-staging): activate staged starts with post-finalizer adoption | [sase-1pj.5.1.4](sase-1pj.5.1.4.md) | 2026-10-30 12:19:49 EDT |
+| sase | [`c9a65d1`](https://github.com/sase-org/sase/commit/c9a65d1a588a7b909a9c990a60a19b7c7f92da1d) | fix(monitor): release staged resources when finalization is held | [sase-1pj.5.1.4](sase-1pj.5.1.4.md) | 2026-10-30 12:58:54 EDT |
 
 <!-- sase:referenced-by:start -->
 
