@@ -11,6 +11,10 @@
 
 start-transaction: persist a reconstructible staged member, reserve ordinary ToolRuns, launch from persisted inputs after finalization, and clean up unstarted resources on failure or discard. Preserve the existing public start path until activation. Integrate staged member reads, lane exclusion, and ToolRun owner observations.
 
+## Notes
+
+[2026-10-30T07:39:54Z · sase-1pj.5.1.2--8] PROPOSED FOLLOW-UP: tests inherit the launching agent env in monitored just check — SASE_MODEL_OVERRIDE (and agent identity vars) leak into pytest, so a sonnet-launched monitor fails 7 unrelated tests (test_workflow_executor TestShouldHitl x2, test_init_skills_deploy x3, test_sync_checkpoint, test_commit_workflow_publication_outcomes); they pass with SASE_* cleared. Scrub SASE_MODEL_OVERRIDE/SASE_AGENT* in the test-lane env or the autouse conftest.
+
 ## Dependencies
 
 - **Depends on:** [sase-1pj.5.1.1](sase-1pj.5.1.1.md) ✓ · ⧖ 2026-10-29
