@@ -19,7 +19,7 @@ refby-events: check the link-v2 fence before the lock, pull, and snapshot, emit 
 
 ## Dependencies
 
-- **Blocks:** [sase-1pt.5](sase-1pt.5.md) ◐ · ⧖ 2026-10-29
+- **Blocks:** [sase-1pt.5](sase-1pt.5.md) ✓ · ⧖ 2026-10-29
 - **Blocks:** [sase-1pt.6](sase-1pt.6.md) ◐ · ⧖ 2026-10-29
 
 ## Agents
@@ -33,3 +33,15 @@ refby-events: check the link-v2 fence before the lock, pull, and snapshot, emit 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`5f675c3`](https://github.com/sase-org/sase/commit/5f675c311f82fa66c82ff8659daa7f246da62f44) | feat(artifact-links): emit fenced prompt cites as link events | [sase-1pt.1](sase-1pt.1.md) | 2026-10-29 22:46:48 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pt.1][1] | Need the phase scope, design file, notes, and whether earlier work landed | 4 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pt.1/README.md
+
+<!-- sase:referenced-by:end -->

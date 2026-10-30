@@ -11,6 +11,10 @@
 
 publisher: add a doorbell-triggered scheduler job that drains agent-hood requests, hinted link-outbox agents, and unfenced referenced-by requests under the existing lock, plus a heartbeat and a real drain bound in the secret scanner.
 
+## Notes
+
+[2026-10-30T04:16:34Z · sase-1pt.6] PROPOSED FOLLOW-UP: Triage the existing scoped pytest failure signatures seen in ToolRun 276f775223952336bb2be21f65a708a0 — the run classified five as KNOWN with independent witness 7d5e13601cd011bbfc0951b64918e6d8 and two as FLAKY; no tracking task bead was surfaced.
+
 ## Dependencies
 
 - **Depends on:** [sase-1pt.1](sase-1pt.1.md) ✓ · ⧖ 2026-10-29

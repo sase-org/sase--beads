@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/commit_stage_async_publication.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/commit_stage_async_publication.md
 
@@ -33,7 +33,7 @@ A no-conflict sase agent commit stage (provider done to done.json) drops from a 
 | [sase-1pt.2](sase-1pt.2.md) | Truthful commit-stage timing | ✓ closed | small | 2026-10-29 | 1 | 1 |
 | [sase-1pt.3](sase-1pt.3.md) | Move artifact retention off the per-run tail | ✓ closed | small | 2026-10-29 | 1 | 1 |
 | [sase-1pt.4](sase-1pt.4.md) | Resolve revision-pin rebase conflicts mechanically | ✓ closed | medium | 2026-10-29 | 1 | 1 |
-| [sase-1pt.5](sase-1pt.5.md) | Make queued prompt-archive publication equivalent and protected | ◐ in_progress | medium | 2026-10-29 | 1 | 0 |
+| [sase-1pt.5](sase-1pt.5.md) | Make queued prompt-archive publication equivalent and protected | ✓ closed | medium | 2026-10-29 | 1 | 1 |
 | [sase-1pt.6](sase-1pt.6.md) | Host-owned background publication job | ◐ in_progress | medium | 2026-10-29 | 1 | 0 |
 | [sase-1pt.7](sase-1pt.7.md) | End the commit stage at the durable enqueue | ◐ in_progress | medium | 2026-10-29 | 1 | 0 |
 | [sase-1pt.8](sase-1pt.8.md) | Prove latency and sidecar reliability on athena | ◐ in_progress | medium | 2026-10-29 | 1 | 0 |
@@ -47,7 +47,7 @@ flowchart TD
     n2["sase-1pt.2: Truthful commit-stage timing [closed]"]
     n3["sase-1pt.3: Move artifact retention off the per-run tail [closed]"]
     n4["sase-1pt.4: Resolve revision-pin rebase conflicts mechanically [closed]"]
-    n5["sase-1pt.5: Make queued prompt-archive publication equivalent and protected [in_progress]"]
+    n5["sase-1pt.5: Make queued prompt-archive publication equivalent and protected [closed]"]
     n6["sase-1pt.6: Host-owned background publication job [in_progress]"]
     n7["sase-1pt.7: End the commit stage at the durable enqueue [in_progress]"]
     n8["sase-1pt.8: Prove latency and sidecar reliability on athena [in_progress]"]
@@ -77,7 +77,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1pt.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pt.2.md) | [sase-1pt.2](sase-1pt.2.md) | 1 |
 | [bbugyi200.athena.sase-1pt.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pt.3/README.md) | [sase-1pt.3](sase-1pt.3.md) | 1 |
 | [bbugyi200.athena.sase-1pt.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pt.4/README.md) | [sase-1pt.4](sase-1pt.4.md) | 1 |
-| [bbugyi200.athena.sase-1pt.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pt.5/README.md) | [sase-1pt.5](sase-1pt.5.md) | 0 |
+| [bbugyi200.athena.sase-1pt.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pt.5/README.md) | [sase-1pt.5](sase-1pt.5.md) | 1 |
 | [bbugyi200.athena.sase-1pt.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pt.6/README.md) | [sase-1pt.6](sase-1pt.6.md) | 0 |
 | [bbugyi200.athena.sase-1pt.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pt.7/README.md) | [sase-1pt.7](sase-1pt.7.md) | 0 |
 | [bbugyi200.athena.sase-1pt.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pt.8/README.md) | [sase-1pt.8](sase-1pt.8.md) | 0 |
@@ -91,6 +91,7 @@ flowchart TD
 | sase | [`9664ed3`](https://github.com/sase-org/sase/commit/9664ed3c2055979e0cc93aba20783a3996d11082) | feat(artifacts): move indexed-file retention to hourly housekeeping | [sase-1pt.3](sase-1pt.3.md) | 2026-10-29 20:15:14 EDT |
 | sase | [`4f1a5e0`](https://github.com/sase-org/sase/commit/4f1a5e0760aae7904372148fb4fbf3f041a1a30f) | feat(finalizers): report commit publication timings | [sase-1pt.2](sase-1pt.2.md) | 2026-10-29 20:22:44 EDT |
 | sase | [`5f675c3`](https://github.com/sase-org/sase/commit/5f675c311f82fa66c82ff8659daa7f246da62f44) | feat(artifact-links): emit fenced prompt cites as link events | [sase-1pt.1](sase-1pt.1.md) | 2026-10-29 22:46:48 EDT |
+| sase | [`66b1549`](https://github.com/sase-org/sase/commit/66b15496f939aae8b3d5db5e9b2234bb15ddacca) | feat(agents-sync): preserve deferred prompt archive context | [sase-1pt.5](sase-1pt.5.md) | 2026-10-30 00:24:35 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -98,8 +99,10 @@ flowchart TD
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1pt.3][1] | Need parent epic scope and decisions | 1 |
+| read-by | [agent:162][1] | Comparing epic sase-1pt against sase-1pu.5.1 to check for a conflict | 1 |
+| read-by | [agent:sase-1pt.3][2] | Need parent epic scope and decisions | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pt.3/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.162/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pt.3/README.md
 
 <!-- sase:referenced-by:end -->

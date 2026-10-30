@@ -14,7 +14,7 @@ enqueue-only: replace the commit path's prompt-archive publish and both drains w
 ## Dependencies
 
 - **Depends on:** [sase-1pt.2](sase-1pt.2.md) ✓ · ⧖ 2026-10-29
-- **Depends on:** [sase-1pt.5](sase-1pt.5.md) ◐ · ⧖ 2026-10-29
+- **Depends on:** [sase-1pt.5](sase-1pt.5.md) ✓ · ⧖ 2026-10-29
 - **Depends on:** [sase-1pt.6](sase-1pt.6.md) ◐ · ⧖ 2026-10-29
 - **Blocks:** [sase-1pt.8](sase-1pt.8.md) ◐ · ⧖ 2026-10-29
 
