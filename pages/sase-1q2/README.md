@@ -34,7 +34,7 @@ Master Gate, Full CI, and a release.yml rehearsal are green on master; the relea
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-1q2.1](sase-1q2.1.md) | sase recognizes complete sase-core releases with compressed macOS wheel tags | ✓ closed | small | 2026-10-30 | 1 | 1 |
-| [sase-1q2.2](sase-1q2.2.md) | A complete published sase-core-rs contains master's core revision, and master pins it | ◎ claimed | medium | 2026-10-30 | 1 | 0 |
+| [sase-1q2.2](sase-1q2.2.md) | A complete published sase-core-rs contains master's core revision, and master pins it | ✓ closed | medium | 2026-10-30 | 1 | 1 |
 | [sase-1q2.3](sase-1q2.3.md) | Fix the agent sync help, completion snapshot, and agent load CLI reds | ✓ closed | small | 2026-10-30 | 1 | 1 |
 | [sase-1q2.4](sase-1q2.4.md) | Fix the pager, footprint, import-budget, and visual-lane reds | ◐ in_progress | medium | 2026-10-30 | 1 | 0 |
 | [sase-1q2.5](sase-1q2.5.md) | Fix the suite-gate, nested-preservation, and remaining non-TUI reds | ✓ closed | medium | 2026-10-30 | 1 | 1 |
@@ -48,7 +48,7 @@ Master Gate, Full CI, and a release.yml rehearsal are green on master; the relea
 flowchart TD
     n0["sase-1q2: Fix every release blocker and ship sase v0.19.0 through the release steward [in_progress]"]
     n1["sase-1q2.1: sase recognizes complete sase-core releases with compressed macOS wheel tags [closed]"]
-    n2["sase-1q2.2: A complete published sase-core-rs contains master's core revision, and master pins it [claimed]"]
+    n2["sase-1q2.2: A complete published sase-core-rs contains master's core revision, and master pins it [closed]"]
     n3["sase-1q2.3: Fix the agent sync help, completion snapshot, and agent load CLI reds [closed]"]
     n4["sase-1q2.4: Fix the pager, footprint, import-budget, and visual-lane reds [in_progress]"]
     n5["sase-1q2.5: Fix the suite-gate, nested-preservation, and remaining non-TUI reds [closed]"]
@@ -78,7 +78,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1q2.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1q2.1/README.md) | [sase-1q2.1](sase-1q2.1.md) | 1 |
-| [bbugyi200.athena.sase-1q2.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1q2.2.md) | [sase-1q2.2](sase-1q2.2.md) | 0 |
+| [bbugyi200.athena.sase-1q2.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1q2.2.md) | [sase-1q2.2](sase-1q2.2.md) | 1 |
 | [bbugyi200.athena.sase-1q2.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1q2.3/README.md) | [sase-1q2.3](sase-1q2.3.md) | 1 |
 | [bbugyi200.athena.sase-1q2.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1q2.4/README.md) | [sase-1q2.4](sase-1q2.4.md) | 0 |
 | [bbugyi200.athena.sase-1q2.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1q2.5/README.md) | [sase-1q2.5](sase-1q2.5.md) | 1 |
@@ -94,6 +94,7 @@ flowchart TD
 | sase | [`3f9fe9c`](https://github.com/sase-org/sase/commit/3f9fe9c1079dd3862b2f176b2fff0b525b5ca337) | test(cli): stabilize agent sync and load assertions | [sase-1q2.3](sase-1q2.3.md) | 2026-10-30 13:34:58 EDT |
 | sase | [`deb8bb6`](https://github.com/sase-org/sase/commit/deb8bb60b6aa1a159324fb3491f2ec69eedbf945) | fix(release): match compressed macOS tags for core completeness | [sase-1q2.1](sase-1q2.1.md) | 2026-10-30 13:48:02 EDT |
 | sase | [`dab2d70`](https://github.com/sase-org/sase/commit/dab2d701fbac135ff3e828b2d0efd330c5a19b47) | fix(workspace): wrap nested-repo enumeration errors and copy the runner import closure | [sase-1q2.5](sase-1q2.5.md) | 2026-10-30 14:09:36 EDT |
+| sase | [`1a41907`](https://github.com/sase-org/sase/commit/1a419071c20f3953562b4576d432700745d4cea6) | chore(core): ratchet sase-core-rs to 0.43.2 | [sase-1q2.2](sase-1q2.2.md) | 2026-10-30 15:04:39 EDT |
 
 <!-- sase:referenced-by:start -->
 

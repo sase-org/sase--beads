@@ -19,7 +19,7 @@ core-match: port sase-core's compressed-tag wheel matcher into tools/_release_co
 
 ## Dependencies
 
-- **Blocks:** [sase-1q2.2](sase-1q2.2.md) ◎ · ⧖ 2026-10-30
+- **Blocks:** [sase-1q2.2](sase-1q2.2.md) ✓ · ⧖ 2026-10-30
 - **Blocks:** [sase-1q2.6](sase-1q2.6.md) ◐ · ⧖ 2026-10-30
 
 ## Agents
