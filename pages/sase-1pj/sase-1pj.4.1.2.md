@@ -20,7 +20,7 @@ gate-publisher: split gate publication from preparation and register the post-fi
 ## Dependencies
 
 - **Depends on:** [sase-1pj.4.1.1](sase-1pj.4.1.1.md) ✓ · ⧖ 2026-10-29
-- **Blocks:** [sase-1pj.4.1.3](sase-1pj.4.1.3.md) ◐ · ⧖ 2026-10-29
+- **Blocks:** [sase-1pj.4.1.3](sase-1pj.4.1.3.md) ✓ · ⧖ 2026-10-29
 
 ## Agents
 
@@ -33,3 +33,15 @@ gate-publisher: split gate publication from preparation and register the post-fi
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`f52b015`](https://github.com/sase-org/sase/commit/f52b0157455cbdabd097048fd612c183f32f3dd0) | feat(gate): publish staged gates from persisted creator context | [sase-1pj.4.1.2](sase-1pj.4.1.2.md) | 2026-10-29 20:29:29 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pj.4.1.2][1] | Need the phase scope and design file | 4 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.2/README.md
+
+<!-- sase:referenced-by:end -->

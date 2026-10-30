@@ -13,7 +13,7 @@ workflow-completion: provide a host-owned completion boundary for workflow HITL 
 
 ## Dependencies
 
-- **Depends on:** [sase-1pj.4.1.3](sase-1pj.4.1.3.md) ◐ · ⧖ 2026-10-29
+- **Depends on:** [sase-1pj.4.1.3](sase-1pj.4.1.3.md) ✓ · ⧖ 2026-10-29
 - **Blocks:** [sase-1pj.4.1.6](sase-1pj.4.1.6.md) ◐ · ⧖ 2026-10-29
 
 ## Agents

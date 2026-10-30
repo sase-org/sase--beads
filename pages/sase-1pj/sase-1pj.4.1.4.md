@@ -13,7 +13,7 @@ launch-cli: retain launch preview and continuation validation while returning st
 
 ## Dependencies
 
-- **Depends on:** [sase-1pj.4.1.3](sase-1pj.4.1.3.md) ◐ · ⧖ 2026-10-29
+- **Depends on:** [sase-1pj.4.1.3](sase-1pj.4.1.3.md) ✓ · ⧖ 2026-10-29
 
 ## Agents
 

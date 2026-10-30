@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/gate_staging.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/gate_staging.md
 
@@ -38,7 +38,9 @@ Complete sase-1pj.4 so agent-created gates publish only after host completion, w
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1pj.4.1.1--1][1] | epic decisions for phase work | 1 |
+| read-by | [agent:sase-1pj.4.1.2][2] | Need parent epic DECISIONS for gate-publisher | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.4.1.1.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.2/README.md
 
 <!-- sase:referenced-by:end -->

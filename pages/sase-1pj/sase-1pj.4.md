@@ -23,3 +23,15 @@ gate-staging: split gate-turn creation into CLI-time validate/stage and post-fin
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1pj.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.4.md) | [sase-1pj.4](sase-1pj.4.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pj.4.1.2][1] | Need parent phase DECISIONS that this child must honor | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.2/README.md
+
+<!-- sase:referenced-by:end -->
