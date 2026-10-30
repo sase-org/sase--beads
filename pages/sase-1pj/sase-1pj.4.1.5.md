@@ -28,10 +28,23 @@ workflow-completion: provide a host-owned completion boundary for workflow HITL 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1pj.4.1.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.4.1.5.md) | [sase-1pj.4.1.5](sase-1pj.4.1.5.md) | 1 |
+| [bbugyi200.athena.sase-1pj.4.1.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.4.1.5.md) | [sase-1pj.4.1.5](sase-1pj.4.1.5.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@17e79c8`](https://github.com/sase-org/sase-core/commit/17e79c8cf5323d2ef4abcadef3bf95aa4e81c24b) | feat(gate): Rust-owned host preparation admission for workflow reviews | [sase-1pj.4.1.5](sase-1pj.4.1.5.md) | 2026-10-30 00:28:33 EDT |
+| sase | [`20dc76b`](https://github.com/sase-org/sase/commit/20dc76bd0932192b42e1b276eb99ef1df5ca4dcc) | feat(gate): host-owned workflow completion seam for staged HITL reviews | [sase-1pj.4.1.5](sase-1pj.4.1.5.md) | 2026-10-30 01:27:43 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pj.4.1.5--1][1] | inspect phase for completion | 5 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.4.1.5.md
+
+<!-- sase:referenced-by:end -->

@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/gate_staging.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 5 automatic references — see [Referenced By](#referenced-by)._
+_Plus 6 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/gate_staging.md
 
@@ -45,12 +45,14 @@ Complete sase-1pj.4 so agent-created gates publish only after host completion, w
 | read-by | [agent:sase-1pj.4.1.2][2] | Need parent epic DECISIONS for gate-publisher | 1 |
 | read-by | [agent:sase-1pj.4.1.3][3] | Need final epic decisions for the assigned gate-cli phase | 1 |
 | read-by | [agent:sase-1pj.4.1.4][4] | Need parent epic DECISIONS and prior phase notes | 1 |
-| read-by | [agent:sase-1pt.1][5] | Need parent epic/phase scope for sudo gate staging | 1 |
+| read-by | [agent:sase-1pj.4.1.5--1][5] | decisions | 2 |
+| read-by | [agent:sase-1pt.1][6] | Need parent epic/phase scope for sudo gate staging | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.4.1.1.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.2/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.3/README.md
 [4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.4/README.md
-[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pt.1/README.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.4.1.5.md
+[6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pt.1/README.md
 
 <!-- sase:referenced-by:end -->
