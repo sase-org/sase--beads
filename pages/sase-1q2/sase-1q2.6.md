@@ -13,7 +13,7 @@ full-ci: run Full CI on a tip containing every sibling fix, then fix each remain
 
 ## Dependencies
 
-- **Depends on:** [sase-1q2.1](sase-1q2.1.md) ◐ · ⧖ 2026-10-30
+- **Depends on:** [sase-1q2.1](sase-1q2.1.md) ✓ · ⧖ 2026-10-30
 - **Depends on:** [sase-1q2.3](sase-1q2.3.md) ✓ · ⧖ 2026-10-30
 - **Depends on:** [sase-1q2.4](sase-1q2.4.md) ◐ · ⧖ 2026-10-30
 - **Depends on:** [sase-1q2.5](sase-1q2.5.md) ◐ · ⧖ 2026-10-30
@@ -24,3 +24,15 @@ full-ci: run Full CI on a tip containing every sibling fix, then fix each remain
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1q2.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1q2.6/README.md) | [sase-1q2.6](sase-1q2.6.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:16a--1][1] | Check whether the active full-CI phase owns the stale Symvision closed-epic whitelist failure | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.16a.md
+
+<!-- sase:referenced-by:end -->
