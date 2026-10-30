@@ -32,3 +32,15 @@ retention: run enforce_artifact_retention from an hourly housekeeping job and ke
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`9664ed3`](https://github.com/sase-org/sase/commit/9664ed3c2055979e0cc93aba20783a3996d11082) | feat(artifacts): move indexed-file retention to hourly housekeeping | [sase-1pt.3](sase-1pt.3.md) | 2026-10-29 20:15:14 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pt.3][1] | Need current notes and status before closing | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pt.3/README.md
+
+<!-- sase:referenced-by:end -->
