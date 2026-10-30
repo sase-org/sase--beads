@@ -21,7 +21,7 @@ contracts: implement Rust-owned staged monitor payload validation, staged-owner 
 
 ## Dependencies
 
-- **Blocks:** [sase-1pj.5.1.2](sase-1pj.5.1.2.md) ◐ · ⧖ 2026-10-29
+- **Blocks:** [sase-1pj.5.1.2](sase-1pj.5.1.2.md) ✓ · ⧖ 2026-10-29
 
 ## Agents
 

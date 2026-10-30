@@ -72,11 +72,11 @@ flowchart TD
     n20["sase-1pj.4.1.3: Stage custom and sudo gates through one entry helper [closed]"]
     n21["sase-1pj.4.1.4: Stage launch requests and agent-origin run requests [closed]"]
     n22["sase-1pj.4.1.5: Bring workflow review into host completion [closed]"]
-    n23["sase-1pj.4.1.6: Suspend workflow execution on staged review [in_progress]"]
+    n23["sase-1pj.4.1.6: Suspend workflow execution on staged review [closed]"]
     n24["sase-1pj.5: Stage monitor starts and spawn after finalization [in_progress]"]
     n25["sase-1pj.5.1: Stage monitor starts and launch after finalization [in_progress]"]
     n26["sase-1pj.5.1.1: Define staged monitor and ToolRun reservation contracts [closed]"]
-    n27["sase-1pj.5.1.2: Split monitor preparation from process launch [in_progress]"]
+    n27["sase-1pj.5.1.2: Split monitor preparation from process launch [closed]"]
     n28["sase-1pj.5.1.3: Preserve prepared completion and joins across staging [in_progress]"]
     n29["sase-1pj.5.1.4: Connect staged starts to runner adoption and document the protocol [in_progress]"]
     n30["sase-1pj.6: Idempotent adoption, crash reconciliation, and re-adopt [in_progress]"]
@@ -178,10 +178,10 @@ flowchart TD
 | [bbugyi200.athena.sase-1pj.4.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.4/README.md) | [sase-1pj.4.1.4](sase-1pj.4.1.4.md) | 1 |
 | [bbugyi200.athena.sase-1pj.4.1.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.4.1.5.md) | [sase-1pj.4.1.5](sase-1pj.4.1.5.md) | 2 |
 | [bbugyi200.athena.sase-1pj.4.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.6/README.md) | [sase-1pj.4.1.6](sase-1pj.4.1.6.md) | 2 |
-| [bbugyi200.athena.sase-1pj.4.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.land/README.md) | [sase-1pj.4.1](sase-1pj.4.1.md) | 0 |
+| [bbugyi200.athena.sase-1pj.4.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.land/README.md) | [sase-1pj.4.1](sase-1pj.4.1.md) | 1 |
 | [bbugyi200.athena.sase-1pj.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.5.md) | [sase-1pj.5](sase-1pj.5.md) | 0 |
 | [bbugyi200.athena.sase-1pj.5.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.5.1.1.md) | [sase-1pj.5.1.1](sase-1pj.5.1.1.md) | 2 |
-| [bbugyi200.athena.sase-1pj.5.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.5.1.2.md) | [sase-1pj.5.1.2](sase-1pj.5.1.2.md) | 0 |
+| [bbugyi200.athena.sase-1pj.5.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.5.1.2.md) | [sase-1pj.5.1.2](sase-1pj.5.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1pj.5.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.5.1.3/README.md) | [sase-1pj.5.1.3](sase-1pj.5.1.3.md) | 0 |
 | [bbugyi200.athena.sase-1pj.5.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.5.1.4/README.md) | [sase-1pj.5.1.4](sase-1pj.5.1.4.md) | 0 |
 | [bbugyi200.athena.sase-1pj.5.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.5.1.land/README.md) | [sase-1pj.5.1](sase-1pj.5.1.md) | 0 |
@@ -225,6 +225,8 @@ flowchart TD
 | sase | [`20dc76b`](https://github.com/sase-org/sase/commit/20dc76bd0932192b42e1b276eb99ef1df5ca4dcc) | feat(gate): host-owned workflow completion seam for staged HITL reviews | [sase-1pj.4.1.5](sase-1pj.4.1.5.md) | 2026-10-30 01:27:43 EDT |
 | sase | [`3ba58ec`](https://github.com/sase-org/sase/commit/3ba58ec222fa6e884dde1fce6b4b681b68254a7b) | feat(workflow): stage HITL reviews before cleanup settlement | [sase-1pj.4.1.6](sase-1pj.4.1.6.md) | 2026-10-30 03:20:14 EDT |
 | sase | [`c85ceb0`](https://github.com/sase-org/sase/commit/c85ceb0c3b28dced3d8ef7afc00b265f194b60c9) | fix(symvision): track workflow symbols on open parent epic | [sase-1pj.4.1.6](sase-1pj.4.1.6.md) | 2026-10-30 03:57:25 EDT |
+| sase | [`8f982c8`](https://github.com/sase-org/sase/commit/8f982c8ae9a37723b88f7c8c4d95940700b75369) | feat(monitor): split monitor preparation from process launch | [sase-1pj.5.1.2](sase-1pj.5.1.2.md) | 2026-10-30 04:18:23 EDT |
+| sase | [`0060c20`](https://github.com/sase-org/sase/commit/0060c20fd7dfe3e09049fd6d09eb1faf40940d7c) | fix(gate): land staged gate epic symbols and sudo skill contract | [sase-1pj.4.1](sase-1pj.4.1.md) | 2026-10-30 05:10:20 EDT |
 
 <!-- sase:referenced-by:start -->
 

@@ -13,7 +13,7 @@ prepared-joins: reserve sealed intents without binding, bind only at spawn, use 
 
 ## Dependencies
 
-- **Depends on:** [sase-1pj.5.1.2](sase-1pj.5.1.2.md) ◐ · ⧖ 2026-10-29
+- **Depends on:** [sase-1pj.5.1.2](sase-1pj.5.1.2.md) ✓ · ⧖ 2026-10-29
 - **Blocks:** [sase-1pj.5.1.4](sase-1pj.5.1.4.md) ◐ · ⧖ 2026-10-29
 
 ## Agents

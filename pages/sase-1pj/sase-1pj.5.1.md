@@ -25,6 +25,10 @@ _Plus 1 automatic references — see [Referenced By](#referenced-by)._
 
 Complete sase-1pj.5 so in-agent monitor starts stage durable work and launch only after host finalization, preserving prepared completion and existing ToolRun joins.
 
+## Notes
+
+[2026-10-30T09:08:03Z · sase-1pj.4.1.land] DISCOVERED ISSUE (from sase-1pj.4.1.land): 8f982c8ae9 (sase-1pj.5.1.2, feat(monitor): split monitor preparation from process launch) added "staged" to MONITOR_STATE_CHOICES in src/sase/main/parser_monitor.py without regenerating the checked-in CLI completion snapshot. On origin/master 8f982c8ae9, tests/completion/test_snapshot.py::test_checked_in_snapshot_has_no_drift and ::test_current_structural_view_matches_checked_in_snapshot fail deterministically ('sase CLI completion spec is out of sync with the argparse tree'), and tests/completion/test_kind_coverage.py::test_every_value_slot_is_kinded_choiced_or_hinted fails alongside them. sase tool run check ToolRun be1e2bba943950edd269451133249cf3 (verdict no_new_failures) labeled them KNOWN/FLAKY with witness 0832dea1c87b939b0133374d264d28ba. This epic's remaining phases (5.1.3/5.1.4) or its lander should regenerate the completion snapshot and kind coverage for the new choice. No task created.
+
 ## Agents
 
 | Agent | Bead | Commits |

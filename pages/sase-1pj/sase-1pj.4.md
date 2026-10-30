@@ -11,6 +11,10 @@
 
 gate-staging: split gate-turn creation into CLI-time validate/stage and post-finalizer publish for every gate entry point, keeping %auto gates inline and moving the one-handoff guard ahead of publication.
 
+## Notes
+
+[2026-10-30T09:08:54Z · sase-1pj.4.1.land] READY TO CLOSE after child epic sase-1pj.4.1 closes (sase-1pj.4.1.land): checked the gate-staging scope from plan:202610/staged_handoffs.md against the landed code. The create_gate_turn split into stage/publish uses persisted creator context and request-id replay. %auto stays synchronous with no staged record, and LaunchApproval rejects auto at stage time. One shared entry helper serves gate_handler, sudo cli, launch_handler/launch_request, query_handler/_launch, and workflow_hitl/_gate. The staged descriptor carries request_id and status: staged with no member or notification id, and own-stage sase gate wait is refused. carry_allowed follows workspace mode. No gate-intent marker is written on the staged path. sase_gate/sase_sudo/sase_run use dual-state wording. Both flag states are tested. sase-1pj.4.1's close is routed through host completion (bead_action close) on the commit that removes its last --epic-symbol rows, since the upstream-union guard refuses an in-turn close until that commit reaches origin/master. Once sase-1pj.4.1 shows CLOSED and sase bead epic-symbols sase-1pj.4 is empty, close this phase normally with sase bead close sase-1pj.4; do not close sase-1pj.
+
 ## Dependencies
 
 - **Depends on:** [sase-1pj.1](sase-1pj.1.md) ✓ · ⧖ 2026-10-28
