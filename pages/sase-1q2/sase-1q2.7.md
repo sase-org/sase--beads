@@ -13,7 +13,7 @@ rehearse: dispatch a release.yml rehearsal at master, judge it job by job, note 
 
 ## Dependencies
 
-- **Depends on:** [sase-1q2.2](sase-1q2.2.md) ◐ · ⧖ 2026-10-30
+- **Depends on:** [sase-1q2.2](sase-1q2.2.md) ◎ · ⧖ 2026-10-30
 - **Depends on:** [sase-1q2.6](sase-1q2.6.md) ◐ · ⧖ 2026-10-30
 - **Blocks:** [sase-1q2.8](sase-1q2.8.md) ◐ · ⧖ 2026-10-30
 

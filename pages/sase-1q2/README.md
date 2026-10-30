@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/v0_19_0_release.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/v0_19_0_release.md
 
@@ -34,10 +34,10 @@ Master Gate, Full CI, and a release.yml rehearsal are green on master; the relea
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-1q2.1](sase-1q2.1.md) | sase recognizes complete sase-core releases with compressed macOS wheel tags | ✓ closed | small | 2026-10-30 | 1 | 1 |
-| [sase-1q2.2](sase-1q2.2.md) | A complete published sase-core-rs contains master's core revision, and master pins it | ◐ in_progress | medium | 2026-10-30 | 1 | 0 |
+| [sase-1q2.2](sase-1q2.2.md) | A complete published sase-core-rs contains master's core revision, and master pins it | ◎ claimed | medium | 2026-10-30 | 1 | 0 |
 | [sase-1q2.3](sase-1q2.3.md) | Fix the agent sync help, completion snapshot, and agent load CLI reds | ✓ closed | small | 2026-10-30 | 1 | 1 |
 | [sase-1q2.4](sase-1q2.4.md) | Fix the pager, footprint, import-budget, and visual-lane reds | ◐ in_progress | medium | 2026-10-30 | 1 | 0 |
-| [sase-1q2.5](sase-1q2.5.md) | Fix the suite-gate, nested-preservation, and remaining non-TUI reds | ◐ in_progress | medium | 2026-10-30 | 1 | 0 |
+| [sase-1q2.5](sase-1q2.5.md) | Fix the suite-gate, nested-preservation, and remaining non-TUI reds | ✓ closed | medium | 2026-10-30 | 1 | 1 |
 | [sase-1q2.6](sase-1q2.6.md) | Run Full CI on a tip with every fix and repair what is still red | ◐ in_progress | medium | 2026-10-30 | 1 | 0 |
 | [sase-1q2.7](sase-1q2.7.md) | Prove a green release.yml rehearsal at master | ◐ in_progress | small | 2026-10-30 | 1 | 0 |
 | [sase-1q2.8](sase-1q2.8.md) | Watch sase v0.19.0 through the steward, release.yml, and PyPI with a self-closing monitor | ◐ in_progress | small | 2026-10-30 | 1 | 0 |
@@ -48,10 +48,10 @@ Master Gate, Full CI, and a release.yml rehearsal are green on master; the relea
 flowchart TD
     n0["sase-1q2: Fix every release blocker and ship sase v0.19.0 through the release steward [in_progress]"]
     n1["sase-1q2.1: sase recognizes complete sase-core releases with compressed macOS wheel tags [closed]"]
-    n2["sase-1q2.2: A complete published sase-core-rs contains master's core revision, and master pins it [in_progress]"]
+    n2["sase-1q2.2: A complete published sase-core-rs contains master's core revision, and master pins it [claimed]"]
     n3["sase-1q2.3: Fix the agent sync help, completion snapshot, and agent load CLI reds [closed]"]
     n4["sase-1q2.4: Fix the pager, footprint, import-budget, and visual-lane reds [in_progress]"]
-    n5["sase-1q2.5: Fix the suite-gate, nested-preservation, and remaining non-TUI reds [in_progress]"]
+    n5["sase-1q2.5: Fix the suite-gate, nested-preservation, and remaining non-TUI reds [closed]"]
     n6["sase-1q2.6: Run Full CI on a tip with every fix and repair what is still red [in_progress]"]
     n7["sase-1q2.7: Prove a green release.yml rehearsal at master [in_progress]"]
     n8["sase-1q2.8: Watch sase v0.19.0 through the steward, release.yml, and PyPI with a self-closing monitor [in_progress]"]
@@ -78,10 +78,10 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1q2.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1q2.1/README.md) | [sase-1q2.1](sase-1q2.1.md) | 1 |
-| [bbugyi200.athena.sase-1q2.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1q2.2/README.md) | [sase-1q2.2](sase-1q2.2.md) | 0 |
+| [bbugyi200.athena.sase-1q2.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1q2.2.md) | [sase-1q2.2](sase-1q2.2.md) | 0 |
 | [bbugyi200.athena.sase-1q2.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1q2.3/README.md) | [sase-1q2.3](sase-1q2.3.md) | 1 |
 | [bbugyi200.athena.sase-1q2.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1q2.4/README.md) | [sase-1q2.4](sase-1q2.4.md) | 0 |
-| [bbugyi200.athena.sase-1q2.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1q2.5/README.md) | [sase-1q2.5](sase-1q2.5.md) | 0 |
+| [bbugyi200.athena.sase-1q2.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1q2.5/README.md) | [sase-1q2.5](sase-1q2.5.md) | 1 |
 | [bbugyi200.athena.sase-1q2.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1q2.6/README.md) | [sase-1q2.6](sase-1q2.6.md) | 0 |
 | [bbugyi200.athena.sase-1q2.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1q2.7/README.md) | [sase-1q2.7](sase-1q2.7.md) | 0 |
 | [bbugyi200.athena.sase-1q2.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1q2.8/README.md) | [sase-1q2.8](sase-1q2.8.md) | 0 |
@@ -93,6 +93,7 @@ flowchart TD
 |---|---|---|---|---|
 | sase | [`3f9fe9c`](https://github.com/sase-org/sase/commit/3f9fe9c1079dd3862b2f176b2fff0b525b5ca337) | test(cli): stabilize agent sync and load assertions | [sase-1q2.3](sase-1q2.3.md) | 2026-10-30 13:34:58 EDT |
 | sase | [`deb8bb6`](https://github.com/sase-org/sase/commit/deb8bb60b6aa1a159324fb3491f2ec69eedbf945) | fix(release): match compressed macOS tags for core completeness | [sase-1q2.1](sase-1q2.1.md) | 2026-10-30 13:48:02 EDT |
+| sase | [`dab2d70`](https://github.com/sase-org/sase/commit/dab2d701fbac135ff3e828b2d0efd330c5a19b47) | fix(workspace): wrap nested-repo enumeration errors and copy the runner import closure | [sase-1q2.5](sase-1q2.5.md) | 2026-10-30 14:09:36 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -101,7 +102,9 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:16a--1][1] | Check whether the active release-blocker epic owns the stale Symvision closed-epic whitelist failure | 1 |
+| read-by | [agent:sase-1q2.1][2] | Need epic DECISIONS and remaining work for core-match phase | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.16a.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1q2.1/README.md
 
 <!-- sase:referenced-by:end -->

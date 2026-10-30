@@ -19,7 +19,7 @@ core-match: port sase-core's compressed-tag wheel matcher into tools/_release_co
 
 ## Dependencies
 
-- **Blocks:** [sase-1q2.2](sase-1q2.2.md) ◐ · ⧖ 2026-10-30
+- **Blocks:** [sase-1q2.2](sase-1q2.2.md) ◎ · ⧖ 2026-10-30
 - **Blocks:** [sase-1q2.6](sase-1q2.6.md) ◐ · ⧖ 2026-10-30
 
 ## Agents
@@ -33,3 +33,15 @@ core-match: port sase-core's compressed-tag wheel matcher into tools/_release_co
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`deb8bb6`](https://github.com/sase-org/sase/commit/deb8bb60b6aa1a159324fb3491f2ec69eedbf945) | fix(release): match compressed macOS tags for core completeness | [sase-1q2.1](sase-1q2.1.md) | 2026-10-30 13:48:02 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1q2.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1q2.1/README.md
+
+<!-- sase:referenced-by:end -->
