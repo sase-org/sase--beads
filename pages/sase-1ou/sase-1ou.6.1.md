@@ -33,7 +33,7 @@ files-landing: rebuild the CI-like Python 3.12 / Textual 8.2.8 environment, prov
 
 ## Dependencies
 
-- **Blocks:** [sase-1ou.6](sase-1ou.6.md) ◐ · ⧖ 2026-10-28
+- **Blocks:** [sase-1ou.6](sase-1ou.6.md) ✓ · ⧖ 2026-10-28
 
 ## Agents
 
@@ -54,7 +54,7 @@ files-landing: rebuild the CI-like Python 3.12 / Textual 8.2.8 environment, prov
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1ou.6.1][1] | Need full description and notes | 2 |
+| read-by | [agent:sase-1ou.6.1][1] | Need full description and notes | 4 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ou.6.1/README.md
 

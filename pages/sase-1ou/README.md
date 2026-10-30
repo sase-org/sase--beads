@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / sase-1ou
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-1oh.land--1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1oh.land.md) · **Assignee:** `sase-1ou.land`
-**Created:** 2026-10-27 09:20:59 EDT
+**Created:** 2026-10-27 09:20:59 EDT · **Closed:** 2026-10-30 07:41:36 EDT
 **Plan:** [202610/backlog\_epic\_2\_top\_five\_task\_beads.md](https://github.com/sase-org/sase--plans/blob/main/202610/backlog_epic_2_top_five_task_beads.md)
 
 <!-- sase:links:start -->
@@ -14,6 +14,8 @@
 | Relation | Artifact | Why |
 | --- | --- | --- |
 | implemented-by | [plan:202610/backlog_epic_2_top_five_task_beads.md][1] | derived from the plan's `bead_id:` frontmatter field |
+| related | file:explicit:890dff19d49df1c066f5a3eb | attached via sase artifact create --bead |
+| related | file:explicit:c6e07453bd869de455458b66 | attached via sase artifact create --bead |
 
 _Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
@@ -49,6 +51,18 @@ The five most important workable task beads in the sase project are resolved on 
 
 [2026-10-29T15:09:51Z · sase-1ou.6.land--1] CHILD LANDING BLOCKED (2026-10-29): sase-1ou.6 did not satisfy ci_proof_runs=two. Scheduled Full CI 40879308061 contains aaa88b0026 but Python 3.12 fails the watched visible_paged_restore node at its initial Files cycle_card wait: scroll_y=0, live_target=6, max_scroll_y=0, pending=1, retry=8, confirmed=False, Textual 8.2.8. Recorded on sase-1a7 and sase-1ou.6.1; reopened and relaunched sase-1ou.6.1 under the approved recurrence branch. Child epic and sase-1ou.4 remain open. Evidence file:explicit:c6f1c46fbe473d24b4235abb. Note #5 recovery report supersedes the old claim that core/baseline work is still missing, but actual source/history and parent readiness must still be reverified after the child eventually lands.
 
+[2026-10-30T08:13:59Z · sase-1ou.6.land--3] PARENT RECHECK after Files landing, 2026-10-30 at primary 3ba58ec222fa6e884dde1fce6b4b681b68254a7b / pinned core 17e79c8cf5323d2ef4abcadef3bf95aa4e81c24b. sase-1a7, sase-1ou.4 and sase-1ou.6 are now closed normally. Both post-2e68053dab scheduled Full CI runs qualify for ci_proof_runs=two, all Python jobs, with watched-node execution established by full selection/source eligibility plus complete outcome accounting; Textual 8.0.1. Corrected seven-node inventory/evidence: file:explicit:111a68057073e254863c3f53. Post-close just symvision passed; child plan now status done.
+
+Reread every original phase and nested child note, all three linked child plans and parent plan. Core df14e8f4 and 0fd85e4a are ancestors of the actual pin/checkout and attempt_owed/quarantine/spent-budget regressions remain in source. Baseline df0070b0aa recovery is present; the old lost-edit blocker is resolved. Capacity canonical paths/assertions and 5s budgets remain intact. Staged-monitor ToolRun adapters continue to use core defaults. No integration patch needed.
+
+Fresh behavioral checks: baseline parser + capacity + all Files ownership/ctrl+j tests 9/9 pass; two loaded -n2 batches each 10/10 pass (eight ToolRun nodes plus capacity and ctrl+j), 16.26s/16.53s, no SQLite lock error. Required sase tool run check 327c36b33b7f93515c353a754a7ff9c5 has passed its 17 lint/validation stages but is still running its automatically broadened test lane; no final verdict claimed.
+
+BASELINE RECONCILIATION: selection_health exits 1, not 2, 1179 full-lane records / 27 exceedances. Prior 20 are unchanged historical/owned debt from notes #2/#5. In particular demand_runs/executor/known_continuation were already in those 20, not new recurrences; latest eligible failures Oct7/Oct14/Oct16 predate closed owners 1f0/1jl/1gi. Seven additions: monitor ack+env and Justfile stub are fixed by 01dcc2e5f5 (owners 1pg/1pn); latest dirty evidence base d97902c0df lacks the fix. Artifact audit's latest failure is pre-close/pre-fix 1p5; current 4d22ceefa5/cddea47cc6 fixes verified. Pager release is owned by READY 1ps. Two gate-none finalizer variants belong to active causal epic 1pj and were corroborated there. No new umbrella or baseline weakening. Evidence file:explicit:c6e07453bd869de455458b66 supersedes the preliminary interpretation in file:explicit:97b5de2f1cb43b4acd045a68; 27 alone is not a readiness blocker.
+
+Other CI followups: existing 1ov +1; scoped-integration marker helper/manifest reported to active 1pu; sudo skill/finalizer drift reported to active 1pj. New distinct CI tasks 1px (nested permission normalization), 1py (3.12 argparse help), 1pz (pytest9.2 pager monkeypatch teardown), 1q0 (Footprint microbench) each READY with evidence file:explicit:26a0e166c4b0
+
+… and 11511 more characters
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -56,28 +70,28 @@ The five most important workable task beads in the sase project are resolved on 
 | [sase-1ou.1](sase-1ou.1.md) | Make the flake-baseline gate reach a truthful verdict again (sase-1og) | ✓ closed | medium | 2026-10-27 | 1 | 1 |
 | [sase-1ou.2](sase-1ou.2.md) | Stop the ToolRun store failing with "database is locked" under parallel load (sase-18t) | ✓ closed | large | 2026-10-27 | 1 | 0 |
 | [sase-1ou.3](sase-1ou.3.md) | Make the weight-two land-agent-session capacity e2e load-robust (sase-12f) | ✓ closed | large | 2026-10-27 | 1 | 1 |
-| [sase-1ou.4](sase-1ou.4.md) | Fix the Files ctrl+j page-anchor scroll race (sase-1a7) | ○ open | large | 2026-10-27 | 1 | 1 |
+| [sase-1ou.4](sase-1ou.4.md) | Fix the Files ctrl+j page-anchor scroll race (sase-1a7) | ✓ closed | large | 2026-10-27 | 1 | 1 |
 | [sase-1ou.5](sase-1ou.5.md) | Rotate and purge the historical secret-scanner hits in public sase--agents history (sase-1ot) | ✓ closed | large | 2026-10-27 | 1 | 0 |
 
 ## Lineage
 
 ```mermaid
 flowchart TD
-    n0["sase-1ou: Task-bead backlog, epic 2: fix the five most important open task beads [in_progress]"]
+    n0["sase-1ou: Task-bead backlog, epic 2: fix the five most important open task beads [closed]"]
     n1["sase-1ou.1: Make the flake-baseline gate reach a truthful verdict again (sase-1og) [closed]"]
     n2["sase-1ou.2: Stop the ToolRun store failing with \"database is locked\" under parallel load (sase-18t) [closed]"]
     n3["sase-1ou.2.1: Fix ToolRun SQLite contention at the store boundary [closed]"]
     n4["sase-1ou.2.1.1: Diagnose and fix the Rust store contention policy [closed]"]
     n5["sase-1ou.2.1.2: Adopt the core policy and prove the affected ToolRun flows [closed]"]
     n6["sase-1ou.3: Make the weight-two land-agent-session capacity e2e load-robust (sase-12f) [closed]"]
-    n7["sase-1ou.4: Fix the Files ctrl+j page-anchor scroll race (sase-1a7) [open]"]
+    n7["sase-1ou.4: Fix the Files ctrl+j page-anchor scroll race (sase-1a7) [closed]"]
     n8["sase-1ou.5: Rotate and purge the historical secret-scanner hits in public sase--agents history (sase-1ot) [closed]"]
     n9["sase-1ou.5.1: Rotate exposed credentials and purge agents-sidecar history [closed]"]
     n10["sase-1ou.5.1.1: Classify findings and prepare the rotation checklist [closed]"]
     n11["sase-1ou.5.1.2: Prepare and test the three-host maintenance procedure [closed]"]
     n12["sase-1ou.5.1.3: Rehearse the purge and assemble the execution package [closed]"]
     n13["sase-1ou.5.1.4: Gate execution and verify the published result [closed]"]
-    n14["sase-1ou.6: Make Files spread page-anchor navigation converge on CI (finish sase-1a7) [in_progress]"]
+    n14["sase-1ou.6: Make Files spread page-anchor navigation converge on CI (finish sase-1a7) [closed]"]
     n15["sase-1ou.6.1: Remove the stall in Files spread navigation and make CI timeouts diagnosable [closed]"]
     n0 --> n1
     n0 --> n2
@@ -122,7 +136,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1ou.5.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ou.5.1.4.md) | [sase-1ou.5.1.4](sase-1ou.5.1.4.md) | 0 |
 | [bbugyi200.athena.sase-1ou.5.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ou.5.1.land/README.md) | [sase-1ou.5.1](sase-1ou.5.1.md) | 1 |
 | [bbugyi200.athena.sase-1ou.6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ou.6.1/README.md) | [sase-1ou.6.1](sase-1ou.6.1.md) | 2 |
-| [bbugyi200.athena.sase-1ou.6.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ou.6.land.md) | [sase-1ou.6](sase-1ou.6.md) | 0 |
+| [bbugyi200.athena.sase-1ou.6.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ou.6.land.md) | [sase-1ou.6](sase-1ou.6.md) | 1 |
 | [bbugyi200.athena.sase-1ou.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ou.land.md) | [sase-1ou](README.md) | 0 |
 
 ## Commits
@@ -139,6 +153,7 @@ flowchart TD
 | sase--plans | [`sase--plans@3e08345`](https://github.com/sase-org/sase--plans/commit/3e08345486d7fd0653a803995542ba59f5f7f49b) | docs(plan): finish sase-1ou.5.1 after verified owner decline | [sase-1ou.5.1](sase-1ou.5.1.md) | 2026-10-28 14:57:09 EDT |
 | sase | [`aaa88b0`](https://github.com/sase-org/sase/commit/aaa88b002679ac9b12a5cdc4244426daa469011a) | fix(ace-tui): resume stalled Files spread navigation on scroll-extent growth | [sase-1ou.6.1](sase-1ou.6.1.md) | 2026-10-28 19:11:09 EDT |
 | sase | [`2e68053`](https://github.com/sase-org/sase/commit/2e68053dab2fc560107a882a99f747e6de28761f) | fix(tui): remeasure Files spread reserve when already enabled | [sase-1ou.6.1](sase-1ou.6.1.md) | 2026-10-29 16:20:28 EDT |
+| sase--plans | [`sase--plans@e44ef85`](https://github.com/sase-org/sase--plans/commit/e44ef85bcf025fed567bf015899f2b4cd79269d4) | docs(plans): mark Files navigation and backlog epic 2 complete | [sase-1ou.6](sase-1ou.6.md) | 2026-10-30 07:44:11 EDT |
 
 <!-- sase:referenced-by:start -->
 
