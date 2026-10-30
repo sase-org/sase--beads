@@ -62,6 +62,12 @@ Human decision needed:
 
 When resolved, the closeout continues as already written: close sase-1nf.10.1.9.1, set status: done in plan:202610/publication_recovery_proof.md, then close only sase-1nf.10.1.9 with the research reference.
 
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-1nf.10.1.9.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.10.1.9.1.land.md) | [sase-1nf.10.1.9.1](sase-1nf.10.1.9.1.md) | 0 |
+
 <!-- sase:referenced-by:start -->
 
 ## Referenced By

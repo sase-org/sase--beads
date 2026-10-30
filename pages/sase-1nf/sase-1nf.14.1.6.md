@@ -21,7 +21,7 @@ quiet-policy: require three quiet seconds for backstops, retain their due condit
 - **Depends on:** [sase-1nf.14.1.3](sase-1nf.14.1.3.md) ✓ · ⧖ 2026-10-24
 - **Depends on:** [sase-1nf.14.1.4](sase-1nf.14.1.4.md) ✓ · ⧖ 2026-10-24
 - **Depends on:** [sase-1nf.14.1.5](sase-1nf.14.1.5.md) ✓ · ⧖ 2026-10-24
-- **Blocks:** [sase-1nf.14.1.7](sase-1nf.14.1.7.md) ◐ · ⧖ 2026-10-24
+- **Blocks:** [sase-1nf.14.1.7](sase-1nf.14.1.7.md) ✓ · ⧖ 2026-10-24
 
 ## Agents
 
@@ -34,3 +34,15 @@ quiet-policy: require three quiet seconds for backstops, retain their due condit
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`353d833`](https://github.com/sase-org/sase/commit/353d833bf0354283b1140705474d9ccee08a6453) | fix(tui-gc): require three quiet seconds for backstops with idle census attribution | [sase-1nf.14.1.6](sase-1nf.14.1.6.md) | 2026-10-27 12:02:49 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1nf.14.1.6--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.14.1.6.md
+
+<!-- sase:referenced-by:end -->

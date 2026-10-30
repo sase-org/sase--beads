@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/publication_drain_fixes.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 8 automatic references — see [Referenced By](#referenced-by)._
+_Plus 10 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/publication_drain_fixes.md
 
@@ -46,21 +46,25 @@ Fix the measured publication failures and prove safe recovery before bulk backlo
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:9n--3][1] | Confirm active ownership of the closed-phase Symvision exclusions blocking required rebase verification | 1 |
-| read-by | [agent:sase-1nf.10.1.1][2] | Need later-phase consumers so unused facade APIs can be epic-symbol keyed to still-open beads | 2 |
-| read-by | [agent:sase-1nf.10.1.2][3] | Need the epic decisions governing this phase | 1 |
-| read-by | [agent:sase-1nf.10.1.3][4] | Need epic DECISIONS for phase work | 1 |
-| read-by | [agent:sase-1nf.10.1.5][5] | Need epic DECISIONS | 1 |
-| read-by | [agent:sase-1nf.10.1.6][6] | Need parent scopes and epic decisions for this phase | 1 |
-| read-by | [agent:sase-1nf.10.1.7--2][7] | Check whether the stale sibling epic-symbol lint failure is already tracked by the parent epic | 1 |
-| read-by | [agent:toobig-8c.test_deck_split_pilot.0][8] | Confirm the in-progress publication-drain epic's responsibility for the closed-phase whitelist entries before routing the lint finding | 1 |
+| read-by | [agent:research.5h.cld][2] | check the child epic scope for bounded publication drains vs commit-stage latency | 1 |
+| read-by | [agent:research.5h.final][3] | Check overlap of existing beads with commit-stage latency recommendations | 2 |
+| read-by | [agent:sase-1nf.10.1.1][4] | Need later-phase consumers so unused facade APIs can be epic-symbol keyed to still-open beads | 2 |
+| read-by | [agent:sase-1nf.10.1.2][5] | Need the epic decisions governing this phase | 1 |
+| read-by | [agent:sase-1nf.10.1.3][6] | Need epic DECISIONS for phase work | 1 |
+| read-by | [agent:sase-1nf.10.1.5][7] | Need epic DECISIONS | 1 |
+| read-by | [agent:sase-1nf.10.1.6][8] | Need parent scopes and epic decisions for this phase | 1 |
+| read-by | [agent:sase-1nf.10.1.7--2][9] | Check whether the stale sibling epic-symbol lint failure is already tracked by the parent epic | 1 |
+| read-by | [agent:toobig-8c.test_deck_split_pilot.0][10] | Confirm the in-progress publication-drain epic's responsibility for the closed-phase whitelist entries before routing the lint finding | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.9n.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.1/README.md
-[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.2/README.md
-[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.3/README.md
-[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.5/README.md
-[6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.6/README.md
-[7]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.10.1.7.md
-[8]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-8c.test_deck_split_pilot.0/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.5h.cld/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.5h.final/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.1/README.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.2/README.md
+[6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.3/README.md
+[7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.5/README.md
+[8]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.6/README.md
+[9]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.10.1.7.md
+[10]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-8c.test_deck_split_pilot.0/README.md
 
 <!-- sase:referenced-by:end -->
