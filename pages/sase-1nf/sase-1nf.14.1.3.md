@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | related | file:explicit:d0e2fb9ef3c7f133be198c25 | attached via sase artifact create --bead |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 <!-- sase:links:end -->
 
 ## Description
@@ -32,3 +34,15 @@ graph-allocation: classify cached-row use before detaching graphs, copy only req
 ## Dependencies
 
 - **Blocks:** [sase-1nf.14.1.6](sase-1nf.14.1.6.md) ✓ · ⧖ 2026-10-24
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1nf.14.1.land--2][1] | closeout needs re-land verification note content | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.14.1.land.md
+
+<!-- sase:referenced-by:end -->

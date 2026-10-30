@@ -16,7 +16,7 @@
 | implemented-by | [plan:202610/measured_tui_gc_fixes.md][1] | derived from the plan's `bead_id:` frontmatter field |
 | related | file:explicit:cc1fcd3f9d4bd944a9c454b5 | attached via sase artifact create --bead |
 
-_Plus 5 automatic references — see [Referenced By](#referenced-by)._
+_Plus 6 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/measured_tui_gc_fixes.md
 
@@ -36,13 +36,14 @@ Reduce graph and render churn and retained UI caches, preserve quiet-time memory
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1nf.14.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.14.1.land.md) | [sase-1nf.14.1](sase-1nf.14.1.md) | 1 |
+| [bbugyi200.athena.sase-1nf.14.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.14.1.land.md) | [sase-1nf.14.1](sase-1nf.14.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`3266724`](https://github.com/sase-org/sase/commit/3266724c91a3e59aeab0b2969952c8adcdaac379) | feat(tui-gc): re-land graph-allocation classifier and accept delayed heartbeats | [sase-1nf.14.1](sase-1nf.14.1.md) | 2026-10-30 02:40:29 EDT |
+| sase--plans | [`sase--plans@6a90aaf`](https://github.com/sase-org/sase--plans/commit/6a90aafbb6d1a5e4767aae046bce8049f9c16f9d) | chore(plans): mark measured\_tui\_gc\_closeout tale done | [sase-1nf.14.1](sase-1nf.14.1.md) | 2026-10-30 02:46:05 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -55,11 +56,13 @@ Reduce graph and render churn and retained UI caches, preserve quiet-time memory
 | read-by | [agent:sase-1nf.14.1.4][3] | parent epic scope and decisions | 1 |
 | read-by | [agent:sase-1nf.14.1.5--2][4] | Need epic decisions governing this phase | 1 |
 | read-by | [agent:sase-1nf.14.1.7--1][5] | Need final epic decisions and current closure obligations | 1 |
+| read-by | [agent:sase-1nf.14.1.land--2][6] | closeout needs parent status for close note | 4 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.14.1.1/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.14.1.2/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.14.1.4/README.md
 [4]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.14.1.5.md
 [5]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.14.1.7.md
+[6]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.14.1.land.md
 
 <!-- sase:referenced-by:end -->

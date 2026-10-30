@@ -42,9 +42,11 @@ gc-fix: plan from the measurement report, reduce allocation and retention at the
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1nf.14.1.1][1] | Need parent phase scope and decisions relevant to this phase | 1 |
-| read-by | [agent:sase-1nv.1][2] | Verify the GC closeout handoff was recorded for the receiving phase | 1 |
+| read-by | [agent:sase-1nf.14.1.land--2][2] | verify parent status after epic close cascaded | 3 |
+| read-by | [agent:sase-1nv.1][3] | Verify the GC closeout handoff was recorded for the receiving phase | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.14.1.1/README.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nv.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.14.1.land.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nv.1/README.md
 
 <!-- sase:referenced-by:end -->

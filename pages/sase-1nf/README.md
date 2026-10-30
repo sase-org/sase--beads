@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/athena_apollo_audit_fixes.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 7 automatic references — see [Referenced By](#referenced-by)._
+_Plus 8 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/athena_apollo_audit_fixes.md
 
@@ -211,7 +211,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1nf.14.1.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.14.1.6.md) | [sase-1nf.14.1.6](sase-1nf.14.1.6.md) | 1 |
 | [bbugyi200.athena.sase-1nf.14.1.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.14.1.7.md) | [sase-1nf.14.1.7](sase-1nf.14.1.7.md) | 0 |
 | [bbugyi200.athena.sase-1nf.14.1.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.14.1.8.md) | [sase-1nf.14.1.8](sase-1nf.14.1.8.md) | 0 |
-| [bbugyi200.athena.sase-1nf.14.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.14.1.land.md) | [sase-1nf.14.1](sase-1nf.14.1.md) | 1 |
+| [bbugyi200.athena.sase-1nf.14.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.14.1.land.md) | [sase-1nf.14.1](sase-1nf.14.1.md) | 2 |
 | [bbugyi200.athena.sase-1nf.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.2/README.md) | [sase-1nf.2](sase-1nf.2.md) | 1 |
 | [bbugyi200.athena.sase-1nf.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.3/README.md) | [sase-1nf.3](sase-1nf.3.md) | 0 |
 | [bbugyi200.athena.sase-1nf.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.4.md) | [sase-1nf.4](sase-1nf.4.md) | 1 |
@@ -260,6 +260,7 @@ flowchart TD
 | sase | [`98668bf`](https://github.com/sase-org/sase/commit/98668bf4313401248966b09d896b417eadd82259) | fix(tui): complete navigation and prompt evidence attribution | [sase-1nf.14.1.2](sase-1nf.14.1.2.md) | 2026-10-27 10:41:09 EDT |
 | sase | [`353d833`](https://github.com/sase-org/sase/commit/353d833bf0354283b1140705474d9ccee08a6453) | fix(tui-gc): require three quiet seconds for backstops with idle census attribution | [sase-1nf.14.1.6](sase-1nf.14.1.6.md) | 2026-10-27 12:02:49 EDT |
 | sase | [`3266724`](https://github.com/sase-org/sase/commit/3266724c91a3e59aeab0b2969952c8adcdaac379) | feat(tui-gc): re-land graph-allocation classifier and accept delayed heartbeats | [sase-1nf.14.1](sase-1nf.14.1.md) | 2026-10-30 02:40:29 EDT |
+| sase--plans | [`sase--plans@6a90aaf`](https://github.com/sase-org/sase--plans/commit/6a90aafbb6d1a5e4767aae046bce8049f9c16f9d) | chore(plans): mark measured\_tui\_gc\_closeout tale done | [sase-1nf.14.1](sase-1nf.14.1.md) | 2026-10-30 02:46:05 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -272,15 +273,17 @@ flowchart TD
 | read-by | [agent:sase-1nf.1][3] | Need parent epic DECISIONS and phase list | 1 |
 | read-by | [agent:sase-1nf.10.1.6][4] | Need parent scopes and epic decisions for this phase | 1 |
 | read-by | [agent:sase-1nf.14.1.2][5] | Need governing epic decisions for GC evidence | 1 |
-| read-by | [agent:sase-1nf.3][6] | Need parent epic context and remaining phases | 1 |
-| read-by | [agent:sase-1nf.8][7] | Need parent epic scope and remaining phases | 1 |
+| read-by | [agent:sase-1nf.14.1.land--2][6] | confirm grandparent stays open | 1 |
+| read-by | [agent:sase-1nf.3][7] | Need parent epic context and remaining phases | 1 |
+| read-by | [agent:sase-1nf.8][8] | Need parent epic scope and remaining phases | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.au.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.5h.cld/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.1/README.md
 [4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.10.1.6/README.md
 [5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.14.1.2/README.md
-[6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.3/README.md
-[7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.8/README.md
+[6]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1nf.14.1.land.md
+[7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.3/README.md
+[8]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1nf.8/README.md
 
 <!-- sase:referenced-by:end -->
