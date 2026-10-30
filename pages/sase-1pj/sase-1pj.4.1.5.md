@@ -11,6 +11,10 @@
 
 workflow-completion: provide a host-owned completion boundary for workflow HITL so review staging precedes finalizer settlement without relaxing CLI admission.
 
+## Notes
+
+[2026-10-30T01:48:53Z · sase-1pj.4.1.5] Check phase notes for earlier work -r
+
 ## Dependencies
 
 - **Depends on:** [sase-1pj.4.1.3](sase-1pj.4.1.3.md) ✓ · ⧖ 2026-10-29

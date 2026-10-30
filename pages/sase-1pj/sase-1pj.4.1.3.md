@@ -18,7 +18,7 @@ gate-cli: activate the shared staged entry helper for custom and sudo gates, pro
 ## Dependencies
 
 - **Depends on:** [sase-1pj.4.1.2](sase-1pj.4.1.2.md) ✓ · ⧖ 2026-10-29
-- **Blocks:** [sase-1pj.4.1.4](sase-1pj.4.1.4.md) ◐ · ⧖ 2026-10-29
+- **Blocks:** [sase-1pj.4.1.4](sase-1pj.4.1.4.md) ✓ · ⧖ 2026-10-29
 - **Blocks:** [sase-1pj.4.1.5](sase-1pj.4.1.5.md) ◐ · ⧖ 2026-10-29
 
 ## Agents
@@ -32,3 +32,17 @@ gate-cli: activate the shared staged entry helper for custom and sudo gates, pro
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`1fb320f`](https://github.com/sase-org/sase/commit/1fb320f1a6cc7361ce7bcd53bd90ed468fe695af) | feat(gate): stage custom and sudo gate entry | [sase-1pj.4.1.3](sase-1pj.4.1.3.md) | 2026-10-29 21:37:15 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pj.4.1.3][1] | Need the phase scope, notes, and design file | 1 |
+| read-by | [agent:sase-1pt.1][2] | Need the onto-commit phase that rewrote sase_sudo.md | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.3/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pt.1/README.md
+
+<!-- sase:referenced-by:end -->
