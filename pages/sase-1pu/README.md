@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/task_backlog_epic_3.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/task_backlog_epic_3.md
 
@@ -32,6 +32,12 @@ Fix and close the five selected fleet-costly task beads, then continue the backl
 [2026-10-30T02:41:17Z · toobig-8u.agent_list_render_rail.0] DISCOVERED ISSUE: just check ToolRun a762f4efe3e9d6c984aeb66aa48130a9 (workspace sase_12, 2026-10-30) independently reproduced tests/test_contract_manifest.py::test_contract_manifest_matches_marker_selection on the current tree: committed tests/contract_manifest.txt still lists tests/test_core_finalizer_handoff.py, which has no pytest.mark.contract marker so current selection omits it. Same pre-existing clean-base staleness already recorded as PROPOSED FOLLOW-UP on closed phase sase-1pu.3. This ACE rail-module split does not touch the contract set. Do not create a new task; lander should re-mark the file or run just refresh-contract-manifest.
 
 [2026-10-30T02:41:18Z · toobig-8u.agent_list_render_rail.0] DISCOVERED ISSUE: After sase-1pu.3 imported tests._agent_artifact_marker_audit_helpers._TRACKED_MARKER_LITERALS into tests/_test_selection_rules.py, the miniature repo in tests/test_suite_gate_scoped_integration.py::_build_scoped_repo still copies _test_selection_rules.py without copying _agent_artifact_marker_audit_helpers.py. ToolRun a762f4efe3e9d6c984aeb66aa48130a9 failed four scoped suite-gate nodes with ModuleNotFoundError: No module named 'tests._agent_artifact_marker_audit_helpers' (test_scoped_run_ignores_parent_shard_spec, test_scoped_run_takes_no_token_while_the_pool_is_exhausted, test_over_budget_selection_runs_at_a_leased_width_and_releases_it, plus two FLAKY siblings with the same traceback). Fix is adding _agent_artifact_marker_audit_helpers.py to that copy list. Causal follow-up of sase-1pu.3; not caused by the ACE rail split.
+
+[2026-10-30T07:12:46Z · sase-1pt.land] DISCOVERED ISSUE (corroboration of note #3): sase-1pt.land reproduced all 5 tests/test_suite_gate_scoped_integration.py failures on master 3266724c91 with ModuleNotFoundError: No module named 'tests._agent_artifact_marker_audit_helpers' (the miniature repo copies tests/_test_selection_rules.py, which sase-1pu.3's fd8882c6af made import that helper, without copying the helper). Same failure was proposed by sase-1pt.5 (#1) and surfaced as KNOWN in sase-1pt.6/sase-1pt.7 check ToolRuns 276f775223952336bb2be21f65a708a0 and 35bfa4a59466e6dd57a0796cf220f129. No new task created.
+
+[2026-10-30T07:50:31Z · sase-1ou.6.land--3] DISCOVERED ISSUE corroboration from sase-1ou.6.land--3: scheduled Full CI 41011050293 at 20dc76bd09 fails all five scoped suite-gate fixture nodes on Python 3.12/3.13/3.14 because _build_scoped_repo omits _agent_artifact_marker_audit_helpers.py after fd8882c6af. This matches notes #3/#4 and phase sase-1pu.3; no new task. Both scheduled runs 40976564464 and 41011050293 also fail the existing contract-manifest row for test_core_finalizer_handoff.py. Closed sase-1pn note #5 claims removal, but current master 3ba58ec222 still contains that row and its marker is absent. Preserve this as unresolved integration evidence already tracked in your notes #1/#2. Evidence file:explicit:26a0e166c4b017177f87eabb; full CI proof file:explicit:111a68057073e254863c3f53.
+
+[2026-10-30T08:25:49Z · sase-1ou.6.land--3] DISCOVERED ISSUE (additional landing evidence): Master Gate 41023260975 at d1260045, 2026-10-30, fails tests/completion/test_kind_coverage.py::test_every_value_slot_is_kinded_choiced_or_hinted for new agent/sync:state_after and agent/sync:state_limit value slots. These are introduced by this epic's state-repair CLI and need their documented ValueKind or value_hint. The same run repeats the already-recorded five miniature-repo marker-helper import failures and contract-manifest staleness. Source/CI evidence is independent of the Files landing; no duplicate task. Please include completion metadata in phase5 integration.
 
 ## Phases
 
@@ -56,8 +62,8 @@ flowchart TD
     n6["sase-1pu.5.1: Published agent run state convergence [in_progress]"]
     n7["sase-1pu.5.1.1: Define shared terminal-state evidence and reconciliation rules [closed]"]
     n8["sase-1pu.5.1.2: Preserve terminal state in every existing hood publisher [closed]"]
-    n9["sase-1pu.5.1.3: Add bounded report-and-apply repair for already-published runs [in_progress]"]
-    n10["sase-1pu.5.1.4: Schedule bounded reconciliation and document owner-local backfill [in_progress]"]
+    n9["sase-1pu.5.1.3: Add bounded report-and-apply repair for already-published runs [closed]"]
+    n10["sase-1pu.5.1.4: Schedule bounded reconciliation and document owner-local backfill [open]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -85,7 +91,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1pu.5.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pu.5.1.1.md) | [sase-1pu.5.1.1](sase-1pu.5.1.1.md) | 1 |
 | [bbugyi200.athena.sase-1pu.5.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pu.5.1.2.md) | [sase-1pu.5.1.2](sase-1pu.5.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1pu.5.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pu.5.1.3.md) | [sase-1pu.5.1.3](sase-1pu.5.1.3.md) | 1 |
-| [bbugyi200.athena.sase-1pu.5.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pu.5.1.4/README.md) | [sase-1pu.5.1.4](sase-1pu.5.1.4.md) | 0 |
+| [bbugyi200.athena.sase-1pu.5.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pu.5.1.4.md) | [sase-1pu.5.1.4](sase-1pu.5.1.4.md) | 1 |
 | [bbugyi200.athena.sase-1pu.5.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pu.5.1.land/README.md) | [sase-1pu.5.1](sase-1pu.5.1.md) | 0 |
 | [bbugyi200.athena.sase-1pu.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pu.land/README.md) | [sase-1pu](README.md) | 0 |
 
@@ -100,6 +106,7 @@ flowchart TD
 | sase | [`5437e0b`](https://github.com/sase-org/sase/commit/5437e0baaa60ab862ac7810a79ab776d74e3a93f) | test(sdd): isolate empty-home git identity nested pytest | [sase-1pu.4](sase-1pu.4.md) | 2026-10-29 22:24:48 EDT |
 | sase | [`1d1c462`](https://github.com/sase-org/sase/commit/1d1c46262ac1a51b86af68d3dbc9cbb932e5a941) | feat(agents-sync): preserve terminal run state in hood publishers | [sase-1pu.5.1.2](sase-1pu.5.1.2.md) | 2026-10-30 00:09:44 EDT |
 | sase | [`5c14ac6`](https://github.com/sase-org/sase/commit/5c14ac6a54abce25f040ad491d817aaef9aec495) | feat(agents-sync): add bounded report-and-apply repair for published run states | [sase-1pu.5.1.3](sase-1pu.5.1.3.md) | 2026-10-30 03:00:33 EDT |
+| sase | [`b161834`](https://github.com/sase-org/sase/commit/b1618348d44078a3d5f8ee52ff7d4cc0b70f441d) | feat(agents-sync): schedule bounded reconciliation and document owner-local backfill | [sase-1pu.5.1.4](sase-1pu.5.1.4.md) | 2026-10-30 06:04:22 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -108,11 +115,13 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:162][1] | Parent epic of sase-1pu.5.1, needed to compare scope against sase-1pt | 1 |
-| read-by | [agent:sase-1pu.1][2] | Need parent epic DECISIONS and phase list | 1 |
-| read-by | [agent:sase-1pu.3--1][3] | land agent verdict context | 1 |
+| read-by | [agent:sase-1pj.4.1.land][2] | Check sase-1pu notes for existing DISCOVERED ISSUE on the scoped-integration fixture failure | 2 |
+| read-by | [agent:sase-1pu.1][3] | Need parent epic DECISIONS and phase list | 1 |
+| read-by | [agent:sase-1pu.3--1][4] | land agent verdict context | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.162/README.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pu.1/README.md
-[3]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pu.3.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.land/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pu.1/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pu.3.md
 
 <!-- sase:referenced-by:end -->

@@ -20,7 +20,7 @@ publication-safeguards: integrate the state-policy bindings into inventory proje
 ## Dependencies
 
 - **Depends on:** [sase-1pu.5.1.1](sase-1pu.5.1.1.md) ✓ · ⧖ 2026-10-29
-- **Blocks:** [sase-1pu.5.1.3](sase-1pu.5.1.3.md) ◐ · ⧖ 2026-10-29
+- **Blocks:** [sase-1pu.5.1.3](sase-1pu.5.1.3.md) ✓ · ⧖ 2026-10-29
 
 ## Agents
 
