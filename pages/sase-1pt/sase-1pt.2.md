@@ -32,3 +32,15 @@ measure: emit stitch op_started before the subprocess runs and add per-substep p
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`4f1a5e0`](https://github.com/sase-org/sase/commit/4f1a5e0760aae7904372148fb4fbf3f041a1a30f) | feat(finalizers): report commit publication timings | [sase-1pt.2](sase-1pt.2.md) | 2026-10-29 20:22:44 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pt.2--1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pt.2.md
+
+<!-- sase:referenced-by:end -->

@@ -29,7 +29,7 @@ A no-conflict sase agent commit stage (provider done to done.json) drops from a 
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-1pt.1](sase-1pt.1.md) | Stop the fenced Referenced By loop and carry prompt citations as link events | ◐ in_progress | medium | 2026-10-29 | 1 | 0 |
+| [sase-1pt.1](sase-1pt.1.md) | Stop the fenced Referenced By loop and carry prompt citations as link events | ✓ closed | medium | 2026-10-29 | 1 | 1 |
 | [sase-1pt.2](sase-1pt.2.md) | Truthful commit-stage timing | ✓ closed | small | 2026-10-29 | 1 | 1 |
 | [sase-1pt.3](sase-1pt.3.md) | Move artifact retention off the per-run tail | ✓ closed | small | 2026-10-29 | 1 | 1 |
 | [sase-1pt.4](sase-1pt.4.md) | Resolve revision-pin rebase conflicts mechanically | ✓ closed | medium | 2026-10-29 | 1 | 1 |
@@ -43,7 +43,7 @@ A no-conflict sase agent commit stage (provider done to done.json) drops from a 
 ```mermaid
 flowchart TD
     n0["sase-1pt: End agent commit stages at a durable publication enqueue [in_progress]"]
-    n1["sase-1pt.1: Stop the fenced Referenced By loop and carry prompt citations as link events [in_progress]"]
+    n1["sase-1pt.1: Stop the fenced Referenced By loop and carry prompt citations as link events [closed]"]
     n2["sase-1pt.2: Truthful commit-stage timing [closed]"]
     n3["sase-1pt.3: Move artifact retention off the per-run tail [closed]"]
     n4["sase-1pt.4: Resolve revision-pin rebase conflicts mechanically [closed]"]
@@ -73,7 +73,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1pt.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pt.1/README.md) | [sase-1pt.1](sase-1pt.1.md) | 0 |
+| [bbugyi200.athena.sase-1pt.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pt.1/README.md) | [sase-1pt.1](sase-1pt.1.md) | 1 |
 | [bbugyi200.athena.sase-1pt.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pt.2.md) | [sase-1pt.2](sase-1pt.2.md) | 1 |
 | [bbugyi200.athena.sase-1pt.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pt.3/README.md) | [sase-1pt.3](sase-1pt.3.md) | 1 |
 | [bbugyi200.athena.sase-1pt.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pt.4/README.md) | [sase-1pt.4](sase-1pt.4.md) | 1 |
@@ -90,6 +90,7 @@ flowchart TD
 | sase | [`e42c33f`](https://github.com/sase-org/sase/commit/e42c33fd68b030b1044dabdf999e3ce6011b2118) | feat(rebase): resolve revision-pin conflicts mechanically | [sase-1pt.4](sase-1pt.4.md) | 2026-10-29 18:43:13 EDT |
 | sase | [`9664ed3`](https://github.com/sase-org/sase/commit/9664ed3c2055979e0cc93aba20783a3996d11082) | feat(artifacts): move indexed-file retention to hourly housekeeping | [sase-1pt.3](sase-1pt.3.md) | 2026-10-29 20:15:14 EDT |
 | sase | [`4f1a5e0`](https://github.com/sase-org/sase/commit/4f1a5e0760aae7904372148fb4fbf3f041a1a30f) | feat(finalizers): report commit publication timings | [sase-1pt.2](sase-1pt.2.md) | 2026-10-29 20:22:44 EDT |
+| sase | [`5f675c3`](https://github.com/sase-org/sase/commit/5f675c311f82fa66c82ff8659daa7f246da62f44) | feat(artifact-links): emit fenced prompt cites as link events | [sase-1pt.1](sase-1pt.1.md) | 2026-10-29 22:46:48 EDT |
 
 <!-- sase:referenced-by:start -->
 
