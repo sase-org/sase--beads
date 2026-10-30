@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/staged_handoffs.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 7 automatic references — see [Referenced By](#referenced-by)._
+_Plus 10 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/staged_handoffs.md
 
@@ -30,6 +30,8 @@ Turn-ending commands (plan propose, questions, pipe, gate create, sudo request, 
 [2026-10-30T07:12:31Z · sase-1pt.land] DISCOVERED ISSUE: tests/contract_manifest.txt is stale on master 3266724c91 — tests/test_contract_manifest.py::test_contract_manifest_matches_marker_selection fails deterministically because the committed manifest still lists tests/test_core_finalizer_handoff.py, whose contract marker was removed by d97902c0df (fix(finalizer): keep handoff carry modules off the TUI import path, SASE_BEAD=sase-1pj.2.1; the file now says 'Kept off the contract set'). Reproduced by sase-1pt.land with targeted pytest on 3266724c91; also proposed by sase-1pt.1 (note #1), sase-1pt.3 (#2), sase-1pt.5 (#3), and recorded as a non-causal note on sase-1pu (#2). Fix: run just refresh-contract-manifest (and re-check the contract budget).
 
 [2026-10-30T07:51:13Z · sase-1ou.6.land--3] DISCOVERED ISSUE from sase-1ou.6.land--3: scheduled Full CI 41011050293 at 20dc76bd09 fails tests/main/test_init_skills_source_content.py::test_sase_sudo_skill_teaches_reviewed_request_contract in every Python job. The test still requires the exact kill-era phrase ends your current turn by killing this process after phase gate-staging changed the sudo skill to staged host completion (1fb320f1a6). Causal integration belongs to this epic / sase-1pj.4; no duplicate task. Current parent-baseline audit also exposes gate-none-False variants of test_commit_only_handoff_uses_one_shot_declaration_recovery and test_commit_only_handoffs_keep_dirty_submission_required; classify these with this staged-gate contract before treating them as load flakes. CI excerpts file:explicit:26a0e166c4b017177f87eabb.
+
+[2026-10-30T10:23:23Z · toobig-8u.reclaim.0--1] DISCOVERED ISSUE: During the reclaim split verification on 2026-10-30, standalone just _lint-symvision found closed-phase exemptions for sase-1pj.5.1.3 (three prepared-intent reservation APIs) and sase-1pj.4.1 (three workflow-completion APIs). After the stale rows were removed, Symvision identified all six APIs as unused public symbols outside the split: WorkflowCompletionError, PreparedWorkflowReview, complete_workflow_review, load_prepared_intent_reservations, reserve_prepared_intent, and release_prepared_intent. This is a new occurrence of the stale whitelist lifecycle pattern corroborated on sase-o7 (+1), and the remaining API disposition belongs to this staged-handoffs epic's open landing work. Evidence: file:explicit:0dbeaffa58185dbdc6374ece.
 
 ## Phases
 
@@ -77,7 +79,7 @@ flowchart TD
     n25["sase-1pj.5.1: Stage monitor starts and launch after finalization [in_progress]"]
     n26["sase-1pj.5.1.1: Define staged monitor and ToolRun reservation contracts [closed]"]
     n27["sase-1pj.5.1.2: Split monitor preparation from process launch [closed]"]
-    n28["sase-1pj.5.1.3: Preserve prepared completion and joins across staging [in_progress]"]
+    n28["sase-1pj.5.1.3: Preserve prepared completion and joins across staging [closed]"]
     n29["sase-1pj.5.1.4: Connect staged starts to runner adoption and document the protocol [in_progress]"]
     n30["sase-1pj.6: Idempotent adoption, crash reconciliation, and re-adopt [in_progress]"]
     n31["sase-1pj.7: Hold workspaces whose carried work has no successor [in_progress]"]
@@ -178,12 +180,12 @@ flowchart TD
 | [bbugyi200.athena.sase-1pj.4.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.4/README.md) | [sase-1pj.4.1.4](sase-1pj.4.1.4.md) | 1 |
 | [bbugyi200.athena.sase-1pj.4.1.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.4.1.5.md) | [sase-1pj.4.1.5](sase-1pj.4.1.5.md) | 2 |
 | [bbugyi200.athena.sase-1pj.4.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.6/README.md) | [sase-1pj.4.1.6](sase-1pj.4.1.6.md) | 2 |
-| [bbugyi200.athena.sase-1pj.4.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.land/README.md) | [sase-1pj.4.1](sase-1pj.4.1.md) | 1 |
+| [bbugyi200.athena.sase-1pj.4.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.land/README.md) | [sase-1pj.4.1](sase-1pj.4.1.md) | 2 |
 | [bbugyi200.athena.sase-1pj.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.5.md) | [sase-1pj.5](sase-1pj.5.md) | 0 |
 | [bbugyi200.athena.sase-1pj.5.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.5.1.1.md) | [sase-1pj.5.1.1](sase-1pj.5.1.1.md) | 2 |
 | [bbugyi200.athena.sase-1pj.5.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.5.1.2.md) | [sase-1pj.5.1.2](sase-1pj.5.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1pj.5.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.5.1.3/README.md) | [sase-1pj.5.1.3](sase-1pj.5.1.3.md) | 1 |
-| [bbugyi200.athena.sase-1pj.5.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.5.1.4/README.md) | [sase-1pj.5.1.4](sase-1pj.5.1.4.md) | 0 |
+| [bbugyi200.athena.sase-1pj.5.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.5.1.4/README.md) | [sase-1pj.5.1.4](sase-1pj.5.1.4.md) | 1 |
 | [bbugyi200.athena.sase-1pj.5.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.5.1.land/README.md) | [sase-1pj.5.1](sase-1pj.5.1.md) | 0 |
 | [bbugyi200.athena.sase-1pj.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6/README.md) | [sase-1pj.6](sase-1pj.6.md) | 0 |
 | [bbugyi200.athena.sase-1pj.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7/README.md) | [sase-1pj.7](sase-1pj.7.md) | 0 |
@@ -227,7 +229,9 @@ flowchart TD
 | sase | [`c85ceb0`](https://github.com/sase-org/sase/commit/c85ceb0c3b28dced3d8ef7afc00b265f194b60c9) | fix(symvision): track workflow symbols on open parent epic | [sase-1pj.4.1.6](sase-1pj.4.1.6.md) | 2026-10-30 03:57:25 EDT |
 | sase | [`8f982c8`](https://github.com/sase-org/sase/commit/8f982c8ae9a37723b88f7c8c4d95940700b75369) | feat(monitor): split monitor preparation from process launch | [sase-1pj.5.1.2](sase-1pj.5.1.2.md) | 2026-10-30 04:18:23 EDT |
 | sase | [`0060c20`](https://github.com/sase-org/sase/commit/0060c20fd7dfe3e09049fd6d09eb1faf40940d7c) | fix(gate): land staged gate epic symbols and sudo skill contract | [sase-1pj.4.1](sase-1pj.4.1.md) | 2026-10-30 05:10:20 EDT |
+| sase--plans | [`sase--plans@d0aa6e3`](https://github.com/sase-org/sase--plans/commit/d0aa6e33a614b1525c066de927f1f3ff1f504e6d) | chore(plans): mark gate\_staging epic done | [sase-1pj.4.1](sase-1pj.4.1.md) | 2026-10-30 05:15:31 EDT |
 | sase | [`f7eb80c`](https://github.com/sase-org/sase/commit/f7eb80c7a85acbc6f5bcab3589755e16d05de56e) | feat(monitor): preserve prepared intents and staged joins | [sase-1pj.5.1.3](sase-1pj.5.1.3.md) | 2026-10-30 05:48:21 EDT |
+| sase | [`7da649b`](https://github.com/sase-org/sase/commit/7da649b56248dcbf2ab94dd775bca61bb24a28f0) | feat(monitor-staging): activate staged starts with post-finalizer adoption | [sase-1pj.5.1.4](sase-1pj.5.1.4.md) | 2026-10-30 12:19:49 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -236,19 +240,25 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:research.5h.final][1] | Assess whether staged handoffs now wait on commit-stage latency | 1 |
-| read-by | [agent:sase-1pj.1.1.2][2] | Need governing epic decisions for this assigned phase | 1 |
-| read-by | [agent:sase-1pj.2.1.2][3] | Need parent DECISIONS and closed phase notes | 2 |
-| read-by | [agent:sase-1pj.2.1.3][4] | Need outer epic decisions governing the handoff-wire child epic | 1 |
-| read-by | [agent:sase-1pj.2.1.5--1][5] | Need epic DECISIONS | 1 |
-| read-by | [agent:sase-1pj.4.1.4][6] | Need parent epic DECISIONS that launch-cli must honor | 1 |
-| read-by | [agent:sase-1pj.4.1.land][7] | Check sase-1pj notes for existing DISCOVERED ISSUE on stale contract manifest | 2 |
+| read-by | [agent:sase-1ou.6.land--3][2] | Check exact duplicate and active causal owners for scheduled CI findings | 1 |
+| read-by | [agent:sase-1pj.1.1.2][3] | Need governing epic decisions for this assigned phase | 1 |
+| read-by | [agent:sase-1pj.2.1.2][4] | Need parent DECISIONS and closed phase notes | 2 |
+| read-by | [agent:sase-1pj.2.1.3][5] | Need outer epic decisions governing the handoff-wire child epic | 1 |
+| read-by | [agent:sase-1pj.2.1.5--1][6] | Need epic DECISIONS | 1 |
+| read-by | [agent:sase-1pj.4.1.4][7] | Need parent epic DECISIONS that launch-cli must honor | 1 |
+| read-by | [agent:sase-1pj.4.1.land][8] | Check sase-1pj notes for existing DISCOVERED ISSUE on stale contract manifest | 2 |
+| read-by | [agent:sase-1pj.5.1.3][9] | Check the enclosing epic and phase decisions for constraints | 1 |
+| read-by | [agent:sase-1pt.9.1][10] | Identify the open landing owner for stale Justfile epic-symbol rows after the symbol-owning phases closed | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.5h.final/README.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.1.1.2/README.md
-[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.2.1.2/README.md
-[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.2.1.3/README.md
-[5]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.2.1.5.md
-[6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.4/README.md
-[7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.land/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ou.6.land.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.1.1.2/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.2.1.2/README.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.2.1.3/README.md
+[6]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.2.1.5.md
+[7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.4/README.md
+[8]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.land/README.md
+[9]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.5.1.3/README.md
+[10]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pt.9.1/README.md
 
 <!-- sase:referenced-by:end -->

@@ -34,14 +34,16 @@ gate-staging: split gate-turn creation into CLI-time validate/stage and post-fin
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1pj.4.1.2][1] | Need parent phase DECISIONS that this child must honor | 1 |
-| read-by | [agent:sase-1pj.4.1.3][2] | Need the containing epic's decisions for the assigned child phase | 2 |
-| read-by | [agent:sase-1pj.4.1.4][3] | Need containing phase DECISIONS and remaining work notes | 1 |
-| read-by | [agent:sase-1pj.4.1.land][4] | Need the parent phase scope and notes to plan its closeout after this epic lands | 1 |
+| read-by | [agent:sase-1ou.6.land--3][1] | Identify actual causal owners and completed repairs for CI and baseline findings | 1 |
+| read-by | [agent:sase-1pj.4.1.2][2] | Need parent phase DECISIONS that this child must honor | 1 |
+| read-by | [agent:sase-1pj.4.1.3][3] | Need the containing epic's decisions for the assigned child phase | 2 |
+| read-by | [agent:sase-1pj.4.1.4][4] | Need containing phase DECISIONS and remaining work notes | 1 |
+| read-by | [agent:sase-1pj.4.1.land][5] | Need the parent phase scope and notes to plan its closeout after this epic lands | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.2/README.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.3/README.md
-[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.4/README.md
-[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.land/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ou.6.land.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.2/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.3/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.4/README.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.land/README.md
 
 <!-- sase:referenced-by:end -->

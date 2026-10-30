@@ -31,7 +31,9 @@ monitor-staging: split monitor start into CLI-time preflight/stage and post-fina
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1pj.4.1.land][1] | Check whether staged self-wait helper overlaps gate own-stage wait refusal | 1 |
+| read-by | [agent:sase-1pj.5.1.3][2] | Check the enclosing epic and phase decisions for constraints | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.land/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.5.1.3/README.md
 
 <!-- sase:referenced-by:end -->

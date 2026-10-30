@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/gate_staging.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 8 automatic references — see [Referenced By](#referenced-by)._
+_Plus 9 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/gate_staging.md
 
@@ -41,13 +41,14 @@ Complete sase-1pj.4 so agent-created gates publish only after host completion, w
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1pj.4.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.land/README.md) | [sase-1pj.4.1](sase-1pj.4.1.md) | 1 |
+| [bbugyi200.athena.sase-1pj.4.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.land/README.md) | [sase-1pj.4.1](sase-1pj.4.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`0060c20`](https://github.com/sase-org/sase/commit/0060c20fd7dfe3e09049fd6d09eb1faf40940d7c) | fix(gate): land staged gate epic symbols and sudo skill contract | [sase-1pj.4.1](sase-1pj.4.1.md) | 2026-10-30 05:10:20 EDT |
+| sase--plans | [`sase--plans@d0aa6e3`](https://github.com/sase-org/sase--plans/commit/d0aa6e33a614b1525c066de927f1f3ff1f504e6d) | chore(plans): mark gate\_staging epic done | [sase-1pj.4.1](sase-1pj.4.1.md) | 2026-10-30 05:15:31 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -63,6 +64,7 @@ Complete sase-1pj.4 so agent-created gates publish only after host completion, w
 | read-by | [agent:sase-1pj.4.1.6][6] | Need parent scope and binding decisions for workflow HITL phase | 3 |
 | read-by | [agent:sase-1pj.4.1.land][7] | Need the epic scope, children, and linked plan file | 1 |
 | read-by | [agent:sase-1pt.1][8] | Need parent epic/phase scope for sudo gate staging | 1 |
+| read-by | [agent:sase-1pt.9.1][9] | Identify the parent owner of three stale completion-review symbols in Justfile | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.4.1.1.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.2/README.md
@@ -72,5 +74,6 @@ Complete sase-1pj.4 so agent-created gates publish only after host completion, w
 [6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.6/README.md
 [7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.land/README.md
 [8]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pt.1/README.md
+[9]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pt.9.1/README.md
 
 <!-- sase:referenced-by:end -->

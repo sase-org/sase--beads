@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/monitor_staging.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/monitor_staging.md
 
@@ -43,8 +43,12 @@ Complete sase-1pj.5 so in-agent monitor starts stage durable work and launch onl
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1pj.4.1.land][1] | Check notes for an existing DISCOVERED ISSUE about completion snapshot drift from 8f982c8ae9 | 1 |
 | read-by | [agent:sase-1pj.5.1.1--2][2] | Need parent epic DECISIONS for contracts phase | 1 |
+| read-by | [agent:sase-1pj.5.1.3][3] | Inspect machine-readable epic DECISIONS for the prepared-joins phase | 2 |
+| read-by | [agent:sase-1pt.9.1][4] | Identify the active owner of stale Justfile symbols targeting its already closed child phase | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.land/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.5.1.1.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.5.1.3/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pt.9.1/README.md
 
 <!-- sase:referenced-by:end -->
