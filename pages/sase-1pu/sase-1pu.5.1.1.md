@@ -30,3 +30,15 @@ state-policy: implement the Rust state-evidence, merge, and bounded selection co
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@7de361c`](https://github.com/sase-org/sase-core/commit/7de361cca59157729d9f9c33d2895000eb37bc75) | feat(agent-run-state): add shared reconciliation policy and bindings | [sase-1pu.5.1.1](sase-1pu.5.1.1.md) | 2026-10-29 22:07:40 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pu.5.1.1--1][1] | Check prior phase notes before finalizing remaining work | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pu.5.1.1.md
+
+<!-- sase:referenced-by:end -->
