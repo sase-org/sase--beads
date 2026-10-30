@@ -11,6 +11,10 @@
 
 enqueue-only: replace the commit path's prompt-archive publish and both drains with a durable enqueue plus publisher hints, ring the doorbell after done.json, and keep the inline path as a config- and liveness-gated fallback.
 
+## Notes
+
+[2026-10-30T06:13:20Z · sase-1pt.7] PROPOSED FOLLOW-UP: Diagnose the existing scoped-check failures — ToolRun 35bfa4a59466e6dd57a0796cf220f129 ended no_new_failures with 5 KNOWN and 2 FLAKY tests; inspect its retained output for the exact cases.
+
 ## Dependencies
 
 - **Depends on:** [sase-1pt.2](sase-1pt.2.md) ✓ · ⧖ 2026-10-29
@@ -22,4 +26,22 @@ enqueue-only: replace the commit path's prompt-archive publish and both drains w
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1pt.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pt.7/README.md) | [sase-1pt.7](sase-1pt.7.md) | 0 |
+| [bbugyi200.athena.sase-1pt.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pt.7/README.md) | [sase-1pt.7](sase-1pt.7.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`e69360f`](https://github.com/sase-org/sase/commit/e69360f49d60b2657f7c509fec937d2b10866a09) | feat(commit): enqueue agent publication in background | [sase-1pt.7](sase-1pt.7.md) | 2026-10-30 02:15:51 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pt.6][1] | Verify the later enqueue-only phase is still open before reserving publisher API use | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pt.6/README.md
+
+<!-- sase:referenced-by:end -->
