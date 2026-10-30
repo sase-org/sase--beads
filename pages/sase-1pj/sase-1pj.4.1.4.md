@@ -29,10 +29,16 @@ launch-cli: retain launch preview and continuation validation while returning st
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1pj.4.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.4/README.md) | [sase-1pj.4.1.4](sase-1pj.4.1.4.md) | 1 |
+| [bbugyi200.athena.sase-1pj.4.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.4/README.md) | [sase-1pj.4.1.4](sase-1pj.4.1.4.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase | [`9394107`](https://github.com/sase-org/sase/commit/9394107ac222be1e4972aa8a3bcae0a9a7a7a56f) | feat(gate): stage launch requests and agent-origin run | [sase-1pj.4.1.4](sase-1pj.4.1.4.md) | 2026-10-29 23:18:15 EDT |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pj.4.1.4][1] | Need the phase scope and current notes before continuing launch-cli | 4 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.4/README.md
+
+<!-- sase:referenced-by:end -->

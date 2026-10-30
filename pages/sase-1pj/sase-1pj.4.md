@@ -32,8 +32,10 @@ gate-staging: split gate-turn creation into CLI-time validate/stage and post-fin
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1pj.4.1.2][1] | Need parent phase DECISIONS that this child must honor | 1 |
 | read-by | [agent:sase-1pj.4.1.3][2] | Need the containing epic's decisions for the assigned child phase | 2 |
+| read-by | [agent:sase-1pj.4.1.4][3] | Need containing phase DECISIONS and remaining work notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.2/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.3/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.4/README.md
 
 <!-- sase:referenced-by:end -->

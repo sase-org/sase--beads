@@ -13,7 +13,7 @@ workflow-hitl: route agent, bash, and Python HITL reviews through staging, prese
 
 ## Dependencies
 
-- **Depends on:** [sase-1pj.4.1.5](sase-1pj.4.1.5.md) ◐ · ⧖ 2026-10-29
+- **Depends on:** [sase-1pj.4.1.5](sase-1pj.4.1.5.md) ✓ · ⧖ 2026-10-29
 
 ## Agents
 
