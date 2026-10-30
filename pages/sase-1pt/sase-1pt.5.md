@@ -37,3 +37,15 @@ deferred-parity: record the commit context on outbox rows, render deferred promp
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`66b1549`](https://github.com/sase-org/sase/commit/66b15496f939aae8b3d5db5e9b2234bb15ddacca) | feat(agents-sync): preserve deferred prompt archive context | [sase-1pt.5](sase-1pt.5.md) | 2026-10-30 00:24:35 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pt.5][1] | Verify phase notes and closure evidence | 4 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pt.5/README.md
+
+<!-- sase:referenced-by:end -->

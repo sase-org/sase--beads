@@ -20,7 +20,7 @@ refby-events: check the link-v2 fence before the lock, pull, and snapshot, emit 
 ## Dependencies
 
 - **Blocks:** [sase-1pt.5](sase-1pt.5.md) ✓ · ⧖ 2026-10-29
-- **Blocks:** [sase-1pt.6](sase-1pt.6.md) ◐ · ⧖ 2026-10-29
+- **Blocks:** [sase-1pt.6](sase-1pt.6.md) ✓ · ⧖ 2026-10-29
 
 ## Agents
 
