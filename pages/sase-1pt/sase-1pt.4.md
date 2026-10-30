@@ -32,3 +32,15 @@ pin-resolver: add a revision-pin resolver to the semantic rebase conflict chain 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`e42c33f`](https://github.com/sase-org/sase/commit/e42c33fd68b030b1044dabdf999e3ce6011b2118) | feat(rebase): resolve revision-pin conflicts mechanically | [sase-1pt.4](sase-1pt.4.md) | 2026-10-29 18:43:13 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pt.4][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pt.4/README.md
+
+<!-- sase:referenced-by:end -->

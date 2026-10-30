@@ -13,7 +13,7 @@ prove: after the installed sase includes the epic, measure commit-stage latency 
 
 ## Dependencies
 
-- **Depends on:** [sase-1pt.3](sase-1pt.3.md) ◐ · ⧖ 2026-10-29
+- **Depends on:** [sase-1pt.3](sase-1pt.3.md) ✓ · ⧖ 2026-10-29
 - **Depends on:** [sase-1pt.4](sase-1pt.4.md) ✓ · ⧖ 2026-10-29
 - **Depends on:** [sase-1pt.7](sase-1pt.7.md) ◐ · ⧖ 2026-10-29
 
