@@ -33,3 +33,15 @@ publication-safeguards: integrate the state-policy bindings into inventory proje
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`1d1c462`](https://github.com/sase-org/sase/commit/1d1c46262ac1a51b86af68d3dbc9cbb932e5a941) | feat(agents-sync): preserve terminal run state in hood publishers | [sase-1pu.5.1.2](sase-1pu.5.1.2.md) | 2026-10-30 00:09:44 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pu.5.1.2--2][1] | check remaining work and notes | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pu.5.1.2.md
+
+<!-- sase:referenced-by:end -->

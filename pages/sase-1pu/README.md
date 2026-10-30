@@ -84,7 +84,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1pu.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pu.5.md) | [sase-1pu.5](sase-1pu.5.md) | 0 |
 | [bbugyi200.athena.sase-1pu.5.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pu.5.1.1.md) | [sase-1pu.5.1.1](sase-1pu.5.1.1.md) | 1 |
 | [bbugyi200.athena.sase-1pu.5.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pu.5.1.2.md) | [sase-1pu.5.1.2](sase-1pu.5.1.2.md) | 1 |
-| [bbugyi200.athena.sase-1pu.5.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pu.5.1.3/README.md) | [sase-1pu.5.1.3](sase-1pu.5.1.3.md) | 0 |
+| [bbugyi200.athena.sase-1pu.5.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pu.5.1.3.md) | [sase-1pu.5.1.3](sase-1pu.5.1.3.md) | 1 |
 | [bbugyi200.athena.sase-1pu.5.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pu.5.1.4/README.md) | [sase-1pu.5.1.4](sase-1pu.5.1.4.md) | 0 |
 | [bbugyi200.athena.sase-1pu.5.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pu.5.1.land/README.md) | [sase-1pu.5.1](sase-1pu.5.1.md) | 0 |
 | [bbugyi200.athena.sase-1pu.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pu.land/README.md) | [sase-1pu](README.md) | 0 |
@@ -99,6 +99,7 @@ flowchart TD
 | sase-core | [`sase-core@7de361c`](https://github.com/sase-org/sase-core/commit/7de361cca59157729d9f9c33d2895000eb37bc75) | feat(agent-run-state): add shared reconciliation policy and bindings | [sase-1pu.5.1.1](sase-1pu.5.1.1.md) | 2026-10-29 22:07:40 EDT |
 | sase | [`5437e0b`](https://github.com/sase-org/sase/commit/5437e0baaa60ab862ac7810a79ab776d74e3a93f) | test(sdd): isolate empty-home git identity nested pytest | [sase-1pu.4](sase-1pu.4.md) | 2026-10-29 22:24:48 EDT |
 | sase | [`1d1c462`](https://github.com/sase-org/sase/commit/1d1c46262ac1a51b86af68d3dbc9cbb932e5a941) | feat(agents-sync): preserve terminal run state in hood publishers | [sase-1pu.5.1.2](sase-1pu.5.1.2.md) | 2026-10-30 00:09:44 EDT |
+| sase | [`5c14ac6`](https://github.com/sase-org/sase/commit/5c14ac6a54abce25f040ad491d817aaef9aec495) | feat(agents-sync): add bounded report-and-apply repair for published run states | [sase-1pu.5.1.3](sase-1pu.5.1.3.md) | 2026-10-30 03:00:33 EDT |
 
 <!-- sase:referenced-by:start -->
 

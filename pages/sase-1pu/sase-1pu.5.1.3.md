@@ -11,6 +11,10 @@
 
 bounded-repair: implement the bounded state-reconciliation service and sase agent sync --repair-states mode specified below. Resolve exact local evidence for already-published runs, update only their state and derived projections, re-evaluate after upstream changes, and expose a resumable report cursor. Test read-only preview, bounds, hidden-clone ownership, publication races, failure recovery, and idempotence with temporary repositories.
 
+## Notes
+
+[2026-10-30T06:29:48Z · sase-1pu.5.1.3--1] WORK COMPLETE, CLOSE BLOCKED BY EPIC-SYMBOL GUARD (needs land-then-close): implemented bounded report-and-apply repair in src/sase/agents_sync/publication_state_repair.py with sase agent sync --repair-states/--state-limit/--state-after routing through src/sase/agents/cli_sync.py, src/sase/main/parser_agent_sync.py, src/sase/main/parser_root_args.py plus docs/reference/cli/agent.md and footprint catalog regen. VERIFIED: 19 temp-repo tests in tests/agents_sync/test_publication_state_repair.py + 3 CLI tests in tests/agents_sync/test_cli.py; pytest on both files = 72 passed in ~24s; ruff clean; mypy clean on both touched source files; just _lint-symvision green with the working-tree Justfile; recorded check run d437d7ae882a5d2031516fc1c0087ddc passed every fmt/lint/docs stage. BLOCKER: sase bead close refuses because origin/master Justfile still carries sase-1pu.5.1.3(select_agent_run_state_window), sase-1pu.5.1.3(AgentRunStateWindowRowWire), sase-1pu.5.1.3(agent_run_state_wire_schema_version); the working tree already drops those rows (all three symbols are wired up in the new service) and re-keys repair symbols to sase-1pu.5.1.4. LANDER: after host finalizers land this tree, re-run sase bead epic-symbols sase-1pu.5.1.3 (expect empty) then sase bead close sase-1pu.5.1.3 --note with the evidence above. PROPOSED FOLLOW-UP: full just check green on this diff was never observed — the Justfile edit escalates test selection to FULL_SUITE (5498 files) and the verify monitor 3q84vqn0djkj timed out at its 1h budget; core-floor-probe blocked_unpublished in the recorded run is advisory/pre-existing (sase-core checkout ahead of the pin, no action needed).
+
 ## Dependencies
 
 - **Depends on:** [sase-1pu.5.1.2](sase-1pu.5.1.2.md) ✓ · ⧖ 2026-10-29
@@ -20,4 +24,10 @@ bounded-repair: implement the bounded state-reconciliation service and sase agen
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1pu.5.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pu.5.1.3/README.md) | [sase-1pu.5.1.3](sase-1pu.5.1.3.md) | 0 |
+| [bbugyi200.athena.sase-1pu.5.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pu.5.1.3.md) | [sase-1pu.5.1.3](sase-1pu.5.1.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`5c14ac6`](https://github.com/sase-org/sase/commit/5c14ac6a54abce25f040ad491d817aaef9aec495) | feat(agents-sync): add bounded report-and-apply repair for published run states | [sase-1pu.5.1.3](sase-1pu.5.1.3.md) | 2026-10-30 03:00:33 EDT |
