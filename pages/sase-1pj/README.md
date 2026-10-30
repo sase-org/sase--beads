@@ -62,7 +62,7 @@ flowchart TD
     n16["sase-1pj.4: Stage gate, sudo, launch, run, and workflow HITL gates [in_progress]"]
     n17["sase-1pj.4.1: Stage gate requests before host publication [in_progress]"]
     n18["sase-1pj.4.1.1: Durable gate staging contract [closed]"]
-    n19["sase-1pj.4.1.2: Publish staged gates from persisted creator context [in_progress]"]
+    n19["sase-1pj.4.1.2: Publish staged gates from persisted creator context [closed]"]
     n20["sase-1pj.4.1.3: Stage custom and sudo gates through one entry helper [in_progress]"]
     n21["sase-1pj.4.1.4: Stage launch requests and agent-origin run requests [in_progress]"]
     n22["sase-1pj.4.1.5: Bring workflow review into host completion [in_progress]"]
@@ -167,7 +167,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1pj.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.3/README.md) | [sase-1pj.3](sase-1pj.3.md) | 1 |
 | [bbugyi200.athena.sase-1pj.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.4.md) | [sase-1pj.4](sase-1pj.4.md) | 0 |
 | [bbugyi200.athena.sase-1pj.4.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.4.1.1.md) | [sase-1pj.4.1.1](sase-1pj.4.1.1.md) | 2 |
-| [bbugyi200.athena.sase-1pj.4.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.2/README.md) | [sase-1pj.4.1.2](sase-1pj.4.1.2.md) | 0 |
+| [bbugyi200.athena.sase-1pj.4.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.2/README.md) | [sase-1pj.4.1.2](sase-1pj.4.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1pj.4.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.3/README.md) | [sase-1pj.4.1.3](sase-1pj.4.1.3.md) | 0 |
 | [bbugyi200.athena.sase-1pj.4.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.4/README.md) | [sase-1pj.4.1.4](sase-1pj.4.1.4.md) | 0 |
 | [bbugyi200.athena.sase-1pj.4.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.5/README.md) | [sase-1pj.4.1.5](sase-1pj.4.1.5.md) | 0 |
@@ -212,6 +212,7 @@ flowchart TD
 | sase-core | [`sase-core@2a62513`](https://github.com/sase-org/sase-core/commit/2a625131e32f8d8e6c935683834d241a0651d06c) | feat(staged-monitor): add Rust-owned staged payload and ToolRun reservation contracts | [sase-1pj.5.1.1](sase-1pj.5.1.1.md) | 2026-10-29 18:25:55 EDT |
 | sase | [`c15837c`](https://github.com/sase-org/sase/commit/c15837cfc6238b0ca4b4f0a4f4b0394fe59bab06) | feat(gate): durable staged gate contract with payload and snapshots | [sase-1pj.4.1.1](sase-1pj.4.1.1.md) | 2026-10-29 18:27:05 EDT |
 | sase | [`b175b63`](https://github.com/sase-org/sase/commit/b175b6375855c7d8e2c0a5aece625e04e22e78d2) | feat(staged-monitor): wire Rust-owned staged payload and reservation contracts | [sase-1pj.5.1.1](sase-1pj.5.1.1.md) | 2026-10-29 19:59:35 EDT |
+| sase | [`f52b015`](https://github.com/sase-org/sase/commit/f52b0157455cbdabd097048fd612c183f32f3dd0) | feat(gate): publish staged gates from persisted creator context | [sase-1pj.4.1.2](sase-1pj.4.1.2.md) | 2026-10-29 20:29:29 EDT |
 
 <!-- sase:referenced-by:start -->
 

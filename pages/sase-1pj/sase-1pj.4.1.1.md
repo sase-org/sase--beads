@@ -19,7 +19,7 @@ gate-contract: define the Rust-owned staged gate payload and workspace dispositi
 
 ## Dependencies
 
-- **Blocks:** [sase-1pj.4.1.2](sase-1pj.4.1.2.md) ◐ · ⧖ 2026-10-29
+- **Blocks:** [sase-1pj.4.1.2](sase-1pj.4.1.2.md) ✓ · ⧖ 2026-10-29
 
 ## Agents
 

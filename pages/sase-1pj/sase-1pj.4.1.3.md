@@ -13,7 +13,7 @@ gate-cli: activate the shared staged entry helper for custom and sudo gates, pro
 
 ## Dependencies
 
-- **Depends on:** [sase-1pj.4.1.2](sase-1pj.4.1.2.md) ◐ · ⧖ 2026-10-29
+- **Depends on:** [sase-1pj.4.1.2](sase-1pj.4.1.2.md) ✓ · ⧖ 2026-10-29
 - **Blocks:** [sase-1pj.4.1.4](sase-1pj.4.1.4.md) ◐ · ⧖ 2026-10-29
 - **Blocks:** [sase-1pj.4.1.5](sase-1pj.4.1.5.md) ◐ · ⧖ 2026-10-29
 
