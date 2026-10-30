@@ -42,7 +42,7 @@ activation: switch in-agent flag-on starts to staging, register the post-finaliz
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1pj.5.1.4][1] | Check whether phase close landed | 9 |
+| read-by | [agent:sase-1pj.5.1.4][1] | Check whether phase close landed | 10 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.5.1.4/README.md
 

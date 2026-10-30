@@ -11,6 +11,10 @@
 
 monitor-staging: split monitor start into CLI-time preflight/stage and post-finalizer spawn, integrate prepared (-f) completion and -J joins, and close the just-fix race between monitor checks and the commit finalizer.
 
+## Notes
+
+[2026-10-30T20:35:12Z · sase-1pj.5.1.land] LANDING BLOCKER: implementation and verification are complete, but nested closeout is waiting on the host-owned landing of the Justfile cleanup. The current Justfile removes all four sase-1pj.5.1 epic-symbol rows; the four symbols are private or deleted, `just symvision` passes, and `sase tool run check` passed as ToolRun a979738833b23ecfe67d0de6d32c8d85. However, `sase bead epic-symbols sase-1pj.5.1` still reports those same four rows from origin/master, and `sase bead close sase-1pj.5.1` refused to close for that reason. No force was used. After the host lands this change and origin/master no longer has those stale rows, rerun epic-symbols, close sase-1pj.5.1, set plan:202610/monitor_staging.md status to done, then close only phase sase-1pj.5; leave outer epic sase-1pj open. The repair follow-up dispositions are recorded in the child note.
+
 ## Dependencies
 
 - **Depends on:** [sase-1pj.1](sase-1pj.1.md) ✓ · ⧖ 2026-10-28
