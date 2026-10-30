@@ -30,3 +30,15 @@ prompt-migration-protection: route the one-time legacy prompt migration through 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`81fdd68`](https://github.com/sase-org/sase/commit/81fdd689fbf6649ad599b5843be674fdcfcf01ae) | fix(agents-sync): scan prompt migrations before sidecar publication | [sase-1pu.1](sase-1pu.1.md) | 2026-10-29 21:00:25 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pu.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pu.1/README.md
+
+<!-- sase:referenced-by:end -->

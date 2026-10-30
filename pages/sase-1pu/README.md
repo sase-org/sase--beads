@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/task_backlog_epic_3.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/task_backlog_epic_3.md
 
@@ -34,7 +34,7 @@ Fix and close the five selected fleet-costly task beads, then continue the backl
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-1pu.1](sase-1pu.1.md) | Scan and safely recover prompt migrations into the agents sidecar (sase-1os) | ✓ closed | medium | 2026-10-29 | 1 | 1 |
-| [sase-1pu.2](sase-1pu.2.md) | Keep long-waiting bead agents alive when their dependency wakes (sase-12v) | ◐ in_progress | large | 2026-10-29 | 1 | 0 |
+| [sase-1pu.2](sase-1pu.2.md) | Keep long-waiting bead agents alive when their dependency wakes (sase-12v) | ✓ closed | large | 2026-10-29 | 1 | 1 |
 | [sase-1pu.3](sase-1pu.3.md) | Select agent-artifact marker audits for marker-writer changes (sase-1mv) | ✓ closed | medium | 2026-10-29 | 1 | 1 |
 | [sase-1pu.4](sase-1pu.4.md) | Remove the full-check timeout for the empty-home SDD identity test (sase-120) | ◐ in_progress | large | 2026-10-29 | 1 | 0 |
 | [sase-1pu.5](sase-1pu.5.md) | Publish terminal agent-run state instead of leaving thousands of rows active (sase-1cc) | ◐ in_progress | large | 2026-10-29 | 1 | 0 |
@@ -45,7 +45,7 @@ Fix and close the five selected fleet-costly task beads, then continue the backl
 flowchart TD
     n0["sase-1pu: Task backlog epic 3: publication safety, handoffs, check coverage, and state freshness [in_progress]"]
     n1["sase-1pu.1: Scan and safely recover prompt migrations into the agents sidecar (sase-1os) [closed]"]
-    n2["sase-1pu.2: Keep long-waiting bead agents alive when their dependency wakes (sase-12v) [in_progress]"]
+    n2["sase-1pu.2: Keep long-waiting bead agents alive when their dependency wakes (sase-12v) [closed]"]
     n3["sase-1pu.3: Select agent-artifact marker audits for marker-writer changes (sase-1mv) [closed]"]
     n4["sase-1pu.4: Remove the full-check timeout for the empty-home SDD identity test (sase-120) [in_progress]"]
     n5["sase-1pu.5: Publish terminal agent-run state instead of leaving thousands of rows active (sase-1cc) [in_progress]"]
@@ -74,7 +74,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1pu.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pu.1/README.md) | [sase-1pu.1](sase-1pu.1.md) | 1 |
-| [bbugyi200.athena.sase-1pu.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pu.2.md) | [sase-1pu.2](sase-1pu.2.md) | 0 |
+| [bbugyi200.athena.sase-1pu.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pu.2.md) | [sase-1pu.2](sase-1pu.2.md) | 1 |
 | [bbugyi200.athena.sase-1pu.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pu.3.md) | [sase-1pu.3](sase-1pu.3.md) | 1 |
 | [bbugyi200.athena.sase-1pu.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pu.4.md) | [sase-1pu.4](sase-1pu.4.md) | 0 |
 | [bbugyi200.athena.sase-1pu.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pu.5.md) | [sase-1pu.5](sase-1pu.5.md) | 0 |
@@ -91,6 +91,7 @@ flowchart TD
 |---|---|---|---|---|
 | sase | [`fd8882c`](https://github.com/sase-org/sase/commit/fd8882c6af267424c4f3e1e131634264a2b59b74) | feat(scope): select marker audits for marker-writer changes | [sase-1pu.3](sase-1pu.3.md) | 2026-10-29 20:39:45 EDT |
 | sase | [`81fdd68`](https://github.com/sase-org/sase/commit/81fdd689fbf6649ad599b5843be674fdcfcf01ae) | fix(agents-sync): scan prompt migrations before sidecar publication | [sase-1pu.1](sase-1pu.1.md) | 2026-10-29 21:00:25 EDT |
+| sase | [`188073f`](https://github.com/sase-org/sase/commit/188073fe063976592272847ff383578229d1aabf) | test(axe): cover waiter name recovery after refresh | [sase-1pu.2](sase-1pu.2.md) | 2026-10-29 21:24:01 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -98,8 +99,10 @@ flowchart TD
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1pu.3--1][1] | land agent verdict context | 1 |
+| read-by | [agent:sase-1pu.1][1] | Need parent epic DECISIONS and phase list | 1 |
+| read-by | [agent:sase-1pu.3--1][2] | land agent verdict context | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pu.3.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pu.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pu.3.md
 
 <!-- sase:referenced-by:end -->

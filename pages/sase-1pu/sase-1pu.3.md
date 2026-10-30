@@ -37,8 +37,10 @@ marker-audit-selection: make scoped test selection include both AST audit module
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1pu.3--1][1] | Need phase scope verdict | 1 |
+| read-by | [agent:sase-1pu.1][1] | Cite sibling follow-up for stale contract_manifest flake | 1 |
+| read-by | [agent:sase-1pu.3--1][2] | Need phase scope verdict | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pu.3.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pu.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pu.3.md
 
 <!-- sase:referenced-by:end -->
