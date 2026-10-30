@@ -23,7 +23,7 @@ handoff-wire: add a handoff descriptor to the sase-core finalizer context, a car
 
 - **Depends on:** [sase-1pj.1](sase-1pj.1.md) ✓ · ⧖ 2026-10-28
 - **Blocks:** [sase-1pj.3](sase-1pj.3.md) ◐ · ⧖ 2026-10-28
-- **Blocks:** [sase-1pj.4](sase-1pj.4.md) ◐ · ⧖ 2026-10-28
+- **Blocks:** [sase-1pj.4](sase-1pj.4.md) ✓ · ⧖ 2026-10-28
 - **Blocks:** [sase-1pj.5](sase-1pj.5.md) ◐ · ⧖ 2026-10-28
 - **Blocks:** [sase-1pj.7](sase-1pj.7.md) ◐ · ⧖ 2026-10-28
 

@@ -42,8 +42,10 @@ gate-contract: define the Rust-owned staged gate payload and workspace dispositi
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1pj.4.1.1--1][1] | check phase notes and remaining work | 3 |
 | read-by | [agent:sase-1pj.4.1.2][2] | Need gate-contract landing evidence before publisher work | 1 |
+| read-by | [agent:sase-1pj.4.1.land][3] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.4.1.1.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.2/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.land/README.md
 
 <!-- sase:referenced-by:end -->

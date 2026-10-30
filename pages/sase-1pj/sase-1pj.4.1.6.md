@@ -35,3 +35,15 @@ workflow-hitl: route agent, bash, and Python HITL reviews through staging, prese
 |---|---|---|---|---|
 | sase | [`3ba58ec`](https://github.com/sase-org/sase/commit/3ba58ec222fa6e884dde1fce6b4b681b68254a7b) | feat(workflow): stage HITL reviews before cleanup settlement | [sase-1pj.4.1.6](sase-1pj.4.1.6.md) | 2026-10-30 03:20:14 EDT |
 | sase | [`c85ceb0`](https://github.com/sase-org/sase/commit/c85ceb0c3b28dced3d8ef7afc00b265f194b60c9) | fix(symvision): track workflow symbols on open parent epic | [sase-1pj.4.1.6](sase-1pj.4.1.6.md) | 2026-10-30 03:57:25 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pj.4.1.land][1] | Need the child scope and notes | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.land/README.md
+
+<!-- sase:referenced-by:end -->

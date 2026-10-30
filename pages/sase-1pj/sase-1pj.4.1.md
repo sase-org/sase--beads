@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1pj.4](sase-1pj.4.md) / sase-1pj.4.1
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-1pj.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.4.md) · **Assignee:** `sase-1pj.4.1.land`
-**Created:** 2026-10-29 14:37:29 EDT
+**Created:** 2026-10-29 14:37:29 EDT · **Closed:** 2026-10-30 05:15:20 EDT
 **Plan:** [202610/gate\_staging.md](https://github.com/sase-org/sase--plans/blob/main/202610/gate_staging.md)
 
 <!-- sase:links:start -->
@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/gate_staging.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 7 automatic references — see [Referenced By](#referenced-by)._
+_Plus 8 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/gate_staging.md
 
@@ -35,17 +35,20 @@ Complete sase-1pj.4 so agent-created gates publish only after host completion, w
 
 [2026-10-30T09:08:48Z · sase-1pj.4.1.land] LANDING VERIFICATION (sase-1pj.4.1.land): Reviewed all six closed phases, their notes, and commits c15837cfc6, f52b015745, 1fb320f1a6, 9394107ac2, 20dc76bd09, 3ba58ec222, and c85ceb0c3b against the plan. Confirmed: the Rust-owned gate payload plus Python projection and snapshots; the publisher reuses persisted creator context and replays by request id; the kind:gate adopter survived the 3928f2f918 split of run_agent_exec_staged; the shared gate entry (handle_gate_entry/run_gate_entry) serves custom, sudo, launch request, and agent-origin run; begin_gate_intent runs only on the legacy sudo path; sase gate wait refuses the caller's own staged gate; the staged LaunchRequest variant is typed; workflow HITL suspends via WorkflowSuspended and is settled by the executor after cleanup. Integration: 8f982c8ae9 (sase-1pj.5.1.2) merges cleanly and also fixes the stale contract manifest. The sase-1pj.5.1.4 evaluate_staged_self_wait helper is monitor-scoped and remains with that open phase. Landing fixes: (a) updated test_sase_sudo_skill_teaches_reviewed_request_contract to assert the dual-state staged/legacy wording that 1fb320f1a6 put in sase_sudo.md; (b) retired the three epic symbols by deleting the unused complete_workflow_review wrapper (its tests now stage and then settle), privatizing _WorkflowCompletionError, and typing WorkflowSuspended.review as PreparedWorkflowReview (a TYPE_CHECKING import); the Justfile rows were removed. Evidence: 408 focused gate/launch/sudo/workflow tests pass; symvision is clean on the merged tree; sase tool run check ToolRun be1e2bba943950edd269451133249cf3 passed every lint stage and the test stage gave verdict no_new_failures (6 KNOWN, 2 FLAKY: five suite-gate fixtures tracked on sase-1pu, plus three completion-snapshot nodes from 8f982c8ae9, recorded as a DISCOVERED ISSUE on sase-1pj.5.1). The close goes through host completion (bead_action close) because the upstream-union epic-symbol guard keeps refusing until this commit's Justfile row removal reaches origin/master.
 
+[2026-10-30T09:15:20Z · sase-1pj.4.1.land] Closed by explicit `sase stitch create -B close` after create_commit landed 0060c20fd7 ("fix(gate): land staged gate epic symbols and sudo skill contract"). The commit author requested bead completion after verifying the bead scope. Reopen with `sase bead open sase-1pj.4.1` if more work remains.
+
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1pj.4.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.land/README.md) | [sase-1pj.4.1](sase-1pj.4.1.md) | 1 |
+| [bbugyi200.athena.sase-1pj.4.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.land/README.md) | [sase-1pj.4.1](sase-1pj.4.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`0060c20`](https://github.com/sase-org/sase/commit/0060c20fd7dfe3e09049fd6d09eb1faf40940d7c) | fix(gate): land staged gate epic symbols and sudo skill contract | [sase-1pj.4.1](sase-1pj.4.1.md) | 2026-10-30 05:10:20 EDT |
+| sase--plans | [`sase--plans@d0aa6e3`](https://github.com/sase-org/sase--plans/commit/d0aa6e33a614b1525c066de927f1f3ff1f504e6d) | chore(plans): mark gate\_staging epic done | [sase-1pj.4.1](sase-1pj.4.1.md) | 2026-10-30 05:15:31 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -59,7 +62,8 @@ Complete sase-1pj.4 so agent-created gates publish only after host completion, w
 | read-by | [agent:sase-1pj.4.1.4][4] | Need parent epic DECISIONS and prior phase notes | 1 |
 | read-by | [agent:sase-1pj.4.1.5--1][5] | decisions | 2 |
 | read-by | [agent:sase-1pj.4.1.6][6] | Need parent scope and binding decisions for workflow HITL phase | 3 |
-| read-by | [agent:sase-1pt.1][7] | Need parent epic/phase scope for sudo gate staging | 1 |
+| read-by | [agent:sase-1pj.4.1.land][7] | Need the epic scope, children, and linked plan file | 1 |
+| read-by | [agent:sase-1pt.1][8] | Need parent epic/phase scope for sudo gate staging | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.4.1.1.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.2/README.md
@@ -67,6 +71,7 @@ Complete sase-1pj.4 so agent-created gates publish only after host completion, w
 [4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.4/README.md
 [5]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.4.1.5.md
 [6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.6/README.md
-[7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pt.1/README.md
+[7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.land/README.md
+[8]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pt.1/README.md
 
 <!-- sase:referenced-by:end -->

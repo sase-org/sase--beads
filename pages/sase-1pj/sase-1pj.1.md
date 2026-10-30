@@ -25,7 +25,7 @@ plan-staging: create the staged_handoffs beta flag, the staged-handoff record an
 
 - **Blocks:** [sase-1pj.2](sase-1pj.2.md) ✓ · ⧖ 2026-10-28
 - **Blocks:** [sase-1pj.3](sase-1pj.3.md) ◐ · ⧖ 2026-10-28
-- **Blocks:** [sase-1pj.4](sase-1pj.4.md) ◐ · ⧖ 2026-10-28
+- **Blocks:** [sase-1pj.4](sase-1pj.4.md) ✓ · ⧖ 2026-10-28
 - **Blocks:** [sase-1pj.5](sase-1pj.5.md) ◐ · ⧖ 2026-10-28
 - **Blocks:** [sase-1pj.6](sase-1pj.6.md) ◐ · ⧖ 2026-10-28
 

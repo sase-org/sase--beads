@@ -44,7 +44,9 @@ workflow-completion: provide a host-owned completion boundary for workflow HITL 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1pj.4.1.5--1][1] | inspect phase for completion | 5 |
+| read-by | [agent:sase-1pj.4.1.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.4.1.5.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.land/README.md
 
 <!-- sase:referenced-by:end -->

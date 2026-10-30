@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1pj](README.md) / sase-1pj.4
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.research.5f.linker.w0](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.research.5f.linker.w0.md) · **Assignee:** `sase-1pj.4` · **Size:** large
-**Created:** 2026-10-28 20:28:58 EDT
+**Created:** 2026-10-28 20:28:58 EDT · **Closed:** 2026-10-30 05:15:20 EDT
 **Plan:** [202610/staged\_handoffs.md](https://github.com/sase-org/sase--plans/blob/main/202610/staged_handoffs.md)
 
 ## Description
@@ -37,9 +37,11 @@ gate-staging: split gate-turn creation into CLI-time validate/stage and post-fin
 | read-by | [agent:sase-1pj.4.1.2][1] | Need parent phase DECISIONS that this child must honor | 1 |
 | read-by | [agent:sase-1pj.4.1.3][2] | Need the containing epic's decisions for the assigned child phase | 2 |
 | read-by | [agent:sase-1pj.4.1.4][3] | Need containing phase DECISIONS and remaining work notes | 1 |
+| read-by | [agent:sase-1pj.4.1.land][4] | Need the parent phase scope and notes to plan its closeout after this epic lands | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.2/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.3/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.4/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.land/README.md
 
 <!-- sase:referenced-by:end -->

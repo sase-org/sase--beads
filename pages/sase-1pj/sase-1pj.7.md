@@ -15,7 +15,7 @@ carry-hardening: when carried work reaches a branch with no successor (stopped o
 
 - **Depends on:** [sase-1pj.2](sase-1pj.2.md) ✓ · ⧖ 2026-10-28
 - **Depends on:** [sase-1pj.3](sase-1pj.3.md) ◐ · ⧖ 2026-10-28
-- **Depends on:** [sase-1pj.4](sase-1pj.4.md) ◐ · ⧖ 2026-10-28
+- **Depends on:** [sase-1pj.4](sase-1pj.4.md) ✓ · ⧖ 2026-10-28
 - **Depends on:** [sase-1pj.5](sase-1pj.5.md) ◐ · ⧖ 2026-10-28
 - **Blocks:** [sase-1pj.8](sase-1pj.8.md) ◐ · ⧖ 2026-10-28
 

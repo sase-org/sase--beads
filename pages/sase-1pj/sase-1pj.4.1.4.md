@@ -44,7 +44,9 @@ launch-cli: retain launch preview and continuation validation while returning st
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1pj.4.1.4][1] | Need the phase scope and current notes before continuing launch-cli | 4 |
+| read-by | [agent:sase-1pj.4.1.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.4/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.land/README.md
 
 <!-- sase:referenced-by:end -->
