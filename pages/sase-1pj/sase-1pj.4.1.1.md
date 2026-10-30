@@ -25,13 +25,14 @@ gate-contract: define the Rust-owned staged gate payload and workspace dispositi
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1pj.4.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.4.1.1.md) | [sase-1pj.4.1.1](sase-1pj.4.1.1.md) | 1 |
+| [bbugyi200.athena.sase-1pj.4.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.4.1.1.md) | [sase-1pj.4.1.1](sase-1pj.4.1.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@f4aa8fb`](https://github.com/sase-org/sase-core/commit/f4aa8fb6438eb737923a652364c295df40418dcd) | feat(gate): Rust-owned staged gate payload and workspace disposition | [sase-1pj.4.1.1](sase-1pj.4.1.1.md) | 2026-10-29 17:24:47 EDT |
+| sase | [`c15837c`](https://github.com/sase-org/sase/commit/c15837cfc6238b0ca4b4f0a4f4b0394fe59bab06) | feat(gate): durable staged gate contract with payload and snapshots | [sase-1pj.4.1.1](sase-1pj.4.1.1.md) | 2026-10-29 18:27:05 EDT |
 
 <!-- sase:referenced-by:start -->
 

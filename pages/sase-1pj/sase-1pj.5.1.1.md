@@ -27,10 +27,23 @@ contracts: implement Rust-owned staged monitor payload validation, staged-owner 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1pj.5.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.5.1.1.md) | [sase-1pj.5.1.1](sase-1pj.5.1.1.md) | 1 |
+| [bbugyi200.athena.sase-1pj.5.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.5.1.1.md) | [sase-1pj.5.1.1](sase-1pj.5.1.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@2a62513`](https://github.com/sase-org/sase-core/commit/2a625131e32f8d8e6c935683834d241a0651d06c) | feat(staged-monitor): add Rust-owned staged payload and ToolRun reservation contracts | [sase-1pj.5.1.1](sase-1pj.5.1.1.md) | 2026-10-29 18:25:55 EDT |
+| sase | [`b175b63`](https://github.com/sase-org/sase/commit/b175b6375855c7d8e2c0a5aece625e04e22e78d2) | feat(staged-monitor): wire Rust-owned staged payload and reservation contracts | [sase-1pj.5.1.1](sase-1pj.5.1.1.md) | 2026-10-29 19:59:35 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pj.5.1.1--2][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.5.1.1.md
+
+<!-- sase:referenced-by:end -->
