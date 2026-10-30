@@ -25,6 +25,10 @@ _Plus 6 automatic references — see [Referenced By](#referenced-by)._
 
 Turn-ending commands (plan propose, questions, pipe, gate create, sudo request, launch request, run, monitor start) stage their handoff instead of killing the agent runner. Every root turn ends normally through /sase_final, the host runs the selected finalizers to their fixed point, and only then does a fixed host-owned step adopt the staged handoff. Agents can commit file changes and propose a plan (or start a monitor) in the same turn, and no handoff ever silently drops uncommitted work.
 
+## Notes
+
+[2026-10-30T07:12:31Z · sase-1pt.land] DISCOVERED ISSUE: tests/contract_manifest.txt is stale on master 3266724c91 — tests/test_contract_manifest.py::test_contract_manifest_matches_marker_selection fails deterministically because the committed manifest still lists tests/test_core_finalizer_handoff.py, whose contract marker was removed by d97902c0df (fix(finalizer): keep handoff carry modules off the TUI import path, SASE_BEAD=sase-1pj.2.1; the file now says 'Kept off the contract set'). Reproduced by sase-1pt.land with targeted pytest on 3266724c91; also proposed by sase-1pt.1 (note #1), sase-1pt.3 (#2), sase-1pt.5 (#3), and recorded as a non-causal note on sase-1pu (#2). Fix: run just refresh-contract-manifest (and re-check the contract budget).
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -171,7 +175,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1pj.4.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.3/README.md) | [sase-1pj.4.1.3](sase-1pj.4.1.3.md) | 1 |
 | [bbugyi200.athena.sase-1pj.4.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.4/README.md) | [sase-1pj.4.1.4](sase-1pj.4.1.4.md) | 1 |
 | [bbugyi200.athena.sase-1pj.4.1.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.4.1.5.md) | [sase-1pj.4.1.5](sase-1pj.4.1.5.md) | 2 |
-| [bbugyi200.athena.sase-1pj.4.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.6/README.md) | [sase-1pj.4.1.6](sase-1pj.4.1.6.md) | 0 |
+| [bbugyi200.athena.sase-1pj.4.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.6/README.md) | [sase-1pj.4.1.6](sase-1pj.4.1.6.md) | 1 |
 | [bbugyi200.athena.sase-1pj.4.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.land/README.md) | [sase-1pj.4.1](sase-1pj.4.1.md) | 0 |
 | [bbugyi200.athena.sase-1pj.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.5.md) | [sase-1pj.5](sase-1pj.5.md) | 0 |
 | [bbugyi200.athena.sase-1pj.5.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.5.1.1.md) | [sase-1pj.5.1.1](sase-1pj.5.1.1.md) | 2 |
@@ -217,6 +221,7 @@ flowchart TD
 | sase | [`9394107`](https://github.com/sase-org/sase/commit/9394107ac222be1e4972aa8a3bcae0a9a7a7a56f) | feat(gate): stage launch requests and agent-origin run | [sase-1pj.4.1.4](sase-1pj.4.1.4.md) | 2026-10-29 23:18:15 EDT |
 | sase-core | [`sase-core@17e79c8`](https://github.com/sase-org/sase-core/commit/17e79c8cf5323d2ef4abcadef3bf95aa4e81c24b) | feat(gate): Rust-owned host preparation admission for workflow reviews | [sase-1pj.4.1.5](sase-1pj.4.1.5.md) | 2026-10-30 00:28:33 EDT |
 | sase | [`20dc76b`](https://github.com/sase-org/sase/commit/20dc76bd0932192b42e1b276eb99ef1df5ca4dcc) | feat(gate): host-owned workflow completion seam for staged HITL reviews | [sase-1pj.4.1.5](sase-1pj.4.1.5.md) | 2026-10-30 01:27:43 EDT |
+| sase | [`3ba58ec`](https://github.com/sase-org/sase/commit/3ba58ec222fa6e884dde1fce6b4b681b68254a7b) | feat(workflow): stage HITL reviews before cleanup settlement | [sase-1pj.4.1.6](sase-1pj.4.1.6.md) | 2026-10-30 03:20:14 EDT |
 
 <!-- sase:referenced-by:start -->
 

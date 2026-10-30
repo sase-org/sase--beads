@@ -29,6 +29,8 @@ Complete sase-1pj.4 so agent-created gates publish only after host completion, w
 
 [2026-10-30T02:45:55Z · sase-1pt.1] DISCOVERED ISSUE: After closed phase sase-1pj.4.1.3 landed 1fb320f1a6 (feat(gate): stage custom and sudo gate entry), tests/main/test_init_skills_source_content.py::test_sase_sudo_skill_teaches_reviewed_request_contract fails deterministically on that tree. The skill no longer contains 'ends your current turn by killing this process' or 'your turn has NOT ended'; those lines were replaced with staged-gate wording ('When the descriptor says status: staged...'). The test was not updated. Reproduced during unrelated sase-1pt.1 conflict-repair just check (ToolRun b23205fa2f6d79941a302e943d3e9375, NEW, 59002 passed). Isolated to HEAD skill vs test; the artifact-links rebase does not touch sase_sudo.md. Fix: update the contract assertions to the staged-entry wording, or restore the missing phrases if they remain required.
 
+[2026-10-30T07:12:51Z · sase-1pt.land] DISCOVERED ISSUE (corroboration): sase-1pt.land reproduced tests/main/test_init_skills_source_content.py::test_sase_sudo_skill_teaches_reviewed_request_contract failing on master 3266724c91 ('ends your current turn by killing this process' absent from src/sase/macros/skills/sase_sudo.md after 1fb320f1a6, sase-1pj.4.1.3). Also proposed by sase-1pt.5 (#2) and KNOWN in sase-1pt.6/sase-1pt.7 check ToolRuns. No new task created.
+
 ## Agents
 
 | Agent | Bead | Commits |
