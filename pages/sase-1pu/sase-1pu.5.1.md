@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/published_run_state_convergence.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/published_run_state_convergence.md
 
@@ -37,8 +37,10 @@ Make published agent runs converge to verified terminal state without regressing
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1pu.5.1.1--1][1] | Check the epic decisions governing this phase before close | 1 |
+| read-by | [agent:162][1] | Comparing phase bead sase-1pu.5.1 against epic sase-1pt to check for a conflict | 1 |
+| read-by | [agent:sase-1pu.5.1.1--1][2] | Check the epic decisions governing this phase before close | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pu.5.1.1.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.162/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pu.5.1.1.md
 
 <!-- sase:referenced-by:end -->

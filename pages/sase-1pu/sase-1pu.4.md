@@ -32,3 +32,15 @@ sdd-identity-check-flake: reproduce the repeated full-lane timeout and passing i
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`5437e0b`](https://github.com/sase-org/sase/commit/5437e0baaa60ab862ac7810a79ab776d74e3a93f) | test(sdd): isolate empty-home git identity nested pytest | [sase-1pu.4](sase-1pu.4.md) | 2026-10-29 22:24:48 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pu.4--1][1] | Need phase bead state, notes, and TASK RESOLVED format before closing or recording follow-up | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pu.4.md
+
+<!-- sase:referenced-by:end -->

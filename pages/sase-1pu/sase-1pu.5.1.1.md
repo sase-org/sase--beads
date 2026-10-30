@@ -17,7 +17,7 @@ state-policy: implement the Rust state-evidence, merge, and bounded selection co
 
 ## Dependencies
 
-- **Blocks:** [sase-1pu.5.1.2](sase-1pu.5.1.2.md) ◐ · ⧖ 2026-10-29
+- **Blocks:** [sase-1pu.5.1.2](sase-1pu.5.1.2.md) ✓ · ⧖ 2026-10-29
 
 ## Agents
 

@@ -13,7 +13,7 @@ bounded-repair: implement the bounded state-reconciliation service and sase agen
 
 ## Dependencies
 
-- **Depends on:** [sase-1pu.5.1.2](sase-1pu.5.1.2.md) ◐ · ⧖ 2026-10-29
+- **Depends on:** [sase-1pu.5.1.2](sase-1pu.5.1.2.md) ✓ · ⧖ 2026-10-29
 - **Blocks:** [sase-1pu.5.1.4](sase-1pu.5.1.4.md) ◐ · ⧖ 2026-10-29
 
 ## Agents
