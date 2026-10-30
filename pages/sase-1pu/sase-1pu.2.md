@@ -23,10 +23,16 @@ waiter-wake-recovery: reproduce the wake-time NameCollisionError after a long wa
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1pu.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pu.2.md) | [sase-1pu.2](sase-1pu.2.md) | 1 |
+| [bbugyi200.athena.sase-1pu.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pu.2.md) | [sase-1pu.2](sase-1pu.2.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase | [`188073f`](https://github.com/sase-org/sase/commit/188073fe063976592272847ff383578229d1aabf) | test(axe): cover waiter name recovery after refresh | [sase-1pu.2](sase-1pu.2.md) | 2026-10-29 21:24:01 EDT |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pu.2--1][1] | Verify the assigned phase closure before final declaration | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pu.2.md
+
+<!-- sase:referenced-by:end -->

@@ -7,6 +7,18 @@
 **Created:** 2026-10-29 20:35:51 EDT
 **Plan:** [202610/published\_run\_state\_convergence.md](https://github.com/sase-org/sase--plans/blob/main/202610/published_run_state_convergence.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202610/published_run_state_convergence.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/sase-org/sase--plans/blob/main/202610/published_run_state_convergence.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 Make published agent runs converge to verified terminal state without regressing newer snapshots or treating live runs as finished.
