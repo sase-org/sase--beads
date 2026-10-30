@@ -19,7 +19,7 @@ pin-resolver: add a revision-pin resolver to the semantic rebase conflict chain 
 
 ## Dependencies
 
-- **Blocks:** [sase-1pt.8](sase-1pt.8.md) ◐ · ⧖ 2026-10-29
+- **Blocks:** [sase-1pt.8](sase-1pt.8.md) ✓ · ⧖ 2026-10-29
 
 ## Agents
 

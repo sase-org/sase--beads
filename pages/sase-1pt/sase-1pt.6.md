@@ -20,7 +20,7 @@ publisher: add a doorbell-triggered scheduler job that drains agent-hood request
 ## Dependencies
 
 - **Depends on:** [sase-1pt.1](sase-1pt.1.md) ✓ · ⧖ 2026-10-29
-- **Blocks:** [sase-1pt.7](sase-1pt.7.md) ◐ · ⧖ 2026-10-29
+- **Blocks:** [sase-1pt.7](sase-1pt.7.md) ✓ · ⧖ 2026-10-29
 
 ## Agents
 

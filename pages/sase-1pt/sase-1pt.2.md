@@ -19,7 +19,7 @@ measure: emit stitch op_started before the subprocess runs and add per-substep p
 
 ## Dependencies
 
-- **Blocks:** [sase-1pt.7](sase-1pt.7.md) ◐ · ⧖ 2026-10-29
+- **Blocks:** [sase-1pt.7](sase-1pt.7.md) ✓ · ⧖ 2026-10-29
 
 ## Agents
 
