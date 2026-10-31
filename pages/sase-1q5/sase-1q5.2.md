@@ -18,7 +18,7 @@ stranded-cadence: raise the stranded report TTL to 60 s, floor forced recomputes
 ## Dependencies
 
 - **Blocks:** [sase-1q5.5](sase-1q5.5.md) ✓ · ⧖ 2026-10-30
-- **Blocks:** [sase-1q5.8](sase-1q5.8.md) ◐ · ⧖ 2026-10-30
+- **Blocks:** [sase-1q5.8](sase-1q5.8.md) ✓ · ⧖ 2026-10-30
 
 ## Agents
 

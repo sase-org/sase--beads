@@ -22,7 +22,7 @@ core-session-lookup: push agent_session/agent_name equality filters into SQL wit
 ## Dependencies
 
 - **Depends on:** [sase-1q5.1](sase-1q5.1.md) ✓ · ⧖ 2026-10-30
-- **Blocks:** [sase-1q5.8](sase-1q5.8.md) ◐ · ⧖ 2026-10-30
+- **Blocks:** [sase-1q5.8](sase-1q5.8.md) ✓ · ⧖ 2026-10-30
 
 ## Agents
 
@@ -35,3 +35,15 @@ core-session-lookup: push agent_session/agent_name equality filters into SQL wit
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@2775bc0`](https://github.com/sase-org/sase-core/commit/2775bc00934ba77abbc6990880013a013fc80be5) | feat(index): push session/name filters into SQL with NOCASE indexes | [sase-1q5.4](sase-1q5.4.md) | 2026-10-30 22:38:17 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1q5.4--4][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1q5.4.md
+
+<!-- sase:referenced-by:end -->

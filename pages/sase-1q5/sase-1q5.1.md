@@ -20,7 +20,7 @@ stranded-batch: replace the per-assignee index query loop with one batched, chun
 ## Dependencies
 
 - **Blocks:** [sase-1q5.4](sase-1q5.4.md) ✓ · ⧖ 2026-10-30
-- **Blocks:** [sase-1q5.8](sase-1q5.8.md) ◐ · ⧖ 2026-10-30
+- **Blocks:** [sase-1q5.8](sase-1q5.8.md) ✓ · ⧖ 2026-10-30
 
 ## Agents
 
