@@ -14,7 +14,7 @@ wait_runtime: add the shared Python binder that pins a session's current turn in
 ## Dependencies
 
 - **Depends on:** [sase-1q4.1](sase-1q4.1.md) ✓ · ⧖ 2026-10-30
-- **Depends on:** [sase-1q4.2](sase-1q4.2.md) ◐ · ⧖ 2026-10-30
+- **Depends on:** [sase-1q4.2](sase-1q4.2.md) ✓ · ⧖ 2026-10-30
 - **Blocks:** [sase-1q4.5](sase-1q4.5.md) ◐ · ⧖ 2026-10-30
 - **Blocks:** [sase-1q4.6](sase-1q4.6.md) ◐ · ⧖ 2026-10-30
 
