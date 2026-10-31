@@ -34,7 +34,7 @@ _Plus 1 automatic references — see [Referenced By](#referenced-by)._
 | [sase-1q4.11](sase-1q4.11.md) | The | ◐ in_progress | medium | 2026-10-30 | 1 | 0 |
 | [sase-1q4.2](sase-1q4.2.md) | Rust wait-target vocabulary and pure rules | ✓ closed | medium | 2026-10-30 | 1 | 2 |
 | [sase-1q4.3](sase-1q4.3.md) | Keyword-only macro inputs in sase-core | ✓ closed | medium | 2026-10-30 | 1 | 2 |
-| [sase-1q4.4](sase-1q4.4.md) | Turn-pinned wait records and evaluation | ◐ in_progress | medium | 2026-10-30 | 1 | 0 |
+| [sase-1q4.4](sase-1q4.4.md) | Turn-pinned wait records and evaluation | ◐ in_progress | medium | 2026-10-30 | 1 | 1 |
 | [sase-1q4.5](sase-1q4.5.md) | The %wait target= keyword end to end | ◐ in_progress | medium | 2026-10-30 | 1 | 0 |
 | [sase-1q4.6](sase-1q4.6.md) | sase agent wait --target | ◐ in_progress | small | 2026-10-30 | 1 | 0 |
 | [sase-1q4.7](sase-1q4.7.md) | Turn targets in plan-gate coder options | ◐ in_progress | medium | 2026-10-30 | 1 | 0 |
@@ -90,7 +90,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1q4.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1q4.11/README.md) | [sase-1q4.11](sase-1q4.11.md) | 0 |
 | [bbugyi200.athena.sase-1q4.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1q4.2/README.md) | [sase-1q4.2](sase-1q4.2.md) | 2 |
 | [bbugyi200.athena.sase-1q4.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1q4.3.md) | [sase-1q4.3](sase-1q4.3.md) | 2 |
-| [bbugyi200.athena.sase-1q4.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1q4.4/README.md) | [sase-1q4.4](sase-1q4.4.md) | 0 |
+| [bbugyi200.athena.sase-1q4.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1q4.4/README.md) | [sase-1q4.4](sase-1q4.4.md) | 1 |
 | [bbugyi200.athena.sase-1q4.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1q4.5/README.md) | [sase-1q4.5](sase-1q4.5.md) | 0 |
 | [bbugyi200.athena.sase-1q4.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1q4.6/README.md) | [sase-1q4.6](sase-1q4.6.md) | 0 |
 | [bbugyi200.athena.sase-1q4.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1q4.7/README.md) | [sase-1q4.7](sase-1q4.7.md) | 0 |
@@ -108,6 +108,7 @@ flowchart TD
 | sase | [`271632e`](https://github.com/sase-org/sase/commit/271632e9d7381398fa1503730ed91f4a03d23e00) | feat(macros): add wait\_target NamedEnum facade and frontmatter wiring | [sase-1q4.2](sase-1q4.2.md) | 2026-10-30 22:18:35 EDT |
 | sase-core | [`sase-core@18ad5fd`](https://github.com/sase-org/sase-core/commit/18ad5fd6f4592af4d61ef8e8187514b032bec03f) | feat(macro): add keyword-only input metadata and binding rules | [sase-1q4.3](sase-1q4.3.md) | 2026-10-30 23:32:07 EDT |
 | sase | [`cb230ad`](https://github.com/sase-org/sase/commit/cb230adb5e50eed82039be6112716fbde0f23808) | docs(macros): document keyword-only inputs and wait targets | [sase-1q4.3](sase-1q4.3.md) | 2026-10-31 00:15:21 EDT |
+| sase | [`5ade788`](https://github.com/sase-org/sase/commit/5ade7889b22e276ff20e8d304424b88d7f2777e0) | feat(wait): pin explicit session/turn wait identity records | [sase-1q4.4](sase-1q4.4.md) | 2026-10-31 00:27:05 EDT |
 
 <!-- sase:referenced-by:start -->
 
