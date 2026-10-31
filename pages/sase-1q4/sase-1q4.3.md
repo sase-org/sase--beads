@@ -43,7 +43,9 @@ kwonly_core: add keyword_only to the Rust macro input contract (catalog, wires, 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1q4.3--1][1] | Need phase scope, design file, decisions and prior notes before resuming work | 3 |
+| read-by | [agent:sase-1q4.9][2] | check kwonly_core completion for contract | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1q4.3.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1q4.9/README.md
 
 <!-- sase:referenced-by:end -->

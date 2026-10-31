@@ -45,7 +45,9 @@ wait_runtime: add the shared Python binder that pins a session's current turn in
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1q4.4][1] | Need the phase scope and design file | 5 |
+| read-by | [agent:sase-1q4.9][2] | confirm sase-1q4.4 closed for follow-up note | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1q4.4/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1q4.9/README.md
 
 <!-- sase:referenced-by:end -->
