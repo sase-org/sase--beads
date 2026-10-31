@@ -21,7 +21,7 @@ Left live sibling work alone: sase-1q2.3 (sync help, completion, agent load / sa
 
 ## Dependencies
 
-- **Blocks:** [sase-1q2.6](sase-1q2.6.md) ◐ · ⧖ 2026-10-30
+- **Blocks:** [sase-1q2.6](sase-1q2.6.md) ✓ · ⧖ 2026-10-30
 
 ## Agents
 

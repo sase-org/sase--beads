@@ -17,7 +17,7 @@ cli-reds: make the sync help assertion hold on Python 3.12 through 3.14, caption
 
 ## Dependencies
 
-- **Blocks:** [sase-1q2.6](sase-1q2.6.md) ◐ · ⧖ 2026-10-30
+- **Blocks:** [sase-1q2.6](sase-1q2.6.md) ✓ · ⧖ 2026-10-30
 
 ## Agents
 

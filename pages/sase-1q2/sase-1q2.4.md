@@ -21,7 +21,7 @@ tui-reds: fix the pager notify teardown errors, the footprint microbench, the TU
 
 ## Dependencies
 
-- **Blocks:** [sase-1q2.6](sase-1q2.6.md) ◐ · ⧖ 2026-10-30
+- **Blocks:** [sase-1q2.6](sase-1q2.6.md) ✓ · ⧖ 2026-10-30
 
 ## Agents
 
@@ -41,8 +41,10 @@ tui-reds: fix the pager notify teardown errors, the footprint microbench, the TU
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1q4.2][1] | Need pager-reds epic phase scope before classifying PagerScreen.notify teardown errors | 1 |
+| read-by | [agent:sase-1q2.4--b][1] | Need the phase scope and design file | 3 |
+| read-by | [agent:sase-1q4.2][2] | Need pager-reds epic phase scope before classifying PagerScreen.notify teardown errors | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1q4.2/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1q2.4.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1q4.2/README.md
 
 <!-- sase:referenced-by:end -->
