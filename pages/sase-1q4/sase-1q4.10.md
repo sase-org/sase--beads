@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [sase-1q4](README.md) / sase-1q4.10
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.research.5j.linker.w0](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.research.5j.linker.w0.md) · **Assignee:** `sase-1q4.10` · **Size:** medium
-**Created:** 2026-10-30 17:43:15 EDT
+**Created:** 2026-10-30 17:43:15 EDT · **Closed:** 2026-10-30 20:48:12 EDT
 **Plan:** [202610/fork\_wait\_session\_turn\_target.md](https://github.com/sase-org/sase--plans/blob/main/202610/fork_wait_session_turn_target.md)
 
 ## Description
 
 fork_history: have the fork resolve step read the launching agent's bound fork records, select sessions by identity, and cut turn-targeted history at the bound turn.
+
+## Notes
+
+[2026-10-31T00:48:12Z · sase-1q4.10--2] Fork history now resolves from the bound wait record, pins session generations and turn cutoffs; focused regression tests (19 passed) and just check passed.
 
 ## Dependencies
 
@@ -20,4 +24,10 @@ fork_history: have the fork resolve step read the launching agent's bound fork r
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1q4.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1q4.10/README.md) | [sase-1q4.10](sase-1q4.10.md) | 0 |
+| [bbugyi200.athena.sase-1q4.10](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1q4.10.md) | [sase-1q4.10](sase-1q4.10.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`3fcb69f`](https://github.com/sase-org/sase/commit/3fcb69fb3ca7ff8caed60edf06fc9da47647e422) | fix(fork): honor bound wait records in injected history | [sase-1q4.10](sase-1q4.10.md) | 2026-10-30 20:50:58 EDT |

@@ -17,7 +17,7 @@ promotion: bind bare-name forks as session seeds, heal queued legacy kind=agent 
 
 ## Dependencies
 
-- **Blocks:** [sase-1q4.10](sase-1q4.10.md) ◐ · ⧖ 2026-10-30
+- **Blocks:** [sase-1q4.10](sase-1q4.10.md) ✓ · ⧖ 2026-10-30
 - **Blocks:** [sase-1q4.4](sase-1q4.4.md) ◐ · ⧖ 2026-10-30
 
 ## Agents
@@ -31,3 +31,15 @@ promotion: bind bare-name forks as session seeds, heal queued legacy kind=agent 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`167af33`](https://github.com/sase-org/sase/commit/167af335307c8e83fd3994c9f9081c326fbbf6a5) | feat(agent): promotion-aware bare-name fork waits | [sase-1q4.1](sase-1q4.1.md) | 2026-10-30 18:18:33 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1q4.1--1][1] | Need phase scope before close | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1q4.1.md
+
+<!-- sase:referenced-by:end -->

@@ -11,6 +11,10 @@
 
 kwonly_core: add keyword_only to the Rust macro input contract (catalog, wires, frontmatter rules, positional mapping, signatures, gateway contract).
 
+## Notes
+
+[2026-10-30T23:02:12Z · sase-1q4.3--1] PROPOSED FOLLOW-UP: Corroborate existing flake sase-15h: the full sase-core check failed in sudo_runner::tests::worker::output_policy_none_keeps_ledger_empty at result.is_ok(), while that focused test passed alone; this is another parallel fake-sudo fixture failure to triage.
+
 ## Dependencies
 
 - **Blocks:** [sase-1q4.9](sase-1q4.9.md) ◐ · ⧖ 2026-10-30
@@ -19,4 +23,4 @@ kwonly_core: add keyword_only to the Rust macro input contract (catalog, wires, 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1q4.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1q4.3/README.md) | [sase-1q4.3](sase-1q4.3.md) | 0 |
+| [bbugyi200.athena.sase-1q4.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1q4.3.md) | [sase-1q4.3](sase-1q4.3.md) | 0 |

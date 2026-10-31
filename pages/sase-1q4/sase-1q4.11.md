@@ -13,7 +13,7 @@ fork_binding: add the keyword-only wait_target input to fork.yml, return structu
 
 ## Dependencies
 
-- **Depends on:** [sase-1q4.10](sase-1q4.10.md) ◐ · ⧖ 2026-10-30
+- **Depends on:** [sase-1q4.10](sase-1q4.10.md) ✓ · ⧖ 2026-10-30
 - **Depends on:** [sase-1q4.5](sase-1q4.5.md) ◐ · ⧖ 2026-10-30
 - **Depends on:** [sase-1q4.9](sase-1q4.9.md) ◐ · ⧖ 2026-10-30
 

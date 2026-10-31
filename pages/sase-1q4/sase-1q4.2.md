@@ -11,6 +11,10 @@
 
 vocab: add sase-core wait_target module (parse, effective-target rules, current-turn selection), the wait_target NamedEnum, pyo3 bindings, and a thin Python facade.
 
+## Notes
+
+[2026-10-31T00:16:48Z · sase-1q4.2] PROPOSED FOLLOW-UP: sase-1gz federation_worker listener_creates_private_socket_and_rejects_symlink flake under parallel sase-core check (passed alone)
+
 ## Dependencies
 
 - **Blocks:** [sase-1q4.4](sase-1q4.4.md) ◐ · ⧖ 2026-10-30
