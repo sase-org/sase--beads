@@ -41,8 +41,10 @@ agent_wait_cli: add -T/--target session|turn to sase agent wait, using the share
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1q4.6][1] | Need remaining bead notes, design details, and epic symbols | 2 |
+| read-by | [agent:sase-1q4.5][1] | Need to know if agent_wait_cli closed and consumed bind_wait_target | 2 |
+| read-by | [agent:sase-1q4.6][2] | Need remaining bead notes, design details, and epic symbols | 2 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1q4.6/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1q4.5/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1q4.6/README.md
 
 <!-- sase:referenced-by:end -->

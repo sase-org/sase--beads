@@ -13,7 +13,7 @@ wait_tui: surface bound turns via an additive scan-wire field, accept turn= entr
 
 ## Dependencies
 
-- **Depends on:** [sase-1q4.7](sase-1q4.7.md) ◐ · ⧖ 2026-10-30
+- **Depends on:** [sase-1q4.7](sase-1q4.7.md) ✓ · ⧖ 2026-10-30
 
 ## Agents
 
