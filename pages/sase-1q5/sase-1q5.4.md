@@ -15,6 +15,8 @@ core-session-lookup: push agent_session/agent_name equality filters into SQL wit
 
 [2026-10-31T01:13:58Z · sase-1q5.4] core-session-lookup progress: sase-core pushdown + NOCASE indexes + scoped-reconcile fix + watermark gating implemented; 9 new Rust tests green (146 index tests pass); stranded BEFORE timing gh_sase-org__sase wall=3.5s queries=3 beads=234 on old core; extension rebuild in progress for AFTER timing
 
+[2026-10-31T01:50:12Z · sase-1q5.4--2] AFTER timing (rebuilt sase_core_rs with pushdown): project=gh_sase-org__sase wall=2.5s queries=3 beads=231 vs BEFORE wall=3.5s queries=3 beads=234 on old core. Queries counted at binding level (unchanged call count expected); wall-time gain from SQL pushdown + NOCASE indexes. Full log: /tmp/stranded_after.log, before: /tmp/stranded_before.log
+
 ## Dependencies
 
 - **Depends on:** [sase-1q5.1](sase-1q5.1.md) ✓ · ⧖ 2026-10-30

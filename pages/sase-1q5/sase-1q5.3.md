@@ -19,7 +19,7 @@ loader-lock-busy: serve the last good tier-1 snapshot or keep the current roster
 
 ## Dependencies
 
-- **Blocks:** [sase-1q5.5](sase-1q5.5.md) ◐ · ⧖ 2026-10-30
+- **Blocks:** [sase-1q5.5](sase-1q5.5.md) ✓ · ⧖ 2026-10-30
 - **Blocks:** [sase-1q5.8](sase-1q5.8.md) ◐ · ⧖ 2026-10-30
 
 ## Agents

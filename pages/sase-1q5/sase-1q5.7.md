@@ -35,3 +35,15 @@ capacity-feed: lengthen the display rescan interval, reuse the parsed slot-scan 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`4a4a2f5`](https://github.com/sase-org/sase/commit/4a4a2f5a91027c4935d83e91373b282d4984e066) | perf(capacity): calm the machine-capacity feed | [sase-1q5.7](sase-1q5.7.md) | 2026-10-30 21:25:08 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1q5.7--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1q5.7.md
+
+<!-- sase:referenced-by:end -->
