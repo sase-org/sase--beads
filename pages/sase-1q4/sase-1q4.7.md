@@ -18,7 +18,7 @@ coder_options: add turn=<agent> to the wait-spec grammar and carry it through th
 ## Dependencies
 
 - **Depends on:** [sase-1q4.5](sase-1q4.5.md) ✓ · ⧖ 2026-10-30
-- **Blocks:** [sase-1q4.8](sase-1q4.8.md) ◐ · ⧖ 2026-10-30
+- **Blocks:** [sase-1q4.8](sase-1q4.8.md) ✓ · ⧖ 2026-10-30
 
 ## Agents
 

@@ -41,8 +41,12 @@ fork_binding: add the keyword-only wait_target input to fork.yml, return structu
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:toobig-8x.agent_loader_artifacts.0][1] | Need to assess the in-progress wait target continuation against check failures | 1 |
+| read-by | [agent:sase-1q2.6--1][1] | Check whether active CLI repair work owns the test_cli_names NameError | 1 |
+| read-by | [agent:sase-1q4.11--1][2] | Confirm the clean-base follow-up citation and current phase status before close | 3 |
+| read-by | [agent:toobig-8x.agent_loader_artifacts.0][3] | Need to assess the in-progress wait target continuation against check failures | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-8x.agent_loader_artifacts.0/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1q2.6.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1q4.11.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-8x.agent_loader_artifacts.0/README.md
 
 <!-- sase:referenced-by:end -->
