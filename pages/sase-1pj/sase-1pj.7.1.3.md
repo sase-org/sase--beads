@@ -31,3 +31,15 @@ gate-adoption-retention: integrate retention into terminal gate and question bra
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`f2e8480`](https://github.com/sase-org/sase/commit/f2e84801ccfe2251c01808db4f8462ba00f41f7c) | fix(workspace-retention): retain stranded gate and staged workspaces | [sase-1pj.7.1.3](sase-1pj.7.1.3.md) | 2026-10-31 16:57:37 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pj.7.1.3][1] | Verify the completed phase bead status and closure note | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7.1.3/README.md
+
+<!-- sase:referenced-by:end -->

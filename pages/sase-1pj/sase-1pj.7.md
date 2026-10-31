@@ -32,7 +32,9 @@ carry-hardening: when carried work reaches a branch with no successor (stopped o
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1pj.7.1.1][1] | Need parent phase DECISIONS that remain final for this child epic | 1 |
+| read-by | [agent:sase-1pj.7.1.3][2] | Need the ancestor epic decisions governing this phase | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7.1.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7.1.3/README.md
 
 <!-- sase:referenced-by:end -->

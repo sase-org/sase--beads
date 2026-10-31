@@ -40,7 +40,9 @@ retention-core: add the Rust retention decision and Python evidence/effect adapt
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1pj.7.1.1][1] | Need the phase scope and design file | 3 |
+| read-by | [agent:sase-1pj.7.1.3][2] | Need the shared retention adapter contract established by the prerequisite phase | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7.1.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7.1.3/README.md
 
 <!-- sase:referenced-by:end -->

@@ -11,6 +11,10 @@
 
 monitor-retention: apply guarded settlement to stopped, lost, terminal, degraded, and failed-follow-up monitors in both handoff protocols.
 
+## Notes
+
+[2026-10-31T21:32:48Z · sase-1pj.7.1.2] monitor-retention work complete and verified (17 new tests in tests/monitor/test_monitor_retention.py pass; 116 related monitor/retention tests pass; full sase tool run check green incl. symvision/mypy plus escalated full suite exit 0, triage pass). Local Justfile already resolves every allowance keyed here: consumed settle_stranded_workspace/WorkspaceRetentionOwner/WorkspaceRetentionRepo/WorkspaceRetentionSuccessor rows dropped, WorkspaceRetentionResult re-keyed to sase-1pj.7.1.4. Close attempted and refused SOLELY by 3 origin/master rows keyed to this bead (Repo/Result/Successor), which only this turns host stitch can remove. Remedy: after the stitch lands the Justfile edit, re-run sase bead close sase-1pj.7.1.2; the gate will pass.
+
 ## Dependencies
 
 - **Depends on:** [sase-1pj.7.1.1](sase-1pj.7.1.1.md) ✓ · ⧖ 2026-10-31
@@ -20,4 +24,10 @@ monitor-retention: apply guarded settlement to stopped, lost, terminal, degraded
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1pj.7.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7.1.2/README.md) | [sase-1pj.7.1.2](sase-1pj.7.1.2.md) | 0 |
+| [bbugyi200.athena.sase-1pj.7.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7.1.2/README.md) | [sase-1pj.7.1.2](sase-1pj.7.1.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`745d7b5`](https://github.com/sase-org/sase/commit/745d7b57b15e0639c5c62baa80fcd4ca5e94faf8) | feat(monitor): settle stranded workspaces through shared settlement adapter | [sase-1pj.7.1.2](sase-1pj.7.1.2.md) | 2026-10-31 18:06:40 EDT |
