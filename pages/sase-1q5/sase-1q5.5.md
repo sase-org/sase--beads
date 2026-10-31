@@ -21,4 +21,4 @@ agents-tick-trims: stop capacity patches from rebuilding panel titles, skip unch
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1q5.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1q5.5/README.md) | [sase-1q5.5](sase-1q5.5.md) | 0 |
+| [bbugyi200.athena.sase-1q5.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1q5.5.md) | [sase-1q5.5](sase-1q5.5.md) | 0 |

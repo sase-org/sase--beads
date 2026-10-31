@@ -31,3 +31,15 @@ stranded-cadence: raise the stranded report TTL to 60 s, floor forced recomputes
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`ad6e4d4`](https://github.com/sase-org/sase/commit/ad6e4d4c153316088c866b04e99652826ae00e1d) | perf(ace): throttle stranded report refreshes | [sase-1q5.2](sase-1q5.2.md) | 2026-10-30 20:12:35 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1q5.2--1][1] | Need the assigned phase scope, design file, notes, and recorded remaining work | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1q5.2.md
+
+<!-- sase:referenced-by:end -->

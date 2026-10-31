@@ -33,3 +33,15 @@ loader-lock-busy: serve the last good tier-1 snapshot or keep the current roster
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`b585d3b`](https://github.com/sase-org/sase/commit/b585d3b75bcd3fadbe0709d510d18b7cf6db4f7d) | fix(tui): answer a busy index lock from cache, never a source scan | [sase-1q5.3](sase-1q5.3.md) | 2026-10-30 20:06:14 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1q5.3][1] | Need remaining notes, design details, and prior agent work | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1q5.3/README.md
+
+<!-- sase:referenced-by:end -->

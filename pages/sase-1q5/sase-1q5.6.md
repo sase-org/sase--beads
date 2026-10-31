@@ -33,3 +33,15 @@ pump-probe-trims: use one persistent malloc_trim worker, move the tool-runs toke
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`001351f`](https://github.com/sase-org/sase/commit/001351f5b921b165c52fb13fe2da8e0ea2d91a0a) | perf(tui): move small synchronous work off pump | [sase-1q5.6](sase-1q5.6.md) | 2026-10-30 20:13:22 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1q5.6][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1q5.6/README.md
+
+<!-- sase:referenced-by:end -->

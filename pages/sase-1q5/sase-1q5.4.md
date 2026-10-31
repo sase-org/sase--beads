@@ -13,7 +13,7 @@ core-session-lookup: push agent_session/agent_name equality filters into SQL wit
 
 ## Dependencies
 
-- **Depends on:** [sase-1q5.1](sase-1q5.1.md) ◐ · ⧖ 2026-10-30
+- **Depends on:** [sase-1q5.1](sase-1q5.1.md) ✓ · ⧖ 2026-10-30
 - **Blocks:** [sase-1q5.8](sase-1q5.8.md) ◐ · ⧖ 2026-10-30
 
 ## Agents
