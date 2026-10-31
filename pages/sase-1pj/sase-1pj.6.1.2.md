@@ -44,7 +44,9 @@ successor-replay: persist successor identity before continuation side effects, r
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1pj.6.1.2][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:sase-1pj.6.1.3][2] | Need predecessor continuation replay API and verified outcome | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6.1.2/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6.1.3/README.md
 
 <!-- sase:referenced-by:end -->

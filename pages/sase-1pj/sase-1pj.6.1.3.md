@@ -32,3 +32,15 @@ approval-replay: bind plan and question gates to staged identity, recover origin
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`6a2c90f`](https://github.com/sase-org/sase/commit/6a2c90f41bc6b38eeed368b60ccae7d6e90626b2) | feat(staged-handoff): replay plan and question approvals | [sase-1pj.6.1.3](sase-1pj.6.1.3.md) | 2026-10-31 13:45:47 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pj.6.1.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6.1.3/README.md
+
+<!-- sase:referenced-by:end -->

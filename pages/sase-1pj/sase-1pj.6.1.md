@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/staged_handoff_recovery.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 4 automatic references — see [Referenced By](#referenced-by)._
+_Plus 5 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/staged_handoff_recovery.md
 
@@ -39,12 +39,14 @@ Make every staged handoff replayable after runner death, reconcile completed tur
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1pj.6.1.1--2][1] | Need epic decisions and plan | 1 |
 | read-by | [agent:sase-1pj.6.1.2][2] | Need binding epic decisions and phase notes before implementation | 1 |
-| read-by | [agent:sase-1pj.6.1.4][3] | Need parent epic DECISIONS and remaining phases | 1 |
-| read-by | [agent:sase-1pj.6.1.5][4] | need decisions | 1 |
+| read-by | [agent:sase-1pj.6.1.3][3] | Need epic decisions and phase design context | 1 |
+| read-by | [agent:sase-1pj.6.1.4][4] | Need parent epic DECISIONS and remaining phases | 1 |
+| read-by | [agent:sase-1pj.6.1.5][5] | need decisions | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.6.1.1.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6.1.2/README.md
-[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6.1.4/README.md
-[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6.1.5/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6.1.3/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6.1.4/README.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6.1.5/README.md
 
 <!-- sase:referenced-by:end -->

@@ -238,7 +238,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1pj.6.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6.1.3/README.md) | [sase-1pj.6.1.3](sase-1pj.6.1.3.md) | 1 |
 | [bbugyi200.athena.sase-1pj.6.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6.1.4/README.md) | [sase-1pj.6.1.4](sase-1pj.6.1.4.md) | 1 |
 | [bbugyi200.athena.sase-1pj.6.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6.1.5/README.md) | [sase-1pj.6.1.5](sase-1pj.6.1.5.md) | 1 |
-| [bbugyi200.athena.sase-1pj.6.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6.1.6/README.md) | [sase-1pj.6.1.6](sase-1pj.6.1.6.md) | 0 |
+| [bbugyi200.athena.sase-1pj.6.1.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.6.1.6.md) | [sase-1pj.6.1.6](sase-1pj.6.1.6.md) | 1 |
 | [bbugyi200.athena.sase-1pj.6.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6.1.7/README.md) | [sase-1pj.6.1.7](sase-1pj.6.1.7.md) | 0 |
 | [bbugyi200.athena.sase-1pj.6.1.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6.1.8/README.md) | [sase-1pj.6.1.8](sase-1pj.6.1.8.md) | 0 |
 | [bbugyi200.athena.sase-1pj.6.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6.1.land/README.md) | [sase-1pj.6.1](sase-1pj.6.1.md) | 0 |
@@ -302,6 +302,7 @@ flowchart TD
 | sase | [`9c17b84`](https://github.com/sase-org/sase/commit/9c17b8454bfd553f6888e2b91717fbb23e12646e) | feat(axe): replay staged successors exactly once | [sase-1pj.6.1.2](sase-1pj.6.1.2.md) | 2026-10-31 12:37:04 EDT |
 | sase | [`d9129cf`](https://github.com/sase-org/sase/commit/d9129cfd4ba20fc48fe10707a6833c44bf4eb8ee) | feat(gate-turn): finish partial gate publication on request-id replay | [sase-1pj.6.1.4](sase-1pj.6.1.4.md) | 2026-10-31 12:45:33 EDT |
 | sase | [`6a2c90f`](https://github.com/sase-org/sase/commit/6a2c90f41bc6b38eeed368b60ccae7d6e90626b2) | feat(staged-handoff): replay plan and question approvals | [sase-1pj.6.1.3](sase-1pj.6.1.3.md) | 2026-10-31 13:45:47 EDT |
+| sase | [`406c57f`](https://github.com/sase-org/sase/commit/406c57f12614114a40310a0a075d22fcabadca77) | feat(axe): add staged-handoff recovery service entry point | [sase-1pj.6.1.6](sase-1pj.6.1.6.md) | 2026-10-31 15:06:44 EDT |
 
 <!-- sase:referenced-by:start -->
 

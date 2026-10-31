@@ -43,11 +43,13 @@ recovery-contract: add Rust-owned recovery contracts and replay decisions, persi
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1pj.6.1.1--2][1] | Need full bead incl notes | 3 |
-| read-by | [agent:sase-1pj.6.1.4][2] | Need recovery-contract APIs this phase should consume | 1 |
-| read-by | [agent:sase-1pj.6.1.5][3] | check prior phase output | 1 |
+| read-by | [agent:sase-1pj.6.1.3][2] | Need predecessor recovery contract details for the approval adapters | 1 |
+| read-by | [agent:sase-1pj.6.1.4][3] | Need recovery-contract APIs this phase should consume | 1 |
+| read-by | [agent:sase-1pj.6.1.5][4] | check prior phase output | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.6.1.1.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6.1.4/README.md
-[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6.1.5/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6.1.3/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6.1.4/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6.1.5/README.md
 
 <!-- sase:referenced-by:end -->
