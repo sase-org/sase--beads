@@ -39,9 +39,9 @@ Turn-ending commands (plan propose, questions, pipe, gate create, sudo request, 
 |---|---|---|---|---|---:|---:|
 | [sase-1pj.1](sase-1pj.1.md) | Staged-handoff foundation and plan proposals | ✓ closed | large | 2026-10-28 | 1 | 0 |
 | [sase-1pj.2](sase-1pj.2.md) | Handoff descriptor and carry disposition in the finalizer wire | ✓ closed | large | 2026-10-28 | 1 | 0 |
-| [sase-1pj.3](sase-1pj.3.md) | Stage questions and pipe handoffs | ◐ in_progress | medium | 2026-10-28 | 1 | 1 |
+| [sase-1pj.3](sase-1pj.3.md) | Stage questions and pipe handoffs | ✓ closed | medium | 2026-10-28 | 1 | 1 |
 | [sase-1pj.4](sase-1pj.4.md) | Stage gate, sudo, launch, run, and workflow HITL gates | ✓ closed | large | 2026-10-28 | 1 | 0 |
-| [sase-1pj.5](sase-1pj.5.md) | Stage monitor starts and spawn after finalization | ◐ in_progress | large | 2026-10-28 | 1 | 0 |
+| [sase-1pj.5](sase-1pj.5.md) | Stage monitor starts and spawn after finalization | ✓ closed | large | 2026-10-28 | 1 | 0 |
 | [sase-1pj.6](sase-1pj.6.md) | Idempotent adoption, crash reconciliation, and re-adopt | ◐ in_progress | large | 2026-10-28 | 1 | 0 |
 | [sase-1pj.7](sase-1pj.7.md) | Hold workspaces whose carried work has no successor | ◐ in_progress | large | 2026-10-28 | 1 | 0 |
 | [sase-1pj.8](sase-1pj.8.md) | Remove the flag and the kill-path machinery | ◐ in_progress | large | 2026-10-28 | 1 | 0 |
@@ -66,7 +66,7 @@ flowchart TD
     n12["sase-1pj.2.1.3: Publish staged context and synthesize default carry [closed]"]
     n13["sase-1pj.2.1.4: Protect prepared monitor work through starter finalization [closed]"]
     n14["sase-1pj.2.1.5: Adopt carried work with durable successor custody [closed]"]
-    n15["sase-1pj.3: Stage questions and pipe handoffs [in_progress]"]
+    n15["sase-1pj.3: Stage questions and pipe handoffs [closed]"]
     n16["sase-1pj.4: Stage gate, sudo, launch, run, and workflow HITL gates [closed]"]
     n17["sase-1pj.4.1: Stage gate requests before host publication [closed]"]
     n18["sase-1pj.4.1.1: Durable gate staging contract [closed]"]
@@ -75,8 +75,8 @@ flowchart TD
     n21["sase-1pj.4.1.4: Stage launch requests and agent-origin run requests [closed]"]
     n22["sase-1pj.4.1.5: Bring workflow review into host completion [closed]"]
     n23["sase-1pj.4.1.6: Suspend workflow execution on staged review [closed]"]
-    n24["sase-1pj.5: Stage monitor starts and spawn after finalization [in_progress]"]
-    n25["sase-1pj.5.1: Stage monitor starts and launch after finalization [in_progress]"]
+    n24["sase-1pj.5: Stage monitor starts and spawn after finalization [closed]"]
+    n25["sase-1pj.5.1: Stage monitor starts and launch after finalization [closed]"]
     n26["sase-1pj.5.1.1: Define staged monitor and ToolRun reservation contracts [closed]"]
     n27["sase-1pj.5.1.2: Split monitor preparation from process launch [closed]"]
     n28["sase-1pj.5.1.3: Preserve prepared completion and joins across staging [closed]"]
@@ -186,7 +186,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1pj.5.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.5.1.2.md) | [sase-1pj.5.1.2](sase-1pj.5.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1pj.5.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.5.1.3/README.md) | [sase-1pj.5.1.3](sase-1pj.5.1.3.md) | 1 |
 | [bbugyi200.athena.sase-1pj.5.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.5.1.4/README.md) | [sase-1pj.5.1.4](sase-1pj.5.1.4.md) | 2 |
-| [bbugyi200.athena.sase-1pj.5.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.5.1.land.md) | [sase-1pj.5.1](sase-1pj.5.1.md) | 1 |
+| [bbugyi200.athena.sase-1pj.5.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.5.1.land/README.md) | [sase-1pj.5.1](sase-1pj.5.1.md) | 2 |
 | [bbugyi200.athena.sase-1pj.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6/README.md) | [sase-1pj.6](sase-1pj.6.md) | 0 |
 | [bbugyi200.athena.sase-1pj.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7/README.md) | [sase-1pj.7](sase-1pj.7.md) | 0 |
 | [bbugyi200.athena.sase-1pj.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.8/README.md) | [sase-1pj.8](sase-1pj.8.md) | 0 |
@@ -234,6 +234,7 @@ flowchart TD
 | sase | [`7da649b`](https://github.com/sase-org/sase/commit/7da649b56248dcbf2ab94dd775bca61bb24a28f0) | feat(monitor-staging): activate staged starts with post-finalizer adoption | [sase-1pj.5.1.4](sase-1pj.5.1.4.md) | 2026-10-30 12:19:49 EDT |
 | sase | [`c9a65d1`](https://github.com/sase-org/sase/commit/c9a65d1a588a7b909a9c990a60a19b7c7f92da1d) | fix(monitor): release staged resources when finalization is held | [sase-1pj.5.1.4](sase-1pj.5.1.4.md) | 2026-10-30 12:58:54 EDT |
 | sase | [`feae9c8`](https://github.com/sase-org/sase/commit/feae9c8777948bf0984ccb26be63c1167998cfd6) | fix(monitor): preserve staged adoption context | [sase-1pj.5.1](sase-1pj.5.1.md) | 2026-10-30 16:37:03 EDT |
+| sase | [`2763a6b`](https://github.com/sase-org/sase/commit/2763a6bc58cd74d4882ab97bace343de0c73fa97) | docs(monitor): describe staged monitor starts in help and flag text | [sase-1pj.5.1](sase-1pj.5.1.md) | 2026-10-31 08:36:37 EDT |
 
 <!-- sase:referenced-by:start -->
 

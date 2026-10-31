@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1pj](README.md) / sase-1pj.3
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.research.5f.linker.w0](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.research.5f.linker.w0.md) · **Assignee:** `sase-1pj.3` · **Size:** medium
-**Created:** 2026-10-28 20:28:58 EDT
+**Created:** 2026-10-28 20:28:58 EDT · **Closed:** 2026-10-30 16:48:58 EDT
 **Plan:** [202610/staged\_handoffs.md](https://github.com/sase-org/sase--plans/blob/main/202610/staged_handoffs.md)
 
 ## Description
@@ -16,6 +16,8 @@ questions-pipe: make `sase questions` and `sase pipe` stage with carry allowed, 
 [2026-10-29T19:23:11Z · sase-1pj.3] PROPOSED FOLLOW-UP: just check on this tree is no_new_failures (3 KNOWN, 1 FLAKY; no owner) — test_justfile_lint_lint.py::test_fix_routes_generated_docs_to_their_declared_venvs, test_monitor_start_ack.py::test_start_monitor_kills_a_supervisor_that_never_writes_the_ack_marker, test_contract_manifest.py::test_contract_manifest_matches_marker_selection, FLAKY test_monitor_start_supervisor.py::test_start_monitor_scrubs_agent_identity_from_the_supervisor_env
 
 [2026-10-29T19:26:51Z · sase-1pj.3] PROPOSED FOLLOW-UP: close is blocked until the Justfile --epic-symbol sase-1pj.3(StagedAdoptionOutcome) drop reaches origin/master; local tree already privatized the type and removed the row, but sase bead close unions origin/master leftovers. After that drop lands, close this phase with the verification note already attempted.
+
+[2026-10-30T20:48:58Z · sase-1pj.3] Verified the prior implementation aa1c183204 is present in HEAD and origin/master and matches the questions-pipe phase design: both flag states, inherit/carry staging, real provider responses, question follow-up commits, pipe carry inheritance, mixed commit/carry, and dual-state skill wording. Focused regression suite: 92 passed in 39.99s across nine test modules. No source changes needed; working tree clean. Rechecked sase bead epic-symbols sase-1pj.3: no entries, so the previous closure blocker is resolved. Prior just check evidence remains recorded in note 1.
 
 ## Dependencies
 
