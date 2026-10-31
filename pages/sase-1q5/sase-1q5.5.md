@@ -13,7 +13,7 @@ agents-tick-trims: stop capacity patches from rebuilding panel titles, skip unch
 
 ## Dependencies
 
-- **Depends on:** [sase-1q5.2](sase-1q5.2.md) ◐ · ⧖ 2026-10-30
+- **Depends on:** [sase-1q5.2](sase-1q5.2.md) ✓ · ⧖ 2026-10-30
 - **Depends on:** [sase-1q5.3](sase-1q5.3.md) ✓ · ⧖ 2026-10-30
 - **Blocks:** [sase-1q5.8](sase-1q5.8.md) ◐ · ⧖ 2026-10-30
 
