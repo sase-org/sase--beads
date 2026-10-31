@@ -14,7 +14,7 @@ stuck-row-cleanup: once the fixes are live, re-scope proven planner rows and ret
 ## Dependencies
 
 - **Depends on:** [sase-1qh.3](sase-1qh.3.md) ✓ · ⧖ 2026-10-31
-- **Depends on:** [sase-1qh.6](sase-1qh.6.md) ◐ · ⧖ 2026-10-31
+- **Depends on:** [sase-1qh.6](sase-1qh.6.md) ✓ · ⧖ 2026-10-31
 
 ## Agents
 

@@ -32,3 +32,15 @@ planner-restore: persist the planner archive inputs in the planner's artifacts d
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`f1dcab6`](https://github.com/sase-org/sase/commit/f1dcab6dae643212b225462161dd313787d7e632) | feat(agents-sync): restore planner prompt archives under their plan name | [sase-1qh.4](sase-1qh.4.md) | 2026-10-31 14:32:35 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1qh.4][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qh.4/README.md
+
+<!-- sase:referenced-by:end -->
