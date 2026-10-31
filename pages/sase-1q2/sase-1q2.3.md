@@ -38,7 +38,9 @@ cli-reds: make the sync help assertion hold on Python 3.12 through 3.14, caption
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1q2.3][1] | Need the phase scope, design file, decisions, and prior notes before implementation | 1 |
+| read-by | [agent:sase-1q2.6--1][2] | Need prerequisite completion evidence and landed commit SHA | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1q2.3/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1q2.6.md
 
 <!-- sase:referenced-by:end -->

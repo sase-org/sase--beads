@@ -38,7 +38,7 @@ Current master is dcee7f11e9342935619dfbd85d670c7dfff1c98e. just fix passed. sas
 - **Depends on:** [sase-1q2.3](sase-1q2.3.md) ✓ · ⧖ 2026-10-30
 - **Depends on:** [sase-1q2.4](sase-1q2.4.md) ✓ · ⧖ 2026-10-30
 - **Depends on:** [sase-1q2.5](sase-1q2.5.md) ✓ · ⧖ 2026-10-30
-- **Blocks:** [sase-1q2.7](sase-1q2.7.md) ◐ · ⧖ 2026-10-30
+- **Blocks:** [sase-1q2.7](sase-1q2.7.md) ✓ · ⧖ 2026-10-30
 
 ## Agents
 
@@ -59,9 +59,11 @@ Current master is dcee7f11e9342935619dfbd85d670c7dfff1c98e. just fix passed. sas
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:16a--1][1] | Check whether the active full-CI phase owns the stale Symvision closed-epic whitelist failure | 1 |
-| read-by | [agent:toobig-8x.agent_loader_artifacts.0][2] | Need the in-progress full CI repair phase scope before routing check evidence | 1 |
+| read-by | [agent:sase-1q2.6--1][2] | Need the latest phase notes before recording the CI triage and closing | 2 |
+| read-by | [agent:toobig-8x.agent_loader_artifacts.0][3] | Need the in-progress full CI repair phase scope before routing check evidence | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.16a.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-8x.agent_loader_artifacts.0/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1q2.6.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-8x.agent_loader_artifacts.0/README.md
 
 <!-- sase:referenced-by:end -->

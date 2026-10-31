@@ -41,7 +41,9 @@ core-match: port sase-core's compressed-tag wheel matcher into tools/_release_co
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1q2.1][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1q2.6--1][2] | Need prerequisite completion evidence and landed commit SHA | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1q2.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1q2.6.md
 
 <!-- sase:referenced-by:end -->

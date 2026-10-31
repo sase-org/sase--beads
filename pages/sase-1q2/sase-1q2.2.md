@@ -20,7 +20,7 @@ core-publish: get a complete sase-core-rs that contains the source pin onto PyPI
 ## Dependencies
 
 - **Depends on:** [sase-1q2.1](sase-1q2.1.md) ✓ · ⧖ 2026-10-30
-- **Blocks:** [sase-1q2.7](sase-1q2.7.md) ◐ · ⧖ 2026-10-30
+- **Blocks:** [sase-1q2.7](sase-1q2.7.md) ✓ · ⧖ 2026-10-30
 
 ## Agents
 
