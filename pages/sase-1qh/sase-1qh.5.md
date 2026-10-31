@@ -23,10 +23,11 @@ footer-brackets: the sase-core commit-footer parser unwraps `SASE_BEAD=[id]` val
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1qh.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qh.5/README.md) | [sase-1qh.5](sase-1qh.5.md) | 1 |
+| [bbugyi200.athena.sase-1qh.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qh.5/README.md) | [sase-1qh.5](sase-1qh.5.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@764317b`](https://github.com/sase-org/sase-core/commit/764317b90c80784f2dc0f463a1631921d3f4379f) | fix(commit-footer): project bare label for undefined bracket links | [sase-1qh.5](sase-1qh.5.md) | 2026-10-31 13:36:21 EDT |
+| sase | [`cb7ab28`](https://github.com/sase-org/sase/commit/cb7ab28e4ba9cdebe52acf4fad0dd58a31501f89) | fix(artifact-links): unwrap bracketed bead trailers with versioned stitch cache | [sase-1qh.5](sase-1qh.5.md) | 2026-10-31 13:37:37 EDT |

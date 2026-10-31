@@ -29,11 +29,11 @@ Approving a plan and running research agents no longer produce `agent_publicatio
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-1qh.1](sase-1qh.1.md) | Planner prompt-archive rows use linked (page-only) scope | ✓ closed | medium | 2026-10-31 | 1 | 0 |
+| [sase-1qh.1](sase-1qh.1.md) | Planner prompt-archive rows use linked (page-only) scope | ✓ closed | medium | 2026-10-31 | 1 | 1 |
 | [sase-1qh.2](sase-1qh.2.md) | Report the real refusal reason and retire repeated refusals | ◐ in_progress | medium | 2026-10-31 | 1 | 0 |
-| [sase-1qh.3](sase-1qh.3.md) | Stop re-scanning already-published bytes on every hood publish | ✓ closed | medium | 2026-10-31 | 1 | 0 |
+| [sase-1qh.3](sase-1qh.3.md) | Stop re-scanning already-published bytes on every hood publish | ✓ closed | medium | 2026-10-31 | 1 | 1 |
 | [sase-1qh.4](sase-1qh.4.md) | Deferred restore rebuilds the plan-named planner archive (sase-1c0) | ◐ in_progress | medium | 2026-10-31 | 1 | 0 |
-| [sase-1qh.5](sase-1qh.5.md) | Parse bracketed footer values that lack a link definition | ✓ closed | small | 2026-10-31 | 1 | 1 |
+| [sase-1qh.5](sase-1qh.5.md) | Parse bracketed footer values that lack a link definition | ✓ closed | small | 2026-10-31 | 1 | 2 |
 | [sase-1qh.6](sase-1qh.6.md) | Report-first re-scope repair for proven planner rows | ◐ in_progress | medium | 2026-10-31 | 1 | 0 |
 | [sase-1qh.7](sase-1qh.7.md) | Clear the already-stuck planner and research rows | ◐ in_progress | small | 2026-10-31 | 1 | 0 |
 
@@ -67,11 +67,11 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1qh.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qh.1/README.md) | [sase-1qh.1](sase-1qh.1.md) | 0 |
+| [bbugyi200.athena.sase-1qh.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qh.1/README.md) | [sase-1qh.1](sase-1qh.1.md) | 1 |
 | [bbugyi200.athena.sase-1qh.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qh.2/README.md) | [sase-1qh.2](sase-1qh.2.md) | 0 |
-| [bbugyi200.athena.sase-1qh.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qh.3.md) | [sase-1qh.3](sase-1qh.3.md) | 0 |
+| [bbugyi200.athena.sase-1qh.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qh.3.md) | [sase-1qh.3](sase-1qh.3.md) | 1 |
 | [bbugyi200.athena.sase-1qh.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qh.4/README.md) | [sase-1qh.4](sase-1qh.4.md) | 0 |
-| [bbugyi200.athena.sase-1qh.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qh.5/README.md) | [sase-1qh.5](sase-1qh.5.md) | 1 |
+| [bbugyi200.athena.sase-1qh.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qh.5/README.md) | [sase-1qh.5](sase-1qh.5.md) | 2 |
 | [bbugyi200.athena.sase-1qh.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qh.6/README.md) | [sase-1qh.6](sase-1qh.6.md) | 0 |
 | [bbugyi200.athena.sase-1qh.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qh.7/README.md) | [sase-1qh.7](sase-1qh.7.md) | 0 |
 | [bbugyi200.athena.sase-1qh.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qh.land/README.md) | [sase-1qh](README.md) | 0 |
@@ -80,7 +80,10 @@ flowchart TD
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
+| sase | [`30e012b`](https://github.com/sase-org/sase/commit/30e012baaad77f98f9c68f494a73cf48565970c4) | perf(agents-sync): reuse published protection scans | [sase-1qh.3](sase-1qh.3.md) | 2026-10-31 13:15:14 EDT |
+| sase | [`9409312`](https://github.com/sase-org/sase/commit/9409312d1e2871c4433947213c9833d609b3540f) | feat(agents-sync): enqueue planner prompt archives with linked scope | [sase-1qh.1](sase-1qh.1.md) | 2026-10-31 13:18:21 EDT |
 | sase-core | [`sase-core@764317b`](https://github.com/sase-org/sase-core/commit/764317b90c80784f2dc0f463a1631921d3f4379f) | fix(commit-footer): project bare label for undefined bracket links | [sase-1qh.5](sase-1qh.5.md) | 2026-10-31 13:36:21 EDT |
+| sase | [`cb7ab28`](https://github.com/sase-org/sase/commit/cb7ab28e4ba9cdebe52acf4fad0dd58a31501f89) | fix(artifact-links): unwrap bracketed bead trailers with versioned stitch cache | [sase-1qh.5](sase-1qh.5.md) | 2026-10-31 13:37:37 EDT |
 
 <!-- sase:referenced-by:start -->
 
