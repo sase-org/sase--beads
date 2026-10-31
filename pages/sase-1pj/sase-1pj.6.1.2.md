@@ -22,7 +22,7 @@ successor-replay: persist successor identity before continuation side effects, r
 ## Dependencies
 
 - **Depends on:** [sase-1pj.6.1.1](sase-1pj.6.1.1.md) ✓ · ⧖ 2026-10-31
-- **Blocks:** [sase-1pj.6.1.3](sase-1pj.6.1.3.md) ◐ · ⧖ 2026-10-31
+- **Blocks:** [sase-1pj.6.1.3](sase-1pj.6.1.3.md) ✓ · ⧖ 2026-10-31
 - **Blocks:** [sase-1pj.6.1.6](sase-1pj.6.1.6.md) ◐ · ⧖ 2026-10-31
 
 ## Agents

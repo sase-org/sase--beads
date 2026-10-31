@@ -31,3 +31,15 @@ gate-replay: resume partial gate publication under its existing request and memb
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`d9129cf`](https://github.com/sase-org/sase/commit/d9129cfd4ba20fc48fe10707a6833c44bf4eb8ee) | feat(gate-turn): finish partial gate publication on request-id replay | [sase-1pj.6.1.4](sase-1pj.6.1.4.md) | 2026-10-31 12:45:33 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pj.6.1.4][1] | Need full bead notes, DECISIONS, and remaining work | 4 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6.1.4/README.md
+
+<!-- sase:referenced-by:end -->

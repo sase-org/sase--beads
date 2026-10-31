@@ -85,7 +85,7 @@ flowchart TD
     n31["sase-1pj.6.1: Recover staged handoffs without repeating adoption [in_progress]"]
     n32["sase-1pj.6.1.1: Define durable recovery identity and replay decisions [closed]"]
     n33["sase-1pj.6.1.2: Recover pipe and inline successors exactly once [closed]"]
-    n34["sase-1pj.6.1.3: Replay plan and question approval handoffs [in_progress]"]
+    n34["sase-1pj.6.1.3: Replay plan and question approval handoffs [closed]"]
     n35["sase-1pj.6.1.4: Complete partially published gates on replay [closed]"]
     n36["sase-1pj.6.1.5: Close monitor spawn and held-reservation crash windows [closed]"]
     n37["sase-1pj.6.1.6: Adopt from persisted state and preserve finalizer progress [in_progress]"]
@@ -235,7 +235,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1pj.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.6.md) | [sase-1pj.6](sase-1pj.6.md) | 0 |
 | [bbugyi200.athena.sase-1pj.6.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.6.1.1.md) | [sase-1pj.6.1.1](sase-1pj.6.1.1.md) | 2 |
 | [bbugyi200.athena.sase-1pj.6.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6.1.2/README.md) | [sase-1pj.6.1.2](sase-1pj.6.1.2.md) | 1 |
-| [bbugyi200.athena.sase-1pj.6.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6.1.3/README.md) | [sase-1pj.6.1.3](sase-1pj.6.1.3.md) | 0 |
+| [bbugyi200.athena.sase-1pj.6.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6.1.3/README.md) | [sase-1pj.6.1.3](sase-1pj.6.1.3.md) | 1 |
 | [bbugyi200.athena.sase-1pj.6.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6.1.4/README.md) | [sase-1pj.6.1.4](sase-1pj.6.1.4.md) | 1 |
 | [bbugyi200.athena.sase-1pj.6.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6.1.5/README.md) | [sase-1pj.6.1.5](sase-1pj.6.1.5.md) | 1 |
 | [bbugyi200.athena.sase-1pj.6.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6.1.6/README.md) | [sase-1pj.6.1.6](sase-1pj.6.1.6.md) | 0 |
@@ -301,6 +301,7 @@ flowchart TD
 | sase | [`b674079`](https://github.com/sase-org/sase/commit/b674079c2be562c75a28f64775da93f4ec820bab) | feat(staged-recovery): close monitor spawn and held-reservation crash windows | [sase-1pj.6.1.5](sase-1pj.6.1.5.md) | 2026-10-31 12:20:19 EDT |
 | sase | [`9c17b84`](https://github.com/sase-org/sase/commit/9c17b8454bfd553f6888e2b91717fbb23e12646e) | feat(axe): replay staged successors exactly once | [sase-1pj.6.1.2](sase-1pj.6.1.2.md) | 2026-10-31 12:37:04 EDT |
 | sase | [`d9129cf`](https://github.com/sase-org/sase/commit/d9129cfd4ba20fc48fe10707a6833c44bf4eb8ee) | feat(gate-turn): finish partial gate publication on request-id replay | [sase-1pj.6.1.4](sase-1pj.6.1.4.md) | 2026-10-31 12:45:33 EDT |
+| sase | [`6a2c90f`](https://github.com/sase-org/sase/commit/6a2c90f41bc6b38eeed368b60ccae7d6e90626b2) | feat(staged-handoff): replay plan and question approvals | [sase-1pj.6.1.3](sase-1pj.6.1.3.md) | 2026-10-31 13:45:47 EDT |
 
 <!-- sase:referenced-by:start -->
 
