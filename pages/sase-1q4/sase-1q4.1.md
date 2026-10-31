@@ -18,7 +18,7 @@ promotion: bind bare-name forks as session seeds, heal queued legacy kind=agent 
 ## Dependencies
 
 - **Blocks:** [sase-1q4.10](sase-1q4.10.md) ✓ · ⧖ 2026-10-30
-- **Blocks:** [sase-1q4.4](sase-1q4.4.md) ◐ · ⧖ 2026-10-30
+- **Blocks:** [sase-1q4.4](sase-1q4.4.md) ✓ · ⧖ 2026-10-30
 
 ## Agents
 

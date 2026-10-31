@@ -34,12 +34,12 @@ _Plus 1 automatic references — see [Referenced By](#referenced-by)._
 | [sase-1q4.11](sase-1q4.11.md) | The | ◐ in_progress | medium | 2026-10-30 | 1 | 0 |
 | [sase-1q4.2](sase-1q4.2.md) | Rust wait-target vocabulary and pure rules | ✓ closed | medium | 2026-10-30 | 1 | 2 |
 | [sase-1q4.3](sase-1q4.3.md) | Keyword-only macro inputs in sase-core | ✓ closed | medium | 2026-10-30 | 1 | 2 |
-| [sase-1q4.4](sase-1q4.4.md) | Turn-pinned wait records and evaluation | ◐ in_progress | medium | 2026-10-30 | 1 | 1 |
+| [sase-1q4.4](sase-1q4.4.md) | Turn-pinned wait records and evaluation | ✓ closed | medium | 2026-10-30 | 1 | 1 |
 | [sase-1q4.5](sase-1q4.5.md) | The %wait target= keyword end to end | ◐ in_progress | medium | 2026-10-30 | 1 | 0 |
 | [sase-1q4.6](sase-1q4.6.md) | sase agent wait --target | ◐ in_progress | small | 2026-10-30 | 1 | 0 |
 | [sase-1q4.7](sase-1q4.7.md) | Turn targets in plan-gate coder options | ◐ in_progress | medium | 2026-10-30 | 1 | 0 |
 | [sase-1q4.8](sase-1q4.8.md) | Show and edit bound turns in the TUI | ◐ in_progress | medium | 2026-10-30 | 1 | 0 |
-| [sase-1q4.9](sase-1q4.9.md) | Keyword-only macro inputs in sase | ◐ in_progress | medium | 2026-10-30 | 1 | 0 |
+| [sase-1q4.9](sase-1q4.9.md) | Keyword-only macro inputs in sase | ✓ closed | medium | 2026-10-30 | 1 | 1 |
 
 ## Lineage
 
@@ -51,12 +51,12 @@ flowchart TD
     n3["sase-1q4.11: The [in_progress]"]
     n4["sase-1q4.2: Rust wait-target vocabulary and pure rules [closed]"]
     n5["sase-1q4.3: Keyword-only macro inputs in sase-core [closed]"]
-    n6["sase-1q4.4: Turn-pinned wait records and evaluation [in_progress]"]
+    n6["sase-1q4.4: Turn-pinned wait records and evaluation [closed]"]
     n7["sase-1q4.5: The %wait target= keyword end to end [in_progress]"]
     n8["sase-1q4.6: sase agent wait --target [in_progress]"]
     n9["sase-1q4.7: Turn targets in plan-gate coder options [in_progress]"]
     n10["sase-1q4.8: Show and edit bound turns in the TUI [in_progress]"]
-    n11["sase-1q4.9: Keyword-only macro inputs in sase [in_progress]"]
+    n11["sase-1q4.9: Keyword-only macro inputs in sase [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -95,7 +95,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1q4.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1q4.6/README.md) | [sase-1q4.6](sase-1q4.6.md) | 0 |
 | [bbugyi200.athena.sase-1q4.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1q4.7/README.md) | [sase-1q4.7](sase-1q4.7.md) | 0 |
 | [bbugyi200.athena.sase-1q4.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1q4.8/README.md) | [sase-1q4.8](sase-1q4.8.md) | 0 |
-| [bbugyi200.athena.sase-1q4.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1q4.9/README.md) | [sase-1q4.9](sase-1q4.9.md) | 0 |
+| [bbugyi200.athena.sase-1q4.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1q4.9/README.md) | [sase-1q4.9](sase-1q4.9.md) | 1 |
 | [bbugyi200.athena.sase-1q4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1q4.land/README.md) | [sase-1q4](README.md) | 0 |
 
 ## Commits
@@ -109,6 +109,7 @@ flowchart TD
 | sase-core | [`sase-core@18ad5fd`](https://github.com/sase-org/sase-core/commit/18ad5fd6f4592af4d61ef8e8187514b032bec03f) | feat(macro): add keyword-only input metadata and binding rules | [sase-1q4.3](sase-1q4.3.md) | 2026-10-30 23:32:07 EDT |
 | sase | [`cb230ad`](https://github.com/sase-org/sase/commit/cb230adb5e50eed82039be6112716fbde0f23808) | docs(macros): document keyword-only inputs and wait targets | [sase-1q4.3](sase-1q4.3.md) | 2026-10-31 00:15:21 EDT |
 | sase | [`5ade788`](https://github.com/sase-org/sase/commit/5ade7889b22e276ff20e8d304424b88d7f2777e0) | feat(wait): pin explicit session/turn wait identity records | [sase-1q4.4](sase-1q4.4.md) | 2026-10-31 00:27:05 EDT |
+| sase | [`9e6e2b3`](https://github.com/sase-org/sase/commit/9e6e2b329fd94b3b3bd3840c43d787de5b8b9a04) | feat(macros): mirror keyword-only inputs across sase Python | [sase-1q4.9](sase-1q4.9.md) | 2026-10-31 01:11:51 EDT |
 
 <!-- sase:referenced-by:start -->
 

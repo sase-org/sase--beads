@@ -25,7 +25,7 @@ vocab: add sase-core wait_target module (parse, effective-target rules, current-
 
 ## Dependencies
 
-- **Blocks:** [sase-1q4.4](sase-1q4.4.md) ◐ · ⧖ 2026-10-30
+- **Blocks:** [sase-1q4.4](sase-1q4.4.md) ✓ · ⧖ 2026-10-30
 
 ## Agents
 
@@ -47,7 +47,9 @@ vocab: add sase-core wait_target module (parse, effective-target rules, current-
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1q4.2][1] | Need the phase scope and design file | 4 |
+| read-by | [agent:sase-1q4.4][2] | Need vocab phase landing so wait_runtime can reuse the facade | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1q4.2/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1q4.4/README.md
 
 <!-- sase:referenced-by:end -->

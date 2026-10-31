@@ -21,7 +21,7 @@ kwonly_core: add keyword_only to the Rust macro input contract (catalog, wires, 
 
 ## Dependencies
 
-- **Blocks:** [sase-1q4.9](sase-1q4.9.md) ◐ · ⧖ 2026-10-30
+- **Blocks:** [sase-1q4.9](sase-1q4.9.md) ✓ · ⧖ 2026-10-30
 
 ## Agents
 

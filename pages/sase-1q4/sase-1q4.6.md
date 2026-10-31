@@ -13,7 +13,7 @@ agent_wait_cli: add -T/--target session|turn to sase agent wait, using the share
 
 ## Dependencies
 
-- **Depends on:** [sase-1q4.4](sase-1q4.4.md) ◐ · ⧖ 2026-10-30
+- **Depends on:** [sase-1q4.4](sase-1q4.4.md) ✓ · ⧖ 2026-10-30
 
 ## Agents
 

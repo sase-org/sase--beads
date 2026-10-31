@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1q4](README.md) / sase-1q4.4
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.research.5j.linker.w0](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.research.5j.linker.w0.md) · **Assignee:** `sase-1q4.4` · **Size:** medium
-**Created:** 2026-10-30 17:43:13 EDT
+**Created:** 2026-10-30 17:43:13 EDT · **Closed:** 2026-10-31 00:27:56 EDT
 **Plan:** [202610/fork\_wait\_session\_turn\_target.md](https://github.com/sase-org/sase--plans/blob/main/202610/fork_wait_session_turn_target.md)
 
 ## Description
@@ -16,6 +16,8 @@ wait_runtime: add the shared Python binder that pins a session's current turn in
 [2026-10-31T03:40:20Z · sase-1q4.4] PROPOSED FOLLOW-UP: pager test teardown AttributeError PagerScreen.notify — tests/pager/test_app_navigation.py::test_past_eof_line_clamps_with_information_toast and test_past_eof_end_line_clamps_silently pass then error at monkeypatch restore; reproduces identically on clean origin/master (2 passed, 2 errors)
 
 [2026-10-31T03:43:01Z · sase-1q4.4] Close refused: local Justfile has no sase-1q4.4 --epic-symbol rows (consumed EffectiveWaitTarget/WaitTurnFacts/effective_wait_target/parse_wait_target/select_current_wait_turn; WaitTargetBinding/bind_wait_target re-keyed to sase-1q4.6). Guard still unions origin/master which still has the pre-consumption sase-1q4.4 rows until this commit lands. Host bead_action=close should retry after the Justfile deletion is committed.
+
+[2026-10-31T04:27:56Z · sase-1q4.4] Closed by explicit `sase stitch create -B close` after create_commit landed 5ade7889b2 ("feat(wait): pin explicit session/turn wait identity records"). The commit author requested bead completion after verifying the bead scope. Reopen with `sase bead open sase-1q4.4` if more work remains.
 
 ## Dependencies
 
@@ -35,3 +37,15 @@ wait_runtime: add the shared Python binder that pins a session's current turn in
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`5ade788`](https://github.com/sase-org/sase/commit/5ade7889b22e276ff20e8d304424b88d7f2777e0) | feat(wait): pin explicit session/turn wait identity records | [sase-1q4.4](sase-1q4.4.md) | 2026-10-31 00:27:05 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1q4.4][1] | Need the phase scope and design file | 5 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1q4.4/README.md
+
+<!-- sase:referenced-by:end -->
