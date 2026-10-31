@@ -32,7 +32,7 @@ Approving a plan and running research agents no longer produce `agent_publicatio
 | [sase-1qh.1](sase-1qh.1.md) | Planner prompt-archive rows use linked (page-only) scope | ✓ closed | medium | 2026-10-31 | 1 | 1 |
 | [sase-1qh.2](sase-1qh.2.md) | Report the real refusal reason and retire repeated refusals | ✓ closed | medium | 2026-10-31 | 1 | 1 |
 | [sase-1qh.3](sase-1qh.3.md) | Stop re-scanning already-published bytes on every hood publish | ✓ closed | medium | 2026-10-31 | 1 | 1 |
-| [sase-1qh.4](sase-1qh.4.md) | Deferred restore rebuilds the plan-named planner archive (sase-1c0) | ◐ in_progress | medium | 2026-10-31 | 1 | 0 |
+| [sase-1qh.4](sase-1qh.4.md) | Deferred restore rebuilds the plan-named planner archive (sase-1c0) | ✓ closed | medium | 2026-10-31 | 1 | 1 |
 | [sase-1qh.5](sase-1qh.5.md) | Parse bracketed footer values that lack a link definition | ✓ closed | small | 2026-10-31 | 1 | 2 |
 | [sase-1qh.6](sase-1qh.6.md) | Report-first re-scope repair for proven planner rows | ◐ in_progress | medium | 2026-10-31 | 1 | 0 |
 | [sase-1qh.7](sase-1qh.7.md) | Clear the already-stuck planner and research rows | ◐ in_progress | small | 2026-10-31 | 1 | 0 |
@@ -45,7 +45,7 @@ flowchart TD
     n1["sase-1qh.1: Planner prompt-archive rows use linked (page-only) scope [closed]"]
     n2["sase-1qh.2: Report the real refusal reason and retire repeated refusals [closed]"]
     n3["sase-1qh.3: Stop re-scanning already-published bytes on every hood publish [closed]"]
-    n4["sase-1qh.4: Deferred restore rebuilds the plan-named planner archive (sase-1c0) [in_progress]"]
+    n4["sase-1qh.4: Deferred restore rebuilds the plan-named planner archive (sase-1c0) [closed]"]
     n5["sase-1qh.5: Parse bracketed footer values that lack a link definition [closed]"]
     n6["sase-1qh.6: Report-first re-scope repair for proven planner rows [in_progress]"]
     n7["sase-1qh.7: Clear the already-stuck planner and research rows [in_progress]"]
@@ -70,7 +70,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1qh.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qh.1/README.md) | [sase-1qh.1](sase-1qh.1.md) | 1 |
 | [bbugyi200.athena.sase-1qh.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qh.2.md) | [sase-1qh.2](sase-1qh.2.md) | 1 |
 | [bbugyi200.athena.sase-1qh.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qh.3.md) | [sase-1qh.3](sase-1qh.3.md) | 1 |
-| [bbugyi200.athena.sase-1qh.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qh.4/README.md) | [sase-1qh.4](sase-1qh.4.md) | 0 |
+| [bbugyi200.athena.sase-1qh.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qh.4/README.md) | [sase-1qh.4](sase-1qh.4.md) | 1 |
 | [bbugyi200.athena.sase-1qh.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qh.5/README.md) | [sase-1qh.5](sase-1qh.5.md) | 2 |
 | [bbugyi200.athena.sase-1qh.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qh.6/README.md) | [sase-1qh.6](sase-1qh.6.md) | 0 |
 | [bbugyi200.athena.sase-1qh.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qh.7/README.md) | [sase-1qh.7](sase-1qh.7.md) | 0 |
@@ -85,6 +85,7 @@ flowchart TD
 | sase-core | [`sase-core@764317b`](https://github.com/sase-org/sase-core/commit/764317b90c80784f2dc0f463a1631921d3f4379f) | fix(commit-footer): project bare label for undefined bracket links | [sase-1qh.5](sase-1qh.5.md) | 2026-10-31 13:36:21 EDT |
 | sase | [`cb7ab28`](https://github.com/sase-org/sase/commit/cb7ab28e4ba9cdebe52acf4fad0dd58a31501f89) | fix(artifact-links): unwrap bracketed bead trailers with versioned stitch cache | [sase-1qh.5](sase-1qh.5.md) | 2026-10-31 13:37:37 EDT |
 | sase | [`ae2c65d`](https://github.com/sase-org/sase/commit/ae2c65dd293f5f73513c1baccb08e313b1c53346) | feat(agents-sync): report real refusal reason and retire repeated refusals | [sase-1qh.2](sase-1qh.2.md) | 2026-10-31 14:20:21 EDT |
+| sase | [`f1dcab6`](https://github.com/sase-org/sase/commit/f1dcab6dae643212b225462161dd313787d7e632) | feat(agents-sync): restore planner prompt archives under their plan name | [sase-1qh.4](sase-1qh.4.md) | 2026-10-31 14:32:35 EDT |
 
 <!-- sase:referenced-by:start -->
 

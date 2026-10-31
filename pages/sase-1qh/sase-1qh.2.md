@@ -33,3 +33,15 @@ honest-errors: gate refusals record the Rust completion decision's reason instea
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`ae2c65d`](https://github.com/sase-org/sase/commit/ae2c65dd293f5f73513c1baccb08e313b1c53346) | feat(agents-sync): report real refusal reason and retire repeated refusals | [sase-1qh.2](sase-1qh.2.md) | 2026-10-31 14:20:21 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1qh.2--1][1] | Need phase notes and remaining work | 4 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qh.2.md
+
+<!-- sase:referenced-by:end -->
