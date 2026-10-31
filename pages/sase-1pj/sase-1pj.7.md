@@ -24,3 +24,15 @@ carry-hardening: when carried work reaches a branch with no successor (stopped o
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1pj.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.7.md) | [sase-1pj.7](sase-1pj.7.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pj.7.1.1][1] | Need parent phase DECISIONS that remain final for this child epic | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7.1.1/README.md
+
+<!-- sase:referenced-by:end -->

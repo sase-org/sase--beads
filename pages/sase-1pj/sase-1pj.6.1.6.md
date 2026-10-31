@@ -17,7 +17,7 @@ recovery-service: expose one host recovery entry point for all kinds, prove sett
 - **Depends on:** [sase-1pj.6.1.2](sase-1pj.6.1.2.md) ◐ · ⧖ 2026-10-31
 - **Depends on:** [sase-1pj.6.1.3](sase-1pj.6.1.3.md) ◐ · ⧖ 2026-10-31
 - **Depends on:** [sase-1pj.6.1.4](sase-1pj.6.1.4.md) ◐ · ⧖ 2026-10-31
-- **Depends on:** [sase-1pj.6.1.5](sase-1pj.6.1.5.md) ◐ · ⧖ 2026-10-31
+- **Depends on:** [sase-1pj.6.1.5](sase-1pj.6.1.5.md) ✓ · ⧖ 2026-10-31
 - **Blocks:** [sase-1pj.6.1.7](sase-1pj.6.1.7.md) ◐ · ⧖ 2026-10-31
 - **Blocks:** [sase-1pj.6.1.8](sase-1pj.6.1.8.md) ◐ · ⧖ 2026-10-31
 

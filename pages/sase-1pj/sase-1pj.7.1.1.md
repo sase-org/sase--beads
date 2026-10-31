@@ -31,3 +31,15 @@ retention-core: add the Rust retention decision and Python evidence/effect adapt
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@80338d6`](https://github.com/sase-org/sase-core/commit/80338d6bc0a621b1e878fc42865f304f21d6c0c1) | feat(workspace\_retention): classify stranded handoff claim settlement | [sase-1pj.7.1.1](sase-1pj.7.1.1.md) | 2026-10-31 10:54:36 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pj.7.1.1][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7.1.1/README.md
+
+<!-- sase:referenced-by:end -->

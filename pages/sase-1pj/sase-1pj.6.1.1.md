@@ -20,20 +20,21 @@ recovery-contract: add Rust-owned recovery contracts and replay decisions, persi
 - **Blocks:** [sase-1pj.6.1.2](sase-1pj.6.1.2.md) ◐ · ⧖ 2026-10-31
 - **Blocks:** [sase-1pj.6.1.3](sase-1pj.6.1.3.md) ◐ · ⧖ 2026-10-31
 - **Blocks:** [sase-1pj.6.1.4](sase-1pj.6.1.4.md) ◐ · ⧖ 2026-10-31
-- **Blocks:** [sase-1pj.6.1.5](sase-1pj.6.1.5.md) ◐ · ⧖ 2026-10-31
+- **Blocks:** [sase-1pj.6.1.5](sase-1pj.6.1.5.md) ✓ · ⧖ 2026-10-31
 - **Blocks:** [sase-1pj.6.1.6](sase-1pj.6.1.6.md) ◐ · ⧖ 2026-10-31
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1pj.6.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.6.1.1.md) | [sase-1pj.6.1.1](sase-1pj.6.1.1.md) | 1 |
+| [bbugyi200.athena.sase-1pj.6.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.6.1.1.md) | [sase-1pj.6.1.1](sase-1pj.6.1.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@73ec04a`](https://github.com/sase-org/sase-core/commit/73ec04a02eb006f8065d01900f4e0d8605b252bb) | feat(staged-recovery): add Rust-owned recovery contracts and replay decisions | [sase-1pj.6.1.1](sase-1pj.6.1.1.md) | 2026-10-31 10:34:14 EDT |
+| sase | [`d3d26a5`](https://github.com/sase-org/sase/commit/d3d26a5b55b81b1c86a159682c8f035e3c6354ed) | feat(staged-recovery): define durable recovery identity and replay decisions | [sase-1pj.6.1.1](sase-1pj.6.1.1.md) | 2026-10-31 10:36:20 EDT |
 
 <!-- sase:referenced-by:start -->
 
