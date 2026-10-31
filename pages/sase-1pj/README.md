@@ -95,7 +95,7 @@ flowchart TD
     n41["sase-1pj.7.1: Retain stranded handoff workspaces [in_progress]"]
     n42["sase-1pj.7.1.1: Shared retention policy and guarded claim settlement [closed]"]
     n43["sase-1pj.7.1.2: Retain stopped and unlaunchable monitor work [in_progress]"]
-    n44["sase-1pj.7.1.3: Retain cancelled questions and failed handoffs [in_progress]"]
+    n44["sase-1pj.7.1.3: Retain cancelled questions and failed handoffs [closed]"]
     n45["sase-1pj.7.1.4: Surface held work and complete its recovery lifecycle [in_progress]"]
     n46["sase-1pj.8: Remove the flag and the kill-path machinery [in_progress]"]
     n47["sase-1pj.9: Final skills, docs, and memory [in_progress]"]
@@ -245,7 +245,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1pj.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.7.md) | [sase-1pj.7](sase-1pj.7.md) | 0 |
 | [bbugyi200.athena.sase-1pj.7.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7.1.1/README.md) | [sase-1pj.7.1.1](sase-1pj.7.1.1.md) | 2 |
 | [bbugyi200.athena.sase-1pj.7.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7.1.2/README.md) | [sase-1pj.7.1.2](sase-1pj.7.1.2.md) | 0 |
-| [bbugyi200.athena.sase-1pj.7.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7.1.3/README.md) | [sase-1pj.7.1.3](sase-1pj.7.1.3.md) | 0 |
+| [bbugyi200.athena.sase-1pj.7.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7.1.3/README.md) | [sase-1pj.7.1.3](sase-1pj.7.1.3.md) | 1 |
 | [bbugyi200.athena.sase-1pj.7.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7.1.4/README.md) | [sase-1pj.7.1.4](sase-1pj.7.1.4.md) | 0 |
 | [bbugyi200.athena.sase-1pj.7.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7.1.land/README.md) | [sase-1pj.7.1](sase-1pj.7.1.md) | 0 |
 | [bbugyi200.athena.sase-1pj.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.8/README.md) | [sase-1pj.8](sase-1pj.8.md) | 0 |
@@ -304,6 +304,7 @@ flowchart TD
 | sase | [`6a2c90f`](https://github.com/sase-org/sase/commit/6a2c90f41bc6b38eeed368b60ccae7d6e90626b2) | feat(staged-handoff): replay plan and question approvals | [sase-1pj.6.1.3](sase-1pj.6.1.3.md) | 2026-10-31 13:45:47 EDT |
 | sase | [`406c57f`](https://github.com/sase-org/sase/commit/406c57f12614114a40310a0a075d22fcabadca77) | feat(axe): add staged-handoff recovery service entry point | [sase-1pj.6.1.6](sase-1pj.6.1.6.md) | 2026-10-31 15:06:44 EDT |
 | sase | [`17f5aa3`](https://github.com/sase-org/sase/commit/17f5aa3ca17c9575403505c83f091b803e0dc407) | feat(turns): add workspace retention adapter and guarded claim settlement | [sase-1pj.7.1.1](sase-1pj.7.1.1.md) | 2026-10-31 15:49:48 EDT |
+| sase | [`f2e8480`](https://github.com/sase-org/sase/commit/f2e84801ccfe2251c01808db4f8462ba00f41f7c) | fix(workspace-retention): retain stranded gate and staged workspaces | [sase-1pj.7.1.3](sase-1pj.7.1.3.md) | 2026-10-31 16:57:37 EDT |
 
 <!-- sase:referenced-by:start -->
 

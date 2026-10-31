@@ -14,7 +14,7 @@ recovery-surfaces: expose stranded workspace evidence, support safe resume and e
 ## Dependencies
 
 - **Depends on:** [sase-1pj.7.1.2](sase-1pj.7.1.2.md) ◐ · ⧖ 2026-10-31
-- **Depends on:** [sase-1pj.7.1.3](sase-1pj.7.1.3.md) ◐ · ⧖ 2026-10-31
+- **Depends on:** [sase-1pj.7.1.3](sase-1pj.7.1.3.md) ✓ · ⧖ 2026-10-31
 
 ## Agents
 
