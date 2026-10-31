@@ -42,7 +42,7 @@ _Plus 2 automatic references — see [Referenced By](#referenced-by)._
 | [sase-1q4.5](sase-1q4.5.md) | The %wait target= keyword end to end | ✓ closed | medium | 2026-10-30 | 1 | 2 |
 | [sase-1q4.6](sase-1q4.6.md) | sase agent wait --target | ✓ closed | small | 2026-10-30 | 1 | 1 |
 | [sase-1q4.7](sase-1q4.7.md) | Turn targets in plan-gate coder options | ✓ closed | medium | 2026-10-30 | 1 | 1 |
-| [sase-1q4.8](sase-1q4.8.md) | Show and edit bound turns in the TUI | ✓ closed | medium | 2026-10-30 | 1 | 1 |
+| [sase-1q4.8](sase-1q4.8.md) | Show and edit bound turns in the TUI | ✓ closed | medium | 2026-10-30 | 1 | 2 |
 | [sase-1q4.9](sase-1q4.9.md) | Keyword-only macro inputs in sase | ✓ closed | medium | 2026-10-30 | 1 | 1 |
 
 ## Lineage
@@ -98,7 +98,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1q4.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1q4.5/README.md) | [sase-1q4.5](sase-1q4.5.md) | 2 |
 | [bbugyi200.athena.sase-1q4.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1q4.6/README.md) | [sase-1q4.6](sase-1q4.6.md) | 1 |
 | [bbugyi200.athena.sase-1q4.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1q4.7.md) | [sase-1q4.7](sase-1q4.7.md) | 1 |
-| [bbugyi200.athena.sase-1q4.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1q4.8.md) | [sase-1q4.8](sase-1q4.8.md) | 1 |
+| [bbugyi200.athena.sase-1q4.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1q4.8.md) | [sase-1q4.8](sase-1q4.8.md) | 2 |
 | [bbugyi200.athena.sase-1q4.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1q4.9/README.md) | [sase-1q4.9](sase-1q4.9.md) | 1 |
 | [bbugyi200.athena.sase-1q4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1q4.land/README.md) | [sase-1q4](README.md) | 0 |
 
@@ -120,6 +120,7 @@ flowchart TD
 | sase | [`1b01062`](https://github.com/sase-org/sase/commit/1b01062d2e7bec72d3c312ee19a7772247164820) | feat(plan-gates): carry turn=\<agent\> waits through coder options | [sase-1q4.7](sase-1q4.7.md) | 2026-10-31 03:43:16 EDT |
 | sase | [`dcee7f1`](https://github.com/sase-org/sase/commit/dcee7f11e9342935619dfbd85d670c7dfff1c98e) | feat(fork): bind explicit wait targets and structured refs | [sase-1q4.11](sase-1q4.11.md) | 2026-10-31 03:58:25 EDT |
 | sase-core | [`sase-core@dddcb0b`](https://github.com/sase-org/sase-core/commit/dddcb0b712600b5635df5bed91e1220c0b2bd31d) | feat(agent-scan): project wait\_turn\_bindings on scan wire | [sase-1q4.8](sase-1q4.8.md) | 2026-10-31 07:10:33 EDT |
+| sase | [`4a4b6fe`](https://github.com/sase-org/sase/commit/4a4b6fede82aff9cdab6a29a8cfc1d993cf4dadb) | feat(tui): surface and edit bound turn waits | [sase-1q4.8](sase-1q4.8.md) | 2026-10-31 07:11:46 EDT |
 
 <!-- sase:referenced-by:start -->
 

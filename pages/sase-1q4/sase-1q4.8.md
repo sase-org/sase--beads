@@ -27,10 +27,11 @@ wait_tui: surface bound turns via an additive scan-wire field, accept turn= entr
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1q4.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1q4.8.md) | [sase-1q4.8](sase-1q4.8.md) | 1 |
+| [bbugyi200.athena.sase-1q4.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1q4.8.md) | [sase-1q4.8](sase-1q4.8.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@dddcb0b`](https://github.com/sase-org/sase-core/commit/dddcb0b712600b5635df5bed91e1220c0b2bd31d) | feat(agent-scan): project wait\_turn\_bindings on scan wire | [sase-1q4.8](sase-1q4.8.md) | 2026-10-31 07:10:33 EDT |
+| sase | [`4a4b6fe`](https://github.com/sase-org/sase/commit/4a4b6fede82aff9cdab6a29a8cfc1d993cf4dadb) | feat(tui): surface and edit bound turn waits | [sase-1q4.8](sase-1q4.8.md) | 2026-10-31 07:11:46 EDT |
