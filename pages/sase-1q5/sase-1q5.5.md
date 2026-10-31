@@ -29,10 +29,16 @@ agents-tick-trims: stop capacity patches from rebuilding panel titles, skip unch
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1q5.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1q5.5.md) | [sase-1q5.5](sase-1q5.5.md) | 1 |
+| [bbugyi200.athena.sase-1q5.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1q5.5.md) | [sase-1q5.5](sase-1q5.5.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase | [`b09d069`](https://github.com/sase-org/sase/commit/b09d06945d17ad00e49e8b513a983d6951a85c0d) | perf(ace): trim Agents tab tick work | [sase-1q5.5](sase-1q5.5.md) | 2026-10-30 21:57:04 EDT |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1q5.5--2][1] | Need the phase scope, decisions, and prior work notes before completing verification | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1q5.5.md
+
+<!-- sase:referenced-by:end -->

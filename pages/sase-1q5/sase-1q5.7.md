@@ -28,13 +28,7 @@ capacity-feed: lengthen the display rescan interval, reuse the parsed slot-scan 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1q5.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1q5.7.md) | [sase-1q5.7](sase-1q5.7.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase | [`4a4a2f5`](https://github.com/sase-org/sase/commit/4a4a2f5a91027c4935d83e91373b282d4984e066) | perf(capacity): calm the machine-capacity feed | [sase-1q5.7](sase-1q5.7.md) | 2026-10-30 21:25:08 EDT |
+| [bbugyi200.athena.sase-1q5.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1q5.7.md) | [sase-1q5.7](sase-1q5.7.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 

@@ -16,7 +16,7 @@ remeasure-kit: teach tui_freeze_report to summarize slow agent loads by index-st
 - **Depends on:** [sase-1q5.1](sase-1q5.1.md) ✓ · ⧖ 2026-10-30
 - **Depends on:** [sase-1q5.2](sase-1q5.2.md) ✓ · ⧖ 2026-10-30
 - **Depends on:** [sase-1q5.3](sase-1q5.3.md) ✓ · ⧖ 2026-10-30
-- **Depends on:** [sase-1q5.4](sase-1q5.4.md) ◐ · ⧖ 2026-10-30
+- **Depends on:** [sase-1q5.4](sase-1q5.4.md) ✓ · ⧖ 2026-10-30
 - **Depends on:** [sase-1q5.5](sase-1q5.5.md) ✓ · ⧖ 2026-10-30
 - **Depends on:** [sase-1q5.6](sase-1q5.6.md) ✓ · ⧖ 2026-10-30
 - **Depends on:** [sase-1q5.7](sase-1q5.7.md) ✓ · ⧖ 2026-10-30
