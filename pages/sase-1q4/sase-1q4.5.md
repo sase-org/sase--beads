@@ -23,7 +23,7 @@ wait_directive: accept and validate %wait(..., target=) in the Python collector 
 
 ## Dependencies
 
-- **Blocks:** [sase-1q4.11](sase-1q4.11.md) ◐ · ⧖ 2026-10-30
+- **Blocks:** [sase-1q4.11](sase-1q4.11.md) ✓ · ⧖ 2026-10-30
 - **Depends on:** [sase-1q4.4](sase-1q4.4.md) ✓ · ⧖ 2026-10-30
 - **Blocks:** [sase-1q4.7](sase-1q4.7.md) ✓ · ⧖ 2026-10-30
 

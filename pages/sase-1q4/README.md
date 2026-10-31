@@ -35,7 +35,7 @@ _Plus 2 automatic references — see [Referenced By](#referenced-by)._
 |---|---|---|---|---|---:|---:|
 | [sase-1q4.1](sase-1q4.1.md) | Promotion-aware bare-name fork waits | ✓ closed | medium | 2026-10-30 | 1 | 1 |
 | [sase-1q4.10](sase-1q4.10.md) | Fork history follows the bound wait record | ✓ closed | medium | 2026-10-30 | 1 | 1 |
-| [sase-1q4.11](sase-1q4.11.md) | The | ◐ in_progress | medium | 2026-10-30 | 1 | 0 |
+| [sase-1q4.11](sase-1q4.11.md) | The | ✓ closed | medium | 2026-10-30 | 1 | 1 |
 | [sase-1q4.2](sase-1q4.2.md) | Rust wait-target vocabulary and pure rules | ✓ closed | medium | 2026-10-30 | 1 | 2 |
 | [sase-1q4.3](sase-1q4.3.md) | Keyword-only macro inputs in sase-core | ✓ closed | medium | 2026-10-30 | 1 | 2 |
 | [sase-1q4.4](sase-1q4.4.md) | Turn-pinned wait records and evaluation | ✓ closed | medium | 2026-10-30 | 1 | 1 |
@@ -52,7 +52,7 @@ flowchart TD
     n0["sase-1q4: Explicit session/turn targets for fork and agent waits [in_progress]"]
     n1["sase-1q4.1: Promotion-aware bare-name fork waits [closed]"]
     n2["sase-1q4.10: Fork history follows the bound wait record [closed]"]
-    n3["sase-1q4.11: The [in_progress]"]
+    n3["sase-1q4.11: The [closed]"]
     n4["sase-1q4.2: Rust wait-target vocabulary and pure rules [closed]"]
     n5["sase-1q4.3: Keyword-only macro inputs in sase-core [closed]"]
     n6["sase-1q4.4: Turn-pinned wait records and evaluation [closed]"]
@@ -91,7 +91,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-1q4.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1q4.1.md) | [sase-1q4.1](sase-1q4.1.md) | 1 |
 | [bbugyi200.athena.sase-1q4.10](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1q4.10.md) | [sase-1q4.10](sase-1q4.10.md) | 1 |
-| [bbugyi200.athena.sase-1q4.11](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1q4.11.md) | [sase-1q4.11](sase-1q4.11.md) | 0 |
+| [bbugyi200.athena.sase-1q4.11](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1q4.11.md) | [sase-1q4.11](sase-1q4.11.md) | 1 |
 | [bbugyi200.athena.sase-1q4.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1q4.2/README.md) | [sase-1q4.2](sase-1q4.2.md) | 2 |
 | [bbugyi200.athena.sase-1q4.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1q4.3.md) | [sase-1q4.3](sase-1q4.3.md) | 2 |
 | [bbugyi200.athena.sase-1q4.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1q4.4/README.md) | [sase-1q4.4](sase-1q4.4.md) | 1 |
@@ -118,6 +118,7 @@ flowchart TD
 | sase-core | [`sase-core@80f5af4`](https://github.com/sase-org/sase-core/commit/80f5af40f4482f10187f207082249dd329cf329c) | feat(editor): parse and diagnose %wait target=session\|turn | [sase-1q4.5](sase-1q4.5.md) | 2026-10-31 02:37:20 EDT |
 | sase | [`eed4ef9`](https://github.com/sase-org/sase/commit/eed4ef925b351e7aa9770dddbee969b79ec15589) | feat(macro): accept %wait(..., target=session\|turn) | [sase-1q4.5](sase-1q4.5.md) | 2026-10-31 02:38:38 EDT |
 | sase | [`1b01062`](https://github.com/sase-org/sase/commit/1b01062d2e7bec72d3c312ee19a7772247164820) | feat(plan-gates): carry turn=\<agent\> waits through coder options | [sase-1q4.7](sase-1q4.7.md) | 2026-10-31 03:43:16 EDT |
+| sase | [`dcee7f1`](https://github.com/sase-org/sase/commit/dcee7f11e9342935619dfbd85d670c7dfff1c98e) | feat(fork): bind explicit wait targets and structured refs | [sase-1q4.11](sase-1q4.11.md) | 2026-10-31 03:58:25 EDT |
 
 <!-- sase:referenced-by:start -->
 

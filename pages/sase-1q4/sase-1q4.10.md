@@ -18,7 +18,7 @@ fork_history: have the fork resolve step read the launching agent's bound fork r
 ## Dependencies
 
 - **Depends on:** [sase-1q4.1](sase-1q4.1.md) ✓ · ⧖ 2026-10-30
-- **Blocks:** [sase-1q4.11](sase-1q4.11.md) ◐ · ⧖ 2026-10-30
+- **Blocks:** [sase-1q4.11](sase-1q4.11.md) ✓ · ⧖ 2026-10-30
 
 ## Agents
 
