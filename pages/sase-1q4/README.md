@@ -104,7 +104,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1q4.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1q4.7.md) | [sase-1q4.7](sase-1q4.7.md) | 1 |
 | [bbugyi200.athena.sase-1q4.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1q4.8.md) | [sase-1q4.8](sase-1q4.8.md) | 2 |
 | [bbugyi200.athena.sase-1q4.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1q4.9/README.md) | [sase-1q4.9](sase-1q4.9.md) | 1 |
-| [bbugyi200.athena.sase-1q4.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1q4.land.md) | [sase-1q4](README.md) | 2 |
+| [bbugyi200.athena.sase-1q4.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1q4.land.md) | [sase-1q4](README.md) | 3 |
 
 ## Commits
 
@@ -127,6 +127,7 @@ flowchart TD
 | sase | [`4a4b6fe`](https://github.com/sase-org/sase/commit/4a4b6fede82aff9cdab6a29a8cfc1d993cf4dadb) | feat(tui): surface and edit bound turn waits | [sase-1q4.8](sase-1q4.8.md) | 2026-10-31 07:11:46 EDT |
 | sase-core | [`sase-core@32c66dd`](https://github.com/sase-org/sase-core/commit/32c66ddf2b8b0cc1456cdea79a36dcd8202cd24d) | feat(agent-launch): forward explicit %wait targets through typed admission | [sase-1q4](README.md) | 2026-10-31 09:07:34 EDT |
 | sase | [`9b880fb`](https://github.com/sase-org/sase/commit/9b880fbfdfc3a3004a3149b853b2981113bed190) | feat(wait): keep typed-admission %wait targets for the runner | [sase-1q4](README.md) | 2026-10-31 09:08:59 EDT |
+| sase--plans | [`sase--plans@aabf9dd`](https://github.com/sase-org/sase--plans/commit/aabf9dd666b266d3dc1e68c3e6ec399cec3f9cc9) | chore(plans): mark fork\_wait\_session\_turn\_target epic plan done | [sase-1q4](README.md) | 2026-10-31 09:10:23 EDT |
 
 <!-- sase:referenced-by:start -->
 
