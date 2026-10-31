@@ -54,3 +54,15 @@ remeasure-kit: teach tui_freeze_report to summarize slow agent loads by index-st
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`1db087e`](https://github.com/sase-org/sase/commit/1db087e108345f1f353be7f1303ec6e6d7439734) | feat(tools): summarize slow agent loads in freeze report | [sase-1q5.8](sase-1q5.8.md) | 2026-10-31 00:13:15 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1q5.8--2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1q5.8.md
+
+<!-- sase:referenced-by:end -->
