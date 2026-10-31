@@ -56,7 +56,9 @@ recovery-service: expose one host recovery entry point for all kinds, prove sett
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1pj.6.1.2][1] | Need the still-open recovery service phase that will consume the detached successor delivery API | 1 |
+| read-by | [agent:sase-1pj.6.1.6--1][2] | Check phase state before close retry | 7 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6.1.2/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.6.1.6.md
 
 <!-- sase:referenced-by:end -->

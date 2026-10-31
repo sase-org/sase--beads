@@ -24,13 +24,14 @@ retention-core: add the Rust retention decision and Python evidence/effect adapt
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1pj.7.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7.1.1/README.md) | [sase-1pj.7.1.1](sase-1pj.7.1.1.md) | 1 |
+| [bbugyi200.athena.sase-1pj.7.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7.1.1/README.md) | [sase-1pj.7.1.1](sase-1pj.7.1.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@80338d6`](https://github.com/sase-org/sase-core/commit/80338d6bc0a621b1e878fc42865f304f21d6c0c1) | feat(workspace\_retention): classify stranded handoff claim settlement | [sase-1pj.7.1.1](sase-1pj.7.1.1.md) | 2026-10-31 10:54:36 EDT |
+| sase | [`17f5aa3`](https://github.com/sase-org/sase/commit/17f5aa3ca17c9575403505c83f091b803e0dc407) | feat(turns): add workspace retention adapter and guarded claim settlement | [sase-1pj.7.1.1](sase-1pj.7.1.1.md) | 2026-10-31 15:49:48 EDT |
 
 <!-- sase:referenced-by:start -->
 
