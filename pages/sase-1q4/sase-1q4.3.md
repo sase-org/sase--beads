@@ -15,6 +15,8 @@ kwonly_core: add keyword_only to the Rust macro input contract (catalog, wires, 
 
 [2026-10-30T23:02:12Z · sase-1q4.3--1] PROPOSED FOLLOW-UP: Corroborate existing flake sase-15h: the full sase-core check failed in sudo_runner::tests::worker::output_policy_none_keeps_ledger_empty at result.is_ok(), while that focused test passed alone; this is another parallel fake-sudo fixture failure to triage.
 
+[2026-10-31T01:47:42Z · sase-1q4.3--1] PROPOSED FOLLOW-UP: Avoid quadratic temp-dir allocation in tests/_conftest_environment.py::_isolate_sase_home: the primary scoped check has spent over two hours in pytest TempPathFactory.mktemp("home"), whose popen-gw0 directory currently has 27,816 entries; consider a bounded per-session home allocator and verify check runtime.
+
 ## Dependencies
 
 - **Blocks:** [sase-1q4.9](sase-1q4.9.md) ◐ · ⧖ 2026-10-30
