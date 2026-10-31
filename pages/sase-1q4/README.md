@@ -29,6 +29,10 @@ _Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [2026-10-31T07:12:00Z · toobig-8x.agent_loader_artifacts.0] DISCOVERED ISSUE: During artifact-loader split verification, sase tool run check ToolRun 8d8f3532b1b6f22323abb1bbd6d9da11 exited 1 after the scoped pytest lane. Seven NEW failures across tests/ace/tui/widgets/test_directive_arg_completion_wait.py, tests/ace/tui/widgets/test_directive_completion_candidates.py, tests/ace/tui/widgets/test_wait_directive_completion_interactions.py, tests/test_macro_directive_completion_parity.py, and tests/test_macro_directive_contract.py reflect assertions that omit the new %wait target= keyword: runtime completion candidates and argument hints now include target= while expected lists and contracts do not. This is directly tied to the %wait target implementation from phase sase-1q4.5; the artifact-loader diff does not touch these files. Evidence: ToolRun 8d8f3532b1b6f22323abb1bbd6d9da11.
 
+[2026-10-31T11:34:05Z · sase-1q4.land] LAND TRIAGE of PROPOSED FOLLOW-UPs: (1) sase-1q4.2#1 federation_worker listener flake -> +1 on existing sase-1gz. (2) sase-1q4.2#2 test_guard_p95_latency load flake -> new flake task sase-1qf. (3) sase-1q4.2#3 test_reset_to_auto_matches_fresh_decision load flake -> new flake task sase-1qg. (4) sase-1q4.2#4 / sase-1q4.4#1 pager past_eof teardown AttributeError -> declined: fixed on master by e28334c45a; tests/pager/test_app_navigation.py -k past_eof passes (2 passed) at 4a4b6fede8. (5) sase-1q4.3#1 sudo_runner output_policy_none_keeps_ledger_empty -> +1 on existing sase-15h. (6) sase-1q4.3#2 quadratic _isolate_sase_home TempPathFactory.mktemp scans -> new bug task sase-1qe (small; root cause confirmed in _pytest make_numbered_dir). (7) sase-1q4.5#1 typed-agent %wait(..., target=turn) dropped by typed admission -> NOT a follow-up: epic-caused gap, kept as remaining sase-1q4 landing work (also affects explicit target=session on exact members; every LaunchApproval-approved agent-initiated launch goes through typed admission). (8) sase-1q4.5#2 / 1q4.6#1 / 1q4.9#2 / 1q4.11#1 agents_sync handle_agents_sync NameError -> declined: sase-1q7 closed, fixed by eec20f6ad5. (9) sase-1q4.8#1 ratchet sase-core-revision.txt -> declined: done in 4a4b6fede8 (pin dddcb0b7 = sase-core master HEAD, contains all four epic core commits). (10) sase-1q4.9#1 stale sase-1q4.4 --epic-symbol rows -> declined: rows already removed. Related pre-existing defect found while verifying (typed admission agent waits not session-aware, from sase-s6.3) recorded as DISCOVERED ISSUE on active epic sase-s6.
+
+[2026-10-31T13:05:16Z · sase-1q4.land] CLOSE BLOCKED: sase bead close sase-1q4 refused because origin/master still has --epic-symbol sase-1q4(wait_targets_with_descriptions). The working-tree Justfile has that row deleted (land of unused wait_targets_with_descriptions facade). Close after this Justfile deletion reaches origin/master; do not --force. Verification already in /tmp/sase-1q4-close-note.txt and this agent's landing: sase-core check b846b1f80378a0597e5b27a485f80305; sase check 1ad7b595c705f632ecacbb6267c10e3a. Plan frontmatter set to status: done.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -100,7 +104,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1q4.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1q4.7.md) | [sase-1q4.7](sase-1q4.7.md) | 1 |
 | [bbugyi200.athena.sase-1q4.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1q4.8.md) | [sase-1q4.8](sase-1q4.8.md) | 2 |
 | [bbugyi200.athena.sase-1q4.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1q4.9/README.md) | [sase-1q4.9](sase-1q4.9.md) | 1 |
-| [bbugyi200.athena.sase-1q4.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1q4.land/README.md) | [sase-1q4](README.md) | 0 |
+| [bbugyi200.athena.sase-1q4.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1q4.land.md) | [sase-1q4](README.md) | 1 |
 
 ## Commits
 
@@ -121,6 +125,7 @@ flowchart TD
 | sase | [`dcee7f1`](https://github.com/sase-org/sase/commit/dcee7f11e9342935619dfbd85d670c7dfff1c98e) | feat(fork): bind explicit wait targets and structured refs | [sase-1q4.11](sase-1q4.11.md) | 2026-10-31 03:58:25 EDT |
 | sase-core | [`sase-core@dddcb0b`](https://github.com/sase-org/sase-core/commit/dddcb0b712600b5635df5bed91e1220c0b2bd31d) | feat(agent-scan): project wait\_turn\_bindings on scan wire | [sase-1q4.8](sase-1q4.8.md) | 2026-10-31 07:10:33 EDT |
 | sase | [`4a4b6fe`](https://github.com/sase-org/sase/commit/4a4b6fede82aff9cdab6a29a8cfc1d993cf4dadb) | feat(tui): surface and edit bound turn waits | [sase-1q4.8](sase-1q4.8.md) | 2026-10-31 07:11:46 EDT |
+| sase-core | [`sase-core@32c66dd`](https://github.com/sase-org/sase-core/commit/32c66ddf2b8b0cc1456cdea79a36dcd8202cd24d) | feat(agent-launch): forward explicit %wait targets through typed admission | [sase-1q4](README.md) | 2026-10-31 09:07:34 EDT |
 
 <!-- sase:referenced-by:start -->
 
