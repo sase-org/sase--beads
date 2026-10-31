@@ -13,7 +13,7 @@ honest-errors: gate refusals record the Rust completion decision's reason instea
 
 ## Dependencies
 
-- **Depends on:** [sase-1qh.1](sase-1qh.1.md) ◐ · ⧖ 2026-10-31
+- **Depends on:** [sase-1qh.1](sase-1qh.1.md) ✓ · ⧖ 2026-10-31
 - **Blocks:** [sase-1qh.6](sase-1qh.6.md) ◐ · ⧖ 2026-10-31
 
 ## Agents

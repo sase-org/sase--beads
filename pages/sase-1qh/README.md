@@ -27,7 +27,7 @@ Approving a plan and running research agents no longer produce `agent_publicatio
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-1qh.1](sase-1qh.1.md) | Planner prompt-archive rows use linked (page-only) scope | ◐ in_progress | medium | 2026-10-31 | 1 | 0 |
+| [sase-1qh.1](sase-1qh.1.md) | Planner prompt-archive rows use linked (page-only) scope | ✓ closed | medium | 2026-10-31 | 1 | 1 |
 | [sase-1qh.2](sase-1qh.2.md) | Report the real refusal reason and retire repeated refusals | ◐ in_progress | medium | 2026-10-31 | 1 | 0 |
 | [sase-1qh.3](sase-1qh.3.md) | Stop re-scanning already-published bytes on every hood publish | ✓ closed | medium | 2026-10-31 | 1 | 1 |
 | [sase-1qh.4](sase-1qh.4.md) | Deferred restore rebuilds the plan-named planner archive (sase-1c0) | ◐ in_progress | medium | 2026-10-31 | 1 | 0 |
@@ -40,7 +40,7 @@ Approving a plan and running research agents no longer produce `agent_publicatio
 ```mermaid
 flowchart TD
     n0["sase-1qh: Stop recurring agent_publication error notifications [in_progress]"]
-    n1["sase-1qh.1: Planner prompt-archive rows use linked (page-only) scope [in_progress]"]
+    n1["sase-1qh.1: Planner prompt-archive rows use linked (page-only) scope [closed]"]
     n2["sase-1qh.2: Report the real refusal reason and retire repeated refusals [in_progress]"]
     n3["sase-1qh.3: Stop re-scanning already-published bytes on every hood publish [closed]"]
     n4["sase-1qh.4: Deferred restore rebuilds the plan-named planner archive (sase-1c0) [in_progress]"]
@@ -65,7 +65,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1qh.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qh.1/README.md) | [sase-1qh.1](sase-1qh.1.md) | 0 |
+| [bbugyi200.athena.sase-1qh.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qh.1/README.md) | [sase-1qh.1](sase-1qh.1.md) | 1 |
 | [bbugyi200.athena.sase-1qh.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qh.2/README.md) | [sase-1qh.2](sase-1qh.2.md) | 0 |
 | [bbugyi200.athena.sase-1qh.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qh.3.md) | [sase-1qh.3](sase-1qh.3.md) | 1 |
 | [bbugyi200.athena.sase-1qh.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qh.4/README.md) | [sase-1qh.4](sase-1qh.4.md) | 0 |
@@ -79,3 +79,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`30e012b`](https://github.com/sase-org/sase/commit/30e012baaad77f98f9c68f494a73cf48565970c4) | perf(agents-sync): reuse published protection scans | [sase-1qh.3](sase-1qh.3.md) | 2026-10-31 13:15:14 EDT |
+| sase | [`9409312`](https://github.com/sase-org/sase/commit/9409312d1e2871c4433947213c9833d609b3540f) | feat(agents-sync): enqueue planner prompt archives with linked scope | [sase-1qh.1](sase-1qh.1.md) | 2026-10-31 13:18:21 EDT |

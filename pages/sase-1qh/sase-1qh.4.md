@@ -13,7 +13,7 @@ planner-restore: persist the planner archive inputs in the planner's artifacts d
 
 ## Dependencies
 
-- **Depends on:** [sase-1qh.1](sase-1qh.1.md) ◐ · ⧖ 2026-10-31
+- **Depends on:** [sase-1qh.1](sase-1qh.1.md) ✓ · ⧖ 2026-10-31
 
 ## Agents
 
