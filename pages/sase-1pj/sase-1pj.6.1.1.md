@@ -19,7 +19,7 @@ recovery-contract: add Rust-owned recovery contracts and replay decisions, persi
 
 - **Blocks:** [sase-1pj.6.1.2](sase-1pj.6.1.2.md) ✓ · ⧖ 2026-10-31
 - **Blocks:** [sase-1pj.6.1.3](sase-1pj.6.1.3.md) ◐ · ⧖ 2026-10-31
-- **Blocks:** [sase-1pj.6.1.4](sase-1pj.6.1.4.md) ◐ · ⧖ 2026-10-31
+- **Blocks:** [sase-1pj.6.1.4](sase-1pj.6.1.4.md) ✓ · ⧖ 2026-10-31
 - **Blocks:** [sase-1pj.6.1.5](sase-1pj.6.1.5.md) ✓ · ⧖ 2026-10-31
 - **Blocks:** [sase-1pj.6.1.6](sase-1pj.6.1.6.md) ◐ · ⧖ 2026-10-31
 

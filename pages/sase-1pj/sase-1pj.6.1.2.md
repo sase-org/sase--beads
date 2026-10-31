@@ -36,3 +36,15 @@ successor-replay: persist successor identity before continuation side effects, r
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`9c17b84`](https://github.com/sase-org/sase/commit/9c17b8454bfd553f6888e2b91717fbb23e12646e) | feat(axe): replay staged successors exactly once | [sase-1pj.6.1.2](sase-1pj.6.1.2.md) | 2026-10-31 12:37:04 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pj.6.1.2][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6.1.2/README.md
+
+<!-- sase:referenced-by:end -->
