@@ -13,7 +13,7 @@ capacity-feed: lengthen the display rescan interval, reuse the parsed slot-scan 
 
 ## Dependencies
 
-- **Depends on:** [sase-1q5.6](sase-1q5.6.md) ◐ · ⧖ 2026-10-30
+- **Depends on:** [sase-1q5.6](sase-1q5.6.md) ✓ · ⧖ 2026-10-30
 - **Blocks:** [sase-1q5.8](sase-1q5.8.md) ◐ · ⧖ 2026-10-30
 
 ## Agents
