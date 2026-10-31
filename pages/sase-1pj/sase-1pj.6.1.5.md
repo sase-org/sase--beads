@@ -35,3 +35,15 @@ monitor-replay: recover monitor launch from existing fingerprint and proc identi
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`b674079`](https://github.com/sase-org/sase/commit/b674079c2be562c75a28f64775da93f4ec820bab) | feat(staged-recovery): close monitor spawn and held-reservation crash windows | [sase-1pj.6.1.5](sase-1pj.6.1.5.md) | 2026-10-31 12:20:19 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pj.6.1.5][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6.1.5/README.md
+
+<!-- sase:referenced-by:end -->

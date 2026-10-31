@@ -14,7 +14,7 @@ approval-replay: bind plan and question gates to staged identity, recover origin
 ## Dependencies
 
 - **Depends on:** [sase-1pj.6.1.1](sase-1pj.6.1.1.md) ✓ · ⧖ 2026-10-31
-- **Depends on:** [sase-1pj.6.1.2](sase-1pj.6.1.2.md) ◐ · ⧖ 2026-10-31
+- **Depends on:** [sase-1pj.6.1.2](sase-1pj.6.1.2.md) ✓ · ⧖ 2026-10-31
 - **Blocks:** [sase-1pj.6.1.6](sase-1pj.6.1.6.md) ◐ · ⧖ 2026-10-31
 
 ## Agents

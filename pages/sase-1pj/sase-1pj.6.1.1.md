@@ -17,7 +17,7 @@ recovery-contract: add Rust-owned recovery contracts and replay decisions, persi
 
 ## Dependencies
 
-- **Blocks:** [sase-1pj.6.1.2](sase-1pj.6.1.2.md) ◐ · ⧖ 2026-10-31
+- **Blocks:** [sase-1pj.6.1.2](sase-1pj.6.1.2.md) ✓ · ⧖ 2026-10-31
 - **Blocks:** [sase-1pj.6.1.3](sase-1pj.6.1.3.md) ◐ · ⧖ 2026-10-31
 - **Blocks:** [sase-1pj.6.1.4](sase-1pj.6.1.4.md) ◐ · ⧖ 2026-10-31
 - **Blocks:** [sase-1pj.6.1.5](sase-1pj.6.1.5.md) ✓ · ⧖ 2026-10-31
@@ -43,7 +43,9 @@ recovery-contract: add Rust-owned recovery contracts and replay decisions, persi
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1pj.6.1.1--2][1] | Need full bead incl notes | 3 |
+| read-by | [agent:sase-1pj.6.1.5][2] | check prior phase output | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.6.1.1.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6.1.5/README.md
 
 <!-- sase:referenced-by:end -->
