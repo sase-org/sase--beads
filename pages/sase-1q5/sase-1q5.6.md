@@ -19,7 +19,7 @@ pump-probe-trims: use one persistent malloc_trim worker, move the tool-runs toke
 
 ## Dependencies
 
-- **Blocks:** [sase-1q5.7](sase-1q5.7.md) ◐ · ⧖ 2026-10-30
+- **Blocks:** [sase-1q5.7](sase-1q5.7.md) ✓ · ⧖ 2026-10-30
 - **Blocks:** [sase-1q5.8](sase-1q5.8.md) ◐ · ⧖ 2026-10-30
 
 ## Agents

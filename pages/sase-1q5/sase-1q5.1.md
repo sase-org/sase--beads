@@ -33,3 +33,15 @@ stranded-batch: replace the per-assignee index query loop with one batched, chun
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`58ce6ee`](https://github.com/sase-org/sase/commit/58ce6ee62e468710a118a93b77d0084cad98b1a5) | feat(bead): batch stranded session query per project | [sase-1q5.1](sase-1q5.1.md) | 2026-10-30 20:29:00 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1q5.1--1][1] | Need phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1q5.1.md
+
+<!-- sase:referenced-by:end -->

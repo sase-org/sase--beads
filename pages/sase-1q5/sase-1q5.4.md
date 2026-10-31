@@ -11,6 +11,10 @@
 
 core-session-lookup: push agent_session/agent_name equality filters into SQL with NOCASE indexes, fix the workflow-scoped reconcile deletion bug, keep the Rust post-filter, and move the sase-core pin.
 
+## Notes
+
+[2026-10-31T01:13:58Z · sase-1q5.4] core-session-lookup progress: sase-core pushdown + NOCASE indexes + scoped-reconcile fix + watermark gating implemented; 9 new Rust tests green (146 index tests pass); stranded BEFORE timing gh_sase-org__sase wall=3.5s queries=3 beads=234 on old core; extension rebuild in progress for AFTER timing
+
 ## Dependencies
 
 - **Depends on:** [sase-1q5.1](sase-1q5.1.md) ✓ · ⧖ 2026-10-30
@@ -20,4 +24,4 @@ core-session-lookup: push agent_session/agent_name equality filters into SQL wit
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1q5.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1q5.4/README.md) | [sase-1q5.4](sase-1q5.4.md) | 0 |
+| [bbugyi200.athena.sase-1q5.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1q5.4.md) | [sase-1q5.4](sase-1q5.4.md) | 0 |
