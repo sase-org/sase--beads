@@ -102,7 +102,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1q5.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1q5.6/README.md) | [sase-1q5.6](sase-1q5.6.md) | 1 |
 | [bbugyi200.athena.sase-1q5.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1q5.7.md) | [sase-1q5.7](sase-1q5.7.md) | 1 |
 | [bbugyi200.athena.sase-1q5.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1q5.8.md) | [sase-1q5.8](sase-1q5.8.md) | 1 |
-| [bbugyi200.athena.sase-1q5.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1q5.land.md) | [sase-1q5](README.md) | 1 |
+| [bbugyi200.athena.sase-1q5.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1q5.land.md) | [sase-1q5](README.md) | 2 |
 
 ## Commits
 
@@ -117,6 +117,7 @@ flowchart TD
 | sase-core | [`sase-core@2775bc0`](https://github.com/sase-org/sase-core/commit/2775bc00934ba77abbc6990880013a013fc80be5) | feat(index): push session/name filters into SQL with NOCASE indexes | [sase-1q5.4](sase-1q5.4.md) | 2026-10-30 22:38:17 EDT |
 | sase | [`1db087e`](https://github.com/sase-org/sase/commit/1db087e108345f1f353be7f1303ec6e6d7439734) | feat(tools): summarize slow agent loads in freeze report | [sase-1q5.8](sase-1q5.8.md) | 2026-10-31 00:13:15 EDT |
 | sase | [`e32449d`](https://github.com/sase-org/sase/commit/e32449dad97d3f7b0de3f7e0168066625d0d145d) | fix(ace): repair stale prompt cursor subtitle readout | [sase-1q5](README.md) | 2026-10-31 01:42:42 EDT |
+| sase--plans | [`sase--plans@7a78b35`](https://github.com/sase-org/sase--plans/commit/7a78b35859af386654a65e2112ecba689e8accec) | docs(plan): mark tui index lock epic complete | [sase-1q5](README.md) | 2026-10-31 01:43:32 EDT |
 
 <!-- sase:referenced-by:start -->
 
