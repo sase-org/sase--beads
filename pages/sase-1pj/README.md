@@ -186,7 +186,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1pj.5.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.5.1.2.md) | [sase-1pj.5.1.2](sase-1pj.5.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1pj.5.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.5.1.3/README.md) | [sase-1pj.5.1.3](sase-1pj.5.1.3.md) | 1 |
 | [bbugyi200.athena.sase-1pj.5.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.5.1.4/README.md) | [sase-1pj.5.1.4](sase-1pj.5.1.4.md) | 2 |
-| [bbugyi200.athena.sase-1pj.5.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.5.1.land/README.md) | [sase-1pj.5.1](sase-1pj.5.1.md) | 2 |
+| [bbugyi200.athena.sase-1pj.5.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.5.1.land/README.md) | [sase-1pj.5.1](sase-1pj.5.1.md) | 3 |
 | [bbugyi200.athena.sase-1pj.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6/README.md) | [sase-1pj.6](sase-1pj.6.md) | 0 |
 | [bbugyi200.athena.sase-1pj.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7/README.md) | [sase-1pj.7](sase-1pj.7.md) | 0 |
 | [bbugyi200.athena.sase-1pj.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.8/README.md) | [sase-1pj.8](sase-1pj.8.md) | 0 |
@@ -235,6 +235,7 @@ flowchart TD
 | sase | [`c9a65d1`](https://github.com/sase-org/sase/commit/c9a65d1a588a7b909a9c990a60a19b7c7f92da1d) | fix(monitor): release staged resources when finalization is held | [sase-1pj.5.1.4](sase-1pj.5.1.4.md) | 2026-10-30 12:58:54 EDT |
 | sase | [`feae9c8`](https://github.com/sase-org/sase/commit/feae9c8777948bf0984ccb26be63c1167998cfd6) | fix(monitor): preserve staged adoption context | [sase-1pj.5.1](sase-1pj.5.1.md) | 2026-10-30 16:37:03 EDT |
 | sase | [`2763a6b`](https://github.com/sase-org/sase/commit/2763a6bc58cd74d4882ab97bace343de0c73fa97) | docs(monitor): describe staged monitor starts in help and flag text | [sase-1pj.5.1](sase-1pj.5.1.md) | 2026-10-31 08:36:37 EDT |
+| sase--plans | [`sase--plans@0ce174a`](https://github.com/sase-org/sase--plans/commit/0ce174a0818d9ae6070e93e43d98d4bd4960f099) | chore(plans): mark monitor\_staging plan done | [sase-1pj.5.1](sase-1pj.5.1.md) | 2026-10-31 08:38:14 EDT |
 
 <!-- sase:referenced-by:start -->
 
