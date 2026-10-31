@@ -11,6 +11,12 @@
 
 wait_runtime: add the shared Python binder that pins a session's current turn into v2 identity records, evaluate turn-scoped records, and keep persistence, member dirs, and confirmation consistent.
 
+## Notes
+
+[2026-10-31T03:40:20Z · sase-1q4.4] PROPOSED FOLLOW-UP: pager test teardown AttributeError PagerScreen.notify — tests/pager/test_app_navigation.py::test_past_eof_line_clamps_with_information_toast and test_past_eof_end_line_clamps_silently pass then error at monkeypatch restore; reproduces identically on clean origin/master (2 passed, 2 errors)
+
+[2026-10-31T03:43:01Z · sase-1q4.4] Close refused: local Justfile has no sase-1q4.4 --epic-symbol rows (consumed EffectiveWaitTarget/WaitTurnFacts/effective_wait_target/parse_wait_target/select_current_wait_turn; WaitTargetBinding/bind_wait_target re-keyed to sase-1q4.6). Guard still unions origin/master which still has the pre-consumption sase-1q4.4 rows until this commit lands. Host bead_action=close should retry after the Justfile deletion is committed.
+
 ## Dependencies
 
 - **Depends on:** [sase-1q4.1](sase-1q4.1.md) ✓ · ⧖ 2026-10-30
