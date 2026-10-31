@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/staged_handoff_recovery.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/staged_handoff_recovery.md
 
 <!-- sase:links:end -->
@@ -28,3 +30,15 @@ Make every staged handoff replayable after runner death, reconcile completed tur
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1pj.6.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6.1.land/README.md) | [sase-1pj.6.1](sase-1pj.6.1.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pj.6.1.1--2][1] | Need epic decisions and plan | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.6.1.1.md
+
+<!-- sase:referenced-by:end -->
