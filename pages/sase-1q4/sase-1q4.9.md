@@ -14,7 +14,7 @@ kwonly_python: mirror keyword_only in InputArg, loaders, binder, validators, ser
 ## Dependencies
 
 - **Blocks:** [sase-1q4.11](sase-1q4.11.md) ◐ · ⧖ 2026-10-30
-- **Depends on:** [sase-1q4.3](sase-1q4.3.md) ◐ · ⧖ 2026-10-30
+- **Depends on:** [sase-1q4.3](sase-1q4.3.md) ✓ · ⧖ 2026-10-30
 
 ## Agents
 
