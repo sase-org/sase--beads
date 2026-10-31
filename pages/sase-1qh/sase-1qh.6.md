@@ -13,7 +13,7 @@ planner-repair: add a report-first `sase agent sync --repair-planner-scopes` mod
 
 ## Dependencies
 
-- **Depends on:** [sase-1qh.2](sase-1qh.2.md) ◐ · ⧖ 2026-10-31
+- **Depends on:** [sase-1qh.2](sase-1qh.2.md) ✓ · ⧖ 2026-10-31
 - **Blocks:** [sase-1qh.7](sase-1qh.7.md) ◐ · ⧖ 2026-10-31
 
 ## Agents

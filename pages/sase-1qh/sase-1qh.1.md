@@ -21,7 +21,7 @@ planner-scope: planner approvals enqueue their prompt-archive row with linked sc
 
 ## Dependencies
 
-- **Blocks:** [sase-1qh.2](sase-1qh.2.md) ◐ · ⧖ 2026-10-31
+- **Blocks:** [sase-1qh.2](sase-1qh.2.md) ✓ · ⧖ 2026-10-31
 - **Blocks:** [sase-1qh.4](sase-1qh.4.md) ◐ · ⧖ 2026-10-31
 
 ## Agents
