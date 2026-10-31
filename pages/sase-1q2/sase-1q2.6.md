@@ -15,7 +15,7 @@ full-ci: run Full CI on a tip containing every sibling fix, then fix each remain
 
 - **Depends on:** [sase-1q2.1](sase-1q2.1.md) ✓ · ⧖ 2026-10-30
 - **Depends on:** [sase-1q2.3](sase-1q2.3.md) ✓ · ⧖ 2026-10-30
-- **Depends on:** [sase-1q2.4](sase-1q2.4.md) ◐ · ⧖ 2026-10-30
+- **Depends on:** [sase-1q2.4](sase-1q2.4.md) ✓ · ⧖ 2026-10-30
 - **Depends on:** [sase-1q2.5](sase-1q2.5.md) ✓ · ⧖ 2026-10-30
 - **Blocks:** [sase-1q2.7](sase-1q2.7.md) ◐ · ⧖ 2026-10-30
 
