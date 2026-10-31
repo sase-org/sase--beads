@@ -28,10 +28,16 @@ planner-scope: planner approvals enqueue their prompt-archive row with linked sc
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1qh.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qh.1/README.md) | [sase-1qh.1](sase-1qh.1.md) | 1 |
+| [bbugyi200.athena.sase-1qh.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qh.1/README.md) | [sase-1qh.1](sase-1qh.1.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase | [`9409312`](https://github.com/sase-org/sase/commit/9409312d1e2871c4433947213c9833d609b3540f) | feat(agents-sync): enqueue planner prompt archives with linked scope | [sase-1qh.1](sase-1qh.1.md) | 2026-10-31 13:18:21 EDT |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1qh.1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qh.1/README.md
+
+<!-- sase:referenced-by:end -->
