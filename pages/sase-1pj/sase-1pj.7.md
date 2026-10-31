@@ -23,4 +23,4 @@ carry-hardening: when carried work reaches a branch with no successor (stopped o
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1pj.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7/README.md) | [sase-1pj.7](sase-1pj.7.md) | 0 |
+| [bbugyi200.athena.sase-1pj.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.7.md) | [sase-1pj.7](sase-1pj.7.md) | 0 |

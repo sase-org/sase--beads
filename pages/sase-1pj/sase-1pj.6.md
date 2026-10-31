@@ -23,4 +23,4 @@ adoption-recovery: make adoption idempotent for every kind, reconcile staged han
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1pj.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6/README.md) | [sase-1pj.6](sase-1pj.6.md) | 0 |
+| [bbugyi200.athena.sase-1pj.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.6.md) | [sase-1pj.6](sase-1pj.6.md) | 0 |

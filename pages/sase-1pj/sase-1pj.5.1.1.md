@@ -43,7 +43,9 @@ contracts: implement Rust-owned staged monitor payload validation, staged-owner 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1pj.5.1.1--2][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:sase-1pj.5.1.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.5.1.1.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.5.1.land.md
 
 <!-- sase:referenced-by:end -->

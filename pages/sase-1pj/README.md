@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/staged_handoffs.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 11 automatic references — see [Referenced By](#referenced-by)._
+_Plus 12 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/staged_handoffs.md
 
@@ -82,9 +82,23 @@ flowchart TD
     n28["sase-1pj.5.1.3: Preserve prepared completion and joins across staging [closed]"]
     n29["sase-1pj.5.1.4: Connect staged starts to runner adoption and document the protocol [closed]"]
     n30["sase-1pj.6: Idempotent adoption, crash reconciliation, and re-adopt [in_progress]"]
-    n31["sase-1pj.7: Hold workspaces whose carried work has no successor [in_progress]"]
-    n32["sase-1pj.8: Remove the flag and the kill-path machinery [in_progress]"]
-    n33["sase-1pj.9: Final skills, docs, and memory [in_progress]"]
+    n31["sase-1pj.6.1: Recover staged handoffs without repeating adoption [in_progress]"]
+    n32["sase-1pj.6.1.1: Define durable recovery identity and replay decisions [closed]"]
+    n33["sase-1pj.6.1.2: Recover pipe and inline successors exactly once [in_progress]"]
+    n34["sase-1pj.6.1.3: Replay plan and question approval handoffs [in_progress]"]
+    n35["sase-1pj.6.1.4: Complete partially published gates on replay [in_progress]"]
+    n36["sase-1pj.6.1.5: Close monitor spawn and held-reservation crash windows [in_progress]"]
+    n37["sase-1pj.6.1.6: Adopt from persisted state and preserve finalizer progress [in_progress]"]
+    n38["sase-1pj.6.1.7: Expose re-adoption and actionable held notifications [in_progress]"]
+    n39["sase-1pj.6.1.8: Reconcile abandoned finalized stages and verify crash recovery [in_progress]"]
+    n40["sase-1pj.7: Hold workspaces whose carried work has no successor [in_progress]"]
+    n41["sase-1pj.7.1: Retain stranded handoff workspaces [in_progress]"]
+    n42["sase-1pj.7.1.1: Shared retention policy and guarded claim settlement [in_progress]"]
+    n43["sase-1pj.7.1.2: Retain stopped and unlaunchable monitor work [in_progress]"]
+    n44["sase-1pj.7.1.3: Retain cancelled questions and failed handoffs [in_progress]"]
+    n45["sase-1pj.7.1.4: Surface held work and complete its recovery lifecycle [in_progress]"]
+    n46["sase-1pj.8: Remove the flag and the kill-path machinery [in_progress]"]
+    n47["sase-1pj.9: Final skills, docs, and memory [in_progress]"]
     n0 --> n1
     n1 --> n2
     n2 --> n3
@@ -115,9 +129,23 @@ flowchart TD
     n25 --> n28
     n25 --> n29
     n0 --> n30
-    n0 --> n31
-    n0 --> n32
-    n0 --> n33
+    n30 --> n31
+    n31 --> n32
+    n31 --> n33
+    n31 --> n34
+    n31 --> n35
+    n31 --> n36
+    n31 --> n37
+    n31 --> n38
+    n31 --> n39
+    n0 --> n40
+    n40 --> n41
+    n41 --> n42
+    n41 --> n43
+    n41 --> n44
+    n41 --> n45
+    n0 --> n46
+    n0 --> n47
     n1 -.-> n8
     n1 -.-> n15
     n1 -.-> n16
@@ -130,28 +158,45 @@ flowchart TD
     n8 -.-> n15
     n8 -.-> n16
     n8 -.-> n24
-    n8 -.-> n31
+    n8 -.-> n40
     n10 -.-> n11
     n11 -.-> n12
     n12 -.-> n13
     n13 -.-> n14
     n15 -.-> n30
-    n15 -.-> n31
+    n15 -.-> n40
     n16 -.-> n30
-    n16 -.-> n31
+    n16 -.-> n40
     n18 -.-> n19
     n19 -.-> n20
     n20 -.-> n21
     n20 -.-> n22
     n22 -.-> n23
     n24 -.-> n30
-    n24 -.-> n31
+    n24 -.-> n40
     n26 -.-> n27
     n27 -.-> n28
     n28 -.-> n29
-    n30 -.-> n32
-    n31 -.-> n32
+    n30 -.-> n46
     n32 -.-> n33
+    n32 -.-> n34
+    n32 -.-> n35
+    n32 -.-> n36
+    n32 -.-> n37
+    n33 -.-> n34
+    n33 -.-> n37
+    n34 -.-> n37
+    n35 -.-> n37
+    n36 -.-> n37
+    n37 -.-> n38
+    n37 -.-> n39
+    n38 -.-> n39
+    n40 -.-> n46
+    n42 -.-> n43
+    n42 -.-> n44
+    n43 -.-> n45
+    n44 -.-> n45
+    n46 -.-> n47
 ```
 
 ## Agents
@@ -187,8 +232,22 @@ flowchart TD
 | [bbugyi200.athena.sase-1pj.5.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.5.1.3/README.md) | [sase-1pj.5.1.3](sase-1pj.5.1.3.md) | 1 |
 | [bbugyi200.athena.sase-1pj.5.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.5.1.4/README.md) | [sase-1pj.5.1.4](sase-1pj.5.1.4.md) | 2 |
 | [bbugyi200.athena.sase-1pj.5.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.5.1.land/README.md) | [sase-1pj.5.1](sase-1pj.5.1.md) | 3 |
-| [bbugyi200.athena.sase-1pj.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6/README.md) | [sase-1pj.6](sase-1pj.6.md) | 0 |
-| [bbugyi200.athena.sase-1pj.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7/README.md) | [sase-1pj.7](sase-1pj.7.md) | 0 |
+| [bbugyi200.athena.sase-1pj.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.6.md) | [sase-1pj.6](sase-1pj.6.md) | 0 |
+| [bbugyi200.athena.sase-1pj.6.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.6.1.1.md) | [sase-1pj.6.1.1](sase-1pj.6.1.1.md) | 1 |
+| [bbugyi200.athena.sase-1pj.6.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6.1.2/README.md) | [sase-1pj.6.1.2](sase-1pj.6.1.2.md) | 0 |
+| [bbugyi200.athena.sase-1pj.6.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6.1.3/README.md) | [sase-1pj.6.1.3](sase-1pj.6.1.3.md) | 0 |
+| [bbugyi200.athena.sase-1pj.6.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6.1.4/README.md) | [sase-1pj.6.1.4](sase-1pj.6.1.4.md) | 0 |
+| [bbugyi200.athena.sase-1pj.6.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6.1.5/README.md) | [sase-1pj.6.1.5](sase-1pj.6.1.5.md) | 0 |
+| [bbugyi200.athena.sase-1pj.6.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6.1.6/README.md) | [sase-1pj.6.1.6](sase-1pj.6.1.6.md) | 0 |
+| [bbugyi200.athena.sase-1pj.6.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6.1.7/README.md) | [sase-1pj.6.1.7](sase-1pj.6.1.7.md) | 0 |
+| [bbugyi200.athena.sase-1pj.6.1.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6.1.8/README.md) | [sase-1pj.6.1.8](sase-1pj.6.1.8.md) | 0 |
+| [bbugyi200.athena.sase-1pj.6.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6.1.land/README.md) | [sase-1pj.6.1](sase-1pj.6.1.md) | 0 |
+| [bbugyi200.athena.sase-1pj.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.7.md) | [sase-1pj.7](sase-1pj.7.md) | 0 |
+| [bbugyi200.athena.sase-1pj.7.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7.1.1/README.md) | [sase-1pj.7.1.1](sase-1pj.7.1.1.md) | 0 |
+| [bbugyi200.athena.sase-1pj.7.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7.1.2/README.md) | [sase-1pj.7.1.2](sase-1pj.7.1.2.md) | 0 |
+| [bbugyi200.athena.sase-1pj.7.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7.1.3/README.md) | [sase-1pj.7.1.3](sase-1pj.7.1.3.md) | 0 |
+| [bbugyi200.athena.sase-1pj.7.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7.1.4/README.md) | [sase-1pj.7.1.4](sase-1pj.7.1.4.md) | 0 |
+| [bbugyi200.athena.sase-1pj.7.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7.1.land/README.md) | [sase-1pj.7.1](sase-1pj.7.1.md) | 0 |
 | [bbugyi200.athena.sase-1pj.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.8/README.md) | [sase-1pj.8](sase-1pj.8.md) | 0 |
 | [bbugyi200.athena.sase-1pj.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.9/README.md) | [sase-1pj.9](sase-1pj.9.md) | 0 |
 | [bbugyi200.athena.sase-1pj.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.land/README.md) | [sase-1pj](README.md) | 0 |
@@ -236,6 +295,7 @@ flowchart TD
 | sase | [`feae9c8`](https://github.com/sase-org/sase/commit/feae9c8777948bf0984ccb26be63c1167998cfd6) | fix(monitor): preserve staged adoption context | [sase-1pj.5.1](sase-1pj.5.1.md) | 2026-10-30 16:37:03 EDT |
 | sase | [`2763a6b`](https://github.com/sase-org/sase/commit/2763a6bc58cd74d4882ab97bace343de0c73fa97) | docs(monitor): describe staged monitor starts in help and flag text | [sase-1pj.5.1](sase-1pj.5.1.md) | 2026-10-31 08:36:37 EDT |
 | sase--plans | [`sase--plans@0ce174a`](https://github.com/sase-org/sase--plans/commit/0ce174a0818d9ae6070e93e43d98d4bd4960f099) | chore(plans): mark monitor\_staging plan done | [sase-1pj.5.1](sase-1pj.5.1.md) | 2026-10-31 08:38:14 EDT |
+| sase-core | [`sase-core@73ec04a`](https://github.com/sase-org/sase-core/commit/73ec04a02eb006f8065d01900f4e0d8605b252bb) | feat(staged-recovery): add Rust-owned recovery contracts and replay decisions | [sase-1pj.6.1.1](sase-1pj.6.1.1.md) | 2026-10-31 10:34:14 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -244,27 +304,29 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:research.5h.final][1] | Assess whether staged handoffs now wait on commit-stage latency | 1 |
-| read-by | [agent:sase-1ou.6.land--3][2] | Check exact duplicate and active causal owners for scheduled CI findings | 1 |
-| read-by | [agent:sase-1pj.1.1.2][3] | Need governing epic decisions for this assigned phase | 1 |
-| read-by | [agent:sase-1pj.2.1.2][4] | Need parent DECISIONS and closed phase notes | 2 |
-| read-by | [agent:sase-1pj.2.1.3][5] | Need outer epic decisions governing the handoff-wire child epic | 1 |
-| read-by | [agent:sase-1pj.2.1.5--1][6] | Need epic DECISIONS | 1 |
-| read-by | [agent:sase-1pj.4.1.4][7] | Need parent epic DECISIONS that launch-cli must honor | 1 |
-| read-by | [agent:sase-1pj.4.1.land][8] | Check sase-1pj notes for existing DISCOVERED ISSUE on stale contract manifest | 2 |
-| read-by | [agent:sase-1pj.5.1.3][9] | Check the enclosing epic and phase decisions for constraints | 1 |
-| read-by | [agent:sase-1pj.5.1.4][10] | Need inherited epic decisions before verifying activation work | 1 |
-| read-by | [agent:sase-1pt.9.1][11] | Identify the open landing owner for stale Justfile epic-symbol rows after the symbol-owning phases closed | 1 |
+| read-by | [agent:research.5l.grk][2] | Need prior publication-materialization beads and the failing agent beads to diagnose current agent_publication drain errors | 1 |
+| read-by | [agent:sase-1ou.6.land--3][3] | Check exact duplicate and active causal owners for scheduled CI findings | 1 |
+| read-by | [agent:sase-1pj.1.1.2][4] | Need governing epic decisions for this assigned phase | 1 |
+| read-by | [agent:sase-1pj.2.1.2][5] | Need parent DECISIONS and closed phase notes | 2 |
+| read-by | [agent:sase-1pj.2.1.3][6] | Need outer epic decisions governing the handoff-wire child epic | 1 |
+| read-by | [agent:sase-1pj.2.1.5--1][7] | Need epic DECISIONS | 1 |
+| read-by | [agent:sase-1pj.4.1.4][8] | Need parent epic DECISIONS that launch-cli must honor | 1 |
+| read-by | [agent:sase-1pj.4.1.land][9] | Check sase-1pj notes for existing DISCOVERED ISSUE on stale contract manifest | 2 |
+| read-by | [agent:sase-1pj.5.1.3][10] | Check the enclosing epic and phase decisions for constraints | 1 |
+| read-by | [agent:sase-1pj.5.1.4][11] | Need inherited epic decisions before verifying activation work | 1 |
+| read-by | [agent:sase-1pt.9.1][12] | Identify the open landing owner for stale Justfile epic-symbol rows after the symbol-owning phases closed | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.5h.final/README.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ou.6.land.md
-[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.1.1.2/README.md
-[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.2.1.2/README.md
-[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.2.1.3/README.md
-[6]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.2.1.5.md
-[7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.4/README.md
-[8]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.land/README.md
-[9]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.5.1.3/README.md
-[10]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.5.1.4/README.md
-[11]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pt.9.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.5l.grk/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ou.6.land.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.1.1.2/README.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.2.1.2/README.md
+[6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.2.1.3/README.md
+[7]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.2.1.5.md
+[8]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.4/README.md
+[9]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.land/README.md
+[10]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.5.1.3/README.md
+[11]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.5.1.4/README.md
+[12]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pt.9.1/README.md
 
 <!-- sase:referenced-by:end -->

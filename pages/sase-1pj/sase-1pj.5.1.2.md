@@ -41,7 +41,9 @@ start-transaction: persist a reconstructible staged member, reserve ordinary Too
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1pj.4.1.land][1] | Symvision reports its epic-symbol rows stale; check close time and notes | 1 |
+| read-by | [agent:sase-1pj.5.1.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.4.1.land/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.5.1.land.md
 
 <!-- sase:referenced-by:end -->
