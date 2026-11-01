@@ -21,7 +21,13 @@ core-federation-socket-flake: in sase-core, reproduce federation_worker::imp::te
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1qn.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qn.3.md) | [sase-1qn.3](sase-1qn.3.md) | 0 |
+| [bbugyi200.athena.sase-1qn.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qn.3.md) | [sase-1qn.3](sase-1qn.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase-core | [`sase-core@02eb696`](https://github.com/sase-org/sase-core/commit/02eb6961892c496db925234b8151daa5ab49098e) | fix(sase\_gateway): release federation listener lock on drop with duplicated descriptors | [sase-1qn.3](sase-1qn.3.md) | 2026-11-01 15:34:17 EST |
 
 <!-- sase:referenced-by:start -->
 
