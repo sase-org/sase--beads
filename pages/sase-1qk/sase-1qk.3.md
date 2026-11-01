@@ -29,8 +29,16 @@ handoff-slot: reclaim staging reservations whose owner died; run handoff admissi
 
 [2026-11-01T20:32:52Z · sase-1qk.3--4] Dead-pid and identity-mismatch staging reservations reclaim to timestamped .sase_handoff_staging.stale-*.json; live, malformed, and no-pid reservations keep occupying, with owner pid and liveness in the refusal. Legacy sase monitor start runs handoff_guard before start_monitor when SASE_AGENT is set and stops a spawned monitor if the post-spawn handoff still fails. Verified 62 targeted reclaim/admission/join tests. Full-lane TUI timeout on test_visible_paged_restore_still_moves_viewport is PROPOSED FOLLOW-UP (isolated pass 1.69s; sase-1a7/sase-1qd).
 
+[2026-11-01T22:35:41Z · sase-1qk.3--6] PROPOSED FOLLOW-UP: test_total_timeout_settles_signaled_timeout failed under full-lane just check (core-identity-changed; tool run 5efb3750a00a88e8a831c04fad817ce4) with "run did not settle" — passes isolated 7.47s on this tree; proc reached total-timeout but the tool-run record stayed unsettled under load. Untouched by this phase (touched=false). Two other full-lane failures are already KNOWN: test_transport_adapter_preserves_handled_state_and_original_lifecycle (KeyError abcd1234) and test_reduce_stranded_work_round_trips_through_real_binding (assert 2 == 1).
+
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1qk.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qk.3.md) | [sase-1qk.3](sase-1qk.3.md) | 0 |
+| [bbugyi200.athena.sase-1qk.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qk.3.md) | [sase-1qk.3](sase-1qk.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`a792079`](https://github.com/sase-org/sase/commit/a79207993c4e619c235c3325e351e8610a2a0168) | fix(staged-handoff): reclaim dead-owner reservations before monitor spawn | [sase-1qk.3](sase-1qk.3.md) | 2026-11-01 18:15:37 EST |

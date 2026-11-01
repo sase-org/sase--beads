@@ -29,7 +29,7 @@ The 16p recovery work is finished (sase-core rustfmt fix landed, broken LaunchAp
 |---|---|---|---|---|---:|---:|
 | [sase-1qk.1](sase-1qk.1.md) | Land the lost sase-core rustfmt fix | ✓ closed | small | 2026-11-01 | 1 | 1 |
 | [sase-1qk.2](sase-1qk.2.md) | Finish the recovery plan 16p abandoned | ◐ in_progress | medium | 2026-11-01 | 1 | 0 |
-| [sase-1qk.3](sase-1qk.3.md) | Reclaim dead-owner reservations and admit monitors before spawning | ✓ closed | medium | 2026-11-01 | 1 | 0 |
+| [sase-1qk.3](sase-1qk.3.md) | Reclaim dead-owner reservations and admit monitors before spawning | ✓ closed | medium | 2026-11-01 | 1 | 1 |
 | [sase-1qk.4](sase-1qk.4.md) | Make gate entry signal-safe and withdraw lost gates | ✓ closed | medium | 2026-11-01 | 1 | 1 |
 | [sase-1qk.5](sase-1qk.5.md) | Honor accepted declarations made after a lost gate intent | ✓ closed | medium | 2026-11-01 | 1 | 1 |
 | [sase-1qk.6](sase-1qk.6.md) | Bound the shared pending-action store | ✓ closed | medium | 2026-11-01 | 1 | 2 |
@@ -61,7 +61,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-1qk.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qk.1/README.md) | [sase-1qk.1](sase-1qk.1.md) | 1 |
 | [bbugyi200.athena.sase-1qk.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qk.2.md) | [sase-1qk.2](sase-1qk.2.md) | 0 |
-| [bbugyi200.athena.sase-1qk.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qk.3.md) | [sase-1qk.3](sase-1qk.3.md) | 0 |
+| [bbugyi200.athena.sase-1qk.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qk.3.md) | [sase-1qk.3](sase-1qk.3.md) | 1 |
 | [bbugyi200.athena.sase-1qk.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qk.4.md) | [sase-1qk.4](sase-1qk.4.md) | 1 |
 | [bbugyi200.athena.sase-1qk.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qk.5.md) | [sase-1qk.5](sase-1qk.5.md) | 1 |
 | [bbugyi200.athena.sase-1qk.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qk.6.md) | [sase-1qk.6](sase-1qk.6.md) | 2 |
@@ -76,3 +76,4 @@ flowchart TD
 | sase | [`71827cf`](https://github.com/sase-org/sase/commit/71827cfecc3c8e0103738e83987bb01afa4394d4) | feat(gate-intent): honor accepted declarations made after a lost gate intent | [sase-1qk.5](sase-1qk.5.md) | 2026-11-01 14:04:27 EST |
 | sase-core | [`sase-core@6d33166`](https://github.com/sase-org/sase-core/commit/6d3316690815b5a8281ff7081383dae411ec11f8) | feat(notifications): prune handled pending actions after one week | [sase-1qk.6](sase-1qk.6.md) | 2026-11-01 15:38:27 EST |
 | sase | [`c5fdcd1`](https://github.com/sase-org/sase/commit/c5fdcd10cd8a6c678b8a806a1cdad4cefc3b3595) | test(pending-actions): use integral timestamps in transport round-trip | [sase-1qk.6](sase-1qk.6.md) | 2026-11-01 15:39:54 EST |
+| sase | [`a792079`](https://github.com/sase-org/sase/commit/a79207993c4e619c235c3325e351e8610a2a0168) | fix(staged-handoff): reclaim dead-owner reservations before monitor spawn | [sase-1qk.3](sase-1qk.3.md) | 2026-11-01 18:15:37 EST |
