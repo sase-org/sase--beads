@@ -103,7 +103,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1pu.5.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pu.5.1.4.md) | [sase-1pu.5.1.4](sase-1pu.5.1.4.md) | 1 |
 | [bbugyi200.athena.sase-1pu.5.1.5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pu.5.1.5.1/README.md) | [sase-1pu.5.1.5.1](sase-1pu.5.1.5.1.md) | 1 |
 | [bbugyi200.athena.sase-1pu.5.1.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pu.5.1.5.2/README.md) | [sase-1pu.5.1.5.2](sase-1pu.5.1.5.2.md) | 1 |
-| [bbugyi200.athena.sase-1pu.5.1.5.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pu.5.1.5.land.md) | [sase-1pu.5.1.5](sase-1pu.5.1.5.md) | 1 |
+| [bbugyi200.athena.sase-1pu.5.1.5.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pu.5.1.5.land.md) | [sase-1pu.5.1.5](sase-1pu.5.1.5.md) | 2 |
 | [bbugyi200.athena.sase-1pu.5.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pu.5.1.land.md) | [sase-1pu.5.1](sase-1pu.5.1.md) | 0 |
 | [bbugyi200.athena.sase-1pu.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pu.land/README.md) | [sase-1pu](README.md) | 0 |
 
@@ -122,6 +122,7 @@ flowchart TD
 | sase-core | [`sase-core@dc5383f`](https://github.com/sase-org/sase-core/commit/dc5383f6cb3008b2b6dc935b13afba5679d17787) | feat(agent-run-state): classify raw evidence and bound hood discovery | [sase-1pu.5.1.5.1](sase-1pu.5.1.5.1.md) | 2026-11-01 10:46:47 EST |
 | sase | [`a0b00da`](https://github.com/sase-org/sase/commit/a0b00da79be776c4c1632b692f613e3f6bf31927) | feat(agents-sync): bound published-state repair to exact-run observations | [sase-1pu.5.1.5.2](sase-1pu.5.1.5.2.md) | 2026-11-01 12:35:00 EST |
 | sase | [`0547d23`](https://github.com/sase-org/sase/commit/0547d23ce368aa28e6c028a0335169fd8019d82d) | fix(agents-sync): bound exact-run identity and repair deadlines | [sase-1pu.5.1.5](sase-1pu.5.1.5.md) | 2026-11-01 14:16:33 EST |
+| sase--plans | [`sase--plans@496cfdf`](https://github.com/sase-org/sase--plans/commit/496cfdfb636bdc41353cb305e2f6b6f7e7d3b4d7) | chore(plans): mark published-state repair plans done | [sase-1pu.5.1.5](sase-1pu.5.1.5.md) | 2026-11-01 14:18:22 EST |
 
 <!-- sase:referenced-by:start -->
 

@@ -47,13 +47,14 @@ Follow-up triage already on this epic: phase .1 note 1 declined as a new task be
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1pu.5.1.5.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pu.5.1.5.land.md) | [sase-1pu.5.1.5](sase-1pu.5.1.5.md) | 1 |
+| [bbugyi200.athena.sase-1pu.5.1.5.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pu.5.1.5.land.md) | [sase-1pu.5.1.5](sase-1pu.5.1.5.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`0547d23`](https://github.com/sase-org/sase/commit/0547d23ce368aa28e6c028a0335169fd8019d82d) | fix(agents-sync): bound exact-run identity and repair deadlines | [sase-1pu.5.1.5](sase-1pu.5.1.5.md) | 2026-11-01 14:16:33 EST |
+| sase--plans | [`sase--plans@496cfdf`](https://github.com/sase-org/sase--plans/commit/496cfdfb636bdc41353cb305e2f6b6f7e7d3b4d7) | chore(plans): mark published-state repair plans done | [sase-1pu.5.1.5](sase-1pu.5.1.5.md) | 2026-11-01 14:18:22 EST |
 
 <!-- sase:referenced-by:start -->
 
