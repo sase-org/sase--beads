@@ -25,10 +25,16 @@ core-fmt: re-run sase-core's pinned formatter on the staged_handoff modules, pas
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1qk.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qk.1/README.md) | [sase-1qk.1](sase-1qk.1.md) | 1 |
+| [bbugyi200.athena.sase-1qk.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qk.1/README.md) | [sase-1qk.1](sase-1qk.1.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase-core | [`sase-core@dc119c0`](https://github.com/sase-org/sase-core/commit/dc119c0bace0b7d6a740c6f769052fdecb5c6148) | style(staged\_handoff): rustfmt recovery and validate re-exports | [sase-1qk.1](sase-1qk.1.md) | 2026-11-01 12:34:58 EST |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1qk.1][1] | Need notes and remaining work for this phase | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qk.1/README.md
+
+<!-- sase:referenced-by:end -->

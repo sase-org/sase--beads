@@ -13,7 +13,7 @@ intent-lost-finalize: let a later accepted final declaration supersede a lost ga
 
 ## Dependencies
 
-- **Depends on:** [sase-1qk.4](sase-1qk.4.md) ◐ · ⧖ 2026-11-01
+- **Depends on:** [sase-1qk.4](sase-1qk.4.md) ✓ · ⧖ 2026-11-01
 
 ## Agents
 
