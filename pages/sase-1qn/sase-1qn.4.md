@@ -45,10 +45,4 @@ Limits: injected 6s delay is a controlled subprocess stall, not a fresh natural 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1qn.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qn.4.md) | [sase-1qn.4](sase-1qn.4.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase | [`0760eb0`](https://github.com/sase-org/sase/commit/0760eb0100e6df72ca78c4cc317b48d824ceb309) | test(completion): isolate zsh PTY smoke tests from live sase | [sase-1qn.4](sase-1qn.4.md) | 2026-11-01 16:14:29 EST |
+| [bbugyi200.athena.sase-1qn.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qn.4.md) | [sase-1qn.4](sase-1qn.4.md) | 0 |
