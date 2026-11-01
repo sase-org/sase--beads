@@ -19,7 +19,7 @@ core-fmt: re-run sase-core's pinned formatter on the staged_handoff modules, pas
 
 ## Dependencies
 
-- **Blocks:** [sase-1qk.6](sase-1qk.6.md) ◐ · ⧖ 2026-11-01
+- **Blocks:** [sase-1qk.6](sase-1qk.6.md) ✓ · ⧖ 2026-11-01
 
 ## Agents
 

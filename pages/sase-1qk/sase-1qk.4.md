@@ -19,19 +19,13 @@ gate-entry-atomic: turn termination signals into compensation during gate entry;
 
 ## Dependencies
 
-- **Blocks:** [sase-1qk.5](sase-1qk.5.md) ◐ · ⧖ 2026-11-01
+- **Blocks:** [sase-1qk.5](sase-1qk.5.md) ✓ · ⧖ 2026-11-01
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1qk.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qk.4.md) | [sase-1qk.4](sase-1qk.4.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase | [`17d8fe5`](https://github.com/sase-org/sase/commit/17d8fe593726e4691972f17b5c8aaeb8635a86d7) | feat(gate-turn): make gate entry signal-safe and withdraw lost gates | [sase-1qk.4](sase-1qk.4.md) | 2026-11-01 13:02:47 EST |
+| [bbugyi200.athena.sase-1qk.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qk.4.md) | [sase-1qk.4](sase-1qk.4.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
@@ -39,8 +33,10 @@ gate-entry-atomic: turn termination signals into compensation during gate entry;
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1qk.4--1][1] | check phase notes and remaining work | 3 |
+| read-by | [agent:sase-1pj.6.1.land--1][1] | Check existing ownership of check failures that reproduce only under parallel scoped tests and pass in isolation | 1 |
+| read-by | [agent:sase-1qk.4--1][2] | check phase notes and remaining work | 3 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qk.4.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.6.1.land.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qk.4.md
 
 <!-- sase:referenced-by:end -->
