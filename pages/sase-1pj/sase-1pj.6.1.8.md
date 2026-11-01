@@ -30,13 +30,14 @@ reconcile-stages: add bounded scheduler housekeeping for finalized staged turns 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1pj.6.1.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.6.1.8.md) | [sase-1pj.6.1.8](sase-1pj.6.1.8.md) | 1 |
+| [bbugyi200.athena.sase-1pj.6.1.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.6.1.8.md) | [sase-1pj.6.1.8](sase-1pj.6.1.8.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@16a3ed0`](https://github.com/sase-org/sase-core/commit/16a3ed0f2a6a36f5cfdb3e51c959a3b6081bcf18) | feat(staged-handoff): add bounded discovery and automatic recovery policy | [sase-1pj.6.1.8](sase-1pj.6.1.8.md) | 2026-11-01 13:10:15 EST |
+| sase | [`a19243c`](https://github.com/sase-org/sase/commit/a19243cdf64785ef222b7ada4d0d8a9cda7dcf01) | feat(staged-handoff): reconcile abandoned finalized stages | [sase-1pj.6.1.8](sase-1pj.6.1.8.md) | 2026-11-01 13:13:39 EST |
 
 <!-- sase:referenced-by:start -->
 

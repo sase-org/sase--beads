@@ -239,14 +239,14 @@ flowchart TD
 | [bbugyi200.athena.sase-1pj.6.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6.1.4/README.md) | [sase-1pj.6.1.4](sase-1pj.6.1.4.md) | 1 |
 | [bbugyi200.athena.sase-1pj.6.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6.1.5/README.md) | [sase-1pj.6.1.5](sase-1pj.6.1.5.md) | 1 |
 | [bbugyi200.athena.sase-1pj.6.1.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.6.1.6.md) | [sase-1pj.6.1.6](sase-1pj.6.1.6.md) | 1 |
-| [bbugyi200.athena.sase-1pj.6.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6.1.7/README.md) | [sase-1pj.6.1.7](sase-1pj.6.1.7.md) | 0 |
-| [bbugyi200.athena.sase-1pj.6.1.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.6.1.8.md) | [sase-1pj.6.1.8](sase-1pj.6.1.8.md) | 1 |
-| [bbugyi200.athena.sase-1pj.6.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.6.1.land.md) | [sase-1pj.6.1](sase-1pj.6.1.md) | 0 |
+| [bbugyi200.athena.sase-1pj.6.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6.1.7/README.md) | [sase-1pj.6.1.7](sase-1pj.6.1.7.md) | 1 |
+| [bbugyi200.athena.sase-1pj.6.1.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.6.1.8.md) | [sase-1pj.6.1.8](sase-1pj.6.1.8.md) | 2 |
+| [bbugyi200.athena.sase-1pj.6.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.6.1.land.md) | [sase-1pj.6.1](sase-1pj.6.1.md) | 2 |
 | [bbugyi200.athena.sase-1pj.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.7.md) | [sase-1pj.7](sase-1pj.7.md) | 0 |
 | [bbugyi200.athena.sase-1pj.7.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7.1.1/README.md) | [sase-1pj.7.1.1](sase-1pj.7.1.1.md) | 2 |
 | [bbugyi200.athena.sase-1pj.7.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7.1.2/README.md) | [sase-1pj.7.1.2](sase-1pj.7.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1pj.7.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7.1.3/README.md) | [sase-1pj.7.1.3](sase-1pj.7.1.3.md) | 1 |
-| [bbugyi200.athena.sase-1pj.7.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.7.1.4.md) | [sase-1pj.7.1.4](sase-1pj.7.1.4.md) | 1 |
+| [bbugyi200.athena.sase-1pj.7.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.7.1.4.md) | [sase-1pj.7.1.4](sase-1pj.7.1.4.md) | 2 |
 | [bbugyi200.athena.sase-1pj.7.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7.1.land/README.md) | [sase-1pj.7.1](sase-1pj.7.1.md) | 0 |
 | [bbugyi200.athena.sase-1pj.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.8/README.md) | [sase-1pj.8](sase-1pj.8.md) | 0 |
 | [bbugyi200.athena.sase-1pj.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.9/README.md) | [sase-1pj.9](sase-1pj.9.md) | 0 |
@@ -307,7 +307,7 @@ flowchart TD
 | sase | [`f2e8480`](https://github.com/sase-org/sase/commit/f2e84801ccfe2251c01808db4f8462ba00f41f7c) | fix(workspace-retention): retain stranded gate and staged workspaces | [sase-1pj.7.1.3](sase-1pj.7.1.3.md) | 2026-10-31 16:57:37 EDT |
 | sase | [`745d7b5`](https://github.com/sase-org/sase/commit/745d7b57b15e0639c5c62baa80fcd4ca5e94faf8) | feat(monitor): settle stranded workspaces through shared settlement adapter | [sase-1pj.7.1.2](sase-1pj.7.1.2.md) | 2026-10-31 18:06:40 EDT |
 
-… and 2 more commits
+… and 7 more commits
 
 <!-- sase:referenced-by:start -->
 

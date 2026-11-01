@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/carried_workspace_retention.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/carried_workspace_retention.md
 
@@ -50,9 +50,11 @@ A terminal handoff that leaves session-owned uncommitted work without a same-wor
 | read-by | [agent:sase-1pj.7.1.1][1] | Need remaining DECISIONS section of parent epic | 3 |
 | read-by | [agent:sase-1pj.7.1.2][2] | Need epic DECISIONS and plan | 1 |
 | read-by | [agent:sase-1pj.7.1.3][3] | Need the parent epic decisions and phase history context | 1 |
+| read-by | [agent:sase-1pj.7.1.4--5][4] | Need parent epic decisions and plan for phase closure | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7.1.1/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7.1.2/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7.1.3/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.7.1.4.md
 
 <!-- sase:referenced-by:end -->

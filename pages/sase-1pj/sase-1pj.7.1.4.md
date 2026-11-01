@@ -104,10 +104,23 @@ recovery-surfaces: expose stranded workspace evidence, support safe resume and e
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1pj.7.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.7.1.4.md) | [sase-1pj.7.1.4](sase-1pj.7.1.4.md) | 1 |
+| [bbugyi200.athena.sase-1pj.7.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.7.1.4.md) | [sase-1pj.7.1.4](sase-1pj.7.1.4.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@154fe9e`](https://github.com/sase-org/sase-core/commit/154fe9e2a934b6a7caefc0c1d0f9f3daed696e07) | feat(stranded-work): retain held workspace as stranded unless live successor owns | [sase-1pj.7.1.4](sase-1pj.7.1.4.md) | 2026-11-01 15:53:10 EST |
+| sase | [`31a28d9`](https://github.com/sase-org/sase/commit/31a28d9618d20ff656ae57c4a4268cf82f4abaf8) | feat(stranded-work): retain held workspace as stranded unless live successor owns | [sase-1pj.7.1.4](sase-1pj.7.1.4.md) | 2026-11-01 17:33:50 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pj.7.1.4--5][1] | Need phase status before blocked close handling | 55 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.7.1.4.md
+
+<!-- sase:referenced-by:end -->

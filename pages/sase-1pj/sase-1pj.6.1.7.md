@@ -24,7 +24,13 @@ readopt-cli: add sase agent readopt for one unambiguous originating turn, render
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1pj.6.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6.1.7/README.md) | [sase-1pj.6.1.7](sase-1pj.6.1.7.md) | 0 |
+| [bbugyi200.athena.sase-1pj.6.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6.1.7/README.md) | [sase-1pj.6.1.7](sase-1pj.6.1.7.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`288d2af`](https://github.com/sase-org/sase/commit/288d2afeeb0b36e7ab669b73fb9da3c7defd357f) | feat(agent): add staged handoff readoption | [sase-1pj.6.1.7](sase-1pj.6.1.7.md) | 2026-11-01 10:36:34 EST |
 
 <!-- sase:referenced-by:start -->
 
