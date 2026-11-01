@@ -16,3 +16,15 @@ published-run-state-freshness: ensure a completed or failed run in a published h
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1pu.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pu.5.md) | [sase-1pu.5](sase-1pu.5.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pu.5.1.4--1][1] | Need epic DECISIONS | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pu.5.1.4.md
+
+<!-- sase:referenced-by:end -->

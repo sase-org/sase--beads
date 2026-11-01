@@ -40,8 +40,10 @@ publication-safeguards: integrate the state-policy bindings into inventory proje
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1pu.5.1.2--2][1] | check remaining work and notes | 2 |
+| read-by | [agent:sase-1pj.5.1.3][1] | Need verify the already recorded clean-base scoped-test failure before citing it | 1 |
+| read-by | [agent:sase-1pu.5.1.2--2][2] | check remaining work and notes | 2 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pu.5.1.2.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.5.1.3/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pu.5.1.2.md
 
 <!-- sase:referenced-by:end -->

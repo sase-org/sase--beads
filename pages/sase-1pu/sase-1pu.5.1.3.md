@@ -20,7 +20,7 @@ bounded-repair: implement the bounded state-reconciliation service and sase agen
 ## Dependencies
 
 - **Depends on:** [sase-1pu.5.1.2](sase-1pu.5.1.2.md) ✓ · ⧖ 2026-10-29
-- **Blocks:** [sase-1pu.5.1.4](sase-1pu.5.1.4.md) ○ · ⧖ 2026-10-29
+- **Blocks:** [sase-1pu.5.1.4](sase-1pu.5.1.4.md) ✓ · ⧖ 2026-10-29
 
 ## Agents
 
@@ -41,7 +41,9 @@ bounded-repair: implement the bounded state-reconciliation service and sase agen
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1pu.5.1.3--1][1] | check closure state after host land | 22 |
+| read-by | [agent:sase-1pu.5.1.4--1][2] | compare close-vs-land sequencing for .4 | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pu.5.1.3.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pu.5.1.4.md
 
 <!-- sase:referenced-by:end -->
