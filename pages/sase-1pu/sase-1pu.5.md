@@ -2,14 +2,20 @@
 
 [Bead Pages](../README.md) / [sase-1pu](README.md) / sase-1pu.5
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-1pn.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pn.land.md) · **Assignee:** `sase-1pu.5` · **Size:** large
-**Created:** 2026-10-29 19:19:01 EDT
+**Created:** 2026-10-29 19:19:01 EDT · **Closed:** 2026-11-01 14:11:23 EST
 **Plan:** [202610/task\_backlog\_epic\_3.md](https://github.com/sase-org/sase--plans/blob/main/202610/task_backlog_epic_3.md)
 
 ## Description
 
 published-run-state-freshness: ensure a completed or failed run in a published hood eventually updates the agents-sidecar state snapshot. Choose a reliable terminal-publication or reconciliation path, account for concurrent hood publication, and provide a safe bounded backfill plan for existing stale rows. Verify terminal-state convergence and that live runs are not marked terminal.
+
+## Notes
+
+[2026-11-01T19:12:44Z · sase-1pu.5.1.5.land] TASK RESOLVED: sase-1cc — Published runs with verified local completion, failure, stop, or later dismissal now converge through bounded owner-local repair and the five-minute agent_state_refresh job. Production tests write real markers/indexes against temporary remotes: selected-run-only repair, live siblings stay live, later publication cannot regress a repaired terminal, state_limit=1 does not hydrate sibling prompt/chat content, budget expiry freezes the scheduler checkpoint without a false cursor, and changed durable IDs/conflicting names stay unresolved via Rust identity_conflict. Concurrent same-owner non-fast-forward recovery recomputes; foreign owners and unselected files survive. Owner-local preview/apply/resume runbook is in docs/contribute/agents-sidecar-sync.md. Historical fleet rows remain an owner-local backfill (no live fleet purge). Seed sase-1cc left open for the waiting sase-1pu lander.
+
+[2026-11-01T19:12:52Z · sase-1pu.5.1.5.land] Phase closed automatically as delegated work landed when child plan sase-1pu.5.1 closed. Rechecked acceptance: completed/failed/stopped/dismissed convergence, live-run safety, concurrent publication preservation, and tested bounded owner-local backfill procedure. epic-symbols sase-1pu.5: none. just symvision green. Verification: focused publication repair/targeted pytest 50 passed; sase tool run check e1f6b07ae4b3cd6b69c3d9f10f78f10f 59580 passed / 1 NEW sudo-ledger flake sase-1oy (serial pass, +1). Containing epic sase-1pu and seed sase-1cc left for the waiting lander.
 
 ## Agents
 

@@ -49,7 +49,7 @@ Fix and close the five selected fleet-costly task beads, then continue the backl
 | [sase-1pu.2](sase-1pu.2.md) | Keep long-waiting bead agents alive when their dependency wakes (sase-12v) | ✓ closed | large | 2026-10-29 | 1 | 1 |
 | [sase-1pu.3](sase-1pu.3.md) | Select agent-artifact marker audits for marker-writer changes (sase-1mv) | ✓ closed | medium | 2026-10-29 | 1 | 1 |
 | [sase-1pu.4](sase-1pu.4.md) | Remove the full-check timeout for the empty-home SDD identity test (sase-120) | ✓ closed | large | 2026-10-29 | 1 | 1 |
-| [sase-1pu.5](sase-1pu.5.md) | Publish terminal agent-run state instead of leaving thousands of rows active (sase-1cc) | ◐ in_progress | large | 2026-10-29 | 1 | 0 |
+| [sase-1pu.5](sase-1pu.5.md) | Publish terminal agent-run state instead of leaving thousands of rows active (sase-1cc) | ✓ closed | large | 2026-10-29 | 1 | 0 |
 
 ## Lineage
 
@@ -60,13 +60,13 @@ flowchart TD
     n2["sase-1pu.2: Keep long-waiting bead agents alive when their dependency wakes (sase-12v) [closed]"]
     n3["sase-1pu.3: Select agent-artifact marker audits for marker-writer changes (sase-1mv) [closed]"]
     n4["sase-1pu.4: Remove the full-check timeout for the empty-home SDD identity test (sase-120) [closed]"]
-    n5["sase-1pu.5: Publish terminal agent-run state instead of leaving thousands of rows active (sase-1cc) [in_progress]"]
-    n6["sase-1pu.5.1: Published agent run state convergence [in_progress]"]
+    n5["sase-1pu.5: Publish terminal agent-run state instead of leaving thousands of rows active (sase-1cc) [closed]"]
+    n6["sase-1pu.5.1: Published agent run state convergence [closed]"]
     n7["sase-1pu.5.1.1: Define shared terminal-state evidence and reconciliation rules [closed]"]
     n8["sase-1pu.5.1.2: Preserve terminal state in every existing hood publisher [closed]"]
     n9["sase-1pu.5.1.3: Add bounded report-and-apply repair for already-published runs [closed]"]
     n10["sase-1pu.5.1.4: Schedule bounded reconciliation and document owner-local backfill [closed]"]
-    n11["sase-1pu.5.1.5: Finish exact evidence and bounded published-state repair [in_progress]"]
+    n11["sase-1pu.5.1.5: Finish exact evidence and bounded published-state repair [closed]"]
     n12["sase-1pu.5.1.5.1: Complete raw-evidence and bounded-discovery contracts in Rust [closed]"]
     n13["sase-1pu.5.1.5.2: Integrate exact evidence, honest repair progress, and current publishers [closed]"]
     n0 --> n1
@@ -103,7 +103,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1pu.5.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pu.5.1.4.md) | [sase-1pu.5.1.4](sase-1pu.5.1.4.md) | 1 |
 | [bbugyi200.athena.sase-1pu.5.1.5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pu.5.1.5.1/README.md) | [sase-1pu.5.1.5.1](sase-1pu.5.1.5.1.md) | 1 |
 | [bbugyi200.athena.sase-1pu.5.1.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pu.5.1.5.2/README.md) | [sase-1pu.5.1.5.2](sase-1pu.5.1.5.2.md) | 1 |
-| [bbugyi200.athena.sase-1pu.5.1.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pu.5.1.5.land/README.md) | [sase-1pu.5.1.5](sase-1pu.5.1.5.md) | 0 |
+| [bbugyi200.athena.sase-1pu.5.1.5.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pu.5.1.5.land.md) | [sase-1pu.5.1.5](sase-1pu.5.1.5.md) | 1 |
 | [bbugyi200.athena.sase-1pu.5.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pu.5.1.land.md) | [sase-1pu.5.1](sase-1pu.5.1.md) | 0 |
 | [bbugyi200.athena.sase-1pu.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pu.land/README.md) | [sase-1pu](README.md) | 0 |
 
@@ -121,6 +121,7 @@ flowchart TD
 | sase | [`b161834`](https://github.com/sase-org/sase/commit/b1618348d44078a3d5f8ee52ff7d4cc0b70f441d) | feat(agents-sync): schedule bounded reconciliation and document owner-local backfill | [sase-1pu.5.1.4](sase-1pu.5.1.4.md) | 2026-10-30 06:04:22 EDT |
 | sase-core | [`sase-core@dc5383f`](https://github.com/sase-org/sase-core/commit/dc5383f6cb3008b2b6dc935b13afba5679d17787) | feat(agent-run-state): classify raw evidence and bound hood discovery | [sase-1pu.5.1.5.1](sase-1pu.5.1.5.1.md) | 2026-11-01 10:46:47 EST |
 | sase | [`a0b00da`](https://github.com/sase-org/sase/commit/a0b00da79be776c4c1632b692f613e3f6bf31927) | feat(agents-sync): bound published-state repair to exact-run observations | [sase-1pu.5.1.5.2](sase-1pu.5.1.5.2.md) | 2026-11-01 12:35:00 EST |
+| sase | [`0547d23`](https://github.com/sase-org/sase/commit/0547d23ce368aa28e6c028a0335169fd8019d82d) | fix(agents-sync): bound exact-run identity and repair deadlines | [sase-1pu.5.1.5](sase-1pu.5.1.5.md) | 2026-11-01 14:16:33 EST |
 
 <!-- sase:referenced-by:start -->
 

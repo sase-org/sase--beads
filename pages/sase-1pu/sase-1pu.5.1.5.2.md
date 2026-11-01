@@ -32,3 +32,15 @@ repair-integration: consume the preceding core commit, replace publication-inven
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`a0b00da`](https://github.com/sase-org/sase/commit/a0b00da79be776c4c1632b692f613e3f6bf31927) | feat(agents-sync): bound published-state repair to exact-run observations | [sase-1pu.5.1.5.2](sase-1pu.5.1.5.2.md) | 2026-11-01 12:35:00 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pu.5.1.5.2][1] | Need the phase scope and design file | 5 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pu.5.1.5.2/README.md
+
+<!-- sase:referenced-by:end -->

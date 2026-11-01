@@ -42,7 +42,9 @@ evidence-policy: implement shared raw-marker classification and bounded hood-dis
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1pu.5.1.5.1][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1pu.5.1.5.2][2] | Need predecessor phase notes to see what landed | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pu.5.1.5.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pu.5.1.5.2/README.md
 
 <!-- sase:referenced-by:end -->

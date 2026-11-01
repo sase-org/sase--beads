@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1pu.5](sase-1pu.5.md) / sase-1pu.5.1
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-1pu.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pu.5.md) · **Assignee:** `sase-1pu.5.1.land`
-**Created:** 2026-10-29 20:35:51 EDT
+**Created:** 2026-10-29 20:35:51 EDT · **Closed:** 2026-11-01 14:11:23 EST
 **Plan:** [202610/published\_run\_state\_convergence.md](https://github.com/sase-org/sase--plans/blob/main/202610/published_run_state_convergence.md)
 
 <!-- sase:links:start -->
@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/published_run_state_convergence.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 4 automatic references — see [Referenced By](#referenced-by)._
+_Plus 5 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/published_run_state_convergence.md
 
@@ -43,6 +43,14 @@ Preparing a medium tale for one coder to fix the Python observation/repair orche
 
 [2026-11-01T15:15:27Z · sase-1pu.5.1.land] LAND PLAN SIZING UPDATE: completing the backend-boundary review changed the tentative medium-tale choice in the preceding audit note. The existing Rust binding accepts preclassified terminal_marker/evidence_state values; raw marker classification still happens in Python, and bounded hood discovery needs a cursor-aware core contract so empty/corrupt units can make progress without loading every snapshot. The remaining work therefore needs two dependent medium phases: core evidence/discovery contracts first, then Python adapters/production-read tests and the containing core pin. A single tale cannot consume its own host-created core SHA before its turn ends. The child epic parent_bead is sase-1pu.5.1; parent closeout is left to its lander, not a phase. The Python phase retires the parent checkpoint exemption before its own commit, so the later lander can pass the existing local+upstream symbol guard without waiting for its own commit. The plan passed validate --explain and a second validation without --explain, with no warnings. Follow-up triage is already recorded above; no additional follow-up remains untriaged.
 
+[2026-11-01T17:54:37Z · sase-1pu.5.1.5.land] CHILD LANDING BLOCKER: sase-1pu.5.1.5 landing at a0b00da79b reproduced unfinished exact-run identity and bounded-read contracts despite 47 focused passes: stale cached artifact IDs and overwritten metadata conflicts can terminalize the wrong run; dismissed lookup rebuilds or misses agent_name != cl_name and trusts stale bundle identity; page planning re-reads unselected prompts/all snapshots; deadline crossing on last evidence read still advances. Details and reproducer file:explicit:ed35fecafbc1e54897ae808e are on child epic. A medium remaining-work tale includes fixes plus child/parent-plan/phase closeout; this parent stays open until actual acceptance and descendant/plan readiness are rechecked.
+
+[2026-11-01T19:11:23Z · sase-1pu.5.1.5.land] Rechecked parent plan sase-1pu.5.1 after closing child epic sase-1pu.5.1.5. Descendants: original phases .1–.4 closed; child epic sase-1pu.5.1.5 and its phases .1/.2 closed. Linked plan:202610/published_run_state_convergence.md acceptance now met: exact-run identity, bounded selected-run evidence, honest deadline/cursor freeze, terminal preservation, scheduled agent_state_refresh, and owner-local runbook. epic-symbols sase-1pu.5.1: none. Inherited optional_scope=keep_five_seeds. Core pin dc5383f6 preserved. Post-child origin/master drift 17d8fe5937/a19243cdf6/71827cfecc is gate-turn/staged-handoff with no publication overlap.
+
+Verification: focused publication repair/targeted pytest 50 passed in 38.47s; just fix; just symvision green after child close; sase tool run check e1f6b07ae4b3cd6b69c3d9f10f78f10f 59580 passed / 17 skipped / 1 NEW sudo-ledger flake sase-1oy (serial pass, +1 recorded, touched=false).
+
+Prior lander follow-up outcomes (sase-1pu.5.1 note 2): phase .2 note 1 missing miniature-repo helper declined as fixed by 86bec79ca4; phase .3 note 1 unobserved check/timeout declined as historical verification debt (ToolRun d437d7ae eventually failed; NEW helper/completion nodes now pass; sase-1pv/sase-1pw not corroborated); phase .4 note 2 one-hour check timeout declined (ToolRun 434baebb signaled/undetermined); epic note 1 oversized repair module addressed by cf68c745f1 and closed sase-1q1. Child lander follow-ups: phase sase-1pu.5.1.5.1 note 1 declined (dc119c0b + closed sase-1qk.1; evidence on sase-1pj.6.1); phase sase-1pu.5.1.5.2 note 1 +1 on sase-19m (ToolRun af92a91bfbe6635cd5c072966a9dc112). No new tasks.
+
 ## Agents
 
 | Agent | Bead | Commits |
@@ -59,10 +67,12 @@ Preparing a medium tale for one coder to fix the Python observation/repair orche
 | read-by | [agent:sase-1pu.5.1.1--1][2] | Check the epic decisions governing this phase before close | 1 |
 | read-by | [agent:sase-1pu.5.1.3--1][3] | epic decisions | 4 |
 | read-by | [agent:sase-1pu.5.1.4--1][4] | Need parent epic decisions | 1 |
+| read-by | [agent:sase-1pu.5.1.5.2][5] | Need DECISIONS section from truncated parent | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.162/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pu.5.1.1.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pu.5.1.3.md
 [4]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pu.5.1.4.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pu.5.1.5.2/README.md
 
 <!-- sase:referenced-by:end -->
