@@ -25,10 +25,11 @@ pending-action-prune: prune old already-handled entries in sase-core's pending-a
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1qk.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qk.6.md) | [sase-1qk.6](sase-1qk.6.md) | 1 |
+| [bbugyi200.athena.sase-1qk.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qk.6.md) | [sase-1qk.6](sase-1qk.6.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@6d33166`](https://github.com/sase-org/sase-core/commit/6d3316690815b5a8281ff7081383dae411ec11f8) | feat(notifications): prune handled pending actions after one week | [sase-1qk.6](sase-1qk.6.md) | 2026-11-01 15:38:27 EST |
+| sase | [`c5fdcd1`](https://github.com/sase-org/sase/commit/c5fdcd10cd8a6c678b8a806a1cdad4cefc3b3595) | test(pending-actions): use integral timestamps in transport round-trip | [sase-1qk.6](sase-1qk.6.md) | 2026-11-01 15:39:54 EST |
