@@ -29,8 +29,8 @@ Fix and close the five next-costliest open task beads, then continue the backlog
 |---|---|---|---|---|---:|---:|
 | [sase-1qn.1](sase-1qn.1.md) | Stop --epic-symbol rows from outliving their bead (sase-o7) | ◐ in_progress | large | 2026-11-01 | 1 | 0 |
 | [sase-1qn.2](sase-1qn.2.md) | Stop behavior-neutral module splits from turning the TUI import budget red (sase-1ic) | ◐ in_progress | large | 2026-11-01 | 1 | 0 |
-| [sase-1qn.3](sase-1qn.3.md) | Fix the sase-core federation\_worker socket test flake (sase-1gz) | ✓ closed | large | 2026-11-01 | 1 | 1 |
-| [sase-1qn.4](sase-1qn.4.md) | Fix the zsh sbd alias completion PTY flake (sase-13a) | ◐ in_progress | large | 2026-11-01 | 1 | 0 |
+| [sase-1qn.3](sase-1qn.3.md) | Fix the sase-core federation\_worker socket test flake (sase-1gz) | ✓ closed | large | 2026-11-01 | 1 | 0 |
+| [sase-1qn.4](sase-1qn.4.md) | Fix the zsh sbd alias completion PTY flake (sase-13a) | ✓ closed | large | 2026-11-01 | 1 | 1 |
 | [sase-1qn.5](sase-1qn.5.md) | Fix the AGY usage-probe rate-limit timeout flake (sase-19m) | ◐ in_progress | medium | 2026-11-01 | 1 | 0 |
 
 ## Lineage
@@ -41,7 +41,7 @@ flowchart TD
     n1["sase-1qn.1: Stop --epic-symbol rows from outliving their bead (sase-o7) [in_progress]"]
     n2["sase-1qn.2: Stop behavior-neutral module splits from turning the TUI import budget red (sase-1ic) [in_progress]"]
     n3["sase-1qn.3: Fix the sase-core federation_worker socket test flake (sase-1gz) [closed]"]
-    n4["sase-1qn.4: Fix the zsh sbd alias completion PTY flake (sase-13a) [in_progress]"]
+    n4["sase-1qn.4: Fix the zsh sbd alias completion PTY flake (sase-13a) [closed]"]
     n5["sase-1qn.5: Fix the AGY usage-probe rate-limit timeout flake (sase-19m) [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -56,8 +56,8 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-1qn.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qn.1.md) | [sase-1qn.1](sase-1qn.1.md) | 0 |
 | [bbugyi200.athena.sase-1qn.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qn.2.md) | [sase-1qn.2](sase-1qn.2.md) | 0 |
-| [bbugyi200.athena.sase-1qn.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qn.3.md) | [sase-1qn.3](sase-1qn.3.md) | 1 |
-| [bbugyi200.athena.sase-1qn.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qn.4.md) | [sase-1qn.4](sase-1qn.4.md) | 0 |
+| [bbugyi200.athena.sase-1qn.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qn.3.md) | [sase-1qn.3](sase-1qn.3.md) | 0 |
+| [bbugyi200.athena.sase-1qn.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qn.4.md) | [sase-1qn.4](sase-1qn.4.md) | 1 |
 | [bbugyi200.athena.sase-1qn.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qn.5/README.md) | [sase-1qn.5](sase-1qn.5.md) | 0 |
 | [bbugyi200.athena.sase-1qn.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qn.land/README.md) | [sase-1qn](README.md) | 0 |
 
@@ -65,4 +65,4 @@ flowchart TD
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| sase-core | [`sase-core@02eb696`](https://github.com/sase-org/sase-core/commit/02eb6961892c496db925234b8151daa5ab49098e) | fix(sase\_gateway): release federation listener lock on drop with duplicated descriptors | [sase-1qn.3](sase-1qn.3.md) | 2026-11-01 15:34:17 EST |
+| sase | [`0760eb0`](https://github.com/sase-org/sase/commit/0760eb0100e6df72ca78c4cc317b48d824ceb309) | test(completion): isolate zsh PTY smoke tests from live sase | [sase-1qn.4](sase-1qn.4.md) | 2026-11-01 16:14:29 EST |
