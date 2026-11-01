@@ -25,6 +25,12 @@ _Plus 6 automatic references — see [Referenced By](#referenced-by)._
 
 Make every staged handoff replayable after runner death, reconcile completed turns, and let held handoffs be explicitly re-adopted after their obligations are satisfied.
 
+## Notes
+
+[2026-11-01T15:28:47Z · 16p--code] DISCOVERED ISSUE: Monitor settlement after a live sase update crashes on stale in-process code and drops the follow-up. Evidence from athena 2026-11-01 restart triage: 4 monitors SIGTERM'd (sase-1oe.4--mon-3 g3we4m00jd30, sase-1q2.9.2--mon 6arwy6wqewnh, sase-1pt.9.2--mon 5zwebkfet1r3, sase-1n6.10--mon hdywq4jz9fjt) each stopped exit -15 with settlement errors: release_workspace() unexpected artifacts_timestamp, and sase_core_rs missing binding decide_workspace_retention (x3). Install is editable, primary checkout updated 07:08, supervisors started before that. Follow-ups never launched. Causally belongs to staged-handoff recovery / workspace retention.
+
+[2026-11-01T15:29:47Z · 16p--code] DISCOVERED ISSUE: sase-core master CI red on rustfmt-only since 73ec04a02a (run 41225348868) on crates/sase_core/src/staged_handoff/mod.rs and recovery.rs, blocking daily core cut and release chain (sase-1q2.9.2, sase-1oe.4, sase-1pi.1 via sase-1n6.10). Per core_fmt=fix, this recovery lands the formatting-only fix; no bead tracks the failure, sase-1oe.4 names sase-1pj.6.1 as owner.
+
 ## Agents
 
 | Agent | Bead | Commits |

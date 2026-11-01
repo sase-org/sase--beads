@@ -22,7 +22,7 @@ monitor-replay: recover monitor launch from existing fingerprint and proc identi
 ## Dependencies
 
 - **Depends on:** [sase-1pj.6.1.1](sase-1pj.6.1.1.md) ✓ · ⧖ 2026-10-31
-- **Blocks:** [sase-1pj.6.1.6](sase-1pj.6.1.6.md) ◐ · ⧖ 2026-10-31
+- **Blocks:** [sase-1pj.6.1.6](sase-1pj.6.1.6.md) ✓ · ⧖ 2026-10-31
 
 ## Agents
 

@@ -13,8 +13,8 @@ reconcile-stages: add bounded scheduler housekeeping for finalized staged turns 
 
 ## Dependencies
 
-- **Depends on:** [sase-1pj.6.1.6](sase-1pj.6.1.6.md) ◐ · ⧖ 2026-10-31
-- **Depends on:** [sase-1pj.6.1.7](sase-1pj.6.1.7.md) ◐ · ⧖ 2026-10-31
+- **Depends on:** [sase-1pj.6.1.6](sase-1pj.6.1.6.md) ✓ · ⧖ 2026-10-31
+- **Depends on:** [sase-1pj.6.1.7](sase-1pj.6.1.7.md) ✓ · ⧖ 2026-10-31
 
 ## Agents
 

@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1pj.6.1](sase-1pj.6.1.md) / sase-1pj.6.1.6
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-1pj.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.6.md) · **Assignee:** `sase-1pj.6.1.6` · **Size:** medium
-**Created:** 2026-10-31 08:56:55 EDT
+**Created:** 2026-10-31 08:56:55 EDT · **Closed:** 2026-11-01 09:51:37 EST
 **Plan:** [202610/staged\_handoff\_recovery.md](https://github.com/sase-org/sase--plans/blob/main/202610/staged_handoff_recovery.md)
 
 ## Description
@@ -27,6 +27,8 @@ recovery-service: expose one host recovery entry point for all kinds, prove sett
 
 [2026-10-31T19:05:06Z · sase-1pj.6.1.6--1] Re-checked: origin/master tip 471dfc3d5a still lists both sase-1pj.6.1.6 rows; scan unchanged (two origin/master-only entries, local deletion confirmed). Re-key declined again: symbols are consumed, so any re-keyed exemption fails symvision as unnecessary, and it would not clear the upstream rows. Tree intact. Close blocked on host landing.
 
+[2026-11-01T14:51:37Z · 16p--code] Recovery after athena restart: commit 406c57f126 is on origin/master, sase bead epic-symbols sase-1pj.6.1.6 is empty, notes #1-#7 leave only the close (blocked on host landing that has since completed)
+
 ## Dependencies
 
 - **Depends on:** [sase-1pj.6.1.1](sase-1pj.6.1.1.md) ✓ · ⧖ 2026-10-31
@@ -34,7 +36,7 @@ recovery-service: expose one host recovery entry point for all kinds, prove sett
 - **Depends on:** [sase-1pj.6.1.3](sase-1pj.6.1.3.md) ✓ · ⧖ 2026-10-31
 - **Depends on:** [sase-1pj.6.1.4](sase-1pj.6.1.4.md) ✓ · ⧖ 2026-10-31
 - **Depends on:** [sase-1pj.6.1.5](sase-1pj.6.1.5.md) ✓ · ⧖ 2026-10-31
-- **Blocks:** [sase-1pj.6.1.7](sase-1pj.6.1.7.md) ◐ · ⧖ 2026-10-31
+- **Blocks:** [sase-1pj.6.1.7](sase-1pj.6.1.7.md) ✓ · ⧖ 2026-10-31
 - **Blocks:** [sase-1pj.6.1.8](sase-1pj.6.1.8.md) ◐ · ⧖ 2026-10-31
 
 ## Agents

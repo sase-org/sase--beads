@@ -17,7 +17,7 @@ retention-core: add the Rust retention decision and Python evidence/effect adapt
 
 ## Dependencies
 
-- **Blocks:** [sase-1pj.7.1.2](sase-1pj.7.1.2.md) ◐ · ⧖ 2026-10-31
+- **Blocks:** [sase-1pj.7.1.2](sase-1pj.7.1.2.md) ✓ · ⧖ 2026-10-31
 - **Blocks:** [sase-1pj.7.1.3](sase-1pj.7.1.3.md) ✓ · ⧖ 2026-10-31
 
 ## Agents

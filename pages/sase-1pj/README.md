@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/staged_handoffs.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 14 automatic references — see [Referenced By](#referenced-by)._
+_Plus 15 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/staged_handoffs.md
 
@@ -88,13 +88,13 @@ flowchart TD
     n34["sase-1pj.6.1.3: Replay plan and question approval handoffs [closed]"]
     n35["sase-1pj.6.1.4: Complete partially published gates on replay [closed]"]
     n36["sase-1pj.6.1.5: Close monitor spawn and held-reservation crash windows [closed]"]
-    n37["sase-1pj.6.1.6: Adopt from persisted state and preserve finalizer progress [in_progress]"]
-    n38["sase-1pj.6.1.7: Expose re-adoption and actionable held notifications [in_progress]"]
+    n37["sase-1pj.6.1.6: Adopt from persisted state and preserve finalizer progress [closed]"]
+    n38["sase-1pj.6.1.7: Expose re-adoption and actionable held notifications [closed]"]
     n39["sase-1pj.6.1.8: Reconcile abandoned finalized stages and verify crash recovery [in_progress]"]
     n40["sase-1pj.7: Hold workspaces whose carried work has no successor [in_progress]"]
     n41["sase-1pj.7.1: Retain stranded handoff workspaces [in_progress]"]
     n42["sase-1pj.7.1.1: Shared retention policy and guarded claim settlement [closed]"]
-    n43["sase-1pj.7.1.2: Retain stopped and unlaunchable monitor work [in_progress]"]
+    n43["sase-1pj.7.1.2: Retain stopped and unlaunchable monitor work [closed]"]
     n44["sase-1pj.7.1.3: Retain cancelled questions and failed handoffs [closed]"]
     n45["sase-1pj.7.1.4: Surface held work and complete its recovery lifecycle [in_progress]"]
     n46["sase-1pj.8: Remove the flag and the kill-path machinery [in_progress]"]
@@ -239,7 +239,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1pj.6.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6.1.4/README.md) | [sase-1pj.6.1.4](sase-1pj.6.1.4.md) | 1 |
 | [bbugyi200.athena.sase-1pj.6.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6.1.5/README.md) | [sase-1pj.6.1.5](sase-1pj.6.1.5.md) | 1 |
 | [bbugyi200.athena.sase-1pj.6.1.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.6.1.6.md) | [sase-1pj.6.1.6](sase-1pj.6.1.6.md) | 1 |
-| [bbugyi200.athena.sase-1pj.6.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6.1.7/README.md) | [sase-1pj.6.1.7](sase-1pj.6.1.7.md) | 0 |
+| [bbugyi200.athena.sase-1pj.6.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6.1.7/README.md) | [sase-1pj.6.1.7](sase-1pj.6.1.7.md) | 1 |
 | [bbugyi200.athena.sase-1pj.6.1.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6.1.8/README.md) | [sase-1pj.6.1.8](sase-1pj.6.1.8.md) | 0 |
 | [bbugyi200.athena.sase-1pj.6.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6.1.land/README.md) | [sase-1pj.6.1](sase-1pj.6.1.md) | 0 |
 | [bbugyi200.athena.sase-1pj.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.7.md) | [sase-1pj.7](sase-1pj.7.md) | 0 |
@@ -307,6 +307,8 @@ flowchart TD
 | sase | [`f2e8480`](https://github.com/sase-org/sase/commit/f2e84801ccfe2251c01808db4f8462ba00f41f7c) | fix(workspace-retention): retain stranded gate and staged workspaces | [sase-1pj.7.1.3](sase-1pj.7.1.3.md) | 2026-10-31 16:57:37 EDT |
 | sase | [`745d7b5`](https://github.com/sase-org/sase/commit/745d7b57b15e0639c5c62baa80fcd4ca5e94faf8) | feat(monitor): settle stranded workspaces through shared settlement adapter | [sase-1pj.7.1.2](sase-1pj.7.1.2.md) | 2026-10-31 18:06:40 EDT |
 
+… and 1 more commits
+
 <!-- sase:referenced-by:start -->
 
 ## Referenced By
@@ -325,8 +327,9 @@ flowchart TD
 | read-by | [agent:sase-1pj.5.1.3][10] | Check the enclosing epic and phase decisions for constraints | 1 |
 | read-by | [agent:sase-1pj.5.1.4][11] | Need inherited epic decisions before verifying activation work | 1 |
 | read-by | [agent:sase-1pj.6.1.2][12] | Need outer epic decisions inherited by this phase | 1 |
-| read-by | [agent:sase-1pj.7.1.3][13] | Need the ancestor epic decisions governing this phase | 1 |
-| read-by | [agent:sase-1pt.9.1][14] | Identify the open landing owner for stale Justfile epic-symbol rows after the symbol-owning phases closed | 1 |
+| read-by | [agent:sase-1pj.7.1.2][13] | Need top epic DECISIONS final for phase work | 1 |
+| read-by | [agent:sase-1pj.7.1.3][14] | Need the ancestor epic decisions governing this phase | 1 |
+| read-by | [agent:sase-1pt.9.1][15] | Identify the open landing owner for stale Justfile epic-symbol rows after the symbol-owning phases closed | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.5h.final/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.5l.grk/README.md
@@ -340,7 +343,8 @@ flowchart TD
 [10]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.5.1.3/README.md
 [11]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.5.1.4/README.md
 [12]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6.1.2/README.md
-[13]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7.1.3/README.md
-[14]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pt.9.1/README.md
+[13]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7.1.2/README.md
+[14]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7.1.3/README.md
+[15]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pt.9.1/README.md
 
 <!-- sase:referenced-by:end -->
