@@ -40,7 +40,7 @@ The 16 terminal-dependent rendering failures are already tracked by sase-1ll. Th
 - **Depends on:** [sase-1om.1](sase-1om.1.md) ✓ · ⧖ 2026-10-26
 - **Depends on:** [sase-1om.3](sase-1om.3.md) ✓ · ⧖ 2026-10-26
 - **Blocks:** [sase-1om.7](sase-1om.7.md) ✓ · ⧖ 2026-10-26
-- **Blocks:** [sase-1om.8](sase-1om.8.md) ○ · ⧖ 2026-10-26
+- **Blocks:** [sase-1om.8](sase-1om.8.md) ✓ · ⧖ 2026-10-26
 
 ## Agents
 

@@ -35,3 +35,15 @@ capacity-inspector: a modal rendering the shared view model, opened from a chip 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`7d1584c`](https://github.com/sase-org/sase/commit/7d1584c47efb1b1c1350b44ab94a67bbeb0f5196) | feat(ace): add keyboard-first capacity inspector | [sase-1om.9](sase-1om.9.md) | 2026-10-27 06:05:37 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1om.9--1][1] | Verify the phase follow-up note before closing | 5 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1om.9.md
+
+<!-- sase:referenced-by:end -->
