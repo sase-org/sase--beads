@@ -125,7 +125,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1om.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1om.7.md) | [sase-1om.7](sase-1om.7.md) | 1 |
 | [bbugyi200.athena.sase-1om.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1om.8.md) | [sase-1om.8](sase-1om.8.md) | 1 |
 | [bbugyi200.athena.sase-1om.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1om.9.md) | [sase-1om.9](sase-1om.9.md) | 1 |
-| [bbugyi200.athena.sase-1om.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1om.land.md) | [sase-1om](README.md) | 1 |
+| [bbugyi200.athena.sase-1om.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1om.land.md) | [sase-1om](README.md) | 2 |
 
 ## Commits
 
@@ -142,6 +142,7 @@ flowchart TD
 | sase | [`212a476`](https://github.com/sase-org/sase/commit/212a4767861c1a796aa1ba46bdfa6888f3edf808) | feat(ace): add agent capacity accounting and occupancy marks | [sase-1om.8](sase-1om.8.md) | 2026-10-27 05:40:30 EDT |
 | sase | [`7d1584c`](https://github.com/sase-org/sase/commit/7d1584c47efb1b1c1350b44ab94a67bbeb0f5196) | feat(ace): add keyboard-first capacity inspector | [sase-1om.9](sase-1om.9.md) | 2026-10-27 06:05:37 EDT |
 | sase | [`a5bc298`](https://github.com/sase-org/sase/commit/a5bc2987cc0e30b1ddec3997a645bb0897a8100e) | docs(tui): name the cap chip in stale load-gauge docstrings | [sase-1om](README.md) | 2026-11-01 15:51:01 EST |
+| sase--plans | [`sase--plans@9b60936`](https://github.com/sase-org/sase--plans/commit/9b6093699daeb56cdbbf1a3580e2bc455ff1e898) | chore(plans): mark machine\_capacity\_transparency done | [sase-1om](README.md) | 2026-11-01 15:51:59 EST |
 
 <!-- sase:referenced-by:start -->
 
