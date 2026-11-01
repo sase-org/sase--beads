@@ -27,11 +27,11 @@ The 16p recovery work is finished (sase-core rustfmt fix landed, broken LaunchAp
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-1qk.1](sase-1qk.1.md) | Land the lost sase-core rustfmt fix | ✓ closed | small | 2026-11-01 | 1 | 0 |
+| [sase-1qk.1](sase-1qk.1.md) | Land the lost sase-core rustfmt fix | ✓ closed | small | 2026-11-01 | 1 | 1 |
 | [sase-1qk.2](sase-1qk.2.md) | Finish the recovery plan 16p abandoned | ◐ in_progress | medium | 2026-11-01 | 1 | 0 |
 | [sase-1qk.3](sase-1qk.3.md) | Reclaim dead-owner reservations and admit monitors before spawning | ✓ closed | medium | 2026-11-01 | 1 | 0 |
 | [sase-1qk.4](sase-1qk.4.md) | Make gate entry signal-safe and withdraw lost gates | ✓ closed | medium | 2026-11-01 | 1 | 1 |
-| [sase-1qk.5](sase-1qk.5.md) | Honor accepted declarations made after a lost gate intent | ◐ in_progress | medium | 2026-11-01 | 1 | 0 |
+| [sase-1qk.5](sase-1qk.5.md) | Honor accepted declarations made after a lost gate intent | ◐ in_progress | medium | 2026-11-01 | 1 | 1 |
 | [sase-1qk.6](sase-1qk.6.md) | Bound the shared pending-action store | ◐ in_progress | medium | 2026-11-01 | 1 | 0 |
 
 ## Lineage
@@ -59,11 +59,11 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1qk.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qk.1/README.md) | [sase-1qk.1](sase-1qk.1.md) | 0 |
+| [bbugyi200.athena.sase-1qk.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qk.1/README.md) | [sase-1qk.1](sase-1qk.1.md) | 1 |
 | [bbugyi200.athena.sase-1qk.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qk.2.md) | [sase-1qk.2](sase-1qk.2.md) | 0 |
 | [bbugyi200.athena.sase-1qk.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qk.3.md) | [sase-1qk.3](sase-1qk.3.md) | 0 |
 | [bbugyi200.athena.sase-1qk.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qk.4.md) | [sase-1qk.4](sase-1qk.4.md) | 1 |
-| [bbugyi200.athena.sase-1qk.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qk.5/README.md) | [sase-1qk.5](sase-1qk.5.md) | 0 |
+| [bbugyi200.athena.sase-1qk.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qk.5.md) | [sase-1qk.5](sase-1qk.5.md) | 1 |
 | [bbugyi200.athena.sase-1qk.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qk.6/README.md) | [sase-1qk.6](sase-1qk.6.md) | 0 |
 | [bbugyi200.athena.sase-1qk.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qk.land/README.md) | [sase-1qk](README.md) | 0 |
 
@@ -71,4 +71,6 @@ flowchart TD
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
+| sase-core | [`sase-core@dc119c0`](https://github.com/sase-org/sase-core/commit/dc119c0bace0b7d6a740c6f769052fdecb5c6148) | style(staged\_handoff): rustfmt recovery and validate re-exports | [sase-1qk.1](sase-1qk.1.md) | 2026-11-01 12:34:58 EST |
 | sase | [`17d8fe5`](https://github.com/sase-org/sase/commit/17d8fe593726e4691972f17b5c8aaeb8635a86d7) | feat(gate-turn): make gate entry signal-safe and withdraw lost gates | [sase-1qk.4](sase-1qk.4.md) | 2026-11-01 13:02:47 EST |
+| sase | [`71827cf`](https://github.com/sase-org/sase/commit/71827cfecc3c8e0103738e83987bb01afa4394d4) | feat(gate-intent): honor accepted declarations made after a lost gate intent | [sase-1qk.5](sase-1qk.5.md) | 2026-11-01 14:04:27 EST |

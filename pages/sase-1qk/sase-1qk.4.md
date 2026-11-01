@@ -32,3 +32,15 @@ gate-entry-atomic: turn termination signals into compensation during gate entry;
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`17d8fe5`](https://github.com/sase-org/sase/commit/17d8fe593726e4691972f17b5c8aaeb8635a86d7) | feat(gate-turn): make gate entry signal-safe and withdraw lost gates | [sase-1qk.4](sase-1qk.4.md) | 2026-11-01 13:02:47 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1qk.4--1][1] | check phase notes and remaining work | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qk.4.md
+
+<!-- sase:referenced-by:end -->

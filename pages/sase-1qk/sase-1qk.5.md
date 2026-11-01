@@ -19,4 +19,10 @@ intent-lost-finalize: let a later accepted final declaration supersede a lost ga
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1qk.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qk.5/README.md) | [sase-1qk.5](sase-1qk.5.md) | 0 |
+| [bbugyi200.athena.sase-1qk.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qk.5.md) | [sase-1qk.5](sase-1qk.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`71827cf`](https://github.com/sase-org/sase/commit/71827cfecc3c8e0103738e83987bb01afa4394d4) | feat(gate-intent): honor accepted declarations made after a lost gate intent | [sase-1qk.5](sase-1qk.5.md) | 2026-11-01 14:04:27 EST |
