@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/task_backlog_epic_4.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/sase-org/sase--plans/blob/main/202611/task_backlog_epic_4.md
 
 <!-- sase:links:end -->
@@ -28,7 +30,7 @@ Fix and close the five next-costliest open task beads, then continue the backlog
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-1qn.1](sase-1qn.1.md) | Stop --epic-symbol rows from outliving their bead (sase-o7) | ✓ closed | large | 2026-11-01 | 1 | 2 |
-| [sase-1qn.2](sase-1qn.2.md) | Stop behavior-neutral module splits from turning the TUI import budget red (sase-1ic) | ◐ in_progress | large | 2026-11-01 | 1 | 0 |
+| [sase-1qn.2](sase-1qn.2.md) | Stop behavior-neutral module splits from turning the TUI import budget red (sase-1ic) | ✓ closed | large | 2026-11-01 | 1 | 1 |
 | [sase-1qn.3](sase-1qn.3.md) | Fix the sase-core federation\_worker socket test flake (sase-1gz) | ✓ closed | large | 2026-11-01 | 1 | 1 |
 | [sase-1qn.4](sase-1qn.4.md) | Fix the zsh sbd alias completion PTY flake (sase-13a) | ✓ closed | large | 2026-11-01 | 1 | 1 |
 | [sase-1qn.5](sase-1qn.5.md) | Fix the AGY usage-probe rate-limit timeout flake (sase-19m) | ✓ closed | medium | 2026-11-01 | 1 | 1 |
@@ -39,7 +41,7 @@ Fix and close the five next-costliest open task beads, then continue the backlog
 flowchart TD
     n0["sase-1qn: Task backlog epic 4: stale whitelist rows, import-budget churn, and recurring check flakes [in_progress]"]
     n1["sase-1qn.1: Stop --epic-symbol rows from outliving their bead (sase-o7) [closed]"]
-    n2["sase-1qn.2: Stop behavior-neutral module splits from turning the TUI import budget red (sase-1ic) [in_progress]"]
+    n2["sase-1qn.2: Stop behavior-neutral module splits from turning the TUI import budget red (sase-1ic) [closed]"]
     n3["sase-1qn.3: Fix the sase-core federation_worker socket test flake (sase-1gz) [closed]"]
     n4["sase-1qn.4: Fix the zsh sbd alias completion PTY flake (sase-13a) [closed]"]
     n5["sase-1qn.5: Fix the AGY usage-probe rate-limit timeout flake (sase-19m) [closed]"]
@@ -55,7 +57,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1qn.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qn.1.md) | [sase-1qn.1](sase-1qn.1.md) | 2 |
-| [bbugyi200.athena.sase-1qn.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qn.2.md) | [sase-1qn.2](sase-1qn.2.md) | 0 |
+| [bbugyi200.athena.sase-1qn.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qn.2.md) | [sase-1qn.2](sase-1qn.2.md) | 1 |
 | [bbugyi200.athena.sase-1qn.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qn.3.md) | [sase-1qn.3](sase-1qn.3.md) | 1 |
 | [bbugyi200.athena.sase-1qn.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qn.4.md) | [sase-1qn.4](sase-1qn.4.md) | 1 |
 | [bbugyi200.athena.sase-1qn.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qn.5/README.md) | [sase-1qn.5](sase-1qn.5.md) | 1 |
@@ -70,3 +72,16 @@ flowchart TD
 | sase | [`34a8638`](https://github.com/sase-org/sase/commit/34a8638ee07c7f98591cde669b04779ab2661605) | fix(llm-provider): drain AGY probe stderr so rate-limit wins over timeout | [sase-1qn.5](sase-1qn.5.md) | 2026-11-01 16:42:33 EST |
 | sase-core | [`sase-core@e60f3e1`](https://github.com/sase-org/sase-core/commit/e60f3e1658d34f1345bc4bef8bf112a396749c87) | feat(bead): classify epic symbol freshness in Rust | [sase-1qn.1](sase-1qn.1.md) | 2026-11-01 16:44:55 EST |
 | sase | [`5585fad`](https://github.com/sase-org/sase/commit/5585fadefdbe1d82bb806bb1fde77362f5c8ffb9) | fix(bead): preflight stale epic symbol rows | [sase-1qn.1](sase-1qn.1.md) | 2026-11-01 16:46:31 EST |
+| sase | [`5d7a79c`](https://github.com/sase-org/sase/commit/5d7a79c3c01bb947078afc5fcabf7f21257cd6a7) | test(tui): measure the import budget in source footprint, not module count | [sase-1qn.2](sase-1qn.2.md) | 2026-11-01 17:33:29 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1qn.5][1] | Need parent epic DECISIONS and phase list | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qn.5/README.md
+
+<!-- sase:referenced-by:end -->

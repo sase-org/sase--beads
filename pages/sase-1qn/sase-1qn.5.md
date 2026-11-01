@@ -34,3 +34,15 @@ agy-probe-timeout-flake: tests/llm_provider/test_agy_usage_probe.py::test_agy_us
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`34a8638`](https://github.com/sase-org/sase/commit/34a8638ee07c7f98591cde669b04779ab2661605) | fix(llm-provider): drain AGY probe stderr so rate-limit wins over timeout | [sase-1qn.5](sase-1qn.5.md) | 2026-11-01 16:42:33 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1qn.5][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qn.5/README.md
+
+<!-- sase:referenced-by:end -->
