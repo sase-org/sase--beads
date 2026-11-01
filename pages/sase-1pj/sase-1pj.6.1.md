@@ -43,13 +43,14 @@ Make every staged handoff replayable after runner death, reconcile completed tur
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1pj.6.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.6.1.land.md) | [sase-1pj.6.1](sase-1pj.6.1.md) | 1 |
+| [bbugyi200.athena.sase-1pj.6.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.6.1.land.md) | [sase-1pj.6.1](sase-1pj.6.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`078e3da`](https://github.com/sase-org/sase/commit/078e3da1d6a784cfc8fd2ab783273246318660c2) | fix(axe): recover staged successor claim handovers | [sase-1pj.6.1](sase-1pj.6.1.md) | 2026-11-01 14:34:16 EST |
+| sase--plans | [`sase--plans@bc18a97`](https://github.com/sase-org/sase--plans/commit/bc18a97ac672906d8b2ad6222c9bd669a73a5ea2) | docs(plan): close staged handoff recovery phase | [sase-1pj.6.1](sase-1pj.6.1.md) | 2026-11-01 14:36:02 EST |
 
 <!-- sase:referenced-by:start -->
 

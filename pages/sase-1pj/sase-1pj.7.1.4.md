@@ -93,7 +93,7 @@ recovery-surfaces: expose stranded workspace evidence, support safe resume and e
 
 [2026-11-01T19:17:46Z · sase-1pj.7.1.4--5] Close blocked: origin/master Justfile still carries sase-1pj.7.1.4(WorkspaceRetentionResult); working tree re-keys to parent epic sase-1pj.7.1. T
 
-… and 4968 more characters
+… and 6735 more characters
 
 ## Dependencies
 
