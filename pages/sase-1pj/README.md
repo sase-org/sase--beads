@@ -42,7 +42,7 @@ Turn-ending commands (plan propose, questions, pipe, gate create, sudo request, 
 | [sase-1pj.3](sase-1pj.3.md) | Stage questions and pipe handoffs | ✓ closed | medium | 2026-10-28 | 1 | 1 |
 | [sase-1pj.4](sase-1pj.4.md) | Stage gate, sudo, launch, run, and workflow HITL gates | ✓ closed | large | 2026-10-28 | 1 | 0 |
 | [sase-1pj.5](sase-1pj.5.md) | Stage monitor starts and spawn after finalization | ✓ closed | large | 2026-10-28 | 1 | 0 |
-| [sase-1pj.6](sase-1pj.6.md) | Idempotent adoption, crash reconciliation, and re-adopt | ◐ in_progress | large | 2026-10-28 | 1 | 0 |
+| [sase-1pj.6](sase-1pj.6.md) | Idempotent adoption, crash reconciliation, and re-adopt | ✓ closed | large | 2026-10-28 | 1 | 0 |
 | [sase-1pj.7](sase-1pj.7.md) | Hold workspaces whose carried work has no successor | ◐ in_progress | large | 2026-10-28 | 1 | 0 |
 | [sase-1pj.8](sase-1pj.8.md) | Remove the flag and the kill-path machinery | ◐ in_progress | large | 2026-10-28 | 1 | 0 |
 | [sase-1pj.9](sase-1pj.9.md) | Final skills, docs, and memory | ◐ in_progress | medium | 2026-10-28 | 1 | 0 |
@@ -81,8 +81,8 @@ flowchart TD
     n27["sase-1pj.5.1.2: Split monitor preparation from process launch [closed]"]
     n28["sase-1pj.5.1.3: Preserve prepared completion and joins across staging [closed]"]
     n29["sase-1pj.5.1.4: Connect staged starts to runner adoption and document the protocol [closed]"]
-    n30["sase-1pj.6: Idempotent adoption, crash reconciliation, and re-adopt [in_progress]"]
-    n31["sase-1pj.6.1: Recover staged handoffs without repeating adoption [in_progress]"]
+    n30["sase-1pj.6: Idempotent adoption, crash reconciliation, and re-adopt [closed]"]
+    n31["sase-1pj.6.1: Recover staged handoffs without repeating adoption [closed]"]
     n32["sase-1pj.6.1.1: Define durable recovery identity and replay decisions [closed]"]
     n33["sase-1pj.6.1.2: Recover pipe and inline successors exactly once [closed]"]
     n34["sase-1pj.6.1.3: Replay plan and question approval handoffs [closed]"]
@@ -241,7 +241,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1pj.6.1.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.6.1.6.md) | [sase-1pj.6.1.6](sase-1pj.6.1.6.md) | 1 |
 | [bbugyi200.athena.sase-1pj.6.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6.1.7/README.md) | [sase-1pj.6.1.7](sase-1pj.6.1.7.md) | 1 |
 | [bbugyi200.athena.sase-1pj.6.1.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.6.1.8.md) | [sase-1pj.6.1.8](sase-1pj.6.1.8.md) | 2 |
-| [bbugyi200.athena.sase-1pj.6.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6.1.land/README.md) | [sase-1pj.6.1](sase-1pj.6.1.md) | 0 |
+| [bbugyi200.athena.sase-1pj.6.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.6.1.land.md) | [sase-1pj.6.1](sase-1pj.6.1.md) | 1 |
 | [bbugyi200.athena.sase-1pj.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.7.md) | [sase-1pj.7](sase-1pj.7.md) | 0 |
 | [bbugyi200.athena.sase-1pj.7.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7.1.1/README.md) | [sase-1pj.7.1.1](sase-1pj.7.1.1.md) | 2 |
 | [bbugyi200.athena.sase-1pj.7.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7.1.2/README.md) | [sase-1pj.7.1.2](sase-1pj.7.1.2.md) | 1 |
@@ -307,7 +307,7 @@ flowchart TD
 | sase | [`f2e8480`](https://github.com/sase-org/sase/commit/f2e84801ccfe2251c01808db4f8462ba00f41f7c) | fix(workspace-retention): retain stranded gate and staged workspaces | [sase-1pj.7.1.3](sase-1pj.7.1.3.md) | 2026-10-31 16:57:37 EDT |
 | sase | [`745d7b5`](https://github.com/sase-org/sase/commit/745d7b57b15e0639c5c62baa80fcd4ca5e94faf8) | feat(monitor): settle stranded workspaces through shared settlement adapter | [sase-1pj.7.1.2](sase-1pj.7.1.2.md) | 2026-10-31 18:06:40 EDT |
 
-… and 3 more commits
+… and 4 more commits
 
 <!-- sase:referenced-by:start -->
 

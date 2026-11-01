@@ -11,6 +11,90 @@
 
 recovery-surfaces: expose stranded workspace evidence, support safe resume and explicit dismissal, and verify stale cleanup respects terminal holds.
 
+## Notes
+
+[2026-11-01T18:36:53Z · sase-1pj.7.1.4--5] Verification 2026-11-01: recovery-surfaces scope complete. Focused pytest 127 passed (workspace_retention, stale_cleanup, stranded_collector, facade, dismissal, identity header). sase-core single test retained_workspace_overrides_stale_handoff_evidence_but_keeps_successor_owner now ok after correcting expected owner to w--2 (prior full check 5740 passed/1 failed on wrong expectation running). Snapshots af3a6271f10a4373b1a30fcf87d75505 and b35e23cf4a574308bf68e8c3a434a08f both clean, byte_equal, 0 changed pixels, no unstable nodes. Primary sase tool run check lints all passed (fmt, ruff, mypy, symvision, SASE validation); full run timed out after 45m in test stage after prior 20m green run. Working-tree Justfile re-keys WorkspaceRetentionResult to parent epic sase-1pj.7.1; sase bead close refused only by origin/master row sase-1pj.7.1.4(WorkspaceRetentionResult) needing host landing, then recovery close.
+
+[2026-11-01T18:38:28Z · sase-1pj.7.1.4--5] Retry 2026-11-01: close still refused only by origin/master row sase-1pj.7.1.4(WorkspaceRetentionResult); working-tree Justfile keeps parent-epic re-key sase-1pj.7.1(WorkspaceRetentionResult); primary and sase-core trees preserved for host landing, then recovery close.
+
+[2026-11-01T18:39:43Z · sase-1pj.7.1.4--5] Close retry blocked: sase bead epic-symbols still shows origin/master-only sase-1pj.7.1.4(WorkspaceRetentionResult); working-tree Justfile retains parent-epic re-key sase-1pj.7.1(WorkspaceRetentionResult); trees preserved for host landing.
+
+[2026-11-01T18:41:23Z · sase-1pj.7.1.4--5] Close blocked 2026-11-01: origin/master Justfile still carries sase-1pj.7.1.4(WorkspaceRetentionResult); working tree re-keys to parent epic sase-1pj.7.1. Trees left dirty for host landing; retry close after upstream re-key lands.
+
+[2026-11-01T18:42:45Z · sase-1pj.7.1.4--5] Close blocked 2026-11-01: origin/master Justfile still carries sase-1pj.7.1.4(WorkspaceRetentionResult); working tree re-keys to parent epic sase-1pj.7.1. Trees left dirty for host landing; retry close after upstream re-key lands.
+
+[2026-11-01T18:43:51Z · sase-1pj.7.1.4--5] Close blocked: origin/master Justfile still carries sase-1pj.7.1.4(WorkspaceRetentionResult); working tree re-keys to parent epic sase-1pj.7.1. Primary and sase-core trees left dirty for host landing.
+
+[2026-11-01T18:45:11Z · sase-1pj.7.1.4--5] Close blocked 2026-11-01: origin/master Justfile still carries sase-1pj.7.1.4(WorkspaceRetentionResult); working tree re-keys to parent epic sase-1pj.7.1. Primary and sase-core trees left dirty for host landing.
+
+[2026-11-01T18:46:19Z · sase-1pj.7.1.4--5] Close blocked: origin/master Justfile still carries sase-1pj.7.1.4(WorkspaceRetentionResult); working tree re-keys to parent epic sase-1pj.7.1. Trees left dirty for host landing.
+
+[2026-11-01T18:47:24Z · sase-1pj.7.1.4--5] Close blocked: origin/master Justfile still carries sase-1pj.7.1.4(WorkspaceRetentionResult); working tree re-keys to parent epic sase-1pj.7.1. Trees left dirty for host landing.
+
+[2026-11-01T18:48:45Z · sase-1pj.7.1.4--5] Close blocked: origin/master Justfile still carries sase-1pj.7.1.4(WorkspaceRetentionResult); working tree re-keys to parent epic sase-1pj.7.1. Trees left dirty for host landing.
+
+[2026-11-01T18:50:01Z · sase-1pj.7.1.4--5] Close blocked: origin/master Justfile still carries sase-1pj.7.1.4(WorkspaceRetentionResult); working tree re-keys to parent epic sase-1pj.7.1. Trees left dirty for host landing.
+
+[2026-11-01T18:51:06Z · sase-1pj.7.1.4--5] Close blocked: origin/master Justfile still carries sase-1pj.7.1.4(WorkspaceRetentionResult); working tree re-keys to parent epic sase-1pj.7.1. Trees left dirty for host landing.
+
+[2026-11-01T18:52:08Z · sase-1pj.7.1.4--5] Close blocked: origin/master Justfile still carries sase-1pj.7.1.4(WorkspaceRetentionResult); working tree re-keys to parent epic sase-1pj.7.1. Trees left dirty for host landing.
+
+[2026-11-01T18:53:16Z · sase-1pj.7.1.4--5] Close blocked: origin/master Justfile still carries sase-1pj.7.1.4(WorkspaceRetentionResult); working tree re-keys to parent epic sase-1pj.7.1. Trees left dirty for host landing.
+
+[2026-11-01T18:54:22Z · sase-1pj.7.1.4--5] Close blocked: origin/master Justfile still carries sase-1pj.7.1.4(WorkspaceRetentionResult); working tree re-keys to parent epic sase-1pj.7.1. Primary and sase-core trees preserved for host landing.
+
+[2026-11-01T18:55:14Z · sase-1pj.7.1.4--5] Close blocked: origin/master Justfile still carries sase-1pj.7.1.4(WorkspaceRetentionResult); working tree re-keys to parent epic sase-1pj.7.1. Primary and sase-core trees preserved for host landing.
+
+[2026-11-01T18:56:23Z · sase-1pj.7.1.4--5] Close blocked: origin/master Justfile still carries sase-1pj.7.1.4(WorkspaceRetentionResult); working tree re-keys to parent epic sase-1pj.7.1. Trees left dirty for host landing.
+
+[2026-11-01T18:57:19Z · sase-1pj.7.1.4--5] Close blocked: origin/master Justfile still carries sase-1pj.7.1.4(WorkspaceRetentionResult); working tree re-keys to parent epic sase-1pj.7.1. Trees left dirty for host landing.
+
+[2026-11-01T18:58:25Z · sase-1pj.7.1.4--5] Close blocked: origin/master Justfile still carries sase-1pj.7.1.4(WorkspaceRetentionResult); working tree re-keys to parent epic sase-1pj.7.1. Trees left dirty for host landing.
+
+[2026-11-01T18:59:19Z · sase-1pj.7.1.4--5] Close blocked: origin/master Justfile still carries sase-1pj.7.1.4(WorkspaceRetentionResult); working tree re-keys to parent epic sase-1pj.7.1. Trees preserved for host landing.
+
+[2026-11-01T19:00:07Z · sase-1pj.7.1.4--5] Close blocked: origin/master Justfile still carries sase-1pj.7.1.4(WorkspaceRetentionResult); working tree re-keys to parent epic sase-1pj.7.1. Trees preserved for host landing.
+
+[2026-11-01T19:00:54Z · sase-1pj.7.1.4--5] Close blocked: origin/master Justfile still carries sase-1pj.7.1.4(WorkspaceRetentionResult); working tree re-keys to parent epic sase-1pj.7.1. Trees preserved for host landing.
+
+[2026-11-01T19:01:44Z · sase-1pj.7.1.4--5] Close blocked: origin/master Justfile still carries sase-1pj.7.1.4(WorkspaceRetentionResult); working tree re-keys to parent epic sase-1pj.7.1. Primary and sase-core trees preserved for host landing.
+
+[2026-11-01T19:02:46Z · sase-1pj.7.1.4--5] Close blocked: origin/master Justfile still carries sase-1pj.7.1.4(WorkspaceRetentionResult); working tree re-keys to parent epic sase-1pj.7.1. Trees preserved for host landing.
+
+[2026-11-01T19:03:46Z · sase-1pj.7.1.4--5] Close blocked: origin/master Justfile still carries sase-1pj.7.1.4(WorkspaceRetentionResult); working tree re-keys to parent epic sase-1pj.7.1. Trees preserved for host landing.
+
+[2026-11-01T19:04:30Z · sase-1pj.7.1.4--5] Close blocked: origin/master Justfile still carries sase-1pj.7.1.4(WorkspaceRetentionResult); working tree re-keys to parent epic sase-1pj.7.1. Trees preserved for host landing.
+
+[2026-11-01T19:05:23Z · sase-1pj.7.1.4--5] Close blocked: origin/master Justfile still carries sase-1pj.7.1.4(WorkspaceRetentionResult); working tree re-keys to parent epic sase-1pj.7.1. Trees preserved for host landing.
+
+[2026-11-01T19:06:14Z · sase-1pj.7.1.4--5] Close blocked: origin/master Justfile still carries sase-1pj.7.1.4(WorkspaceRetentionResult); working tree re-keys to parent epic sase-1pj.7.1. Primary and sase-core trees preserved for host landing.
+
+[2026-11-01T19:07:06Z · sase-1pj.7.1.4--5] Close blocked: origin/master Justfile still carries sase-1pj.7.1.4(WorkspaceRetentionResult); working tree re-keys to parent epic sase-1pj.7.1. Trees preserved for host landing.
+
+[2026-11-01T19:08:07Z · sase-1pj.7.1.4--5] Close blocked: origin/master Justfile still carries sase-1pj.7.1.4(WorkspaceRetentionResult); working tree re-keys to parent epic sase-1pj.7.1. Trees preserved for host landing.
+
+[2026-11-01T19:08:53Z · sase-1pj.7.1.4--5] Close blocked: origin/master Justfile still carries sase-1pj.7.1.4(WorkspaceRetentionResult); working tree re-keys to parent epic sase-1pj.7.1. Trees preserved for host landing.
+
+[2026-11-01T19:09:46Z · sase-1pj.7.1.4--5] Close blocked: origin/master Justfile still carries sase-1pj.7.1.4(WorkspaceRetentionResult); working tree re-keys to parent epic sase-1pj.7.1. Trees preserved for host landing.
+
+[2026-11-01T19:11:07Z · sase-1pj.7.1.4--5] Close blocked: origin/master Justfile still carries sase-1pj.7.1.4(WorkspaceRetentionResult); working tree re-keys to parent epic sase-1pj.7.1. Trees preserved for host landing.
+
+[2026-11-01T19:11:58Z · sase-1pj.7.1.4--5] Close blocked: origin/master Justfile still carries sase-1pj.7.1.4(WorkspaceRetentionResult); working tree re-keys to parent epic sase-1pj.7.1. Trees preserved for host landing.
+
+[2026-11-01T19:13:40Z · sase-1pj.7.1.4--5] Close blocked: origin/master Justfile still carries sase-1pj.7.1.4(WorkspaceRetentionResult); working tree re-keys to parent epic sase-1pj.7.1. Trees preserved for host landing.
+
+[2026-11-01T19:14:27Z · sase-1pj.7.1.4--5] Close blocked: origin/master Justfile still carries sase-1pj.7.1.4(WorkspaceRetentionResult); working tree re-keys to parent epic sase-1pj.7.1. Trees preserved for host landing.
+
+[2026-11-01T19:15:18Z · sase-1pj.7.1.4--5] Close blocked: origin/master Justfile still carries sase-1pj.7.1.4(WorkspaceRetentionResult); working tree re-keys to parent epic sase-1pj.7.1. Trees preserved for host landing.
+
+[2026-11-01T19:16:15Z · sase-1pj.7.1.4--5] Close blocked: origin/master Justfile still carries sase-1pj.7.1.4(WorkspaceRetentionResult); working tree re-keys to parent epic sase-1pj.7.1. Trees preserved for host landing.
+
+[2026-11-01T19:16:57Z · sase-1pj.7.1.4--5] Close blocked: origin/master Justfile still carries sase-1pj.7.1.4(WorkspaceRetentionResult); working tree re-keys to parent epic sase-1pj.7.1. Trees preserved for host landing.
+
+[2026-11-01T19:17:46Z · sase-1pj.7.1.4--5] Close blocked: origin/master Justfile still carries sase-1pj.7.1.4(WorkspaceRetentionResult); working tree re-keys to parent epic sase-1pj.7.1. T
+
+… and 4968 more characters
+
 ## Dependencies
 
 - **Depends on:** [sase-1pj.7.1.2](sase-1pj.7.1.2.md) ✓ · ⧖ 2026-10-31

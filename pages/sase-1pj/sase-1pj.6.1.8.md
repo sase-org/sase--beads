@@ -46,7 +46,9 @@ reconcile-stages: add bounded scheduler housekeeping for finalized staged turns 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1pj.6.1.6--1][1] | Need sibling phase scope for re-key decision | 1 |
+| read-by | [agent:sase-1pj.6.1.8--2][2] | Need the phase scope and design file | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.6.1.6.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.6.1.8.md
 
 <!-- sase:referenced-by:end -->

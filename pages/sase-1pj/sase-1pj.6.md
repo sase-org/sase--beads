@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [sase-1pj](README.md) / sase-1pj.6
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.research.5f.linker.w0](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.research.5f.linker.w0.md) · **Assignee:** `sase-1pj.6` · **Size:** large
-**Created:** 2026-10-28 20:28:59 EDT
+**Created:** 2026-10-28 20:28:59 EDT · **Closed:** 2026-11-01 14:29:29 EST
 **Plan:** [202610/staged\_handoffs.md](https://github.com/sase-org/sase--plans/blob/main/202610/staged_handoffs.md)
 
 ## Description
 
 adoption-recovery: make adoption idempotent for every kind, reconcile staged handoffs whose runner died after finalization, and add a re-adopt command for handoffs held by failed finalization.
+
+## Notes
+
+[2026-11-01T19:30:01Z · sase-1pj.6.1.land--1] Parent-phase verification: its scoped objectives are covered by closed child epic sase-1pj.6.1 and all eight of that epic's phases: idempotent adoption for every handoff kind, reconciliation after a staged origin runner dies, and an explicit re-adopt command for held handoffs. The child epic close note records the landed phase commits, core pin ancestry, integration, focused tests, and check ToolRun. No --epic-symbol entries for sase-1pj.6. returned no entries. The child close command also closed this parent phase automatically; this note records the requested phase-specific verification. No containing epic or other ancestor was closed.
 
 ## Dependencies
 

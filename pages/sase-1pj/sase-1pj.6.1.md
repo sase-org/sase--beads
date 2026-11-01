@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1pj.6](sase-1pj.6.md) / sase-1pj.6.1
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-1pj.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.6.md) · **Assignee:** `sase-1pj.6.1.land`
-**Created:** 2026-10-31 08:56:53 EDT
+**Created:** 2026-10-31 08:56:53 EDT · **Closed:** 2026-11-01 14:29:29 EST
 **Plan:** [202610/staged\_handoff\_recovery.md](https://github.com/sase-org/sase--plans/blob/main/202610/staged_handoff_recovery.md)
 
 <!-- sase:links:start -->
@@ -35,11 +35,21 @@ Make every staged handoff replayable after runner death, reconcile completed tur
 
 [2026-11-01T17:50:39Z · sase-1pu.5.1.5.land] LAND FOLLOW-UP RESOLVED: Rechecked phase sase-1pu.5.1.5.1 note 1 and this epic notes 2-3. The four staged_handoff rustfmt changes are now committed in linked sase-core dc119c0b by closed phase sase-1qk.1; its recorded fmt-check passed. Declined a new task or further corroboration because the proposed formatting repair has landed. The core run-state pin dc5383f6 already contains the required bindings; this formatting-only follow-up does not require changing that feature pin.
 
+[2026-11-01T18:32:38Z · sase-1pj.6.1.land] LAND FOLLOW-UP TRIAGE (sase-1pj.6.1.land): sase-1pj.6.1.2 #1 (TUI import budget 2863 vs cap 2861) and sase-1pj.6.1.5 #1 (the same node failing on the clean base under load) are semantic duplicates of open sase-1ic. Corroborated them with one +1 (now +35). sase-1pj.6.1.2 #2 (create-project review button sees 'checking' under xdist) had no owner, so I created flake task sase-1ql (ready). sase-1pj.6.1.5 #2 (split start_stage_adopt.py) is declined: 877fef9203 already split it into a 33-line facade plus _start_stage_adopt_* modules. sase-1pj.6.1.8 #3 (stale_worktree_fingerprint refusal of an unchanged prepared completion) had no owner, and its code predates every active epic, so I created bug task sase-1qm (ready). Epic note #1 (monitor settlement crashes on stale in-process code after a live update) is not caused by this epic: release_workspace(artifacts_timestamp=) and decide_workspace_retention come from sase-1pj.7.1.1 and are reached through 7.1.2. I recorded it as a DISCOVERED ISSUE on active epic sase-1pj.7.1. Epic notes #2-#4 (core rustfmt) are declined as resolved: sase-core dc119c0b landed the format fix, and pin 16a3ed0f contains it. The integration seam (stale-cleanup staged-origin retention overrides the held-claim TTL, and recovery-service holds write no retention record) is recorded as a DISCOVERED ISSUE on sase-1pj.7.1 for its in-progress recovery-surfaces phase 7.1.4, which owns TTL and surfacing policy. Remaining epic-caused work goes to a lander tale: detached successor delivery must take over the dead origin's workspace claim, and recovery-discovered holds must send one deduplicated readopt notification.
+
+[2026-11-01T19:29:29Z · sase-1pj.6.1.land--1] Verification: all eight phases are closed and landed — 6.1.1 d3d26a5b55, 6.1.2 b674079c2b, 6.1.3 9c17b8454b, 6.1.4 d9129cfd4b, 6.1.5 6a2c90f41b, 6.1.6 406c57f126, 6.1.7 288d2afeeb, and 6.1.8 a19243cdf6. Core recovery commits 73ec04a0 and 16a3ed0f are both in the sase-core-revision.txt pin; the pin names 16a3ed0f, whose history descends from 73ec04a0. The recovery work integrates with workspace-retention phases sase-1pj.7.1.1–7.1.3 and lost-gate withdrawal phase sase-1qk.4, with the staged recovery/adoption/delivery refactor splits preserved. Epic follow-up triage note #5 was reviewed: duplicate TUI import-budget failures were corroborated on sase-1ic; create-project flake sase-1ql and stale-worktree bug sase-1qm were filed; the already-landed start-stage split and resolved core rustfmt follow-ups were declined; monitor-settlement and retention integration follow-ups were routed to sase-1pj.7.1; this tale owns the remaining two gaps. This tale transfers a dead origin workspace claim atomically in both detached spawn paths, holds conflicts for retry, and tests pinned claims; it also sends recovery-discovered hold notices with origin/stage/reason deduplication while reusing the runner wording. The focused matrix including tests/test_staged_successor_claim_handover.py passed 150 tests. ToolRun ca821370d66d97873b1185d31ed48488 ran check: lint, docs, and Symvision passed; scoped tests had 29 unrelated failures (26 NEW and 1 FLAKY triage items), matching the documented parallel-lane failures in sase-1qk.4 note #1; six representative failures passed serially. Standalone just symvision passed cleanly.
+
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1pj.6.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6.1.land/README.md) | [sase-1pj.6.1](sase-1pj.6.1.md) | 0 |
+| [bbugyi200.athena.sase-1pj.6.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.6.1.land.md) | [sase-1pj.6.1](sase-1pj.6.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`078e3da`](https://github.com/sase-org/sase/commit/078e3da1d6a784cfc8fd2ab783273246318660c2) | fix(axe): recover staged successor claim handovers | [sase-1pj.6.1](sase-1pj.6.1.md) | 2026-11-01 14:34:16 EST |
 
 <!-- sase:referenced-by:start -->
 
