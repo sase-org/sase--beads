@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202610/staged_handoff_recovery.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 8 automatic references — see [Referenced By](#referenced-by)._
+_Plus 9 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/staged_handoff_recovery.md
 
@@ -43,14 +43,7 @@ Make every staged handoff replayable after runner death, reconcile completed tur
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1pj.6.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.6.1.land.md) | [sase-1pj.6.1](sase-1pj.6.1.md) | 2 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase | [`078e3da`](https://github.com/sase-org/sase/commit/078e3da1d6a784cfc8fd2ab783273246318660c2) | fix(axe): recover staged successor claim handovers | [sase-1pj.6.1](sase-1pj.6.1.md) | 2026-11-01 14:34:16 EST |
-| sase--plans | [`sase--plans@bc18a97`](https://github.com/sase-org/sase--plans/commit/bc18a97ac672906d8b2ad6222c9bd669a73a5ea2) | docs(plan): close staged handoff recovery phase | [sase-1pj.6.1](sase-1pj.6.1.md) | 2026-11-01 14:36:02 EST |
+| [bbugyi200.athena.sase-1pj.6.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.6.1.land.md) | [sase-1pj.6.1](sase-1pj.6.1.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
@@ -65,7 +58,8 @@ Make every staged handoff replayable after runner death, reconcile completed tur
 | read-by | [agent:sase-1pj.6.1.5][5] | need decisions | 1 |
 | read-by | [agent:sase-1pj.6.1.6--1][6] | Need epic DECISIONS | 2 |
 | read-by | [agent:sase-1pj.6.1.7][7] | Need epic decisions governing this phase | 1 |
-| read-by | [agent:sase-1pu.5.1.5.1][8] | Need the active staged-handoff epic note that owns the unchanged-file rustfmt failure | 1 |
+| read-by | [agent:sase-1pj.6.1.land--1][8] | Need epic notes and land triage before finishing the approved staged-recovery tale | 2 |
+| read-by | [agent:sase-1pu.5.1.5.1][9] | Need the active staged-handoff epic note that owns the unchanged-file rustfmt failure | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.6.1.1.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6.1.2/README.md
@@ -74,6 +68,7 @@ Make every staged handoff replayable after runner death, reconcile completed tur
 [5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6.1.5/README.md
 [6]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.6.1.6.md
 [7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6.1.7/README.md
-[8]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pu.5.1.5.1/README.md
+[8]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.6.1.land.md
+[9]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pu.5.1.5.1/README.md
 
 <!-- sase:referenced-by:end -->

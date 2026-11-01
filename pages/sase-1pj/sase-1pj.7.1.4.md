@@ -93,7 +93,7 @@ recovery-surfaces: expose stranded workspace evidence, support safe resume and e
 
 [2026-11-01T19:17:46Z · sase-1pj.7.1.4--5] Close blocked: origin/master Justfile still carries sase-1pj.7.1.4(WorkspaceRetentionResult); working tree re-keys to parent epic sase-1pj.7.1. T
 
-… and 6735 more characters
+… and 36519 more characters
 
 ## Dependencies
 
@@ -104,4 +104,10 @@ recovery-surfaces: expose stranded workspace evidence, support safe resume and e
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1pj.7.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.7.1.4.md) | [sase-1pj.7.1.4](sase-1pj.7.1.4.md) | 0 |
+| [bbugyi200.athena.sase-1pj.7.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.7.1.4.md) | [sase-1pj.7.1.4](sase-1pj.7.1.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase-core | [`sase-core@154fe9e`](https://github.com/sase-org/sase-core/commit/154fe9e2a934b6a7caefc0c1d0f9f3daed696e07) | feat(stranded-work): retain held workspace as stranded unless live successor owns | [sase-1pj.7.1.4](sase-1pj.7.1.4.md) | 2026-11-01 15:53:10 EST |
