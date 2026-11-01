@@ -21,7 +21,7 @@ evidence-policy: implement shared raw-marker classification and bounded hood-dis
 
 ## Dependencies
 
-- **Blocks:** [sase-1pu.5.1.5.2](sase-1pu.5.1.5.2.md) ◐ · ⧖ 2026-11-01
+- **Blocks:** [sase-1pu.5.1.5.2](sase-1pu.5.1.5.2.md) ✓ · ⧖ 2026-11-01
 
 ## Agents
 
@@ -34,3 +34,15 @@ evidence-policy: implement shared raw-marker classification and bounded hood-dis
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@dc5383f`](https://github.com/sase-org/sase-core/commit/dc5383f6cb3008b2b6dc935b13afba5679d17787) | feat(agent-run-state): classify raw evidence and bound hood discovery | [sase-1pu.5.1.5.1](sase-1pu.5.1.5.1.md) | 2026-11-01 10:46:47 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pu.5.1.5.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pu.5.1.5.1/README.md
+
+<!-- sase:referenced-by:end -->

@@ -68,7 +68,7 @@ flowchart TD
     n10["sase-1pu.5.1.4: Schedule bounded reconciliation and document owner-local backfill [closed]"]
     n11["sase-1pu.5.1.5: Finish exact evidence and bounded published-state repair [in_progress]"]
     n12["sase-1pu.5.1.5.1: Complete raw-evidence and bounded-discovery contracts in Rust [closed]"]
-    n13["sase-1pu.5.1.5.2: Integrate exact evidence, honest repair progress, and current publishers [in_progress]"]
+    n13["sase-1pu.5.1.5.2: Integrate exact evidence, honest repair progress, and current publishers [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -102,7 +102,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1pu.5.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pu.5.1.3.md) | [sase-1pu.5.1.3](sase-1pu.5.1.3.md) | 1 |
 | [bbugyi200.athena.sase-1pu.5.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pu.5.1.4.md) | [sase-1pu.5.1.4](sase-1pu.5.1.4.md) | 1 |
 | [bbugyi200.athena.sase-1pu.5.1.5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pu.5.1.5.1/README.md) | [sase-1pu.5.1.5.1](sase-1pu.5.1.5.1.md) | 1 |
-| [bbugyi200.athena.sase-1pu.5.1.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pu.5.1.5.2/README.md) | [sase-1pu.5.1.5.2](sase-1pu.5.1.5.2.md) | 0 |
+| [bbugyi200.athena.sase-1pu.5.1.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pu.5.1.5.2/README.md) | [sase-1pu.5.1.5.2](sase-1pu.5.1.5.2.md) | 1 |
 | [bbugyi200.athena.sase-1pu.5.1.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pu.5.1.5.land/README.md) | [sase-1pu.5.1.5](sase-1pu.5.1.5.md) | 0 |
 | [bbugyi200.athena.sase-1pu.5.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pu.5.1.land.md) | [sase-1pu.5.1](sase-1pu.5.1.md) | 0 |
 | [bbugyi200.athena.sase-1pu.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pu.land/README.md) | [sase-1pu](README.md) | 0 |
@@ -120,6 +120,7 @@ flowchart TD
 | sase | [`5c14ac6`](https://github.com/sase-org/sase/commit/5c14ac6a54abce25f040ad491d817aaef9aec495) | feat(agents-sync): add bounded report-and-apply repair for published run states | [sase-1pu.5.1.3](sase-1pu.5.1.3.md) | 2026-10-30 03:00:33 EDT |
 | sase | [`b161834`](https://github.com/sase-org/sase/commit/b1618348d44078a3d5f8ee52ff7d4cc0b70f441d) | feat(agents-sync): schedule bounded reconciliation and document owner-local backfill | [sase-1pu.5.1.4](sase-1pu.5.1.4.md) | 2026-10-30 06:04:22 EDT |
 | sase-core | [`sase-core@dc5383f`](https://github.com/sase-org/sase-core/commit/dc5383f6cb3008b2b6dc935b13afba5679d17787) | feat(agent-run-state): classify raw evidence and bound hood discovery | [sase-1pu.5.1.5.1](sase-1pu.5.1.5.1.md) | 2026-11-01 10:46:47 EST |
+| sase | [`a0b00da`](https://github.com/sase-org/sase/commit/a0b00da79be776c4c1632b692f613e3f6bf31927) | feat(agents-sync): bound published-state repair to exact-run observations | [sase-1pu.5.1.5.2](sase-1pu.5.1.5.2.md) | 2026-11-01 12:35:00 EST |
 
 <!-- sase:referenced-by:start -->
 
