@@ -18,7 +18,7 @@ readopt-cli: add sase agent readopt for one unambiguous originating turn, render
 ## Dependencies
 
 - **Depends on:** [sase-1pj.6.1.6](sase-1pj.6.1.6.md) ✓ · ⧖ 2026-10-31
-- **Blocks:** [sase-1pj.6.1.8](sase-1pj.6.1.8.md) ◐ · ⧖ 2026-10-31
+- **Blocks:** [sase-1pj.6.1.8](sase-1pj.6.1.8.md) ✓ · ⧖ 2026-10-31
 
 ## Agents
 
@@ -39,7 +39,9 @@ readopt-cli: add sase agent readopt for one unambiguous originating turn, render
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1pj.6.1.6--1][1] | Need sibling phase scope for re-key decision | 1 |
+| read-by | [agent:sase-1pj.6.1.7][2] | Need the phase scope and design file | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.6.1.6.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6.1.7/README.md
 
 <!-- sase:referenced-by:end -->

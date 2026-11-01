@@ -33,8 +33,10 @@ adoption-recovery: make adoption idempotent for every kind, reconcile staged han
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1pj.6.1.2][1] | Need governing epic decisions for this recovery phase | 1 |
 | read-by | [agent:sase-1pj.6.1.4][2] | Need outer epic DECISIONS that this child epic must honor | 1 |
+| read-by | [agent:sase-1pj.6.1.7][3] | Need parent phase scope and decisions for this child | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6.1.2/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6.1.4/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.6.1.7/README.md
 
 <!-- sase:referenced-by:end -->
