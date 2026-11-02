@@ -18,7 +18,7 @@ gate-adoption-retention: integrate retention into terminal gate and question bra
 ## Dependencies
 
 - **Depends on:** [sase-1pj.7.1.1](sase-1pj.7.1.1.md) ✓ · ⧖ 2026-10-31
-- **Blocks:** [sase-1pj.7.1.4](sase-1pj.7.1.4.md) ◐ · ⧖ 2026-10-31
+- **Blocks:** [sase-1pj.7.1.4](sase-1pj.7.1.4.md) ✓ · ⧖ 2026-10-31
 
 ## Agents
 
@@ -38,10 +38,12 @@ gate-adoption-retention: integrate retention into terminal gate and question bra
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1pj.7.1.2][1] | Check sibling phase notes for epic-symbols close precedent | 1 |
-| read-by | [agent:sase-1pj.7.1.3][2] | Verify the completed phase bead status and closure note | 2 |
+| read-by | [agent:research.30.final][1] | Check which phases of the stranded-handoff retention epic remain open | 1 |
+| read-by | [agent:sase-1pj.7.1.2][2] | Check sibling phase notes for epic-symbols close precedent | 1 |
+| read-by | [agent:sase-1pj.7.1.3][3] | Verify the completed phase bead status and closure note | 2 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7.1.2/README.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7.1.3/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.30.final/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7.1.2/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7.1.3/README.md
 
 <!-- sase:referenced-by:end -->

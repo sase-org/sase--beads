@@ -20,7 +20,7 @@ monitor-retention: apply guarded settlement to stopped, lost, terminal, degraded
 ## Dependencies
 
 - **Depends on:** [sase-1pj.7.1.1](sase-1pj.7.1.1.md) ✓ · ⧖ 2026-10-31
-- **Blocks:** [sase-1pj.7.1.4](sase-1pj.7.1.4.md) ◐ · ⧖ 2026-10-31
+- **Blocks:** [sase-1pj.7.1.4](sase-1pj.7.1.4.md) ✓ · ⧖ 2026-10-31
 
 ## Agents
 
@@ -40,8 +40,10 @@ monitor-retention: apply guarded settlement to stopped, lost, terminal, degraded
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1pj.7.1.2][1] | Check bead open/closed state | 6 |
+| read-by | [agent:research.30.final][1] | Check which phases of the stranded-handoff retention epic remain open | 1 |
+| read-by | [agent:sase-1pj.7.1.2][2] | Check bead open/closed state | 6 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7.1.2/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.30.final/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7.1.2/README.md
 
 <!-- sase:referenced-by:end -->

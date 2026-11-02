@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1pj.7.1](sase-1pj.7.1.md) / sase-1pj.7.1.4
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-1pj.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.7.md) · **Assignee:** `sase-1pj.7.1.4` · **Size:** medium
-**Created:** 2026-10-31 08:52:41 EDT
+**Created:** 2026-10-31 08:52:41 EDT · **Closed:** 2026-11-02 16:40:03 EST
 **Plan:** [202610/carried\_workspace\_retention.md](https://github.com/sase-org/sase--plans/blob/main/202610/carried_workspace_retention.md)
 
 ## Description
@@ -93,7 +93,7 @@ recovery-surfaces: expose stranded workspace evidence, support safe resume and e
 
 [2026-11-01T19:17:46Z · sase-1pj.7.1.4--5] Close blocked: origin/master Justfile still carries sase-1pj.7.1.4(WorkspaceRetentionResult); working tree re-keys to parent epic sase-1pj.7.1. T
 
-… and 36519 more characters
+… and 39093 more characters
 
 ## Dependencies
 
@@ -104,7 +104,7 @@ recovery-surfaces: expose stranded workspace evidence, support safe resume and e
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1pj.7.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.7.1.4.md) | [sase-1pj.7.1.4](sase-1pj.7.1.4.md) | 2 |
+| [bbugyi200.athena.sase-1pj.7.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.7.1.4.md) | [sase-1pj.7.1.4](sase-1pj.7.1.4.md) | 3 |
 
 ## Commits
 
@@ -112,6 +112,7 @@ recovery-surfaces: expose stranded workspace evidence, support safe resume and e
 |---|---|---|---|---|
 | sase-core | [`sase-core@154fe9e`](https://github.com/sase-org/sase-core/commit/154fe9e2a934b6a7caefc0c1d0f9f3daed696e07) | feat(stranded-work): retain held workspace as stranded unless live successor owns | [sase-1pj.7.1.4](sase-1pj.7.1.4.md) | 2026-11-01 15:53:10 EST |
 | sase | [`31a28d9`](https://github.com/sase-org/sase/commit/31a28d9618d20ff656ae57c4a4268cf82f4abaf8) | feat(stranded-work): retain held workspace as stranded unless live successor owns | [sase-1pj.7.1.4](sase-1pj.7.1.4.md) | 2026-11-01 17:33:50 EST |
+| sase | [`d206188`](https://github.com/sase-org/sase/commit/d2061888ecf5be62ce2dc616e26830d7e7a8dee0) | fix(recovery): settle staged workspace holds and honor expiry | [sase-1pj.7.1.4](sase-1pj.7.1.4.md) | 2026-11-02 16:41:16 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -119,8 +120,10 @@ recovery-surfaces: expose stranded workspace evidence, support safe resume and e
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1pj.7.1.4--5][1] | Need phase status before blocked close handling | 55 |
+| read-by | [agent:research.30.final][1] | Check which phases of the stranded-handoff retention epic remain open | 1 |
+| read-by | [agent:sase-1pj.7.1.4--5][2] | Need phase status before blocked close handling | 55 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.7.1.4.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.30.final/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.7.1.4.md
 
 <!-- sase:referenced-by:end -->
