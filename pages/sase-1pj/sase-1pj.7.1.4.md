@@ -121,6 +121,7 @@ recovery-surfaces: expose stranded workspace evidence, support safe resume and e
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:research.30.final][1] | Check which phases of the stranded-handoff retention epic remain open | 1 |
+| read-by | [agent:sase-1pj.7.1.4--1][2] | Need the phase scope and design file | 2 |
 | read-by | [agent:sase-1pj.7.1.4--5][2] | Need phase status before blocked close handling | 55 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.30.final/README.md

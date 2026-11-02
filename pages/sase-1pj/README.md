@@ -33,6 +33,8 @@ Turn-ending commands (plan propose, questions, pipe, gate create, sudo request, 
 
 [2026-10-30T10:23:23Z · toobig-8u.reclaim.0--1] DISCOVERED ISSUE: During the reclaim split verification on 2026-10-30, standalone just _lint-symvision found closed-phase exemptions for sase-1pj.5.1.3 (three prepared-intent reservation APIs) and sase-1pj.4.1 (three workflow-completion APIs). After the stale rows were removed, Symvision identified all six APIs as unused public symbols outside the split: WorkflowCompletionError, PreparedWorkflowReview, complete_workflow_review, load_prepared_intent_reservations, reserve_prepared_intent, and release_prepared_intent. This is a new occurrence of the stale whitelist lifecycle pattern corroborated on sase-o7 (+1), and the remaining API disposition belongs to this staged-handoffs epic's open landing work. Evidence: file:explicit:0dbeaffa58185dbdc6374ece.
 
+[2026-11-02T21:51:24Z · sase-1pj.7.1.land] DISCOVERED ISSUE / LAND TRIAGE from sase-1pj.7.1 notes #5/#6: historical killed plan-proposal handoffs lost code and plan-status edits (sase-1qt and sase-1pn). Existing task sase-1qv owns re-landing the missing sase-1pn repairs; corroborated during the retention audit at d2061888ec. This child keeps terminal retention and gate creator-identity failure as remaining work. Parent rollout/retire-kill-path must still eliminate the commit-skipping legacy plan handoff; retention is not a substitute for committing commit-only plans before publication. Do not infer historical missing edits were restored from the retention epic closing.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -46,158 +48,6 @@ Turn-ending commands (plan propose, questions, pipe, gate create, sudo request, 
 | [sase-1pj.7](sase-1pj.7.md) | Hold workspaces whose carried work has no successor | ◐ in_progress | large | 2026-10-28 | 1 | 0 |
 | [sase-1pj.8](sase-1pj.8.md) | Remove the flag and the kill-path machinery | ◐ in_progress | large | 2026-10-28 | 1 | 0 |
 | [sase-1pj.9](sase-1pj.9.md) | Final skills, docs, and memory | ◐ in_progress | medium | 2026-10-28 | 1 | 0 |
-
-## Lineage
-
-```mermaid
-flowchart TD
-    n0["sase-1pj: Staged handoffs end through host completion [in_progress]"]
-    n1["sase-1pj.1: Staged-handoff foundation and plan proposals [closed]"]
-    n2["sase-1pj.1.1: Stage plan handoffs after host finalization [closed]"]
-    n3["sase-1pj.1.1.1: Staged record contract, storage, guards, and rollout flag [closed]"]
-    n4["sase-1pj.1.1.2: Normal completion adoption and authentic planner chats [closed]"]
-    n5["sase-1pj.1.1.3: Provider failure, failed finalization, and lifecycle boundaries [closed]"]
-    n6["sase-1pj.1.1.4: Enable staged plan proposals and dual-state instructions [closed]"]
-    n7["sase-1pj.1.1.5: Verify commit-before-approval and failure isolation [closed]"]
-    n8["sase-1pj.2: Handoff descriptor and carry disposition in the finalizer wire [closed]"]
-    n9["sase-1pj.2.1: Handoff context and carried repository completion [closed]"]
-    n10["sase-1pj.2.1.1: Rust handoff and repository disposition contracts [closed]"]
-    n11["sase-1pj.2.1.2: Execute explicit carry decisions and reach a fixed point [closed]"]
-    n12["sase-1pj.2.1.3: Publish staged context and synthesize default carry [closed]"]
-    n13["sase-1pj.2.1.4: Protect prepared monitor work through starter finalization [closed]"]
-    n14["sase-1pj.2.1.5: Adopt carried work with durable successor custody [closed]"]
-    n15["sase-1pj.3: Stage questions and pipe handoffs [closed]"]
-    n16["sase-1pj.4: Stage gate, sudo, launch, run, and workflow HITL gates [closed]"]
-    n17["sase-1pj.4.1: Stage gate requests before host publication [closed]"]
-    n18["sase-1pj.4.1.1: Durable gate staging contract [closed]"]
-    n19["sase-1pj.4.1.2: Publish staged gates from persisted creator context [closed]"]
-    n20["sase-1pj.4.1.3: Stage custom and sudo gates through one entry helper [closed]"]
-    n21["sase-1pj.4.1.4: Stage launch requests and agent-origin run requests [closed]"]
-    n22["sase-1pj.4.1.5: Bring workflow review into host completion [closed]"]
-    n23["sase-1pj.4.1.6: Suspend workflow execution on staged review [closed]"]
-    n24["sase-1pj.5: Stage monitor starts and spawn after finalization [closed]"]
-    n25["sase-1pj.5.1: Stage monitor starts and launch after finalization [closed]"]
-    n26["sase-1pj.5.1.1: Define staged monitor and ToolRun reservation contracts [closed]"]
-    n27["sase-1pj.5.1.2: Split monitor preparation from process launch [closed]"]
-    n28["sase-1pj.5.1.3: Preserve prepared completion and joins across staging [closed]"]
-    n29["sase-1pj.5.1.4: Connect staged starts to runner adoption and document the protocol [closed]"]
-    n30["sase-1pj.6: Idempotent adoption, crash reconciliation, and re-adopt [closed]"]
-    n31["sase-1pj.6.1: Recover staged handoffs without repeating adoption [closed]"]
-    n32["sase-1pj.6.1.1: Define durable recovery identity and replay decisions [closed]"]
-    n33["sase-1pj.6.1.2: Recover pipe and inline successors exactly once [closed]"]
-    n34["sase-1pj.6.1.3: Replay plan and question approval handoffs [closed]"]
-    n35["sase-1pj.6.1.4: Complete partially published gates on replay [closed]"]
-    n36["sase-1pj.6.1.5: Close monitor spawn and held-reservation crash windows [closed]"]
-    n37["sase-1pj.6.1.6: Adopt from persisted state and preserve finalizer progress [closed]"]
-    n38["sase-1pj.6.1.7: Expose re-adoption and actionable held notifications [closed]"]
-    n39["sase-1pj.6.1.8: Reconcile abandoned finalized stages and verify crash recovery [closed]"]
-    n40["sase-1pj.7: Hold workspaces whose carried work has no successor [in_progress]"]
-    n41["sase-1pj.7.1: Retain stranded handoff workspaces [in_progress]"]
-    n42["sase-1pj.7.1.1: Shared retention policy and guarded claim settlement [closed]"]
-    n43["sase-1pj.7.1.2: Retain stopped and unlaunchable monitor work [closed]"]
-    n44["sase-1pj.7.1.3: Retain cancelled questions and failed handoffs [closed]"]
-    n45["sase-1pj.7.1.4: Surface held work and complete its recovery lifecycle [closed]"]
-    n46["sase-1pj.8: Remove the flag and the kill-path machinery [in_progress]"]
-    n47["sase-1pj.9: Final skills, docs, and memory [in_progress]"]
-    n0 --> n1
-    n1 --> n2
-    n2 --> n3
-    n2 --> n4
-    n2 --> n5
-    n2 --> n6
-    n2 --> n7
-    n0 --> n8
-    n8 --> n9
-    n9 --> n10
-    n9 --> n11
-    n9 --> n12
-    n9 --> n13
-    n9 --> n14
-    n0 --> n15
-    n0 --> n16
-    n16 --> n17
-    n17 --> n18
-    n17 --> n19
-    n17 --> n20
-    n17 --> n21
-    n17 --> n22
-    n17 --> n23
-    n0 --> n24
-    n24 --> n25
-    n25 --> n26
-    n25 --> n27
-    n25 --> n28
-    n25 --> n29
-    n0 --> n30
-    n30 --> n31
-    n31 --> n32
-    n31 --> n33
-    n31 --> n34
-    n31 --> n35
-    n31 --> n36
-    n31 --> n37
-    n31 --> n38
-    n31 --> n39
-    n0 --> n40
-    n40 --> n41
-    n41 --> n42
-    n41 --> n43
-    n41 --> n44
-    n41 --> n45
-    n0 --> n46
-    n0 --> n47
-    n1 -.-> n8
-    n1 -.-> n15
-    n1 -.-> n16
-    n1 -.-> n24
-    n1 -.-> n30
-    n3 -.-> n4
-    n4 -.-> n5
-    n5 -.-> n6
-    n6 -.-> n7
-    n8 -.-> n15
-    n8 -.-> n16
-    n8 -.-> n24
-    n8 -.-> n40
-    n10 -.-> n11
-    n11 -.-> n12
-    n12 -.-> n13
-    n13 -.-> n14
-    n15 -.-> n30
-    n15 -.-> n40
-    n16 -.-> n30
-    n16 -.-> n40
-    n18 -.-> n19
-    n19 -.-> n20
-    n20 -.-> n21
-    n20 -.-> n22
-    n22 -.-> n23
-    n24 -.-> n30
-    n24 -.-> n40
-    n26 -.-> n27
-    n27 -.-> n28
-    n28 -.-> n29
-    n30 -.-> n46
-    n32 -.-> n33
-    n32 -.-> n34
-    n32 -.-> n35
-    n32 -.-> n36
-    n32 -.-> n37
-    n33 -.-> n34
-    n33 -.-> n37
-    n34 -.-> n37
-    n35 -.-> n37
-    n36 -.-> n37
-    n37 -.-> n38
-    n37 -.-> n39
-    n38 -.-> n39
-    n40 -.-> n46
-    n42 -.-> n43
-    n42 -.-> n44
-    n43 -.-> n45
-    n44 -.-> n45
-    n46 -.-> n47
-```
 
 ## Agents
 
@@ -247,10 +97,14 @@ flowchart TD
 | [bbugyi200.athena.sase-1pj.7.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7.1.2/README.md) | [sase-1pj.7.1.2](sase-1pj.7.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1pj.7.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7.1.3/README.md) | [sase-1pj.7.1.3](sase-1pj.7.1.3.md) | 1 |
 | [bbugyi200.athena.sase-1pj.7.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.7.1.4.md) | [sase-1pj.7.1.4](sase-1pj.7.1.4.md) | 3 |
-| [bbugyi200.athena.sase-1pj.7.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7.1.land/README.md) | [sase-1pj.7.1](sase-1pj.7.1.md) | 0 |
+| [bbugyi200.athena.sase-1pj.7.1.5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7.1.5.1/README.md) | [sase-1pj.7.1.5.1](sase-1pj.7.1.5.1.md) | 1 |
+| [bbugyi200.athena.sase-1pj.7.1.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7.1.5.2/README.md) | [sase-1pj.7.1.5.2](sase-1pj.7.1.5.2.md) | 0 |
+| [bbugyi200.athena.sase-1pj.7.1.5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7.1.5.3/README.md) | [sase-1pj.7.1.5.3](sase-1pj.7.1.5.3.md) | 0 |
+| [bbugyi200.athena.sase-1pj.7.1.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7.1.5.land/README.md) | [sase-1pj.7.1.5](sase-1pj.7.1.5.md) | 0 |
+| [bbugyi200.athena.sase-1pj.7.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.7.1.land.md) | [sase-1pj.7.1](sase-1pj.7.1.md) | 0 |
 | [bbugyi200.athena.sase-1pj.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.8/README.md) | [sase-1pj.8](sase-1pj.8.md) | 0 |
-| [bbugyi200.athena.sase-1pj.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.9/README.md) | [sase-1pj.9](sase-1pj.9.md) | 0 |
-| [bbugyi200.athena.sase-1pj.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.land/README.md) | [sase-1pj](README.md) | 0 |
+
+… and 2 more agents
 
 ## Commits
 
@@ -307,7 +161,7 @@ flowchart TD
 | sase | [`f2e8480`](https://github.com/sase-org/sase/commit/f2e84801ccfe2251c01808db4f8462ba00f41f7c) | fix(workspace-retention): retain stranded gate and staged workspaces | [sase-1pj.7.1.3](sase-1pj.7.1.3.md) | 2026-10-31 16:57:37 EDT |
 | sase | [`745d7b5`](https://github.com/sase-org/sase/commit/745d7b57b15e0639c5c62baa80fcd4ca5e94faf8) | feat(monitor): settle stranded workspaces through shared settlement adapter | [sase-1pj.7.1.2](sase-1pj.7.1.2.md) | 2026-10-31 18:06:40 EDT |
 
-… and 8 more commits
+… and 9 more commits
 
 <!-- sase:referenced-by:start -->
 

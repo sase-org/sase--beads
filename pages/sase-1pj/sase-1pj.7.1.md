@@ -16,7 +16,7 @@
 | implemented-by | [plan:202610/carried_workspace_retention.md][1] | derived from the plan's `bead_id:` frontmatter field |
 | related | [bead:sase-1qv][2] | Owns retention of work stranded by a turn-ending handoff, the likely loss mechanism |
 
-_Plus 6 automatic references — see [Referenced By](#referenced-by)._
+_Plus 7 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/carried_workspace_retention.md
 [2]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-1qv/README.md
@@ -41,11 +41,19 @@ A terminal handoff that leaves session-owned uncommitted work without a same-wor
 
 [2026-11-02T15:39:50Z · research.30.final] DISCOVERED ISSUE (second instance, found by a backlog-chain retrospective on 2026-11-02): the landing tale of epic sase-1pn (task backlog epic 2) also lost its repairs after proposing the next epic (task_backlog_epic_3) as its last action under the immediate, non-staged handoff path. Its 2026-10-29T23:08:30Z closeout says slot-refusal policy and baseline-aware epic-symbol reconciliation moved into Rust bindings. Neither change is on sase or sase-core master (slot_refusal.py unchanged since 01dcc2e5f5; no Rust slot-refusal code), and the epic-symbol defect it claimed to fix later held sase-1pu.5.1.4 unclosable for about 53 hours. Unlike sase-1qt, this loss went undetected. Re-landing is tracked as sase-1qv. Every chain landing whose proposing turn carried code edits lost them (2 of 2), and four landers' plan-status edits were lost the same way (task_backlog_epic_1..4.md still status: wip on plans origin/main).
 
+[2026-11-02T21:51:12Z · sase-1pj.7.1.land] LAND AUDIT at sase d2061888ec (2026-11-02): read all four children and all notes (including all 132 entries on .4), both linked designs, five sase implementation commits and two sase-core commits (80338d6b, 154fe9e2). Core pin 89a5bd8b contains both APIs. No child PROPOSED FOLLOW-UP entries exist. DECISIONS preserved: no memory changes or reopening of accepted branches. Reviewed all commits since 17f5aa3ca1, especially readopt/reconcile/claim-handover, gate signal handling, and the two recovery-doc updates. Note #4 is addressed by d2061888ec and its recovery/TTL tests. Notes #1/#3/#5 remain epic work, not follow-ups: stopped/lost recovery still refused, retention errors can leave an unpinned claim, and gate move refusal uses creator_live=True even for detached/terminal origin failure. Additional epic integration defects: monitor resume writes settled=True while WorkspaceRetentionRecord.unresolved only checks settled_at (runtime reproduction returns unresolved=True after successful resume); monitor successor proof is inferred solely from outcome=launched; monitor repository discovery truncates at eight, synthesizes repo IDs, drops Git probe errors, and does not pass the starter baseline as evidence_artifacts_dir. Retention evidence must be safe across failure, replay, and real transfer before closure. Current epic-symbol scan has one local/upstream WorkspaceRetentionResult exemption; symbol has only in-file consumers and should be privatized in the remaining work. Epic and enclosing phase stay open.
+
+[2026-11-02T21:51:19Z · sase-1pj.7.1.land] FOLLOW-UP TRIAGE before remaining-work proposal: used /sase_new_task; searched bug tasks across all statuses, swept the last week, and inspected active-epic scopes. No child PROPOSED FOLLOW-UP entries to file. Epic note #2 (also .2 #1/#2 and .4 #1-#130) is the existing upstream-row union close defect, not a retention regression: independently corroborated ready task sase-1qv with source evidence that 5585fadefd did not fix local-deletion reconciliation. Epic note #6 historical unlanded slot-refusal/epic-symbol repairs is the same task sase-1qv, corroborated in that one +1; no duplicate task created. The historical plan-status-loss mechanism belongs to containing staged-handoffs epic sase-1pj, whose rollout/retirement remains open; this child does not claim to recover already-discarded edits or rewrite unrelated completed plans. Declined a separate automatic-close task because the same desired outcome is covered by the existing close-policy report. Note #4 declined as new work because d2061888ec addresses both identified seams. Notes #1/#3/#5 and the newly found producer/reader and evidence defects remain required work here. Use these dispositions verbatim or substantively in the eventual close note.
+
+[2026-11-02T21:54:52Z · sase-1pj.7.1.land] Additional runtime confirmation for the remaining-work plan: calling _retention_successor_from_meta with only {monitor_followup_outcome: launched} produces confirmed_active=True, same_workspace=True, inherited_obligations=True; passing this to the real Rust retention binding with an unchanged exact owner and session_owned dirt returns release / same_workspace_successor. Calling the actual resume settlement writer then read_workspace_retention_record returns settled=True, settled_at=None, unresolved=True. Stopped and lost va
+
+… and 498 more characters
+
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1pj.7.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7.1.land/README.md) | [sase-1pj.7.1](sase-1pj.7.1.md) | 0 |
+| [bbugyi200.athena.sase-1pj.7.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.7.1.land.md) | [sase-1pj.7.1](sase-1pj.7.1.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
@@ -58,6 +66,7 @@ A terminal handoff that leaves session-owned uncommitted work without a same-wor
 | read-by | [agent:sase-1pj.7.1.1][3] | Need remaining DECISIONS section of parent epic | 3 |
 | read-by | [agent:sase-1pj.7.1.2][4] | Need epic DECISIONS and plan | 1 |
 | read-by | [agent:sase-1pj.7.1.3][5] | Need the parent epic decisions and phase history context | 1 |
+| read-by | [agent:sase-1pj.7.1.4--1][6] | Audit recovery follow-up note 4 and final epic decisions | 1 |
 | read-by | [agent:sase-1pj.7.1.4--5][6] | Need parent epic decisions and plan for phase closure | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.30.cld/README.md
