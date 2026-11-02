@@ -200,7 +200,7 @@ docs/reference/config/finalizers.md
 
 ## Dependencies
 
-- **Blocks:** [sase-1pt.9.2](sase-1pt.9.2.md) ◐ · ⧖ 2026-10-30
+- **Blocks:** [sase-1pt.9.2](sase-1pt.9.2.md) ✓ · ⧖ 2026-10-30
 
 ## Agents
 
@@ -213,3 +213,15 @@ docs/reference/config/finalizers.md
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`6d61568`](https://github.com/sase-org/sase/commit/6d615680b8eae2a87d2881002ad28b8ff590db72) | fix(agents-sync): stop stale publication retries | [sase-1pt.9.1](sase-1pt.9.1.md) | 2026-10-30 06:13:01 EDT |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pt.9.1][1] | Need the phase scope and design file | 4 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pt.9.1/README.md
+
+<!-- sase:referenced-by:end -->

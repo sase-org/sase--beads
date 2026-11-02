@@ -40,9 +40,3 @@ prove: after the installed sase includes the epic, measure commit-stage latency 
 - **Depends on:** [sase-1pt.3](sase-1pt.3.md) ✓ · ⧖ 2026-10-29
 - **Depends on:** [sase-1pt.4](sase-1pt.4.md) ✓ · ⧖ 2026-10-29
 - **Depends on:** [sase-1pt.7](sase-1pt.7.md) ✓ · ⧖ 2026-10-29
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-1pt.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pt.8/README.md) | [sase-1pt.8](sase-1pt.8.md) | 0 |

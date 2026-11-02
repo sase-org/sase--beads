@@ -44,8 +44,10 @@ deferred-parity: record the commit context on outbox rows, render deferred promp
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1pt.5][1] | Verify phase notes and closure evidence | 4 |
+| read-by | [agent:sase-1pj.5.1.3][1] | Need check whether the existing scoped-run integration follow-up covers this check failure | 1 |
+| read-by | [agent:sase-1pt.5][2] | Verify phase notes and closure evidence | 4 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pt.5/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.5.1.3/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pt.5/README.md
 
 <!-- sase:referenced-by:end -->
