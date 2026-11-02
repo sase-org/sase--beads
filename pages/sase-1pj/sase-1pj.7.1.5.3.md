@@ -14,7 +14,7 @@ recovery-convergence: settle records through one contract after real transfer or
 ## Dependencies
 
 - **Depends on:** [sase-1pj.7.1.5.1](sase-1pj.7.1.5.1.md) ✓ · ⧖ 2026-11-02
-- **Depends on:** [sase-1pj.7.1.5.2](sase-1pj.7.1.5.2.md) ◐ · ⧖ 2026-11-02
+- **Depends on:** [sase-1pj.7.1.5.2](sase-1pj.7.1.5.2.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 

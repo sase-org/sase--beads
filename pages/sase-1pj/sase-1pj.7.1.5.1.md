@@ -17,7 +17,7 @@ settlement-evidence: unify monitor repository evidence, require actual successor
 
 ## Dependencies
 
-- **Blocks:** [sase-1pj.7.1.5.2](sase-1pj.7.1.5.2.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [sase-1pj.7.1.5.2](sase-1pj.7.1.5.2.md) ✓ · ⧖ 2026-11-02
 - **Blocks:** [sase-1pj.7.1.5.3](sase-1pj.7.1.5.3.md) ◐ · ⧖ 2026-11-02
 
 ## Agents
@@ -31,3 +31,15 @@ settlement-evidence: unify monitor repository evidence, require actual successor
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`4dc226b`](https://github.com/sase-org/sase/commit/4dc226bdeaeb692cb715360a1a93dd9311158c7e) | feat(monitor): shared retention discovery for settlement with delivery-proof custody | [sase-1pj.7.1.5.1](sase-1pj.7.1.5.1.md) | 2026-11-02 17:28:49 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pj.7.1.5.1][1] | Need the phase scope and design file | 4 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7.1.5.1/README.md
+
+<!-- sase:referenced-by:end -->
