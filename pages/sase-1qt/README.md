@@ -92,7 +92,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1qt.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qt.1.md) | [sase-1qt.1](sase-1qt.1.md) | 2 |
 | [bbugyi200.athena.sase-1qt.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qt.2.md) | [sase-1qt.2](sase-1qt.2.md) | 2 |
 | [bbugyi200.athena.sase-1qt.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qt.3/README.md) | [sase-1qt.3](sase-1qt.3.md) | 1 |
-| [bbugyi200.athena.sase-1qt.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qt.land.md) | [sase-1qt](README.md) | 2 |
+| [bbugyi200.athena.sase-1qt.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qt.land.md) | [sase-1qt](README.md) | 3 |
 
 ## Commits
 
@@ -105,3 +105,4 @@ flowchart TD
 | sase | [`d26baec`](https://github.com/sase-org/sase/commit/d26baecb051927df38a8bfe4683b7d509371b1d1) | fix(agent-prompts): delegate prompt selection to Rust agent\_prompt\_select binding | [sase-1qt.1](sase-1qt.1.md) | 2026-11-01 20:46:50 EST |
 | sase-core | [`sase-core@89a5bd8`](https://github.com/sase-org/sase-core/commit/89a5bd8b810ab20fee5c223bb4b1e40cb2c3ab68) | fix(sudo-runner): restrict fixture lock to process spawn | [sase-1qt](README.md) | 2026-11-02 09:36:57 EST |
 | sase | [`84e22d9`](https://github.com/sase-org/sase/commit/84e22d98be6b6ab289730573cb2525b11b7d7ea0) | fix(agents-sync): require Rust cleanup policy and defer startup imports | [sase-1qt](README.md) | 2026-11-02 09:38:04 EST |
+| sase--plans | [`sase--plans@13b0038`](https://github.com/sase-org/sase--plans/commit/13b0038185c283ec71d64115bf8e80015db70c7e) | docs(plans): close epic 5 landing plans | [sase-1qt](README.md) | 2026-11-02 09:38:47 EST |
