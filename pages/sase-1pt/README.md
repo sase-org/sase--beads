@@ -95,7 +95,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1pt.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pt.7/README.md) | [sase-1pt.7](sase-1pt.7.md) | 1 |
 | [bbugyi200.athena.sase-1pt.9.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pt.9.1/README.md) | [sase-1pt.9.1](sase-1pt.9.1.md) | 1 |
 | [bbugyi200.athena.sase-1pt.9.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pt.9.2.md) | [sase-1pt.9.2](sase-1pt.9.2.md) | 0 |
-| [bbugyi200.athena.sase-1pt.9.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pt.9.land.md) | [sase-1pt.9](sase-1pt.9.md) | 1 |
+| [bbugyi200.athena.sase-1pt.9.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pt.9.land.md) | [sase-1pt.9](sase-1pt.9.md) | 2 |
 
 ## Commits
 
@@ -110,6 +110,7 @@ flowchart TD
 | sase | [`e69360f`](https://github.com/sase-org/sase/commit/e69360f49d60b2657f7c509fec937d2b10866a09) | feat(commit): enqueue agent publication in background | [sase-1pt.7](sase-1pt.7.md) | 2026-10-30 02:15:51 EDT |
 | sase | [`6d61568`](https://github.com/sase-org/sase/commit/6d615680b8eae2a87d2881002ad28b8ff590db72) | fix(agents-sync): stop stale publication retries | [sase-1pt.9.1](sase-1pt.9.1.md) | 2026-10-30 06:13:01 EDT |
 | sase | [`ce7d60a`](https://github.com/sase-org/sase/commit/ce7d60a6666401567a0071945070c6f8c844031e) | chore(justfile): drop stale sase-1pt.6 publisher\_is\_live comment | [sase-1pt.9](sase-1pt.9.md) | 2026-11-02 17:04:13 EST |
+| sase--plans | [`sase--plans@f4d6404`](https://github.com/sase-org/sase--plans/commit/f4d6404d90555b7b8c96783d9facc10475fcc442) | chore(plans): mark sase-1pt.9 and sase-1pt epic plans done | [sase-1pt.9](sase-1pt.9.md) | 2026-11-02 17:05:40 EST |
 
 <!-- sase:referenced-by:start -->
 

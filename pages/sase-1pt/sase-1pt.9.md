@@ -42,13 +42,14 @@ The background publisher from epic sase-1pt idles when it has no work. It conver
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1pt.9.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pt.9.land.md) | [sase-1pt.9](sase-1pt.9.md) | 1 |
+| [bbugyi200.athena.sase-1pt.9.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pt.9.land.md) | [sase-1pt.9](sase-1pt.9.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`ce7d60a`](https://github.com/sase-org/sase/commit/ce7d60a6666401567a0071945070c6f8c844031e) | chore(justfile): drop stale sase-1pt.6 publisher\_is\_live comment | [sase-1pt.9](sase-1pt.9.md) | 2026-11-02 17:04:13 EST |
+| sase--plans | [`sase--plans@f4d6404`](https://github.com/sase-org/sase--plans/commit/f4d6404d90555b7b8c96783d9facc10475fcc442) | chore(plans): mark sase-1pt.9 and sase-1pt epic plans done | [sase-1pt.9](sase-1pt.9.md) | 2026-11-02 17:05:40 EST |
 
 <!-- sase:referenced-by:start -->
 
