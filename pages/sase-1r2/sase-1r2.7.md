@@ -14,7 +14,7 @@ rehearse: dispatch and accept a rehearse-mode release.yml run at master, then ma
 ## Dependencies
 
 - **Depends on:** [sase-1r2.2](sase-1r2.2.md) ✓ · ⧖ 2026-11-03
-- **Depends on:** [sase-1r2.3](sase-1r2.3.md) ◐ · ⧖ 2026-11-03
+- **Depends on:** [sase-1r2.3](sase-1r2.3.md) ✓ · ⧖ 2026-11-03
 - **Depends on:** [sase-1r2.5](sase-1r2.5.md) ◐ · ⧖ 2026-11-03
 - **Blocks:** [sase-1r2.8](sase-1r2.8.md) ◐ · ⧖ 2026-11-03
 

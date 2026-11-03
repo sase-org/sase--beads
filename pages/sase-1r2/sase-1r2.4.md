@@ -34,3 +34,15 @@ advisory-lanes: make visual-test, perf-floors, tutorial-tests, and ace-page-grou
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`d3b0480`](https://github.com/sase-org/sase/commit/d3b0480636cdfbc7eb979144ea2a71702b18fae0) | fix(ci): make Full CI advisory lanes pass locally | [sase-1r2.4](sase-1r2.4.md) | 2026-11-03 13:55:35 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1r2.4][1] | Need the phase scope, design file, notes, and DECISIONS | 7 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1r2.4/README.md
+
+<!-- sase:referenced-by:end -->

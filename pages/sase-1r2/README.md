@@ -37,7 +37,7 @@ Proof: sh -n ok; WATCHDOG_DRY=1 with boot_id=test found live agent sase-1r2.land
 |---|---|---|---|---|---:|---:|
 | [sase-1r2.1](sase-1r2.1.md) | A reboot cannot strand this epic | ✓ closed | small | 2026-11-03 | 1 | 0 |
 | [sase-1r2.2](sase-1r2.2.md) | Master Gate is green at master HEAD | ✓ closed | small | 2026-11-03 | 1 | 0 |
-| [sase-1r2.3](sase-1r2.3.md) | The blocking test lanes stop flaking | ◐ in_progress | medium | 2026-11-03 | 1 | 0 |
+| [sase-1r2.3](sase-1r2.3.md) | The blocking test lanes stop flaking | ✓ closed | medium | 2026-11-03 | 1 | 1 |
 | [sase-1r2.4](sase-1r2.4.md) | Full CI's advisory jobs pass | ✓ closed | medium | 2026-11-03 | 1 | 1 |
 | [sase-1r2.5](sase-1r2.5.md) | A complete published sase-core-rs contains master's source pin | ◐ in_progress | medium | 2026-11-03 | 1 | 0 |
 | [sase-1r2.6](sase-1r2.6.md) | One Full CI run on master is green in every job | ◐ in_progress | medium | 2026-11-03 | 1 | 0 |
@@ -51,7 +51,7 @@ flowchart TD
     n0["sase-1r2: Green Full CI on master, a containing published core, and sase v0.19.0 confirmed on PyPI [in_progress]"]
     n1["sase-1r2.1: A reboot cannot strand this epic [closed]"]
     n2["sase-1r2.2: Master Gate is green at master HEAD [closed]"]
-    n3["sase-1r2.3: The blocking test lanes stop flaking [in_progress]"]
+    n3["sase-1r2.3: The blocking test lanes stop flaking [closed]"]
     n4["sase-1r2.4: Full CI's advisory jobs pass [closed]"]
     n5["sase-1r2.5: A complete published sase-core-rs contains master's source pin [in_progress]"]
     n6["sase-1r2.6: One Full CI run on master is green in every job [in_progress]"]
@@ -80,7 +80,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-1r2.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1r2.1/README.md) | [sase-1r2.1](sase-1r2.1.md) | 0 |
 | [bbugyi200.athena.sase-1r2.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1r2.2/README.md) | [sase-1r2.2](sase-1r2.2.md) | 0 |
-| [bbugyi200.athena.sase-1r2.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1r2.3.md) | [sase-1r2.3](sase-1r2.3.md) | 0 |
+| [bbugyi200.athena.sase-1r2.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1r2.3.md) | [sase-1r2.3](sase-1r2.3.md) | 1 |
 | [bbugyi200.athena.sase-1r2.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1r2.4/README.md) | [sase-1r2.4](sase-1r2.4.md) | 1 |
 | [bbugyi200.athena.sase-1r2.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1r2.5.md) | [sase-1r2.5](sase-1r2.5.md) | 0 |
 | [bbugyi200.athena.sase-1r2.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1r2.6/README.md) | [sase-1r2.6](sase-1r2.6.md) | 0 |
@@ -93,3 +93,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`d3b0480`](https://github.com/sase-org/sase/commit/d3b0480636cdfbc7eb979144ea2a71702b18fae0) | fix(ci): make Full CI advisory lanes pass locally | [sase-1r2.4](sase-1r2.4.md) | 2026-11-03 13:55:35 EST |
+| sase | [`26b50ca`](https://github.com/sase-org/sase/commit/26b50ca5251945db4d9ca3efe804cd843f36bed9) | fix(flakes): de-flake blocking Master Gate and Full CI test lanes | [sase-1r2.3](sase-1r2.3.md) | 2026-11-03 15:18:23 EST |

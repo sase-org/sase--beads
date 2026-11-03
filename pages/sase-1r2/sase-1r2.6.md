@@ -14,7 +14,7 @@ full-ci: dispatch Full CI on a tip holding every fix, repair what is still red, 
 ## Dependencies
 
 - **Depends on:** [sase-1r2.2](sase-1r2.2.md) ✓ · ⧖ 2026-11-03
-- **Depends on:** [sase-1r2.3](sase-1r2.3.md) ◐ · ⧖ 2026-11-03
+- **Depends on:** [sase-1r2.3](sase-1r2.3.md) ✓ · ⧖ 2026-11-03
 - **Depends on:** [sase-1r2.4](sase-1r2.4.md) ✓ · ⧖ 2026-11-03
 
 ## Agents
