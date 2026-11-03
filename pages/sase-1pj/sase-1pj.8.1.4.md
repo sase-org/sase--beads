@@ -35,3 +35,15 @@ runtime-retirement: remove dead marker writers, handoff SIGTERM adoption, gate-i
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`d3518e5`](https://github.com/sase-org/sase/commit/d3518e567d3da94a64fd5ff4a0396cda604bac59) | feat(axe): retire the staged-handoff kill protocol | [sase-1pj.8.1.4](sase-1pj.8.1.4.md) | 2026-11-03 01:09:37 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pj.8.1.4][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.8.1.4/README.md
+
+<!-- sase:referenced-by:end -->

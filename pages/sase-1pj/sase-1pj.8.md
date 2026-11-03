@@ -22,3 +22,15 @@ retire-kill-path: delete the staged_handoffs Off branch and close its flag bead,
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1pj.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.8.md) | [sase-1pj.8](sase-1pj.8.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pj.8.1.4][1] | Need parent phase DECISIONS that this child epic must honor | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.8.1.4/README.md
+
+<!-- sase:referenced-by:end -->
