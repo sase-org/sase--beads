@@ -30,3 +30,15 @@ readout-core: add a pure typed classifier and registered Python binding for stag
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@6cd64a9`](https://github.com/sase-org/sase-core/commit/6cd64a9c0ebfd82dcde135993e0fffe2b5a141a0) | feat(core): add instruction handoff readout classifier | [sase-1pj.8.1.5](sase-1pj.8.1.5.md) | 2026-11-02 21:19:53 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pj.8.1.5][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.8.1.5/README.md
+
+<!-- sase:referenced-by:end -->

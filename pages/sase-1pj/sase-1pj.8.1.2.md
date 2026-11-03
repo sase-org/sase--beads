@@ -19,4 +19,4 @@ gate-staging: remove legacy agent publication and handoff branches from shared g
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1pj.8.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.8.1.2/README.md) | [sase-1pj.8.1.2](sase-1pj.8.1.2.md) | 0 |
+| [bbugyi200.athena.sase-1pj.8.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.8.1.2.md) | [sase-1pj.8.1.2](sase-1pj.8.1.2.md) | 0 |
