@@ -37,14 +37,13 @@ Terminal handoffs retain the exact dirty workspace through settlement failures, 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1pj.7.1.5.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.7.1.5.land.md) | [sase-1pj.7.1.5](sase-1pj.7.1.5.md) | 2 |
+| [bbugyi200.athena.sase-1pj.7.1.5.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.7.1.5.land.md) | [sase-1pj.7.1.5](sase-1pj.7.1.5.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`5dcf944`](https://github.com/sase-org/sase/commit/5dcf9448ab7cbe275848effd0c6060ca54f3a301) | fix(retention): require live successor custody before releasing dirty workspaces | [sase-1pj.7.1.5](sase-1pj.7.1.5.md) | 2026-11-02 22:32:42 EST |
-| sase--plans | [`sase--plans@047e3b7`](https://github.com/sase-org/sase--plans/commit/047e3b7710c9d591a2bb940c2af391ad7675fcec) | docs(plans): mark retention closeout plans done | [sase-1pj.7.1.5](sase-1pj.7.1.5.md) | 2026-11-02 22:37:37 EST |
 
 <!-- sase:referenced-by:start -->
 

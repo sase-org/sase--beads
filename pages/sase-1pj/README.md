@@ -100,7 +100,7 @@ Turn-ending commands (plan propose, questions, pipe, gate create, sudo request, 
 | [bbugyi200.athena.sase-1pj.7.1.5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7.1.5.1/README.md) | [sase-1pj.7.1.5.1](sase-1pj.7.1.5.1.md) | 1 |
 | [bbugyi200.athena.sase-1pj.7.1.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7.1.5.2/README.md) | [sase-1pj.7.1.5.2](sase-1pj.7.1.5.2.md) | 1 |
 | [bbugyi200.athena.sase-1pj.7.1.5.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.7.1.5.3.md) | [sase-1pj.7.1.5.3](sase-1pj.7.1.5.3.md) | 1 |
-| [bbugyi200.athena.sase-1pj.7.1.5.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.7.1.5.land.md) | [sase-1pj.7.1.5](sase-1pj.7.1.5.md) | 2 |
+| [bbugyi200.athena.sase-1pj.7.1.5.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.7.1.5.land.md) | [sase-1pj.7.1.5](sase-1pj.7.1.5.md) | 1 |
 | [bbugyi200.athena.sase-1pj.7.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.7.1.land.md) | [sase-1pj.7.1](sase-1pj.7.1.md) | 0 |
 | [bbugyi200.athena.sase-1pj.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.8.md) | [sase-1pj.8](sase-1pj.8.md) | 0 |
 

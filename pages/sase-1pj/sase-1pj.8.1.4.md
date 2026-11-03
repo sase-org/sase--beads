@@ -14,7 +14,7 @@ runtime-retirement: remove dead marker writers, handoff SIGTERM adoption, gate-i
 ## Dependencies
 
 - **Depends on:** [sase-1pj.8.1.1](sase-1pj.8.1.1.md) ✓ · ⧖ 2026-11-02
-- **Depends on:** [sase-1pj.8.1.2](sase-1pj.8.1.2.md) ◐ · ⧖ 2026-11-02
+- **Depends on:** [sase-1pj.8.1.2](sase-1pj.8.1.2.md) ✓ · ⧖ 2026-11-02
 - **Depends on:** [sase-1pj.8.1.3](sase-1pj.8.1.3.md) ◐ · ⧖ 2026-11-02
 - **Blocks:** [sase-1pj.8.1.7](sase-1pj.8.1.7.md) ◐ · ⧖ 2026-11-02
 
