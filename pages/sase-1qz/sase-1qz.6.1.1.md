@@ -21,8 +21,8 @@ recovery_contract: extend Rust hijack wires and policy for durable resolver/laun
 
 ## Dependencies
 
-- **Blocks:** [sase-1qz.6.1.2](sase-1qz.6.1.2.md) ◐ · ⧖ 2026-11-03
-- **Blocks:** [sase-1qz.6.1.3](sase-1qz.6.1.3.md) ◐ · ⧖ 2026-11-03
+- **Blocks:** [sase-1qz.6.1.2](sase-1qz.6.1.2.md) ○ · ⧖ 2026-11-03
+- **Blocks:** [sase-1qz.6.1.3](sase-1qz.6.1.3.md) ✓ · ⧖ 2026-11-03
 
 ## Agents
 
@@ -36,3 +36,15 @@ recovery_contract: extend Rust hijack wires and policy for durable resolver/laun
 |---|---|---|---|---|
 | sase-core | [`sase-core@bbef1df`](https://github.com/sase-org/sase-core/commit/bbef1df25612c79839e4ae96d9d5648ce041b4a8) | feat(agent-hijack): add recovery identity, preview, and reconcile wires | [sase-1qz.6.1.1](sase-1qz.6.1.1.md) | 2026-11-03 13:06:17 EST |
 | sase | [`83cd8de`](https://github.com/sase-org/sase/commit/83cd8deffe4eff5362b773089c601b280d904462) | feat(agent-hijack): wrap recovery preview and reconcile bindings | [sase-1qz.6.1.1](sase-1qz.6.1.1.md) | 2026-11-03 13:08:21 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1qz.6.1.1][1] | Need DECISIONS notes and remaining work | 4 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1qz.6.1.1/README.md
+
+<!-- sase:referenced-by:end -->

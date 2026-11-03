@@ -13,8 +13,8 @@ resolution_launch: compose the CAS resolution transaction with normal admission,
 
 ## Dependencies
 
-- **Depends on:** [sase-1qz.6.1.2](sase-1qz.6.1.2.md) ◐ · ⧖ 2026-11-03
-- **Depends on:** [sase-1qz.6.1.3](sase-1qz.6.1.3.md) ◐ · ⧖ 2026-11-03
+- **Depends on:** [sase-1qz.6.1.2](sase-1qz.6.1.2.md) ○ · ⧖ 2026-11-03
+- **Depends on:** [sase-1qz.6.1.3](sase-1qz.6.1.3.md) ✓ · ⧖ 2026-11-03
 - **Blocks:** [sase-1qz.6.1.5](sase-1qz.6.1.5.md) ◐ · ⧖ 2026-11-03
 
 ## Agents

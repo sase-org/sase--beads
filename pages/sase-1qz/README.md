@@ -42,8 +42,8 @@ flowchart TD
     n8["sase-1qz.6: Keep-the-work recovery (Escalate, Switch, Continue, Instruct) [in_progress]"]
     n9["sase-1qz.6.1: Complete keep-work recovery for hijacked agents [in_progress]"]
     n10["sase-1qz.6.1.1: Rust recovery transaction and preview contracts [closed]"]
-    n11["sase-1qz.6.1.2: Read-only recovery preview and continuation context [in_progress]"]
-    n12["sase-1qz.6.1.3: Same-workspace launch with mandatory inheritance [in_progress]"]
+    n11["sase-1qz.6.1.2: Read-only recovery preview and continuation context [open]"]
+    n12["sase-1qz.6.1.3: Same-workspace launch with mandatory inheritance [closed]"]
     n13["sase-1qz.6.1.4: Exactly-once recovery launch and settlement [in_progress]"]
     n14["sase-1qz.6.1.5: Crash repair and successor-following waits [in_progress]"]
     n15["sase-1qz.6.1.6: Recovery command, durable operation, and integration coverage [in_progress]"]
@@ -105,7 +105,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-1qz.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1qz.6.md) | [sase-1qz.6](sase-1qz.6.md) | 0 |
 | [bbugyi200.apollo.sase-1qz.6.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1qz.6.1.1/README.md) | [sase-1qz.6.1.1](sase-1qz.6.1.1.md) | 2 |
 | [bbugyi200.apollo.sase-1qz.6.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1qz.6.1.2/README.md) | [sase-1qz.6.1.2](sase-1qz.6.1.2.md) | 0 |
-| [bbugyi200.apollo.sase-1qz.6.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1qz.6.1.3/README.md) | [sase-1qz.6.1.3](sase-1qz.6.1.3.md) | 0 |
+| [bbugyi200.apollo.sase-1qz.6.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1qz.6.1.3.md) | [sase-1qz.6.1.3](sase-1qz.6.1.3.md) | 1 |
 | [bbugyi200.apollo.sase-1qz.6.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1qz.6.1.4/README.md) | [sase-1qz.6.1.4](sase-1qz.6.1.4.md) | 0 |
 | [bbugyi200.apollo.sase-1qz.6.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1qz.6.1.5/README.md) | [sase-1qz.6.1.5](sase-1qz.6.1.5.md) | 0 |
 | [bbugyi200.apollo.sase-1qz.6.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1qz.6.1.6/README.md) | [sase-1qz.6.1.6](sase-1qz.6.1.6.md) | 0 |
@@ -130,6 +130,7 @@ flowchart TD
 | sase | [`81808e9`](https://github.com/sase-org/sase/commit/81808e9ba0ad955a6a3562cd4a21b53b24bf542a) | feat(ace): add Agent Hijack controls to Agents tab | [sase-1qz.8](sase-1qz.8.md) | 2026-11-03 11:07:38 EST |
 | sase-core | [`sase-core@bbef1df`](https://github.com/sase-org/sase-core/commit/bbef1df25612c79839e4ae96d9d5648ce041b4a8) | feat(agent-hijack): add recovery identity, preview, and reconcile wires | [sase-1qz.6.1.1](sase-1qz.6.1.1.md) | 2026-11-03 13:06:17 EST |
 | sase | [`83cd8de`](https://github.com/sase-org/sase/commit/83cd8deffe4eff5362b773089c601b280d904462) | feat(agent-hijack): wrap recovery preview and reconcile bindings | [sase-1qz.6.1.1](sase-1qz.6.1.1.md) | 2026-11-03 13:08:21 EST |
+| sase | [`09bd42e`](https://github.com/sase-org/sase/commit/09bd42e622e7b63823376c23844b9d37a21e2c2b) | feat(agent-hijack): same-workspace recovery successor with mandatory inheritance | [sase-1qz.6.1.3](sase-1qz.6.1.3.md) | 2026-11-03 17:12:38 EST |
 
 <!-- sase:referenced-by:start -->
 
