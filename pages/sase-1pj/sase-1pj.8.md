@@ -14,11 +14,11 @@ retire-kill-path: delete the staged_handoffs Off branch and close its flag bead,
 ## Dependencies
 
 - **Depends on:** [sase-1pj.6](sase-1pj.6.md) ✓ · ⧖ 2026-10-28
-- **Depends on:** [sase-1pj.7](sase-1pj.7.md) ◐ · ⧖ 2026-10-28
+- **Depends on:** [sase-1pj.7](sase-1pj.7.md) ✓ · ⧖ 2026-10-28
 - **Blocks:** [sase-1pj.9](sase-1pj.9.md) ◐ · ⧖ 2026-10-28
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1pj.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.8/README.md) | [sase-1pj.8](sase-1pj.8.md) | 0 |
+| [bbugyi200.athena.sase-1pj.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.8.md) | [sase-1pj.8](sase-1pj.8.md) | 0 |

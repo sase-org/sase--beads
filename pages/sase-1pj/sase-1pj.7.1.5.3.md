@@ -37,3 +37,15 @@ recovery-convergence: settle records through one contract after real transfer or
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`ce87e35`](https://github.com/sase-org/sase/commit/ce87e357cb5535d5d845e36ae51a1fef037f2bbb) | fix(retention): settle holds through one record contract after transfer | [sase-1pj.7.1.5.3](sase-1pj.7.1.5.3.md) | 2026-11-02 19:31:00 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pj.7.1.5.3--2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.7.1.5.3.md
+
+<!-- sase:referenced-by:end -->

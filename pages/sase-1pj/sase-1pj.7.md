@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [sase-1pj](README.md) / sase-1pj.7
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.research.5f.linker.w0](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.research.5f.linker.w0.md) · **Assignee:** `sase-1pj.7` · **Size:** large
-**Created:** 2026-10-28 20:28:59 EDT
+**Created:** 2026-10-28 20:28:59 EDT · **Closed:** 2026-11-02 20:45:57 EST
 **Plan:** [202610/staged\_handoffs.md](https://github.com/sase-org/sase--plans/blob/main/202610/staged_handoffs.md)
 
 ## Description
 
 carry-hardening: when carried work reaches a branch with no successor (stopped or lost monitor, cancelled question, terminal gate branch, failed adoption), hold the workspace and surface it as stranded instead of releasing it.
+
+## Notes
+
+[2026-11-03T01:46:41Z · sase-1pj.7.1.5.land] Carry-hardening complete: stopped/lost monitor, cancelled question, terminal gate, and failed adoption retain session-owned work without a real successor. Child epic sase-1pj.7.1 and repair epic sase-1pj.7.1.5 closed after rechecked descendants, empty epic-symbols, and sase tool run check c56822146052a742c23d62ebbc0afe7c. Containing epic sase-1pj left open for its land agent.
 
 ## Dependencies
 

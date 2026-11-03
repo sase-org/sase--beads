@@ -45,7 +45,7 @@ Turn-ending commands (plan propose, questions, pipe, gate create, sudo request, 
 | [sase-1pj.4](sase-1pj.4.md) | Stage gate, sudo, launch, run, and workflow HITL gates | ✓ closed | large | 2026-10-28 | 1 | 0 |
 | [sase-1pj.5](sase-1pj.5.md) | Stage monitor starts and spawn after finalization | ✓ closed | large | 2026-10-28 | 1 | 0 |
 | [sase-1pj.6](sase-1pj.6.md) | Idempotent adoption, crash reconciliation, and re-adopt | ✓ closed | large | 2026-10-28 | 1 | 0 |
-| [sase-1pj.7](sase-1pj.7.md) | Hold workspaces whose carried work has no successor | ◐ in_progress | large | 2026-10-28 | 1 | 0 |
+| [sase-1pj.7](sase-1pj.7.md) | Hold workspaces whose carried work has no successor | ✓ closed | large | 2026-10-28 | 1 | 0 |
 | [sase-1pj.8](sase-1pj.8.md) | Remove the flag and the kill-path machinery | ◐ in_progress | large | 2026-10-28 | 1 | 0 |
 | [sase-1pj.9](sase-1pj.9.md) | Final skills, docs, and memory | ◐ in_progress | medium | 2026-10-28 | 1 | 0 |
 
@@ -100,11 +100,11 @@ Turn-ending commands (plan propose, questions, pipe, gate create, sudo request, 
 | [bbugyi200.athena.sase-1pj.7.1.5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7.1.5.1/README.md) | [sase-1pj.7.1.5.1](sase-1pj.7.1.5.1.md) | 1 |
 | [bbugyi200.athena.sase-1pj.7.1.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7.1.5.2/README.md) | [sase-1pj.7.1.5.2](sase-1pj.7.1.5.2.md) | 1 |
 | [bbugyi200.athena.sase-1pj.7.1.5.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.7.1.5.3.md) | [sase-1pj.7.1.5.3](sase-1pj.7.1.5.3.md) | 1 |
-| [bbugyi200.athena.sase-1pj.7.1.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7.1.5.land/README.md) | [sase-1pj.7.1.5](sase-1pj.7.1.5.md) | 0 |
+| [bbugyi200.athena.sase-1pj.7.1.5.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.7.1.5.land.md) | [sase-1pj.7.1.5](sase-1pj.7.1.5.md) | 0 |
 | [bbugyi200.athena.sase-1pj.7.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.7.1.land.md) | [sase-1pj.7.1](sase-1pj.7.1.md) | 0 |
-| [bbugyi200.athena.sase-1pj.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.8/README.md) | [sase-1pj.8](sase-1pj.8.md) | 0 |
+| [bbugyi200.athena.sase-1pj.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.8.md) | [sase-1pj.8](sase-1pj.8.md) | 0 |
 
-… and 2 more agents
+… and 10 more agents
 
 ## Commits
 
@@ -161,7 +161,7 @@ Turn-ending commands (plan propose, questions, pipe, gate create, sudo request, 
 | sase | [`f2e8480`](https://github.com/sase-org/sase/commit/f2e84801ccfe2251c01808db4f8462ba00f41f7c) | fix(workspace-retention): retain stranded gate and staged workspaces | [sase-1pj.7.1.3](sase-1pj.7.1.3.md) | 2026-10-31 16:57:37 EDT |
 | sase | [`745d7b5`](https://github.com/sase-org/sase/commit/745d7b57b15e0639c5c62baa80fcd4ca5e94faf8) | feat(monitor): settle stranded workspaces through shared settlement adapter | [sase-1pj.7.1.2](sase-1pj.7.1.2.md) | 2026-10-31 18:06:40 EDT |
 
-… and 11 more commits
+… and 12 more commits
 
 <!-- sase:referenced-by:start -->
 
