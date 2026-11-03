@@ -18,7 +18,7 @@ readout-adapter: gather staged, receipt, declaration, and historical facts in Py
 ## Dependencies
 
 - **Depends on:** [sase-1pj.8.1.5](sase-1pj.8.1.5.md) ✓ · ⧖ 2026-11-02
-- **Blocks:** [sase-1pj.8.1.7](sase-1pj.8.1.7.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [sase-1pj.8.1.7](sase-1pj.8.1.7.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 

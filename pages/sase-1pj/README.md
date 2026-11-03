@@ -35,6 +35,8 @@ Turn-ending commands (plan propose, questions, pipe, gate create, sudo request, 
 
 [2026-11-02T21:51:24Z · sase-1pj.7.1.land] DISCOVERED ISSUE / LAND TRIAGE from sase-1pj.7.1 notes #5/#6: historical killed plan-proposal handoffs lost code and plan-status edits (sase-1qt and sase-1pn). Existing task sase-1qv owns re-landing the missing sase-1pn repairs; corroborated during the retention audit at d2061888ec. This child keeps terminal retention and gate creator-identity failure as remaining work. Parent rollout/retire-kill-path must still eliminate the commit-skipping legacy plan handoff; retention is not a substitute for committing commit-only plans before publication. Do not infer historical missing edits were restored from the retention epic closing.
 
+[2026-11-03T15:13:55Z · sase-1pj.8.1.land] DISCOVERED ISSUE (from sase-1pj.8.1.7 PROPOSED FOLLOW-UP notes #5/#6, triaged by sase-1pj.8.1.land): prepared-monitor host completion breaks when monitor staging promotes the starter's agent-session identity mid-turn. Repro (athena, 2026-11-03, run 20261103091726): sase final prepare sealed cci:1d13a8227b5e9c2d for agent sase-1pj.8.1.7; sase monitor start -f (monitor n7exmbcn38dr, ToolRun bbf925f23d095dba2a18b1e457e9eade) promoted the root via src/sase/monitor/start_lane.py promote_agent_to_agent_session to sase-1pj.8.1.7--plan; the in-turn /sase_final that the staged protocol now requires then refused prepared coverage with prepared_creator_agent_mismatch although run_id, turn nonce, repository obligation digest, and plan digest were unchanged. The monitor later passed all 19 just check stages but host completion refused again with 'sase final context requires active finalizer turn metadata: SASE_FINAL_TURN_NONCE' (src/sase/finalizers/_declaration_context.py:169), so the phase needed a recovery successor. Causal link: sase-1pj.5's staging-time promotion plus the unconditional /sase_final-after-staging protocol; the staged adopter already tolerates this promotion (_runner_ctx_from_monitor_metadata in src/sase/axe/run_agent_exec_staged_adopters.py) but the prepared-coverage creator check (sase-core) and detached prepared completion do not. Related: sase-1qm (stale_worktree_fingerprint refusal of an unchanged prepared intent; different defect) and note #4's gate creator-identity failure. Not caused by sase-1pj.8.1's kill-path retirement, which did not change promotion or prepared coverage; observed once (only matching runs are sase-1pj.8.1.7 and its --1 recovery).
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -46,7 +48,7 @@ Turn-ending commands (plan propose, questions, pipe, gate create, sudo request, 
 | [sase-1pj.5](sase-1pj.5.md) | Stage monitor starts and spawn after finalization | ✓ closed | large | 2026-10-28 | 1 | 0 |
 | [sase-1pj.6](sase-1pj.6.md) | Idempotent adoption, crash reconciliation, and re-adopt | ✓ closed | large | 2026-10-28 | 1 | 0 |
 | [sase-1pj.7](sase-1pj.7.md) | Hold workspaces whose carried work has no successor | ✓ closed | large | 2026-10-28 | 1 | 0 |
-| [sase-1pj.8](sase-1pj.8.md) | Remove the flag and the kill-path machinery | ◐ in_progress | large | 2026-10-28 | 1 | 0 |
+| [sase-1pj.8](sase-1pj.8.md) | Remove the flag and the kill-path machinery | ✓ closed | large | 2026-10-28 | 1 | 0 |
 | [sase-1pj.9](sase-1pj.9.md) | Final skills, docs, and memory | ◐ in_progress | medium | 2026-10-28 | 1 | 0 |
 
 ## Agents
@@ -161,7 +163,7 @@ Turn-ending commands (plan propose, questions, pipe, gate create, sudo request, 
 | sase | [`f2e8480`](https://github.com/sase-org/sase/commit/f2e84801ccfe2251c01808db4f8462ba00f41f7c) | fix(workspace-retention): retain stranded gate and staged workspaces | [sase-1pj.7.1.3](sase-1pj.7.1.3.md) | 2026-10-31 16:57:37 EDT |
 | sase | [`745d7b5`](https://github.com/sase-org/sase/commit/745d7b57b15e0639c5c62baa80fcd4ca5e94faf8) | feat(monitor): settle stranded workspaces through shared settlement adapter | [sase-1pj.7.1.2](sase-1pj.7.1.2.md) | 2026-10-31 18:06:40 EDT |
 
-… and 20 more commits
+… and 21 more commits
 
 <!-- sase:referenced-by:start -->
 

@@ -13,7 +13,7 @@ docs-memory: rewrite the generated skills and user docs for the single end-of-tu
 
 ## Dependencies
 
-- **Depends on:** [sase-1pj.8](sase-1pj.8.md) ◐ · ⧖ 2026-10-28
+- **Depends on:** [sase-1pj.8](sase-1pj.8.md) ✓ · ⧖ 2026-10-28
 
 ## Agents
 
