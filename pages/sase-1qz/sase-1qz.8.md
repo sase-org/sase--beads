@@ -2,14 +2,20 @@
 
 [Bead Pages](../README.md) / [sase-1qz](README.md) / sase-1qz.8
 
-**Status:** ○ open · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.research.33.linker.w0](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.research.33.linker.w0.md) · **Assignee:** `sase-1qz.8` · **Size:** medium
-**Created:** 2026-11-02 17:42:17 EST
+**Created:** 2026-11-02 17:42:17 EST · **Closed:** 2026-11-03 11:05:37 EST
 **Plan:** [202611/agent\_hijack.md](https://github.com/sase-org/sase--plans/blob/main/202611/agent_hijack.md)
 
 ## Description
 
 tui_render: add the ⏏ HIJACKED row styling, the HIJACKING…/RECOVERING… overlays, the stop-failed badge, the workspace-held detail line, and footer chips. Add the flag-gated ,k leader key and the kill dialog's h choice, the hijack_agent keymap config, help entries, and visual snapshots.
+
+## Notes
+
+[2026-11-03T16:05:15Z · sase-1qz.8--5] PROPOSED FOLLOW-UP: Fix clean-base check failures — on HEAD f163ba74c0, feature-flag lint reports closed flag bead sase-1pk still defines staged_handoffs, test_panel_escape_keeps_draft_across_reopen times out waiting for grammar, and test_bump_microbench_stays_within_two_microseconds measures 2.019 µs (>2 µs).
+
+[2026-11-03T16:05:37Z · sase-1qz.8--5] 8 focused hijack and producer-inventory tests passed; the targeted snapshot passed in default and TZ=UTC comparisons. just check failed only on issues reproduced on clean HEAD and recorded in the proposed follow-up note.
 
 ## Dependencies
 
@@ -20,4 +26,10 @@ tui_render: add the ⏏ HIJACKED row styling, the HIJACKING…/RECOVERING… ove
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-1qz.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1qz.8.md) | [sase-1qz.8](sase-1qz.8.md) | 0 |
+| [bbugyi200.apollo.sase-1qz.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1qz.8.md) | [sase-1qz.8](sase-1qz.8.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`81808e9`](https://github.com/sase-org/sase/commit/81808e9ba0ad955a6a3562cd4a21b53b24bf542a) | feat(ace): add Agent Hijack controls to Agents tab | [sase-1qz.8](sase-1qz.8.md) | 2026-11-03 11:07:38 EST |

@@ -21,4 +21,4 @@ recover_keep: add the exactly-once resolution transaction, strict same-workspace
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-1qz.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1qz.6/README.md) | [sase-1qz.6](sase-1qz.6.md) | 0 |
+| [bbugyi200.apollo.sase-1qz.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1qz.6.md) | [sase-1qz.6](sase-1qz.6.md) | 0 |

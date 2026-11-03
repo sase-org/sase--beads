@@ -23,7 +23,7 @@ stop: create the agent_hijack beta flag. Implement the ordered stop orchestrator
 
 - **Depends on:** [sase-1qz.3](sase-1qz.3.md) ✓ · ⧖ 2026-11-02
 - **Blocks:** [sase-1qz.5](sase-1qz.5.md) ✓ · ⧖ 2026-11-02
-- **Blocks:** [sase-1qz.8](sase-1qz.8.md) ○ · ⧖ 2026-11-02
+- **Blocks:** [sase-1qz.8](sase-1qz.8.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 
