@@ -176,7 +176,7 @@ Integration: agent-hijack (sase-1qz) runtime and ACE controls, lost-gate withdra
 | sase | [`f2e8480`](https://github.com/sase-org/sase/commit/f2e84801ccfe2251c01808db4f8462ba00f41f7c) | fix(workspace-retention): retain stranded gate and staged workspaces | [sase-1pj.7.1.3](sase-1pj.7.1.3.md) | 2026-10-31 16:57:37 EDT |
 | sase | [`745d7b5`](https://github.com/sase-org/sase/commit/745d7b57b15e0639c5c62baa80fcd4ca5e94faf8) | feat(monitor): settle stranded workspaces through shared settlement adapter | [sase-1pj.7.1.2](sase-1pj.7.1.2.md) | 2026-10-31 18:06:40 EDT |
 
-… and 24 more commits
+… and 25 more commits
 
 <!-- sase:referenced-by:start -->
 
