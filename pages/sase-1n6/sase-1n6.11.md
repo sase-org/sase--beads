@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/e2_steward_train_completion.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/sase-org/sase--plans/blob/main/202611/e2_steward_train_completion.md
 
 <!-- sase:links:end -->
@@ -28,3 +30,15 @@ The release steward can actually merge a release PR and start release.yml at the
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1n6.11.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.11.land/README.md) | [sase-1n6.11](sase-1n6.11.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1n6.11.2][1] | Need parent epic DECISIONS, phases, and remaining work | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.11.2/README.md
+
+<!-- sase:referenced-by:end -->

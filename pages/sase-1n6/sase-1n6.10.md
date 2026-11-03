@@ -34,17 +34,19 @@ exit: confirm the human handover steps, watch the first real release through the
 | read-by | [agent:13d][1] | Research which agents stalled the sase-1n6 epic: in-progress phases | 1 |
 | read-by | [agent:14g][2] | Research what blocks the last open phase of sase-1n6 | 1 |
 | read-by | [agent:14r--code][3] | Verify in-progress prerequisite poll condition and nested status handling | 1 |
-| read-by | [agent:research.2a.cld][4] | E3 readiness: E2 status | 1 |
-| read-by | [agent:research.2a.grk][5] | Need remaining open E2 phase statuses and blockers before designing E3 | 1 |
-| read-by | [agent:research.2a.mus][6] | E3 readiness: remaining E2 phases status | 1 |
-| read-by | [agent:sase-1pi.1][7] | Need related E2 and cutover bead state for macOS-core work | 1 |
+| read-by | [agent:17s][4] | Research: determine whether beads stranded by the Nov 1 reboot were ever recovered | 1 |
+| read-by | [agent:research.2a.cld][5] | E3 readiness: E2 status | 1 |
+| read-by | [agent:research.2a.grk][6] | Need remaining open E2 phase statuses and blockers before designing E3 | 1 |
+| read-by | [agent:research.2a.mus][7] | E3 readiness: remaining E2 phases status | 1 |
+| read-by | [agent:sase-1pi.1][8] | Need related E2 and cutover bead state for macOS-core work | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.13d/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.14g/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.14r.md
-[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2a.cld/README.md
-[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2a.grk/README.md
-[6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2a.mus/README.md
-[7]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pi.1.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.17s/README.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2a.cld/README.md
+[6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2a.grk/README.md
+[7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2a.mus/README.md
+[8]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pi.1.md
 
 <!-- sase:referenced-by:end -->

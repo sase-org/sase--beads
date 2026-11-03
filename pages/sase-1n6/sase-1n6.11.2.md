@@ -36,3 +36,15 @@ Live proof 2026-11-03: pin f1bbb4f3b81383c06df422c9df9fa13f0ec244f7; core-ensure
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`173a548`](https://github.com/sase-org/sase/commit/173a548ee147036be6bfbee3f16a9e22a64e3d42) | feat(release): seal core source-pin containment at tag v\<core\> | [sase-1n6.11.2](sase-1n6.11.2.md) | 2026-11-03 11:17:26 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1n6.11.2][1] | Need current status, notes, and remaining work before close | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.11.2/README.md
+
+<!-- sase:referenced-by:end -->

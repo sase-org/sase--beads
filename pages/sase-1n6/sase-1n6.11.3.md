@@ -13,7 +13,7 @@ train-start: a fresh tag with an unsealed draft dispatches release.yml mode=rele
 
 ## Dependencies
 
-- **Depends on:** [sase-1n6.11.1](sase-1n6.11.1.md) ✓ · ⧖ 2026-11-03
+- **Depends on:** [sase-1n6.11.1](sase-1n6.11.1.md) ○ · ⧖ 2026-11-03
 - **Depends on:** [sase-1n6.11.2](sase-1n6.11.2.md) ✓ · ⧖ 2026-11-03
 - **Blocks:** [sase-1n6.11.4](sase-1n6.11.4.md) ◐ · ⧖ 2026-11-03
 
