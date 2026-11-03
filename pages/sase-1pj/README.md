@@ -49,7 +49,7 @@ Turn-ending commands (plan propose, questions, pipe, gate create, sudo request, 
 | [sase-1pj.6](sase-1pj.6.md) | Idempotent adoption, crash reconciliation, and re-adopt | ✓ closed | large | 2026-10-28 | 1 | 0 |
 | [sase-1pj.7](sase-1pj.7.md) | Hold workspaces whose carried work has no successor | ✓ closed | large | 2026-10-28 | 1 | 0 |
 | [sase-1pj.8](sase-1pj.8.md) | Remove the flag and the kill-path machinery | ✓ closed | large | 2026-10-28 | 1 | 0 |
-| [sase-1pj.9](sase-1pj.9.md) | Final skills, docs, and memory | ◐ in_progress | medium | 2026-10-28 | 1 | 0 |
+| [sase-1pj.9](sase-1pj.9.md) | Final skills, docs, and memory | ✓ closed | medium | 2026-10-28 | 1 | 1 |
 
 ## Agents
 

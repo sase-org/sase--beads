@@ -35,14 +35,13 @@ Make every in-agent handoff stage for host completion, remove obsolete kill reco
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1pj.8.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.8.1.land.md) | [sase-1pj.8.1](sase-1pj.8.1.md) | 2 |
+| [bbugyi200.athena.sase-1pj.8.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.8.1.land.md) | [sase-1pj.8.1](sase-1pj.8.1.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`ced5901`](https://github.com/sase-org/sase/commit/ced5901dd5612f00f767b3e7bc695a0936bdc14f) | feat(axe): finish staged-handoff kill-path landing | [sase-1pj.8.1](sase-1pj.8.1.md) | 2026-11-03 10:50:37 EST |
-| sase--plans | [`sase--plans@66c2c60`](https://github.com/sase-org/sase--plans/commit/66c2c60c1ce3e76a012262e718b05a51a3035e11) | docs(plans): mark retire staged-handoff kill protocol done | [sase-1pj.8.1](sase-1pj.8.1.md) | 2026-11-03 10:53:00 EST |
 
 <!-- sase:referenced-by:start -->
 

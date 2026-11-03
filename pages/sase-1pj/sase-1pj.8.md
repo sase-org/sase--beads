@@ -15,7 +15,7 @@ retire-kill-path: delete the staged_handoffs Off branch and close its flag bead,
 
 - **Depends on:** [sase-1pj.6](sase-1pj.6.md) ✓ · ⧖ 2026-10-28
 - **Depends on:** [sase-1pj.7](sase-1pj.7.md) ✓ · ⧖ 2026-10-28
-- **Blocks:** [sase-1pj.9](sase-1pj.9.md) ◐ · ⧖ 2026-10-28
+- **Blocks:** [sase-1pj.9](sase-1pj.9.md) ✓ · ⧖ 2026-10-28
 
 ## Agents
 
