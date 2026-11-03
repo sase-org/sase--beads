@@ -13,7 +13,7 @@ tui_render: add the ⏏ HIJACKED row styling, the HIJACKING…/RECOVERING… ove
 
 ## Dependencies
 
-- **Depends on:** [sase-1qz.4](sase-1qz.4.md) ◐ · ⧖ 2026-11-02
+- **Depends on:** [sase-1qz.4](sase-1qz.4.md) ✓ · ⧖ 2026-11-02
 - **Blocks:** [sase-1qz.9](sase-1qz.9.md) ◐ · ⧖ 2026-11-02
 
 ## Agents

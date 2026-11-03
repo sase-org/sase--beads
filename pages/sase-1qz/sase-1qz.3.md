@@ -20,7 +20,7 @@ settle: add the Python ledger store, the hijack-mode user-kill intent, and the r
 ## Dependencies
 
 - **Depends on:** [sase-1qz.1](sase-1qz.1.md) ✓ · ⧖ 2026-11-02
-- **Blocks:** [sase-1qz.4](sase-1qz.4.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [sase-1qz.4](sase-1qz.4.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 
@@ -33,3 +33,15 @@ settle: add the Python ledger store, the hijack-mode user-kill intent, and the r
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`01a2828`](https://github.com/sase-org/sase/commit/01a28287c8f7d2ce5c7ae71e769e74a377892ea7) | feat(agent-hijack): settle hijacked runner outcome while holding custody | [sase-1qz.3](sase-1qz.3.md) | 2026-11-03 03:22:28 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1qz.3--2][1] | Need the phase scope, notes, and design after monitor failure | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1qz.3.md
+
+<!-- sase:referenced-by:end -->
