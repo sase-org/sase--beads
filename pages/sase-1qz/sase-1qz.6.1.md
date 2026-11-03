@@ -7,6 +7,18 @@
 **Created:** 2026-11-03 08:05:24 EST
 **Plan:** [202611/hijack\_keep\_work\_recovery.md](https://github.com/sase-org/sase--plans/blob/main/202611/hijack_keep_work_recovery.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202611/hijack_keep_work_recovery.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/sase-org/sase--plans/blob/main/202611/hijack_keep_work_recovery.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 Recover a hijacked agent exactly once in its held workspace while preserving its work and obligations.

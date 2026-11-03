@@ -13,7 +13,7 @@ recovery_context: implement the shared preview adapter, pinned continuation prom
 
 ## Dependencies
 
-- **Depends on:** [sase-1qz.6.1.1](sase-1qz.6.1.1.md) ◐ · ⧖ 2026-11-03
+- **Depends on:** [sase-1qz.6.1.1](sase-1qz.6.1.1.md) ✓ · ⧖ 2026-11-03
 - **Blocks:** [sase-1qz.6.1.4](sase-1qz.6.1.4.md) ◐ · ⧖ 2026-11-03
 
 ## Agents
