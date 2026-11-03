@@ -30,3 +30,15 @@ gate-staging: remove legacy agent publication and handoff branches from shared g
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`671431e`](https://github.com/sase-org/sase/commit/671431ee80b8ddd298dd092eb7549685cd1a70c4) | feat(gate-staging): stage pending agent gates unconditionally | [sase-1pj.8.1.2](sase-1pj.8.1.2.md) | 2026-11-02 22:44:24 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pj.8.1.2--2][1] | Need phase scope and design file before close | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.8.1.2.md
+
+<!-- sase:referenced-by:end -->
