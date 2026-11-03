@@ -19,7 +19,7 @@ A user can hijack a stalled sase agent (,k, the kill dialog's h, or `sase agent 
 | [sase-1qz.10](sase-1qz.10.md) | Instruct and Edit through the prompt bar | ◐ in_progress | medium | 2026-11-02 | 1 | 0 |
 | [sase-1qz.11](sase-1qz.11.md) | Remove the flag, document, and prove it end to end | ◐ in_progress | medium | 2026-11-02 | 1 | 0 |
 | [sase-1qz.2](sase-1qz.2.md) | sase-core: escalation policy, continuation prompt, and config | ✓ closed | medium | 2026-11-02 | 1 | 2 |
-| [sase-1qz.3](sase-1qz.3.md) | Runner settlement that keeps custody | ◐ in_progress | medium | 2026-11-02 | 1 | 0 |
+| [sase-1qz.3](sase-1qz.3.md) | Runner settlement that keeps custody | ✓ closed | medium | 2026-11-02 | 1 | 1 |
 | [sase-1qz.4](sase-1qz.4.md) | The stop protocol and \`sase agent hijack\` | ◐ in_progress | medium | 2026-11-02 | 1 | 0 |
 | [sase-1qz.5](sase-1qz.5.md) | Every release path respects a hijack | ◐ in_progress | medium | 2026-11-02 | 1 | 0 |
 | [sase-1qz.6](sase-1qz.6.md) | Keep-the-work recovery (Escalate, Switch, Continue, Instruct) | ◐ in_progress | large | 2026-11-02 | 1 | 0 |
@@ -36,7 +36,7 @@ flowchart TD
     n2["sase-1qz.10: Instruct and Edit through the prompt bar [in_progress]"]
     n3["sase-1qz.11: Remove the flag, document, and prove it end to end [in_progress]"]
     n4["sase-1qz.2: sase-core: escalation policy, continuation prompt, and config [closed]"]
-    n5["sase-1qz.3: Runner settlement that keeps custody [in_progress]"]
+    n5["sase-1qz.3: Runner settlement that keeps custody [closed]"]
     n6["sase-1qz.4: The stop protocol and `sase agent hijack` [in_progress]"]
     n7["sase-1qz.5: Every release path respects a hijack [in_progress]"]
     n8["sase-1qz.6: Keep-the-work recovery (Escalate, Switch, Continue, Instruct) [in_progress]"]
@@ -76,7 +76,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-1qz.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1qz.10/README.md) | [sase-1qz.10](sase-1qz.10.md) | 0 |
 | [bbugyi200.apollo.sase-1qz.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1qz.11/README.md) | [sase-1qz.11](sase-1qz.11.md) | 0 |
 | [bbugyi200.apollo.sase-1qz.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1qz.2.md) | [sase-1qz.2](sase-1qz.2.md) | 2 |
-| [bbugyi200.apollo.sase-1qz.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1qz.3.md) | [sase-1qz.3](sase-1qz.3.md) | 0 |
+| [bbugyi200.apollo.sase-1qz.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1qz.3.md) | [sase-1qz.3](sase-1qz.3.md) | 1 |
 | [bbugyi200.apollo.sase-1qz.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1qz.4/README.md) | [sase-1qz.4](sase-1qz.4.md) | 0 |
 | [bbugyi200.apollo.sase-1qz.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1qz.5/README.md) | [sase-1qz.5](sase-1qz.5.md) | 0 |
 | [bbugyi200.apollo.sase-1qz.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1qz.6/README.md) | [sase-1qz.6](sase-1qz.6.md) | 0 |
@@ -93,6 +93,7 @@ flowchart TD
 | sase | [`85c8d46`](https://github.com/sase-org/sase/commit/85c8d4613a3a8ef06ec2e67de6c398d59b92b412) | feat(agent-hijack): add Python hijack workflow wrappers | [sase-1qz.1](sase-1qz.1.md) | 2026-11-02 20:48:03 EST |
 | sase-core | [`sase-core@f1bbb4f`](https://github.com/sase-org/sase-core/commit/f1bbb4f3b81383c06df422c9df9fa13f0ec244f7) | feat(agent-hijack): add escalation policy and continuation-prompt core with bindings | [sase-1qz.2](sase-1qz.2.md) | 2026-11-02 23:27:54 EST |
 | sase | [`38c3a3c`](https://github.com/sase-org/sase/commit/38c3a3c5fc92f6c3cb0d9887c7458a9e4666a178) | feat(agent-hijack): add Python escalation policy and continuation-prompt support | [sase-1qz.2](sase-1qz.2.md) | 2026-11-03 02:29:57 EST |
+| sase | [`01a2828`](https://github.com/sase-org/sase/commit/01a28287c8f7d2ce5c7ae71e769e74a377892ea7) | feat(agent-hijack): settle hijacked runner outcome while holding custody | [sase-1qz.3](sase-1qz.3.md) | 2026-11-03 03:22:28 EST |
 
 <!-- sase:referenced-by:start -->
 

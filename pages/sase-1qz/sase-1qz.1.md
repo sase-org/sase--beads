@@ -19,7 +19,7 @@ core_ledger: in sase-core, add the HIJACKED/ESCALATED/CONTINUED status rows and 
 
 ## Dependencies
 
-- **Blocks:** [sase-1qz.3](sase-1qz.3.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [sase-1qz.3](sase-1qz.3.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 
