@@ -38,7 +38,9 @@ readout-core: add a pure typed classifier and registered Python binding for stag
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1pj.8.1.5][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1pj.8.1.6][2] | need readout-core design outcome | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.8.1.5/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.8.1.6/README.md
 
 <!-- sase:referenced-by:end -->

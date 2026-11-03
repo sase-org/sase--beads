@@ -24,7 +24,9 @@ Make every in-agent handoff stage for host completion, remove obsolete kill reco
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1pj.8.1.1][1] | Need the parent epic decisions governing this phase | 1 |
+| read-by | [agent:sase-1pj.8.1.6][2] | parent epic scope and decisions | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.8.1.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.8.1.6/README.md
 
 <!-- sase:referenced-by:end -->

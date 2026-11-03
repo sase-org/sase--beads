@@ -31,3 +31,15 @@ readout-adapter: gather staged, receipt, declaration, and historical facts in Py
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`11147cc`](https://github.com/sase-org/sase/commit/11147ccf2f15c7d890f6ee11de7147de4412c920) | feat(readout): delegate instruction readout classification to Rust core | [sase-1pj.8.1.6](sase-1pj.8.1.6.md) | 2026-11-02 22:15:51 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pj.8.1.6][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.8.1.6/README.md
+
+<!-- sase:referenced-by:end -->
