@@ -19,7 +19,7 @@ monitor-staging: remove the agent monitor kill branch and print-before-kill work
 
 ## Dependencies
 
-- **Blocks:** [sase-1pj.8.1.4](sase-1pj.8.1.4.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [sase-1pj.8.1.4](sase-1pj.8.1.4.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 
@@ -32,3 +32,15 @@ monitor-staging: remove the agent monitor kill branch and print-before-kill work
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`8caa3fd`](https://github.com/sase-org/sase/commit/8caa3fd1f5603b07fe5c9e85b9267c4af9c1ad79) | feat(monitor): stage in-agent monitor starts unconditionally | [sase-1pj.8.1.3](sase-1pj.8.1.3.md) | 2026-11-02 22:52:20 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pj.8.1.3--2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.8.1.3.md
+
+<!-- sase:referenced-by:end -->

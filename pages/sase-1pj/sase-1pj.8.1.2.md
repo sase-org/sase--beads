@@ -17,7 +17,7 @@ gate-staging: remove legacy agent publication and handoff branches from shared g
 
 ## Dependencies
 
-- **Blocks:** [sase-1pj.8.1.4](sase-1pj.8.1.4.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [sase-1pj.8.1.4](sase-1pj.8.1.4.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 

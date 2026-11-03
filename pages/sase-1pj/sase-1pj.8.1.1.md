@@ -19,7 +19,7 @@ command-staging: remove legacy branches from plan, questions, and pipe entry poi
 
 ## Dependencies
 
-- **Blocks:** [sase-1pj.8.1.4](sase-1pj.8.1.4.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [sase-1pj.8.1.4](sase-1pj.8.1.4.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 
