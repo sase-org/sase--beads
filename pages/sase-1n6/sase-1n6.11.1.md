@@ -47,10 +47,11 @@ Prior close: 2026-11-03T15:54:39Z · done.
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1n6.11.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.11.1.md) | [sase-1n6.11.1](sase-1n6.11.1.md) | 1 |
+| [bbugyi200.athena.sase-1n6.11.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.11.1.md) | [sase-1n6.11.1](sase-1n6.11.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@4b1b8ac`](https://github.com/sase-org/sase-core/commit/4b1b8aca1156bf0f91dbc0fb7a33048d948f4254) | fix(release-steward)!: separate Master Gate jobs from PR merge checks | [sase-1n6.11.1](sase-1n6.11.1.md) | 2026-11-03 17:45:40 EST |
+| sase | [`a732756`](https://github.com/sase-org/sase/commit/a732756c9eb926ee83d580d24170b65ca83e5efe) | fix(release-steward): read merge checks from the versioned inventory | [sase-1n6.11.1](sase-1n6.11.1.md) | 2026-11-03 17:47:22 EST |

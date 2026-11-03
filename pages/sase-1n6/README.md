@@ -185,7 +185,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-1n6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.1/README.md) | [sase-1n6.1](sase-1n6.1.md) | 1 |
 | [bbugyi200.athena.sase-1n6.10](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.10.md) | [sase-1n6.10](sase-1n6.10.md) | 0 |
-| [bbugyi200.athena.sase-1n6.11.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.11.1.md) | [sase-1n6.11.1](sase-1n6.11.1.md) | 1 |
+| [bbugyi200.athena.sase-1n6.11.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.11.1.md) | [sase-1n6.11.1](sase-1n6.11.1.md) | 2 |
 | [bbugyi200.athena.sase-1n6.11.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.11.2/README.md) | [sase-1n6.11.2](sase-1n6.11.2.md) | 1 |
 | [bbugyi200.athena.sase-1n6.11.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.11.3/README.md) | [sase-1n6.11.3](sase-1n6.11.3.md) | 0 |
 | [bbugyi200.athena.sase-1n6.11.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.11.4/README.md) | [sase-1n6.11.4](sase-1n6.11.4.md) | 0 |
@@ -249,6 +249,7 @@ flowchart TD
 | sase | [`ff50879`](https://github.com/sase-org/sase/commit/ff50879f32f4920d2947ee716f614809a755e91e) | feat(release): cut over to release-please with live steward and trimmed publish | [sase-1n6.9](sase-1n6.9.md) | 2026-10-25 17:35:55 EDT |
 | sase | [`173a548`](https://github.com/sase-org/sase/commit/173a548ee147036be6bfbee3f16a9e22a64e3d42) | feat(release): seal core source-pin containment at tag v\<core\> | [sase-1n6.11.2](sase-1n6.11.2.md) | 2026-11-03 11:17:26 EST |
 | sase-core | [`sase-core@4b1b8ac`](https://github.com/sase-org/sase-core/commit/4b1b8aca1156bf0f91dbc0fb7a33048d948f4254) | fix(release-steward)!: separate Master Gate jobs from PR merge checks | [sase-1n6.11.1](sase-1n6.11.1.md) | 2026-11-03 17:45:40 EST |
+| sase | [`a732756`](https://github.com/sase-org/sase/commit/a732756c9eb926ee83d580d24170b65ca83e5efe) | fix(release-steward): read merge checks from the versioned inventory | [sase-1n6.11.1](sase-1n6.11.1.md) | 2026-11-03 17:47:22 EST |
 
 <!-- sase:referenced-by:start -->
 
