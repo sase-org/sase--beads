@@ -18,7 +18,7 @@ gate-origin: repair session-member creator identity and retain dirty origin work
 ## Dependencies
 
 - **Depends on:** [sase-1pj.7.1.5.1](sase-1pj.7.1.5.1.md) ✓ · ⧖ 2026-11-02
-- **Blocks:** [sase-1pj.7.1.5.3](sase-1pj.7.1.5.3.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [sase-1pj.7.1.5.3](sase-1pj.7.1.5.3.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 
@@ -31,3 +31,15 @@ gate-origin: repair session-member creator identity and retain dirty origin work
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`5dfd28c`](https://github.com/sase-org/sase/commit/5dfd28c74b2559cb61529291caf5691e25c0b6dd) | fix(gate-turn): preserve root claim origin on publication failure | [sase-1pj.7.1.5.2](sase-1pj.7.1.5.2.md) | 2026-11-02 18:18:18 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pj.7.1.5.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7.1.5.2/README.md
+
+<!-- sase:referenced-by:end -->

@@ -16,7 +16,7 @@
 | implemented-by | [plan:202610/carried_workspace_retention.md][1] | derived from the plan's `bead_id:` frontmatter field |
 | related | [bead:sase-1qv][2] | Owns retention of work stranded by a turn-ending handoff, the likely loss mechanism |
 
-_Plus 8 automatic references — see [Referenced By](#referenced-by)._
+_Plus 9 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/carried_workspace_retention.md
 [2]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-1qv/README.md
@@ -69,6 +69,7 @@ A terminal handoff that leaves session-owned uncommitted work without a same-wor
 | read-by | [agent:sase-1pj.7.1.4--1][6] | Audit recovery follow-up note 4 and final epic decisions | 1 |
 | read-by | [agent:sase-1pj.7.1.4--5][6] | Need parent epic decisions and plan for phase closure | 1 |
 | read-by | [agent:sase-1pj.7.1.5.1][7] | Need epic DECISIONS and scope for settlement-evidence | 1 |
+| read-by | [agent:sase-1pj.7.1.5.2][8] | Need the parent retention notes and accepted decisions for the gate-origin phase | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.30.cld/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.30.final/README.md
@@ -77,5 +78,6 @@ A terminal handoff that leaves session-owned uncommitted work without a same-wor
 [5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7.1.3/README.md
 [6]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1pj.7.1.4.md
 [7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7.1.5.1/README.md
+[8]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7.1.5.2/README.md
 
 <!-- sase:referenced-by:end -->

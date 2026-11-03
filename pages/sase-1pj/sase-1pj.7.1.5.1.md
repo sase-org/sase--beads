@@ -18,7 +18,7 @@ settlement-evidence: unify monitor repository evidence, require actual successor
 ## Dependencies
 
 - **Blocks:** [sase-1pj.7.1.5.2](sase-1pj.7.1.5.2.md) ✓ · ⧖ 2026-11-02
-- **Blocks:** [sase-1pj.7.1.5.3](sase-1pj.7.1.5.3.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [sase-1pj.7.1.5.3](sase-1pj.7.1.5.3.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 
@@ -39,7 +39,9 @@ settlement-evidence: unify monitor repository evidence, require actual successor
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1pj.7.1.5.1][1] | Need the phase scope and design file | 4 |
+| read-by | [agent:sase-1pj.7.1.5.2][2] | Need the landed settlement contract before implementing gate-origin custody | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7.1.5.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7.1.5.2/README.md
 
 <!-- sase:referenced-by:end -->

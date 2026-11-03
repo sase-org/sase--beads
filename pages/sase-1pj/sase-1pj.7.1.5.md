@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/retention_landing_repairs.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202611/retention_landing_repairs.md
 
@@ -38,7 +38,9 @@ Terminal handoffs retain the exact dirty workspace through settlement failures, 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1pj.7.1.5.1][1] | Need parent epic plan and design | 2 |
+| read-by | [agent:sase-1pj.7.1.5.2][2] | Need the retention repair epic DECISIONS binding this phase | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7.1.5.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.7.1.5.2/README.md
 
 <!-- sase:referenced-by:end -->
