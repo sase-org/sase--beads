@@ -17,7 +17,7 @@ readout-core: add a pure typed classifier and registered Python binding for stag
 
 ## Dependencies
 
-- **Blocks:** [sase-1pj.8.1.6](sase-1pj.8.1.6.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [sase-1pj.8.1.6](sase-1pj.8.1.6.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 

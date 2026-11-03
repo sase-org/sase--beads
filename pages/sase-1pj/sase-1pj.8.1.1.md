@@ -32,3 +32,15 @@ command-staging: remove legacy branches from plan, questions, and pipe entry poi
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`f425458`](https://github.com/sase-org/sase/commit/f4254582d85133bb649f097cf7b5a5bad26a5803) | feat(cli): stage plan, questions, and pipe handoffs unconditionally | [sase-1pj.8.1.1](sase-1pj.8.1.1.md) | 2026-11-02 21:42:09 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pj.8.1.1][1] | Verify the assigned phase bead was closed | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.8.1.1/README.md
+
+<!-- sase:referenced-by:end -->

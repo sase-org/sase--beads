@@ -14,7 +14,7 @@ flag-provider-cleanup: remove staged_handoffs registry and schema entries and fl
 ## Dependencies
 
 - **Depends on:** [sase-1pj.8.1.4](sase-1pj.8.1.4.md) ◐ · ⧖ 2026-11-02
-- **Depends on:** [sase-1pj.8.1.6](sase-1pj.8.1.6.md) ◐ · ⧖ 2026-11-02
+- **Depends on:** [sase-1pj.8.1.6](sase-1pj.8.1.6.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 
