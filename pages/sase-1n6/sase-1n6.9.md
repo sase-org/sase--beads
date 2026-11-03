@@ -51,7 +51,7 @@ Landing evidence: sase-core check passed (ToolRun 8a4be3d1be5ee56baa180c72f255fc
 
 ## Dependencies
 
-- **Blocks:** [sase-1n6.10](sase-1n6.10.md) ◐ · ⧖ 2026-10-19
+- **Blocks:** [sase-1n6.10](sase-1n6.10.md) ✓ · ⧖ 2026-10-19
 - **Depends on:** [sase-1n6.6](sase-1n6.6.md) ✓ · ⧖ 2026-10-19
 - **Depends on:** [sase-1n6.7](sase-1n6.7.md) ✓ · ⧖ 2026-10-19
 - **Depends on:** [sase-1n6.8](sase-1n6.8.md) ✓ · ⧖ 2026-10-19
@@ -60,14 +60,13 @@ Landing evidence: sase-core check passed (ToolRun 8a4be3d1be5ee56baa180c72f255fc
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1n6.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.9/README.md) | [sase-1n6.9](sase-1n6.9.md) | 2 |
+| [bbugyi200.athena.sase-1n6.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.9/README.md) | [sase-1n6.9](sase-1n6.9.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`ff50879`](https://github.com/sase-org/sase/commit/ff50879f32f4920d2947ee716f614809a755e91e) | feat(release): cut over to release-please with live steward and trimmed publish | [sase-1n6.9](sase-1n6.9.md) | 2026-10-25 17:35:55 EDT |
-| chezmoi | [`chezmoi@027a28b`](https://github.com/bbugyi200/dotfiles/commit/027a28b96fb8067ae081796f5e1a75894f2f099d) | feat(chezmoi): drop sase-org/sase from athena ci\_watch release lists | [sase-1n6.9](sase-1n6.9.md) | 2026-10-25 17:38:58 EDT |
 
 <!-- sase:referenced-by:start -->
 
@@ -76,13 +75,19 @@ Landing evidence: sase-core check passed (ToolRun 8a4be3d1be5ee56baa180c72f255fc
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:13d][1] | Research which agents stalled the sase-1n6 epic: in-progress phases | 1 |
-| read-by | [agent:research.2a.cld][2] | E3 readiness: E2 status | 1 |
-| read-by | [agent:research.2a.grk][3] | Need remaining open E2 phase statuses and blockers before designing E3 | 1 |
-| read-by | [agent:research.2a.mus][4] | E3 readiness: remaining E2 phases status | 1 |
+| read-by | [agent:14g][2] | Handover steps and baseline evidence that sase-1n6.10 depends on | 1 |
+| read-by | [agent:14r--code][3] | Verify the monitor prerequisite polling condition against a closed bead | 2 |
+| read-by | [agent:research.2a.cld][4] | E3 readiness: E2 status | 1 |
+| read-by | [agent:research.2a.grk][5] | Need remaining open E2 phase statuses and blockers before designing E3 | 1 |
+| read-by | [agent:research.2a.mus][6] | E3 readiness: remaining E2 phases status | 1 |
+| read-by | [agent:sase-1n6.9][7] | Need the phase scope and design file | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.13d/README.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2a.cld/README.md
-[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2a.grk/README.md
-[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2a.mus/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.14g/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.14r.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2a.cld/README.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2a.grk/README.md
+[6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2a.mus/README.md
+[7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.9/README.md
 
 <!-- sase:referenced-by:end -->

@@ -43,9 +43,11 @@ core-pin: ratchet_core_pin writes sase-core-rs==X.Y.Z chosen by one shared core-
 | read-by | [agent:research.2a.cld][1] | E3 readiness: E2 status | 1 |
 | read-by | [agent:research.2a.mus][2] | E3 readiness: core-pin behavior | 1 |
 | read-by | [agent:sase-1n6.3][3] | Need the phase scope and design file | 2 |
+| read-by | [agent:sase-1oh.5.1.1][4] | Check whether the unrelated just check failures already have an existing tracking bead | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2a.cld/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.2a.mus/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.3/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1oh.5.1.1/README.md
 
 <!-- sase:referenced-by:end -->

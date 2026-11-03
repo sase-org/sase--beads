@@ -70,12 +70,6 @@ deployed-reproof: exercise the host-landed pin and observation repair, retain ac
 
 - **Depends on:** [sase-1n6.5.1.5.2.1.3.1](sase-1n6.5.1.5.2.1.3.1.md) ✓ · ⧖ 2026-10-23
 
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-1n6.5.1.5.2.1.3.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.5.1.5.2.1.3.2.md) | [sase-1n6.5.1.5.2.1.3.2](sase-1n6.5.1.5.2.1.3.2.md) | 0 |
-
 <!-- sase:referenced-by:start -->
 
 ## Referenced By
