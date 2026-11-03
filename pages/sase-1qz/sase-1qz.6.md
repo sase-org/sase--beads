@@ -13,7 +13,7 @@ recover_keep: add the exactly-once resolution transaction, strict same-workspace
 
 ## Dependencies
 
-- **Depends on:** [sase-1qz.2](sase-1qz.2.md) ◐ · ⧖ 2026-11-02
+- **Depends on:** [sase-1qz.2](sase-1qz.2.md) ✓ · ⧖ 2026-11-02
 - **Depends on:** [sase-1qz.5](sase-1qz.5.md) ◐ · ⧖ 2026-11-02
 - **Blocks:** [sase-1qz.7](sase-1qz.7.md) ◐ · ⧖ 2026-11-02
 

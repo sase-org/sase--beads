@@ -20,4 +20,4 @@ settle: add the Python ledger store, the hijack-mode user-kill intent, and the r
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-1qz.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1qz.3/README.md) | [sase-1qz.3](sase-1qz.3.md) | 0 |
+| [bbugyi200.apollo.sase-1qz.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1qz.3.md) | [sase-1qz.3](sase-1qz.3.md) | 0 |
