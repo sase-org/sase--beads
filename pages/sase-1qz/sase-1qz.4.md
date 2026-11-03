@@ -22,8 +22,8 @@ stop: create the agent_hijack beta flag. Implement the ordered stop orchestrator
 ## Dependencies
 
 - **Depends on:** [sase-1qz.3](sase-1qz.3.md) ✓ · ⧖ 2026-11-02
-- **Blocks:** [sase-1qz.5](sase-1qz.5.md) ◐ · ⧖ 2026-11-02
-- **Blocks:** [sase-1qz.8](sase-1qz.8.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [sase-1qz.5](sase-1qz.5.md) ✓ · ⧖ 2026-11-02
+- **Blocks:** [sase-1qz.8](sase-1qz.8.md) ○ · ⧖ 2026-11-02
 
 ## Agents
 
@@ -36,3 +36,15 @@ stop: create the agent_hijack beta flag. Implement the ordered stop orchestrator
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`f163ba7`](https://github.com/sase-org/sase/commit/f163ba74c0dc2a237133e5af68b5ad8fd72ce789) | feat(agent-hijack): add ordered stop orchestrator with hijack ingress | [sase-1qz.4](sase-1qz.4.md) | 2026-11-03 06:35:53 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1qz.4--2][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1qz.4.md
+
+<!-- sase:referenced-by:end -->

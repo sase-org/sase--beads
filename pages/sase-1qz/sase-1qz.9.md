@@ -15,7 +15,7 @@ tui_panel: extend AgentActionChooserModal with a header, single-line sectioned r
 
 - **Blocks:** [sase-1qz.10](sase-1qz.10.md) ◐ · ⧖ 2026-11-02
 - **Depends on:** [sase-1qz.7](sase-1qz.7.md) ◐ · ⧖ 2026-11-02
-- **Depends on:** [sase-1qz.8](sase-1qz.8.md) ◐ · ⧖ 2026-11-02
+- **Depends on:** [sase-1qz.8](sase-1qz.8.md) ○ · ⧖ 2026-11-02
 
 ## Agents
 
