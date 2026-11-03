@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / sase-1pj
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.research.5f.linker.w0](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.research.5f.linker.w0.md) · **Assignee:** `sase-1pj.land`
-**Created:** 2026-10-28 20:28:57 EDT
+**Created:** 2026-10-28 20:28:57 EDT · **Closed:** 2026-11-03 12:53:15 EST
 **Plan:** [202610/staged\_handoffs.md](https://github.com/sase-org/sase--plans/blob/main/202610/staged_handoffs.md)
 
 <!-- sase:links:start -->
@@ -14,10 +14,12 @@
 | Relation | Artifact | Why |
 | --- | --- | --- |
 | implemented-by | [plan:202610/staged_handoffs.md][1] | derived from the plan's `bead_id:` frontmatter field |
+| related | [bead:sase-1r3][2] | Epic that introduced staged handoffs and listed PR-mode projects as a non-goal |
 
 _Plus 15 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202610/staged_handoffs.md
+[2]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-1r3/README.md
 
 <!-- sase:links:end -->
 
@@ -36,6 +38,17 @@ Turn-ending commands (plan propose, questions, pipe, gate create, sudo request, 
 [2026-11-02T21:51:24Z · sase-1pj.7.1.land] DISCOVERED ISSUE / LAND TRIAGE from sase-1pj.7.1 notes #5/#6: historical killed plan-proposal handoffs lost code and plan-status edits (sase-1qt and sase-1pn). Existing task sase-1qv owns re-landing the missing sase-1pn repairs; corroborated during the retention audit at d2061888ec. This child keeps terminal retention and gate creator-identity failure as remaining work. Parent rollout/retire-kill-path must still eliminate the commit-skipping legacy plan handoff; retention is not a substitute for committing commit-only plans before publication. Do not infer historical missing edits were restored from the retention epic closing.
 
 [2026-11-03T15:13:55Z · sase-1pj.8.1.land] DISCOVERED ISSUE (from sase-1pj.8.1.7 PROPOSED FOLLOW-UP notes #5/#6, triaged by sase-1pj.8.1.land): prepared-monitor host completion breaks when monitor staging promotes the starter's agent-session identity mid-turn. Repro (athena, 2026-11-03, run 20261103091726): sase final prepare sealed cci:1d13a8227b5e9c2d for agent sase-1pj.8.1.7; sase monitor start -f (monitor n7exmbcn38dr, ToolRun bbf925f23d095dba2a18b1e457e9eade) promoted the root via src/sase/monitor/start_lane.py promote_agent_to_agent_session to sase-1pj.8.1.7--plan; the in-turn /sase_final that the staged protocol now requires then refused prepared coverage with prepared_creator_agent_mismatch although run_id, turn nonce, repository obligation digest, and plan digest were unchanged. The monitor later passed all 19 just check stages but host completion refused again with 'sase final context requires active finalizer turn metadata: SASE_FINAL_TURN_NONCE' (src/sase/finalizers/_declaration_context.py:169), so the phase needed a recovery successor. Causal link: sase-1pj.5's staging-time promotion plus the unconditional /sase_final-after-staging protocol; the staged adopter already tolerates this promotion (_runner_ctx_from_monitor_metadata in src/sase/axe/run_agent_exec_staged_adopters.py) but the prepared-coverage creator check (sase-core) and detached prepared completion do not. Related: sase-1qm (stale_worktree_fingerprint refusal of an unchanged prepared intent; different defect) and note #4's gate creator-identity failure. Not caused by sase-1pj.8.1's kill-path retirement, which did not change promotion or prepared coverage; observed once (only matching runs are sase-1pj.8.1.7 and its --1 recovery).
+
+[2026-11-03T17:14:50Z · sase-1pj.land] LAND TRIAGE (sase-1pj.land, master 09a2273dbb): read all 9 phases, all 51 descendant beads and their notes, the plan, and the epic's 54 commits plus the 146 commits that landed since 06cd630543. Follow-up outcomes:
+(1) sase-1pj.1 #1 (core-memory authorization for the final-declaration template): DECLINED as resolved. The memory_final_exemption question explicitly asked to "Rewrite the core final-declaration text and macros.md", the reviewer answered yes, and 09a2273dbb (sase-1pj.9) rewrote src/sase/main/init_memory/templates/memory-sase.template.md plus macros.md and regenerated AGENTS.md.
+(2) sase-1pj.1 #2 (PR-mode staged plans): NEW feature task sase-1r3 (ready, large), linked related to sase-1pj. The plan lists PR mode as a non-goal; no duplicate or causal active epic found.
+(3) Child-epic PROPOSED FOLLOW-UPs were already triaged by their landers (sase-1pj.1.1 #1, 2.1 #2, 4.1 #3, 5.1 #2/#7, 6.1 #5, 7.1 #8, 7.1.5 #2, 8.1 #1). I rechecked them and filed nothing new. sase-1pj.3 #1 is owned by sase-1pg/contract-manifest fixes, and #2 is resolved because the phase closed.
+(4) Epic notes #1 (contract manifest), #2 (sudo skill test), and #3 (six closed-phase APIs) are RESOLVED on master: test_contract_manifest and test_init_skills_source_content pass, complete_workflow_review/WorkflowCompletionError/load_prepared_intent_reservations are gone, and reserve/release_prepared_intent are consumed by monitor staging.
+(5) Epic note #4 (historical plan-handoff work loss): sase-1pj.8 retired the kill path, so no handoff skips finalizers. sase-1qv still owns re-landing the sase-1pn repairs. The four lost plan-status edits (task_backlog_epic_1..4.md still wip while sase-1pm/1pn/1pu/1qn are closed) are repaired in the closeout tale.
+(6) Epic note #5 (prepared-monitor completion): ACCEPTED AS REMAINING EPIC WORK. Two epic-caused defects. (a) Stage-time root promotion in src/sase/monitor/start_lane.py (sase-1pj.5) renames the starter X to X--0/X--plan, and the post-staging /sase_final (the new protocol) passes the promoted name as starter_agent_id, so sase-core refuses with prepared_creator_agent_mismatch against the creator sealed by sase final prepare. (b) The monitor now spawns from the runner after _invoke has popped SASE_FINAL_TURN_NONCE (scrub_agent_identity_env never removed it, so kill-era CLI spawns inherited it). run_host_completion's first snapshot_execution_context -> publish_final_context therefore raises missing_turn_metadata before execute_host_completion mints its nonce. Fixed in the closeout tale. sase-1qm (stale_worktree_fingerprint) stays a distinct ready bug.
+Integration: agent-hijack (sase-1qz) runtime and ACE controls, lost-gate withdrawal (sase-1qk), flag-removal gate closes (258ebe7228), and the readout/runner/monitor splits preserve the staged paths. No duplicate or conflicting code found. epic-symbols: none.
+
+[2026-11-03T17:53:15Z · sase-1pj.land] Landed. Verified all 9 phases and 51 descendants closed with every note addressed (see LAND TRIAGE note): plan/questions/pipe/gate/monitor staging, carry wire, adoption recovery, carry hardening, kill-path and flag retirement (sase-1pk closed), docs/memory per DECISIONS. Integration with post-start commits (agent-hijack, lost-gate withdrawal, flag-removal gates, readout/runner/monitor splits) was clean. Follow-ups: PR mode -> sase-1r3; core-note authorization resolved by 09a2273dbb; epic notes 1-3 resolved on master; note 4 kill path retired, sase-1qv owns sase-1pn re-landing, and task_backlog_epic_1..4.md statuses were repaired; note 5 fixed here: prepared starter coverage accepts the exact stage-time root promotion, and host completion mints its own turn nonce before its first context. sase-1qm stays distinct. Check: 087fb91efa3fd5e69c0028c156b30474. epic-symbols: none.
 
 ## Phases
 
@@ -163,7 +176,7 @@ Turn-ending commands (plan propose, questions, pipe, gate create, sudo request, 
 | sase | [`f2e8480`](https://github.com/sase-org/sase/commit/f2e84801ccfe2251c01808db4f8462ba00f41f7c) | fix(workspace-retention): retain stranded gate and staged workspaces | [sase-1pj.7.1.3](sase-1pj.7.1.3.md) | 2026-10-31 16:57:37 EDT |
 | sase | [`745d7b5`](https://github.com/sase-org/sase/commit/745d7b57b15e0639c5c62baa80fcd4ca5e94faf8) | feat(monitor): settle stranded workspaces through shared settlement adapter | [sase-1pj.7.1.2](sase-1pj.7.1.2.md) | 2026-10-31 18:06:40 EDT |
 
-… and 22 more commits
+… and 24 more commits
 
 <!-- sase:referenced-by:start -->
 

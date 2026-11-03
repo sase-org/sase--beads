@@ -30,3 +30,15 @@ docs-memory: rewrite the generated skills and user docs for the single end-of-tu
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`09a2273`](https://github.com/sase-org/sase/commit/09a2273dbbc8fabf2378f0d5ef8761c33a3708a6) | docs(handoffs): end staged handoffs through host completion | [sase-1pj.9](sase-1pj.9.md) | 2026-11-03 11:56:27 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1pj.9][1] | Need the phase scope and design file | 4 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1pj.9/README.md
+
+<!-- sase:referenced-by:end -->
