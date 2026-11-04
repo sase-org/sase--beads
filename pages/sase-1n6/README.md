@@ -187,7 +187,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1n6.10](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.10.md) | [sase-1n6.10](sase-1n6.10.md) | 0 |
 | [bbugyi200.athena.sase-1n6.11.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.11.1.md) | [sase-1n6.11.1](sase-1n6.11.1.md) | 2 |
 | [bbugyi200.athena.sase-1n6.11.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.11.2/README.md) | [sase-1n6.11.2](sase-1n6.11.2.md) | 1 |
-| [bbugyi200.athena.sase-1n6.11.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.11.3.md) | [sase-1n6.11.3](sase-1n6.11.3.md) | 1 |
+| [bbugyi200.athena.sase-1n6.11.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.11.3.md) | [sase-1n6.11.3](sase-1n6.11.3.md) | 2 |
 | [bbugyi200.athena.sase-1n6.11.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.11.4/README.md) | [sase-1n6.11.4](sase-1n6.11.4.md) | 0 |
 | [bbugyi200.athena.sase-1n6.11.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.11.land/README.md) | [sase-1n6.11](sase-1n6.11.md) | 0 |
 | [bbugyi200.athena.sase-1n6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1n6.2/README.md) | [sase-1n6.2](sase-1n6.2.md) | 1 |
@@ -251,6 +251,7 @@ flowchart TD
 | sase-core | [`sase-core@4b1b8ac`](https://github.com/sase-org/sase-core/commit/4b1b8aca1156bf0f91dbc0fb7a33048d948f4254) | fix(release-steward)!: separate Master Gate jobs from PR merge checks | [sase-1n6.11.1](sase-1n6.11.1.md) | 2026-11-03 17:45:40 EST |
 | sase | [`a732756`](https://github.com/sase-org/sase/commit/a732756c9eb926ee83d580d24170b65ca83e5efe) | fix(release-steward): read merge checks from the versioned inventory | [sase-1n6.11.1](sase-1n6.11.1.md) | 2026-11-03 17:47:22 EST |
 | sase-core | [`sase-core@883ffcb`](https://github.com/sase-org/sase-core/commit/883ffcb38bfe87a60e3085998ce3ef0b11bb9cc4) | feat(release-steward): fresh-tag dispatch, gen-0 burn, sealed resume | [sase-1n6.11.3](sase-1n6.11.3.md) | 2026-11-03 21:43:22 EST |
+| sase | [`734731d`](https://github.com/sase-org/sase/commit/734731d60359f34ec6dc232cac59f0c1a2df3383) | feat(release-steward): start and resume train at fresh tag | [sase-1n6.11.3](sase-1n6.11.3.md) | 2026-11-03 21:45:04 EST |
 
 <!-- sase:referenced-by:start -->
 

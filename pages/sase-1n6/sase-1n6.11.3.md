@@ -31,10 +31,11 @@ train-start: a fresh tag with an unsealed draft dispatches release.yml mode=rele
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1n6.11.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.11.3.md) | [sase-1n6.11.3](sase-1n6.11.3.md) | 1 |
+| [bbugyi200.athena.sase-1n6.11.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.11.3.md) | [sase-1n6.11.3](sase-1n6.11.3.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@883ffcb`](https://github.com/sase-org/sase-core/commit/883ffcb38bfe87a60e3085998ce3ef0b11bb9cc4) | feat(release-steward): fresh-tag dispatch, gen-0 burn, sealed resume | [sase-1n6.11.3](sase-1n6.11.3.md) | 2026-11-03 21:43:22 EST |
+| sase | [`734731d`](https://github.com/sase-org/sase/commit/734731d60359f34ec6dc232cac59f0c1a2df3383) | feat(release-steward): start and resume train at fresh tag | [sase-1n6.11.3](sase-1n6.11.3.md) | 2026-11-03 21:45:04 EST |
