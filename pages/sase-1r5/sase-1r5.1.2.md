@@ -18,8 +18,8 @@ credential-retry-policy: move sase's sase-core CI pin past the classifier change
 ## Dependencies
 
 - **Depends on:** [sase-1r5.1.1](sase-1r5.1.1.md) ✓ · ⧖ 2026-11-04
-- **Blocks:** [sase-1r5.1.3](sase-1r5.1.3.md) ◐ · ⧖ 2026-11-04
-- **Blocks:** [sase-1r5.1.4](sase-1r5.1.4.md) ◐ · ⧖ 2026-11-04
+- **Blocks:** [sase-1r5.1.3](sase-1r5.1.3.md) ○ · ⧖ 2026-11-04
+- **Blocks:** [sase-1r5.1.4](sase-1r5.1.4.md) ✓ · ⧖ 2026-11-04
 
 ## Agents
 
@@ -32,3 +32,15 @@ credential-retry-policy: move sase's sase-core CI pin past the classifier change
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`d008039`](https://github.com/sase-org/sase/commit/d0080395118c2c239433c3bef1c0b0e26a4a5c51) | feat(retryability): add credential confirmation retry policy | [sase-1r5.1.2](sase-1r5.1.2.md) | 2026-11-04 08:32:04 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1r5.1.2--1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1r5.1.2.md
+
+<!-- sase:referenced-by:end -->
