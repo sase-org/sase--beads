@@ -13,7 +13,7 @@ docs-and-followups: document the retry budgets, kill switch, and fast-fail cases
 
 ## Dependencies
 
-- **Depends on:** [sase-1r5.1.3](sase-1r5.1.3.md) ○ · ⧖ 2026-11-04
+- **Depends on:** [sase-1r5.1.3](sase-1r5.1.3.md) ◐ · ⧖ 2026-11-04
 - **Depends on:** [sase-1r5.1.4](sase-1r5.1.4.md) ✓ · ⧖ 2026-11-04
 
 ## Agents

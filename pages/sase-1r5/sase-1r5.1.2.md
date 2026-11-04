@@ -18,7 +18,7 @@ credential-retry-policy: move sase's sase-core CI pin past the classifier change
 ## Dependencies
 
 - **Depends on:** [sase-1r5.1.1](sase-1r5.1.1.md) ✓ · ⧖ 2026-11-04
-- **Blocks:** [sase-1r5.1.3](sase-1r5.1.3.md) ○ · ⧖ 2026-11-04
+- **Blocks:** [sase-1r5.1.3](sase-1r5.1.3.md) ◐ · ⧖ 2026-11-04
 - **Blocks:** [sase-1r5.1.4](sase-1r5.1.4.md) ✓ · ⧖ 2026-11-04
 
 ## Agents

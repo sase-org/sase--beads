@@ -33,3 +33,15 @@ network-git-and-lease-adopt: route publickey denials in `run_sdd_network_git_wit
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`31174e2`](https://github.com/sase-org/sase/commit/31174e283c68ae969d3572268bf45fd3a146f63d) | feat(retryability): adopt credential retries in network git and leases | [sase-1r5.1.4](sase-1r5.1.4.md) | 2026-11-04 09:20:51 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1r5.1.4][1] | Verify that only the assigned phase closed after completion | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1r5.1.4/README.md
+
+<!-- sase:referenced-by:end -->
