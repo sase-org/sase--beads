@@ -37,3 +37,15 @@ strict_successor: add strict follow-up workspace handling and a recovery success
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`09bd42e`](https://github.com/sase-org/sase/commit/09bd42e622e7b63823376c23844b9d37a21e2c2b) | feat(agent-hijack): same-workspace recovery successor with mandatory inheritance | [sase-1qz.6.1.3](sase-1qz.6.1.3.md) | 2026-11-03 17:12:38 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1qz.6.1.3--1][1] | Need the phase scope and design file to triage check failures on closed bead | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1qz.6.1.3.md
+
+<!-- sase:referenced-by:end -->

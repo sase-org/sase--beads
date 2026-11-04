@@ -11,6 +11,10 @@
 
 recovery_context: implement the shared preview adapter, pinned continuation prompts, budget-aware fork fallback, and hijack transcript framing.
 
+## Notes
+
+[2026-11-04T03:45:18Z · sase-1qz.6.1.2] PROPOSED FOLLOW-UP: Triage baseline check flakes from ToolRun 42c36b107eb535542ec71203ffbcb7d0: the three panel_shell_pilot grammar-pending timeouts and test_sudo_answer_waits_for_concurrent_reclaimer_without_failure reproduced on clean base in ToolRun 54e0885b2c117b4229c94b90155f83c4; corroborates existing flake beads sase-1al (panel shell) and sase-1oy (sudo reclaimer), plus prior sase-1qz.4 note. App import-budget and pager kitchen failures passed the clean-base rerun.
+
 ## Dependencies
 
 - **Depends on:** [sase-1qz.6.1.1](sase-1qz.6.1.1.md) ✓ · ⧖ 2026-11-03
@@ -20,4 +24,10 @@ recovery_context: implement the shared preview adapter, pinned continuation prom
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.apollo.sase-1qz.6.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1qz.6.1.2/README.md) | [sase-1qz.6.1.2](sase-1qz.6.1.2.md) | 0 |
+| [bbugyi200.apollo.sase-1qz.6.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1qz.6.1.2/README.md) | [sase-1qz.6.1.2](sase-1qz.6.1.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`a4fe560`](https://github.com/sase-org/sase/commit/a4fe5601302cf121e56dcc7c93c5b5c19c71a653) | feat(agent-hijack): add recovery preview and continuation context | [sase-1qz.6.1.2](sase-1qz.6.1.2.md) | 2026-11-04 00:14:05 EST |
