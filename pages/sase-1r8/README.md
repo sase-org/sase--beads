@@ -39,7 +39,7 @@ The background agent_publication job stops reporting scanner false positives eve
 | [sase-1r8.2](sase-1r8.2.md) | One drain loop that never lets a failing row starve its project | ✓ closed | medium | 2026-11-04 | 1 | 1 |
 | [sase-1r8.3](sase-1r8.3.md) | Recognize a session member's prompt archive for .land coder rows | ✓ closed | small | 2026-11-04 | 1 | 1 |
 | [sase-1r8.4](sase-1r8.4.md) | Consume the rules-versioned protection policy in sase | ✓ closed | medium | 2026-11-04 | 1 | 1 |
-| [sase-1r8.5](sase-1r8.5.md) | Park protection-withheld requests instead of retrying them every pass | ◐ in_progress | medium | 2026-11-04 | 1 | 0 |
+| [sase-1r8.5](sase-1r8.5.md) | Park protection-withheld requests instead of retrying them every pass | ✓ closed | medium | 2026-11-04 | 1 | 1 |
 | [sase-1r8.6](sase-1r8.6.md) | Install, verify live on athena, and hand off follow-ups | ◐ in_progress | small | 2026-11-04 | 1 | 0 |
 
 ## Lineage
@@ -51,7 +51,7 @@ flowchart TD
     n2["sase-1r8.2: One drain loop that never lets a failing row starve its project [closed]"]
     n3["sase-1r8.3: Recognize a session member's prompt archive for .land coder rows [closed]"]
     n4["sase-1r8.4: Consume the rules-versioned protection policy in sase [closed]"]
-    n5["sase-1r8.5: Park protection-withheld requests instead of retrying them every pass [in_progress]"]
+    n5["sase-1r8.5: Park protection-withheld requests instead of retrying them every pass [closed]"]
     n6["sase-1r8.6: Install, verify live on athena, and hand off follow-ups [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -74,7 +74,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1r8.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1r8.2/README.md) | [sase-1r8.2](sase-1r8.2.md) | 1 |
 | [bbugyi200.athena.sase-1r8.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1r8.3.md) | [sase-1r8.3](sase-1r8.3.md) | 1 |
 | [bbugyi200.athena.sase-1r8.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1r8.4.md) | [sase-1r8.4](sase-1r8.4.md) | 1 |
-| [bbugyi200.athena.sase-1r8.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1r8.5/README.md) | [sase-1r8.5](sase-1r8.5.md) | 0 |
+| [bbugyi200.athena.sase-1r8.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1r8.5/README.md) | [sase-1r8.5](sase-1r8.5.md) | 1 |
 | [bbugyi200.athena.sase-1r8.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1r8.6/README.md) | [sase-1r8.6](sase-1r8.6.md) | 0 |
 | [bbugyi200.athena.sase-1r8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1r8.land/README.md) | [sase-1r8](README.md) | 0 |
 
@@ -86,6 +86,7 @@ flowchart TD
 | sase-core | [`sase-core@542448a`](https://github.com/sase-org/sase-core/commit/542448a01b2f8f8246ae376dfbe5d84b996261b7) | feat(sase-core): anchor scanner rules, version blocks, add parked recheck | [sase-1r8.1](sase-1r8.1.md) | 2026-11-04 14:48:49 EST |
 | sase | [`34b09fa`](https://github.com/sase-org/sase/commit/34b09fa219b5e4fd07f5d1e45166c4d40431b426) | fix(agents-sync): prevent publication drain starvation | [sase-1r8.2](sase-1r8.2.md) | 2026-11-04 15:04:00 EST |
 | sase | [`cdfbb82`](https://github.com/sase-org/sase/commit/cdfbb82d2bad28c1f1b6d7a7e23b3e72f455fbf3) | feat(agent-publication-protection): enforce scanner rule versions | [sase-1r8.4](sase-1r8.4.md) | 2026-11-04 16:18:35 EST |
+| sase | [`1b62dfb`](https://github.com/sase-org/sase/commit/1b62dfb9bdb52b9a81a7755f8f6184c5d1cc2ec2) | feat(agent-publication): park protection-withheld requests | [sase-1r8.5](sase-1r8.5.md) | 2026-11-04 17:21:54 EST |
 
 <!-- sase:referenced-by:start -->
 

@@ -14,7 +14,7 @@ verify: propose the human-only reinstall through a gate if the installed build p
 ## Dependencies
 
 - **Depends on:** [sase-1r8.3](sase-1r8.3.md) ✓ · ⧖ 2026-11-04
-- **Depends on:** [sase-1r8.5](sase-1r8.5.md) ◐ · ⧖ 2026-11-04
+- **Depends on:** [sase-1r8.5](sase-1r8.5.md) ✓ · ⧖ 2026-11-04
 
 ## Agents
 

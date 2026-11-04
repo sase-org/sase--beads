@@ -17,7 +17,7 @@ drain: replace the hinted-then-fallback loops in publication_job with one loop t
 
 ## Dependencies
 
-- **Blocks:** [sase-1r8.5](sase-1r8.5.md) ◐ · ⧖ 2026-11-04
+- **Blocks:** [sase-1r8.5](sase-1r8.5.md) ✓ · ⧖ 2026-11-04
 
 ## Agents
 

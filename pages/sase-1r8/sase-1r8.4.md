@@ -18,7 +18,7 @@ protection: move the sase-core pin, route every ledger lookup through the enforc
 ## Dependencies
 
 - **Depends on:** [sase-1r8.1](sase-1r8.1.md) ✓ · ⧖ 2026-11-04
-- **Blocks:** [sase-1r8.5](sase-1r8.5.md) ◐ · ⧖ 2026-11-04
+- **Blocks:** [sase-1r8.5](sase-1r8.5.md) ✓ · ⧖ 2026-11-04
 
 ## Agents
 
@@ -40,8 +40,10 @@ protection: move the sase-core pin, route every ledger lookup through the enforc
 | --- | --- | --- | ---: |
 | read-by | [agent:18b--code][1] | Determine the causal phase for the two failing protection-ledger tests | 1 |
 | read-by | [agent:research.3a.final][2] | Check active epic phase scopes for conflict screening of task bead recommendations | 1 |
+| read-by | [agent:sase-1r8.4--1][3] | Need the phase scope, design file, and prior notes before completing the assigned work | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.18b.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3a.final/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1r8.4.md
 
 <!-- sase:referenced-by:end -->
