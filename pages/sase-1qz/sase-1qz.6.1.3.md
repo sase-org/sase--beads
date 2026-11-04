@@ -3,7 +3,7 @@
 [Bead Pages](../README.md) / [sase-1qz.6.1](sase-1qz.6.1.md) / sase-1qz.6.1.3
 
 **Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
-**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.apollo.sase-1qz.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1qz.6.md) · **Assignee:** `sase-1qz.6.1.3` · **Size:** medium
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** `bbugyi200.apollo.sase-1qz.6` · **Assignee:** `sase-1qz.6.1.3` · **Size:** medium
 **Created:** 2026-11-03 08:05:26 EST · **Closed:** 2026-11-03 16:15:37 EST
 **Plan:** [202611/hijack\_keep\_work\_recovery.md](https://github.com/sase-org/sase--plans/blob/main/202611/hijack_keep_work_recovery.md)
 
@@ -44,8 +44,10 @@ strict_successor: add strict follow-up workspace handling and a recovery success
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1qz.6.1.3--1][1] | Need the phase scope and design file to triage check failures on closed bead | 1 |
+| read-by | [agent:research.3a.final][1] | Check active epic phase scopes for conflict screening of task bead recommendations | 1 |
+| read-by | [agent:sase-1qz.6.1.3--1][2] | Need the phase scope and design file to triage check failures on closed bead | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1qz.6.1.3.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3a.final/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qz.6.1.3.md
 
 <!-- sase:referenced-by:end -->
