@@ -75,10 +75,11 @@ No proposals declined.
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1r5.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1r5.1.land/README.md) | [sase-1r5.1](sase-1r5.1.md) | 1 |
+| [bbugyi200.athena.sase-1r5.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1r5.1.land/README.md) | [sase-1r5.1](sase-1r5.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`75226f2`](https://github.com/sase-org/sase/commit/75226f2435623f480915cc5a0c9bf5dcba97cf8e) | refactor(retryability): match credential\_unconfirmed via the wire constant | [sase-1r5.1](sase-1r5.1.md) | 2026-11-04 10:31:14 EST |
+| sase--plans | [`sase--plans@3c9c245`](https://github.com/sase-org/sase--plans/commit/3c9c2453687cbc33c7f8b30540620629756f59c1) | chore(plans): mark github\_publickey\_retry plan done after epic sase-1r5.1 landed | [sase-1r5.1](sase-1r5.1.md) | 2026-11-04 10:32:05 EST |

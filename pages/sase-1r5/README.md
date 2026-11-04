@@ -136,7 +136,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1r5.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1r5.1.3.md) | [sase-1r5.1.3](sase-1r5.1.3.md) | 1 |
 | [bbugyi200.athena.sase-1r5.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1r5.1.4/README.md) | [sase-1r5.1.4](sase-1r5.1.4.md) | 1 |
 | [bbugyi200.athena.sase-1r5.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1r5.1.5/README.md) | [sase-1r5.1.5](sase-1r5.1.5.md) | 1 |
-| [bbugyi200.athena.sase-1r5.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1r5.1.land/README.md) | [sase-1r5.1](sase-1r5.1.md) | 1 |
+| [bbugyi200.athena.sase-1r5.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1r5.1.land/README.md) | [sase-1r5.1](sase-1r5.1.md) | 2 |
 
 ## Commits
 
@@ -148,3 +148,4 @@ flowchart TD
 | sase | [`8274208`](https://github.com/sase-org/sase/commit/82742081f9bdb02a282ebd209b4c2bfa1bd58d0a) | feat(retryability): adopt credential retries in the SDD store clone | [sase-1r5.1.3](sase-1r5.1.3.md) | 2026-11-04 09:26:41 EST |
 | sase | [`8b0e640`](https://github.com/sase-org/sase/commit/8b0e640242331ca08a54b8b49fb4ae7dc7359fec) | docs(retryability): document SSH publickey credential-retry budgets and kill switch | [sase-1r5.1.5](sase-1r5.1.5.md) | 2026-11-04 09:50:35 EST |
 | sase | [`75226f2`](https://github.com/sase-org/sase/commit/75226f2435623f480915cc5a0c9bf5dcba97cf8e) | refactor(retryability): match credential\_unconfirmed via the wire constant | [sase-1r5.1](sase-1r5.1.md) | 2026-11-04 10:31:14 EST |
+| sase--plans | [`sase--plans@3c9c245`](https://github.com/sase-org/sase--plans/commit/3c9c2453687cbc33c7f8b30540620629756f59c1) | chore(plans): mark github\_publickey\_retry plan done after epic sase-1r5.1 landed | [sase-1r5.1](sase-1r5.1.md) | 2026-11-04 10:32:05 EST |
