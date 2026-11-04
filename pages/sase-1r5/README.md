@@ -108,9 +108,9 @@ flowchart TD
     n1["sase-1r5.1: Retry transient GitHub SSH publickey denials on git network operations [in_progress]"]
     n2["sase-1r5.1.1: sase-core credential_unconfirmed verdict for SSH publickey denials [closed]"]
     n3["sase-1r5.1.2: sase pin bump and shared credential-confirmation retry policy [closed]"]
-    n4["sase-1r5.1.3: Adopt credential retries in the SDD store clone [in_progress]"]
+    n4["sase-1r5.1.3: Adopt credential retries in the SDD store clone [closed]"]
     n5["sase-1r5.1.4: Adopt credential retries in SDD network git and workspace lease fetch [closed]"]
-    n6["sase-1r5.1.5: Document the auth-retry behavior and record follow-ups [in_progress]"]
+    n6["sase-1r5.1.5: Document the auth-retry behavior and record follow-ups [closed]"]
     n0 --> n1
     n1 --> n2
     n1 --> n3
@@ -133,7 +133,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1r5.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1r5.1.2.md) | [sase-1r5.1.2](sase-1r5.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1r5.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1r5.1.3.md) | [sase-1r5.1.3](sase-1r5.1.3.md) | 1 |
 | [bbugyi200.athena.sase-1r5.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1r5.1.4/README.md) | [sase-1r5.1.4](sase-1r5.1.4.md) | 1 |
-| [bbugyi200.athena.sase-1r5.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1r5.1.5/README.md) | [sase-1r5.1.5](sase-1r5.1.5.md) | 0 |
+| [bbugyi200.athena.sase-1r5.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1r5.1.5/README.md) | [sase-1r5.1.5](sase-1r5.1.5.md) | 1 |
 | [bbugyi200.athena.sase-1r5.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1r5.1.land/README.md) | [sase-1r5.1](sase-1r5.1.md) | 0 |
 
 ## Commits
@@ -144,3 +144,4 @@ flowchart TD
 | sase | [`d008039`](https://github.com/sase-org/sase/commit/d0080395118c2c239433c3bef1c0b0e26a4a5c51) | feat(retryability): add credential confirmation retry policy | [sase-1r5.1.2](sase-1r5.1.2.md) | 2026-11-04 08:32:04 EST |
 | sase | [`31174e2`](https://github.com/sase-org/sase/commit/31174e283c68ae969d3572268bf45fd3a146f63d) | feat(retryability): adopt credential retries in network git and leases | [sase-1r5.1.4](sase-1r5.1.4.md) | 2026-11-04 09:20:51 EST |
 | sase | [`8274208`](https://github.com/sase-org/sase/commit/82742081f9bdb02a282ebd209b4c2bfa1bd58d0a) | feat(retryability): adopt credential retries in the SDD store clone | [sase-1r5.1.3](sase-1r5.1.3.md) | 2026-11-04 09:26:41 EST |
+| sase | [`8b0e640`](https://github.com/sase-org/sase/commit/8b0e640242331ca08a54b8b49fb4ae7dc7359fec) | docs(retryability): document SSH publickey credential-retry budgets and kill switch | [sase-1r5.1.5](sase-1r5.1.5.md) | 2026-11-04 09:50:35 EST |
