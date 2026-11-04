@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / sase-1r5
 
-**Status:** ◐ in_progress · **Type:** ◆ task · **Task type:** ✦ feature
+**Status:** ✓ closed · **Resolution:** done · **Type:** ◆ task · **Task type:** ✦ feature
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.claude-code-interactive](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.claude-code-interactive/README.md) · **Assignee:** `sase-1r5` · **Size:** xlarge
-**Created:** 2026-11-04 06:18:07 EST
+**Created:** 2026-11-04 06:18:07 EST · **Closed:** 2026-11-04 10:30:05 EST
 
 ## Description
 
@@ -96,6 +96,8 @@ Filed from an interactive diagnosis of the 2026-11-04 agent failures, whose root
 
 [2026-11-04T11:21:23Z · claude-code-interactive] Failure screenshot (apollo, 2026-11-04 05:43 EST): the ACE TUI showing bob-cli-go.10.1.4 failing at launch with the SDD store clone traceback quoted in the description. 🔒 20261104\_054308.png
 
+[2026-11-04T15:30:05Z · sase-1r5.1.land] Closed by the sase-1r5.1 land agent after its only child, epic sase-1r5.1, landed and closed. Rechecked this task's feature proposal against the landed work. Publickey denials on git and git_clone now get the non-retryable credential_unconfirmed verdict (sase-core 55532e2d, pinned). The launch SDD store clone retries within the two-minute launch budget, and agent-publication network git and the operational-lease fetch use the shared CredentialRetry. Genuine failures stay fast and keep the original stderr: deploy-key refusals are permanent, and an absent local credential or an exhausted budget fails immediately. ssh_agent.py and _sync_logs.py matchers are untouched. Documented in service-host.md and sdd-storage.md. The inventoried sites that never consult the classifier (sidecar push, AXE sidecar runner, finalizer pushes, bead sync) are tracked as follow-up sase-1r7. The land agent's sase tool run check passed. Note: the land prompt only defines handling for phase and plan parents; this task parent was closed on judgment, so reopen with 'sase bead open sase-1r5' if that was wrong.
+
 ## Attachments
 
 - 🔒 20261104\_054308.png · image/png · 2854×1686 · 892.32 KiB (private attachment)
@@ -104,8 +106,8 @@ Filed from an interactive diagnosis of the 2026-11-04 agent failures, whose root
 
 ```mermaid
 flowchart TD
-    n0["sase-1r5: Retry transient GitHub SSH 'Permission denied (publickey)' denials so incidents stop killing agent launches [in_progress]"]
-    n1["sase-1r5.1: Retry transient GitHub SSH publickey denials on git network operations [in_progress]"]
+    n0["sase-1r5: Retry transient GitHub SSH 'Permission denied (publickey)' denials so incidents stop killing agent launches [closed]"]
+    n1["sase-1r5.1: Retry transient GitHub SSH publickey denials on git network operations [closed]"]
     n2["sase-1r5.1.1: sase-core credential_unconfirmed verdict for SSH publickey denials [closed]"]
     n3["sase-1r5.1.2: sase pin bump and shared credential-confirmation retry policy [closed]"]
     n4["sase-1r5.1.3: Adopt credential retries in the SDD store clone [closed]"]
@@ -134,7 +136,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1r5.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1r5.1.3.md) | [sase-1r5.1.3](sase-1r5.1.3.md) | 1 |
 | [bbugyi200.athena.sase-1r5.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1r5.1.4/README.md) | [sase-1r5.1.4](sase-1r5.1.4.md) | 1 |
 | [bbugyi200.athena.sase-1r5.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1r5.1.5/README.md) | [sase-1r5.1.5](sase-1r5.1.5.md) | 1 |
-| [bbugyi200.athena.sase-1r5.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1r5.1.land/README.md) | [sase-1r5.1](sase-1r5.1.md) | 0 |
+| [bbugyi200.athena.sase-1r5.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1r5.1.land/README.md) | [sase-1r5.1](sase-1r5.1.md) | 1 |
 
 ## Commits
 
@@ -145,3 +147,4 @@ flowchart TD
 | sase | [`31174e2`](https://github.com/sase-org/sase/commit/31174e283c68ae969d3572268bf45fd3a146f63d) | feat(retryability): adopt credential retries in network git and leases | [sase-1r5.1.4](sase-1r5.1.4.md) | 2026-11-04 09:20:51 EST |
 | sase | [`8274208`](https://github.com/sase-org/sase/commit/82742081f9bdb02a282ebd209b4c2bfa1bd58d0a) | feat(retryability): adopt credential retries in the SDD store clone | [sase-1r5.1.3](sase-1r5.1.3.md) | 2026-11-04 09:26:41 EST |
 | sase | [`8b0e640`](https://github.com/sase-org/sase/commit/8b0e640242331ca08a54b8b49fb4ae7dc7359fec) | docs(retryability): document SSH publickey credential-retry budgets and kill switch | [sase-1r5.1.5](sase-1r5.1.5.md) | 2026-11-04 09:50:35 EST |
+| sase | [`75226f2`](https://github.com/sase-org/sase/commit/75226f2435623f480915cc5a0c9bf5dcba97cf8e) | refactor(retryability): match credential\_unconfirmed via the wire constant | [sase-1r5.1](sase-1r5.1.md) | 2026-11-04 10:31:14 EST |

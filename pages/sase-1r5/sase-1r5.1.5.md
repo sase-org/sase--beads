@@ -7,6 +7,20 @@
 **Created:** 2026-11-04 06:54:53 EST · **Closed:** 2026-11-04 09:49:18 EST
 **Plan:** [202611/github\_publickey\_retry.md](https://github.com/sase-org/sase--plans/blob/main/202611/github_publickey_retry.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| related | [bead:sase-1r7][1] | Phase whose PROPOSED FOLLOW-UP notes #1-#4 name these four sites |
+
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-1r7/README.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 docs-and-followups: document the retry budgets, kill switch, and fast-fail cases in the service-host and SDD docs. Note the deploy-key marker on sase-167, record proposed follow-ups for network git sites that never consult the classifier, and run the shim end to end against both adopted paths.
@@ -39,3 +53,15 @@ docs-and-followups: document the retry budgets, kill switch, and fast-fail cases
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`8b0e640`](https://github.com/sase-org/sase/commit/8b0e640242331ca08a54b8b49fb4ae7dc7359fec) | docs(retryability): document SSH publickey credential-retry budgets and kill switch | [sase-1r5.1.5](sase-1r5.1.5.md) | 2026-11-04 09:50:35 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1r5.1.5][1] | Need full JSON including notes | 5 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1r5.1.5/README.md
+
+<!-- sase:referenced-by:end -->

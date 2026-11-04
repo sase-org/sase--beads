@@ -7,6 +7,20 @@
 **Created:** 2026-11-04 06:54:53 EST · **Closed:** 2026-11-04 09:19:08 EST
 **Plan:** [202611/github\_publickey\_retry.md](https://github.com/sase-org/sase--plans/blob/main/202611/github_publickey_retry.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| related | [bead:sase-1r6][1] | Proposing phase whose check run observed the failure |
+
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-1r6/README.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 network-git-and-lease-adopt: route publickey denials in `run_sdd_network_git_with_retries` (agent publication) and the operational-lease `git fetch` through the shared tracker, replacing the lease's bespoke one-shot confirmation. Keep `is_credential_failure`, the ssh-agent hint, and the external mirror's `auth_error` label intact.
