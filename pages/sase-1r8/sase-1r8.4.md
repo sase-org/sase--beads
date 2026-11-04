@@ -13,7 +13,7 @@ protection: move the sase-core pin, route every ledger lookup through the enforc
 
 ## Dependencies
 
-- **Depends on:** [sase-1r8.1](sase-1r8.1.md) ◐ · ⧖ 2026-11-04
+- **Depends on:** [sase-1r8.1](sase-1r8.1.md) ✓ · ⧖ 2026-11-04
 - **Blocks:** [sase-1r8.5](sase-1r8.5.md) ◐ · ⧖ 2026-11-04
 
 ## Agents
