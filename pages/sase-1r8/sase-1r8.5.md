@@ -13,7 +13,7 @@ parking: add parked fields to the outbox (schema 8), park withheld and prompt-pr
 
 ## Dependencies
 
-- **Depends on:** [sase-1r8.2](sase-1r8.2.md) ◐ · ⧖ 2026-11-04
+- **Depends on:** [sase-1r8.2](sase-1r8.2.md) ✓ · ⧖ 2026-11-04
 - **Depends on:** [sase-1r8.4](sase-1r8.4.md) ◐ · ⧖ 2026-11-04
 - **Blocks:** [sase-1r8.6](sase-1r8.6.md) ◐ · ⧖ 2026-11-04
 
