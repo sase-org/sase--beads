@@ -17,13 +17,19 @@ core: in sase-core, add a left token boundary to the prefix credential rules, bu
 
 ## Dependencies
 
-- **Blocks:** [sase-1r8.4](sase-1r8.4.md) ◐ · ⧖ 2026-11-04
+- **Blocks:** [sase-1r8.4](sase-1r8.4.md) ✓ · ⧖ 2026-11-04
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1r8.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1r8.1.md) | [sase-1r8.1](sase-1r8.1.md) | 0 |
+| [bbugyi200.athena.sase-1r8.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1r8.1.md) | [sase-1r8.1](sase-1r8.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase-core | [`sase-core@542448a`](https://github.com/sase-org/sase-core/commit/542448a01b2f8f8246ae376dfbe5d84b996261b7) | feat(sase-core): anchor scanner rules, version blocks, add parked recheck | [sase-1r8.1](sase-1r8.1.md) | 2026-11-04 14:48:49 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -31,8 +37,10 @@ core: in sase-core, add a left token boundary to the prefix credential rules, bu
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1r8.1--1][1] | Need phase scope and design file for monitor follow-up close | 1 |
+| read-by | [agent:research.3a.final][1] | Check active epic phase scopes for conflict screening of task bead recommendations | 1 |
+| read-by | [agent:sase-1r8.1--1][2] | Need phase scope and design file for monitor follow-up close | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1r8.1.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3a.final/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1r8.1.md
 
 <!-- sase:referenced-by:end -->

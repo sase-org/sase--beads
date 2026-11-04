@@ -21,3 +21,15 @@ verify: propose the human-only reinstall through a gate if the installed build p
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1r8.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1r8.6/README.md) | [sase-1r8.6](sase-1r8.6.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:research.3a.final][1] | Check active epic phase scopes for conflict screening of task bead recommendations | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3a.final/README.md
+
+<!-- sase:referenced-by:end -->

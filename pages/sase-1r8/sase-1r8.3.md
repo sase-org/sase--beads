@@ -37,8 +37,10 @@ land_prompt: make the deferred-restore archive check accept an archive whose AGE
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1r8.3--1][1] | Confirm phase closure before finalizing | 2 |
+| read-by | [agent:research.3a.final][1] | Check active epic phase scopes for conflict screening of task bead recommendations | 1 |
+| read-by | [agent:sase-1r8.3--1][2] | Confirm phase closure before finalizing | 2 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1r8.3.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3a.final/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1r8.3.md
 
 <!-- sase:referenced-by:end -->
