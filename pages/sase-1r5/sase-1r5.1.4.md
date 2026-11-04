@@ -13,7 +13,7 @@ network-git-and-lease-adopt: route publickey denials in `run_sdd_network_git_wit
 
 ## Dependencies
 
-- **Depends on:** [sase-1r5.1.2](sase-1r5.1.2.md) ◐ · ⧖ 2026-11-04
+- **Depends on:** [sase-1r5.1.2](sase-1r5.1.2.md) ✓ · ⧖ 2026-11-04
 - **Blocks:** [sase-1r5.1.5](sase-1r5.1.5.md) ◐ · ⧖ 2026-11-04
 
 ## Agents

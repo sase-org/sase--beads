@@ -17,7 +17,7 @@ core-verdict: in sase-core, classify SSH publickey denials on git and git_clone 
 
 ## Dependencies
 
-- **Blocks:** [sase-1r5.1.2](sase-1r5.1.2.md) ◐ · ⧖ 2026-11-04
+- **Blocks:** [sase-1r5.1.2](sase-1r5.1.2.md) ✓ · ⧖ 2026-11-04
 
 ## Agents
 
@@ -30,3 +30,15 @@ core-verdict: in sase-core, classify SSH publickey denials on git and git_clone 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@55532e2`](https://github.com/sase-org/sase-core/commit/55532e2d878dfc5415bdd695a1978cc5c5fb5a3c) | feat(retryability): credential\_unconfirmed verdict for SSH publickey denials | [sase-1r5.1.1](sase-1r5.1.1.md) | 2026-11-04 07:15:59 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1r5.1.1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1r5.1.1/README.md
+
+<!-- sase:referenced-by:end -->

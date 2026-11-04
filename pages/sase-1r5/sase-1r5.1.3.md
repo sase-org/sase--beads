@@ -13,7 +13,7 @@ sdd-clone-adopt: give `clone_sdd_store_to_path` a credential-retry budget separa
 
 ## Dependencies
 
-- **Depends on:** [sase-1r5.1.2](sase-1r5.1.2.md) ◐ · ⧖ 2026-11-04
+- **Depends on:** [sase-1r5.1.2](sase-1r5.1.2.md) ✓ · ⧖ 2026-11-04
 - **Blocks:** [sase-1r5.1.5](sase-1r5.1.5.md) ◐ · ⧖ 2026-11-04
 
 ## Agents
