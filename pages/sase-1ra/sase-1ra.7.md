@@ -20,4 +20,4 @@ skew_label: teach runner_failure_facts and code_swap_explanation the signature-m
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1ra.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ra.7/README.md) | [sase-1ra.7](sase-1ra.7.md) | 0 |
+| [bbugyi200.athena.sase-1ra.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ra.7.md) | [sase-1ra.7](sase-1ra.7.md) | 0 |

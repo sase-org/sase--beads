@@ -19,4 +19,4 @@ token_fifo: give WorkerTokenLease waiters cross-process FIFO arrival tickets wit
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1ra.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ra.4/README.md) | [sase-1ra.4](sase-1ra.4.md) | 0 |
+| [bbugyi200.athena.sase-1ra.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ra.4.md) | [sase-1ra.4](sase-1ra.4.md) | 0 |

@@ -32,3 +32,15 @@ pytest_env: add SASE_MODEL_OVERRIDE to the autouse env scrub and replace the per
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`394ff93`](https://github.com/sase-org/sase/commit/394ff93ff5f35944596e349dee3e274d5290c083) | test(pytest): isolate per-test SASE homes | [sase-1ra.3](sase-1ra.3.md) | 2026-11-04 18:31:45 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ra.3][1] | Confirm the assigned phase was closed after the verification note | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ra.3/README.md
+
+<!-- sase:referenced-by:end -->
