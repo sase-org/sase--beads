@@ -23,7 +23,7 @@ Live proof 2026-11-03: pin f1bbb4f3b81383c06df422c9df9fa13f0ec244f7; core-ensure
 
 ## Dependencies
 
-- **Blocks:** [sase-1n6.11.3](sase-1n6.11.3.md) ◐ · ⧖ 2026-11-03
+- **Blocks:** [sase-1n6.11.3](sase-1n6.11.3.md) ✓ · ⧖ 2026-11-03
 
 ## Agents
 

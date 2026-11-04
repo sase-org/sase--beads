@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1n6.11](sase-1n6.11.md) / sase-1n6.11.1
 
-**Status:** ○ open · **Type:** ↳ phase · **↺ Reopened:** ↺1
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase · **↺ Reopened:** ↺1
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-1n6.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.land.md) · **Assignee:** `sase-1n6.11.1` · **Size:** medium
-**Created:** 2026-11-03 09:51:13 EST
+**Created:** 2026-11-03 09:51:13 EST · **Closed:** 2026-11-03 18:35:08 EST
 **Plan:** [202611/e2\_steward\_train\_completion.md](https://github.com/sase-org/sase--plans/blob/main/202611/e2_steward_train_completion.md)
 
 ## Previously Closed
@@ -39,9 +39,15 @@ Prior close: 2026-11-03T15:54:39Z · done.
 
 [2026-11-03T22:44:51Z · sase-1n6.11.1--1] Handoff cause confirmed: sase final status sase-1n6.11.1--plan reports carried_repo for both repositories, not commit receipts. Ordinary staged monitors synthesize carry declarations. This follow-up will explicitly submit commit decisions for both recovered repositories after staging the monitor, overriding that default as required by the requested host commit. The host revision_pin configuration for sase-core names sase-core-revision.txt. The monitor guard checks all 14 primary and 7 core changed files against committed HEAD blobs before accepting pin ancestry or spending time on another check.
 
+[2026-11-03T23:35:08Z · sase-1n6.11.1--2] Recovered merge-checks implementation is committed and published: sase a732756c9eb926ee83d580d24170b65ca83e5efe; sase-core 4b1b8aca1156bf0f91dbc0fb7a33048d948f4254. Committed sase-core-revision.txt equals 4b1b8aca1156bf0f91dbc0fb7a33048d948f4254. Independently fetched both origin/master refs, verified both HEADs are published, core commit <= pin <= core origin/master with git merge-base --is-ancestor, and verified all 14 primary plus 7 core recovered file hashes against committed HEAD and working trees; both trees clean.
+
+Landed contract: .github/release-qualification.json schema 2; merge_gate.required_checks = [Conventional PR title, prepare, release-core-floor-smoke]; inventory SHA-256 09ead2c4e6f8fe4ebb62581eb28dd12113ac27c1cfe509e8cdb916a07f891c67. Reader records source=release-qualification inventory and inventory_digest without requiring branch protection. Python mirror, Rust wire and installed release_steward_wire_schema_version() all report 2. Master Gate requires its own nonempty all-success job list; PR checks use the inventory list and remain fail-closed.
+
+Verification: complete core check 8cf347c38da8875107dda8bddbd7a1f3 passed exit 0; targeted Python 166 passed; final primary check df54dcddede232d404e6ddc1aff450f9 passed exit 0, including its automatic full-suite escalation. Guarded monitor f30x41eynt8p (ToolRun ce1624169b9def5609fe48a8e402002e) passed exit 0. Fresh read-only --once --json returned schema_version=2, process_exit=0, primary=core_cut_red for macOS core-cut run https://github.com/sase-org/sase-core/actions/runs/41664195679 attempt 1; no unreadable-required-checks wait and no action executed. Existing macOS canary escalation #325 remains outside this phase per the epic. No --epic-symbol entries. Closing only sase-1n6.11.1; ancestor epics remain open.
+
 ## Dependencies
 
-- **Blocks:** [sase-1n6.11.3](sase-1n6.11.3.md) ◐ · ⧖ 2026-11-03
+- **Blocks:** [sase-1n6.11.3](sase-1n6.11.3.md) ✓ · ⧖ 2026-11-03
 
 ## Agents
 
@@ -55,3 +61,15 @@ Prior close: 2026-11-03T15:54:39Z · done.
 |---|---|---|---|---|
 | sase-core | [`sase-core@4b1b8ac`](https://github.com/sase-org/sase-core/commit/4b1b8aca1156bf0f91dbc0fb7a33048d948f4254) | fix(release-steward)!: separate Master Gate jobs from PR merge checks | [sase-1n6.11.1](sase-1n6.11.1.md) | 2026-11-03 17:45:40 EST |
 | sase | [`a732756`](https://github.com/sase-org/sase/commit/a732756c9eb926ee83d580d24170b65ca83e5efe) | fix(release-steward): read merge checks from the versioned inventory | [sase-1n6.11.1](sase-1n6.11.1.md) | 2026-11-03 17:47:22 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1n6.11.1--1][1] | Need phase scope, design, and recovery notes before final verification and closure | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1n6.11.1.md
+
+<!-- sase:referenced-by:end -->

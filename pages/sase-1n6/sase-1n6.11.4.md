@@ -13,7 +13,7 @@ exit: confirm the human cutover, watch the first real release through the stewar
 
 ## Dependencies
 
-- **Depends on:** [sase-1n6.11.3](sase-1n6.11.3.md) ◐ · ⧖ 2026-11-03
+- **Depends on:** [sase-1n6.11.3](sase-1n6.11.3.md) ✓ · ⧖ 2026-11-03
 
 ## Agents
 
