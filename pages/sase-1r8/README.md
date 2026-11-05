@@ -119,7 +119,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1r8.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1r8.4.md) | [sase-1r8.4](sase-1r8.4.md) | 1 |
 | [bbugyi200.athena.sase-1r8.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1r8.5/README.md) | [sase-1r8.5](sase-1r8.5.md) | 1 |
 | [bbugyi200.athena.sase-1r8.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1r8.6.md) | [sase-1r8.6](sase-1r8.6.md) | 0 |
-| [bbugyi200.athena.sase-1r8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1r8.land/README.md) | [sase-1r8](README.md) | 1 |
+| [bbugyi200.athena.sase-1r8.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1r8.land/README.md) | [sase-1r8](README.md) | 2 |
 
 ## Commits
 
@@ -131,6 +131,7 @@ flowchart TD
 | sase | [`cdfbb82`](https://github.com/sase-org/sase/commit/cdfbb82d2bad28c1f1b6d7a7e23b3e72f455fbf3) | feat(agent-publication-protection): enforce scanner rule versions | [sase-1r8.4](sase-1r8.4.md) | 2026-11-04 16:18:35 EST |
 | sase | [`1b62dfb`](https://github.com/sase-org/sase/commit/1b62dfb9bdb52b9a81a7755f8f6184c5d1cc2ec2) | feat(agent-publication): park protection-withheld requests | [sase-1r8.5](sase-1r8.5.md) | 2026-11-04 17:21:54 EST |
 | sase | [`1bd2816`](https://github.com/sase-org/sase/commit/1bd2816d13f910421d2ba07ba8528c2015ff4a9b) | test(agents-sync): pin synthetic scanner fixtures to live rules version | [sase-1r8](README.md) | 2026-11-04 19:46:19 EST |
+| sase--plans | [`sase--plans@c89274f`](https://github.com/sase-org/sase--plans/commit/c89274f3d0017e2b737a18603b7362ba17900a60) | chore(plans): mark agent\_publication\_errors plan done | [sase-1r8](README.md) | 2026-11-04 19:47:07 EST |
 
 <!-- sase:referenced-by:start -->
 
