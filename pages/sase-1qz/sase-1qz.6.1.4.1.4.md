@@ -18,7 +18,7 @@ bootstrap_ack: validate goal, bead, permission scope and original repository bas
 ## Dependencies
 
 - **Depends on:** [sase-1qz.6.1.4.1.1](sase-1qz.6.1.4.1.1.md) ✓ · ⧖ 2026-11-05
-- **Blocks:** [sase-1qz.6.1.4.1.5](sase-1qz.6.1.4.1.5.md) ◐ · ⧖ 2026-11-05
+- **Blocks:** [sase-1qz.6.1.4.1.5](sase-1qz.6.1.4.1.5.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
 
