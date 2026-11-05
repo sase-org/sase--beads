@@ -136,7 +136,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1qz.6.1.4.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.6.1.4.1.2/README.md) | [sase-1qz.6.1.4.1.2](sase-1qz.6.1.4.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1qz.6.1.4.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.6.1.4.1.3/README.md) | [sase-1qz.6.1.4.1.3](sase-1qz.6.1.4.1.3.md) | 1 |
 | [bbugyi200.athena.sase-1qz.6.1.4.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qz.6.1.4.1.4.md) | [sase-1qz.6.1.4.1.4](sase-1qz.6.1.4.1.4.md) | 1 |
-| [bbugyi200.athena.sase-1qz.6.1.4.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.6.1.4.1.5/README.md) | [sase-1qz.6.1.4.1.5](sase-1qz.6.1.4.1.5.md) | 0 |
+| [bbugyi200.athena.sase-1qz.6.1.4.1.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qz.6.1.4.1.5.md) | [sase-1qz.6.1.4.1.5](sase-1qz.6.1.4.1.5.md) | 1 |
 | [bbugyi200.athena.sase-1qz.6.1.4.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.6.1.4.1.6/README.md) | [sase-1qz.6.1.4.1.6](sase-1qz.6.1.4.1.6.md) | 0 |
 | [bbugyi200.athena.sase-1qz.6.1.4.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.6.1.4.1.land/README.md) | [sase-1qz.6.1.4.1](sase-1qz.6.1.4.1.md) | 0 |
 | [bbugyi200.athena.sase-1qz.6.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.6.1.5/README.md) | [sase-1qz.6.1.5](sase-1qz.6.1.5.md) | 0 |
@@ -168,6 +168,7 @@ flowchart TD
 | sase | [`c6e2c87`](https://github.com/sase-org/sase/commit/c6e2c87ba2a826d8b10b4e7418da8bd1c5209167) | fix(agent-hijack): prepare and pin recovery prompts | [sase-1qz.6.1.4.1.2](sase-1qz.6.1.4.1.2.md) | 2026-11-05 11:59:28 EST |
 | sase | [`3fe8d5d`](https://github.com/sase-org/sase/commit/3fe8d5d34b7a0530860ff8f0e7922490dcbdc56f) | feat(recovery): enforce bootstrap inheritance before provider execution | [sase-1qz.6.1.4.1.4](sase-1qz.6.1.4.1.4.md) | 2026-11-05 12:45:56 EST |
 | sase | [`7896ea6`](https://github.com/sase-org/sase/commit/7896ea657b8ef77c72f16cb309ca70f100e05381) | feat(agent-recovery): persist pinned recovery admission | [sase-1qz.6.1.4.1.3](sase-1qz.6.1.4.1.3.md) | 2026-11-05 14:21:08 EST |
+| sase | [`812ddbc`](https://github.com/sase-org/sase/commit/812ddbc3aed901f77385830432216598f8843e4c) | fix(hijack): settle recovery only with verified custody | [sase-1qz.6.1.4.1.5](sase-1qz.6.1.4.1.5.md) | 2026-11-05 16:40:55 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -182,7 +183,8 @@ flowchart TD
 | read-by | [agent:research.3a.gem][5] | Inspect scope and conflicts for research recommendation | 2 |
 | read-by | [agent:research.3a.grk][6] | Need live epic scopes and high-impact candidate task details to rank work without colliding with in-flight epics | 1 |
 | read-by | [agent:sase-1qz.2--3][7] | Need epic DECISIONS and plan | 1 |
-| read-by | [agent:toobig-9d.test_agent_hijack_recover.0][8] | Check whether the active hijack recovery epic caused the unrelated macro terminology failure | 1 |
+| read-by | [agent:sase-1qz.6.1.4.1.3][8] | Need final decisions governing this recovery epic | 1 |
+| read-by | [agent:toobig-9d.test_agent_hijack_recover.0][9] | Check whether the active hijack recovery epic caused the unrelated macro terminology failure | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.18n/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3a.cdx/README.md
@@ -191,6 +193,7 @@ flowchart TD
 [5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3a.gem/README.md
 [6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3a.grk/README.md
 [7]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qz.2.md
-[8]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-9d.test_agent_hijack_recover.0/README.md
+[8]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.6.1.4.1.3/README.md
+[9]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-9d.test_agent_hijack_recover.0/README.md
 
 <!-- sase:referenced-by:end -->

@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/recovery_transaction_completion.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202611/recovery_transaction_completion.md
 
@@ -39,8 +39,10 @@ Recover held work through one durable admitted launch, validate the successor be
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1qz.6.1.4.1.1][1] | parent epic scope for execution_policy | 1 |
 | read-by | [agent:sase-1qz.6.1.4.1.2][2] | Need epic decisions and phase context before implementation | 1 |
+| read-by | [agent:sase-1qz.6.1.4.1.3][3] | Need the epic decisions and prior phase notes before implementing this child | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.6.1.4.1.1/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.6.1.4.1.2/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.6.1.4.1.3/README.md
 
 <!-- sase:referenced-by:end -->

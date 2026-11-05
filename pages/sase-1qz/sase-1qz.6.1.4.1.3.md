@@ -33,3 +33,15 @@ durable_admission: connect the winning reservation to durable typed admission an
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`7896ea6`](https://github.com/sase-org/sase/commit/7896ea657b8ef77c72f16cb309ca70f100e05381) | feat(agent-recovery): persist pinned recovery admission | [sase-1qz.6.1.4.1.3](sase-1qz.6.1.4.1.3.md) | 2026-11-05 14:21:08 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1qz.6.1.4.1.3][1] | Check state after baseline-failing close preflight | 4 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.6.1.4.1.3/README.md
+
+<!-- sase:referenced-by:end -->
