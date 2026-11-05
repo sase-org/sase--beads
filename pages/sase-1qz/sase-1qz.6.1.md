@@ -25,6 +25,10 @@ _Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 Recover a hijacked agent exactly once in its held workspace while preserving its work and obligations.
 
+## Dependencies
+
+- **Blocks:** [sase-1ra.11.1.1](../sase-1ra/sase-1ra.11.1.1.md) ◐ · ⧖ 2026-11-04
+
 ## Agents
 
 | Agent | Bead | Commits |

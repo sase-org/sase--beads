@@ -23,6 +23,10 @@ resolution_launch: compose the CAS resolution transaction with normal admission,
 
 [2026-11-04T22:27:09Z · sase-1qz.6.1.4--1] Monitor j53tjym307rn (just check run 30dad66beee98f1d9706fdc559f785f6) finished FAILED exit 1 at test-scoped: 3 failed / 60041 passed, triaged 2 KNOWN (witness f07f3fe8c21a8203bed7ecbdbdafc7b1, artifact-marker audit + transcript-publication) + 1 FLAKY (prompt-archive), verdict no_new_failures, all unrelated to hijack recovery. epic-symbols still shows 4 origin/master 1.4 rows (local removal intact); bead left open for land agent to close post-land. DO NOT force-close.
 
+[2026-11-05T15:03:08Z · sase-1qz.6.1.4] REMAINING WORK: Landed commit 8462195314 is in HEAD and origin/master, and epic-symbols is empty, but production acceptance is unfinished. On clean HEAD 71fd5b6c2a, 108 focused recovery/successor tests pass. An isolated Flow probe with only deps.preview replaced by the real Python/Rust preview returns target_unavailable after begin_resolution -> record_launch -> resolution_failed, with no spawn; the real continuation builder also rejects resolving with not_held. recover.py calls these held-only APIs after its CAS. The default dispatch chain goes straight through spawn_recovery_successor -> spawn_agent_session_successor -> spawn_agent_subprocess; its synthetic admission_request_id has no corresponding durable admission submission or coordinator adapter. A separate injected-evidence probe accepts a wrong child model/launch metadata as launched/resolved. Confirmation writes its own ack and rollback merely sends best-effort SIGTERM before returning held. These gaps span core policy, durable admission, bootstrap evidence and rollback; preparing a child epic per the request, with its land agent responsible for closing this phase. Prior notes that landing alone permits closure are superseded by this evidence.
+
+[2026-11-05T15:08:00Z · sase-1qz.6.1.4] PROPOSED FOLLOW-UP: Confirm marker-path audit ownership with sase-1by — On unchanged clean HEAD 71fd5b6c2a, .venv/bin/python -m pytest -q tests/test_agent_artifact_marker_path_passing_audit.py reproduces 1 failed / 1 passed: five unreviewed contexts in recover_subject.py and recover_settle.py. This matches parent epic note #1 and predates this turn. The child integration phase will review these touched recovery contexts; no new task bead was created. This audit failure alone is not the reason the phase remains open; the separately recorded production acceptance gaps are.
+
 ## Dependencies
 
 - **Depends on:** [sase-1qz.6.1.2](sase-1qz.6.1.2.md) ✓ · ⧖ 2026-11-03
@@ -48,7 +52,9 @@ resolution_launch: compose the CAS resolution transaction with normal admission,
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:research.3a.final][1] | Check active epic phase scopes for conflict screening of task bead recommendations | 1 |
+| read-by | [agent:sase-1qz.6.1.4--1][2] | Need phase scope and close-blocker status after verify monitor | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3a.final/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qz.6.1.4.md
 
 <!-- sase:referenced-by:end -->
