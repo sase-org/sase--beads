@@ -16,3 +16,15 @@ Recover held work through one durable admitted launch, validate the successor be
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1qz.6.1.4.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.6.1.4.1.land/README.md) | [sase-1qz.6.1.4.1](sase-1qz.6.1.4.1.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1qz.6.1.4.1.1][1] | parent epic scope for execution_policy | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.6.1.4.1.1/README.md
+
+<!-- sase:referenced-by:end -->

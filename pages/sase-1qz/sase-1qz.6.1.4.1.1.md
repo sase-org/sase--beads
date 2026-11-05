@@ -17,8 +17,8 @@ execution_policy: implement reservation-aware target validation and confirmation
 
 ## Dependencies
 
-- **Blocks:** [sase-1qz.6.1.4.1.2](sase-1qz.6.1.4.1.2.md) ◐ · ⧖ 2026-11-05
-- **Blocks:** [sase-1qz.6.1.4.1.4](sase-1qz.6.1.4.1.4.md) ◐ · ⧖ 2026-11-05
+- **Blocks:** [sase-1qz.6.1.4.1.2](sase-1qz.6.1.4.1.2.md) ✓ · ⧖ 2026-11-05
+- **Blocks:** [sase-1qz.6.1.4.1.4](sase-1qz.6.1.4.1.4.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
 
@@ -31,3 +31,15 @@ execution_policy: implement reservation-aware target validation and confirmation
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@417d5c8`](https://github.com/sase-org/sase-core/commit/417d5c8d46aecc9eafc4fe31250307c714c5962a) | feat(agent-hijack): add execution validation and confirmation contract | [sase-1qz.6.1.4.1.1](sase-1qz.6.1.4.1.1.md) | 2026-11-05 10:49:21 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1qz.6.1.4.1.1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.6.1.4.1.1/README.md
+
+<!-- sase:referenced-by:end -->

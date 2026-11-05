@@ -13,7 +13,7 @@ durable_admission: connect the winning reservation to durable typed admission an
 
 ## Dependencies
 
-- **Depends on:** [sase-1qz.6.1.4.1.2](sase-1qz.6.1.4.1.2.md) ◐ · ⧖ 2026-11-05
+- **Depends on:** [sase-1qz.6.1.4.1.2](sase-1qz.6.1.4.1.2.md) ✓ · ⧖ 2026-11-05
 - **Blocks:** [sase-1qz.6.1.4.1.5](sase-1qz.6.1.4.1.5.md) ◐ · ⧖ 2026-11-05
 
 ## Agents
