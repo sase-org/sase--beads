@@ -35,3 +35,15 @@ prompt_preparation: replace held-only post-CAS preview calls, preserve effective
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`c6e2c87`](https://github.com/sase-org/sase/commit/c6e2c87ba2a826d8b10b4e7418da8bd1c5209167) | fix(agent-hijack): prepare and pin recovery prompts | [sase-1qz.6.1.4.1.2](sase-1qz.6.1.4.1.2.md) | 2026-11-05 11:59:28 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1qz.6.1.4.1.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.6.1.4.1.2/README.md
+
+<!-- sase:referenced-by:end -->
