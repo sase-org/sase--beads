@@ -13,7 +13,7 @@ settlement_rollback: consume bootstrap evidence, verify identity and model, and 
 
 ## Dependencies
 
-- **Depends on:** [sase-1qz.6.1.4.1.3](sase-1qz.6.1.4.1.3.md) ◐ · ⧖ 2026-11-05
+- **Depends on:** [sase-1qz.6.1.4.1.3](sase-1qz.6.1.4.1.3.md) ✓ · ⧖ 2026-11-05
 - **Depends on:** [sase-1qz.6.1.4.1.4](sase-1qz.6.1.4.1.4.md) ✓ · ⧖ 2026-11-05
 - **Blocks:** [sase-1qz.6.1.4.1.6](sase-1qz.6.1.4.1.6.md) ◐ · ⧖ 2026-11-05
 

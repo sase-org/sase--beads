@@ -52,7 +52,7 @@ flowchart TD
     n14["sase-1qz.6.1.4.1: Complete the production keep-work recovery transaction [in_progress]"]
     n15["sase-1qz.6.1.4.1.1: Rust execution validation and confirmation contract [closed]"]
     n16["sase-1qz.6.1.4.1.2: Prepare and pin the real recovery prompt [closed]"]
-    n17["sase-1qz.6.1.4.1.3: Submit and resume the pinned recovery request [in_progress]"]
+    n17["sase-1qz.6.1.4.1.3: Submit and resume the pinned recovery request [closed]"]
     n18["sase-1qz.6.1.4.1.4: Prove required inheritance before provider execution [closed]"]
     n19["sase-1qz.6.1.4.1.5: Confirm the actual successor and fail safely [in_progress]"]
     n20["sase-1qz.6.1.4.1.6: Verify the production transaction and closure evidence [in_progress]"]
@@ -134,7 +134,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1qz.6.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qz.6.1.4.md) | [sase-1qz.6.1.4](sase-1qz.6.1.4.md) | 1 |
 | [bbugyi200.athena.sase-1qz.6.1.4.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.6.1.4.1.1/README.md) | [sase-1qz.6.1.4.1.1](sase-1qz.6.1.4.1.1.md) | 1 |
 | [bbugyi200.athena.sase-1qz.6.1.4.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.6.1.4.1.2/README.md) | [sase-1qz.6.1.4.1.2](sase-1qz.6.1.4.1.2.md) | 1 |
-| [bbugyi200.athena.sase-1qz.6.1.4.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.6.1.4.1.3/README.md) | [sase-1qz.6.1.4.1.3](sase-1qz.6.1.4.1.3.md) | 0 |
+| [bbugyi200.athena.sase-1qz.6.1.4.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.6.1.4.1.3/README.md) | [sase-1qz.6.1.4.1.3](sase-1qz.6.1.4.1.3.md) | 1 |
 | [bbugyi200.athena.sase-1qz.6.1.4.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qz.6.1.4.1.4.md) | [sase-1qz.6.1.4.1.4](sase-1qz.6.1.4.1.4.md) | 1 |
 | [bbugyi200.athena.sase-1qz.6.1.4.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.6.1.4.1.5/README.md) | [sase-1qz.6.1.4.1.5](sase-1qz.6.1.4.1.5.md) | 0 |
 | [bbugyi200.athena.sase-1qz.6.1.4.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.6.1.4.1.6/README.md) | [sase-1qz.6.1.4.1.6](sase-1qz.6.1.4.1.6.md) | 0 |
@@ -167,6 +167,7 @@ flowchart TD
 | sase-core | [`sase-core@417d5c8`](https://github.com/sase-org/sase-core/commit/417d5c8d46aecc9eafc4fe31250307c714c5962a) | feat(agent-hijack): add execution validation and confirmation contract | [sase-1qz.6.1.4.1.1](sase-1qz.6.1.4.1.1.md) | 2026-11-05 10:49:21 EST |
 | sase | [`c6e2c87`](https://github.com/sase-org/sase/commit/c6e2c87ba2a826d8b10b4e7418da8bd1c5209167) | fix(agent-hijack): prepare and pin recovery prompts | [sase-1qz.6.1.4.1.2](sase-1qz.6.1.4.1.2.md) | 2026-11-05 11:59:28 EST |
 | sase | [`3fe8d5d`](https://github.com/sase-org/sase/commit/3fe8d5d34b7a0530860ff8f0e7922490dcbdc56f) | feat(recovery): enforce bootstrap inheritance before provider execution | [sase-1qz.6.1.4.1.4](sase-1qz.6.1.4.1.4.md) | 2026-11-05 12:45:56 EST |
+| sase | [`7896ea6`](https://github.com/sase-org/sase/commit/7896ea657b8ef77c72f16cb309ca70f100e05381) | feat(agent-recovery): persist pinned recovery admission | [sase-1qz.6.1.4.1.3](sase-1qz.6.1.4.1.3.md) | 2026-11-05 14:21:08 EST |
 
 <!-- sase:referenced-by:start -->
 

@@ -22,7 +22,7 @@ prompt_preparation: replace held-only post-CAS preview calls, preserve effective
 ## Dependencies
 
 - **Depends on:** [sase-1qz.6.1.4.1.1](sase-1qz.6.1.4.1.1.md) ✓ · ⧖ 2026-11-05
-- **Blocks:** [sase-1qz.6.1.4.1.3](sase-1qz.6.1.4.1.3.md) ◐ · ⧖ 2026-11-05
+- **Blocks:** [sase-1qz.6.1.4.1.3](sase-1qz.6.1.4.1.3.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
 
