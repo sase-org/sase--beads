@@ -23,7 +23,7 @@ settlement_rollback: consume bootstrap evidence, verify identity and model, and 
 
 - **Depends on:** [sase-1qz.6.1.4.1.3](sase-1qz.6.1.4.1.3.md) ✓ · ⧖ 2026-11-05
 - **Depends on:** [sase-1qz.6.1.4.1.4](sase-1qz.6.1.4.1.4.md) ✓ · ⧖ 2026-11-05
-- **Blocks:** [sase-1qz.6.1.4.1.6](sase-1qz.6.1.4.1.6.md) ◐ · ⧖ 2026-11-05
+- **Blocks:** [sase-1qz.6.1.4.1.6](sase-1qz.6.1.4.1.6.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
 
@@ -43,8 +43,12 @@ settlement_rollback: consume bootstrap evidence, verify identity and model, and 
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1qz.6.1.4.1.5--2][1] | Check current phase status, recorded work, and design scope before finishing stale host completion | 1 |
+| read-by | [agent:18y][1] | Check causal ownership of pre-existing verification failures | 1 |
+| read-by | [agent:sase-1qz.6.1.4.1.5--2][2] | Check current phase status, recorded work, and design scope before finishing stale host completion | 1 |
+| read-by | [agent:sase-1qz.6.1.4.1.6][3] | Need sibling settlement phase completion evidence | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qz.6.1.4.1.5.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.18y/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qz.6.1.4.1.5.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.6.1.4.1.6/README.md
 
 <!-- sase:referenced-by:end -->

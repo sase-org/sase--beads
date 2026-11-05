@@ -41,7 +41,9 @@ durable_admission: connect the winning reservation to durable typed admission an
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1qz.6.1.4.1.3][1] | Check state after baseline-failing close preflight | 4 |
+| read-by | [agent:sase-1qz.6.1.4.1.6][2] | Need sibling phase evidence for integration | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.6.1.4.1.3/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.6.1.4.1.6/README.md
 
 <!-- sase:referenced-by:end -->

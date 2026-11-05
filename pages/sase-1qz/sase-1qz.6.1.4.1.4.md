@@ -39,7 +39,9 @@ bootstrap_ack: validate goal, bead, permission scope and original repository bas
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1qz.6.1.4.1.4--1][1] | Need the phase scope and design file for monitor follow-up verification | 1 |
+| read-by | [agent:sase-1qz.6.1.4.1.6][2] | Need sibling phase evidence for integration | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qz.6.1.4.1.4.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.6.1.4.1.6/README.md
 
 <!-- sase:referenced-by:end -->
