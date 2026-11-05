@@ -21,7 +21,7 @@ The ten task beads ranked by the 2026-11-04 next-ten research report are fixed, 
 | [sase-1ra.12](sase-1ra.12.md) | Zombie-epic report and host-owned land-agent liveness invariant (sase-12u) | ◐ in_progress | large | 2026-11-04 | 1 | 0 |
 | [sase-1ra.2](sase-1ra.2.md) | A failed $EDITOR never deletes the typed draft (sase-1ce) | ✓ closed | small | 2026-11-04 | 1 | 1 |
 | [sase-1ra.3](sase-1ra.3.md) | Pytest isolation: scrub SASE\_MODEL\_OVERRIDE and O(1) per-test homes (sase-1q3, sase-1qe) | ✓ closed | small | 2026-11-04 | 1 | 1 |
-| [sase-1ra.4](sase-1ra.4.md) | FIFO fairness for pytest worker-token waiters (sase-1pw) | ◐ in_progress | medium | 2026-11-04 | 1 | 0 |
+| [sase-1ra.4](sase-1ra.4.md) | FIFO fairness for pytest worker-token waiters (sase-1pw) | ✓ closed | medium | 2026-11-04 | 1 | 1 |
 | [sase-1ra.5](sase-1ra.5.md) | False-red batch: cold keymap test, MRU provider pruning, AF\_UNIX path length (sase-1qu, sase-172, sase-1i6) | ✓ closed | medium | 2026-11-04 | 1 | 1 |
 | [sase-1ra.6](sase-1ra.6.md) | Command-line panel pilot trio passes on apollo (sase-1al) | ◐ in_progress | medium | 2026-11-04 | 1 | 1 |
 | [sase-1ra.7](sase-1ra.7.md) | Signature-skew TypeErrors are classified and explained as update skew (sase-1r4, Python half) | ✓ closed | medium | 2026-11-04 | 1 | 0 |
@@ -45,7 +45,7 @@ flowchart TD
     n10["sase-1ra.12: Zombie-epic report and host-owned land-agent liveness invariant (sase-12u) [in_progress]"]
     n11["sase-1ra.2: A failed $EDITOR never deletes the typed draft (sase-1ce) [closed]"]
     n12["sase-1ra.3: Pytest isolation: scrub SASE_MODEL_OVERRIDE and O(1) per-test homes (sase-1q3, sase-1qe) [closed]"]
-    n13["sase-1ra.4: FIFO fairness for pytest worker-token waiters (sase-1pw) [in_progress]"]
+    n13["sase-1ra.4: FIFO fairness for pytest worker-token waiters (sase-1pw) [closed]"]
     n14["sase-1ra.5: False-red batch: cold keymap test, MRU provider pruning, AF_UNIX path length (sase-1qu, sase-172, sase-1i6) [closed]"]
     n15["sase-1ra.6: Command-line panel pilot trio passes on apollo (sase-1al) [in_progress]"]
     n16["sase-1ra.7: Signature-skew TypeErrors are classified and explained as update skew (sase-1r4, Python half) [closed]"]
@@ -97,7 +97,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1ra.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ra.12/README.md) | [sase-1ra.12](sase-1ra.12.md) | 0 |
 | [bbugyi200.athena.sase-1ra.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ra.2/README.md) | [sase-1ra.2](sase-1ra.2.md) | 1 |
 | [bbugyi200.athena.sase-1ra.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ra.3/README.md) | [sase-1ra.3](sase-1ra.3.md) | 1 |
-| [bbugyi200.athena.sase-1ra.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ra.4.md) | [sase-1ra.4](sase-1ra.4.md) | 0 |
+| [bbugyi200.athena.sase-1ra.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ra.4.md) | [sase-1ra.4](sase-1ra.4.md) | 1 |
 | [bbugyi200.athena.sase-1ra.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ra.5/README.md) | [sase-1ra.5](sase-1ra.5.md) | 1 |
 | [bbugyi200.athena.sase-1ra.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ra.6.md) | [sase-1ra.6](sase-1ra.6.md) | 1 |
 | [bbugyi200.athena.sase-1ra.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ra.7.md) | [sase-1ra.7](sase-1ra.7.md) | 0 |
@@ -113,6 +113,7 @@ flowchart TD
 | sase | [`522b07a`](https://github.com/sase-org/sase/commit/522b07a009895c6f20b4a9db16b9f8103e3c2dfe) | fix(ace): preserve failed editor drafts | [sase-1ra.2](sase-1ra.2.md) | 2026-11-04 18:52:47 EST |
 | sase | [`45bcf6f`](https://github.com/sase-org/sase/commit/45bcf6fe398e1a29e4d6985d820f1ccc9d9903d0) | test(false-red): fix keymap warmup, vcs mru mock, ipc socket path | [sase-1ra.5](sase-1ra.5.md) | 2026-11-04 18:58:37 EST |
 | sase | [`02e93fd`](https://github.com/sase-org/sase/commit/02e93fd261505a8ff00342f48a1f4f8501786470) | test(ace): prebuild command-line grammar for panel pilot tests | [sase-1ra.6](sase-1ra.6.md) | 2026-11-04 19:18:03 EST |
+| sase | [`0c67730`](https://github.com/sase-org/sase/commit/0c677302d95d9f1eb45c51b4697c2e978ac25393) | feat(tests): add fair FIFO worker-token leases | [sase-1ra.4](sase-1ra.4.md) | 2026-11-04 19:46:04 EST |
 
 <!-- sase:referenced-by:start -->
 

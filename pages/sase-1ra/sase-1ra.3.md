@@ -19,7 +19,7 @@ pytest_env: add SASE_MODEL_OVERRIDE to the autouse env scrub and replace the per
 
 ## Dependencies
 
-- **Blocks:** [sase-1ra.4](sase-1ra.4.md) ◐ · ⧖ 2026-11-04
+- **Blocks:** [sase-1ra.4](sase-1ra.4.md) ✓ · ⧖ 2026-11-04
 
 ## Agents
 
