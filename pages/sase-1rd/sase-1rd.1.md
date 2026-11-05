@@ -19,7 +19,7 @@ core_quarantine: add a sase-core module that quarantines confirmed ACE-run dirs 
 
 ## Dependencies
 
-- **Blocks:** [sase-1rd.2](sase-1rd.2.md) ◐ · ⧖ 2026-11-05
+- **Blocks:** [sase-1rd.2](sase-1rd.2.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
 
@@ -32,3 +32,15 @@ core_quarantine: add a sase-core module that quarantines confirmed ACE-run dirs 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@3974441`](https://github.com/sase-org/sase-core/commit/39744416635e319fb8f65f90e4f89dfd0b4fc395) | feat(agent-artifact-run-trash): add journaled run quarantine | [sase-1rd.1](sase-1rd.1.md) | 2026-11-05 08:00:29 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1rd.1][1] | Need the phase scope and design file | 4 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rd.1/README.md
+
+<!-- sase:referenced-by:end -->

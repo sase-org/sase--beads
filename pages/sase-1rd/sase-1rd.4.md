@@ -13,7 +13,7 @@ review_modal: route Enter on payload-bearing report notifications to a new prune
 
 ## Dependencies
 
-- **Depends on:** [sase-1rd.2](sase-1rd.2.md) ◐ · ⧖ 2026-11-05
+- **Depends on:** [sase-1rd.2](sase-1rd.2.md) ✓ · ⧖ 2026-11-05
 - **Depends on:** [sase-1rd.3](sase-1rd.3.md) ◐ · ⧖ 2026-11-05
 
 ## Agents

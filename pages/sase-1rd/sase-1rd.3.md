@@ -13,7 +13,7 @@ preview_notification: the chop purges expired batches, writes a review snapshot,
 
 ## Dependencies
 
-- **Depends on:** [sase-1rd.2](sase-1rd.2.md) ◐ · ⧖ 2026-11-05
+- **Depends on:** [sase-1rd.2](sase-1rd.2.md) ✓ · ⧖ 2026-11-05
 - **Blocks:** [sase-1rd.4](sase-1rd.4.md) ◐ · ⧖ 2026-11-05
 
 ## Agents
