@@ -14,7 +14,7 @@ skew_core: after sase-1r2 closes, make the Rust agent_auto_restart catalog class
 ## Dependencies
 
 - **Blocks:** [sase-1ra.11.1.1](sase-1ra.11.1.1.md) ◐ · ⧖ 2026-11-04
-- **Depends on:** [sase-1ra.7](sase-1ra.7.md) ◐ · ⧖ 2026-11-04
+- **Depends on:** [sase-1ra.7](sase-1ra.7.md) ✓ · ⧖ 2026-11-04
 
 ## Agents
 

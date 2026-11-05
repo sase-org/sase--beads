@@ -36,3 +36,15 @@ false_red: fix three tests that fail deterministically when run cold or alone, r
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`45bcf6f`](https://github.com/sase-org/sase/commit/45bcf6fe398e1a29e4d6985d820f1ccc9d9903d0) | test(false-red): fix keymap warmup, vcs mru mock, ipc socket path | [sase-1ra.5](sase-1ra.5.md) | 2026-11-04 18:58:37 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ra.5][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ra.5/README.md
+
+<!-- sase:referenced-by:end -->

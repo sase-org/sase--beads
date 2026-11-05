@@ -30,3 +30,15 @@ editor_drafts: on a non-zero editor exit or read failure, keep and recover chang
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`522b07a`](https://github.com/sase-org/sase/commit/522b07a009895c6f20b4a9db16b9f8103e3c2dfe) | fix(ace): preserve failed editor drafts | [sase-1ra.2](sase-1ra.2.md) | 2026-11-04 18:52:47 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ra.2][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ra.2/README.md
+
+<!-- sase:referenced-by:end -->

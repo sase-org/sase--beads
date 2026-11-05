@@ -14,7 +14,7 @@ staged_zombie: settle a staged monitor whose adopter died into a terminal held o
 ## Dependencies
 
 - **Blocks:** [sase-1ra.10](sase-1ra.10.md) ◐ · ⧖ 2026-11-04
-- **Depends on:** [sase-1ra.7](sase-1ra.7.md) ◐ · ⧖ 2026-11-04
+- **Depends on:** [sase-1ra.7](sase-1ra.7.md) ✓ · ⧖ 2026-11-04
 
 ## Agents
 
