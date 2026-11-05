@@ -21,7 +21,7 @@ parking: add parked fields to the outbox (schema 8), park withheld and prompt-pr
 
 - **Depends on:** [sase-1r8.2](sase-1r8.2.md) ✓ · ⧖ 2026-11-04
 - **Depends on:** [sase-1r8.4](sase-1r8.4.md) ✓ · ⧖ 2026-11-04
-- **Blocks:** [sase-1r8.6](sase-1r8.6.md) ◐ · ⧖ 2026-11-04
+- **Blocks:** [sase-1r8.6](sase-1r8.6.md) ✓ · ⧖ 2026-11-04
 
 ## Agents
 
@@ -43,8 +43,10 @@ parking: add parked fields to the outbox (schema 8), park withheld and prompt-pr
 | --- | --- | --- | ---: |
 | read-by | [agent:18b--code][1] | Determine whether request parking owns the blocked-digest retry assertions | 1 |
 | read-by | [agent:research.3a.final][2] | Check active epic phase scopes for conflict screening of task bead recommendations | 1 |
+| read-by | [agent:sase-1r8.5][3] | Need the phase scope and design file | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.18b.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3a.final/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1r8.5/README.md
 
 <!-- sase:referenced-by:end -->

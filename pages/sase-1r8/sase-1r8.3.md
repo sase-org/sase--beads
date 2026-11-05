@@ -17,7 +17,7 @@ land_prompt: make the deferred-restore archive check accept an archive whose AGE
 
 ## Dependencies
 
-- **Blocks:** [sase-1r8.6](sase-1r8.6.md) ◐ · ⧖ 2026-11-04
+- **Blocks:** [sase-1r8.6](sase-1r8.6.md) ✓ · ⧖ 2026-11-04
 
 ## Agents
 
