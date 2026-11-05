@@ -31,7 +31,7 @@ Pressing Enter on an ACE-run pruning notification opens a polished review that, 
 |---|---|---|---|---|---:|---:|
 | [sase-1rd.1](sase-1rd.1.md) | Rust run-trash contract in sase-core | ✓ closed | medium | 2026-11-05 | 1 | 1 |
 | [sase-1rd.2](sase-1rd.2.md) | Python facade, review snapshots, and CLI apply/restore | ✓ closed | medium | 2026-11-05 | 1 | 1 |
-| [sase-1rd.3](sase-1rd.3.md) | Hourly preview emits an actionable, beautiful notification | ◐ in_progress | small | 2026-11-05 | 1 | 0 |
+| [sase-1rd.3](sase-1rd.3.md) | Hourly preview emits an actionable, beautiful notification | ◐ in_progress | small | 2026-11-05 | 1 | 1 |
 | [sase-1rd.4](sase-1rd.4.md) | TUI prune review modal behind notification Enter | ◐ in_progress | medium | 2026-11-05 | 1 | 0 |
 
 ## Lineage
@@ -59,7 +59,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-1rd.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rd.1/README.md) | [sase-1rd.1](sase-1rd.1.md) | 1 |
 | [bbugyi200.athena.sase-1rd.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rd.2.md) | [sase-1rd.2](sase-1rd.2.md) | 1 |
-| [bbugyi200.athena.sase-1rd.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rd.3/README.md) | [sase-1rd.3](sase-1rd.3.md) | 0 |
+| [bbugyi200.athena.sase-1rd.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rd.3/README.md) | [sase-1rd.3](sase-1rd.3.md) | 1 |
 | [bbugyi200.athena.sase-1rd.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rd.4/README.md) | [sase-1rd.4](sase-1rd.4.md) | 0 |
 | [bbugyi200.athena.sase-1rd.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rd.land/README.md) | [sase-1rd](README.md) | 0 |
 
@@ -69,6 +69,7 @@ flowchart TD
 |---|---|---|---|---|
 | sase-core | [`sase-core@3974441`](https://github.com/sase-org/sase-core/commit/39744416635e319fb8f65f90e4f89dfd0b4fc395) | feat(agent-artifact-run-trash): add journaled run quarantine | [sase-1rd.1](sase-1rd.1.md) | 2026-11-05 08:00:29 EST |
 | sase | [`37a4c8e`](https://github.com/sase-org/sase/commit/37a4c8ed8d2b30942697494d1624532a63434460) | feat(artifact): quarantine ACE runs to restorable trash with review snapshots | [sase-1rd.2](sase-1rd.2.md) | 2026-11-05 10:14:11 EST |
+| sase | [`950c8ae`](https://github.com/sase-org/sase/commit/950c8aec15f1e20c93b4a67d7564d09f47d8c137) | feat(artifact-retention): make run prune previews actionable | [sase-1rd.3](sase-1rd.3.md) | 2026-11-05 11:18:57 EST |
 
 <!-- sase:referenced-by:start -->
 
