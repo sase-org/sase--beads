@@ -17,7 +17,7 @@ staged-join: stop the end-of-turn cleanup and starter watchdog from stopping too
 
 ## Dependencies
 
-- **Blocks:** [sase-1rg.8](sase-1rg.8.md) ◐ · ⧖ 2026-11-06
+- **Blocks:** [sase-1rg.8](sase-1rg.8.md) ✓ · ⧖ 2026-11-06
 
 ## Agents
 

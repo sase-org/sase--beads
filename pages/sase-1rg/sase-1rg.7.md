@@ -17,7 +17,7 @@ staged-response: persist a staged response when the provider fails after a valid
 
 ## Dependencies
 
-- **Blocks:** [sase-1rg.8](sase-1rg.8.md) ◐ · ⧖ 2026-11-06
+- **Blocks:** [sase-1rg.8](sase-1rg.8.md) ✓ · ⧖ 2026-11-06
 
 ## Agents
 

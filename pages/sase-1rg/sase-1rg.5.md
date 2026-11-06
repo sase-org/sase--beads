@@ -31,3 +31,15 @@ stale-claims: re-settle already-leaked epic-launch monitor claims with the corre
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`4f9c892`](https://github.com/sase-org/sase/commit/4f9c892c58e7405bdae7a3be31614972c08ebc72) | fix(monitor): release leaked and dead claims in stale-running cleanup | [sase-1rg.5](sase-1rg.5.md) | 2026-11-06 08:16:37 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1rg.5][1] | Need phase scope, notes, design | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rg.5/README.md
+
+<!-- sase:referenced-by:end -->
