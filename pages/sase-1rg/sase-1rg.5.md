@@ -13,7 +13,7 @@ stale-claims: re-settle already-leaked epic-launch monitor claims with the corre
 
 ## Dependencies
 
-- **Depends on:** [sase-1rg.3](sase-1rg.3.md) ◐ · ⧖ 2026-11-06
+- **Depends on:** [sase-1rg.3](sase-1rg.3.md) ✓ · ⧖ 2026-11-06
 - **Depends on:** [sase-1rg.4](sase-1rg.4.md) ✓ · ⧖ 2026-11-06
 
 ## Agents

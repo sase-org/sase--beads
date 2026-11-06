@@ -19,4 +19,4 @@ open-guard: fix the worker prompts that tell agents to run `sase bead open` on t
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1rg.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rg.9/README.md) | [sase-1rg.9](sase-1rg.9.md) | 0 |
+| [bbugyi200.athena.sase-1rg.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rg.9.md) | [sase-1rg.9](sase-1rg.9.md) | 0 |

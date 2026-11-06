@@ -18,7 +18,7 @@ Agent publication heals itself from conflicts on regenerable index pages and esc
 | [sase-1rg.1](sase-1rg.1.md) | Core rebase-conflict policy for agent publication | ◐ in_progress | small | 2026-11-06 | 1 | 0 |
 | [sase-1rg.10](sase-1rg.10.md) | Record the real actor and skip no-op reopen events in sase-core | ◐ in_progress | medium | 2026-11-06 | 1 | 0 |
 | [sase-1rg.2](sase-1rg.2.md) | Self-healing and one-shot escalation in the publication job | ◐ in_progress | medium | 2026-11-06 | 1 | 0 |
-| [sase-1rg.3](sase-1rg.3.md) | Scope monitor retention evidence to the monitor's own workspace | ◐ in_progress | medium | 2026-11-06 | 1 | 0 |
+| [sase-1rg.3](sase-1rg.3.md) | Scope monitor retention evidence to the monitor's own workspace | ✓ closed | medium | 2026-11-06 | 1 | 1 |
 | [sase-1rg.4](sase-1rg.4.md) | Commit the Decision Sheet sibling on bead-work plan launches | ✓ closed | small | 2026-11-06 | 1 | 1 |
 | [sase-1rg.5](sase-1rg.5.md) | Release leaked and dead claims in stale-running cleanup | ◐ in_progress | medium | 2026-11-06 | 1 | 0 |
 | [sase-1rg.6](sase-1rg.6.md) | Keep reserved joined runs alive through staged adoption | ◐ in_progress | medium | 2026-11-06 | 1 | 0 |
@@ -34,7 +34,7 @@ flowchart TD
     n1["sase-1rg.1: Core rebase-conflict policy for agent publication [in_progress]"]
     n2["sase-1rg.10: Record the real actor and skip no-op reopen events in sase-core [in_progress]"]
     n3["sase-1rg.2: Self-healing and one-shot escalation in the publication job [in_progress]"]
-    n4["sase-1rg.3: Scope monitor retention evidence to the monitor's own workspace [in_progress]"]
+    n4["sase-1rg.3: Scope monitor retention evidence to the monitor's own workspace [closed]"]
     n5["sase-1rg.4: Commit the Decision Sheet sibling on bead-work plan launches [closed]"]
     n6["sase-1rg.5: Release leaked and dead claims in stale-running cleanup [in_progress]"]
     n7["sase-1rg.6: Keep reserved joined runs alive through staged adoption [in_progress]"]
@@ -66,13 +66,13 @@ flowchart TD
 | [bbugyi200.athena.sase-1rg.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rg.1/README.md) | [sase-1rg.1](sase-1rg.1.md) | 0 |
 | [bbugyi200.athena.sase-1rg.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rg.10/README.md) | [sase-1rg.10](sase-1rg.10.md) | 0 |
 | [bbugyi200.athena.sase-1rg.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rg.2/README.md) | [sase-1rg.2](sase-1rg.2.md) | 0 |
-| [bbugyi200.athena.sase-1rg.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rg.3/README.md) | [sase-1rg.3](sase-1rg.3.md) | 0 |
+| [bbugyi200.athena.sase-1rg.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rg.3/README.md) | [sase-1rg.3](sase-1rg.3.md) | 1 |
 | [bbugyi200.athena.sase-1rg.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rg.4/README.md) | [sase-1rg.4](sase-1rg.4.md) | 1 |
 | [bbugyi200.athena.sase-1rg.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rg.5/README.md) | [sase-1rg.5](sase-1rg.5.md) | 0 |
 | [bbugyi200.athena.sase-1rg.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rg.6/README.md) | [sase-1rg.6](sase-1rg.6.md) | 0 |
 | [bbugyi200.athena.sase-1rg.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rg.7.md) | [sase-1rg.7](sase-1rg.7.md) | 0 |
 | [bbugyi200.athena.sase-1rg.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rg.8/README.md) | [sase-1rg.8](sase-1rg.8.md) | 0 |
-| [bbugyi200.athena.sase-1rg.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rg.9/README.md) | [sase-1rg.9](sase-1rg.9.md) | 0 |
+| [bbugyi200.athena.sase-1rg.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rg.9.md) | [sase-1rg.9](sase-1rg.9.md) | 0 |
 | [bbugyi200.athena.sase-1rg.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rg.land/README.md) | [sase-1rg](README.md) | 0 |
 
 ## Commits
@@ -80,3 +80,16 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`85082c7`](https://github.com/sase-org/sase/commit/85082c7da865d555c24ae1ce8c5d4f7e86c940c2) | fix(bead): commit decision sheets on plan launches | [sase-1rg.4](sase-1rg.4.md) | 2026-11-06 07:11:37 EST |
+| sase | [`520962b`](https://github.com/sase-org/sase/commit/520962bcba1912af4e8079d1909a6e0d0066f18e) | fix(monitor): scope retention settlement to owning workspace | [sase-1rg.3](sase-1rg.3.md) | 2026-11-06 07:29:09 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1rg.4][1] | Need epic decisions that govern the phase | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rg.4/README.md
+
+<!-- sase:referenced-by:end -->
