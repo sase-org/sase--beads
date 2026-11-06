@@ -17,7 +17,7 @@ retain-scope: stop epic-launch monitors from probing the plan agent's former wor
 
 ## Dependencies
 
-- **Blocks:** [sase-1rg.5](sase-1rg.5.md) ◐ · ⧖ 2026-11-06
+- **Blocks:** [sase-1rg.5](sase-1rg.5.md) ✓ · ⧖ 2026-11-06
 
 ## Agents
 

@@ -17,7 +17,7 @@ decisions-commit: make `sase bead work <plan>` commit the archived plan-decision
 
 ## Dependencies
 
-- **Blocks:** [sase-1rg.5](sase-1rg.5.md) ◐ · ⧖ 2026-11-06
+- **Blocks:** [sase-1rg.5](sase-1rg.5.md) ✓ · ⧖ 2026-11-06
 
 ## Agents
 
