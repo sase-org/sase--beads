@@ -142,7 +142,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1qz.6.1.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qz.6.1.5.md) | [sase-1qz.6.1.5](sase-1qz.6.1.5.md) | 1 |
 | [bbugyi200.athena.sase-1qz.6.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.6.1.6/README.md) | [sase-1qz.6.1.6](sase-1qz.6.1.6.md) | 1 |
 | [bbugyi200.athena.sase-1qz.6.1.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qz.6.1.7.md) | [sase-1qz.6.1.7](sase-1qz.6.1.7.md) | 1 |
-| [bbugyi200.athena.sase-1qz.6.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qz.6.1.land.md) | [sase-1qz.6.1](sase-1qz.6.1.md) | 2 |
+| [bbugyi200.athena.sase-1qz.6.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qz.6.1.land.md) | [sase-1qz.6.1](sase-1qz.6.1.md) | 3 |
 | [bbugyi200.athena.sase-1qz.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.7/README.md) | [sase-1qz.7](sase-1qz.7.md) | 0 |
 | [bbugyi200.athena.sase-1qz.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.9/README.md) | [sase-1qz.9](sase-1qz.9.md) | 0 |
 | [bbugyi200.athena.sase-1qz.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.land/README.md) | [sase-1qz](README.md) | 0 |
@@ -178,6 +178,7 @@ flowchart TD
 | sase | [`acc6f78`](https://github.com/sase-org/sase/commit/acc6f7842214f4622576e3e56e4914e2e836e2bc) | chore(symvision): re-key leftover sase-1qz.6 epic-symbol rows to sase-1qz.7 | [sase-1qz.6.1.7](sase-1qz.6.1.7.md) | 2026-11-06 10:49:47 EST |
 | sase-core | [`sase-core@cd02e31`](https://github.com/sase-org/sase-core/commit/cd02e319227a0359d418f4aae60ce93b5e45bb5c) | feat(agent-hijack): return proven-undispatched recoveries to held | [sase-1qz.6.1](sase-1qz.6.1.md) | 2026-11-06 13:00:11 EST |
 | sase | [`71011e1`](https://github.com/sase-org/sase/commit/71011e1e10771c589e2c6dd8219dd6a3d32a1040) | feat(hijack-recovery): finish keep-work settlement without user action | [sase-1qz.6.1](sase-1qz.6.1.md) | 2026-11-06 13:50:06 EST |
+| sase--plans | [`sase--plans@aae102d`](https://github.com/sase-org/sase--plans/commit/aae102da76fa123a0b995886ad23fc2b211888a4) | docs(plans): mark hijack keep-work recovery epic plan done | [sase-1qz.6.1](sase-1qz.6.1.md) | 2026-11-06 13:53:01 EST |
 
 <!-- sase:referenced-by:start -->
 
