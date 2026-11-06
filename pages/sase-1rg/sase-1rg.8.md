@@ -14,7 +14,7 @@ staged-readopt: keep the staged monitor's owner lookup alive across held cleanup
 ## Dependencies
 
 - **Depends on:** [sase-1rg.6](sase-1rg.6.md) ✓ · ⧖ 2026-11-06
-- **Depends on:** [sase-1rg.7](sase-1rg.7.md) ◐ · ⧖ 2026-11-06
+- **Depends on:** [sase-1rg.7](sase-1rg.7.md) ✓ · ⧖ 2026-11-06
 
 ## Agents
 

@@ -21,10 +21,10 @@ Agent publication heals itself from conflicts on regenerable index pages and esc
 | [sase-1rg.3](sase-1rg.3.md) | Scope monitor retention evidence to the monitor's own workspace | ✓ closed | medium | 2026-11-06 | 1 | 1 |
 | [sase-1rg.4](sase-1rg.4.md) | Commit the Decision Sheet sibling on bead-work plan launches | ✓ closed | small | 2026-11-06 | 1 | 1 |
 | [sase-1rg.5](sase-1rg.5.md) | Release leaked and dead claims in stale-running cleanup | ◐ in_progress | medium | 2026-11-06 | 1 | 0 |
-| [sase-1rg.6](sase-1rg.6.md) | Keep reserved joined runs alive through staged adoption | ◐ in_progress | medium | 2026-11-06 | 1 | 0 |
-| [sase-1rg.7](sase-1rg.7.md) | Make settled stages adoptable after a provider error, with muse parity | ◐ in_progress | medium | 2026-11-06 | 1 | 0 |
+| [sase-1rg.6](sase-1rg.6.md) | Keep reserved joined runs alive through staged adoption | ✓ closed | medium | 2026-11-06 | 1 | 1 |
+| [sase-1rg.7](sase-1rg.7.md) | Make settled stages adoptable after a provider error, with muse parity | ✓ closed | medium | 2026-11-06 | 1 | 0 |
 | [sase-1rg.8](sase-1rg.8.md) | Make sase agent readopt work for held monitor handoffs | ◐ in_progress | medium | 2026-11-06 | 1 | 0 |
-| [sase-1rg.9](sase-1rg.9.md) | Stop agents from demoting beads with sase bead open | ◐ in_progress | small | 2026-11-06 | 1 | 0 |
+| [sase-1rg.9](sase-1rg.9.md) | Stop agents from demoting beads with sase bead open | ✓ closed | small | 2026-11-06 | 1 | 1 |
 
 ## Lineage
 
@@ -37,10 +37,10 @@ flowchart TD
     n4["sase-1rg.3: Scope monitor retention evidence to the monitor's own workspace [closed]"]
     n5["sase-1rg.4: Commit the Decision Sheet sibling on bead-work plan launches [closed]"]
     n6["sase-1rg.5: Release leaked and dead claims in stale-running cleanup [in_progress]"]
-    n7["sase-1rg.6: Keep reserved joined runs alive through staged adoption [in_progress]"]
-    n8["sase-1rg.7: Make settled stages adoptable after a provider error, with muse parity [in_progress]"]
+    n7["sase-1rg.6: Keep reserved joined runs alive through staged adoption [closed]"]
+    n8["sase-1rg.7: Make settled stages adoptable after a provider error, with muse parity [closed]"]
     n9["sase-1rg.8: Make sase agent readopt work for held monitor handoffs [in_progress]"]
-    n10["sase-1rg.9: Stop agents from demoting beads with sase bead open [in_progress]"]
+    n10["sase-1rg.9: Stop agents from demoting beads with sase bead open [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -69,10 +69,10 @@ flowchart TD
 | [bbugyi200.athena.sase-1rg.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rg.3/README.md) | [sase-1rg.3](sase-1rg.3.md) | 1 |
 | [bbugyi200.athena.sase-1rg.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rg.4/README.md) | [sase-1rg.4](sase-1rg.4.md) | 1 |
 | [bbugyi200.athena.sase-1rg.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rg.5/README.md) | [sase-1rg.5](sase-1rg.5.md) | 0 |
-| [bbugyi200.athena.sase-1rg.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rg.6/README.md) | [sase-1rg.6](sase-1rg.6.md) | 0 |
+| [bbugyi200.athena.sase-1rg.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rg.6/README.md) | [sase-1rg.6](sase-1rg.6.md) | 1 |
 | [bbugyi200.athena.sase-1rg.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rg.7.md) | [sase-1rg.7](sase-1rg.7.md) | 0 |
 | [bbugyi200.athena.sase-1rg.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rg.8/README.md) | [sase-1rg.8](sase-1rg.8.md) | 0 |
-| [bbugyi200.athena.sase-1rg.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rg.9.md) | [sase-1rg.9](sase-1rg.9.md) | 0 |
+| [bbugyi200.athena.sase-1rg.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rg.9.md) | [sase-1rg.9](sase-1rg.9.md) | 1 |
 | [bbugyi200.athena.sase-1rg.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rg.land/README.md) | [sase-1rg](README.md) | 0 |
 
 ## Commits
@@ -81,6 +81,8 @@ flowchart TD
 |---|---|---|---|---|
 | sase | [`85082c7`](https://github.com/sase-org/sase/commit/85082c7da865d555c24ae1ce8c5d4f7e86c940c2) | fix(bead): commit decision sheets on plan launches | [sase-1rg.4](sase-1rg.4.md) | 2026-11-06 07:11:37 EST |
 | sase | [`520962b`](https://github.com/sase-org/sase/commit/520962bcba1912af4e8079d1909a6e0d0066f18e) | fix(monitor): scope retention settlement to owning workspace | [sase-1rg.3](sase-1rg.3.md) | 2026-11-06 07:29:09 EST |
+| sase | [`c65055e`](https://github.com/sase-org/sase/commit/c65055eff66b1cc47d95a2855df7db264a2c862f) | fix(monitor): preserve staged joined tool runs | [sase-1rg.6](sase-1rg.6.md) | 2026-11-06 07:31:10 EST |
+| sase | [`6be3266`](https://github.com/sase-org/sase/commit/6be3266cfce06dcfb69268e067a3f7a8431a6437) | feat(bead): add open agent guard with CLI lifecycle split and tests | [sase-1rg.9](sase-1rg.9.md) | 2026-11-06 07:45:29 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -88,8 +90,10 @@ flowchart TD
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1rg.4][1] | Need epic decisions that govern the phase | 1 |
+| read-by | [agent:sase-1rg.3][1] | Need epic DECISIONS and plan for phase context | 2 |
+| read-by | [agent:sase-1rg.4][2] | Need epic decisions that govern the phase | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rg.4/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rg.3/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rg.4/README.md
 
 <!-- sase:referenced-by:end -->

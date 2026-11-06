@@ -13,7 +13,7 @@ open-actor: thread the mutating actor through the core reopen mutation instead o
 
 ## Dependencies
 
-- **Depends on:** [sase-1rg.9](sase-1rg.9.md) ◐ · ⧖ 2026-11-06
+- **Depends on:** [sase-1rg.9](sase-1rg.9.md) ✓ · ⧖ 2026-11-06
 
 ## Agents
 
