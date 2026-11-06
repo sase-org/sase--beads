@@ -42,8 +42,10 @@ review_modal: route Enter on payload-bearing report notifications to a new prune
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1qz.6.1.4.1.3][1] | Check whether the symvision failure has an existing owner | 1 |
 | read-by | [agent:sase-1rd.4][2] | Need to confirm the phase scope and prior notes before finishing implementation | 3 |
+| read-by | [agent:sase-1rd.land][3] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.6.1.4.1.3/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rd.4/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rd.land.md
 
 <!-- sase:referenced-by:end -->

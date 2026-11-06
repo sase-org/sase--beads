@@ -44,7 +44,9 @@ preview_notification: the chop purges expired batches, writes a review snapshot,
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1rd.3][1] | Final review of phase state and remaining notes before close | 4 |
+| read-by | [agent:sase-1rd.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rd.3/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rd.land.md
 
 <!-- sase:referenced-by:end -->
