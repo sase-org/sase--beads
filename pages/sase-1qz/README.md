@@ -138,8 +138,8 @@ flowchart TD
 | [bbugyi200.athena.sase-1qz.6.1.4.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qz.6.1.4.1.4.md) | [sase-1qz.6.1.4.1.4](sase-1qz.6.1.4.1.4.md) | 1 |
 | [bbugyi200.athena.sase-1qz.6.1.4.1.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qz.6.1.4.1.5.md) | [sase-1qz.6.1.4.1.5](sase-1qz.6.1.4.1.5.md) | 1 |
 | [bbugyi200.athena.sase-1qz.6.1.4.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.6.1.4.1.6/README.md) | [sase-1qz.6.1.4.1.6](sase-1qz.6.1.4.1.6.md) | 1 |
-| [bbugyi200.athena.sase-1qz.6.1.4.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qz.6.1.4.1.land.md) | [sase-1qz.6.1.4.1](sase-1qz.6.1.4.1.md) | 3 |
-| [bbugyi200.athena.sase-1qz.6.1.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qz.6.1.5.md) | [sase-1qz.6.1.5](sase-1qz.6.1.5.md) | 0 |
+| [bbugyi200.athena.sase-1qz.6.1.4.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qz.6.1.4.1.land.md) | [sase-1qz.6.1.4.1](sase-1qz.6.1.4.1.md) | 2 |
+| [bbugyi200.athena.sase-1qz.6.1.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qz.6.1.5.md) | [sase-1qz.6.1.5](sase-1qz.6.1.5.md) | 1 |
 | [bbugyi200.athena.sase-1qz.6.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.6.1.6/README.md) | [sase-1qz.6.1.6](sase-1qz.6.1.6.md) | 0 |
 | [bbugyi200.athena.sase-1qz.6.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.6.1.7/README.md) | [sase-1qz.6.1.7](sase-1qz.6.1.7.md) | 0 |
 | [bbugyi200.athena.sase-1qz.6.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.6.1.land/README.md) | [sase-1qz.6.1](sase-1qz.6.1.md) | 0 |
@@ -172,7 +172,7 @@ flowchart TD
 | sase | [`ef11650`](https://github.com/sase-org/sase/commit/ef11650ad40dd125d3b7c0cbace7ad6d7481e076) | test(agent): verify hijack recovery production transaction and closure evidence | [sase-1qz.6.1.4.1.6](sase-1qz.6.1.4.1.6.md) | 2026-11-05 17:51:01 EST |
 | sase | [`52b1c45`](https://github.com/sase-org/sase/commit/52b1c451b1618e3479f1d6610b862a017224f4f1) | fix(hijack): integrate recovery transaction landing | [sase-1qz.6.1.4.1](sase-1qz.6.1.4.1.md) | 2026-11-05 18:55:22 EST |
 | sase | [`5eef604`](https://github.com/sase-org/sase/commit/5eef60448ce9b44b253817df21835ba09993e42a) | chore(symvision): note sase-1qz.6.1.4.1 rows dropped at land | [sase-1qz.6.1.4.1](sase-1qz.6.1.4.1.md) | 2026-11-05 19:49:30 EST |
-| sase--plans | [`sase--plans@920e0bc`](https://github.com/sase-org/sase--plans/commit/920e0bc0eab6ab925be4f08b1a40225c9c3a4e7e) | docs(plans): mark recovery\_transaction\_completion done | [sase-1qz.6.1.4.1](sase-1qz.6.1.4.1.md) | 2026-11-05 19:50:51 EST |
+| sase | [`efac88d`](https://github.com/sase-org/sase/commit/efac88d0b987989debc6107dcc3d130feb31d8d8) | feat(hijack): reconcile\_wait crash repair and successor-following waits | [sase-1qz.6.1.5](sase-1qz.6.1.5.md) | 2026-11-05 20:41:46 EST |
 
 <!-- sase:referenced-by:start -->
 

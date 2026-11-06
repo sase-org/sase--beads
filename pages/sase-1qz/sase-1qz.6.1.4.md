@@ -57,10 +57,12 @@ resolution_launch: compose the CAS resolution transaction with normal admission,
 | read-by | [agent:sase-1qz.6.1.4--1][2] | Need phase scope and close-blocker status after verify monitor | 1 |
 | read-by | [agent:sase-1qz.6.1.4.1.3][3] | Need the parent phase context and decisions | 1 |
 | read-by | [agent:sase-1qz.6.1.4.1.6][4] | Need parent phase DECISIONS | 1 |
+| read-by | [agent:sase-1qz.6.1.4.1.land--1][5] | Check parent phase state before closing it | 3 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3a.final/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qz.6.1.4.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.6.1.4.1.3/README.md
 [4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.6.1.4.1.6/README.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qz.6.1.4.1.land.md
 
 <!-- sase:referenced-by:end -->

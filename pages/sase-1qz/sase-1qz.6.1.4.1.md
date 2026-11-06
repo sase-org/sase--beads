@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/recovery_transaction_completion.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 5 automatic references — see [Referenced By](#referenced-by)._
+_Plus 6 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202611/recovery_transaction_completion.md
 
@@ -37,7 +37,7 @@ Recover held work through one durable admitted launch, validate the successor be
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1qz.6.1.4.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qz.6.1.4.1.land.md) | [sase-1qz.6.1.4.1](sase-1qz.6.1.4.1.md) | 3 |
+| [bbugyi200.athena.sase-1qz.6.1.4.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qz.6.1.4.1.land.md) | [sase-1qz.6.1.4.1](sase-1qz.6.1.4.1.md) | 2 |
 
 ## Commits
 
@@ -45,7 +45,6 @@ Recover held work through one durable admitted launch, validate the successor be
 |---|---|---|---|---|
 | sase | [`52b1c45`](https://github.com/sase-org/sase/commit/52b1c451b1618e3479f1d6610b862a017224f4f1) | fix(hijack): integrate recovery transaction landing | [sase-1qz.6.1.4.1](sase-1qz.6.1.4.1.md) | 2026-11-05 18:55:22 EST |
 | sase | [`5eef604`](https://github.com/sase-org/sase/commit/5eef60448ce9b44b253817df21835ba09993e42a) | chore(symvision): note sase-1qz.6.1.4.1 rows dropped at land | [sase-1qz.6.1.4.1](sase-1qz.6.1.4.1.md) | 2026-11-05 19:49:30 EST |
-| sase--plans | [`sase--plans@920e0bc`](https://github.com/sase-org/sase--plans/commit/920e0bc0eab6ab925be4f08b1a40225c9c3a4e7e) | docs(plans): mark recovery\_transaction\_completion done | [sase-1qz.6.1.4.1](sase-1qz.6.1.4.1.md) | 2026-11-05 19:50:51 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -58,11 +57,13 @@ Recover held work through one durable admitted launch, validate the successor be
 | read-by | [agent:sase-1qz.6.1.4.1.2][3] | Need epic decisions and phase context before implementation | 1 |
 | read-by | [agent:sase-1qz.6.1.4.1.3][4] | Need the epic decisions and prior phase notes before implementing this child | 1 |
 | read-by | [agent:sase-1qz.6.1.4.1.6][5] | Need parent epic plan and DECISIONS | 2 |
+| read-by | [agent:sase-1qz.6.1.4.1.land--1][6] | Get plan path and parent link after close | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.18y/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.6.1.4.1.1/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.6.1.4.1.2/README.md
 [4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.6.1.4.1.3/README.md
 [5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.6.1.4.1.6/README.md
+[6]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qz.6.1.4.1.land.md
 
 <!-- sase:referenced-by:end -->
