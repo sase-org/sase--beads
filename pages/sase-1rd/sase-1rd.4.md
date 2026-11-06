@@ -11,6 +11,10 @@
 
 review_modal: route Enter on payload-bearing report notifications to a new prune review modal with ready, blocked, missing, and running states. On confirm it submits the CLI apply as a durable proc and reports completion. Includes badges, footer, help, visual snapshots, and an end-to-end fixture test.
 
+## Notes
+
+[2026-11-06T16:54:43Z · sase-1rd.4] PROPOSED FOLLOW-UP: Track the existing pytest isolation regression under sase-1ra (no new bead): clean base e94a52e0ae reproduces test_no_undo_on_shared_monkeypatch_fixture and the cascading test_session_sandbox_seal_is_not_first_test from tests/ace/tui/test_log_panel_keymap.py:331 calling monkeypatch.undo().
+
 ## Dependencies
 
 - **Depends on:** [sase-1rd.2](sase-1rd.2.md) ✓ · ⧖ 2026-11-05
@@ -20,7 +24,13 @@ review_modal: route Enter on payload-bearing report notifications to a new prune
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1rd.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rd.4/README.md) | [sase-1rd.4](sase-1rd.4.md) | 0 |
+| [bbugyi200.athena.sase-1rd.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rd.4/README.md) | [sase-1rd.4](sase-1rd.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`d44032a`](https://github.com/sase-org/sase/commit/d44032ad797e7684e4fa1699708c2cca1b278866) | feat(ace): add actionable run prune review modal | [sase-1rd.4](sase-1rd.4.md) | 2026-11-06 12:30:19 EST |
 
 <!-- sase:referenced-by:start -->
 
