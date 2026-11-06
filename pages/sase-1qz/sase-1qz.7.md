@@ -11,6 +11,10 @@
 
 recover_release: add snapshot-verified restart and dismiss resolutions, restart with a replacement prompt for Edit, `sase agent restart` and `sase agent kill` awareness of HIJACKED targets, and preview availability reasons for those actions.
 
+## Notes
+
+[2026-11-06T20:04:12Z · sase-1qz.7] PROPOSED FOLLOW-UP: tests/test_pytest_isolation_guards.py::test_no_undo_on_shared_monkeypatch_fixture and ::test_session_sandbox_seal_is_not_first_test fail on this tree from committed tests/ace/tui/test_log_panel_keymap.py:331 calling monkeypatch.undo(); the offender is at HEAD and untouched by this phase (already tracked via sase-1rg.2 notes and the sase-1ra.5 false-red batch)
+
 ## Dependencies
 
 - **Depends on:** [sase-1qz.6](sase-1qz.6.md) ✓ · ⧖ 2026-11-02
@@ -21,7 +25,13 @@ recover_release: add snapshot-verified restart and dismiss resolutions, restart 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1qz.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.7/README.md) | [sase-1qz.7](sase-1qz.7.md) | 0 |
+| [bbugyi200.athena.sase-1qz.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.7/README.md) | [sase-1qz.7](sase-1qz.7.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`f4ca45e`](https://github.com/sase-org/sase/commit/f4ca45edf82f5561bfeb5fecc8aa410c6df5c82b) | feat(hijack-recovery): add snapshot-verified restart and dismiss resolutions | [sase-1qz.7](sase-1qz.7.md) | 2026-11-06 15:09:55 EST |
 
 <!-- sase:referenced-by:start -->
 
