@@ -75,7 +75,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1rd.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rd.2.md) | [sase-1rd.2](sase-1rd.2.md) | 1 |
 | [bbugyi200.athena.sase-1rd.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rd.3/README.md) | [sase-1rd.3](sase-1rd.3.md) | 2 |
 | [bbugyi200.athena.sase-1rd.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rd.4/README.md) | [sase-1rd.4](sase-1rd.4.md) | 1 |
-| [bbugyi200.athena.sase-1rd.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rd.land.md) | [sase-1rd](README.md) | 2 |
+| [bbugyi200.athena.sase-1rd.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rd.land.md) | [sase-1rd](README.md) | 3 |
 
 ## Commits
 
@@ -88,6 +88,7 @@ flowchart TD
 | sase | [`d44032a`](https://github.com/sase-org/sase/commit/d44032ad797e7684e4fa1699708c2cca1b278866) | feat(ace): add actionable run prune review modal | [sase-1rd.4](sase-1rd.4.md) | 2026-11-06 12:30:19 EST |
 | sase | [`d8381f2`](https://github.com/sase-org/sase/commit/d8381f230fff8bcfb0cbf26420f1bbc4af0d100d) | refactor(run-prune): privatize snapshot directory helper | [sase-1rd](README.md) | 2026-11-06 13:17:09 EST |
 | sase-core | [`sase-core@c8adc87`](https://github.com/sase-org/sase-core/commit/c8adc878aedfda494731eb1c0a4ecbc359be1c0e) | feat!: require complete protection observations for ACE-run trash purge | [sase-1rd](README.md) | 2026-11-06 16:07:23 EST |
+| sase | [`af3ed63`](https://github.com/sase-org/sase/commit/af3ed634cbafa22c5044d9fa45dd289391bb84da) | fix(run-prune): honor full purge protections and report completion honestly | [sase-1rd](README.md) | 2026-11-06 17:02:53 EST |
 
 <!-- sase:referenced-by:start -->
 
