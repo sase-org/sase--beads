@@ -13,7 +13,7 @@ land: verify this child epic, remove or re-key every sase-1qz.6 epic-symbol exem
 
 ## Dependencies
 
-- **Depends on:** [sase-1qz.6.1.6](sase-1qz.6.1.6.md) ◐ · ⧖ 2026-11-03
+- **Depends on:** [sase-1qz.6.1.6](sase-1qz.6.1.6.md) ✓ · ⧖ 2026-11-03
 
 ## Agents
 

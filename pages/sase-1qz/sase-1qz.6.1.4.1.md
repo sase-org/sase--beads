@@ -37,7 +37,7 @@ Recover held work through one durable admitted launch, validate the successor be
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1qz.6.1.4.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qz.6.1.4.1.land.md) | [sase-1qz.6.1.4.1](sase-1qz.6.1.4.1.md) | 2 |
+| [bbugyi200.athena.sase-1qz.6.1.4.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qz.6.1.4.1.land.md) | [sase-1qz.6.1.4.1](sase-1qz.6.1.4.1.md) | 3 |
 
 ## Commits
 
@@ -45,6 +45,7 @@ Recover held work through one durable admitted launch, validate the successor be
 |---|---|---|---|---|
 | sase | [`52b1c45`](https://github.com/sase-org/sase/commit/52b1c451b1618e3479f1d6610b862a017224f4f1) | fix(hijack): integrate recovery transaction landing | [sase-1qz.6.1.4.1](sase-1qz.6.1.4.1.md) | 2026-11-05 18:55:22 EST |
 | sase | [`5eef604`](https://github.com/sase-org/sase/commit/5eef60448ce9b44b253817df21835ba09993e42a) | chore(symvision): note sase-1qz.6.1.4.1 rows dropped at land | [sase-1qz.6.1.4.1](sase-1qz.6.1.4.1.md) | 2026-11-05 19:49:30 EST |
+| sase--plans | [`sase--plans@920e0bc`](https://github.com/sase-org/sase--plans/commit/920e0bc0eab6ab925be4f08b1a40225c9c3a4e7e) | docs(plans): mark recovery\_transaction\_completion done | [sase-1qz.6.1.4.1](sase-1qz.6.1.4.1.md) | 2026-11-05 19:50:51 EST |
 
 <!-- sase:referenced-by:start -->
 
