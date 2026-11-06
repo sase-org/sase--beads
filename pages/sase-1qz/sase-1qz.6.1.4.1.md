@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1qz.6.1.4](sase-1qz.6.1.4.md) / sase-1qz.6.1.4.1
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-1qz.6.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qz.6.1.4.md) · **Assignee:** `sase-1qz.6.1.4.1.land`
-**Created:** 2026-11-05 10:12:39 EST
+**Created:** 2026-11-05 10:12:39 EST · **Closed:** 2026-11-05 18:56:38 EST
 **Plan:** [202611/recovery\_transaction\_completion.md](https://github.com/sase-org/sase--plans/blob/main/202611/recovery_transaction_completion.md)
 
 <!-- sase:links:start -->
@@ -31,17 +31,20 @@ Recover held work through one durable admitted launch, validate the successor be
 
 [2026-11-05T23:53:32Z · sase-1qz.6.1.4.1.land] LAND VERIFICATION (sase-1qz.6.1.4.1.land): (1) Verify — all six phases closed with completion notes; source and commits confirmed: core execution contract 417d5c8d in sase-core origin/master (sase pin 417d5c8d; Python callers of hijack_recovery_effective_target/validate_execution/confirm/rollback), c6e2c87ba2 prompt_preparation (held-state prep before CAS; real preview/continuation), 3fe8d5d34b bootstrap_ack (child gate enforce_recovery_bootstrap before provider), 7896ea657b durable_admission (dispatch_typed_launch_request + make_hijack_recovery_agent_dispatcher registered in launch_admission), 812ddbc3ae settlement_rollback (confirm_and_settle reads the bootstrap ack and decides via Rust hijack_recovery_confirm; rollback needs verified death + custody restore), ef11650ad4 integration (11 composed transaction tests). Epic note #1 (marker audit missing recover_confirm._read_successor_meta) was observed on 812ddbc3ae before ef11650ad4 landed its reviewed entry; audit passes at HEAD. (2) Integrate — fb61982a41 (predecessor repository responsibility, landed after phase 6) added dataclasses.replace(plan, predecessor_*) in the recovery dispatcher and updated the Flow helper but not the new transaction fixture, so 9/11 tests in tests/test_agent_hijack_recovery_transaction.py failed at HEAD ('replace() should be called on dataclass instances'); fixed the fixture to resolve a real AgentSessionAttachLaunchPlan whose session root differs from the hijacked predecessor, assert plan.predecessor_* and read the gate's parent via commit_inheritance_source like the runner. d1fcd4ea2f (recover.py split) needed nothing. (3) Epic symbols — BootstrapObservation and RecoveryBootstrapError had no production consumer outside recovery_successor.py and no open bead needs them, so both were privatized (_BootstrapObservation/_RecoveryBootstrapError), dropped from __all__, and their Justfile rows removed; symvision clean. Verification: 278 focused hijack/recovery/bootstrap/admission/finalizer-responsibility tests pass; sase tool run check fcac742d3ac24af70bf5d7ddaa5e739a all 10 lint stages pass, tests 60219 passed / 4 failed, all unrelated: pytest isolation guards (owned by active epic sase-1ra via its phase .5; corroborated there) and two Grok usage-probe subprocess timeouts under load (31/31 pass focused; +1 on sase-15i). Follow-up triage: isolation-guard proposals (1.4.1.2 #2, 1.4.1.5 #1, 1.4.1.6 #1) -> DISCOVERED ISSUE corroboration on sase-1ra, no new task; marker-audit proposals -> fixed by phase .6, noted on sase-1by for triage close; stale sase-1rd symvision rows (1.4.1.3 #1) -> declined, already removed upstream. Close waits only on origin/master still carrying the two now-removed rows; host closes after landing.
 
+[2026-11-05T23:56:38Z · sase-1qz.6.1.4.1.land] Closed by explicit `sase stitch create -B close` after create_commit landed 52b1c451b1 ("fix(hijack): integrate recovery transaction landing"). The commit author requested bead completion after verifying the bead scope. Reopen with `sase bead open sase-1qz.6.1.4.1` if more work remains.
+
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1qz.6.1.4.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qz.6.1.4.1.land.md) | [sase-1qz.6.1.4.1](sase-1qz.6.1.4.1.md) | 1 |
+| [bbugyi200.athena.sase-1qz.6.1.4.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qz.6.1.4.1.land.md) | [sase-1qz.6.1.4.1](sase-1qz.6.1.4.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`52b1c45`](https://github.com/sase-org/sase/commit/52b1c451b1618e3479f1d6610b862a017224f4f1) | fix(hijack): integrate recovery transaction landing | [sase-1qz.6.1.4.1](sase-1qz.6.1.4.1.md) | 2026-11-05 18:55:22 EST |
+| sase | [`5eef604`](https://github.com/sase-org/sase/commit/5eef60448ce9b44b253817df21835ba09993e42a) | chore(symvision): note sase-1qz.6.1.4.1 rows dropped at land | [sase-1qz.6.1.4.1](sase-1qz.6.1.4.1.md) | 2026-11-05 19:49:30 EST |
 
 <!-- sase:referenced-by:start -->
 

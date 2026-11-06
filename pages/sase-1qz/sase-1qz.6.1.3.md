@@ -24,7 +24,7 @@ strict_successor: add strict follow-up workspace handling and a recovery success
 ## Dependencies
 
 - **Depends on:** [sase-1qz.6.1.1](sase-1qz.6.1.1.md) ✓ · ⧖ 2026-11-03
-- **Blocks:** [sase-1qz.6.1.4](sase-1qz.6.1.4.md) ◐ · ⧖ 2026-11-03
+- **Blocks:** [sase-1qz.6.1.4](sase-1qz.6.1.4.md) ✓ · ⧖ 2026-11-03
 
 ## Agents
 

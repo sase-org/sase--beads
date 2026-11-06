@@ -13,7 +13,7 @@ reconcile_wait: reconcile abandoned resolutions and interrupted settlement from 
 
 ## Dependencies
 
-- **Depends on:** [sase-1qz.6.1.4](sase-1qz.6.1.4.md) ◐ · ⧖ 2026-11-03
+- **Depends on:** [sase-1qz.6.1.4](sase-1qz.6.1.4.md) ✓ · ⧖ 2026-11-03
 - **Blocks:** [sase-1qz.6.1.6](sase-1qz.6.1.6.md) ◐ · ⧖ 2026-11-03
 
 ## Agents

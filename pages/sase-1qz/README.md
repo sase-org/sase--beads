@@ -48,8 +48,8 @@ flowchart TD
     n10["sase-1qz.6.1.1: Rust recovery transaction and preview contracts [closed]"]
     n11["sase-1qz.6.1.2: Read-only recovery preview and continuation context [closed]"]
     n12["sase-1qz.6.1.3: Same-workspace launch with mandatory inheritance [closed]"]
-    n13["sase-1qz.6.1.4: Exactly-once recovery launch and settlement [in_progress]"]
-    n14["sase-1qz.6.1.4.1: Complete the production keep-work recovery transaction [in_progress]"]
+    n13["sase-1qz.6.1.4: Exactly-once recovery launch and settlement [closed]"]
+    n14["sase-1qz.6.1.4.1: Complete the production keep-work recovery transaction [closed]"]
     n15["sase-1qz.6.1.4.1.1: Rust execution validation and confirmation contract [closed]"]
     n16["sase-1qz.6.1.4.1.2: Prepare and pin the real recovery prompt [closed]"]
     n17["sase-1qz.6.1.4.1.3: Submit and resume the pinned recovery request [closed]"]
@@ -138,7 +138,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1qz.6.1.4.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qz.6.1.4.1.4.md) | [sase-1qz.6.1.4.1.4](sase-1qz.6.1.4.1.4.md) | 1 |
 | [bbugyi200.athena.sase-1qz.6.1.4.1.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qz.6.1.4.1.5.md) | [sase-1qz.6.1.4.1.5](sase-1qz.6.1.4.1.5.md) | 1 |
 | [bbugyi200.athena.sase-1qz.6.1.4.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.6.1.4.1.6/README.md) | [sase-1qz.6.1.4.1.6](sase-1qz.6.1.4.1.6.md) | 1 |
-| [bbugyi200.athena.sase-1qz.6.1.4.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qz.6.1.4.1.land.md) | [sase-1qz.6.1.4.1](sase-1qz.6.1.4.1.md) | 1 |
+| [bbugyi200.athena.sase-1qz.6.1.4.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qz.6.1.4.1.land.md) | [sase-1qz.6.1.4.1](sase-1qz.6.1.4.1.md) | 2 |
 | [bbugyi200.athena.sase-1qz.6.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.6.1.5/README.md) | [sase-1qz.6.1.5](sase-1qz.6.1.5.md) | 0 |
 | [bbugyi200.athena.sase-1qz.6.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.6.1.6/README.md) | [sase-1qz.6.1.6](sase-1qz.6.1.6.md) | 0 |
 | [bbugyi200.athena.sase-1qz.6.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.6.1.7/README.md) | [sase-1qz.6.1.7](sase-1qz.6.1.7.md) | 0 |
@@ -171,6 +171,7 @@ flowchart TD
 | sase | [`812ddbc`](https://github.com/sase-org/sase/commit/812ddbc3aed901f77385830432216598f8843e4c) | fix(hijack): settle recovery only with verified custody | [sase-1qz.6.1.4.1.5](sase-1qz.6.1.4.1.5.md) | 2026-11-05 16:40:55 EST |
 | sase | [`ef11650`](https://github.com/sase-org/sase/commit/ef11650ad40dd125d3b7c0cbace7ad6d7481e076) | test(agent): verify hijack recovery production transaction and closure evidence | [sase-1qz.6.1.4.1.6](sase-1qz.6.1.4.1.6.md) | 2026-11-05 17:51:01 EST |
 | sase | [`52b1c45`](https://github.com/sase-org/sase/commit/52b1c451b1618e3479f1d6610b862a017224f4f1) | fix(hijack): integrate recovery transaction landing | [sase-1qz.6.1.4.1](sase-1qz.6.1.4.1.md) | 2026-11-05 18:55:22 EST |
+| sase | [`5eef604`](https://github.com/sase-org/sase/commit/5eef60448ce9b44b253817df21835ba09993e42a) | chore(symvision): note sase-1qz.6.1.4.1 rows dropped at land | [sase-1qz.6.1.4.1](sase-1qz.6.1.4.1.md) | 2026-11-05 19:49:30 EST |
 
 <!-- sase:referenced-by:start -->
 
