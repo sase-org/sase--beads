@@ -41,7 +41,9 @@ recovery_cli: expose recover menu, escalate/continue/Instruct, dry-run and JSON,
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:research.3a.final][1] | Check active epic phase scopes for conflict screening of task bead recommendations | 1 |
+| read-by | [agent:sase-1qz.6.1.6][2] | Need the phase scope, design file, and prior notes before resuming work | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3a.final/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.6.1.6/README.md
 
 <!-- sase:referenced-by:end -->

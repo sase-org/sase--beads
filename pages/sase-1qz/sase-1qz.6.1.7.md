@@ -19,7 +19,13 @@ land: verify this child epic, remove or re-key every sase-1qz.6 epic-symbol exem
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1qz.6.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.6.1.7/README.md) | [sase-1qz.6.1.7](sase-1qz.6.1.7.md) | 0 |
+| [bbugyi200.athena.sase-1qz.6.1.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qz.6.1.7.md) | [sase-1qz.6.1.7](sase-1qz.6.1.7.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`acc6f78`](https://github.com/sase-org/sase/commit/acc6f7842214f4622576e3e56e4914e2e836e2bc) | chore(symvision): re-key leftover sase-1qz.6 epic-symbol rows to sase-1qz.7 | [sase-1qz.6.1.7](sase-1qz.6.1.7.md) | 2026-11-06 10:49:47 EST |
 
 <!-- sase:referenced-by:start -->
 

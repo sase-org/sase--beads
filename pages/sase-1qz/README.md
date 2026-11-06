@@ -141,7 +141,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1qz.6.1.4.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qz.6.1.4.1.land.md) | [sase-1qz.6.1.4.1](sase-1qz.6.1.4.1.md) | 3 |
 | [bbugyi200.athena.sase-1qz.6.1.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qz.6.1.5.md) | [sase-1qz.6.1.5](sase-1qz.6.1.5.md) | 1 |
 | [bbugyi200.athena.sase-1qz.6.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.6.1.6/README.md) | [sase-1qz.6.1.6](sase-1qz.6.1.6.md) | 1 |
-| [bbugyi200.athena.sase-1qz.6.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.6.1.7/README.md) | [sase-1qz.6.1.7](sase-1qz.6.1.7.md) | 0 |
+| [bbugyi200.athena.sase-1qz.6.1.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qz.6.1.7.md) | [sase-1qz.6.1.7](sase-1qz.6.1.7.md) | 1 |
 | [bbugyi200.athena.sase-1qz.6.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.6.1.land/README.md) | [sase-1qz.6.1](sase-1qz.6.1.md) | 0 |
 | [bbugyi200.athena.sase-1qz.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.7/README.md) | [sase-1qz.7](sase-1qz.7.md) | 0 |
 | [bbugyi200.athena.sase-1qz.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.9/README.md) | [sase-1qz.9](sase-1qz.9.md) | 0 |
@@ -175,6 +175,7 @@ flowchart TD
 | sase--plans | [`sase--plans@920e0bc`](https://github.com/sase-org/sase--plans/commit/920e0bc0eab6ab925be4f08b1a40225c9c3a4e7e) | docs(plans): mark recovery\_transaction\_completion done | [sase-1qz.6.1.4.1](sase-1qz.6.1.4.1.md) | 2026-11-05 19:50:51 EST |
 | sase | [`efac88d`](https://github.com/sase-org/sase/commit/efac88d0b987989debc6107dcc3d130feb31d8d8) | feat(hijack): reconcile\_wait crash repair and successor-following waits | [sase-1qz.6.1.5](sase-1qz.6.1.5.md) | 2026-11-05 20:41:46 EST |
 | sase | [`a7d68a2`](https://github.com/sase-org/sase/commit/a7d68a2e71a99d12feb05289db32f1d30b5f295d) | feat(agent): add hijack recovery command and durable operation | [sase-1qz.6.1.6](sase-1qz.6.1.6.md) | 2026-11-06 09:56:04 EST |
+| sase | [`acc6f78`](https://github.com/sase-org/sase/commit/acc6f7842214f4622576e3e56e4914e2e836e2bc) | chore(symvision): re-key leftover sase-1qz.6 epic-symbol rows to sase-1qz.7 | [sase-1qz.6.1.7](sase-1qz.6.1.7.md) | 2026-11-06 10:49:47 EST |
 
 <!-- sase:referenced-by:start -->
 
