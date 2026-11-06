@@ -2,14 +2,20 @@
 
 [Bead Pages](../README.md) / [sase-1qz.6.1](sase-1qz.6.1.md) / sase-1qz.6.1.7
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** `bbugyi200.apollo.sase-1qz.6` · **Assignee:** `sase-1qz.6.1.7` · **Size:** small
-**Created:** 2026-11-03 08:05:27 EST
+**Created:** 2026-11-03 08:05:27 EST · **Closed:** 2026-11-06 10:58:42 EST
 **Plan:** [202611/hijack\_keep\_work\_recovery.md](https://github.com/sase-org/sase--plans/blob/main/202611/hijack_keep_work_recovery.md)
 
 ## Description
 
 land: verify this child epic, remove or re-key every sase-1qz.6 epic-symbol exemption, and supply completion evidence for closing only the assigned original phase sase-1qz.6.
+
+## Notes
+
+[2026-11-06T15:58:29Z · sase-1qz.6.1.7--1] PROPOSED FOLLOW-UP: isolation-guard failure from monkeypatch.undo() offender at tests/ace/tui/test_log_panel_keymap.py:331 — full check run 8670dce88cf1ee2f7a18c8de17c26943 shows NEW test_session_sandbox_seal_is_not_first_test plus KNOWN test_no_undo_on_shared_monkeypatch_fixture (witness 06bc24115c3e4f9a7f1fba935304fddf); both reproduce identically on clean base HEAD~1 (b5ea62a0a2) whose tests/ tree is byte-identical to HEAD, so unrelated to the Justfile epic-symbol re-key; plus 3 FLAKY (revert stale-lock, pipe e2e)
+
+[2026-11-06T15:58:42Z · sase-1qz.6.1.7--1] Land verified: child phases 6.1.1-6.1.6 closed; 3 sase-1qz.6 epic-symbol rows re-keyed to sase-1qz.7 with Justfile comment and symvision green; epic-symbols clean for 6.1.7; recover CLI shows continue/escalate with restart/dismiss unavailable. Full just check (run 8670dce88cf1ee2f7a18c8de17c26943): 60279 passed; 4 failures all base-reproducing, not mine — NEW seal_is_not_first_test and KNOWN no_undo guard both fail identically on clean base HEAD~1 from the pre-existing monkeypatch.undo() offender at tests/ace/tui/test_log_panel_keymap.py:331 (recorded as PROPOSED FOLLOW-UP), plus 3 FLAKY. Evidence for landing sase-1qz.6; ancestor left open for its land agent.
 
 ## Dependencies
 

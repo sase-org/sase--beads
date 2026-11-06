@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1qz](README.md) / sase-1qz.6
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** `bbugyi200.apollo.research.33.linker.w0` · **Assignee:** `sase-1qz.6` · **Size:** large
-**Created:** 2026-11-02 17:42:16 EST
+**Created:** 2026-11-02 17:42:16 EST · **Closed:** 2026-11-06 12:58:15 EST
 **Plan:** [202611/agent\_hijack.md](https://github.com/sase-org/sase--plans/blob/main/202611/agent_hijack.md)
 
 ## Description

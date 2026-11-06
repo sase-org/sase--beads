@@ -19,7 +19,7 @@ custody: teach stale cleanup (with a TTL measured from hijacked_at and a snapsho
 
 - **Blocks:** [sase-1qz.11](sase-1qz.11.md) ◐ · ⧖ 2026-11-02
 - **Depends on:** [sase-1qz.4](sase-1qz.4.md) ✓ · ⧖ 2026-11-02
-- **Blocks:** [sase-1qz.6](sase-1qz.6.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [sase-1qz.6](sase-1qz.6.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 

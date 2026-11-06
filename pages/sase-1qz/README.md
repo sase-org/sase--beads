@@ -26,7 +26,7 @@ A user can hijack a stalled sase agent (,k, the kill dialog's h, or `sase agent 
 | [sase-1qz.3](sase-1qz.3.md) | Runner settlement that keeps custody | ✓ closed | medium | 2026-11-02 | 1 | 1 |
 | [sase-1qz.4](sase-1qz.4.md) | The stop protocol and \`sase agent hijack\` | ✓ closed | medium | 2026-11-02 | 1 | 1 |
 | [sase-1qz.5](sase-1qz.5.md) | Every release path respects a hijack | ✓ closed | medium | 2026-11-02 | 1 | 1 |
-| [sase-1qz.6](sase-1qz.6.md) | Keep-the-work recovery (Escalate, Switch, Continue, Instruct) | ◐ in_progress | large | 2026-11-02 | 0 | 0 |
+| [sase-1qz.6](sase-1qz.6.md) | Keep-the-work recovery (Escalate, Switch, Continue, Instruct) | ✓ closed | large | 2026-11-02 | 0 | 0 |
 | [sase-1qz.7](sase-1qz.7.md) | Start-over and leave recovery (Restart, Edit backend, Dismiss) | ◐ in_progress | medium | 2026-11-02 | 1 | 0 |
 | [sase-1qz.8](sase-1qz.8.md) | Agents-tab rendering and the ,k way in | ✓ closed | medium | 2026-11-02 | 1 | 1 |
 | [sase-1qz.9](sase-1qz.9.md) | The recovery panel | ◐ in_progress | medium | 2026-11-02 | 1 | 0 |
@@ -43,8 +43,8 @@ flowchart TD
     n5["sase-1qz.3: Runner settlement that keeps custody [closed]"]
     n6["sase-1qz.4: The stop protocol and `sase agent hijack` [closed]"]
     n7["sase-1qz.5: Every release path respects a hijack [closed]"]
-    n8["sase-1qz.6: Keep-the-work recovery (Escalate, Switch, Continue, Instruct) [in_progress]"]
-    n9["sase-1qz.6.1: Complete keep-work recovery for hijacked agents [in_progress]"]
+    n8["sase-1qz.6: Keep-the-work recovery (Escalate, Switch, Continue, Instruct) [closed]"]
+    n9["sase-1qz.6.1: Complete keep-work recovery for hijacked agents [closed]"]
     n10["sase-1qz.6.1.1: Rust recovery transaction and preview contracts [closed]"]
     n11["sase-1qz.6.1.2: Read-only recovery preview and continuation context [closed]"]
     n12["sase-1qz.6.1.3: Same-workspace launch with mandatory inheritance [closed]"]
@@ -58,7 +58,7 @@ flowchart TD
     n20["sase-1qz.6.1.4.1.6: Verify the production transaction and closure evidence [closed]"]
     n21["sase-1qz.6.1.5: Crash repair and successor-following waits [closed]"]
     n22["sase-1qz.6.1.6: Recovery command, durable operation, and integration coverage [closed]"]
-    n23["sase-1qz.6.1.7: Verify and complete the assigned recovery phase [in_progress]"]
+    n23["sase-1qz.6.1.7: Verify and complete the assigned recovery phase [closed]"]
     n24["sase-1qz.7: Start-over and leave recovery (Restart, Edit backend, Dismiss) [in_progress]"]
     n25["sase-1qz.8: Agents-tab rendering and the ,k way in [closed]"]
     n26["sase-1qz.9: The recovery panel [in_progress]"]
@@ -142,7 +142,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1qz.6.1.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qz.6.1.5.md) | [sase-1qz.6.1.5](sase-1qz.6.1.5.md) | 1 |
 | [bbugyi200.athena.sase-1qz.6.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.6.1.6/README.md) | [sase-1qz.6.1.6](sase-1qz.6.1.6.md) | 1 |
 | [bbugyi200.athena.sase-1qz.6.1.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qz.6.1.7.md) | [sase-1qz.6.1.7](sase-1qz.6.1.7.md) | 1 |
-| [bbugyi200.athena.sase-1qz.6.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.6.1.land/README.md) | [sase-1qz.6.1](sase-1qz.6.1.md) | 0 |
+| [bbugyi200.athena.sase-1qz.6.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qz.6.1.land.md) | [sase-1qz.6.1](sase-1qz.6.1.md) | 1 |
 | [bbugyi200.athena.sase-1qz.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.7/README.md) | [sase-1qz.7](sase-1qz.7.md) | 0 |
 | [bbugyi200.athena.sase-1qz.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.9/README.md) | [sase-1qz.9](sase-1qz.9.md) | 0 |
 | [bbugyi200.athena.sase-1qz.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.land/README.md) | [sase-1qz](README.md) | 0 |
@@ -176,6 +176,7 @@ flowchart TD
 | sase | [`efac88d`](https://github.com/sase-org/sase/commit/efac88d0b987989debc6107dcc3d130feb31d8d8) | feat(hijack): reconcile\_wait crash repair and successor-following waits | [sase-1qz.6.1.5](sase-1qz.6.1.5.md) | 2026-11-05 20:41:46 EST |
 | sase | [`a7d68a2`](https://github.com/sase-org/sase/commit/a7d68a2e71a99d12feb05289db32f1d30b5f295d) | feat(agent): add hijack recovery command and durable operation | [sase-1qz.6.1.6](sase-1qz.6.1.6.md) | 2026-11-06 09:56:04 EST |
 | sase | [`acc6f78`](https://github.com/sase-org/sase/commit/acc6f7842214f4622576e3e56e4914e2e836e2bc) | chore(symvision): re-key leftover sase-1qz.6 epic-symbol rows to sase-1qz.7 | [sase-1qz.6.1.7](sase-1qz.6.1.7.md) | 2026-11-06 10:49:47 EST |
+| sase-core | [`sase-core@cd02e31`](https://github.com/sase-org/sase-core/commit/cd02e319227a0359d418f4aae60ce93b5e45bb5c) | feat(agent-hijack): return proven-undispatched recoveries to held | [sase-1qz.6.1](sase-1qz.6.1.md) | 2026-11-06 13:00:11 EST |
 
 <!-- sase:referenced-by:start -->
 

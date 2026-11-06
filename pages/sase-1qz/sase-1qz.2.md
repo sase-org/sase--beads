@@ -19,7 +19,7 @@ core_escalation: add the never-downgrade escalation_target function and the cont
 
 ## Dependencies
 
-- **Blocks:** [sase-1qz.6](sase-1qz.6.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [sase-1qz.6](sase-1qz.6.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
 

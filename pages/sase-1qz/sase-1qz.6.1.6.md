@@ -20,7 +20,7 @@ recovery_cli: expose recover menu, escalate/continue/Instruct, dry-run and JSON,
 ## Dependencies
 
 - **Depends on:** [sase-1qz.6.1.5](sase-1qz.6.1.5.md) ✓ · ⧖ 2026-11-03
-- **Blocks:** [sase-1qz.6.1.7](sase-1qz.6.1.7.md) ◐ · ⧖ 2026-11-03
+- **Blocks:** [sase-1qz.6.1.7](sase-1qz.6.1.7.md) ✓ · ⧖ 2026-11-03
 
 ## Agents
 
