@@ -20,7 +20,7 @@ reconcile_wait: reconcile abandoned resolutions and interrupted settlement from 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1qz.6.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.6.1.5/README.md) | [sase-1qz.6.1.5](sase-1qz.6.1.5.md) | 0 |
+| [bbugyi200.athena.sase-1qz.6.1.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qz.6.1.5.md) | [sase-1qz.6.1.5](sase-1qz.6.1.5.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
