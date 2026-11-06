@@ -31,7 +31,7 @@ Agent publication heals itself from conflicts on regenerable index pages and esc
 |---|---|---|---|---|---:|---:|
 | [sase-1rg.1](sase-1rg.1.md) | Core rebase-conflict policy for agent publication | ✓ closed | small | 2026-11-06 | 1 | 2 |
 | [sase-1rg.10](sase-1rg.10.md) | Record the real actor and skip no-op reopen events in sase-core | ✓ closed | medium | 2026-11-06 | 1 | 2 |
-| [sase-1rg.2](sase-1rg.2.md) | Self-healing and one-shot escalation in the publication job | ◐ in_progress | medium | 2026-11-06 | 1 | 0 |
+| [sase-1rg.2](sase-1rg.2.md) | Self-healing and one-shot escalation in the publication job | ◐ in_progress | medium | 2026-11-06 | 1 | 1 |
 | [sase-1rg.3](sase-1rg.3.md) | Scope monitor retention evidence to the monitor's own workspace | ✓ closed | medium | 2026-11-06 | 1 | 1 |
 | [sase-1rg.4](sase-1rg.4.md) | Commit the Decision Sheet sibling on bead-work plan launches | ✓ closed | small | 2026-11-06 | 1 | 1 |
 | [sase-1rg.5](sase-1rg.5.md) | Release leaked and dead claims in stale-running cleanup | ✓ closed | medium | 2026-11-06 | 1 | 1 |
@@ -79,7 +79,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-1rg.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rg.1/README.md) | [sase-1rg.1](sase-1rg.1.md) | 2 |
 | [bbugyi200.athena.sase-1rg.10](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rg.10.md) | [sase-1rg.10](sase-1rg.10.md) | 2 |
-| [bbugyi200.athena.sase-1rg.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rg.2.md) | [sase-1rg.2](sase-1rg.2.md) | 0 |
+| [bbugyi200.athena.sase-1rg.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rg.2.md) | [sase-1rg.2](sase-1rg.2.md) | 1 |
 | [bbugyi200.athena.sase-1rg.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rg.3/README.md) | [sase-1rg.3](sase-1rg.3.md) | 1 |
 | [bbugyi200.athena.sase-1rg.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rg.4/README.md) | [sase-1rg.4](sase-1rg.4.md) | 1 |
 | [bbugyi200.athena.sase-1rg.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rg.5/README.md) | [sase-1rg.5](sase-1rg.5.md) | 1 |
@@ -104,6 +104,7 @@ flowchart TD
 | sase | [`956310b`](https://github.com/sase-org/sase/commit/956310b7ad7be73908467bb4d1d147f8e76c627a) | fix(monitor): restore readopt for held staged handoffs | [sase-1rg.8](sase-1rg.8.md) | 2026-11-06 08:26:22 EST |
 | sase-core | [`sase-core@2815992`](https://github.com/sase-org/sase-core/commit/28159925724bc9ff46c3fccd9047f159f428c861) | feat(bead): thread opener actor through core open mutation | [sase-1rg.10](sase-1rg.10.md) | 2026-11-06 09:28:09 EST |
 | sase | [`a6fe55c`](https://github.com/sase-org/sase/commit/a6fe55c1bee573b0f6b9ee23442c9fc242aeb670) | feat(bead): record acting opener and skip no-op reopen | [sase-1rg.10](sase-1rg.10.md) | 2026-11-06 09:29:37 EST |
+| sase | [`b313400`](https://github.com/sase-org/sase/commit/b313400ebda21c209ee086264778825ae0ca4816) | fix(agents-sync): recover publication rebase conflicts and clean pass commits | [sase-1rg.2](sase-1rg.2.md) | 2026-11-06 11:14:59 EST |
 
 <!-- sase:referenced-by:start -->
 
