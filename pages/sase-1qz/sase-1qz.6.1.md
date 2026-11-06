@@ -43,13 +43,14 @@ Recover a hijacked agent exactly once in its held workspace while preserving its
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1qz.6.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qz.6.1.land.md) | [sase-1qz.6.1](sase-1qz.6.1.md) | 1 |
+| [bbugyi200.athena.sase-1qz.6.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qz.6.1.land.md) | [sase-1qz.6.1](sase-1qz.6.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@cd02e31`](https://github.com/sase-org/sase-core/commit/cd02e319227a0359d418f4aae60ce93b5e45bb5c) | feat(agent-hijack): return proven-undispatched recoveries to held | [sase-1qz.6.1](sase-1qz.6.1.md) | 2026-11-06 13:00:11 EST |
+| sase | [`71011e1`](https://github.com/sase-org/sase/commit/71011e1e10771c589e2c6dd8219dd6a3d32a1040) | feat(hijack-recovery): finish keep-work settlement without user action | [sase-1qz.6.1](sase-1qz.6.1.md) | 2026-11-06 13:50:06 EST |
 
 <!-- sase:referenced-by:start -->
 
