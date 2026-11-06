@@ -34,7 +34,7 @@ A user can hijack a stalled sase agent (,k, the kill dialog's h, or `sase agent 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-1qz.1](sase-1qz.1.md) | sase-core: hijack statuses, ledger wire, and eligibility | ✓ closed | medium | 2026-11-02 | 1 | 2 |
-| [sase-1qz.10](sase-1qz.10.md) | Instruct and Edit through the prompt bar | ◐ in_progress | medium | 2026-11-02 | 1 | 0 |
+| [sase-1qz.10](sase-1qz.10.md) | Instruct and Edit through the prompt bar | ✓ closed | medium | 2026-11-02 | 1 | 1 |
 | [sase-1qz.11](sase-1qz.11.md) | Remove the flag, document, and prove it end to end | ◐ in_progress | medium | 2026-11-02 | 1 | 0 |
 | [sase-1qz.2](sase-1qz.2.md) | sase-core: escalation policy, continuation prompt, and config | ✓ closed | medium | 2026-11-02 | 1 | 2 |
 | [sase-1qz.3](sase-1qz.3.md) | Runner settlement that keeps custody | ✓ closed | medium | 2026-11-02 | 1 | 1 |
@@ -43,7 +43,7 @@ A user can hijack a stalled sase agent (,k, the kill dialog's h, or `sase agent 
 | [sase-1qz.6](sase-1qz.6.md) | Keep-the-work recovery (Escalate, Switch, Continue, Instruct) | ✓ closed | large | 2026-11-02 | 0 | 0 |
 | [sase-1qz.7](sase-1qz.7.md) | Start-over and leave recovery (Restart, Edit backend, Dismiss) | ✓ closed | medium | 2026-11-02 | 1 | 1 |
 | [sase-1qz.8](sase-1qz.8.md) | Agents-tab rendering and the ,k way in | ✓ closed | medium | 2026-11-02 | 1 | 1 |
-| [sase-1qz.9](sase-1qz.9.md) | The recovery panel | ◐ in_progress | medium | 2026-11-02 | 1 | 1 |
+| [sase-1qz.9](sase-1qz.9.md) | The recovery panel | ✓ closed | medium | 2026-11-02 | 1 | 1 |
 
 ## Lineage
 
@@ -51,7 +51,7 @@ A user can hijack a stalled sase agent (,k, the kill dialog's h, or `sase agent 
 flowchart TD
     n0["sase-1qz: Agent Hijack: stop a stalled agent, keep its work, recover in one keypress [in_progress]"]
     n1["sase-1qz.1: sase-core: hijack statuses, ledger wire, and eligibility [closed]"]
-    n2["sase-1qz.10: Instruct and Edit through the prompt bar [in_progress]"]
+    n2["sase-1qz.10: Instruct and Edit through the prompt bar [closed]"]
     n3["sase-1qz.11: Remove the flag, document, and prove it end to end [in_progress]"]
     n4["sase-1qz.2: sase-core: escalation policy, continuation prompt, and config [closed]"]
     n5["sase-1qz.3: Runner settlement that keeps custody [closed]"]
@@ -75,7 +75,7 @@ flowchart TD
     n23["sase-1qz.6.1.7: Verify and complete the assigned recovery phase [closed]"]
     n24["sase-1qz.7: Start-over and leave recovery (Restart, Edit backend, Dismiss) [closed]"]
     n25["sase-1qz.8: Agents-tab rendering and the ,k way in [closed]"]
-    n26["sase-1qz.9: The recovery panel [in_progress]"]
+    n26["sase-1qz.9: The recovery panel [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -142,7 +142,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-1qz.6.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.apollo.sase-1qz.6.1.2/README.md) | [sase-1qz.6.1.2](sase-1qz.6.1.2.md) | 1 |
 | [bbugyi200.apollo.sase-1qz.6.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1qz.6.1.3.md) | [sase-1qz.6.1.3](sase-1qz.6.1.3.md) | 1 |
 | [bbugyi200.apollo.sase-1qz.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1qz.8.md) | [sase-1qz.8](sase-1qz.8.md) | 1 |
-| [bbugyi200.athena.sase-1qz.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.10/README.md) | [sase-1qz.10](sase-1qz.10.md) | 0 |
+| [bbugyi200.athena.sase-1qz.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.10/README.md) | [sase-1qz.10](sase-1qz.10.md) | 1 |
 | [bbugyi200.athena.sase-1qz.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.11/README.md) | [sase-1qz.11](sase-1qz.11.md) | 0 |
 | [bbugyi200.athena.sase-1qz.6.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.6.1.2/README.md) | [sase-1qz.6.1.2](sase-1qz.6.1.2.md) | 0 |
 | [bbugyi200.athena.sase-1qz.6.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qz.6.1.4.md) | [sase-1qz.6.1.4](sase-1qz.6.1.4.md) | 1 |
@@ -195,6 +195,7 @@ flowchart TD
 | sase--plans | [`sase--plans@aae102d`](https://github.com/sase-org/sase--plans/commit/aae102da76fa123a0b995886ad23fc2b211888a4) | docs(plans): mark hijack keep-work recovery epic plan done | [sase-1qz.6.1](sase-1qz.6.1.md) | 2026-11-06 13:53:01 EST |
 | sase | [`f4ca45e`](https://github.com/sase-org/sase/commit/f4ca45edf82f5561bfeb5fecc8aa410c6df5c82b) | feat(hijack-recovery): add snapshot-verified restart and dismiss resolutions | [sase-1qz.7](sase-1qz.7.md) | 2026-11-06 15:09:55 EST |
 | sase | [`a6ceb8b`](https://github.com/sase-org/sase/commit/a6ceb8bf930fee6654b74c7f5aba5c27d747226b) | feat(ace): add hijack recovery panel | [sase-1qz.9](sase-1qz.9.md) | 2026-11-06 16:34:33 EST |
+| sase | [`039c4a8`](https://github.com/sase-org/sase/commit/039c4a858d7ced67bbb89699dcb3d737d9095b85) | feat(ace): wire hijack recovery panel Instruct and Edit through the prompt bar | [sase-1qz.10](sase-1qz.10.md) | 2026-11-06 16:57:29 EST |
 
 <!-- sase:referenced-by:start -->
 

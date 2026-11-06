@@ -20,7 +20,7 @@ recover_release: add snapshot-verified restart and dismiss resolutions, restart 
 ## Dependencies
 
 - **Depends on:** [sase-1qz.6](sase-1qz.6.md) ✓ · ⧖ 2026-11-02
-- **Blocks:** [sase-1qz.9](sase-1qz.9.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [sase-1qz.9](sase-1qz.9.md) ✓ · ⧖ 2026-11-02
 - **Blocks:** [sase-1ra.11.1.1](../sase-1ra/sase-1ra.11.1.1.md) ◐ · ⧖ 2026-11-04
 
 ## Agents

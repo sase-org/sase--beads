@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1qz](README.md) / sase-1qz.9
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** `bbugyi200.apollo.research.33.linker.w0` · **Assignee:** `sase-1qz.9` · **Size:** medium
-**Created:** 2026-11-02 17:42:17 EST
+**Created:** 2026-11-02 17:42:17 EST · **Closed:** 2026-11-06 16:35:51 EST
 **Plan:** [202611/agent\_hijack.md](https://github.com/sase-org/sase--plans/blob/main/202611/agent_hijack.md)
 
 ## Description
@@ -15,9 +15,11 @@ tui_panel: extend AgentActionChooserModal with a header, single-line sectioned r
 
 [2026-11-06T21:30:50Z · sase-1qz.9--1] PROPOSED FOLLOW-UP: reconcile the linked sase-core compatibility schema before just check (sase tool run 299cbe71962e096b41f7ee593000de7b rebuilt the refreshed core, then tools/validate_sase_core_rs reported agent_artifact_run_trash_wire_schema_version got 2, expected 1; direct validator rerun reproduced it, and the validator is unchanged from the base tree; broader stale-core-schema evidence is already tracked in sase-1gu.6 note #1).
 
+[2026-11-06T21:35:51Z · sase-1qz.9--1] Closed by explicit `sase stitch create -B close` after create_commit landed a6ceb8bf93 ("feat(ace): add hijack recovery panel"). The commit author requested bead completion after verifying the bead scope. Reopen with `sase bead open sase-1qz.9` if more work remains.
+
 ## Dependencies
 
-- **Blocks:** [sase-1qz.10](sase-1qz.10.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [sase-1qz.10](sase-1qz.10.md) ✓ · ⧖ 2026-11-02
 - **Depends on:** [sase-1qz.7](sase-1qz.7.md) ✓ · ⧖ 2026-11-02
 - **Depends on:** [sase-1qz.8](sase-1qz.8.md) ✓ · ⧖ 2026-11-02
 
@@ -41,8 +43,10 @@ tui_panel: extend AgentActionChooserModal with a header, single-line sectioned r
 | --- | --- | --- | ---: |
 | read-by | [agent:18n][1] | Check in-progress hijack phase notes for deviations from the plan, for a user-facing report | 1 |
 | read-by | [agent:research.3a.final][2] | Check active epic phase scopes for conflict screening of task bead recommendations | 1 |
+| read-by | [agent:sase-1qz.9--1][3] | Confirm the recorded setup follow-up and phase status before host completion | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.18n/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3a.final/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qz.9.md
 
 <!-- sase:referenced-by:end -->

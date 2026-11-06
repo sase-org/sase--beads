@@ -13,7 +13,7 @@ land: run an end-to-end hijack-and-escalate test across primary and linked repos
 
 ## Dependencies
 
-- **Depends on:** [sase-1qz.10](sase-1qz.10.md) ◐ · ⧖ 2026-11-02
+- **Depends on:** [sase-1qz.10](sase-1qz.10.md) ✓ · ⧖ 2026-11-02
 - **Depends on:** [sase-1qz.5](sase-1qz.5.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
