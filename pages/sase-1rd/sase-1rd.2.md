@@ -23,7 +23,7 @@ trash_callers: ratchet the core pin, add the Python facade and the review-snapsh
 
 - **Depends on:** [sase-1rd.1](sase-1rd.1.md) ✓ · ⧖ 2026-11-05
 - **Blocks:** [sase-1rd.3](sase-1rd.3.md) ✓ · ⧖ 2026-11-05
-- **Blocks:** [sase-1rd.4](sase-1rd.4.md) ◐ · ⧖ 2026-11-05
+- **Blocks:** [sase-1rd.4](sase-1rd.4.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
 
