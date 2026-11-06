@@ -14,10 +14,22 @@ review_modal: route Enter on payload-bearing report notifications to a new prune
 ## Dependencies
 
 - **Depends on:** [sase-1rd.2](sase-1rd.2.md) ✓ · ⧖ 2026-11-05
-- **Depends on:** [sase-1rd.3](sase-1rd.3.md) ◐ · ⧖ 2026-11-05
+- **Depends on:** [sase-1rd.3](sase-1rd.3.md) ✓ · ⧖ 2026-11-05
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1rd.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rd.4/README.md) | [sase-1rd.4](sase-1rd.4.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1qz.6.1.4.1.3][1] | Check whether the symvision failure has an existing owner | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.6.1.4.1.3/README.md
+
+<!-- sase:referenced-by:end -->

@@ -22,7 +22,7 @@ trash_callers: ratchet the core pin, add the Python facade and the review-snapsh
 ## Dependencies
 
 - **Depends on:** [sase-1rd.1](sase-1rd.1.md) ✓ · ⧖ 2026-11-05
-- **Blocks:** [sase-1rd.3](sase-1rd.3.md) ◐ · ⧖ 2026-11-05
+- **Blocks:** [sase-1rd.3](sase-1rd.3.md) ✓ · ⧖ 2026-11-05
 - **Blocks:** [sase-1rd.4](sase-1rd.4.md) ◐ · ⧖ 2026-11-05
 
 ## Agents
@@ -43,8 +43,12 @@ trash_callers: ratchet the core pin, add the Python facade and the review-snapsh
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1rd.2--1][1] | Need phase scope | 1 |
+| read-by | [agent:sase-1qz.6.1.4.1.3][1] | Identify the phase that implemented the symbols rejected by symvision | 1 |
+| read-by | [agent:sase-1rd.2--1][2] | Need phase scope | 1 |
+| read-by | [agent:sase-1rd.3][3] | Check whether the phase's earlier check already records the unrelated test failure before making a duplicate proposal | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rd.2.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.6.1.4.1.3/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rd.2.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rd.3/README.md
 
 <!-- sase:referenced-by:end -->
