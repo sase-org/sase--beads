@@ -13,7 +13,7 @@ pub-heal: resolve index-page rebase conflicts in the agents clone automatically,
 
 ## Dependencies
 
-- **Depends on:** [sase-1rg.1](sase-1rg.1.md) ◐ · ⧖ 2026-11-06
+- **Depends on:** [sase-1rg.1](sase-1rg.1.md) ✓ · ⧖ 2026-11-06
 
 ## Agents
 
