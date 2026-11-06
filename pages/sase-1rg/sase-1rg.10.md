@@ -7,6 +7,20 @@
 **Created:** 2026-11-06 05:46:52 EST · **Closed:** 2026-11-06 09:21:59 EST
 **Plan:** [202611/agent\_health\_watch\_fixes.md](https://github.com/sase-org/sase--plans/blob/main/202611/agent_health_watch_fixes.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| related | [bead:sase-1ri][1] | Template: sase-1rg.10 threaded the acting opener through run_open; this task applies the same fix to the remaining mutations |
+
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-1ri/README.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 open-actor: thread the mutating actor through the core reopen mutation instead of the bead creator, make reopening an already-open bead a no-op, and move the sase-core pin.

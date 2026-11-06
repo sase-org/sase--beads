@@ -17,7 +17,7 @@ pub-policy: add a sase-core decision that says whether a publication rebase's co
 
 ## Dependencies
 
-- **Blocks:** [sase-1rg.2](sase-1rg.2.md) ◐ · ⧖ 2026-11-06
+- **Blocks:** [sase-1rg.2](sase-1rg.2.md) ✓ · ⧖ 2026-11-06
 
 ## Agents
 
