@@ -40,7 +40,9 @@ land: verify this child epic, remove or re-key every sase-1qz.6 epic-symbol exem
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:research.3a.final][1] | Check active epic phase scopes for conflict screening of task bead recommendations | 1 |
+| read-by | [agent:sase-1qz.7][2] | Check precedent for closing with epic-symbol rows | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3a.final/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.7/README.md
 
 <!-- sase:referenced-by:end -->

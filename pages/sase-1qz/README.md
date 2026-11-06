@@ -7,6 +7,20 @@
 **Created:** 2026-11-02 17:42:13 EST
 **Plan:** [202611/agent\_hijack.md](https://github.com/sase-org/sase--plans/blob/main/202611/agent_hijack.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202611/agent_hijack.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+_Plus 11 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/sase-org/sase--plans/blob/main/202611/agent_hijack.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 A user can hijack a stalled sase agent (,k, the kill dialog's h, or `sase agent hijack NAME`). Its process tree stops, but its workspace claim, Agents-tab node, and evidence stay. The node shows a ⏏ HIJACKED status, and <enter> opens a single-keypress recovery panel: escalate to a smarter model, continue, or instruct in the same workspace; restart or edit from a fresh workspace after a verified snapshot; view the diff, open a shell, or dismiss. Every path is durable, exactly-once, and fails closed so work is never silently lost.
@@ -27,9 +41,9 @@ A user can hijack a stalled sase agent (,k, the kill dialog's h, or `sase agent 
 | [sase-1qz.4](sase-1qz.4.md) | The stop protocol and \`sase agent hijack\` | ✓ closed | medium | 2026-11-02 | 1 | 1 |
 | [sase-1qz.5](sase-1qz.5.md) | Every release path respects a hijack | ✓ closed | medium | 2026-11-02 | 1 | 1 |
 | [sase-1qz.6](sase-1qz.6.md) | Keep-the-work recovery (Escalate, Switch, Continue, Instruct) | ✓ closed | large | 2026-11-02 | 0 | 0 |
-| [sase-1qz.7](sase-1qz.7.md) | Start-over and leave recovery (Restart, Edit backend, Dismiss) | ◐ in_progress | medium | 2026-11-02 | 1 | 1 |
+| [sase-1qz.7](sase-1qz.7.md) | Start-over and leave recovery (Restart, Edit backend, Dismiss) | ✓ closed | medium | 2026-11-02 | 1 | 1 |
 | [sase-1qz.8](sase-1qz.8.md) | Agents-tab rendering and the ,k way in | ✓ closed | medium | 2026-11-02 | 1 | 1 |
-| [sase-1qz.9](sase-1qz.9.md) | The recovery panel | ◐ in_progress | medium | 2026-11-02 | 1 | 0 |
+| [sase-1qz.9](sase-1qz.9.md) | The recovery panel | ◐ in_progress | medium | 2026-11-02 | 1 | 1 |
 
 ## Lineage
 
@@ -59,7 +73,7 @@ flowchart TD
     n21["sase-1qz.6.1.5: Crash repair and successor-following waits [closed]"]
     n22["sase-1qz.6.1.6: Recovery command, durable operation, and integration coverage [closed]"]
     n23["sase-1qz.6.1.7: Verify and complete the assigned recovery phase [closed]"]
-    n24["sase-1qz.7: Start-over and leave recovery (Restart, Edit backend, Dismiss) [in_progress]"]
+    n24["sase-1qz.7: Start-over and leave recovery (Restart, Edit backend, Dismiss) [closed]"]
     n25["sase-1qz.8: Agents-tab rendering and the ,k way in [closed]"]
     n26["sase-1qz.9: The recovery panel [in_progress]"]
     n0 --> n1
@@ -144,7 +158,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1qz.6.1.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qz.6.1.7.md) | [sase-1qz.6.1.7](sase-1qz.6.1.7.md) | 1 |
 | [bbugyi200.athena.sase-1qz.6.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qz.6.1.land.md) | [sase-1qz.6.1](sase-1qz.6.1.md) | 3 |
 | [bbugyi200.athena.sase-1qz.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.7/README.md) | [sase-1qz.7](sase-1qz.7.md) | 1 |
-| [bbugyi200.athena.sase-1qz.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.9/README.md) | [sase-1qz.9](sase-1qz.9.md) | 0 |
+| [bbugyi200.athena.sase-1qz.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qz.9.md) | [sase-1qz.9](sase-1qz.9.md) | 1 |
 | [bbugyi200.athena.sase-1qz.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.land/README.md) | [sase-1qz](README.md) | 0 |
 
 ## Commits
@@ -180,6 +194,7 @@ flowchart TD
 | sase | [`71011e1`](https://github.com/sase-org/sase/commit/71011e1e10771c589e2c6dd8219dd6a3d32a1040) | feat(hijack-recovery): finish keep-work settlement without user action | [sase-1qz.6.1](sase-1qz.6.1.md) | 2026-11-06 13:50:06 EST |
 | sase--plans | [`sase--plans@aae102d`](https://github.com/sase-org/sase--plans/commit/aae102da76fa123a0b995886ad23fc2b211888a4) | docs(plans): mark hijack keep-work recovery epic plan done | [sase-1qz.6.1](sase-1qz.6.1.md) | 2026-11-06 13:53:01 EST |
 | sase | [`f4ca45e`](https://github.com/sase-org/sase/commit/f4ca45edf82f5561bfeb5fecc8aa410c6df5c82b) | feat(hijack-recovery): add snapshot-verified restart and dismiss resolutions | [sase-1qz.7](sase-1qz.7.md) | 2026-11-06 15:09:55 EST |
+| sase | [`a6ceb8b`](https://github.com/sase-org/sase/commit/a6ceb8bf930fee6654b74c7f5aba5c27d747226b) | feat(ace): add hijack recovery panel | [sase-1qz.9](sase-1qz.9.md) | 2026-11-06 16:34:33 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -195,8 +210,9 @@ flowchart TD
 | read-by | [agent:research.3a.grk][6] | Need live epic scopes and high-impact candidate task details to rank work without colliding with in-flight epics | 1 |
 | read-by | [agent:sase-1qz.2--3][7] | Need epic DECISIONS and plan | 1 |
 | read-by | [agent:sase-1qz.6.1.4.1.3][8] | Need final decisions governing this recovery epic | 1 |
-| read-by | [agent:sase-1rd.land][9] | Need ownership of marker-audit proposal and recovery integration scope | 1 |
-| read-by | [agent:toobig-9d.test_agent_hijack_recover.0][10] | Check whether the active hijack recovery epic caused the unrelated macro terminology failure | 1 |
+| read-by | [agent:sase-1qz.7][9] | Need epic plan for phase 1qz.7 | 2 |
+| read-by | [agent:sase-1rd.land][10] | Need ownership of marker-audit proposal and recovery integration scope | 1 |
+| read-by | [agent:toobig-9d.test_agent_hijack_recover.0][11] | Check whether the active hijack recovery epic caused the unrelated macro terminology failure | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.18n/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3a.cdx/README.md
@@ -206,7 +222,8 @@ flowchart TD
 [6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3a.grk/README.md
 [7]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qz.2.md
 [8]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.6.1.4.1.3/README.md
-[9]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rd.land.md
-[10]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-9d.test_agent_hijack_recover.0/README.md
+[9]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.7/README.md
+[10]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rd.land.md
+[11]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-9d.test_agent_hijack_recover.0/README.md
 
 <!-- sase:referenced-by:end -->

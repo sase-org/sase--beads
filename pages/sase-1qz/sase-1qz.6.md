@@ -15,7 +15,7 @@ recover_keep: add the exactly-once resolution transaction, strict same-workspace
 
 - **Depends on:** [sase-1qz.2](sase-1qz.2.md) ✓ · ⧖ 2026-11-02
 - **Depends on:** [sase-1qz.5](sase-1qz.5.md) ✓ · ⧖ 2026-11-02
-- **Blocks:** [sase-1qz.7](sase-1qz.7.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [sase-1qz.7](sase-1qz.7.md) ✓ · ⧖ 2026-11-02
 
 <!-- sase:referenced-by:start -->
 
@@ -25,8 +25,10 @@ recover_keep: add the exactly-once resolution transaction, strict same-workspace
 | --- | --- | --- | ---: |
 | read-by | [agent:18n][1] | Check in-progress hijack phase notes for deviations from the plan, for a user-facing report | 1 |
 | read-by | [agent:research.3a.final][2] | Check active epic phase scopes for conflict screening of task bead recommendations | 1 |
+| read-by | [agent:sase-1qz.7][3] | check keep-work recovery scope already landed | 4 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.18n/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3a.final/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.7/README.md
 
 <!-- sase:referenced-by:end -->
