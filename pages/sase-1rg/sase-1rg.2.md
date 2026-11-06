@@ -19,4 +19,4 @@ pub-heal: resolve index-page rebase conflicts in the agents clone automatically,
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1rg.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rg.2/README.md) | [sase-1rg.2](sase-1rg.2.md) | 0 |
+| [bbugyi200.athena.sase-1rg.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rg.2.md) | [sase-1rg.2](sase-1rg.2.md) | 0 |

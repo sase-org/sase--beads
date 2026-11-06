@@ -24,10 +24,16 @@ staged-readopt: keep the staged monitor's owner lookup alive across held cleanup
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1rg.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rg.8/README.md) | [sase-1rg.8](sase-1rg.8.md) | 1 |
+| [bbugyi200.athena.sase-1rg.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rg.8/README.md) | [sase-1rg.8](sase-1rg.8.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase | [`956310b`](https://github.com/sase-org/sase/commit/956310b7ad7be73908467bb4d1d147f8e76c627a) | fix(monitor): restore readopt for held staged handoffs | [sase-1rg.8](sase-1rg.8.md) | 2026-11-06 08:26:22 EST |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1rg.8][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rg.8/README.md
+
+<!-- sase:referenced-by:end -->

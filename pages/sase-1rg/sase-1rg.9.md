@@ -21,7 +21,7 @@ open-guard: fix the worker prompts that tell agents to run `sase bead open` on t
 
 ## Dependencies
 
-- **Blocks:** [sase-1rg.10](sase-1rg.10.md) ◐ · ⧖ 2026-11-06
+- **Blocks:** [sase-1rg.10](sase-1rg.10.md) ✓ · ⧖ 2026-11-06
 
 ## Agents
 
