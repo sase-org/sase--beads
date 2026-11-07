@@ -24,7 +24,7 @@ auth: implement the setup wizard and a PKCE login that accepts either a loopback
 ## Dependencies
 
 - **Depends on:** [sase-1rs.2](sase-1rs.2.md) ✓ · ⧖ 2026-11-07
-- **Blocks:** [sase-1rs.5](sase-1rs.5.md) ◐ · ⧖ 2026-11-07
+- **Blocks:** [sase-1rs.5](sase-1rs.5.md) ✓ · ⧖ 2026-11-07
 - **Blocks:** [sase-1rs.7](sase-1rs.7.md) ✓ · ⧖ 2026-11-07
 - **Blocks:** [sase-1rs.8](sase-1rs.8.md) ◐ · ⧖ 2026-11-07
 

@@ -14,7 +14,7 @@ propose: build the custom gate turn from a frozen changeset. Add the propose, re
 ## Dependencies
 
 - **Blocks:** [sase-1rs.10](sase-1rs.10.md) ◐ · ⧖ 2026-11-07
-- **Depends on:** [sase-1rs.5](sase-1rs.5.md) ◐ · ⧖ 2026-11-07
+- **Depends on:** [sase-1rs.5](sase-1rs.5.md) ✓ · ⧖ 2026-11-07
 - **Depends on:** [sase-1rs.8](sase-1rs.8.md) ◐ · ⧖ 2026-11-07
 
 ## Agents
@@ -22,3 +22,15 @@ propose: build the custom gate turn from a frozen changeset. Add the propose, re
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1rs.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rs.9/README.md) | [sase-1rs.9](sase-1rs.9.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1rs.6][1] | Check parallel phases' assumptions about the changesets API (frozen doc, store, render) | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rs.6/README.md
+
+<!-- sase:referenced-by:end -->

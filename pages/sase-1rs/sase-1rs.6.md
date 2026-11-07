@@ -39,7 +39,9 @@ changesets: implement the changeset v1 document and its validation with precise 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1rs.4][1] | Check parallel phases' notes for API assumptions on the api phase | 1 |
+| read-by | [agent:sase-1rs.6][2] | Need the phase scope and design file | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rs.4/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rs.6/README.md
 
 <!-- sase:referenced-by:end -->

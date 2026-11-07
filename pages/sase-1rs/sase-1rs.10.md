@@ -14,7 +14,7 @@ skill-docs: write the /sase_spotify skill, the README, and the docs pages, with 
 ## Dependencies
 
 - **Blocks:** [sase-1rs.11](sase-1rs.11.md) ◐ · ⧖ 2026-11-07
-- **Depends on:** [sase-1rs.5](sase-1rs.5.md) ◐ · ⧖ 2026-11-07
+- **Depends on:** [sase-1rs.5](sase-1rs.5.md) ✓ · ⧖ 2026-11-07
 - **Depends on:** [sase-1rs.7](sase-1rs.7.md) ✓ · ⧖ 2026-11-07
 - **Depends on:** [sase-1rs.9](sase-1rs.9.md) ◐ · ⧖ 2026-11-07
 
