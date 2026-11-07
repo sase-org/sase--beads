@@ -13,7 +13,7 @@ flakes: after alias-lane lands, classify each intermittently failing test: still
 
 ## Dependencies
 
-- **Depends on:** [sase-1rq.4.1.1](sase-1rq.4.1.1.md) ◐ · ⧖ 2026-11-07
+- **Depends on:** [sase-1rq.4.1.1](sase-1rq.4.1.1.md) ✓ · ⧖ 2026-11-07
 - **Blocks:** [sase-1rq.4.1.4](sase-1rq.4.1.4.md) ◐ · ⧖ 2026-11-07
 
 ## Agents

@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1rq.4.1](sase-1rq.4.1.md) / sase-1rq.4.1.1
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-1rq.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.4.md) · **Assignee:** `sase-1rq.4.1.1` · **Size:** large
-**Created:** 2026-11-07 08:03:37 EST
+**Created:** 2026-11-07 08:03:37 EST · **Closed:** 2026-11-07 12:47:47 EST
 **Plan:** [202611/bob\_mac\_capture\_ci\_green.md](https://github.com/sase-org/sase--plans/blob/main/202611/bob_mac_capture_ci_green.md)
 
 ## Description
@@ -93,7 +93,7 @@ Other failures on the same job:
 
 PROPOSED FOLLOW-UP: Harden CaptureS
 
-… and 6491 more characters
+… and 10879 more characters
 
 ## Dependencies
 
@@ -113,6 +113,7 @@ PROPOSED FOLLOW-UP: Harden CaptureS
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1rq.4.1.1--3][1] | Need assigned bead notes before recording this CI snapshot | 1 |
+| read-by | [agent:sase-1rq.4.1.1--5][1] | Need current notes and inherited decisions before scoring the green alias-lane snapshot | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.4.1.1.md
 
