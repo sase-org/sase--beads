@@ -13,7 +13,7 @@ rollout: install the plugin and its skill on athena through a gate, verify the i
 
 ## Dependencies
 
-- **Depends on:** [sase-1rs.10](sase-1rs.10.md) ◐ · ⧖ 2026-11-07
+- **Depends on:** [sase-1rs.10](sase-1rs.10.md) ✓ · ⧖ 2026-11-07
 
 ## Agents
 

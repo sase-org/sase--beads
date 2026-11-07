@@ -30,7 +30,7 @@ SASE agents of any provider can read Bryan's Spotify library through `sase spoti
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-1rs.1](sase-1rs.1.md) | Private repository and SASE project, created through a gate | ✓ closed | small | 2026-11-07 | 1 | 0 |
-| [sase-1rs.10](sase-1rs.10.md) | The /sase\_spotify skill, README, and documentation | ◐ in_progress | medium | 2026-11-07 | 1 | 0 |
+| [sase-1rs.10](sase-1rs.10.md) | The /sase\_spotify skill, README, and documentation | ✓ closed | medium | 2026-11-07 | 1 | 0 |
 | [sase-1rs.11](sase-1rs.11.md) | Install on athena and end-to-end acceptance | ◐ in_progress | small | 2026-11-07 | 1 | 0 |
 | [sase-1rs.2](sase-1rs.2.md) | Package skeleton, shared foundation, tooling, and CI | ✓ closed | medium | 2026-11-07 | 1 | 0 |
 | [sase-1rs.3](sase-1rs.3.md) | Setup wizard, PKCE login, and the token broker | ✓ closed | medium | 2026-11-07 | 1 | 0 |
@@ -47,7 +47,7 @@ SASE agents of any provider can read Bryan's Spotify library through `sase spoti
 flowchart TD
     n0["sase-1rs: sase-spotify: Spotify library reads and gated playlist changes for SASE agents [in_progress]"]
     n1["sase-1rs.1: Private repository and SASE project, created through a gate [closed]"]
-    n2["sase-1rs.10: The /sase_spotify skill, README, and documentation [in_progress]"]
+    n2["sase-1rs.10: The /sase_spotify skill, README, and documentation [closed]"]
     n3["sase-1rs.11: Install on athena and end-to-end acceptance [in_progress]"]
     n4["sase-1rs.2: Package skeleton, shared foundation, tooling, and CI [closed]"]
     n5["sase-1rs.3: Setup wizard, PKCE login, and the token broker [closed]"]

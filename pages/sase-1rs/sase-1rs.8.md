@@ -43,8 +43,10 @@ apply: implement the gate-only executor: re-checks, journaling, chunks of at mos
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1rs.6][1] | Check parallel phases' assumptions about the changesets API (frozen doc, store, render) | 2 |
 | read-by | [agent:sase-1rs.8][2] | Confirm notes recorded before closing | 2 |
+| read-by | [agent:sase-1rs.9][3] | Check notes the apply/changesets phases left for the propose phase | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rs.6/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rs.8/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rs.9/README.md
 
 <!-- sase:referenced-by:end -->
