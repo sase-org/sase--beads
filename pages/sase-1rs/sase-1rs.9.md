@@ -15,7 +15,7 @@ propose: build the custom gate turn from a frozen changeset. Add the propose, re
 
 - **Blocks:** [sase-1rs.10](sase-1rs.10.md) ◐ · ⧖ 2026-11-07
 - **Depends on:** [sase-1rs.5](sase-1rs.5.md) ✓ · ⧖ 2026-11-07
-- **Depends on:** [sase-1rs.8](sase-1rs.8.md) ◐ · ⧖ 2026-11-07
+- **Depends on:** [sase-1rs.8](sase-1rs.8.md) ✓ · ⧖ 2026-11-07
 
 ## Agents
 

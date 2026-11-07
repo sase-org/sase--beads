@@ -24,7 +24,7 @@ changesets: implement the changeset v1 document and its validation with precise 
 ## Dependencies
 
 - **Depends on:** [sase-1rs.4](sase-1rs.4.md) ✓ · ⧖ 2026-11-07
-- **Blocks:** [sase-1rs.8](sase-1rs.8.md) ◐ · ⧖ 2026-11-07
+- **Blocks:** [sase-1rs.8](sase-1rs.8.md) ✓ · ⧖ 2026-11-07
 
 ## Agents
 

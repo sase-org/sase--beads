@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/spotify_agent_access.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 4 automatic references — see [Referenced By](#referenced-by)._
+_Plus 5 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202611/spotify_agent_access.md
 
@@ -38,7 +38,7 @@ SASE agents of any provider can read Bryan's Spotify library through `sase spoti
 | [sase-1rs.5](sase-1rs.5.md) | Dashboard, playlists, podcasts, search, and doctor | ✓ closed | medium | 2026-11-07 | 1 | 0 |
 | [sase-1rs.6](sase-1rs.6.md) | Changeset document, resolution, diffs, and preview renderers | ✓ closed | medium | 2026-11-07 | 1 | 0 |
 | [sase-1rs.7](sase-1rs.7.md) | Login-expiry watcher, reminders, and phone renewal | ✓ closed | small | 2026-11-07 | 1 | 0 |
-| [sase-1rs.8](sase-1rs.8.md) | Gate-only apply executor | ◐ in_progress | medium | 2026-11-07 | 1 | 0 |
+| [sase-1rs.8](sase-1rs.8.md) | Gate-only apply executor | ✓ closed | medium | 2026-11-07 | 1 | 0 |
 | [sase-1rs.9](sase-1rs.9.md) | Changeset gate, propose and history commands | ◐ in_progress | medium | 2026-11-07 | 1 | 0 |
 
 ## Lineage
@@ -55,7 +55,7 @@ flowchart TD
     n7["sase-1rs.5: Dashboard, playlists, podcasts, search, and doctor [closed]"]
     n8["sase-1rs.6: Changeset document, resolution, diffs, and preview renderers [closed]"]
     n9["sase-1rs.7: Login-expiry watcher, reminders, and phone renewal [closed]"]
-    n10["sase-1rs.8: Gate-only apply executor [in_progress]"]
+    n10["sase-1rs.8: Gate-only apply executor [closed]"]
     n11["sase-1rs.9: Changeset gate, propose and history commands [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -110,12 +110,14 @@ flowchart TD
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1rs.3][1] | Check sibling phase statuses and notes for auth/api seam coordination | 1 |
 | read-by | [agent:sase-1rs.4][2] | Need epic context and phase notes | 1 |
-| read-by | [agent:sase-1rs.6][3] | Check sibling phase status and notes for changesets phase | 1 |
-| read-by | [agent:sase-1rs.7][4] | Need the epic context and sibling phases | 2 |
+| read-by | [agent:sase-1rs.5][3] | Check epic notes and phase states | 1 |
+| read-by | [agent:sase-1rs.6][4] | Check sibling phase status and notes for changesets phase | 1 |
+| read-by | [agent:sase-1rs.7][5] | Need the epic context and sibling phases | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rs.3/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rs.4/README.md
-[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rs.6/README.md
-[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rs.7/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rs.5/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rs.6/README.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rs.7/README.md
 
 <!-- sase:referenced-by:end -->

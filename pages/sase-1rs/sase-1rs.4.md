@@ -42,7 +42,9 @@ api: implement the thin Web API client, with typed models for both item shapes, 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1rs.4][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1rs.5][2] | Check dependency phases' notes for seams and API assumptions the reads phase builds on | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rs.4/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rs.5/README.md
 
 <!-- sase:referenced-by:end -->

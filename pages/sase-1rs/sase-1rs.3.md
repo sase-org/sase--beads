@@ -26,7 +26,7 @@ auth: implement the setup wizard and a PKCE login that accepts either a loopback
 - **Depends on:** [sase-1rs.2](sase-1rs.2.md) ✓ · ⧖ 2026-11-07
 - **Blocks:** [sase-1rs.5](sase-1rs.5.md) ✓ · ⧖ 2026-11-07
 - **Blocks:** [sase-1rs.7](sase-1rs.7.md) ✓ · ⧖ 2026-11-07
-- **Blocks:** [sase-1rs.8](sase-1rs.8.md) ◐ · ⧖ 2026-11-07
+- **Blocks:** [sase-1rs.8](sase-1rs.8.md) ✓ · ⧖ 2026-11-07
 
 ## Agents
 
@@ -43,9 +43,11 @@ auth: implement the setup wizard and a PKCE login that accepts either a loopback
 | read-by | [agent:sase-1rs.2][1] | Check whether the parallel auth phase has started work that could conflict with the scaffold commit | 1 |
 | read-by | [agent:sase-1rs.3][2] | Need the phase scope and design file | 1 |
 | read-by | [agent:sase-1rs.4][3] | Check parallel phases' notes for API assumptions on the api phase | 1 |
+| read-by | [agent:sase-1rs.5][4] | Check dependency phases' notes for seams and API assumptions the reads phase builds on | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rs.2/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rs.3/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rs.4/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rs.5/README.md
 
 <!-- sase:referenced-by:end -->

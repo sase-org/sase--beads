@@ -45,9 +45,11 @@ reads: ship the dashboard, playlists, podcasts, search, and doctor commands with
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1rs.4][1] | Check parallel phases' notes for API assumptions on the api phase | 1 |
-| read-by | [agent:sase-1rs.6][2] | Check parallel phases' assumptions about the changesets API (frozen doc, store, render) | 1 |
+| read-by | [agent:sase-1rs.5][2] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1rs.6][3] | Check parallel phases' assumptions about the changesets API (frozen doc, store, render) | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rs.4/README.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rs.6/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rs.5/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rs.6/README.md
 
 <!-- sase:referenced-by:end -->
