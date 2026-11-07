@@ -11,6 +11,10 @@
 
 word-motion: fix CaptureEditorWordMotionTests.testMotionsLeaveTextAndUndoUntouched (XCTAssertFalse at line 67: the undo manager can undo after Ctrl-L then Ctrl-H). It has failed on every CI run since edb2f48.
 
+## Notes
+
+[2026-11-07T13:23:39Z · sase-1rq.4.1.2] Cleared leftover panel-window undo in CaptureEditorWordMotionTests and disabled undo registration in moveByWord so Ctrl-H/L cannot leave an undo step. just portable-check passed on athena; scratch bundle.sh + typecheck-tests passed on mac. Unfiltered macos-ci-check staged as monitor vkv33r; follow-up judges the failed Swift tests list.
+
 ## Dependencies
 
 - **Blocks:** [sase-1rq.4.1.4](sase-1rq.4.1.4.md) ◐ · ⧖ 2026-11-07
