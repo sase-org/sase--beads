@@ -20,7 +20,7 @@ mac-known-failures: on the mac host, reproduce and fix the macOS-only failures a
 ## Dependencies
 
 - **Blocks:** [sase-1rq.3.1.3](sase-1rq.3.1.3.md) ✓ · ⧖ 2026-11-07
-- **Blocks:** [sase-1rq.3.1.4](sase-1rq.3.1.4.md) ◐ · ⧖ 2026-11-07
+- **Blocks:** [sase-1rq.3.1.4](sase-1rq.3.1.4.md) ✓ · ⧖ 2026-11-07
 
 ## Agents
 

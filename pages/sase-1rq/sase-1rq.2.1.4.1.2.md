@@ -13,7 +13,7 @@ survival: Use the evidence phase's measurements to fix the dominant resource or 
 
 ## Dependencies
 
-- **Depends on:** [sase-1rq.2.1.4.1.1](sase-1rq.2.1.4.1.1.md) ◐ · ⧖ 2026-11-07
+- **Depends on:** [sase-1rq.2.1.4.1.1](sase-1rq.2.1.4.1.1.md) ✓ · ⧖ 2026-11-07
 - **Blocks:** [sase-1rq.2.1.4.1.3](sase-1rq.2.1.4.1.3.md) ◐ · ⧖ 2026-11-07
 
 ## Agents

@@ -19,7 +19,7 @@ lint-incremental: fix the one deterministic lint-job failure. In the check-scrip
 
 ## Dependencies
 
-- **Blocks:** [sase-1rq.3.1.4](sase-1rq.3.1.4.md) ◐ · ⧖ 2026-11-07
+- **Blocks:** [sase-1rq.3.1.4](sase-1rq.3.1.4.md) ✓ · ⧖ 2026-11-07
 
 ## Agents
 
