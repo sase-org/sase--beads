@@ -23,3 +23,15 @@ reads: ship the dashboard, playlists, podcasts, search, and doctor commands with
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1rs.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rs.5/README.md) | [sase-1rs.5](sase-1rs.5.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1rs.4][1] | Check parallel phases' notes for API assumptions on the api phase | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rs.4/README.md
+
+<!-- sase:referenced-by:end -->
