@@ -7,6 +7,18 @@
 **Created:** 2026-11-07 08:03:36 EST
 **Plan:** [202611/bob\_mac\_capture\_ci\_green.md](https://github.com/sase-org/sase--plans/blob/main/202611/bob_mac_capture_ci_green.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202611/bob_mac_capture_ci_green.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/sase-org/sase--plans/blob/main/202611/bob_mac_capture_ci_green.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 The `CI` workflow (job `macOS 26 SwiftPM`) on `bobs-org/bob-mac-capture` master is `completed` / `success` at a head SHA at or after the last fix commit of this epic, with `ci_evidence` published. Or, after a very large, well-documented effort, a research-sidecar report tells Bryan exactly what is still needed. When either is done, the land agent closes phase bead sase-1rq.4 of epic sase-1rq.

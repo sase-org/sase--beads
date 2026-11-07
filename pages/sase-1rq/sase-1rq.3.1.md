@@ -7,6 +7,18 @@
 **Created:** 2026-11-07 08:10:11 EST
 **Plan:** [202611/bob\_cli\_ci\_green.md](https://github.com/sase-org/sase--plans/blob/main/202611/bob_cli_ci_green.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202611/bob_cli_ci_green.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/sase-org/sase--plans/blob/main/202611/bob_cli_ci_green.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 bob-cli's `CI` workflow on master is green at the tip, with lint, test (ubuntu-latest), test (macos-latest), and package all succeeded and none cancelled. Green evidence is published as `ci_evidence`, or, after a very large and documented effort, a research report says exactly what is still needed. The land agent then closes phase sase-1rq.3 of epic sase-1rq.

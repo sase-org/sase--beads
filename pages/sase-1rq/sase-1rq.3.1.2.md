@@ -11,6 +11,10 @@
 
 mac-known-failures: on the mac host, reproduce and fix the macOS-only failures already seen in CI. Lib: one case-insensitive-APFS test and three /var vs /private/var path tests. CLI: clipboard_status picking Alfred over the command provider. gcal_auth: 11 login tests each stall about 600 s because choose_flow picks the browser flow on macOS, so the paste-scripted tests wait out CONSENT_WINDOW. Make every Google login test family (gcal_auth, gmail_shell, and gkeep_auth if affected) select its flow deterministically on every OS.
 
+## Notes
+
+[2026-11-07T13:44:28Z · sase-1rq.3.1.2] PROPOSED FOLLOW-UP: install_ui live-runner PTY test test_real_cargo_install_transcript_uses_correct_phases_and_hides_chatter errors (StopIteration on compiling-dependencies frame) in just check-scripts on Linux; reproduces identically on clean base tree dbd30ec0, unrelated to mac-known-failures changes; likely environment-sensitive, needs owner triage
+
 ## Dependencies
 
 - **Blocks:** [sase-1rq.3.1.3](sase-1rq.3.1.3.md) ◐ · ⧖ 2026-11-07

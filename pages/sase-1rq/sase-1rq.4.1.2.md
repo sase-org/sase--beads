@@ -15,6 +15,8 @@ word-motion: fix CaptureEditorWordMotionTests.testMotionsLeaveTextAndUndoUntouch
 
 [2026-11-07T13:23:39Z · sase-1rq.4.1.2] Cleared leftover panel-window undo in CaptureEditorWordMotionTests and disabled undo registration in moveByWord so Ctrl-H/L cannot leave an undo step. just portable-check passed on athena; scratch bundle.sh + typecheck-tests passed on mac. Unfiltered macos-ci-check staged as monitor vkv33r; follow-up judges the failed Swift tests list.
 
+[2026-11-07T14:10:22Z · sase-1rq.4.1.2] Recovered the exact prior patch from snapshot af52c1d466d7a1b368852099e8424375f66fd0e6 onto unchanged origin/master 1e0a092. The current tracked tree is byte-identical to that snapshot (git diff af52c1d --exit-code passes). Unfiltered CI run 42376806344 passed lint/build and all six CaptureEditorWordMotionTests, including testMotionsLeaveTextAndUndoUntouched. It ran 4307 tests; remaining failures are the 11 known alias-lane tests and known intermittent testTripleEqualsGivesDoubleEquals. No failure outside the epic tables. Prior note records portable-check and mac bundle/typecheck success. The prior fix has not landed; this turn will declare it for host completion and monitor the landed master run before closing.
+
 ## Dependencies
 
 - **Blocks:** [sase-1rq.4.1.4](sase-1rq.4.1.4.md) ◐ · ⧖ 2026-11-07
