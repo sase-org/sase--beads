@@ -25,7 +25,7 @@ files-reserve: resolve sase-1qd by diagnosing the initial short-extent setup tim
 
 ## Dependencies
 
-- **Blocks:** [sase-1rq.2.1.5.1.4](sase-1rq.2.1.5.1.4.md) ◐ · ⧖ 2026-11-07
+- **Blocks:** [sase-1rq.2.1.5.1.4](sase-1rq.2.1.5.1.4.md) ✓ · ⧖ 2026-11-07
 
 ## Agents
 

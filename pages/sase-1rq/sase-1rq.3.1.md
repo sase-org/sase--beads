@@ -35,7 +35,13 @@ bob-cli's `CI` workflow on master is green at the tip, with lint, test (ubuntu-l
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1rq.3.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rq.3.1.land/README.md) | [sase-1rq.3.1](sase-1rq.3.1.md) | 0 |
+| [bbugyi200.athena.sase-1rq.3.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rq.3.1.land/README.md) | [sase-1rq.3.1](sase-1rq.3.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase--plans | [`sase--plans@297269c`](https://github.com/sase-org/sase--plans/commit/297269cccdd62f5c6570bcdd8a468b293cffc435) | docs(plans): mark bob-cli CI repair epic complete | [sase-1rq.3.1](sase-1rq.3.1.md) | 2026-11-07 14:09:08 EST |
 
 <!-- sase:referenced-by:start -->
 

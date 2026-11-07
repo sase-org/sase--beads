@@ -21,7 +21,7 @@ visual-fixtures: identify and fix the state leaking into agents_stranded_resolve
 
 ## Dependencies
 
-- **Blocks:** [sase-1rq.2.1.5.1.4](sase-1rq.2.1.5.1.4.md) ◐ · ⧖ 2026-11-07
+- **Blocks:** [sase-1rq.2.1.5.1.4](sase-1rq.2.1.5.1.4.md) ✓ · ⧖ 2026-11-07
 
 ## Agents
 

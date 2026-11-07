@@ -21,3 +21,15 @@ failures: Group the complete repeat's failing nodes by cause, repair timing and 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1rq.2.1.4.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rq.2.1.4.1.3/README.md) | [sase-1rq.2.1.4.1.3](sase-1rq.2.1.4.1.3.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1rq.2.1.4.1.2--1][1] | Check whether the failures phase is waiting on this survival bead before deciding to extend survival | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.2.1.4.1.2.md
+
+<!-- sase:referenced-by:end -->

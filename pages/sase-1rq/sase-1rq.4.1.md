@@ -35,7 +35,13 @@ The `CI` workflow (job `macOS 26 SwiftPM`) on `bobs-org/bob-mac-capture` master 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1rq.4.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rq.4.1.land/README.md) | [sase-1rq.4.1](sase-1rq.4.1.md) | 0 |
+| [bbugyi200.athena.sase-1rq.4.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rq.4.1.land/README.md) | [sase-1rq.4.1](sase-1rq.4.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase--plans | [`sase--plans@4c2dfdb`](https://github.com/sase-org/sase--plans/commit/4c2dfdb5c1f1af380f1751b514470c823e6ba285) | docs(plan): complete bob-mac-capture CI epic sase-1rq.4.1 | [sase-1rq.4.1](sase-1rq.4.1.md) | 2026-11-07 15:12:12 EST |
 
 <!-- sase:referenced-by:start -->
 
