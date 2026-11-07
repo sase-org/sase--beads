@@ -27,11 +27,11 @@ Every project whose GitHub Actions CI went red in the ~12 hours before 2026-11-0
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-1rq.1](sase-1rq.1.md) | Turn sase-core CI green and unblock its release | ◐ in_progress | xlarge | 2026-11-07 | 1 | 1 |
+| [sase-1rq.1](sase-1rq.1.md) | Turn sase-core CI green and unblock its release | ◐ in_progress | xlarge | 2026-11-07 | 1 | 0 |
 | [sase-1rq.2](sase-1rq.2.md) | Turn every red sase workflow green | ◐ in_progress | xlarge | 2026-11-07 | 1 | 0 |
 | [sase-1rq.3](sase-1rq.3.md) | Turn bob-cli CI green | ◐ in_progress | xlarge | 2026-11-07 | 1 | 0 |
 | [sase-1rq.4](sase-1rq.4.md) | Turn bob-mac-capture CI green | ◐ in_progress | xlarge | 2026-11-07 | 1 | 0 |
-| [sase-1rq.5](sase-1rq.5.md) | Turn dotfiles CI green | ◐ in_progress | xlarge | 2026-11-07 | 1 | 0 |
+| [sase-1rq.5](sase-1rq.5.md) | Turn dotfiles CI green | ✓ closed | xlarge | 2026-11-07 | 1 | 0 |
 
 ## Lineage
 
@@ -43,16 +43,16 @@ flowchart TD
     n3["sase-1rq.3: Turn bob-cli CI green [in_progress]"]
     n4["sase-1rq.3.1: Turn bob-cli CI green on master [in_progress]"]
     n5["sase-1rq.3.1.1: Make the install_ui EarnedEta test hermetic to CARGO_INCREMENTAL [closed]"]
-    n6["sase-1rq.3.1.2: Fix the known macOS-only test failures and the Google sign-in hang [in_progress]"]
+    n6["sase-1rq.3.1.2: Fix the known macOS-only test failures and the Google sign-in hang [closed]"]
     n7["sase-1rq.3.1.3: Run the full macOS CI test set to green on the mac host [in_progress]"]
     n8["sase-1rq.3.1.4: Confirm green CI on the master tip and publish evidence [in_progress]"]
     n9["sase-1rq.4: Turn bob-mac-capture CI green [in_progress]"]
     n10["sase-1rq.4.1: Turn bob-mac-capture master CI green [in_progress]"]
     n11["sase-1rq.4.1.1: Fix the eleven sigil-alias rewrite-lane tests that have never passed on CI [in_progress]"]
-    n12["sase-1rq.4.1.2: Fix the Ctrl-H/L word-motion undo test [in_progress]"]
+    n12["sase-1rq.4.1.2: Fix the Ctrl-H/L word-motion undo test [closed]"]
     n13["sase-1rq.4.1.3: Harden or quarantine the intermittent alias and card tests [in_progress]"]
     n14["sase-1rq.4.1.4: Drive master CI green and publish evidence [in_progress]"]
-    n15["sase-1rq.5: Turn dotfiles CI green [in_progress]"]
+    n15["sase-1rq.5: Turn dotfiles CI green [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -83,7 +83,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1rq.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.1.md) | [sase-1rq.1](sase-1rq.1.md) | 1 |
+| [bbugyi200.athena.sase-1rq.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.1.md) | [sase-1rq.1](sase-1rq.1.md) | 0 |
 | [bbugyi200.athena.sase-1rq.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rq.2/README.md) | [sase-1rq.2](sase-1rq.2.md) | 0 |
 | [bbugyi200.athena.sase-1rq.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.3.md) | [sase-1rq.3](sase-1rq.3.md) | 0 |
 | [bbugyi200.athena.sase-1rq.3.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rq.3.1.1/README.md) | [sase-1rq.3.1.1](sase-1rq.3.1.1.md) | 0 |
@@ -99,9 +99,3 @@ flowchart TD
 | [bbugyi200.athena.sase-1rq.4.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rq.4.1.land/README.md) | [sase-1rq.4.1](sase-1rq.4.1.md) | 0 |
 | [bbugyi200.athena.sase-1rq.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.5.md) | [sase-1rq.5](sase-1rq.5.md) | 0 |
 | [bbugyi200.athena.sase-1rq.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rq.land/README.md) | [sase-1rq](README.md) | 0 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase-core | [`sase-core@dec432c`](https://github.com/sase-org/sase-core/commit/dec432cadda83cb44f4f7a0ae8d12b233c5a2764) | test(agent-artifact-run-trash): compare journal path against the canonical trash root | [sase-1rq.1](sase-1rq.1.md) | 2026-11-07 08:22:45 EST |

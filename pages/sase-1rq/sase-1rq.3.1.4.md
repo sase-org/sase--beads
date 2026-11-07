@@ -14,7 +14,7 @@ ci-green: with every fix landed, dispatch and watch CI on the master tip through
 ## Dependencies
 
 - **Depends on:** [sase-1rq.3.1.1](sase-1rq.3.1.1.md) ✓ · ⧖ 2026-11-07
-- **Depends on:** [sase-1rq.3.1.2](sase-1rq.3.1.2.md) ◐ · ⧖ 2026-11-07
+- **Depends on:** [sase-1rq.3.1.2](sase-1rq.3.1.2.md) ✓ · ⧖ 2026-11-07
 - **Depends on:** [sase-1rq.3.1.3](sase-1rq.3.1.3.md) ◐ · ⧖ 2026-11-07
 
 ## Agents
