@@ -61,7 +61,9 @@ origin/master still fb22462 at land time, no rebase. Landing as one commit; foll
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1rq.4.1.3--1][1] | Continue flakes phase after CI snapshot monitor; need notes | 1 |
+| read-by | [agent:sase-1rq.4.1.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.4.1.3.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rq.4.1.land/README.md
 
 <!-- sase:referenced-by:end -->
