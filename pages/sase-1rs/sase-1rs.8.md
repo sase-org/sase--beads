@@ -27,7 +27,7 @@ apply: implement the gate-only executor: re-checks, journaling, chunks of at mos
 
 - **Depends on:** [sase-1rs.3](sase-1rs.3.md) ✓ · ⧖ 2026-11-07
 - **Depends on:** [sase-1rs.6](sase-1rs.6.md) ✓ · ⧖ 2026-11-07
-- **Blocks:** [sase-1rs.9](sase-1rs.9.md) ◐ · ⧖ 2026-11-07
+- **Blocks:** [sase-1rs.9](sase-1rs.9.md) ✓ · ⧖ 2026-11-07
 
 ## Agents
 
@@ -42,7 +42,9 @@ apply: implement the gate-only executor: re-checks, journaling, chunks of at mos
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1rs.6][1] | Check parallel phases' assumptions about the changesets API (frozen doc, store, render) | 2 |
+| read-by | [agent:sase-1rs.8][2] | Confirm notes recorded before closing | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rs.6/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rs.8/README.md
 
 <!-- sase:referenced-by:end -->

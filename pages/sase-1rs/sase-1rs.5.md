@@ -30,7 +30,7 @@ reads: ship the dashboard, playlists, podcasts, search, and doctor commands with
 - **Blocks:** [sase-1rs.10](sase-1rs.10.md) ◐ · ⧖ 2026-11-07
 - **Depends on:** [sase-1rs.3](sase-1rs.3.md) ✓ · ⧖ 2026-11-07
 - **Depends on:** [sase-1rs.4](sase-1rs.4.md) ✓ · ⧖ 2026-11-07
-- **Blocks:** [sase-1rs.9](sase-1rs.9.md) ◐ · ⧖ 2026-11-07
+- **Blocks:** [sase-1rs.9](sase-1rs.9.md) ✓ · ⧖ 2026-11-07
 
 ## Agents
 
