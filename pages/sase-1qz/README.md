@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / sase-1qz
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** `bbugyi200.apollo.research.33.linker.w0` · **Assignee:** `sase-1qz.land`
-**Created:** 2026-11-02 17:42:13 EST
+**Created:** 2026-11-02 17:42:13 EST · **Closed:** 2026-11-07 05:37:27 EST
 **Plan:** [202611/agent\_hijack.md](https://github.com/sase-org/sase--plans/blob/main/202611/agent_hijack.md)
 
 <!-- sase:links:start -->
@@ -14,10 +14,14 @@
 | Relation | Artifact | Why |
 | --- | --- | --- |
 | implemented-by | [plan:202611/agent_hijack.md][1] | derived from the plan's `bead_id:` frontmatter field |
+| related | [bead:sase-1rj][2] | Agent Hijack epic whose land triage filed this follow-up; its plan plan:202611/agent_hijack.md defines the hijack and recovery contract |
+| related | [bead:sase-1rk][3] | Agent Hijack epic whose land triage filed this follow-up; its plan plan:202611/agent_hijack.md defines the hijack and recovery contract |
 
-_Plus 11 automatic references — see [Referenced By](#referenced-by)._
+_Plus 13 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202611/agent_hijack.md
+[2]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-1rj/README.md
+[3]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-1rk/README.md
 
 <!-- sase:links:end -->
 
@@ -29,13 +33,19 @@ A user can hijack a stalled sase agent (,k, the kill dialog's h, or `sase agent 
 
 [2026-11-05T01:37:08Z · sase-1ra.6--4] DISCOVERED ISSUE: sase tool run check 0ea4d12896bf1d703ba1b18ecdb64ea3 on HEAD 02e93fd failed tests/test_agent_artifact_marker_path_passing_audit.py::test_tracked_marker_path_passing_sites_are_reviewed. The audit reports five unreviewed sites in src/sase/agent/hijack/recover_subject.py and recover_settle.py, introduced by commit 8462195314 (feat(agent): exactly-once hijack recovery launch and settlement). This is within the active Agent Hijack recovery source scope; the same audit node is tracked by sase-1by, and this post-close recurrence was corroborated there.
 
+[2026-11-07T09:56:39Z · toobig-9m.agent_artifact_run_trash.0] DISCOVERED ISSUE: sase tool run check ec87921f2522ad058bc846f39079f15f on HEAD fb66f62d34 failed at lint (test waits) with tests/fakey/test_agent_hijack_e2e.py:105: fixed-sleep-missing-pragma. The sleep is time.sleep(0.02) in _wait_for, added by f5124b3310 (feat(agent-hijack): retire beta flag and add end-to-end coverage) which is this epic's phase .11 prove-it-end-to-end work. Deterministic static lint: tools/check_test_wait_helpers reports the same file:line before pytest runs. This turn only split src/sase/core/agent_artifact_run_trash.py and did not touch the fakey hijack e2e file. Fix by adding an inline '# sase-test-wait: <reason>' pragma or replacing the poll sleep with an observable wait. Closed sase-zh/sase-18r were the same gate in different files and are not this node. No new task: this epic still owns the introducing test.
+
+[2026-11-07T10:17:22Z · sase-1qz.land] LAND FOLLOW-UP TRIAGE (sase-1qz.land). CREATED (task(feature), ready, provenance sase-1qz.11): sase-1rj Telegram/mobile hijack recovery (11 #1); sase-1rk quiet-for-N-min stall hint (11 #2); sase-1rl x-as-fate-chooser decision (11 #3); sase-1rm pre-expiry hold warning (11 #4); sase-1rn Salvage & Commit (11 #5); sase-1ro hijack recovery guide candidate (11 #7); sase-1rp split docs/reference/tui/agent-statuses.md (found at land: page at 5999/6000-word cap after compressing hijack rows). CORROBORATED (+1): sase-1q0 microbench (1qz.3 #1, 1qz.4 #1, 1qz.8 #1); sase-1oy sudo settlement/reclaimer (1qz.1 #1, 1qz.4 #1); sase-1mr startup toast (1qz.1 #1). ACTIVE-EPIC: isolation-guard offender tests/ace/tui/test_log_panel_keymap.py:331 (1qz.7 #1) still fails on f5124b3310; owned by sase-1ra (introduced by sase-1ra.5 45bcf6fe39), supplementary DISCOVERED ISSUE note added there. DECLINED: 1qz.11 #6 decision records (reviewer chose decision_records=no; refiling re-litigates that decision); 1qz.4 #2 glossary strand (published by sase-1qz.11 as sase/memory/glossary/agent-hijack.md); 1qz.9 #1 / 1qz.10 #1 / 1qz.11 #8 sase-core schema skew (no longer reproduces: after just install-venv, check _setup passes with only the informational ahead-of-pin note); 1qz.10 #2 symvision _choice_for_enter_target (symvision green on this tree); 1qz.1 #1 monitor starter race and pulse-navigation, 1qz.4 #1 snippets debounce and app_import_budget (none reproduced in today's 60410-test full-lane run, ToolRun 72dc8c62653f598b0d866b6b748e3c6d); 1qz.4 #1 / 1qz.8 #1 panel pilot grammar timeouts (sase-1al, predate fix 02e93fd261); 1qz.8 #1 sase-1pk feature-flag lint (transient; lint feature flags green). Nested epic sase-1qz.6.1 follow-ups were triaged by sase-1qz.6.1.land.
+
+[2026-11-07T10:37:27Z · sase-1qz.land] LAND VERIFICATION (sase-1qz.land). VERIFIED: all 11 phases closed, including nested epic sase-1qz.6.1 (7 phases, closed by its own lander after a settlement-completion tale). Read every child note; checked source against the plan: Rust bindings (19 hijack/recovery symbols in sase_core_rs at pin c8adc878ae), HIJACKED in the Stopped bucket and ESCALATED/CONTINUED beside ANSWERED, ,k in default_config.yml, kill-dialog h choice, footer chips, Enter routes HIJACKED rows to the recovery panel, `sase agent hijack` / `sase agent recover` (-a/-D/-j/-m/-n/-p), restart claims the restart resolution, kill refuses HIJACKED, strict_workspace follow-up, #fork hijack frame, custody hooks in stale sweep, healer, and stranded facts. DECISIONS honored: enter_default=escalate, successor_context=fork default, glossary:agent-hijack strand published, no decision records. Flag agent_hijack retired: registry, schema, and Off branches gone; flag bead sase-1r1 closed. 269 hijack tests passed after `just install-venv` (the venv wheel was stale). Epic note #1 (marker-path audit) was fixed by sase-1qz.6.1.4.1.6. LANDING FIXES (epic-caused): ESCALATED/CONTINUED rendered bold cyan against the plan's grey "exactly like ANSWERED", so they now render in the settled-gate grey, with docs and test updated; `sase agent recover -h` and two docs pages still described the retired beta flag; the land phase's e2e poll sleep lacked a sase-test-wait pragma, so lint (test waits) was red on master, also reported as epic note #2; the land phase pushed reference/tui/agent-statuses.md to 6152/6000 words (docs lint red), so the hijack rows are collapsed to one HIJACKED row that points at agents-tab-modes.md#hijack-recovery-panel (5999 words; split filed as sase-1rp); the recovery panel's submit_agent_recovery was missing from the proc-producer inventory; and the land phase's new glossary term re-wrapped the generated term list, breaking the xprompt-terminology allowlist. INTEGRATION: the ACE-run prune and trash feature (sase-1rd, landed mid-epic) did not protect hijacked runs, so a held or expired hijack's artifacts dir could be quarantined, breaking Restart and Edit. Retention now protects runs referenced by active or expired hijack ledger records (new ledger.list_recoverable_records), with a test and a scheduler-housekeeping doc line. Also reviewed the staged-handoff kill-path retirement, stale_running_cleanup split, stranded-handoff, retention-custody, codex mid-turn-kill, unread-jump fallback, and recent hijack toobig splits: nothing else to rewire. Upstream fb66f62d34 and 9cded455b0 are disjoint split refactors. CHECK: sase tool run check 79a3696305f060663c8695849edbf01b passed (exit 0, all lint gates plus 1150 scoped test files). The earlier full-lane run 72dc8c62653f598b0d866b6b748e3c6d failed only on the sase-1ra-owned isolation guards plus the two now-fixed nodes. FOLLOW-UPS: see note #3 (7 feature tasks sase-1rj..sase-1rp, +1 on sase-1q0/sase-1oy/sase-1mr, sase-1ra note, and the declines with reasons).
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-1qz.1](sase-1qz.1.md) | sase-core: hijack statuses, ledger wire, and eligibility | ✓ closed | medium | 2026-11-02 | 1 | 2 |
 | [sase-1qz.10](sase-1qz.10.md) | Instruct and Edit through the prompt bar | ✓ closed | medium | 2026-11-02 | 1 | 1 |
-| [sase-1qz.11](sase-1qz.11.md) | Remove the flag, document, and prove it end to end | ◐ in_progress | medium | 2026-11-02 | 1 | 0 |
+| [sase-1qz.11](sase-1qz.11.md) | Remove the flag, document, and prove it end to end | ✓ closed | medium | 2026-11-02 | 1 | 0 |
 | [sase-1qz.2](sase-1qz.2.md) | sase-core: escalation policy, continuation prompt, and config | ✓ closed | medium | 2026-11-02 | 1 | 2 |
 | [sase-1qz.3](sase-1qz.3.md) | Runner settlement that keeps custody | ✓ closed | medium | 2026-11-02 | 1 | 1 |
 | [sase-1qz.4](sase-1qz.4.md) | The stop protocol and \`sase agent hijack\` | ✓ closed | medium | 2026-11-02 | 1 | 1 |
@@ -49,10 +59,10 @@ A user can hijack a stalled sase agent (,k, the kill dialog's h, or `sase agent 
 
 ```mermaid
 flowchart TD
-    n0["sase-1qz: Agent Hijack: stop a stalled agent, keep its work, recover in one keypress [in_progress]"]
+    n0["sase-1qz: Agent Hijack: stop a stalled agent, keep its work, recover in one keypress [closed]"]
     n1["sase-1qz.1: sase-core: hijack statuses, ledger wire, and eligibility [closed]"]
     n2["sase-1qz.10: Instruct and Edit through the prompt bar [closed]"]
-    n3["sase-1qz.11: Remove the flag, document, and prove it end to end [in_progress]"]
+    n3["sase-1qz.11: Remove the flag, document, and prove it end to end [closed]"]
     n4["sase-1qz.2: sase-core: escalation policy, continuation prompt, and config [closed]"]
     n5["sase-1qz.3: Runner settlement that keeps custody [closed]"]
     n6["sase-1qz.4: The stop protocol and `sase agent hijack` [closed]"]
@@ -143,7 +153,7 @@ flowchart TD
 | [bbugyi200.apollo.sase-1qz.6.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1qz.6.1.3.md) | [sase-1qz.6.1.3](sase-1qz.6.1.3.md) | 1 |
 | [bbugyi200.apollo.sase-1qz.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.apollo.sase-1qz.8.md) | [sase-1qz.8](sase-1qz.8.md) | 1 |
 | [bbugyi200.athena.sase-1qz.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.10/README.md) | [sase-1qz.10](sase-1qz.10.md) | 1 |
-| [bbugyi200.athena.sase-1qz.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.11/README.md) | [sase-1qz.11](sase-1qz.11.md) | 0 |
+| [bbugyi200.athena.sase-1qz.11](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qz.11.md) | [sase-1qz.11](sase-1qz.11.md) | 0 |
 | [bbugyi200.athena.sase-1qz.6.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.6.1.2/README.md) | [sase-1qz.6.1.2](sase-1qz.6.1.2.md) | 0 |
 | [bbugyi200.athena.sase-1qz.6.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qz.6.1.4.md) | [sase-1qz.6.1.4](sase-1qz.6.1.4.md) | 1 |
 | [bbugyi200.athena.sase-1qz.6.1.4.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.6.1.4.1.1/README.md) | [sase-1qz.6.1.4.1.1](sase-1qz.6.1.4.1.1.md) | 1 |
@@ -159,7 +169,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1qz.6.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qz.6.1.land.md) | [sase-1qz.6.1](sase-1qz.6.1.md) | 3 |
 | [bbugyi200.athena.sase-1qz.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.7/README.md) | [sase-1qz.7](sase-1qz.7.md) | 1 |
 | [bbugyi200.athena.sase-1qz.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qz.9.md) | [sase-1qz.9](sase-1qz.9.md) | 1 |
-| [bbugyi200.athena.sase-1qz.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.land/README.md) | [sase-1qz](README.md) | 0 |
+| [bbugyi200.athena.sase-1qz.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.land/README.md) | [sase-1qz](README.md) | 1 |
 
 ## Commits
 
@@ -196,6 +206,7 @@ flowchart TD
 | sase | [`f4ca45e`](https://github.com/sase-org/sase/commit/f4ca45edf82f5561bfeb5fecc8aa410c6df5c82b) | feat(hijack-recovery): add snapshot-verified restart and dismiss resolutions | [sase-1qz.7](sase-1qz.7.md) | 2026-11-06 15:09:55 EST |
 | sase | [`a6ceb8b`](https://github.com/sase-org/sase/commit/a6ceb8bf930fee6654b74c7f5aba5c27d747226b) | feat(ace): add hijack recovery panel | [sase-1qz.9](sase-1qz.9.md) | 2026-11-06 16:34:33 EST |
 | sase | [`039c4a8`](https://github.com/sase-org/sase/commit/039c4a858d7ced67bbb89699dcb3d737d9095b85) | feat(ace): wire hijack recovery panel Instruct and Edit through the prompt bar | [sase-1qz.10](sase-1qz.10.md) | 2026-11-06 16:57:29 EST |
+| sase | [`8a9a993`](https://github.com/sase-org/sase/commit/8a9a993e0808570e5102b20fb91b2ac5c6499177) | fix(agent-hijack): land epic integration fixes and protect held runs from prune | [sase-1qz](README.md) | 2026-11-07 05:39:43 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -209,11 +220,13 @@ flowchart TD
 | read-by | [agent:research.3a.final][4] | Check active epic phase scopes for conflict screening of task bead recommendations | 1 |
 | read-by | [agent:research.3a.gem][5] | Inspect scope and conflicts for research recommendation | 2 |
 | read-by | [agent:research.3a.grk][6] | Need live epic scopes and high-impact candidate task details to rank work without colliding with in-flight epics | 1 |
-| read-by | [agent:sase-1qz.2--3][7] | Need epic DECISIONS and plan | 1 |
-| read-by | [agent:sase-1qz.6.1.4.1.3][8] | Need final decisions governing this recovery epic | 1 |
-| read-by | [agent:sase-1qz.7][9] | Need epic plan for phase 1qz.7 | 2 |
-| read-by | [agent:sase-1rd.land][10] | Need ownership of marker-audit proposal and recovery integration scope | 1 |
-| read-by | [agent:toobig-9d.test_agent_hijack_recover.0][11] | Check whether the active hijack recovery epic caused the unrelated macro terminology failure | 1 |
+| read-by | [agent:sase-1qz.10][7] | Need epic scope for phase context | 1 |
+| read-by | [agent:sase-1qz.2--3][8] | Need epic DECISIONS and plan | 1 |
+| read-by | [agent:sase-1qz.6.1.4.1.3][9] | Need final decisions governing this recovery epic | 1 |
+| read-by | [agent:sase-1qz.7][10] | Need epic plan for phase 1qz.7 | 2 |
+| read-by | [agent:sase-1rd.land][11] | Need ownership of marker-audit proposal and recovery integration scope | 1 |
+| read-by | [agent:toobig-9d.test_agent_hijack_recover.0][12] | Check whether the active hijack recovery epic caused the unrelated macro terminology failure | 1 |
+| read-by | [agent:toobig-9m.agent_artifact_run_trash.0][13] | Need epic scope to judge whether the hijack e2e test-waits failure belongs on the live Agent Hijack epic | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.18n/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3a.cdx/README.md
@@ -221,10 +234,12 @@ flowchart TD
 [4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3a.final/README.md
 [5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3a.gem/README.md
 [6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3a.grk/README.md
-[7]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qz.2.md
-[8]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.6.1.4.1.3/README.md
-[9]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.7/README.md
-[10]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rd.land.md
-[11]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-9d.test_agent_hijack_recover.0/README.md
+[7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.10/README.md
+[8]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qz.2.md
+[9]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.6.1.4.1.3/README.md
+[10]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.7/README.md
+[11]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rd.land.md
+[12]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-9d.test_agent_hijack_recover.0/README.md
+[13]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-9m.agent_artifact_run_trash.0/README.md
 
 <!-- sase:referenced-by:end -->

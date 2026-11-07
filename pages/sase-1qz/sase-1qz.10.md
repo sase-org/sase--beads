@@ -21,7 +21,7 @@ tui_prompt: wire panel keys i and e to the prompt bar. Instruct pre-fills the co
 
 ## Dependencies
 
-- **Blocks:** [sase-1qz.11](sase-1qz.11.md) ◐ · ⧖ 2026-11-02
+- **Blocks:** [sase-1qz.11](sase-1qz.11.md) ✓ · ⧖ 2026-11-02
 - **Depends on:** [sase-1qz.9](sase-1qz.9.md) ✓ · ⧖ 2026-11-02
 
 ## Agents
@@ -44,8 +44,10 @@ tui_prompt: wire panel keys i and e to the prompt bar. Instruct pre-fills the co
 | --- | --- | --- | ---: |
 | read-by | [agent:18n][1] | Check in-progress hijack phase notes for deviations from the plan, for a user-facing report | 1 |
 | read-by | [agent:research.3a.final][2] | Check active epic phase scopes for conflict screening of task bead recommendations | 1 |
+| read-by | [agent:sase-1qz.10][3] | Need full bead including notes | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.18n/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3a.final/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.10/README.md
 
 <!-- sase:referenced-by:end -->
