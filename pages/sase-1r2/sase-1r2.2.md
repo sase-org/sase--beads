@@ -20,10 +20,26 @@ gate-red: fix the marker-path audit red left by the readout split, plus any othe
 ## Dependencies
 
 - **Blocks:** [sase-1r2.6](sase-1r2.6.md) ◐ · ⧖ 2026-11-03
-- **Blocks:** [sase-1r2.7](sase-1r2.7.md) ◐ · ⧖ 2026-11-03
+- **Blocks:** [sase-1r2.7](sase-1r2.7.md) ✓ · ⧖ 2026-11-03
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1r2.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1r2.2/README.md) | [sase-1r2.2](sase-1r2.2.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:research.3a.cld][1] | Learn which flake/CI task beads the active green-Full-CI epic already fixed or still owns | 1 |
+| read-by | [agent:research.3a.final][2] | Check active epic phase scopes for conflict screening of task bead recommendations | 1 |
+| read-by | [agent:research.3a.grk][3] | Need phase children of prior top-ten epic, live CI-green epic, and flake-class epic to exclude overlapping task beads | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3a.cld/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3a.final/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3a.grk/README.md
+
+<!-- sase:referenced-by:end -->

@@ -20,7 +20,7 @@ blocking-flakes: fix the races behind intermittent reds in Master Gate's jobs an
 ## Dependencies
 
 - **Blocks:** [sase-1r2.6](sase-1r2.6.md) ◐ · ⧖ 2026-11-03
-- **Blocks:** [sase-1r2.7](sase-1r2.7.md) ◐ · ⧖ 2026-11-03
+- **Blocks:** [sase-1r2.7](sase-1r2.7.md) ✓ · ⧖ 2026-11-03
 
 ## Agents
 
@@ -33,3 +33,23 @@ blocking-flakes: fix the races behind intermittent reds in Master Gate's jobs an
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`26b50ca`](https://github.com/sase-org/sase/commit/26b50ca5251945db4d9ca3efe804cd843f36bed9) | fix(flakes): de-flake blocking Master Gate and Full CI test lanes | [sase-1r2.3](sase-1r2.3.md) | 2026-11-03 15:18:23 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:ce][1] | Confirm existing owners of footprint, publication policy, and sudo settlement verification failures | 1 |
+| read-by | [agent:research.3a.cld][2] | Learn which flake/CI task beads the active green-Full-CI epic already fixed or still owns | 1 |
+| read-by | [agent:research.3a.final][3] | Check active epic phase scopes for conflict screening of task bead recommendations | 1 |
+| read-by | [agent:research.3a.grk][4] | Need phase children of prior top-ten epic, live CI-green epic, and flake-class epic to exclude overlapping task beads | 2 |
+| read-by | [agent:sase-1r2.3--3][5] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.ce.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3a.cld/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3a.final/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3a.grk/README.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1r2.3.md
+
+<!-- sase:referenced-by:end -->

@@ -41,8 +41,14 @@ advisory-lanes: make visual-test, perf-floors, tutorial-tests, and ace-page-grou
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1r2.4][1] | Need the phase scope, design file, notes, and DECISIONS | 7 |
+| read-by | [agent:research.3a.cld][1] | Learn which flake/CI task beads the active green-Full-CI epic already fixed or still owns | 1 |
+| read-by | [agent:research.3a.final][2] | Check active epic phase scopes for conflict screening of task bead recommendations | 1 |
+| read-by | [agent:research.3a.grk][3] | Need phase children of prior top-ten epic, live CI-green epic, and flake-class epic to exclude overlapping task beads | 1 |
+| read-by | [agent:sase-1r2.4][4] | Need the phase scope, design file, notes, and DECISIONS | 7 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1r2.4/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3a.cld/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3a.final/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3a.grk/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1r2.4/README.md
 
 <!-- sase:referenced-by:end -->

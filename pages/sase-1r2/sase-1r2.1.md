@@ -20,3 +20,17 @@ watchdog: install a self-removing hourly crontab watchdog that relaunches this e
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1r2.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1r2.1/README.md) | [sase-1r2.1](sase-1r2.1.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:research.3a.final][1] | Resolve disagreement on whether reboot-recovery bead sase-1qj conflicts with sase-1qz/sase-1r2 work | 2 |
+| read-by | [agent:research.3a.grk][2] | Need phase children of prior top-ten epic, live CI-green epic, and flake-class epic to exclude overlapping task beads | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3a.final/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.3a.grk/README.md
+
+<!-- sase:referenced-by:end -->
