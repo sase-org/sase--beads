@@ -32,6 +32,13 @@ Not quarantined yet: 0 recurrences in the 4 runs since d94d912/fb22462 (which ch
 
 Compile: just portable-check on athena PASS (2264 tests); mac scratch bundle.sh + just typecheck-tests PASS (copy deleted).
 
+[2026-11-07T19:13:38Z · sase-1rq.4.1.3--1] Proof runs (monitor acdk46, two unfiltered Scripts/macos-ci-check snapshots of the same uncommitted tree, base master fb22462, started 20s apart):
+- Run 1: GH run 42401972251, snapshot 42179623122abc9bd338226b6078ff63cc2fa6a5, exit 0, Executed 4309 tests, 1 skipped, 0 failures; all 16 macOS job steps ok.
+- Run 2: GH run 42401998833, snapshot ff2b42d2bfd7d7aa20d2058d35753acfd11b30a8, exit 0, Executed 4309 tests, 1 skipped, 0 failures; all 16 macOS job steps ok.
+Failed tests: none in either run. The single skip in both is CaptureCoreTests.ProjectTaskMovePickerPresentationTests.testResponseDecodesMoveHeader (pre-existing XCTSkip 'move-complete-mc1 fixture missing' already on master, untouched by this phase).
+Phase-list tests passed in BOTH runs: CaptureSeparatorToggleTests.{testRelationEqualsIntentForwardsAtOpenerPositionsAndRelationEnds, testRelationDashIntentForwardsUngatedInTheMainEditor, testRelationTildeOnlyForwardsAtBobReportedRelationEnd, testTypedCommaInCloseTaskListStaysLiteralForCloseGrammar}, CaptureRelationEqualsAliasTests.{testEqualsAliasOpensLinksToAndCallsRewriteBeforeCompletion, testTripleEqualsGivesDoubleEquals}, CaptureHashAliasDoubleTapTests.{testSlowDoubleTapClosesMenuWithOneLiteralBackslash, testSlowSlashDoubleTapClosesMenuWithOneLiteralSlash}. CaptureRelationFlipAliasTests.testArmedDashEqualsFlipsInsteadOfRestoring no longer exists (removed by 418604a, an ancestor of fb22462), so nothing to quarantine. No quarantine needed: 0 hosted alias-open timeouts on this tree.
+origin/master still fb22462 at land time, no rebase. Landing as one commit; follow-up monitor watches the landed master SHA's CI run before this phase closes.
+
 ## Dependencies
 
 - **Depends on:** [sase-1rq.4.1.1](sase-1rq.4.1.1.md) ✓ · ⧖ 2026-11-07
