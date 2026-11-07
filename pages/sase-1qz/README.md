@@ -169,7 +169,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1qz.6.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qz.6.1.land.md) | [sase-1qz.6.1](sase-1qz.6.1.md) | 3 |
 | [bbugyi200.athena.sase-1qz.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.7/README.md) | [sase-1qz.7](sase-1qz.7.md) | 1 |
 | [bbugyi200.athena.sase-1qz.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1qz.9.md) | [sase-1qz.9](sase-1qz.9.md) | 1 |
-| [bbugyi200.athena.sase-1qz.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.land/README.md) | [sase-1qz](README.md) | 1 |
+| [bbugyi200.athena.sase-1qz.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1qz.land/README.md) | [sase-1qz](README.md) | 2 |
 
 ## Commits
 
@@ -207,6 +207,7 @@ flowchart TD
 | sase | [`a6ceb8b`](https://github.com/sase-org/sase/commit/a6ceb8bf930fee6654b74c7f5aba5c27d747226b) | feat(ace): add hijack recovery panel | [sase-1qz.9](sase-1qz.9.md) | 2026-11-06 16:34:33 EST |
 | sase | [`039c4a8`](https://github.com/sase-org/sase/commit/039c4a858d7ced67bbb89699dcb3d737d9095b85) | feat(ace): wire hijack recovery panel Instruct and Edit through the prompt bar | [sase-1qz.10](sase-1qz.10.md) | 2026-11-06 16:57:29 EST |
 | sase | [`8a9a993`](https://github.com/sase-org/sase/commit/8a9a993e0808570e5102b20fb91b2ac5c6499177) | fix(agent-hijack): land epic integration fixes and protect held runs from prune | [sase-1qz](README.md) | 2026-11-07 05:39:43 EST |
+| sase--plans | [`sase--plans@2143da6`](https://github.com/sase-org/sase--plans/commit/2143da683f3557c54686319f09636779edb07b58) | chore(plans): mark agent\_hijack plan done | [sase-1qz](README.md) | 2026-11-07 05:40:55 EST |
 
 <!-- sase:referenced-by:start -->
 
