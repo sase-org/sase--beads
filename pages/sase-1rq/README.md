@@ -30,7 +30,7 @@ Every project whose GitHub Actions CI went red in the ~12 hours before 2026-11-0
 | [sase-1rq.1](sase-1rq.1.md) | Turn sase-core CI green and unblock its release | ✓ closed | xlarge | 2026-11-07 | 1 | 1 |
 | [sase-1rq.2](sase-1rq.2.md) | Turn every red sase workflow green | ◐ in_progress | xlarge | 2026-11-07 | 1 | 0 |
 | [sase-1rq.3](sase-1rq.3.md) | Turn bob-cli CI green | ✓ closed | xlarge | 2026-11-07 | 1 | 0 |
-| [sase-1rq.4](sase-1rq.4.md) | Turn bob-mac-capture CI green | ◐ in_progress | xlarge | 2026-11-07 | 1 | 0 |
+| [sase-1rq.4](sase-1rq.4.md) | Turn bob-mac-capture CI green | ✓ closed | xlarge | 2026-11-07 | 1 | 0 |
 | [sase-1rq.5](sase-1rq.5.md) | Turn dotfiles CI green | ✓ closed | xlarge | 2026-11-07 | 1 | 0 |
 
 ## Lineage
@@ -64,12 +64,12 @@ flowchart TD
     n24["sase-1rq.3.1.2: Fix the known macOS-only test failures and the Google sign-in hang [closed]"]
     n25["sase-1rq.3.1.3: Run the full macOS CI test set to green on the mac host [closed]"]
     n26["sase-1rq.3.1.4: Confirm green CI on the master tip and publish evidence [closed]"]
-    n27["sase-1rq.4: Turn bob-mac-capture CI green [in_progress]"]
-    n28["sase-1rq.4.1: Turn bob-mac-capture master CI green [in_progress]"]
+    n27["sase-1rq.4: Turn bob-mac-capture CI green [closed]"]
+    n28["sase-1rq.4.1: Turn bob-mac-capture master CI green [closed]"]
     n29["sase-1rq.4.1.1: Fix the eleven sigil-alias rewrite-lane tests that have never passed on CI [closed]"]
     n30["sase-1rq.4.1.2: Fix the Ctrl-H/L word-motion undo test [closed]"]
     n31["sase-1rq.4.1.3: Harden or quarantine the intermittent alias and card tests [closed]"]
-    n32["sase-1rq.4.1.4: Drive master CI green and publish evidence [in_progress]"]
+    n32["sase-1rq.4.1.4: Drive master CI green and publish evidence [closed]"]
     n33["sase-1rq.5: Turn dotfiles CI green [closed]"]
     n0 --> n1
     n0 --> n2
@@ -156,13 +156,13 @@ flowchart TD
 | [bbugyi200.athena.sase-1rq.3.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rq.3.1.2/README.md) | [sase-1rq.3.1.2](sase-1rq.3.1.2.md) | 0 |
 | [bbugyi200.athena.sase-1rq.3.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.3.1.3.md) | [sase-1rq.3.1.3](sase-1rq.3.1.3.md) | 0 |
 | [bbugyi200.athena.sase-1rq.3.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.3.1.4.md) | [sase-1rq.3.1.4](sase-1rq.3.1.4.md) | 0 |
-| [bbugyi200.athena.sase-1rq.3.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rq.3.1.land/README.md) | [sase-1rq.3.1](sase-1rq.3.1.md) | 0 |
+| [bbugyi200.athena.sase-1rq.3.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rq.3.1.land/README.md) | [sase-1rq.3.1](sase-1rq.3.1.md) | 1 |
 | [bbugyi200.athena.sase-1rq.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.4.md) | [sase-1rq.4](sase-1rq.4.md) | 0 |
 | [bbugyi200.athena.sase-1rq.4.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.4.1.1.md) | [sase-1rq.4.1.1](sase-1rq.4.1.1.md) | 0 |
 | [bbugyi200.athena.sase-1rq.4.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.4.1.2.md) | [sase-1rq.4.1.2](sase-1rq.4.1.2.md) | 0 |
 | [bbugyi200.athena.sase-1rq.4.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.4.1.3.md) | [sase-1rq.4.1.3](sase-1rq.4.1.3.md) | 0 |
 | [bbugyi200.athena.sase-1rq.4.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rq.4.1.4/README.md) | [sase-1rq.4.1.4](sase-1rq.4.1.4.md) | 0 |
-| [bbugyi200.athena.sase-1rq.4.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rq.4.1.land/README.md) | [sase-1rq.4.1](sase-1rq.4.1.md) | 0 |
+| [bbugyi200.athena.sase-1rq.4.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rq.4.1.land/README.md) | [sase-1rq.4.1](sase-1rq.4.1.md) | 1 |
 | [bbugyi200.athena.sase-1rq.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.5.md) | [sase-1rq.5](sase-1rq.5.md) | 0 |
 | [bbugyi200.athena.sase-1rq.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rq.land/README.md) | [sase-1rq](README.md) | 0 |
 
@@ -177,4 +177,6 @@ flowchart TD
 | sase | [`da15614`](https://github.com/sase-org/sase/commit/da1561407ab03db299959ec3ab8e2a5fadafb1e3) | fix(tui): keep Files spread reserve remeasure from being swallowed | [sase-1rq.2.1.5.1.1](sase-1rq.2.1.5.1.1.md) | 2026-11-07 13:05:20 EST |
 | sase | [`92fc89d`](https://github.com/sase-org/sase/commit/92fc89d83f062259857b6d8870996231ddd4315e) | fix(ace): keep a parked Main Reply through same-subject re-delivery | [sase-1rq.2.1.5.1.2](sase-1rq.2.1.5.1.2.md) | 2026-11-07 13:26:40 EST |
 | sase | [`578a317`](https://github.com/sase-org/sase/commit/578a317bcf98a383fbd6adf2d96a1f1e4bae2648) | perf(tests): cut test-cost leak-detector overhead about 3x without weakening the gate | [sase-1rq.2.1.3](sase-1rq.2.1.3.md) | 2026-11-07 13:54:35 EST |
+| sase--plans | [`sase--plans@297269c`](https://github.com/sase-org/sase--plans/commit/297269cccdd62f5c6570bcdd8a468b293cffc435) | docs(plans): mark bob-cli CI repair epic complete | [sase-1rq.3.1](sase-1rq.3.1.md) | 2026-11-07 14:09:08 EST |
 | sase | [`960646e`](https://github.com/sase-org/sase/commit/960646e8cea50f80a19a08199be044fbfe55bf03) | fix(tui): stabilize the stranded modal and empty Beads PNG captures | [sase-1rq.2.1.5.1.3](sase-1rq.2.1.5.1.3.md) | 2026-11-07 14:43:39 EST |
+| sase--plans | [`sase--plans@4c2dfdb`](https://github.com/sase-org/sase--plans/commit/4c2dfdb5c1f1af380f1751b514470c823e6ba285) | docs(plan): complete bob-mac-capture CI epic sase-1rq.4.1 | [sase-1rq.4.1](sase-1rq.4.1.md) | 2026-11-07 15:12:12 EST |

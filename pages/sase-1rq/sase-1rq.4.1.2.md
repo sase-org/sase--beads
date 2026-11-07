@@ -23,7 +23,7 @@ word-motion: fix CaptureEditorWordMotionTests.testMotionsLeaveTextAndUndoUntouch
 
 ## Dependencies
 
-- **Blocks:** [sase-1rq.4.1.4](sase-1rq.4.1.4.md) ◐ · ⧖ 2026-11-07
+- **Blocks:** [sase-1rq.4.1.4](sase-1rq.4.1.4.md) ✓ · ⧖ 2026-11-07
 
 ## Agents
 
