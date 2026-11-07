@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/bob_cli_ci_green.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/sase-org/sase--plans/blob/main/202611/bob_cli_ci_green.md
 
 <!-- sase:links:end -->
@@ -28,3 +30,15 @@ bob-cli's `CI` workflow on master is green at the tip, with lint, test (ubuntu-l
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1rq.3.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rq.3.1.land/README.md) | [sase-1rq.3.1](sase-1rq.3.1.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1rq.3.1.2][1] | parent epic bead decisions and notes | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rq.3.1.2/README.md
+
+<!-- sase:referenced-by:end -->

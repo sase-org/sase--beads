@@ -27,3 +27,15 @@ mac-known-failures: on the mac host, reproduce and fix the macOS-only failures a
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1rq.3.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rq.3.1.2/README.md) | [sase-1rq.3.1.2](sase-1rq.3.1.2.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1rq.3.1.2][1] | Need the phase scope and design file | 4 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rq.3.1.2/README.md
+
+<!-- sase:referenced-by:end -->
