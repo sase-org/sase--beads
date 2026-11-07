@@ -27,3 +27,15 @@ lifecycle: add the scheduler job that watches login expiry and the needs-reauth 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1rs.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rs.7/README.md) | [sase-1rs.7](sase-1rs.7.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1rs.7][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rs.7/README.md
+
+<!-- sase:referenced-by:end -->

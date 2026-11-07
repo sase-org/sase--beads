@@ -27,7 +27,7 @@ api: implement the thin Web API client, with typed models for both item shapes, 
 
 - **Depends on:** [sase-1rs.2](sase-1rs.2.md) ✓ · ⧖ 2026-11-07
 - **Blocks:** [sase-1rs.5](sase-1rs.5.md) ◐ · ⧖ 2026-11-07
-- **Blocks:** [sase-1rs.6](sase-1rs.6.md) ◐ · ⧖ 2026-11-07
+- **Blocks:** [sase-1rs.6](sase-1rs.6.md) ✓ · ⧖ 2026-11-07
 
 ## Agents
 
