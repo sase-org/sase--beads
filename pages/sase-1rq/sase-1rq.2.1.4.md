@@ -11,6 +11,10 @@
 
 contention: CI Telemetry's contention-test job (SASE_CONTENTION_REPEAT=1 just test-contention, 26 workers on 2 pinned CPUs) prints nothing for about 20 minutes. Then the runner gets a shutdown signal, on both the 06:54 and 13:48 UTC runs on 2026-11-07. The lane has never produced a tally in CI. Find out why the runner dies (memory or disk exhaustion is the lead) and fix it without changing the width, repeat count, CPU pinning, or timeout. Then make the single repeat pass: root-cause each failure under contention, or quarantine proven flakes.
 
+## Notes
+
+[2026-11-07T15:55:53Z · sase-1rq.2.1.4] PLANNING EVIDENCE: At clean source baseline b7ca9f3450, no prior phase work notes or recent contention repair were found. Latest Telemetry run 42377692789 at 0ba9cfc9 has failed contention job 128421280632: soak starts 13:48:36 UTC, worker warnings end 13:48:57, runner shutdown/SIGTERM at 14:09:11 (about 20m35s). Failure-record upload was skipped; artifact listing contained only sase-core-wheel. OOM/disk exhaustion is not proven by this log, and stdout buffering prevents inferring the last test phase. A four-phase child epic is validated for resource/progress evidence, runner survival, failure repair, and hosted confirmation; current implementation remains unchanged. No epic-symbol entries are attached to this phase.
+
 ## Dependencies
 
 - **Blocks:** [sase-1rq.2.1.7](sase-1rq.2.1.7.md) ◐ · ⧖ 2026-11-07
@@ -19,4 +23,4 @@ contention: CI Telemetry's contention-test job (SASE_CONTENTION_REPEAT=1 just te
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1rq.2.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rq.2.1.4/README.md) | [sase-1rq.2.1.4](sase-1rq.2.1.4.md) | 0 |
+| [bbugyi200.athena.sase-1rq.2.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.2.1.4.md) | [sase-1rq.2.1.4](sase-1rq.2.1.4.md) | 0 |

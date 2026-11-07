@@ -7,6 +7,24 @@
 **Created:** 2026-11-07 10:24:46 EST
 **Plan:** [202611/sase\_ci\_green.md](https://github.com/sase-org/sase--plans/blob/main/202611/sase_ci_green.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202611/sase_ci_green.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/sase-org/sase--plans/blob/main/202611/sase_ci_green.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 On sase-org/sase, Master Gate, Full CI, CI Telemetry, and Publish are green at the master tip, and CI on the open release-please PR is green at its head. Each one is the latest run of its workflow, completed with success on a SHA at or after the last fix, with no in-scope job cancelled or skipped. Green evidence is published as ci_evidence. Otherwise, after a very large and documented effort, a research-sidecar report says exactly what is still needed. Then the land agent closes phase sase-1rq.2 of epic sase-1rq.
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-1rq.2.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rq.2.1.land/README.md) | [sase-1rq.2.1](sase-1rq.2.1.md) | 0 |

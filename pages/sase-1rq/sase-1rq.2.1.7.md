@@ -18,7 +18,7 @@ verify: with every phase's fixes on master, dispatch or await Full CI, CI Teleme
 - **Depends on:** [sase-1rq.2.1.3](sase-1rq.2.1.3.md) ◐ · ⧖ 2026-11-07
 - **Depends on:** [sase-1rq.2.1.4](sase-1rq.2.1.4.md) ◐ · ⧖ 2026-11-07
 - **Depends on:** [sase-1rq.2.1.5](sase-1rq.2.1.5.md) ◐ · ⧖ 2026-11-07
-- **Depends on:** [sase-1rq.2.1.6](sase-1rq.2.1.6.md) ◐ · ⧖ 2026-11-07
+- **Depends on:** [sase-1rq.2.1.6](sase-1rq.2.1.6.md) ✓ · ⧖ 2026-11-07
 
 ## Agents
 

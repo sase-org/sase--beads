@@ -93,7 +93,7 @@ Other failures on the same job:
 
 PROPOSED FOLLOW-UP: Harden CaptureS
 
-… and 647 more characters
+… and 3650 more characters
 
 ## Dependencies
 
@@ -105,3 +105,15 @@ PROPOSED FOLLOW-UP: Harden CaptureS
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1rq.4.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.4.1.1.md) | [sase-1rq.4.1.1](sase-1rq.4.1.1.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1rq.4.1.1--3][1] | Need assigned bead notes before recording this CI snapshot | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.4.1.1.md
+
+<!-- sase:referenced-by:end -->
