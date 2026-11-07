@@ -14,7 +14,7 @@ lifecycle: add the scheduler job that watches login expiry and the needs-reauth 
 ## Dependencies
 
 - **Blocks:** [sase-1rs.10](sase-1rs.10.md) ◐ · ⧖ 2026-11-07
-- **Depends on:** [sase-1rs.3](sase-1rs.3.md) ◐ · ⧖ 2026-11-07
+- **Depends on:** [sase-1rs.3](sase-1rs.3.md) ✓ · ⧖ 2026-11-07
 
 ## Agents
 

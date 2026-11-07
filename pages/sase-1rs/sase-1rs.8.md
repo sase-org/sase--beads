@@ -13,7 +13,7 @@ apply: implement the gate-only executor: re-checks, journaling, chunks of at mos
 
 ## Dependencies
 
-- **Depends on:** [sase-1rs.3](sase-1rs.3.md) ◐ · ⧖ 2026-11-07
+- **Depends on:** [sase-1rs.3](sase-1rs.3.md) ✓ · ⧖ 2026-11-07
 - **Depends on:** [sase-1rs.6](sase-1rs.6.md) ◐ · ⧖ 2026-11-07
 - **Blocks:** [sase-1rs.9](sase-1rs.9.md) ◐ · ⧖ 2026-11-07
 

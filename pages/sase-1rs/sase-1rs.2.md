@@ -26,7 +26,7 @@ scaffold: build the package skeleton with every dependency declared, and impleme
 ## Dependencies
 
 - **Depends on:** [sase-1rs.1](sase-1rs.1.md) ✓ · ⧖ 2026-11-07
-- **Blocks:** [sase-1rs.3](sase-1rs.3.md) ◐ · ⧖ 2026-11-07
+- **Blocks:** [sase-1rs.3](sase-1rs.3.md) ✓ · ⧖ 2026-11-07
 - **Blocks:** [sase-1rs.4](sase-1rs.4.md) ◐ · ⧖ 2026-11-07
 
 ## Agents
@@ -34,3 +34,15 @@ scaffold: build the package skeleton with every dependency declared, and impleme
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1rs.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rs.2/README.md) | [sase-1rs.2](sase-1rs.2.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1rs.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rs.2/README.md
+
+<!-- sase:referenced-by:end -->

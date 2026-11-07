@@ -31,7 +31,7 @@ SASE agents of any provider can read Bryan's Spotify library through `sase spoti
 | [sase-1rs.10](sase-1rs.10.md) | The /sase\_spotify skill, README, and documentation | ◐ in_progress | medium | 2026-11-07 | 1 | 0 |
 | [sase-1rs.11](sase-1rs.11.md) | Install on athena and end-to-end acceptance | ◐ in_progress | small | 2026-11-07 | 1 | 0 |
 | [sase-1rs.2](sase-1rs.2.md) | Package skeleton, shared foundation, tooling, and CI | ✓ closed | medium | 2026-11-07 | 1 | 0 |
-| [sase-1rs.3](sase-1rs.3.md) | Setup wizard, PKCE login, and the token broker | ◐ in_progress | medium | 2026-11-07 | 1 | 0 |
+| [sase-1rs.3](sase-1rs.3.md) | Setup wizard, PKCE login, and the token broker | ✓ closed | medium | 2026-11-07 | 1 | 0 |
 | [sase-1rs.4](sase-1rs.4.md) | Web API client, cache, library service, privacy guard, and fake Spotify | ◐ in_progress | medium | 2026-11-07 | 1 | 0 |
 | [sase-1rs.5](sase-1rs.5.md) | Dashboard, playlists, podcasts, search, and doctor | ◐ in_progress | medium | 2026-11-07 | 1 | 0 |
 | [sase-1rs.6](sase-1rs.6.md) | Changeset document, resolution, diffs, and preview renderers | ◐ in_progress | medium | 2026-11-07 | 1 | 0 |
@@ -48,7 +48,7 @@ flowchart TD
     n2["sase-1rs.10: The /sase_spotify skill, README, and documentation [in_progress]"]
     n3["sase-1rs.11: Install on athena and end-to-end acceptance [in_progress]"]
     n4["sase-1rs.2: Package skeleton, shared foundation, tooling, and CI [closed]"]
-    n5["sase-1rs.3: Setup wizard, PKCE login, and the token broker [in_progress]"]
+    n5["sase-1rs.3: Setup wizard, PKCE login, and the token broker [closed]"]
     n6["sase-1rs.4: Web API client, cache, library service, privacy guard, and fake Spotify [in_progress]"]
     n7["sase-1rs.5: Dashboard, playlists, podcasts, search, and doctor [in_progress]"]
     n8["sase-1rs.6: Changeset document, resolution, diffs, and preview renderers [in_progress]"]
