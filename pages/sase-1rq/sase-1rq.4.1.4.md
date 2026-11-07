@@ -15,7 +15,7 @@ master-green: watch bob-mac-capture master CI after every fix phase has landed. 
 
 - **Depends on:** [sase-1rq.4.1.1](sase-1rq.4.1.1.md) ✓ · ⧖ 2026-11-07
 - **Depends on:** [sase-1rq.4.1.2](sase-1rq.4.1.2.md) ✓ · ⧖ 2026-11-07
-- **Depends on:** [sase-1rq.4.1.3](sase-1rq.4.1.3.md) ◐ · ⧖ 2026-11-07
+- **Depends on:** [sase-1rq.4.1.3](sase-1rq.4.1.3.md) ✓ · ⧖ 2026-11-07
 
 ## Agents
 

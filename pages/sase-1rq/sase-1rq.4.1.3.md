@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1rq.4.1](sase-1rq.4.1.md) / sase-1rq.4.1.3
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-1rq.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.4.md) · **Assignee:** `sase-1rq.4.1.3` · **Size:** medium
-**Created:** 2026-11-07 08:03:37 EST
+**Created:** 2026-11-07 08:03:37 EST · **Closed:** 2026-11-07 14:41:10 EST
 **Plan:** [202611/bob\_mac\_capture\_ci\_green.md](https://github.com/sase-org/sase--plans/blob/main/202611/bob_mac_capture_ci_green.md)
 
 ## Description
@@ -39,6 +39,10 @@ Failed tests: none in either run. The single skip in both is CaptureCoreTests.Pr
 Phase-list tests passed in BOTH runs: CaptureSeparatorToggleTests.{testRelationEqualsIntentForwardsAtOpenerPositionsAndRelationEnds, testRelationDashIntentForwardsUngatedInTheMainEditor, testRelationTildeOnlyForwardsAtBobReportedRelationEnd, testTypedCommaInCloseTaskListStaysLiteralForCloseGrammar}, CaptureRelationEqualsAliasTests.{testEqualsAliasOpensLinksToAndCallsRewriteBeforeCompletion, testTripleEqualsGivesDoubleEquals}, CaptureHashAliasDoubleTapTests.{testSlowDoubleTapClosesMenuWithOneLiteralBackslash, testSlowSlashDoubleTapClosesMenuWithOneLiteralSlash}. CaptureRelationFlipAliasTests.testArmedDashEqualsFlipsInsteadOfRestoring no longer exists (removed by 418604a, an ancestor of fb22462), so nothing to quarantine. No quarantine needed: 0 hosted alias-open timeouts on this tree.
 origin/master still fb22462 at land time, no rebase. Landing as one commit; follow-up monitor watches the landed master SHA's CI run before this phase closes.
 
+[2026-11-07T19:40:57Z · sase-1rq.4.1.3--2] Landed + master CI: commit c2b7db24f188285085babb13570ae11f825ae197 (test(mac-capture): replace fixed sleeps in rewrite-lane forwarding tests) is origin/master, parent fb22462. Push CI run 42405431372 (workflow CI, job "macOS 26 SwiftPM" 16m55s) conclusion SUCCESS: Executed 4309 tests, 1 skipped, 0 failures (0 unexpected); 0 failed test cases in the log. Only skip is the pre-existing CaptureCoreTests.ProjectTaskMovePickerPresentationTests.testResponseDecodesMoveHeader (fixture-missing XCTSkip). All 8 phase-list tests passed on master: CaptureSeparatorToggleTests.{testRelationEqualsIntentForwardsAtOpenerPositionsAndRelationEnds 0.320s, testRelationDashIntentForwardsUngatedInTheMainEditor 0.270s, testRelationTildeOnlyForwardsAtBobReportedRelationEnd 0.096s, testTypedCommaInCloseTaskListStaysLiteralForCloseGrammar 0.151s}, CaptureRelationEqualsAliasTests.{testEqualsAliasOpensLinksToAndCallsRewriteBeforeCompletion 0.399s, testTripleEqualsGivesDoubleEquals 0.437s}, CaptureHashAliasDoubleTapTests.{testSlowDoubleTapClosesMenuWithOneLiteralBackslash 0.702s, testSlowSlashDoubleTapClosesMenuWithOneLiteralSlash 0.614s}. Previous master run 42395563068 (fb22462) was red on testRelationEqualsIntentForwards...; this run is green. No quarantine was needed. Hardened tests are now 3/3 green (two snapshots + master).
+
+[2026-11-07T19:41:10Z · sase-1rq.4.1.3--2] Landed c2b7db24f188 on bobs-org/bob-mac-capture master; push CI run 42405431372 SUCCESS (4309 tests, 1 pre-existing skip, 0 failures). All 4 hardened rewrite-lane tests and all 4 hosted alias-open tests passed there and in both proof snapshots (42401972251, 42401998833). Card and labeled-tilde intermittents were already fixed upstream (5b0dca6, 1e0a092); no quarantine needed. No epic-symbol leftovers.
+
 ## Dependencies
 
 - **Depends on:** [sase-1rq.4.1.1](sase-1rq.4.1.1.md) ✓ · ⧖ 2026-11-07
@@ -49,3 +53,15 @@ origin/master still fb22462 at land time, no rebase. Landing as one commit; foll
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1rq.4.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.4.1.3.md) | [sase-1rq.4.1.3](sase-1rq.4.1.3.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1rq.4.1.3--1][1] | Continue flakes phase after CI snapshot monitor; need notes | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.4.1.3.md
+
+<!-- sase:referenced-by:end -->

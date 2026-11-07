@@ -15,7 +15,7 @@ verify-full-ci: confirm all child fixes and sase-1r2.6's bulk golden repair land
 
 - **Depends on:** [sase-1rq.2.1.5.1.1](sase-1rq.2.1.5.1.1.md) ✓ · ⧖ 2026-11-07
 - **Depends on:** [sase-1rq.2.1.5.1.2](sase-1rq.2.1.5.1.2.md) ✓ · ⧖ 2026-11-07
-- **Depends on:** [sase-1rq.2.1.5.1.3](sase-1rq.2.1.5.1.3.md) ◐ · ⧖ 2026-11-07
+- **Depends on:** [sase-1rq.2.1.5.1.3](sase-1rq.2.1.5.1.3.md) ✓ · ⧖ 2026-11-07
 
 ## Agents
 
