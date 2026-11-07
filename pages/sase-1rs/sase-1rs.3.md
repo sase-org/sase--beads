@@ -41,7 +41,9 @@ auth: implement the setup wizard and a PKCE login that accepts either a loopback
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1rs.2][1] | Check whether the parallel auth phase has started work that could conflict with the scaffold commit | 1 |
+| read-by | [agent:sase-1rs.3][2] | Need the phase scope and design file | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rs.2/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rs.3/README.md
 
 <!-- sase:referenced-by:end -->

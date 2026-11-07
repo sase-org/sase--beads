@@ -27,7 +27,7 @@ scaffold: build the package skeleton with every dependency declared, and impleme
 
 - **Depends on:** [sase-1rs.1](sase-1rs.1.md) ✓ · ⧖ 2026-11-07
 - **Blocks:** [sase-1rs.3](sase-1rs.3.md) ✓ · ⧖ 2026-11-07
-- **Blocks:** [sase-1rs.4](sase-1rs.4.md) ◐ · ⧖ 2026-11-07
+- **Blocks:** [sase-1rs.4](sase-1rs.4.md) ✓ · ⧖ 2026-11-07
 
 ## Agents
 
