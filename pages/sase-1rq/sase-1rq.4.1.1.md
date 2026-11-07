@@ -93,7 +93,7 @@ Other failures on the same job:
 
 PROPOSED FOLLOW-UP: Harden CaptureS
 
-… and 3650 more characters
+… and 6491 more characters
 
 ## Dependencies
 

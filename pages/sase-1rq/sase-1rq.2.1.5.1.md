@@ -7,6 +7,18 @@
 **Created:** 2026-11-07 11:09:41 EST
 **Plan:** [202611/full\_ci\_remaining\_repairs.md](https://github.com/sase-org/sase--plans/blob/main/202611/full_ci_remaining_repairs.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202611/full_ci_remaining_repairs.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/sase-org/sase--plans/blob/main/202611/full_ci_remaining_repairs.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 Repair the remaining Files and Main deck races and CI-only snapshot differences, integrate the separately owned bulk golden repair, and prove a first-attempt green Full CI run on master containing every fix.
