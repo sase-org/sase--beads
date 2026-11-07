@@ -15,10 +15,4 @@ dotfiles: remove the ripgrep dependency (or provision it) behind the "rg: comman
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1rq.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.5.md) | [sase-1rq.5](sase-1rq.5.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| chezmoi | [`chezmoi@28fd5c7`](https://github.com/bbugyi200/dotfiles/commit/28fd5c78dac932cb948121b71823a3887a69a9aa) | fix(tests): use grep instead of rg in doctl\_login\_test | [sase-1rq.5](sase-1rq.5.md) | 2026-11-07 08:04:09 EST |
+| [bbugyi200.athena.sase-1rq.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.5.md) | [sase-1rq.5](sase-1rq.5.md) | 0 |
