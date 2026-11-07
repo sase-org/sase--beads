@@ -27,7 +27,7 @@ evidence: Add bounded, outcome-neutral contention diagnostics and obtain a monit
 
 ## Dependencies
 
-- **Blocks:** [sase-1rq.2.1.4.1.2](sase-1rq.2.1.4.1.2.md) ◐ · ⧖ 2026-11-07
+- **Blocks:** [sase-1rq.2.1.4.1.2](sase-1rq.2.1.4.1.2.md) ✓ · ⧖ 2026-11-07
 
 ## Agents
 

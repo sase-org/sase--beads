@@ -13,7 +13,7 @@ failures: Group the complete repeat's failing nodes by cause, repair timing and 
 
 ## Dependencies
 
-- **Depends on:** [sase-1rq.2.1.4.1.2](sase-1rq.2.1.4.1.2.md) ◐ · ⧖ 2026-11-07
+- **Depends on:** [sase-1rq.2.1.4.1.2](sase-1rq.2.1.4.1.2.md) ✓ · ⧖ 2026-11-07
 - **Blocks:** [sase-1rq.2.1.4.1.4](sase-1rq.2.1.4.1.4.md) ◐ · ⧖ 2026-11-07
 
 ## Agents
