@@ -1,0 +1,24 @@
+# Bead: sase-1rs.4 — Web API client, cache, library service, privacy guard, and fake Spotify
+
+[Bead Pages](../README.md) / [sase-1rs](README.md) / sase-1rs.4
+
+**Status:** ◐ in_progress · **Type:** ↳ phase
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.19n](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.19n.md) · **Assignee:** `sase-1rs.4` · **Size:** medium
+**Created:** 2026-11-07 10:56:00 EST
+**Plan:** [202611/spotify\_agent\_access.md](https://github.com/sase-org/sase--plans/blob/main/202611/spotify_agent_access.md)
+
+## Description
+
+api: implement the thin Web API client, with typed models for both item shapes, pagination, and rate-limit, quota, and budget handling. Add the snapshot-keyed cache, the library service with reference resolution, the privacy guard, and the stateful fake Spotify that every test uses.
+
+## Dependencies
+
+- **Depends on:** [sase-1rs.2](sase-1rs.2.md) ✓ · ⧖ 2026-11-07
+- **Blocks:** [sase-1rs.5](sase-1rs.5.md) ◐ · ⧖ 2026-11-07
+- **Blocks:** [sase-1rs.6](sase-1rs.6.md) ◐ · ⧖ 2026-11-07
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-1rs.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rs.4/README.md) | [sase-1rs.4](sase-1rs.4.md) | 0 |
