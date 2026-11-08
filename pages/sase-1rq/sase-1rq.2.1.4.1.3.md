@@ -32,7 +32,7 @@ failures: Group the complete repeat's failing nodes by cause, repair timing and 
 ## Dependencies
 
 - **Depends on:** [sase-1rq.2.1.4.1.2](sase-1rq.2.1.4.1.2.md) ✓ · ⧖ 2026-11-07
-- **Blocks:** [sase-1rq.2.1.4.1.4](sase-1rq.2.1.4.1.4.md) ◐ · ⧖ 2026-11-07
+- **Blocks:** [sase-1rq.2.1.4.1.4](sase-1rq.2.1.4.1.4.md) ✓ · ⧖ 2026-11-07
 
 ## Agents
 
@@ -54,7 +54,9 @@ failures: Group the complete repeat's failing nodes by cause, repair timing and 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1rq.2.1.4.1.2--1][1] | Check whether the failures phase is waiting on this survival bead before deciding to extend survival | 1 |
+| read-by | [agent:sase-1rq.2.1.4.1.3--1][2] | Follow-up after full contention repeat; need FIXES note and prior notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.2.1.4.1.2.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.2.1.4.1.3.md
 
 <!-- sase:referenced-by:end -->

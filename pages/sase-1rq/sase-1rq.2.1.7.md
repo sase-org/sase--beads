@@ -11,6 +11,10 @@
 
 verify: with every phase's fixes on master, dispatch or await Full CI, CI Telemetry, and Publish on the tip. Watch Master Gate and the release PR's CI. Repair any residual red across monitor turns. Then publish ci_evidence plus the Markdown table, or the research report under the parent contract's very-large-effort rule.
 
+## Notes
+
+[2026-11-08T04:42:30Z · sase-1rq.2.1.4.1.land] CONTENTION LANDING STATUS: reviewed latest Telemetry 42437776062 attempt 1 on current master 539afb211e; contention-test job 128603421769 was cancelled at 90m (29354/60569 completed, 17 failed reports, no final tally). The prior confirmation phase closed with partial evidence, not success. Epic sase-1rq.2.1.4.1 and its parent phase sase-1rq.2.1.4 remain open; a linked child epic is being proposed for measured runtime repair, interruption evidence, remaining failures and hosted confirmation. This lander publishes ci_evidence with complete=false. Follow-up triage is recorded on the epic. Do not treat this job or CI Telemetry as green.
+
 ## Dependencies
 
 - **Depends on:** [sase-1rq.2.1.1](sase-1rq.2.1.1.md) ✓ · ⧖ 2026-11-07
