@@ -42,3 +42,15 @@ verify-full-ci: confirm all child fixes and sase-1r2.6's bulk golden repair land
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`dd5567e`](https://github.com/sase-org/sase/commit/dd5567e5801095c709f7145dd7d6cdfe2a7d8673) | fix(ci): land the AGENT PROMPT golden repair and capacity hostname pin | [sase-1rq.2.1.5.1.4](sase-1rq.2.1.5.1.4.md) | 2026-11-07 16:07:57 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1rq.2.1.5.1.land][1] | Need complete integration-phase notes and CI evidence | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rq.2.1.5.1.land/README.md
+
+<!-- sase:referenced-by:end -->

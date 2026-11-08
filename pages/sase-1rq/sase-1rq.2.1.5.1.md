@@ -19,6 +19,8 @@
 | related | file:explicit:8f73ab815d3b462256446ba3 | attached via sase artifact create --bead |
 | related | file:explicit:c4c3bfcaeb49e285a8624f33 | attached via sase artifact create --bead |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/sase-org/sase--plans/blob/main/202611/full_ci_remaining_repairs.md
 
 <!-- sase:links:end -->
@@ -57,10 +59,16 @@ Follow-up outcomes: .1#4 generalized Textual helper declined (no remaining faili
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1rq.2.1.5.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rq.2.1.5.1.land/README.md) | [sase-1rq.2.1.5.1](sase-1rq.2.1.5.1.md) | 1 |
+| [bbugyi200.athena.sase-1rq.2.1.5.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rq.2.1.5.1.land/README.md) | [sase-1rq.2.1.5.1](sase-1rq.2.1.5.1.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase--plans | [`sase--plans@82c7e7b`](https://github.com/sase-org/sase--plans/commit/82c7e7b704786152a6e815e3b58651e1346f2823) | chore(plans): mark Full CI repair epic complete | [sase-1rq.2.1.5.1](sase-1rq.2.1.5.1.md) | 2026-11-07 18:40:51 EST |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1rq.2.1.5.1.land][1] | Need the parent link | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rq.2.1.5.1.land/README.md
+
+<!-- sase:referenced-by:end -->
