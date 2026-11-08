@@ -17,6 +17,8 @@ failures: repair every failure family from the completed repeat without weakenin
 
 [2026-11-08T09:12:41Z · sase-1rq.2.1.4.1.5.2--1] Complete py312 contention repeat nchwjrsd0sjp (SHA ea5c1f0561, 60578 passed / 3 failed / 21 skipped in 4355s, 26 workers, CPUs 0-1): pytest FAILED tests/ace/tui/test_app_title.py::test_on_mount_refines_title_to_resolved_version (15s mount hang guard), tests/ace/tui/test_macro_browser_load_keymap.py::test_enter_returns_while_macro_file_read_is_blocked (10s wait_for hang guard), tests/test_core_rust.py::test_require_rust_extension_raises_when_missing (live install_context was other, not checkout_venv). Harness tally listed tests/t.py::test_before_cancel because test_interrupted_failure_reports_stay_separate_from_completed_tally called main(["contention"]) without isolating CONTENTION_ARTIFACT_DIRECTORY and rmtree/overwrote parent repeat-01.json. Related beads sase-1s2/1s3/1s4/xo/1rf/1nf.10.1 did not recur. Repairs: pin rust test to checkout_venv; title/macro waits use DEFAULT_WAIT_TIMEOUT/LOAD_TOLERANT_TIMEOUT hang detectors; SASE_CONTENTION_ACTIVE nested artifact dir; isolate the interrupted-tally test. Serial 9 passed; contended -n 8 on CPUs 0-1: 74 passed (macro node 12.96s, above the old 10s bound). Next: sase tool run check, then an unchanged-shape full py312 repeat.
 
+[2026-11-08T11:00:17Z · sase-1rq.2.1.4.1.5.2--2] Complete py312 contention repeat y3mjfkcrrhe9 (SHA dde1ada139, 60579 passed / 3 failed / 21 skipped in 4351s, 26 workers, CPUs 0-1): pytest FAILED tests/ace/tui/test_artifacts_agents_loading.py::test_agent_first_page_paints_before_full_extension (synchronous full_started.wait starved run_worker/call_later; loop stall recovered after 60.102s), tests/ace/tui/test_update_toast_startup.py::test_startup_update_toast_appears_once_in_tui (12s toast timeout expired during pause after ~10s stall), tests/ace/tui/widgets/test_auto_macro_completion.py::test_vcs_tag_project_namespace_opens_project_macro_menu (empty-text soft-completion requested project=None before VCS tag resolved). Related beads sase-1s2/1s3/1s4/xo/1rf/1nf.10.1 did not recur. Repairs: page.wait_for(full_started.is_set()); pin _TOAST_TIMEOUT_SECONDS to 3*LOAD_TOLERANT_TIMEOUT; wait_for_canonical_catalog_project drops empty-text None lookups. Serial 5 passed; contended SASE_PYTEST_WORKERS=8 on CPUs 0-1: 39 passed (agents-loading 8.35s, toast 8.25s, vcs-tag menu 0.66s). Next: sase tool run check, then an unchanged-shape full py312 repeat.
+
 ## Dependencies
 
 - **Depends on:** [sase-1rq.2.1.4.1.5.1](sase-1rq.2.1.4.1.5.1.md) ✓ · ⧖ 2026-11-07
@@ -26,10 +28,23 @@ failures: repair every failure family from the completed repeat without weakenin
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1rq.2.1.4.1.5.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.2.1.4.1.5.2.md) | [sase-1rq.2.1.4.1.5.2](sase-1rq.2.1.4.1.5.2.md) | 1 |
+| [bbugyi200.athena.sase-1rq.2.1.4.1.5.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.2.1.4.1.5.2.md) | [sase-1rq.2.1.4.1.5.2](sase-1rq.2.1.4.1.5.2.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`dde1ada`](https://github.com/sase-org/sase/commit/dde1ada139e5698b8723b2166fab97d65d3d0f7c) | fix(test): isolate contention hang guards and nested soak records | [sase-1rq.2.1.4.1.5.2](sase-1rq.2.1.4.1.5.2.md) | 2026-11-08 04:31:55 EST |
+| sase | [`2400e61`](https://github.com/sase-org/sase/commit/2400e61e938c0535ca3de61e83f63f698c8b25c2) | fix(test): keep contended TUI waits off the event loop | [sase-1rq.2.1.4.1.5.2](sase-1rq.2.1.4.1.5.2.md) | 2026-11-08 06:12:38 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1rq.2.1.4.1.5.2--1][1] | Need remaining description, DECISIONS, and design after truncated first read | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.2.1.4.1.5.2.md
+
+<!-- sase:referenced-by:end -->
