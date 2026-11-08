@@ -29,6 +29,10 @@ failures: repair every failure family from the completed repeat without weakenin
 
 [2026-11-08T21:06:21Z · sase-1rq.2.1.4.1.5.2--7] Complete py312 contention repeat sgssd0zxfape (SHA 8f82a88607, 60596 passed / 1 failed / 21 skipped in 4643s, 26 workers, CPUs 0-1): pytest FAILED tests/ace/tui/test_commits_pane_collection.py::test_unlimited_commits_status_follows_backend_coverage_without_a_query_cap[above-old-default-cap] (status was preview; wait treated preview as exact because neither contains capped; collection apply re-canonicalized since:24h on the UI thread and missed the snapshot-worker query cache). Related beads sase-1s2/1s3/1s4/xo/1rf/1nf.10.1 did not recur. Peaks: cgroup 16.1G, soak rss 14.9G, soak swap 0.9G, oom_kill 0, pressure_memory_full 1.12, min_mem_available 19.1G, collected 26/26 (60617) tests 60617 done 1 failed. Repairs: _apply_result passes initial_query_result into _filtered_result so first paint does not re-query; wait_for requires status.content.plain == exact/capped; isolation test keeps exact when ArtifactQuerySession.result always misses. Serial 27 passed; contended SASE_PYTEST_WORKERS=8 on CPUs 0-1: 49 passed (above-old-default-cap 1.31s). sase tool run check 682cfec66e27f7d2e0e65cee95e20bc4 succeeded. Next: unchanged-shape full py312 repeat.
 
+[2026-11-08T23:04:23Z · sase-1rq.2.
+
+… and 1150 more characters
+
 ## Dependencies
 
 - **Depends on:** [sase-1rq.2.1.4.1.5.1](sase-1rq.2.1.4.1.5.1.md) ✓ · ⧖ 2026-11-07
@@ -38,7 +42,7 @@ failures: repair every failure family from the completed repeat without weakenin
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1rq.2.1.4.1.5.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.2.1.4.1.5.2.md) | [sase-1rq.2.1.4.1.5.2](sase-1rq.2.1.4.1.5.2.md) | 7 |
+| [bbugyi200.athena.sase-1rq.2.1.4.1.5.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.2.1.4.1.5.2.md) | [sase-1rq.2.1.4.1.5.2](sase-1rq.2.1.4.1.5.2.md) | 8 |
 
 ## Commits
 
@@ -51,6 +55,7 @@ failures: repair every failure family from the completed repeat without weakenin
 | sase | [`11de7c8`](https://github.com/sase-org/sase/commit/11de7c8591e506af66ae7029480e0e64a86011a0) | fix(test): bound TUI settle and zsh PTY waits under contention | [sase-1rq.2.1.4.1.5.2](sase-1rq.2.1.4.1.5.2.md) | 2026-11-08 12:40:57 EST |
 | sase | [`8f82a88`](https://github.com/sase-org/sase/commit/8f82a88607750ed1c87156b0656220b30a96b19d) | fix(test): pin post-update toast timeout under contention | [sase-1rq.2.1.4.1.5.2](sase-1rq.2.1.4.1.5.2.md) | 2026-11-08 14:20:39 EST |
 | sase | [`7190490`](https://github.com/sase-org/sase/commit/719049003053750ddf089d7eab53af5eee6a294c) | fix(tui): keep stitches first-paint coverage exact under contention | [sase-1rq.2.1.4.1.5.2](sase-1rq.2.1.4.1.5.2.md) | 2026-11-08 16:08:03 EST |
+| sase | [`9c4cebe`](https://github.com/sase-org/sase/commit/9c4cebea9820b5917f9027f70aa2a0409edb6ba9) | fix: stabilize bump microbench and provider timer under contention | [sase-1rq.2.1.4.1.5.2](sase-1rq.2.1.4.1.5.2.md) | 2026-11-08 18:06:48 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -64,6 +69,7 @@ failures: repair every failure family from the completed repeat without weakenin
 | read-by | [agent:sase-1rq.2.1.4.1.5.2--4][1] | Need the phase scope, design file, DECISIONS, and notes | 1 |
 | read-by | [agent:sase-1rq.2.1.4.1.5.2--5][1] | Need the phase scope, notes, and design file for the contention completion phase | 1 |
 | read-by | [agent:sase-1rq.2.1.4.1.5.2--6][1] | Need the phase scope, design file, notes, and DECISIONS before inspecting this complete red tally | 1 |
+| read-by | [agent:sase-1rq.2.1.4.1.5.2--7][1] | Need the phase scope, notes, and parent DECISIONS before repairing the latest contention failure | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.2.1.4.1.5.2.md
 
