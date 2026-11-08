@@ -154,7 +154,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1rq.2.1.4.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.2.1.4.1.3.md) | [sase-1rq.2.1.4.1.3](sase-1rq.2.1.4.1.3.md) | 2 |
 | [bbugyi200.athena.sase-1rq.2.1.4.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.2.1.4.1.4.md) | [sase-1rq.2.1.4.1.4](sase-1rq.2.1.4.1.4.md) | 0 |
 | [bbugyi200.athena.sase-1rq.2.1.4.1.5.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.2.1.4.1.5.1.md) | [sase-1rq.2.1.4.1.5.1](sase-1rq.2.1.4.1.5.1.md) | 1 |
-| [bbugyi200.athena.sase-1rq.2.1.4.1.5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rq.2.1.4.1.5.2/README.md) | [sase-1rq.2.1.4.1.5.2](sase-1rq.2.1.4.1.5.2.md) | 0 |
+| [bbugyi200.athena.sase-1rq.2.1.4.1.5.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.2.1.4.1.5.2.md) | [sase-1rq.2.1.4.1.5.2](sase-1rq.2.1.4.1.5.2.md) | 1 |
 | [bbugyi200.athena.sase-1rq.2.1.4.1.5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rq.2.1.4.1.5.3/README.md) | [sase-1rq.2.1.4.1.5.3](sase-1rq.2.1.4.1.5.3.md) | 0 |
 | [bbugyi200.athena.sase-1rq.2.1.4.1.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rq.2.1.4.1.5.land/README.md) | [sase-1rq.2.1.4.1.5](sase-1rq.2.1.4.1.5.md) | 0 |
 | [bbugyi200.athena.sase-1rq.2.1.4.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.2.1.4.1.land.md) | [sase-1rq.2.1.4.1](sase-1rq.2.1.4.1.md) | 0 |
@@ -204,6 +204,7 @@ flowchart TD
 | sase | [`4a7ce0f`](https://github.com/sase-org/sase/commit/4a7ce0f3302c558a595c5c907c1e9c0a01864d74) | fix(tests): repair the 94 failures the completed contention repeat exposed | [sase-1rq.2.1.4.1.3](sase-1rq.2.1.4.1.3.md) | 2026-11-07 19:01:16 EST |
 | sase | [`539afb2`](https://github.com/sase-org/sase/commit/539afb211e381bd3b1d708baa19eefc649132aa7) | fix(tests): repair the 8 failures the full contention repeat left | [sase-1rq.2.1.4.1.3](sase-1rq.2.1.4.1.3.md) | 2026-11-07 21:09:01 EST |
 | sase | [`ea5c1f0`](https://github.com/sase-org/sase/commit/ea5c1f0561791105710dca52dbb375a1c547b9f9) | perf(contention): single-scan markdown guards and interruption-evidence diagnostics | [sase-1rq.2.1.4.1.5.1](sase-1rq.2.1.4.1.5.1.md) | 2026-11-08 02:25:28 EST |
+| sase | [`dde1ada`](https://github.com/sase-org/sase/commit/dde1ada139e5698b8723b2166fab97d65d3d0f7c) | fix(test): isolate contention hang guards and nested soak records | [sase-1rq.2.1.4.1.5.2](sase-1rq.2.1.4.1.5.2.md) | 2026-11-08 04:31:55 EST |
 
 <!-- sase:referenced-by:start -->
 

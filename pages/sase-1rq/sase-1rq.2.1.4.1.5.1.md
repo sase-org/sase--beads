@@ -32,3 +32,15 @@ runtime: profile the Python 3.12 contention workload, repair the dominant measur
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`ea5c1f0`](https://github.com/sase-org/sase/commit/ea5c1f0561791105710dca52dbb375a1c547b9f9) | perf(contention): single-scan markdown guards and interruption-evidence diagnostics | [sase-1rq.2.1.4.1.5.1](sase-1rq.2.1.4.1.5.1.md) | 2026-11-08 02:25:28 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1rq.2.1.4.1.5.1--2][1] | Need phase scope and design to close after complete contention repeat | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.2.1.4.1.5.1.md
+
+<!-- sase:referenced-by:end -->
