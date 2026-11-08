@@ -23,6 +23,8 @@ failures: repair every failure family from the completed repeat without weakenin
 
 [2026-11-08T15:33:57Z · sase-1rq.2.1.4.1.5.2--4] Complete py312 contention repeat qc8w44552q7q (SHA 229f85a998, 60583 passed / 4 failed / 21 skipped in 4715s, 26 workers, CPUs 0-1): pytest FAILED tests/fakey/test_cli.py::test_sigterm_during_barrier_exits_cleanly (2s started-file hang guard), tests/test_config_cache_isolation.py::test_blocked_refresh_worker_does_not_poison_a_later_config_read (nested pytest timeout 60s, SIGKILL after TimeoutExpired), tests/test_notification_modal_scroll.py::test_uppercase_g_reaches_detail_bottom_from_real_input_path[#notification-list-shift+g-G] (single pilot.pause after Key left scroll_y at 100 of 221), tests/fakey/test_provider_drain_e2e.py::test_provider_drain_e2e_relaunches_stranded_agent (_wait_for_json 30s expired waiting for replacement done.json). Related beads sase-1s2/1s3/1s4/xo/1rf/1nf.10.1 did not recur. Peaks: cgroup 13.3G, soak rss 13.2G, soak swap 3.3G, oom_kill 0, pressure_memory_full 12.6, collected 26/26 (60607) tests 60607 done 4 failed. Repairs: fakey CLI started/wait hang guards use LOAD_TOLERANT_TIMEOUT; nested pytest uses 3*LOAD_TOLERANT_TIMEOUT; notification G/g waits use wait_for on scroll_y; drain grandchild JSON waits use _DRAIN_WAIT_TIMEOUT and report last payload. Serial 14 passed; contended SASE_PYTEST_WORKERS=8 on CPUs 0-1: 126 passed (drain e2e 26.91s, nested pytest 16.95s, both above the old bounds). sase tool run check f271a90bfada6ca42e7a614bb494cd73 succeeded. Next: unchanged-shape full py312 repeat.
 
+[2026-11-08T17:39:09Z · sase-1rq.2.1.4.1.5.2--5] Complete py312 contention repeat h1tfhztprh27 (SHA 6a6cc2b426, 60590 passed / 5 failed / 21 skipped in 4728s, 26 workers, CPUs 0-1): pytest FAILED tests/ace/tui/command_line/test_panel_shell_pilot.py::test_empty_panel_escape_follows_the_hide_panel_binding (5s AcePage.press hang guard), tests/ace/tui/test_config_pane_widget_jump.py::test_config_jump_preserves_collapsed_sections (settle_pilot Pilot.pause(0) WaitForScreenTimeout 30s during AcePage enter), tests/ace/tui/test_gate_input_panel_layout.py::test_tab_reaches_every_field_and_scrolls_it_into_view (same WaitForScreenTimeout during wait_for_terminal), tests/completion/test_zsh_smoke.py::test_tab_completes_after_root_print_command_option (zsh PTY _read_until 5s), tests/completion/test_zsh_smoke.py::test_dynamic_completion_does_not_leak_extendedglob_to_shell (same 5s PTY marker wait). Related beads sase-1s2/1s3/1s4/xo/1rf/1nf.10.1 did not recur. Peaks: cgroup 14.4G, soak rss 14.0G, soak swap 2.5G, oom_kill 0, pressure_memory_full 45.25, min_mem_available 6.5G, collected 26/26 (60615) tests 60615 done 5 failed. Repairs: settle_pilot bounds pause with _REFRESH_TIMEOUT_SECONDS and returns on TimeoutError/WaitForScreenTimeout; AcePage.press hang detector DEFAULT_WAIT_TIMEOUT; remaining 5s press wraps use LOAD_TOLERANT_TIMEOUT; gate tab loop wait_for focus change; zsh PTY READY/marker/file waits use LOAD_TOLERANT_TIMEOUT. Serial 21 passed; contended SASE_PYTEST_WORKERS=8 on CPUs 0-1: 56 passed (empty-panel escape 12.53s, above the old 5s bound). sase tool run check b04bef56db82dacb850e586b94500810 succeeded. Next: unchanged-shape full py312 repeat.
+
 ## Dependencies
 
 - **Depends on:** [sase-1rq.2.1.4.1.5.1](sase-1rq.2.1.4.1.5.1.md) ✓ · ⧖ 2026-11-07
@@ -32,7 +34,7 @@ failures: repair every failure family from the completed repeat without weakenin
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1rq.2.1.4.1.5.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.2.1.4.1.5.2.md) | [sase-1rq.2.1.4.1.5.2](sase-1rq.2.1.4.1.5.2.md) | 4 |
+| [bbugyi200.athena.sase-1rq.2.1.4.1.5.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.2.1.4.1.5.2.md) | [sase-1rq.2.1.4.1.5.2](sase-1rq.2.1.4.1.5.2.md) | 5 |
 
 ## Commits
 
@@ -42,6 +44,7 @@ failures: repair every failure family from the completed repeat without weakenin
 | sase | [`2400e61`](https://github.com/sase-org/sase/commit/2400e61e938c0535ca3de61e83f63f698c8b25c2) | fix(test): keep contended TUI waits off the event loop | [sase-1rq.2.1.4.1.5.2](sase-1rq.2.1.4.1.5.2.md) | 2026-11-08 06:12:38 EST |
 | sase | [`229f85a`](https://github.com/sase-org/sase/commit/229f85a998cb8fade8a4331f3ac4877b5104adf9) | fix(test): keep contended subprocess waits load-tolerant | [sase-1rq.2.1.4.1.5.2](sase-1rq.2.1.4.1.5.2.md) | 2026-11-08 08:33:25 EST |
 | sase | [`6a6cc2b`](https://github.com/sase-org/sase/commit/6a6cc2b4268eb6c14f70d20f58d1a5e3cbc43580) | fix(test): keep contended nested and TUI waits load-tolerant | [sase-1rq.2.1.4.1.5.2](sase-1rq.2.1.4.1.5.2.md) | 2026-11-08 10:36:05 EST |
+| sase | [`11de7c8`](https://github.com/sase-org/sase/commit/11de7c8591e506af66ae7029480e0e64a86011a0) | fix(test): bound TUI settle and zsh PTY waits under contention | [sase-1rq.2.1.4.1.5.2](sase-1rq.2.1.4.1.5.2.md) | 2026-11-08 12:40:57 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -52,6 +55,7 @@ failures: repair every failure family from the completed repeat without weakenin
 | read-by | [agent:sase-1rq.2.1.4.1.5.2--1][1] | Need remaining description, DECISIONS, and design after truncated first read | 2 |
 | read-by | [agent:sase-1rq.2.1.4.1.5.2--2][1] | Need the phase scope, design file, notes, and DECISIONS after the y3mjfk red tally | 1 |
 | read-by | [agent:sase-1rq.2.1.4.1.5.2--3][1] | Need the phase scope, design file, DECISIONS, and notes after complete red tally from monitor przd5aakw2gc | 1 |
+| read-by | [agent:sase-1rq.2.1.4.1.5.2--4][1] | Need the phase scope, design file, DECISIONS, and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.2.1.4.1.5.2.md
 
