@@ -19,6 +19,8 @@ failures: repair every failure family from the completed repeat without weakenin
 
 [2026-11-08T11:00:17Z · sase-1rq.2.1.4.1.5.2--2] Complete py312 contention repeat y3mjfkcrrhe9 (SHA dde1ada139, 60579 passed / 3 failed / 21 skipped in 4351s, 26 workers, CPUs 0-1): pytest FAILED tests/ace/tui/test_artifacts_agents_loading.py::test_agent_first_page_paints_before_full_extension (synchronous full_started.wait starved run_worker/call_later; loop stall recovered after 60.102s), tests/ace/tui/test_update_toast_startup.py::test_startup_update_toast_appears_once_in_tui (12s toast timeout expired during pause after ~10s stall), tests/ace/tui/widgets/test_auto_macro_completion.py::test_vcs_tag_project_namespace_opens_project_macro_menu (empty-text soft-completion requested project=None before VCS tag resolved). Related beads sase-1s2/1s3/1s4/xo/1rf/1nf.10.1 did not recur. Repairs: page.wait_for(full_started.is_set()); pin _TOAST_TIMEOUT_SECONDS to 3*LOAD_TOLERANT_TIMEOUT; wait_for_canonical_catalog_project drops empty-text None lookups. Serial 5 passed; contended SASE_PYTEST_WORKERS=8 on CPUs 0-1: 39 passed (agents-loading 8.35s, toast 8.25s, vcs-tag menu 0.66s). Next: sase tool run check, then an unchanged-shape full py312 repeat.
 
+[2026-11-08T13:31:27Z · sase-1rq.2.1.4.1.5.2--3] Complete py312 contention repeat przd5aakw2gc (SHA 2400e61e93, 60579 passed / 3 failed / 21 skipped in 4659s, 26 workers, CPUs 0-1): pytest FAILED tests/ace/tui/test_live_reply_follow_mounted_session.py::test_gated_muse_stream_reaches_mounted_session_current_turn_reply (gated_muse_script wait_for 8s and wait_for_page 5s pause; process.poll() was not None after a pump stall), tests/test_provider_disable.py::test_facade_try_disable_one_winner_under_process_contention (communicate timeout 10s while six workers imported sase under swap; peaks soak swap 4.6G, pressure_memory_full 25.14), tests/llm_provider/test_codex_usage_probe.py::test_descendant_processes_are_reaped (os.kill(pid,0) treated a SIGKILL zombie as live). Related beads sase-1s2/1s3/1s4/xo/1rf/1nf.10.1 did not recur. Repairs: wait_for_page uses settle_pilot DEFAULT_WAIT_TIMEOUT; muse gate/parser/process waits use LOAD_TOLERANT_TIMEOUT; provider-disable communicate uses one shared LOAD_TOLERANT hang guard plus leftover kill; wait_until_reaped treats zombies as gone. Serial 5 passed; contended SASE_PYTEST_WORKERS=8 on CPUs 0-1: 58 passed (live-reply session 15.55s, above the old 8s bound). sase tool run check 772e940304d545c1c45c7f247c2c5f7b succeeded. Next: unchanged-shape full py312 repeat.
+
 ## Dependencies
 
 - **Depends on:** [sase-1rq.2.1.4.1.5.1](sase-1rq.2.1.4.1.5.1.md) ✓ · ⧖ 2026-11-07
@@ -28,7 +30,7 @@ failures: repair every failure family from the completed repeat without weakenin
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1rq.2.1.4.1.5.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.2.1.4.1.5.2.md) | [sase-1rq.2.1.4.1.5.2](sase-1rq.2.1.4.1.5.2.md) | 2 |
+| [bbugyi200.athena.sase-1rq.2.1.4.1.5.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.2.1.4.1.5.2.md) | [sase-1rq.2.1.4.1.5.2](sase-1rq.2.1.4.1.5.2.md) | 3 |
 
 ## Commits
 
@@ -36,6 +38,7 @@ failures: repair every failure family from the completed repeat without weakenin
 |---|---|---|---|---|
 | sase | [`dde1ada`](https://github.com/sase-org/sase/commit/dde1ada139e5698b8723b2166fab97d65d3d0f7c) | fix(test): isolate contention hang guards and nested soak records | [sase-1rq.2.1.4.1.5.2](sase-1rq.2.1.4.1.5.2.md) | 2026-11-08 04:31:55 EST |
 | sase | [`2400e61`](https://github.com/sase-org/sase/commit/2400e61e938c0535ca3de61e83f63f698c8b25c2) | fix(test): keep contended TUI waits off the event loop | [sase-1rq.2.1.4.1.5.2](sase-1rq.2.1.4.1.5.2.md) | 2026-11-08 06:12:38 EST |
+| sase | [`229f85a`](https://github.com/sase-org/sase/commit/229f85a998cb8fade8a4331f3ac4877b5104adf9) | fix(test): keep contended subprocess waits load-tolerant | [sase-1rq.2.1.4.1.5.2](sase-1rq.2.1.4.1.5.2.md) | 2026-11-08 08:33:25 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -44,6 +47,7 @@ failures: repair every failure family from the completed repeat without weakenin
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1rq.2.1.4.1.5.2--1][1] | Need remaining description, DECISIONS, and design after truncated first read | 2 |
+| read-by | [agent:sase-1rq.2.1.4.1.5.2--2][1] | Need the phase scope, design file, notes, and DECISIONS after the y3mjfk red tally | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.2.1.4.1.5.2.md
 
