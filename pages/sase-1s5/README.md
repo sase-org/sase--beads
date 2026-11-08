@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/health_watch_fixes.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/sase-org/sase--plans/blob/main/202611/health_watch_fixes.md
 
 <!-- sase:links:end -->
@@ -27,8 +29,8 @@ Every "Wait dependency can never self-resolve" notice names the blocked agent (n
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-1s5.1](sase-1s5.1.md) | Terminal-blocked wait notices name their waiter, and the silent-waiter case is reproduced and closed | ✓ closed | medium | 2026-11-08 | 1 | 1 |
-| [sase-1s5.2](sase-1s5.2.md) | Batched dismissal-lineage resolution makes fleet snapshot builds fast | ◐ in_progress | medium | 2026-11-08 | 1 | 0 |
+| [sase-1s5.1](sase-1s5.1.md) | Terminal-blocked wait notices name their waiter, and the silent-waiter case is reproduced and closed | ✓ closed | medium | 2026-11-08 | 1 | 0 |
+| [sase-1s5.2](sase-1s5.2.md) | Batched dismissal-lineage resolution makes fleet snapshot builds fast | ✓ closed | medium | 2026-11-08 | 1 | 1 |
 | [sase-1s5.3](sase-1s5.3.md) | State repair finds dismissed bundles by exact run identity and never reads an incomplete lookup as live | ◐ in_progress | medium | 2026-11-08 | 1 | 0 |
 
 ## Lineage
@@ -37,7 +39,7 @@ Every "Wait dependency can never self-resolve" notice names the blocked agent (n
 flowchart TD
     n0["sase-1s5: Health-watch fixes: wait notices name their waiter, failed staged-monitor sessions never park waiters silently, fleet snapshots build within their refresh timeout, and dismissed runs converge in the published agents sidecar [in_progress]"]
     n1["sase-1s5.1: Terminal-blocked wait notices name their waiter, and the silent-waiter case is reproduced and closed [closed]"]
-    n2["sase-1s5.2: Batched dismissal-lineage resolution makes fleet snapshot builds fast [in_progress]"]
+    n2["sase-1s5.2: Batched dismissal-lineage resolution makes fleet snapshot builds fast [closed]"]
     n3["sase-1s5.3: State repair finds dismissed bundles by exact run identity and never reads an incomplete lookup as live [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -48,8 +50,8 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1s5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1s5.1/README.md) | [sase-1s5.1](sase-1s5.1.md) | 1 |
-| [bbugyi200.athena.sase-1s5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1s5.2/README.md) | [sase-1s5.2](sase-1s5.2.md) | 0 |
+| [bbugyi200.athena.sase-1s5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1s5.1/README.md) | [sase-1s5.1](sase-1s5.1.md) | 0 |
+| [bbugyi200.athena.sase-1s5.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1s5.2/README.md) | [sase-1s5.2](sase-1s5.2.md) | 1 |
 | [bbugyi200.athena.sase-1s5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1s5.3/README.md) | [sase-1s5.3](sase-1s5.3.md) | 0 |
 | [bbugyi200.athena.sase-1s5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1s5.land/README.md) | [sase-1s5](README.md) | 0 |
 
@@ -57,4 +59,16 @@ flowchart TD
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| sase | [`ed534b0`](https://github.com/sase-org/sase/commit/ed534b0a9f681842997bb07e38a02e0dcf478e1f) | fix(wait-checks): name waiter from agent\_meta and close silent-waiter gap | [sase-1s5.1](sase-1s5.1.md) | 2026-11-08 07:25:44 EST |
+| sase-core | [`sase-core@bee250a`](https://github.com/sase-org/sase-core/commit/bee250a33514a48e6bc422618c1a8c6ab661c039) | perf(agent-scan): batch dismissal-lineage walks by project/workflow pair | [sase-1s5.2](sase-1s5.2.md) | 2026-11-08 07:42:12 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1s5.1][1] | Need epic context | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1s5.1/README.md
+
+<!-- sase:referenced-by:end -->

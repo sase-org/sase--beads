@@ -19,10 +19,16 @@ wait-notice-fixes: resolve the Waiter label from the waiter's agent_meta.json in
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1s5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1s5.1/README.md) | [sase-1s5.1](sase-1s5.1.md) | 1 |
+| [bbugyi200.athena.sase-1s5.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1s5.1/README.md) | [sase-1s5.1](sase-1s5.1.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase | [`ed534b0`](https://github.com/sase-org/sase/commit/ed534b0a9f681842997bb07e38a02e0dcf478e1f) | fix(wait-checks): name waiter from agent\_meta and close silent-waiter gap | [sase-1s5.1](sase-1s5.1.md) | 2026-11-08 07:25:44 EST |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1s5.1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1s5.1/README.md
+
+<!-- sase:referenced-by:end -->
