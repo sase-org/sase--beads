@@ -44,7 +44,7 @@ G1 (54) usage-probe subprocess deadline under contention (status 'timeout'/'erro
 ## Dependencies
 
 - **Depends on:** [sase-1rq.2.1.4.1.1](sase-1rq.2.1.4.1.1.md) ✓ · ⧖ 2026-11-07
-- **Blocks:** [sase-1rq.2.1.4.1.3](sase-1rq.2.1.4.1.3.md) ◐ · ⧖ 2026-11-07
+- **Blocks:** [sase-1rq.2.1.4.1.3](sase-1rq.2.1.4.1.3.md) ✓ · ⧖ 2026-11-07
 
 ## Agents
 

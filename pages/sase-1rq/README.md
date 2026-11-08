@@ -50,7 +50,7 @@ flowchart TD
     n8["sase-1rq.2.1.4.1: Make the default contention lane finish and pass [in_progress]"]
     n9["sase-1rq.2.1.4.1.1: Capture resource and progress evidence for the runner shutdown [closed]"]
     n10["sase-1rq.2.1.4.1.2: Fix the measured cause of contention runner death [closed]"]
-    n11["sase-1rq.2.1.4.1.3: Repair the failures exposed by the completed contention repeat [in_progress]"]
+    n11["sase-1rq.2.1.4.1.3: Repair the failures exposed by the completed contention repeat [closed]"]
     n12["sase-1rq.2.1.4.1.4: Confirm the contention job on landed master code [in_progress]"]
     n13["sase-1rq.2.1.5: Turn Full CI green alongside the sase-1r2.6 repair [closed]"]
     n14["sase-1rq.2.1.5.1: Finish the remaining Full CI repairs [closed]"]
@@ -141,7 +141,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1rq.2.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.2.1.4.md) | [sase-1rq.2.1.4](sase-1rq.2.1.4.md) | 0 |
 | [bbugyi200.athena.sase-1rq.2.1.4.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.2.1.4.1.1.md) | [sase-1rq.2.1.4.1.1](sase-1rq.2.1.4.1.1.md) | 1 |
 | [bbugyi200.athena.sase-1rq.2.1.4.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.2.1.4.1.2.md) | [sase-1rq.2.1.4.1.2](sase-1rq.2.1.4.1.2.md) | 2 |
-| [bbugyi200.athena.sase-1rq.2.1.4.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.2.1.4.1.3.md) | [sase-1rq.2.1.4.1.3](sase-1rq.2.1.4.1.3.md) | 1 |
+| [bbugyi200.athena.sase-1rq.2.1.4.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.2.1.4.1.3.md) | [sase-1rq.2.1.4.1.3](sase-1rq.2.1.4.1.3.md) | 2 |
 | [bbugyi200.athena.sase-1rq.2.1.4.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rq.2.1.4.1.4/README.md) | [sase-1rq.2.1.4.1.4](sase-1rq.2.1.4.1.4.md) | 0 |
 | [bbugyi200.athena.sase-1rq.2.1.4.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rq.2.1.4.1.land/README.md) | [sase-1rq.2.1.4.1](sase-1rq.2.1.4.1.md) | 0 |
 | [bbugyi200.athena.sase-1rq.2.1.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.2.1.5.md) | [sase-1rq.2.1.5](sase-1rq.2.1.5.md) | 0 |
@@ -187,6 +187,7 @@ flowchart TD
 | sase | [`8668755`](https://github.com/sase-org/sase/commit/8668755b3534f6d0065b1ccb3bc8461d96be26b2) | fix(tests): stop cross-test global leaks the full test-cost gate found | [sase-1rq.2.1.3](sase-1rq.2.1.3.md) | 2026-11-07 16:58:12 EST |
 | sase | [`291265f`](https://github.com/sase-org/sase/commit/291265f08a56fd3db5f224d1823568e0c8d0adde) | perf(flags): stream the feature-flag checker's AST parse so the contention soak keeps its memory headroom | [sase-1rq.2.1.4.1.2](sase-1rq.2.1.4.1.2.md) | 2026-11-07 17:13:01 EST |
 | sase | [`4a7ce0f`](https://github.com/sase-org/sase/commit/4a7ce0f3302c558a595c5c907c1e9c0a01864d74) | fix(tests): repair the 94 failures the completed contention repeat exposed | [sase-1rq.2.1.4.1.3](sase-1rq.2.1.4.1.3.md) | 2026-11-07 19:01:16 EST |
+| sase | [`539afb2`](https://github.com/sase-org/sase/commit/539afb211e381bd3b1d708baa19eefc649132aa7) | fix(tests): repair the 8 failures the full contention repeat left | [sase-1rq.2.1.4.1.3](sase-1rq.2.1.4.1.3.md) | 2026-11-07 21:09:01 EST |
 
 <!-- sase:referenced-by:start -->
 

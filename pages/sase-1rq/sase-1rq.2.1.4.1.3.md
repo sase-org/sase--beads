@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1rq.2.1.4.1](sase-1rq.2.1.4.1.md) / sase-1rq.2.1.4.1.3
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-1rq.2.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.2.1.4.md) · **Assignee:** `sase-1rq.2.1.4.1.3` · **Size:** medium
-**Created:** 2026-11-07 11:04:38 EST
+**Created:** 2026-11-07 11:04:38 EST · **Closed:** 2026-11-07 21:07:32 EST
 **Plan:** [202611/contention\_repair.md](https://github.com/sase-org/sase--plans/blob/main/202611/contention_repair.md)
 
 ## Description
@@ -25,6 +25,10 @@ failures: Group the complete repeat's failing nodes by cause, repair timing and 
 
 [2026-11-07T23:59:35Z · sase-1rq.2.1.4.1.3] PROPOSED FOLLOW-UP: tests/fakey/_runner_slot_harness.py default _WAIT_TIMEOUT is 30 s, below the 60 s tests/_load_tolerant.LOAD_TOLERANT_TIMEOUT hang-detector convention; align it so fakey e2e waits do not become the next contention failure family.
 
+[2026-11-08T02:06:49Z · sase-1rq.2.1.4.1.3--1] EVIDENCE (failures phase, full unchanged-shape repeat, monitor aa3fzgn042n3, tested SHA 4a7ce0f330 = previous turn's FIXES commit): command `systemd-run --user --scope -q -p MemoryMax=15G -p MemorySwapMax=4G -- env SASE_CONTENTION_REPEAT=1 just test-contention` (full default selection, 26 workers, taskset 0,1, dist=sharded, 1 repeat). TALLY: 8 failed / 60,568 passed / 20 skipped / 0 errors, 112 warnings, pytest 4548.58 s (soak 4554.7 s, monitor 1h15m57s of 2h30m); pytest exit 1, recipe exit 1 (Justfile line 779), monitor exit 1; contention tally 8 nodes, red repeats 1/1. COMPLETION: 60,595 collected (26/26 workers, 2079-2555 each, collection boundary +65.8 s..+80.8 s after configure); 26 worker progress records sum to 60,595; controller started=finished=60,595, nothing in flight at exit; no worker crashes or replacements; 10 hazardous self-kill calls, all signal tests targeting their own worker. RESOURCES vs survival jc6gbkn1bdjd (94 failed / 60,475 passed in 4709.74 s, cgroup at cap from +3254 s, swap 3.0G): cgroup peak 15.0G = MemoryMax (>=98% from +3435.5 s, memory.max events from +3482.5 s, 2,217 total), oom/oom_kill 0, cgroup swap peak 1.60G, soak RSS peak 15.05G / PSS 13.63G / swap 1.56G, min host MemAvailable 20.9G, PSI memory full peak 3.1. So: 94 -> 8 failures, cap reached ~180 s later, half the swap, 161 s faster. FAILURES and timing: toast +2426 s, fakey pipe +2798 s, pane grid +2870 s (before the cap); models panel +3737 s, inline SIGTERM +3745 s, monitor x3 +3873..+3919 s (after the cap; PSI was low except for the monitor trio). Load 35-60 on 2 CPUs, so each process got about 1/18-1/30 of a CPU. REPAIRS this turn (no skips, no quarantines, no CI gate or budget changes, no behavior-under-test bound inflated): F1 monitor x3 (test_monitor_start.py): `wait_for_done(timeout=10.0)` teardown waits after SIGTERM. The supervisor bootstrap records an early SIGTERM and acts on it after importing the monitor stack, which took >10 s at the soak share. Removed the explicit sub-60 s timeouts at all 23 wait_for_done hang guards in 9 monitor/staged files, so the 60 s POLL_TIMEOUT applies; done-content assertions unchanged. F2 test_models_panel_runner_limit: PRODUCT BUG in src/sase/ace/tui/modals/models_panel_display_options.py. `_replace_display` repainted cached `_top_rows`, whose effort/runner rows capture their snapshot at build time, so a snapshot landing after the provider snapshot rebuilt the rows never repainted (stuck at '10 configured'; load flips the worker order). New `_recapture_setting_rows()` (in-memory). New regression test test_runner_row_repaints_when_its_snapshot_lands_after_the_provider_rows fails on HEAD with exactly the soak's row text. F3 test_sigterm_leaves_run_running: the killer signalled 2 s after the handoff row appeared, but under load the launch outlasted 2 s. SIGTERM hit the worker's pre-existing handler (stderr 'Received SIGTERM - agent was killed'), then the follower ran into its 60 s soft ceiling (124). Readiness now = follower SIGTERM handler installed + handoff row. F4 test_pane_grid_properties (Hypothesis too_slow on a 2.76 s draw stall): GitHub Actions selects Hypothesis' built-in `ci` profile (no deadline, too_slow suppressed) through CI/GITHUB_ACTIONS; the local soak did not. tools/run_pytest contention now passes --hypothesis-profile=ci ahead of caller args (+ test, + docs/contribute/development.md). F5 fakey test_default_pipe...: the join covers parent finish + a whole successor run, measured at
+
+… and 4446 more characters
+
 ## Dependencies
 
 - **Depends on:** [sase-1rq.2.1.4.1.2](sase-1rq.2.1.4.1.2.md) ✓ · ⧖ 2026-11-07
@@ -34,13 +38,14 @@ failures: Group the complete repeat's failing nodes by cause, repair timing and 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1rq.2.1.4.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.2.1.4.1.3.md) | [sase-1rq.2.1.4.1.3](sase-1rq.2.1.4.1.3.md) | 1 |
+| [bbugyi200.athena.sase-1rq.2.1.4.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.2.1.4.1.3.md) | [sase-1rq.2.1.4.1.3](sase-1rq.2.1.4.1.3.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`4a7ce0f`](https://github.com/sase-org/sase/commit/4a7ce0f3302c558a595c5c907c1e9c0a01864d74) | fix(tests): repair the 94 failures the completed contention repeat exposed | [sase-1rq.2.1.4.1.3](sase-1rq.2.1.4.1.3.md) | 2026-11-07 19:01:16 EST |
+| sase | [`539afb2`](https://github.com/sase-org/sase/commit/539afb211e381bd3b1d708baa19eefc649132aa7) | fix(tests): repair the 8 failures the full contention repeat left | [sase-1rq.2.1.4.1.3](sase-1rq.2.1.4.1.3.md) | 2026-11-07 21:09:01 EST |
 
 <!-- sase:referenced-by:start -->
 
