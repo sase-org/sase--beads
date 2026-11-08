@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/contention_completion.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 5 automatic references — see [Referenced By](#referenced-by)._
+_Plus 6 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202611/contention_completion.md
 
@@ -42,6 +42,7 @@ The unchanged full default contention job completes within 90 minutes with zero 
 | read-by | [agent:sase-1rq.2.1.4.1.5.2--3][1] | Need DECISIONS JSON from parent epic | 2 |
 | read-by | [agent:sase-1rq.2.1.4.1.5.2--4][1] | Need DECISIONS array from parent epic | 3 |
 | read-by | [agent:sase-1rq.2.1.4.1.5.2--5][1] | Need DECISIONS JSON from parent epic | 3 |
+| read-by | [agent:sase-1rq.2.1.4.1.5.2--6][1] | Need DECISIONS JSON from parent epic | 3 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.2.1.4.1.5.2.md
 
