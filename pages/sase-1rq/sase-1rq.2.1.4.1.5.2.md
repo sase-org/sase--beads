@@ -25,6 +25,8 @@ failures: repair every failure family from the completed repeat without weakenin
 
 [2026-11-08T17:39:09Z · sase-1rq.2.1.4.1.5.2--5] Complete py312 contention repeat h1tfhztprh27 (SHA 6a6cc2b426, 60590 passed / 5 failed / 21 skipped in 4728s, 26 workers, CPUs 0-1): pytest FAILED tests/ace/tui/command_line/test_panel_shell_pilot.py::test_empty_panel_escape_follows_the_hide_panel_binding (5s AcePage.press hang guard), tests/ace/tui/test_config_pane_widget_jump.py::test_config_jump_preserves_collapsed_sections (settle_pilot Pilot.pause(0) WaitForScreenTimeout 30s during AcePage enter), tests/ace/tui/test_gate_input_panel_layout.py::test_tab_reaches_every_field_and_scrolls_it_into_view (same WaitForScreenTimeout during wait_for_terminal), tests/completion/test_zsh_smoke.py::test_tab_completes_after_root_print_command_option (zsh PTY _read_until 5s), tests/completion/test_zsh_smoke.py::test_dynamic_completion_does_not_leak_extendedglob_to_shell (same 5s PTY marker wait). Related beads sase-1s2/1s3/1s4/xo/1rf/1nf.10.1 did not recur. Peaks: cgroup 14.4G, soak rss 14.0G, soak swap 2.5G, oom_kill 0, pressure_memory_full 45.25, min_mem_available 6.5G, collected 26/26 (60615) tests 60615 done 5 failed. Repairs: settle_pilot bounds pause with _REFRESH_TIMEOUT_SECONDS and returns on TimeoutError/WaitForScreenTimeout; AcePage.press hang detector DEFAULT_WAIT_TIMEOUT; remaining 5s press wraps use LOAD_TOLERANT_TIMEOUT; gate tab loop wait_for focus change; zsh PTY READY/marker/file waits use LOAD_TOLERANT_TIMEOUT. Serial 21 passed; contended SASE_PYTEST_WORKERS=8 on CPUs 0-1: 56 passed (empty-panel escape 12.53s, above the old 5s bound). sase tool run check b04bef56db82dacb850e586b94500810 succeeded. Next: unchanged-shape full py312 repeat.
 
+[2026-11-08T19:18:33Z · sase-1rq.2.1.4.1.5.2--6] Complete py312 contention repeat jt48add3fpnw (SHA 11de7c8591, 60596 passed / 1 failed / 21 skipped in 4721s, 26 workers, CPUs 0-1): pytest FAILED tests/ace/tui/test_post_update_toast.py::test_post_update_toast_appears_once_and_suppresses_available_toast (wait_for notifications timed out after DEFAULT_WAIT_TIMEOUT 60s; 10s production toast UX timeout can expire during AcePage enter/pause under soak). Related beads sase-1s2/1s3/1s4/xo/1rf/1nf.10.1 did not recur. Peaks: cgroup 15.5G, soak rss 14.6G, soak swap 1.6G, oom_kill 0, pressure_memory_full 3.36, min_mem_available 14.1G, collected 26/26 (60617) tests 60617 done 1 failed. Repair: pin post_update_toast._TOAST_TIMEOUT_SECONDS to 3*LOAD_TOLERANT_TIMEOUT in the AcePage test (UX deadline, not the once-per-session suppression) and wait_for with that hang guard. Serial 22 passed; contended SASE_PYTEST_WORKERS=8 on CPUs 0-1: 64 passed (post-update toast 2.18s). sase tool run check 1efe1bdf78b995fc3b6b6cf39099da1a succeeded. Next: unchanged-shape full py312 repeat.
+
 ## Dependencies
 
 - **Depends on:** [sase-1rq.2.1.4.1.5.1](sase-1rq.2.1.4.1.5.1.md) ✓ · ⧖ 2026-11-07
@@ -34,7 +36,7 @@ failures: repair every failure family from the completed repeat without weakenin
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1rq.2.1.4.1.5.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.2.1.4.1.5.2.md) | [sase-1rq.2.1.4.1.5.2](sase-1rq.2.1.4.1.5.2.md) | 5 |
+| [bbugyi200.athena.sase-1rq.2.1.4.1.5.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.2.1.4.1.5.2.md) | [sase-1rq.2.1.4.1.5.2](sase-1rq.2.1.4.1.5.2.md) | 6 |
 
 ## Commits
 
@@ -45,6 +47,7 @@ failures: repair every failure family from the completed repeat without weakenin
 | sase | [`229f85a`](https://github.com/sase-org/sase/commit/229f85a998cb8fade8a4331f3ac4877b5104adf9) | fix(test): keep contended subprocess waits load-tolerant | [sase-1rq.2.1.4.1.5.2](sase-1rq.2.1.4.1.5.2.md) | 2026-11-08 08:33:25 EST |
 | sase | [`6a6cc2b`](https://github.com/sase-org/sase/commit/6a6cc2b4268eb6c14f70d20f58d1a5e3cbc43580) | fix(test): keep contended nested and TUI waits load-tolerant | [sase-1rq.2.1.4.1.5.2](sase-1rq.2.1.4.1.5.2.md) | 2026-11-08 10:36:05 EST |
 | sase | [`11de7c8`](https://github.com/sase-org/sase/commit/11de7c8591e506af66ae7029480e0e64a86011a0) | fix(test): bound TUI settle and zsh PTY waits under contention | [sase-1rq.2.1.4.1.5.2](sase-1rq.2.1.4.1.5.2.md) | 2026-11-08 12:40:57 EST |
+| sase | [`8f82a88`](https://github.com/sase-org/sase/commit/8f82a88607750ed1c87156b0656220b30a96b19d) | fix(test): pin post-update toast timeout under contention | [sase-1rq.2.1.4.1.5.2](sase-1rq.2.1.4.1.5.2.md) | 2026-11-08 14:20:39 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -56,6 +59,7 @@ failures: repair every failure family from the completed repeat without weakenin
 | read-by | [agent:sase-1rq.2.1.4.1.5.2--2][1] | Need the phase scope, design file, notes, and DECISIONS after the y3mjfk red tally | 1 |
 | read-by | [agent:sase-1rq.2.1.4.1.5.2--3][1] | Need the phase scope, design file, DECISIONS, and notes after complete red tally from monitor przd5aakw2gc | 1 |
 | read-by | [agent:sase-1rq.2.1.4.1.5.2--4][1] | Need the phase scope, design file, DECISIONS, and notes | 1 |
+| read-by | [agent:sase-1rq.2.1.4.1.5.2--5][1] | Need the phase scope, notes, and design file for the contention completion phase | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.2.1.4.1.5.2.md
 
