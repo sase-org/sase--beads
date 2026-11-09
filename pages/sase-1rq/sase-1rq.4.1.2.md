@@ -25,12 +25,6 @@ word-motion: fix CaptureEditorWordMotionTests.testMotionsLeaveTextAndUndoUntouch
 
 - **Blocks:** [sase-1rq.4.1.4](sase-1rq.4.1.4.md) ✓ · ⧖ 2026-11-07
 
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-1rq.4.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.4.1.2.md) | [sase-1rq.4.1.2](sase-1rq.4.1.2.md) | 0 |
-
 <!-- sase:referenced-by:start -->
 
 ## Referenced By

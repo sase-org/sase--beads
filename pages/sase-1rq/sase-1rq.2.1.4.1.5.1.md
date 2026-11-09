@@ -40,7 +40,9 @@ runtime: profile the Python 3.12 contention workload, repair the dominant measur
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1rq.2.1.4.1.5.1--2][1] | Need phase scope and design to close after complete contention repeat | 2 |
+| read-by | [agent:sase-1rq.2.1.4.1.5.3.1.1][2] | need sibling runtime notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.2.1.4.1.5.1.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rq.2.1.4.1.5.3.1.1/README.md
 
 <!-- sase:referenced-by:end -->

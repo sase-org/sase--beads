@@ -21,12 +21,6 @@ ci-green: with every fix landed, dispatch and watch CI on the master tip through
 - **Depends on:** [sase-1rq.3.1.2](sase-1rq.3.1.2.md) ✓ · ⧖ 2026-11-07
 - **Depends on:** [sase-1rq.3.1.3](sase-1rq.3.1.3.md) ✓ · ⧖ 2026-11-07
 
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-1rq.3.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.3.1.4.md) | [sase-1rq.3.1.4](sase-1rq.3.1.4.md) | 0 |
-
 <!-- sase:referenced-by:start -->
 
 ## Referenced By

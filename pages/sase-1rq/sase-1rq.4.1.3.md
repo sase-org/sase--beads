@@ -48,12 +48,6 @@ origin/master still fb22462 at land time, no rebase. Landing as one commit; foll
 - **Depends on:** [sase-1rq.4.1.1](sase-1rq.4.1.1.md) ✓ · ⧖ 2026-11-07
 - **Blocks:** [sase-1rq.4.1.4](sase-1rq.4.1.4.md) ✓ · ⧖ 2026-11-07
 
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-1rq.4.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.4.1.3.md) | [sase-1rq.4.1.3](sase-1rq.4.1.3.md) | 0 |
-
 <!-- sase:referenced-by:start -->
 
 ## Referenced By

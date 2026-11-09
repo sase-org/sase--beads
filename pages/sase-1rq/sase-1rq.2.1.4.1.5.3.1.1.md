@@ -25,7 +25,7 @@ hosted-runtime: profile the GitHub two-CPU Python 3.12 gap against the local gre
 
 ## Dependencies
 
-- **Blocks:** [sase-1rq.2.1.4.1.5.3.1.2](sase-1rq.2.1.4.1.5.3.1.2.md) ◐ · ⧖ 2026-11-09
+- **Blocks:** [sase-1rq.2.1.4.1.5.3.1.2](sase-1rq.2.1.4.1.5.3.1.2.md) ✓ · ⧖ 2026-11-09
 
 ## Agents
 
@@ -38,3 +38,15 @@ hosted-runtime: profile the GitHub two-CPU Python 3.12 gap against the local gre
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`9dc824f`](https://github.com/sase-org/sase/commit/9dc824fbb77099044752a9f6c101fe9cae02227b) | perf(tests): share one invoke-boundary scan across policy tests | [sase-1rq.2.1.4.1.5.3.1.1](sase-1rq.2.1.4.1.5.3.1.1.md) | 2026-11-09 04:52:30 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1rq.2.1.4.1.5.3.1.1][1] | check notes and remaining work | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rq.2.1.4.1.5.3.1.1/README.md
+
+<!-- sase:referenced-by:end -->

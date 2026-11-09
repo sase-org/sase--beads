@@ -22,12 +22,6 @@ mac-known-failures: on the mac host, reproduce and fix the macOS-only failures a
 - **Blocks:** [sase-1rq.3.1.3](sase-1rq.3.1.3.md) ✓ · ⧖ 2026-11-07
 - **Blocks:** [sase-1rq.3.1.4](sase-1rq.3.1.4.md) ✓ · ⧖ 2026-11-07
 
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-1rq.3.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rq.3.1.2/README.md) | [sase-1rq.3.1.2](sase-1rq.3.1.2.md) | 0 |
-
 <!-- sase:referenced-by:start -->
 
 ## Referenced By

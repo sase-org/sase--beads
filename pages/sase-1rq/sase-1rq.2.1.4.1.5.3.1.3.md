@@ -13,7 +13,7 @@ hosted-confirmation: reuse or dispatch Telemetry on landed master containing the
 
 ## Dependencies
 
-- **Depends on:** [sase-1rq.2.1.4.1.5.3.1.2](sase-1rq.2.1.4.1.5.3.1.2.md) ◐ · ⧖ 2026-11-09
+- **Depends on:** [sase-1rq.2.1.4.1.5.3.1.2](sase-1rq.2.1.4.1.5.3.1.2.md) ✓ · ⧖ 2026-11-09
 
 ## Agents
 

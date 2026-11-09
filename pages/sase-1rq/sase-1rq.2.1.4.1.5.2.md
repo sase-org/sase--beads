@@ -65,17 +65,21 @@ failures: repair every failure family from the completed repeat without weakenin
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1rq.2.1.4.1.5.2--1][1] | Need remaining description, DECISIONS, and design after truncated first read | 2 |
-| read-by | [agent:sase-1rq.2.1.4.1.5.2--2][1] | Need the phase scope, design file, notes, and DECISIONS after the y3mjfk red tally | 1 |
-| read-by | [agent:sase-1rq.2.1.4.1.5.2--3][1] | Need the phase scope, design file, DECISIONS, and notes after complete red tally from monitor przd5aakw2gc | 1 |
-| read-by | [agent:sase-1rq.2.1.4.1.5.2--4][1] | Need the phase scope, design file, DECISIONS, and notes | 1 |
-| read-by | [agent:sase-1rq.2.1.4.1.5.2--5][1] | Need the phase scope, notes, and design file for the contention completion phase | 1 |
-| read-by | [agent:sase-1rq.2.1.4.1.5.2--6][1] | Need the phase scope, design file, notes, and DECISIONS before inspecting this complete red tally | 1 |
-| read-by | [agent:sase-1rq.2.1.4.1.5.2--7][1] | Need the phase scope, notes, and parent DECISIONS before repairing the latest contention failure | 1 |
-| read-by | [agent:sase-1rq.2.1.4.1.5.2--8][1] | Need the phase scope, design file, DECISIONS, and notes before inspecting the red contention tally | 1 |
-| read-by | [agent:sase-1rq.2.1.4.1.5.2--9][1] | Need the phase scope, notes, and design file before recording this red-tally inventory | 2 |
-| read-by | [agent:sase-1rq.2.1.4.1.5.2--a][1] | Confirm phase still in_progress before recording inventory and check | 2 |
+| read-by | [agent:1a8--code][1] | Need closed bead tracking the require_rust_extension test failure | 3 |
+| read-by | [agent:sase-1rq.2.1.4.1.5.2--1][2] | Need remaining description, DECISIONS, and design after truncated first read | 2 |
+| read-by | [agent:sase-1rq.2.1.4.1.5.2--2][2] | Need the phase scope, design file, notes, and DECISIONS after the y3mjfk red tally | 1 |
+| read-by | [agent:sase-1rq.2.1.4.1.5.2--3][2] | Need the phase scope, design file, DECISIONS, and notes after complete red tally from monitor przd5aakw2gc | 1 |
+| read-by | [agent:sase-1rq.2.1.4.1.5.2--4][2] | Need the phase scope, design file, DECISIONS, and notes | 1 |
+| read-by | [agent:sase-1rq.2.1.4.1.5.2--5][2] | Need the phase scope, notes, and design file for the contention completion phase | 1 |
+| read-by | [agent:sase-1rq.2.1.4.1.5.2--6][2] | Need the phase scope, design file, notes, and DECISIONS before inspecting this complete red tally | 1 |
+| read-by | [agent:sase-1rq.2.1.4.1.5.2--7][2] | Need the phase scope, notes, and parent DECISIONS before repairing the latest contention failure | 1 |
+| read-by | [agent:sase-1rq.2.1.4.1.5.2--8][2] | Need the phase scope, design file, DECISIONS, and notes before inspecting the red contention tally | 1 |
+| read-by | [agent:sase-1rq.2.1.4.1.5.2--9][2] | Need the phase scope, notes, and design file before recording this red-tally inventory | 2 |
+| read-by | [agent:sase-1rq.2.1.4.1.5.2--a][2] | Confirm phase still in_progress before recording inventory and check | 2 |
+| read-by | [agent:sase-1rq.2.1.4.1.5.3.1.1][3] | need full failures-phase notes for local proof shape | 3 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.2.1.4.1.5.2.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.1a8.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.2.1.4.1.5.2.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rq.2.1.4.1.5.3.1.1/README.md
 
 <!-- sase:referenced-by:end -->
