@@ -31,7 +31,7 @@ failures: repair every failure family from the completed repeat without weakenin
 
 [2026-11-08T23:04:23Z · sase-1rq.2.
 
-… and 1150 more characters
+… and 2823 more characters
 
 ## Dependencies
 
@@ -42,7 +42,7 @@ failures: repair every failure family from the completed repeat without weakenin
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1rq.2.1.4.1.5.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.2.1.4.1.5.2.md) | [sase-1rq.2.1.4.1.5.2](sase-1rq.2.1.4.1.5.2.md) | 8 |
+| [bbugyi200.athena.sase-1rq.2.1.4.1.5.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.2.1.4.1.5.2.md) | [sase-1rq.2.1.4.1.5.2](sase-1rq.2.1.4.1.5.2.md) | 9 |
 
 ## Commits
 
@@ -56,6 +56,7 @@ failures: repair every failure family from the completed repeat without weakenin
 | sase | [`8f82a88`](https://github.com/sase-org/sase/commit/8f82a88607750ed1c87156b0656220b30a96b19d) | fix(test): pin post-update toast timeout under contention | [sase-1rq.2.1.4.1.5.2](sase-1rq.2.1.4.1.5.2.md) | 2026-11-08 14:20:39 EST |
 | sase | [`7190490`](https://github.com/sase-org/sase/commit/719049003053750ddf089d7eab53af5eee6a294c) | fix(tui): keep stitches first-paint coverage exact under contention | [sase-1rq.2.1.4.1.5.2](sase-1rq.2.1.4.1.5.2.md) | 2026-11-08 16:08:03 EST |
 | sase | [`9c4cebe`](https://github.com/sase-org/sase/commit/9c4cebea9820b5917f9027f70aa2a0409edb6ba9) | fix: stabilize bump microbench and provider timer under contention | [sase-1rq.2.1.4.1.5.2](sase-1rq.2.1.4.1.5.2.md) | 2026-11-08 18:06:48 EST |
+| sase | [`d1c6a2c`](https://github.com/sase-org/sase/commit/d1c6a2c10b3473020df6831b71d2d21096156a9f) | fix: skip same-key highlight echo and wait for group-kill reaping under contention | [sase-1rq.2.1.4.1.5.2](sase-1rq.2.1.4.1.5.2.md) | 2026-11-08 21:09:04 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -70,6 +71,7 @@ failures: repair every failure family from the completed repeat without weakenin
 | read-by | [agent:sase-1rq.2.1.4.1.5.2--5][1] | Need the phase scope, notes, and design file for the contention completion phase | 1 |
 | read-by | [agent:sase-1rq.2.1.4.1.5.2--6][1] | Need the phase scope, design file, notes, and DECISIONS before inspecting this complete red tally | 1 |
 | read-by | [agent:sase-1rq.2.1.4.1.5.2--7][1] | Need the phase scope, notes, and parent DECISIONS before repairing the latest contention failure | 1 |
+| read-by | [agent:sase-1rq.2.1.4.1.5.2--8][1] | Need the phase scope, design file, DECISIONS, and notes before inspecting the red contention tally | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.2.1.4.1.5.2.md
 
