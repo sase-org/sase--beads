@@ -54,29 +54,33 @@ flowchart TD
     n12["sase-1rq.2.1.4.1.4: Confirm the contention job on landed master code [closed]"]
     n13["sase-1rq.2.1.4.1.5: Finish hosted contention runtime and failure repair [in_progress]"]
     n14["sase-1rq.2.1.4.1.5.1: Reduce measured hosted runtime and preserve interruption evidence [closed]"]
-    n15["sase-1rq.2.1.4.1.5.2: Repair the remaining failures under the real contention shape [in_progress]"]
+    n15["sase-1rq.2.1.4.1.5.2: Repair the remaining failures under the real contention shape [closed]"]
     n16["sase-1rq.2.1.4.1.5.3: Confirm the full contention job on landed master [in_progress]"]
-    n17["sase-1rq.2.1.5: Turn Full CI green alongside the sase-1r2.6 repair [closed]"]
-    n18["sase-1rq.2.1.5.1: Finish the remaining Full CI repairs [closed]"]
-    n19["sase-1rq.2.1.5.1.1: Make the Files reserve regression deterministic [closed]"]
-    n20["sase-1rq.2.1.5.1.2: Preserve Reply selection across same-subject delivery [closed]"]
-    n21["sase-1rq.2.1.5.1.3: Stabilize the stranded modal and empty Beads captures [closed]"]
-    n22["sase-1rq.2.1.5.1.4: Integrate the repairs and prove Full CI green [closed]"]
-    n23["sase-1rq.2.1.6: Clear CORE_LAG from Publish and the release PR floor smoke [closed]"]
-    n24["sase-1rq.2.1.7: Confirm every in-scope workflow green and publish evidence [in_progress]"]
-    n25["sase-1rq.3: Turn bob-cli CI green [closed]"]
-    n26["sase-1rq.3.1: Turn bob-cli CI green on master [closed]"]
-    n27["sase-1rq.3.1.1: Make the install_ui EarnedEta test hermetic to CARGO_INCREMENTAL [closed]"]
-    n28["sase-1rq.3.1.2: Fix the known macOS-only test failures and the Google sign-in hang [closed]"]
-    n29["sase-1rq.3.1.3: Run the full macOS CI test set to green on the mac host [closed]"]
-    n30["sase-1rq.3.1.4: Confirm green CI on the master tip and publish evidence [closed]"]
-    n31["sase-1rq.4: Turn bob-mac-capture CI green [closed]"]
-    n32["sase-1rq.4.1: Turn bob-mac-capture master CI green [closed]"]
-    n33["sase-1rq.4.1.1: Fix the eleven sigil-alias rewrite-lane tests that have never passed on CI [closed]"]
-    n34["sase-1rq.4.1.2: Fix the Ctrl-H/L word-motion undo test [closed]"]
-    n35["sase-1rq.4.1.3: Harden or quarantine the intermittent alias and card tests [closed]"]
-    n36["sase-1rq.4.1.4: Drive master CI green and publish evidence [closed]"]
-    n37["sase-1rq.5: Turn dotfiles CI green [closed]"]
+    n17["sase-1rq.2.1.4.1.5.3.1: Close the hosted contention runtime gap and confirm on master [in_progress]"]
+    n18["sase-1rq.2.1.4.1.5.3.1.1: Make the hosted default contention job finish within 90 minutes [closed]"]
+    n19["sase-1rq.2.1.4.1.5.3.1.2: Repair remaining failures from a complete hosted tally [in_progress]"]
+    n20["sase-1rq.2.1.4.1.5.3.1.3: Confirm hosted contention-test on landed master [in_progress]"]
+    n21["sase-1rq.2.1.5: Turn Full CI green alongside the sase-1r2.6 repair [closed]"]
+    n22["sase-1rq.2.1.5.1: Finish the remaining Full CI repairs [closed]"]
+    n23["sase-1rq.2.1.5.1.1: Make the Files reserve regression deterministic [closed]"]
+    n24["sase-1rq.2.1.5.1.2: Preserve Reply selection across same-subject delivery [closed]"]
+    n25["sase-1rq.2.1.5.1.3: Stabilize the stranded modal and empty Beads captures [closed]"]
+    n26["sase-1rq.2.1.5.1.4: Integrate the repairs and prove Full CI green [closed]"]
+    n27["sase-1rq.2.1.6: Clear CORE_LAG from Publish and the release PR floor smoke [closed]"]
+    n28["sase-1rq.2.1.7: Confirm every in-scope workflow green and publish evidence [in_progress]"]
+    n29["sase-1rq.3: Turn bob-cli CI green [closed]"]
+    n30["sase-1rq.3.1: Turn bob-cli CI green on master [closed]"]
+    n31["sase-1rq.3.1.1: Make the install_ui EarnedEta test hermetic to CARGO_INCREMENTAL [closed]"]
+    n32["sase-1rq.3.1.2: Fix the known macOS-only test failures and the Google sign-in hang [closed]"]
+    n33["sase-1rq.3.1.3: Run the full macOS CI test set to green on the mac host [closed]"]
+    n34["sase-1rq.3.1.4: Confirm green CI on the master tip and publish evidence [closed]"]
+    n35["sase-1rq.4: Turn bob-mac-capture CI green [closed]"]
+    n36["sase-1rq.4.1: Turn bob-mac-capture master CI green [closed]"]
+    n37["sase-1rq.4.1.1: Fix the eleven sigil-alias rewrite-lane tests that have never passed on CI [closed]"]
+    n38["sase-1rq.4.1.2: Fix the Ctrl-H/L word-motion undo test [closed]"]
+    n39["sase-1rq.4.1.3: Harden or quarantine the intermittent alias and card tests [closed]"]
+    n40["sase-1rq.4.1.4: Drive master CI green and publish evidence [closed]"]
+    n41["sase-1rq.5: Turn dotfiles CI green [closed]"]
     n0 --> n1
     n0 --> n2
     n2 --> n3
@@ -93,50 +97,56 @@ flowchart TD
     n13 --> n14
     n13 --> n15
     n13 --> n16
-    n3 --> n17
+    n16 --> n17
     n17 --> n18
-    n18 --> n19
-    n18 --> n20
-    n18 --> n21
-    n18 --> n22
-    n3 --> n23
-    n3 --> n24
-    n0 --> n25
-    n25 --> n26
-    n26 --> n27
-    n26 --> n28
-    n26 --> n29
-    n26 --> n30
-    n0 --> n31
-    n31 --> n32
-    n32 --> n33
-    n32 --> n34
-    n32 --> n35
-    n32 --> n36
-    n0 --> n37
+    n17 --> n19
+    n17 --> n20
+    n3 --> n21
+    n21 --> n22
+    n22 --> n23
+    n22 --> n24
+    n22 --> n25
+    n22 --> n26
+    n3 --> n27
+    n3 --> n28
+    n0 --> n29
+    n29 --> n30
+    n30 --> n31
+    n30 --> n32
+    n30 --> n33
+    n30 --> n34
+    n0 --> n35
+    n35 --> n36
+    n36 --> n37
+    n36 --> n38
+    n36 --> n39
+    n36 --> n40
+    n0 --> n41
     n1 -.-> n2
-    n4 -.-> n24
-    n5 -.-> n24
-    n6 -.-> n24
-    n7 -.-> n24
+    n4 -.-> n28
+    n5 -.-> n28
+    n6 -.-> n28
+    n7 -.-> n28
     n9 -.-> n10
     n10 -.-> n11
     n11 -.-> n12
     n14 -.-> n15
     n15 -.-> n16
-    n17 -.-> n24
-    n19 -.-> n22
-    n20 -.-> n22
-    n21 -.-> n22
-    n23 -.-> n24
-    n27 -.-> n30
-    n28 -.-> n29
-    n28 -.-> n30
-    n29 -.-> n30
-    n33 -.-> n35
-    n33 -.-> n36
-    n34 -.-> n36
-    n35 -.-> n36
+    n18 -.-> n19
+    n19 -.-> n20
+    n21 -.-> n28
+    n23 -.-> n26
+    n24 -.-> n26
+    n25 -.-> n26
+    n27 -.-> n28
+    n31 -.-> n34
+    n32 -.-> n33
+    n32 -.-> n34
+    n33 -.-> n34
+    n37 -.-> n39
+    n37 -.-> n40
+    n38 -.-> n40
+    n39 -.-> n40
 ```
 
 ## Agents
@@ -155,7 +165,11 @@ flowchart TD
 | [bbugyi200.athena.sase-1rq.2.1.4.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.2.1.4.1.4.md) | [sase-1rq.2.1.4.1.4](sase-1rq.2.1.4.1.4.md) | 0 |
 | [bbugyi200.athena.sase-1rq.2.1.4.1.5.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.2.1.4.1.5.1.md) | [sase-1rq.2.1.4.1.5.1](sase-1rq.2.1.4.1.5.1.md) | 1 |
 | [bbugyi200.athena.sase-1rq.2.1.4.1.5.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.2.1.4.1.5.2.md) | [sase-1rq.2.1.4.1.5.2](sase-1rq.2.1.4.1.5.2.md) | 10 |
-| [bbugyi200.athena.sase-1rq.2.1.4.1.5.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rq.2.1.4.1.5.3/README.md) | [sase-1rq.2.1.4.1.5.3](sase-1rq.2.1.4.1.5.3.md) | 0 |
+| [bbugyi200.athena.sase-1rq.2.1.4.1.5.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.2.1.4.1.5.3.md) | [sase-1rq.2.1.4.1.5.3](sase-1rq.2.1.4.1.5.3.md) | 0 |
+| [bbugyi200.athena.sase-1rq.2.1.4.1.5.3.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rq.2.1.4.1.5.3.1.1/README.md) | [sase-1rq.2.1.4.1.5.3.1.1](sase-1rq.2.1.4.1.5.3.1.1.md) | 1 |
+| [bbugyi200.athena.sase-1rq.2.1.4.1.5.3.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rq.2.1.4.1.5.3.1.2/README.md) | [sase-1rq.2.1.4.1.5.3.1.2](sase-1rq.2.1.4.1.5.3.1.2.md) | 0 |
+| [bbugyi200.athena.sase-1rq.2.1.4.1.5.3.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rq.2.1.4.1.5.3.1.3/README.md) | [sase-1rq.2.1.4.1.5.3.1.3](sase-1rq.2.1.4.1.5.3.1.3.md) | 0 |
+| [bbugyi200.athena.sase-1rq.2.1.4.1.5.3.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rq.2.1.4.1.5.3.1.land/README.md) | [sase-1rq.2.1.4.1.5.3.1](sase-1rq.2.1.4.1.5.3.1.md) | 0 |
 | [bbugyi200.athena.sase-1rq.2.1.4.1.5.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1rq.2.1.4.1.5.land/README.md) | [sase-1rq.2.1.4.1.5](sase-1rq.2.1.4.1.5.md) | 0 |
 | [bbugyi200.athena.sase-1rq.2.1.4.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.2.1.4.1.land.md) | [sase-1rq.2.1.4.1](sase-1rq.2.1.4.1.md) | 0 |
 | [bbugyi200.athena.sase-1rq.2.1.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1rq.2.1.5.md) | [sase-1rq.2.1.5](sase-1rq.2.1.5.md) | 0 |
@@ -214,6 +228,7 @@ flowchart TD
 | sase | [`9c4cebe`](https://github.com/sase-org/sase/commit/9c4cebea9820b5917f9027f70aa2a0409edb6ba9) | fix: stabilize bump microbench and provider timer under contention | [sase-1rq.2.1.4.1.5.2](sase-1rq.2.1.4.1.5.2.md) | 2026-11-08 18:06:48 EST |
 | sase | [`d1c6a2c`](https://github.com/sase-org/sase/commit/d1c6a2c10b3473020df6831b71d2d21096156a9f) | fix: skip same-key highlight echo and wait for group-kill reaping under contention | [sase-1rq.2.1.4.1.5.2](sase-1rq.2.1.4.1.5.2.md) | 2026-11-08 21:09:04 EST |
 | sase | [`7a7ecd6`](https://github.com/sase-org/sase/commit/7a7ecd6885b32ea969d462881673e96d776a37d1) | fix(tui): return archive pulse Enter to inbox and drop paused stalls | [sase-1rq.2.1.4.1.5.2](sase-1rq.2.1.4.1.5.2.md) | 2026-11-09 00:09:40 EST |
+| sase | [`9dc824f`](https://github.com/sase-org/sase/commit/9dc824fbb77099044752a9f6c101fe9cae02227b) | perf(tests): share one invoke-boundary scan across policy tests | [sase-1rq.2.1.4.1.5.3.1.1](sase-1rq.2.1.4.1.5.3.1.1.md) | 2026-11-09 04:52:30 EST |
 
 <!-- sase:referenced-by:start -->
 

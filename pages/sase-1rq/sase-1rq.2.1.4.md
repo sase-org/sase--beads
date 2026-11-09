@@ -23,6 +23,8 @@ contention: CI Telemetry's contention-test job (SASE_CONTENTION_REPEAT=1 just te
 
 [2026-11-08T04:42:01Z · sase-1rq.2.1.4.1.land] LANDING BLOCKER from child lander sase-1rq.2.1.4.1.land: this phase remains incomplete. Refreshed origin/master is 539afb211e; latest Telemetry 42437776062 has no passing contention tally (cancelled at 90m; 29354/60569 finished; 17 failed reports). All four child notes and code/integration drift reviewed; 59 harness contract tests pass, no epic-symbols. A remaining-work child epic is being proposed under sase-1rq.2.1.4.1 for measured runtime reduction, interruption diagnostics, residual failure repair and landed hosted confirmation. Full follow-up triage is recorded on .4.1: new tasks sase-1s2/1s3/1s4, corroborated sase-xo/1rf, publication defects routed to active sase-1nf.10.1; cosmetic/speculative proposals explicitly declined. Do not interpret the closed confirmation phase as green or close this phase before the required passing full job. Source-corrected evidence: WorkerProgress.finished_at is per-test, and aa3fzgn042n3 was local Python 3.14, not hosted.
 
+[2026-11-09T09:28:16Z · sase-1rq.2.1.4.1.5.3--1] Confirmation phase sase-1rq.2.1.4.1.5.3 remains open: hosted contention-test on Telemetry 42574447281 SHA 7a7ecd6885 cancelled at 90m with partial tally 28380/60600 finished, 9 reports, no pytest total. Local py312 zero-failure on this SHA does not satisfy hosted confirmation. Evidence file:explicit:8f12f56d638f9f63dbacc3a7. Child epic proposed from that phase; do not treat this as nested-landing success.
+
 ## Dependencies
 
 - **Blocks:** [sase-1rq.2.1.7](sase-1rq.2.1.7.md) ◐ · ⧖ 2026-11-07
