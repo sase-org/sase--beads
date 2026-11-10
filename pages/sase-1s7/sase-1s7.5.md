@@ -13,7 +13,7 @@ ci-green: drive Master Gate, Full CI, CI Telemetry, and the Release steward gree
 
 ## Dependencies
 
-- **Depends on:** [sase-1s7.1](sase-1s7.1.md) ◐ · ⧖ 2026-11-10
+- **Depends on:** [sase-1s7.1](sase-1s7.1.md) ✓ · ⧖ 2026-11-10
 - **Depends on:** [sase-1s7.2](sase-1s7.2.md) ✓ · ⧖ 2026-11-10
 - **Depends on:** [sase-1s7.3](sase-1s7.3.md) ◐ · ⧖ 2026-11-10
 - **Blocks:** [sase-1s7.6](sase-1s7.6.md) ◐ · ⧖ 2026-11-10

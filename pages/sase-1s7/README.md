@@ -15,7 +15,7 @@ Master Gate, Full CI, CI Telemetry, and the Release steward are green on a maste
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-1s7.1](sase-1s7.1.md) | The deterministic reds on master are fixed | ◐ in_progress | medium | 2026-11-10 | 1 | 0 |
+| [sase-1s7.1](sase-1s7.1.md) | The deterministic reds on master are fixed | ✓ closed | medium | 2026-11-10 | 1 | 1 |
 | [sase-1s7.2](sase-1s7.2.md) | The release steward survives transient GitHub 5xx reads | ✓ closed | small | 2026-11-10 | 1 | 1 |
 | [sase-1s7.3](sase-1s7.3.md) | sase-core's master CI is green and the steward stops reporting core\_ci\_red | ◐ in_progress | small | 2026-11-10 | 1 | 0 |
 | [sase-1s7.4](sase-1s7.4.md) | An accepted release.yml rehearsal on the refreshed release PR branch | ◐ in_progress | small | 2026-11-10 | 1 | 0 |
@@ -27,7 +27,7 @@ Master Gate, Full CI, CI Telemetry, and the Release steward are green on a maste
 ```mermaid
 flowchart TD
     n0["sase-1s7: Every sase workflow green, release PR #322 merged, and sase 0.19.0 proven on PyPI with evidence artifacts [in_progress]"]
-    n1["sase-1s7.1: The deterministic reds on master are fixed [in_progress]"]
+    n1["sase-1s7.1: The deterministic reds on master are fixed [closed]"]
     n2["sase-1s7.2: The release steward survives transient GitHub 5xx reads [closed]"]
     n3["sase-1s7.3: sase-core's master CI is green and the steward stops reporting core_ci_red [in_progress]"]
     n4["sase-1s7.4: An accepted release.yml rehearsal on the refreshed release PR branch [in_progress]"]
@@ -51,7 +51,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1s7.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1s7.1.md) | [sase-1s7.1](sase-1s7.1.md) | 0 |
+| [bbugyi200.athena.sase-1s7.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1s7.1.md) | [sase-1s7.1](sase-1s7.1.md) | 1 |
 | [bbugyi200.athena.sase-1s7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1s7.2/README.md) | [sase-1s7.2](sase-1s7.2.md) | 1 |
 | [bbugyi200.athena.sase-1s7.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1s7.3.md) | [sase-1s7.3](sase-1s7.3.md) | 0 |
 | [bbugyi200.athena.sase-1s7.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1s7.4/README.md) | [sase-1s7.4](sase-1s7.4.md) | 0 |
@@ -64,3 +64,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`8105ca2`](https://github.com/sase-org/sase/commit/8105ca28185279299951b9e743649800edf68cba) | feat(release-watch): retry transient GitHub reads | [sase-1s7.2](sase-1s7.2.md) | 2026-11-10 15:04:33 EST |
+| sase | [`1df3ade`](https://github.com/sase-org/sase/commit/1df3ade04d8fe9c315d5491c816b9b46f21967cf) | fix(ci): clear master reds and stabilize archive goldens | [sase-1s7.1](sase-1s7.1.md) | 2026-11-10 15:25:38 EST |
