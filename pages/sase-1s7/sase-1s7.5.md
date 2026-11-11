@@ -29,6 +29,12 @@ ci-green: drive Master Gate, Full CI, CI Telemetry, and the Release steward gree
 
 [2026-11-11T02:54:34Z · sase-1s7.5--2] PROPOSED FOLLOW-UP: Telemetry test-cost leak detector failed again on 42933587314 job 130242902364: 2 poisoning changes across 2 tests after 60517 passed (attempt 1 was 3/3 on 42897324688). JSON report still not uploaded so nodeids unknown; pytest restored cwd after many axe retry tests so those chdir warnings are not proven poisonings. Related READY bead sase-1lq. Repair round 2 prints nodeids in the terminal summary and uploads .pytest_cache/sase-global-leaks.json. Follow-up: if the gate fails again, read the artifact/log nodeids and fix those leaks (cwd only if the records say kind=cwd).
 
+[2026-11-11T05:26:59Z · sase-1s7.5--3] JUDGED after repair round 2: stitch 1a5bb8097b on origin/master (publish Telemetry leak-detector nodeids). Master Gate 42949405363 success at 1a5bb8097b. Full CI 42942621559 success at 39cdbd548a including advisory visual-test/perf-floors/tutorial-tests/ace-page-group-isolation and test 3.12/3.13/3.14. Telemetry attempt 3 42949481249 cancelled at 1a5bb8097b: build-core success; test-cost failure after 60518 passed, leak detector 2 poisonings / 2 tests (artifact sase-global-leaks-1a5bb8097b uploaded): tests/ace/tui/widgets/test_prompt_tab_focus_steal.py::test_tab_with_focus_on_list_still_stays_on_agents and tests/ace/tui/widgets/test_vim_normal_key_containment.py::test_normal_printable_keys_do_not_reach_app_actions[H], both kind=global name=sase.config.core._live_config_token_refresh_threads reason=live-config-token-refresh-thread (not cwd; sase-1lq does not own these). coverage-contexts failure: tests/ace/tui/modals/test_new_project_create_flow.py::test_owner_switch_preserves_per_owner_drafts wait_for timed out 60s after 60517 passed (job 130295013754). contention-test cancelled at 90.3m timeout job 130295013705. Local steward waiting (metadata refresh); dispatched observe-only 42964944536. PR #322 base still 39cdbd548a head db8fd3da74; prepare/title/release-core-floor-smoke SUCCESS. Repair round 3 of 3: drain sase-config-token-refresh again at leak-detector after-snapshot so module-scoped ACE apps cannot restart the worker after autouse drain. just fix and sase tool run check a658987f9b6e7470330d900cae701982 passed.
+
+[2026-11-11T05:27:00Z · sase-1s7.5--3] PROPOSED FOLLOW-UP: Telemetry contention-test timed out at 90m a third time on 42949481249 job 130295013705 (1h30m17s, sase-1rq.2.1.4.1.5.3.1.3 domain; land agent WAITING). Do not raise timeout-minutes. Leave to sase-1rq.
+
+[2026-11-11T05:27:02Z · sase-1s7.5--3] PROPOSED FOLLOW-UP: Telemetry coverage-contexts failed on 42949481249 job 130295013754: tests/ace/tui/modals/test_new_project_create_flow.py::test_owner_switch_preserves_per_owner_drafts timed out after 60s (60517 passed, 1 failed). Prior attempts 42897324688 and 42933587314 had coverage-contexts success. Treat as TUI flake; no dedicated owner bead found. Off-release-path.
+
 ## Dependencies
 
 - **Depends on:** [sase-1s7.1](sase-1s7.1.md) ✓ · ⧖ 2026-11-10
@@ -40,7 +46,7 @@ ci-green: drive Master Gate, Full CI, CI Telemetry, and the Release steward gree
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1s7.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1s7.5.md) | [sase-1s7.5](sase-1s7.5.md) | 2 |
+| [bbugyi200.athena.sase-1s7.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1s7.5.md) | [sase-1s7.5](sase-1s7.5.md) | 3 |
 
 ## Commits
 
@@ -48,6 +54,7 @@ ci-green: drive Master Gate, Full CI, CI Telemetry, and the Release steward gree
 |---|---|---|---|---|
 | sase | [`39cdbd5`](https://github.com/sase-org/sase/commit/39cdbd548aa4f46e23083058d52c8f66cb59e53d) | fix(release-watch): match exact PR core-smoke check name | [sase-1s7.5](sase-1s7.5.md) | 2026-11-10 19:58:00 EST |
 | sase | [`1a5bb80`](https://github.com/sase-org/sase/commit/1a5bb8097b4c4252c788e6af0038c73f1d00c6f2) | fix(ci): publish Telemetry leak-detector nodeids | [sase-1s7.5](sase-1s7.5.md) | 2026-11-10 21:56:34 EST |
+| sase | [`b0f947b`](https://github.com/sase-org/sase/commit/b0f947b91df1ea054d6f52818af92895e5e4880e) | fix(tests): drain config-token refresh before leak snapshots | [sase-1s7.5](sase-1s7.5.md) | 2026-11-11 00:29:29 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -56,6 +63,7 @@ ci-green: drive Master Gate, Full CI, CI Telemetry, and the Release steward gree
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1s7.5--1][1] | Need phase notes, DECISIONS, and remaining work after CI wait | 2 |
+| read-by | [agent:sase-1s7.5--2][1] | Need phase notes, DECISIONS, and remaining work after repair round 1 CI wait | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1s7.5.md
 
