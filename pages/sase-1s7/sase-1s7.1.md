@@ -18,7 +18,7 @@ master-reds: fix the test_core_rust monkeypatch ordering, the coverage-contexts 
 ## Dependencies
 
 - **Blocks:** [sase-1s7.4](sase-1s7.4.md) ✓ · ⧖ 2026-11-10
-- **Blocks:** [sase-1s7.5](sase-1s7.5.md) ◐ · ⧖ 2026-11-10
+- **Blocks:** [sase-1s7.5](sase-1s7.5.md) ✓ · ⧖ 2026-11-10
 
 ## Agents
 

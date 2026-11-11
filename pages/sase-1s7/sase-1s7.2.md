@@ -19,7 +19,7 @@ steward-retry: give tools/_release_watch_transport.py GithubTransport a bounded 
 
 ## Dependencies
 
-- **Blocks:** [sase-1s7.5](sase-1s7.5.md) ◐ · ⧖ 2026-11-10
+- **Blocks:** [sase-1s7.5](sase-1s7.5.md) ✓ · ⧖ 2026-11-10
 
 ## Agents
 

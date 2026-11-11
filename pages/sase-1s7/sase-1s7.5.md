@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1s7](README.md) / sase-1s7.5
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** canceled · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.1b0](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.1b0.md) · **Assignee:** `sase-1s7.5` · **Size:** medium
-**Created:** 2026-11-10 14:38:16 EST
+**Created:** 2026-11-10 14:38:16 EST · **Closed:** 2026-11-11 02:32:33 EST
 **Plan:** [202611/ci\_green\_v0\_19\_0\_pypi\_release.md](https://github.com/sase-org/sase--plans/blob/main/202611/ci_green_v0_19_0_pypi_release.md)
 
 ## Description
@@ -35,12 +35,29 @@ ci-green: drive Master Gate, Full CI, CI Telemetry, and the Release steward gree
 
 [2026-11-11T05:27:02Z · sase-1s7.5--3] PROPOSED FOLLOW-UP: Telemetry coverage-contexts failed on 42949481249 job 130295013754: tests/ace/tui/modals/test_new_project_create_flow.py::test_owner_switch_preserves_per_owner_drafts timed out after 60s (60517 passed, 1 failed). Prior attempts 42897324688 and 42933587314 had coverage-contexts success. Treat as TUI flake; no dedicated owner bead found. Off-release-path.
 
+[2026-11-11T07:31:42Z · sase-1s7.5--4] JUDGED after repair round 3 of 3: drain-fix stitch b0f947b91d on origin/master (fix(tests): drain config-token refresh before leak snapshots). Master Gate 42966095347 success at b0f947b91d all jobs. Full CI 42966182715 failure at b0f947b91d: blocking prepare/lint/test 3.12/3.13/3.14/build-core green; advisory visual-test red on tests/ace/tui/visual/test_ace_png_snapshots_agents_agent_session_panel_gate.py::test_agent_session_gate_turns_narrow_png_snapshot (wait_for_svg_contains visual-family timeout, job 130349372627); perf-floors/tutorial-tests/ace-page-group-isolation success. Telemetry attempt 4 42966178009 cancelled at b0f947b91d: build-core success; coverage-contexts success (1h20m12s, job 130348282153); test-cost failure after 60521 passed / 140 skipped, leak detector 0 poisonings / 0 tests (drain-fix held) then hard budget regressions (peak_worker_rss_kib 2801780>2160000, ace_page_enter.count 1126>840, ace_settle_pilot.count 16651>12000, parser_create.count 2589>2300, pilot_pause_delay.count 33768>23000, subprocess_run.count 105199>52000, textual_app_run_test_enter.count 5589>4500, yaml_load.count 111537>71000); contention-test cancelled at 90.3m (1h30m17s, job 130348282095). Steward 42966187669 success at b0f947b91d, state waiting (metadata refresh, non-red); local release_watch same. PR #322 base b0f947b91d head 76465de42e MERGEABLE CLEAN; prepare/title/release-core-floor-smoke SUCCESS. Dispatched publish.yml 42980061856 for the remaining metadata refresh. sase-core CI 42673707335 still green. Round 3 of 3 complete; remaining reds are off-release-path (Telemetry + Full CI advisory). Closing canceled with RELEASE_PATH_GREEN=yes ALL_GREEN=no.
+
+[2026-11-11T07:31:48Z · sase-1s7.5--4] PROPOSED FOLLOW-UP: Telemetry test-cost hard budget regressions on 42966178009 job 130348282178 at b0f947b91d after 60521 passed (leak detector 0 poisonings / 0 tests; drain-fix held). Hard: peak_worker_rss_kib 2801780>2160000, ace_page_enter.count 1126>840, ace_settle_pilot.count 16651>12000, parser_create.count 2589>2300, pilot_pause_delay.count 33768>23000, subprocess_run.count 105199>52000, textual_app_run_test_enter.count 5589>4500, yaml_load.count 111537>71000. Off-release-path; do not raise budgets. Round 3 of 3 complete.
+
+[2026-11-11T07:31:52Z · sase-1s7.5--4] PROPOSED FOLLOW-UP: Telemetry contention-test timed out at 90m a fourth time on 42966178009 job 130348282095 (1h30m17s, sase-1rq.2.1.4.1.5.3.1.3 domain; land agent WAITING). Do not raise timeout-minutes. Leave to sase-1rq.
+
+[2026-11-11T07:31:57Z · sase-1s7.5--4] PROPOSED FOLLOW-UP: Full CI advisory visual-test failed on 42966182715 job 130349372627: tests/ace/tui/visual/test_ace_png_snapshots_agents_agent_session_panel_gate.py::test_agent_session_gate_turns_narrow_png_snapshot timed out in wait_for_svg_contains visual-family. Prior Full CI 42942621559 visual-test succeeded at 39cdbd548a. Off-release-path advisory; no live owner.
+
+[2026-11-11T07:32:33Z · sase-1s7.5--4] Round 3 of 3 ended with only off-release-path reds. Drain-fix stitch b0f947b91d is on origin/master.
+
+| Workflow | Newest run | Head SHA | Conclusion |
+| --- | --- | --- | --- |
+| Master Gate | https://github.com/sase-org/sase/actions/runs/42966095347 | b0f947b91d | success (all jobs) |
+| Full CI | https://github.com/sase-org/sase/actions/runs/42966182715 | b0f947b91d | failure (blocking prepare/lint/test 3.12/3.13/3.14/build-core
+
+… and 1358 more characters
+
 ## Dependencies
 
 - **Depends on:** [sase-1s7.1](sase-1s7.1.md) ✓ · ⧖ 2026-11-10
 - **Depends on:** [sase-1s7.2](sase-1s7.2.md) ✓ · ⧖ 2026-11-10
 - **Depends on:** [sase-1s7.3](sase-1s7.3.md) ✓ · ⧖ 2026-11-10
-- **Blocks:** [sase-1s7.6](sase-1s7.6.md) ◐ · ⧖ 2026-11-10
+- **Blocks:** [sase-1s7.6](sase-1s7.6.md) ✓ · ⧖ 2026-11-10
 
 ## Agents
 
@@ -64,6 +81,7 @@ ci-green: drive Master Gate, Full CI, CI Telemetry, and the Release steward gree
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1s7.5--1][1] | Need phase notes, DECISIONS, and remaining work after CI wait | 2 |
 | read-by | [agent:sase-1s7.5--2][1] | Need phase notes, DECISIONS, and remaining work after repair round 1 CI wait | 1 |
+| read-by | [agent:sase-1s7.5--3][1] | Need phase notes, DECISIONS, and remaining work after leak-report CI wait | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1s7.5.md
 

@@ -19,7 +19,7 @@ core-ci: rerun or repair sase-core's red master CI run 42673707335 so tools/rele
 
 ## Dependencies
 
-- **Blocks:** [sase-1s7.5](sase-1s7.5.md) ◐ · ⧖ 2026-11-10
+- **Blocks:** [sase-1s7.5](sase-1s7.5.md) ✓ · ⧖ 2026-11-10
 
 ## Agents
 

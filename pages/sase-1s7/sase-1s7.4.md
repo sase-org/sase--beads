@@ -32,7 +32,7 @@ rehearse: refresh the release-please branch onto the fixed master, dispatch one 
 ## Dependencies
 
 - **Depends on:** [sase-1s7.1](sase-1s7.1.md) ✓ · ⧖ 2026-11-10
-- **Blocks:** [sase-1s7.6](sase-1s7.6.md) ◐ · ⧖ 2026-11-10
+- **Blocks:** [sase-1s7.6](sase-1s7.6.md) ✓ · ⧖ 2026-11-10
 
 ## Agents
 
