@@ -17,7 +17,7 @@ master-reds: fix the test_core_rust monkeypatch ordering, the coverage-contexts 
 
 ## Dependencies
 
-- **Blocks:** [sase-1s7.4](sase-1s7.4.md) ◐ · ⧖ 2026-11-10
+- **Blocks:** [sase-1s7.4](sase-1s7.4.md) ✓ · ⧖ 2026-11-10
 - **Blocks:** [sase-1s7.5](sase-1s7.5.md) ◐ · ⧖ 2026-11-10
 
 ## Agents
@@ -31,3 +31,15 @@ master-reds: fix the test_core_rust monkeypatch ordering, the coverage-contexts 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`1df3ade`](https://github.com/sase-org/sase/commit/1df3ade04d8fe9c315d5491c816b9b46f21967cf) | fix(ci): clear master reds and stabilize archive goldens | [sase-1s7.1](sase-1s7.1.md) | 2026-11-10 15:25:38 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1s7.1--1][1] | Confirm the assigned phase close before finalizing this turn | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1s7.1.md
+
+<!-- sase:referenced-by:end -->

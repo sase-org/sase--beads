@@ -11,15 +11,33 @@
 
 ci-green: drive Master Gate, Full CI, CI Telemetry, and the Release steward green on a tip holding every phase commit, repair what is still red, and confirm the steward reports the release PR releasable.
 
+## Notes
+
+[2026-11-10T20:38:22Z · sase-1s7.5] INVENTORY 2026-11-10T20:37Z: origin/master 1df3ade04d holds sase-1s7.1 (1df3ade04d) and sase-1s7.2 (8105ca2818); sase-1s7.3 closed done with sase-core CI 42673707335 green. Master Gate 42895182653 in_progress at 1df3ade04d. Telemetry 42891137868 in_progress at c7f6cdce75 (pre-fix). No Full CI at 1df3ade04d. Dispatching full.yml and telemetry.yml on master. PR #322 head 37dfdbc59c contains both phase commits; prepare/PR-title/release-core-floor-smoke green. Docs-deploy 42895182516 green at 1df3ade04d.
+
+[2026-11-10T20:39:03Z · sase-1s7.5] DISPATCHED: Full CI https://github.com/sase-org/sase/actions/runs/42897320508 and Telemetry https://github.com/sase-org/sase/actions/runs/42897324688 on master; watching with Master Gate 42895182653 at 1df3ade04d.
+
+[2026-11-11T00:43:30Z · sase-1s7.5--1] JUDGED after CI wait: Master Gate 42895182653 success at 1df3ade04d (all jobs). Full CI 42897320508 and scheduled 42899246256 success at 1df3ade04d including advisory visual-test/perf-floors/tutorial-tests/ace-page-group-isolation. Telemetry 42897324688 cancelled at 1df3ade04d: coverage-contexts success; test-cost failure (60517 passed then leak detector 3 poisoning changes / 3 tests, report not uploaded); contention-test cancelled at 90m timeout (job 130172847126). Steward 42909495718 success at tip but state core_incompatible: substring match picked skipped qualify-ci / release-core-floor-smoke from rehearse 42897628895 over exact PR smoke success. PR #322 base 1df3ade04d head 37dfdbc59c; prepare/title/release-core-floor-smoke green. Repair round 1: exact-name core_smoke matcher + redispatch telemetry.yml.
+
+[2026-11-11T00:51:16Z · sase-1s7.5--1] PROPOSED FOLLOW-UP: Telemetry test-cost leak detector — 3 poisoning changes across 3 tests after 60517 passed on run 42897324688 job 130172846806; JSON report was not uploaded. Related open bead sase-1lq (axe retry os.chdir cwd leaks). Repair round 1 redispatched telemetry.yml 42933587314. If the leak gate fails again, treat as deterministic and identify the 3 nodeids from the report.
+
+[2026-11-11T00:51:18Z · sase-1s7.5--1] PROPOSED FOLLOW-UP: Telemetry contention-test timed out at 90m on run 42897324688 job 130172847126 (sase-1rq.2.1.4.1.5.3.1.3 domain; no live owner). Do not raise timeout-minutes. Redispatched 42933587314; if it times out again, leave to sase-1rq.
+
 ## Dependencies
 
 - **Depends on:** [sase-1s7.1](sase-1s7.1.md) ✓ · ⧖ 2026-11-10
 - **Depends on:** [sase-1s7.2](sase-1s7.2.md) ✓ · ⧖ 2026-11-10
-- **Depends on:** [sase-1s7.3](sase-1s7.3.md) ◐ · ⧖ 2026-11-10
+- **Depends on:** [sase-1s7.3](sase-1s7.3.md) ✓ · ⧖ 2026-11-10
 - **Blocks:** [sase-1s7.6](sase-1s7.6.md) ◐ · ⧖ 2026-11-10
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1s7.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1s7.5/README.md) | [sase-1s7.5](sase-1s7.5.md) | 0 |
+| [bbugyi200.athena.sase-1s7.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1s7.5.md) | [sase-1s7.5](sase-1s7.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`39cdbd5`](https://github.com/sase-org/sase/commit/39cdbd548aa4f46e23083058d52c8f66cb59e53d) | fix(release-watch): match exact PR core-smoke check name | [sase-1s7.5](sase-1s7.5.md) | 2026-11-10 19:58:00 EST |

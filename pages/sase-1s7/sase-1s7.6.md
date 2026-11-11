@@ -13,7 +13,7 @@ release: get the release PR merged per the merge_prompt decision, watch the stew
 
 ## Dependencies
 
-- **Depends on:** [sase-1s7.4](sase-1s7.4.md) ◐ · ⧖ 2026-11-10
+- **Depends on:** [sase-1s7.4](sase-1s7.4.md) ✓ · ⧖ 2026-11-10
 - **Depends on:** [sase-1s7.5](sase-1s7.5.md) ◐ · ⧖ 2026-11-10
 
 ## Agents
