@@ -39,3 +39,15 @@ rehearse: refresh the release-please branch onto the fixed master, dispatch one 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1s7.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1s7.4.md) | [sase-1s7.4](sase-1s7.4.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1s7.5--1][1] | Need rehearse phase status so ci-green does not take over its release.yml run | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1s7.5.md
+
+<!-- sase:referenced-by:end -->

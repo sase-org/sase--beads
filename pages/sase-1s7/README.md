@@ -31,7 +31,7 @@ Master Gate, Full CI, CI Telemetry, and the Release steward are green on a maste
 | [sase-1s7.2](sase-1s7.2.md) | The release steward survives transient GitHub 5xx reads | ✓ closed | small | 2026-11-10 | 1 | 1 |
 | [sase-1s7.3](sase-1s7.3.md) | sase-core's master CI is green and the steward stops reporting core\_ci\_red | ✓ closed | small | 2026-11-10 | 1 | 0 |
 | [sase-1s7.4](sase-1s7.4.md) | An accepted release.yml rehearsal on the refreshed release PR branch | ✓ closed | small | 2026-11-10 | 1 | 0 |
-| [sase-1s7.5](sase-1s7.5.md) | Every workflow that runs on master is green on a tip holding every fix | ◐ in_progress | medium | 2026-11-10 | 1 | 1 |
+| [sase-1s7.5](sase-1s7.5.md) | Every workflow that runs on master is green on a tip holding every fix | ◐ in_progress | medium | 2026-11-10 | 1 | 2 |
 | [sase-1s7.6](sase-1s7.6.md) | sase 0.19.0 is merged, published, verified on PyPI, and recorded as artifacts | ◐ in_progress | small | 2026-11-10 | 1 | 0 |
 
 ## Lineage
@@ -67,7 +67,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1s7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1s7.2/README.md) | [sase-1s7.2](sase-1s7.2.md) | 1 |
 | [bbugyi200.athena.sase-1s7.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1s7.3.md) | [sase-1s7.3](sase-1s7.3.md) | 0 |
 | [bbugyi200.athena.sase-1s7.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1s7.4.md) | [sase-1s7.4](sase-1s7.4.md) | 0 |
-| [bbugyi200.athena.sase-1s7.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1s7.5.md) | [sase-1s7.5](sase-1s7.5.md) | 1 |
+| [bbugyi200.athena.sase-1s7.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1s7.5.md) | [sase-1s7.5](sase-1s7.5.md) | 2 |
 | [bbugyi200.athena.sase-1s7.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1s7.6/README.md) | [sase-1s7.6](sase-1s7.6.md) | 0 |
 | [bbugyi200.athena.sase-1s7.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1s7.land/README.md) | [sase-1s7](README.md) | 0 |
 
@@ -78,3 +78,4 @@ flowchart TD
 | sase | [`8105ca2`](https://github.com/sase-org/sase/commit/8105ca28185279299951b9e743649800edf68cba) | feat(release-watch): retry transient GitHub reads | [sase-1s7.2](sase-1s7.2.md) | 2026-11-10 15:04:33 EST |
 | sase | [`1df3ade`](https://github.com/sase-org/sase/commit/1df3ade04d8fe9c315d5491c816b9b46f21967cf) | fix(ci): clear master reds and stabilize archive goldens | [sase-1s7.1](sase-1s7.1.md) | 2026-11-10 15:25:38 EST |
 | sase | [`39cdbd5`](https://github.com/sase-org/sase/commit/39cdbd548aa4f46e23083058d52c8f66cb59e53d) | fix(release-watch): match exact PR core-smoke check name | [sase-1s7.5](sase-1s7.5.md) | 2026-11-10 19:58:00 EST |
+| sase | [`1a5bb80`](https://github.com/sase-org/sase/commit/1a5bb8097b4c4252c788e6af0038c73f1d00c6f2) | fix(ci): publish Telemetry leak-detector nodeids | [sase-1s7.5](sase-1s7.5.md) | 2026-11-10 21:56:34 EST |

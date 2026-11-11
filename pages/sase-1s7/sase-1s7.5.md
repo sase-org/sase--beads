@@ -23,6 +23,12 @@ ci-green: drive Master Gate, Full CI, CI Telemetry, and the Release steward gree
 
 [2026-11-11T00:51:18Z · sase-1s7.5--1] PROPOSED FOLLOW-UP: Telemetry contention-test timed out at 90m on run 42897324688 job 130172847126 (sase-1rq.2.1.4.1.5.3.1.3 domain; no live owner). Do not raise timeout-minutes. Redispatched 42933587314; if it times out again, leave to sase-1rq.
 
+[2026-11-11T02:46:57Z · sase-1s7.5--2] JUDGED after repair round 1: stitch 39cdbd548a on origin/master (exact-name core_smoke matcher). Master Gate 42935424350 success at 39cdbd548a all jobs. Full CI 42897320508 and 42899246256 success at 1df3ade04d; scheduled 42942621559 in_progress at 39cdbd548a (prepare/lint/visual/perf/tutorial/ace-page-group-isolation green; test 3.12/3.13/3.14 still running). Telemetry attempt 2 42933587314 cancelled at 1df3ade04d: coverage-contexts success; test-cost failure (60517 passed, leak detector 2 poisoning changes / 2 tests, report still not uploaded, nodeids unknown); contention-test cancelled at 90.3m timeout job 130242902322. Steward 42935514100 dispatch and 42941299389 schedule both success at 39cdbd548a, state waiting (metadata refresh, non-red). PR #322 base 39cdbd548a head db8fd3da74 MERGEABLE; prepare/title/release-core-floor-smoke SUCCESS. Repair round 2: print poisoning nodeids in leak-detector terminal summary and upload .pytest_cache/sase-global-leaks.json from telemetry test-cost.
+
+[2026-11-11T02:54:33Z · sase-1s7.5--2] PROPOSED FOLLOW-UP: Telemetry contention-test timed out at 90m again on 42933587314 job 130242902322 (sase-1rq.2.1.4.1.5.3.1.3 domain; land agent WAITING). Do not raise timeout-minutes. Leave to sase-1rq.
+
+[2026-11-11T02:54:34Z · sase-1s7.5--2] PROPOSED FOLLOW-UP: Telemetry test-cost leak detector failed again on 42933587314 job 130242902364: 2 poisoning changes across 2 tests after 60517 passed (attempt 1 was 3/3 on 42897324688). JSON report still not uploaded so nodeids unknown; pytest restored cwd after many axe retry tests so those chdir warnings are not proven poisonings. Related READY bead sase-1lq. Repair round 2 prints nodeids in the terminal summary and uploads .pytest_cache/sase-global-leaks.json. Follow-up: if the gate fails again, read the artifact/log nodeids and fix those leaks (cwd only if the records say kind=cwd).
+
 ## Dependencies
 
 - **Depends on:** [sase-1s7.1](sase-1s7.1.md) ✓ · ⧖ 2026-11-10
@@ -34,10 +40,23 @@ ci-green: drive Master Gate, Full CI, CI Telemetry, and the Release steward gree
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1s7.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1s7.5.md) | [sase-1s7.5](sase-1s7.5.md) | 1 |
+| [bbugyi200.athena.sase-1s7.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1s7.5.md) | [sase-1s7.5](sase-1s7.5.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`39cdbd5`](https://github.com/sase-org/sase/commit/39cdbd548aa4f46e23083058d52c8f66cb59e53d) | fix(release-watch): match exact PR core-smoke check name | [sase-1s7.5](sase-1s7.5.md) | 2026-11-10 19:58:00 EST |
+| sase | [`1a5bb80`](https://github.com/sase-org/sase/commit/1a5bb8097b4c4252c788e6af0038c73f1d00c6f2) | fix(ci): publish Telemetry leak-detector nodeids | [sase-1s7.5](sase-1s7.5.md) | 2026-11-10 21:56:34 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1s7.5--1][1] | Need phase notes, DECISIONS, and remaining work after CI wait | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1s7.5.md
+
+<!-- sase:referenced-by:end -->
