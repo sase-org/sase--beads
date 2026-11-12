@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1sd](README.md) / sase-1sd.1
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.1bp](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.1bp.md) · **Assignee:** `sase-1sd.1` · **Size:** medium
-**Created:** 2026-11-12 05:26:15 EST
+**Created:** 2026-11-12 05:26:15 EST · **Closed:** 2026-11-12 06:21:04 EST
 **Plan:** [202611/next\_seven\_salvage\_and\_unstrand.md](https://github.com/sase-org/sase--plans/blob/main/202611/next_seven_salvage_and_unstrand.md)
 
 ## Description
@@ -22,6 +22,12 @@ salvage-display-name: sase repo list/log/open/path -p still resolves the project
 [2026-11-12T10:56:55Z · sase-1sd.1] PROPOSED FOLLOW-UP: 5 workspace_handler tests fail identically on clean base (no fix applied): test_json_list_includes_registered_workspace, test_open_materializes_configured_sibling_project_spec, test_implicit_state_linked_repo_spec_is_healed_to_sibling, test_configured_sibling_with_explicit_non_sibling_state_fails, test_configured_sibling_with_workspace_dir_and_explicit_enabled_state_fails. Verified via git stash on this workspace (5 failed, 27 passed both before and after). Pre-existing, outside sase-1sd.1 scope.
 
 [2026-11-12T10:57:03Z · sase-1sd.1] sase_21 restore deferred: phase requires restore only after rebased fix is committed in this workspace. Fix is applied but uncommitted (host commits on close), so sase_21 left dirty/intact for recovery. Follow-up restores sase_21 to clean only after this bead closes and the fix is committed; if sase_21 content ever mismatches what landed, leave untouched and record why. Check run cdb14e97a0880c9de1127a1bd78bcdf6 handed to verify monitor; follow-up closes bead on green.
+
+[2026-11-12T11:20:37Z · sase-1sd.1--1] PROPOSED FOLLOW-UP: tests/ace/changespec/test_edit_lock.py::test_concurrent_edit_lock_acquisition_has_one_owner flaked once in full check lane (run cdb14e97a0880c9de1127a1bd78bcdf6, busy.wait 2s timeout under 60k-test parallel load); passes isolated 15/15 for the whole file. Test and src/sase/ace locking sources are unchanged from base ea4121387b and untouched by this phase (only patch_sync.py, workspace_handler_context.py, test_project_ref_canonicalization.py changed). No duplicate task bead found (search edit_lock: none; weekly sweep: only unrelated flakes). Candidate flake task for land-agent triage.
+
+[2026-11-12T11:20:48Z · sase-1sd.1--1] TASK RESOLVED: sase-zo. Landed as e072729599 (fix(repo): -p project ref through registry display names and aliases). Verified with workspace venv binary: repo list -p sase / -p SASE / -p gh_sase-org__sase all exit 0 with byte-identical inventory. Salvaged suite 7/7; focused repo suites 49 pass; edit_lock file 15/15 isolated. Full check run cdb14e97: 60863 passed, 1 failed (edit_lock timing flake, recorded as PROPOSED FOLLOW-UP, unrelated files unchanged from base). sase_21 salvage source verified byte-identical to landed files and restored to clean working tree.
+
+[2026-11-12T11:21:04Z · sase-1sd.1--1] Verified: -p sase/SASE/full-key exit 0 identical inventory via workspace venv; salvaged 7/7, focused 49 pass, edit_lock 15/15 isolated; full check 60863 passed with 1 unrelated timing flake recorded as PROPOSED FOLLOW-UP; sase_21 restored clean; no epic-symbols.
 
 ## Dependencies
 
