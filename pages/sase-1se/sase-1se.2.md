@@ -20,7 +20,7 @@ ledger-project-key: `_target_for_artifacts_dir` derives the ledger project via `
 ## Dependencies
 
 - **Blocks:** [sase-1se.3](sase-1se.3.md) ✓ · ⧖ 2026-11-12
-- **Blocks:** [sase-1se.4](sase-1se.4.md) ◐ · ⧖ 2026-11-12
+- **Blocks:** [sase-1se.4](sase-1se.4.md) ✓ · ⧖ 2026-11-12
 
 ## Agents
 

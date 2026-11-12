@@ -32,7 +32,7 @@ Agents torn apart by a `sase update` of the editable dev install are relaunched 
 | [sase-1se.1](sase-1se.1.md) | sase-core: managed-root precedence and exception-scoped never-restart markers | ✓ closed | medium | 2026-11-12 | 1 | 1 |
 | [sase-1se.2](sase-1se.2.md) | Healer ledger keys derive the project from the canonical artifact path parser | ✓ closed | small | 2026-11-12 | 1 | 1 |
 | [sase-1se.3](sase-1se.3.md) | Healer relaunches launcher rows that died before naming | ✓ closed | medium | 2026-11-12 | 1 | 1 |
-| [sase-1se.4](sase-1se.4.md) | Ratchet the core pin, align sase tests and docs, replay the incident | ◐ in_progress | medium | 2026-11-12 | 1 | 0 |
+| [sase-1se.4](sase-1se.4.md) | Ratchet the core pin, align sase tests and docs, replay the incident | ✓ closed | medium | 2026-11-12 | 1 | 1 |
 
 ## Lineage
 
@@ -42,7 +42,7 @@ flowchart TD
     n1["sase-1se.1: sase-core: managed-root precedence and exception-scoped never-restart markers [closed]"]
     n2["sase-1se.2: Healer ledger keys derive the project from the canonical artifact path parser [closed]"]
     n3["sase-1se.3: Healer relaunches launcher rows that died before naming [closed]"]
-    n4["sase-1se.4: Ratchet the core pin, align sase tests and docs, replay the incident [in_progress]"]
+    n4["sase-1se.4: Ratchet the core pin, align sase tests and docs, replay the incident [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -60,7 +60,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1se.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1se.1/README.md) | [sase-1se.1](sase-1se.1.md) | 1 |
 | [bbugyi200.athena.sase-1se.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1se.2/README.md) | [sase-1se.2](sase-1se.2.md) | 1 |
 | [bbugyi200.athena.sase-1se.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1se.3/README.md) | [sase-1se.3](sase-1se.3.md) | 1 |
-| [bbugyi200.athena.sase-1se.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1se.4/README.md) | [sase-1se.4](sase-1se.4.md) | 0 |
+| [bbugyi200.athena.sase-1se.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1se.4/README.md) | [sase-1se.4](sase-1se.4.md) | 1 |
 | [bbugyi200.athena.sase-1se.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1se.land/README.md) | [sase-1se](README.md) | 0 |
 
 ## Commits
@@ -70,6 +70,7 @@ flowchart TD
 | sase-core | [`sase-core@47f1af1`](https://github.com/sase-org/sase-core/commit/47f1af1cb8fd196220098298dc1970044d4251ee) | fix(agent\_auto\_restart): managed-root precedence and exception-scoped never-restart markers | [sase-1se.1](sase-1se.1.md) | 2026-11-12 06:50:53 EST |
 | sase | [`f613149`](https://github.com/sase-org/sase/commit/f613149ecce25f785f4539e023d7db9bcbfc01ed) | fix(auto\_restart): derive healer ledger project from canonical artifact path | [sase-1se.2](sase-1se.2.md) | 2026-11-12 07:08:22 EST |
 | sase | [`7665654`](https://github.com/sase-org/sase/commit/7665654aaaa8987a92f485991bb3b30af7c4717e) | fix(agent\_auto\_restart): resubmit unnamed launcher prompts | [sase-1se.3](sase-1se.3.md) | 2026-11-12 08:33:07 EST |
+| sase | [`cb0a3c9`](https://github.com/sase-org/sase/commit/cb0a3c9a807d692e79850c62cd9b6a493bd43748) | feat(auto-restart): ratchet core pin to 47f1af1c with tests and docs | [sase-1se.4](sase-1se.4.md) | 2026-11-12 09:06:00 EST |
 
 <!-- sase:referenced-by:start -->
 

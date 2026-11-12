@@ -20,7 +20,7 @@ launcher-relaunch: the healer detects failed rows whose runner died before assig
 ## Dependencies
 
 - **Depends on:** [sase-1se.2](sase-1se.2.md) ✓ · ⧖ 2026-11-12
-- **Blocks:** [sase-1se.4](sase-1se.4.md) ◐ · ⧖ 2026-11-12
+- **Blocks:** [sase-1se.4](sase-1se.4.md) ✓ · ⧖ 2026-11-12
 
 ## Agents
 
@@ -33,3 +33,15 @@ launcher-relaunch: the healer detects failed rows whose runner died before assig
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`7665654`](https://github.com/sase-org/sase/commit/7665654aaaa8987a92f485991bb3b30af7c4717e) | fix(agent\_auto\_restart): resubmit unnamed launcher prompts | [sase-1se.3](sase-1se.3.md) | 2026-11-12 08:33:07 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1se.3][1] | Need prior phase notes and remaining work before continuing | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1se.3/README.md
+
+<!-- sase:referenced-by:end -->
