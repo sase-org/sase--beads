@@ -27,7 +27,7 @@ Add both-state and stale-cache/end-to-end no-execution regressions.
 ## Dependencies
 
 - **Depends on:** [sase-1sb.2.1.2](sase-1sb.2.1.2.md) ✓ · ⧖ 2026-11-11
-- **Blocks:** [sase-1sb.2.1.4](sase-1sb.2.1.4.md) ◐ · ⧖ 2026-11-11
+- **Blocks:** [sase-1sb.2.1.4](sase-1sb.2.1.4.md) ✓ · ⧖ 2026-11-11
 
 ## Agents
 
@@ -40,3 +40,15 @@ Add both-state and stale-cache/end-to-end no-execution regressions.
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`021cd73`](https://github.com/sase-org/sase/commit/021cd73021b62e9f92ccd6829c9ded59c80ed7cd) | feat(config): enforce trust for merged config and file hooks | [sase-1sb.2.1.3](sase-1sb.2.1.3.md) | 2026-11-12 04:21:44 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1sb.2.1.3--2][1] | check bead state before submit | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1sb.2.1.3.md
+
+<!-- sase:referenced-by:end -->
