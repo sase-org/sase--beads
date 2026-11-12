@@ -19,7 +19,7 @@ ledger-project-key: `_target_for_artifacts_dir` derives the ledger project via `
 
 ## Dependencies
 
-- **Blocks:** [sase-1se.3](sase-1se.3.md) ◐ · ⧖ 2026-11-12
+- **Blocks:** [sase-1se.3](sase-1se.3.md) ✓ · ⧖ 2026-11-12
 - **Blocks:** [sase-1se.4](sase-1se.4.md) ◐ · ⧖ 2026-11-12
 
 ## Agents
@@ -33,3 +33,15 @@ ledger-project-key: `_target_for_artifacts_dir` derives the ledger project via `
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`f613149`](https://github.com/sase-org/sase/commit/f613149ecce25f785f4539e023d7db9bcbfc01ed) | fix(auto\_restart): derive healer ledger project from canonical artifact path | [sase-1se.2](sase-1se.2.md) | 2026-11-12 07:08:22 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1se.2][1] | check notes and remaining work | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1se.2/README.md
+
+<!-- sase:referenced-by:end -->

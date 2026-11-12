@@ -15,7 +15,7 @@ pin-docs-verify: move sase's sase-core-revision.txt past the core-origin-precede
 
 - **Depends on:** [sase-1se.1](sase-1se.1.md) ✓ · ⧖ 2026-11-12
 - **Depends on:** [sase-1se.2](sase-1se.2.md) ✓ · ⧖ 2026-11-12
-- **Depends on:** [sase-1se.3](sase-1se.3.md) ◐ · ⧖ 2026-11-12
+- **Depends on:** [sase-1se.3](sase-1se.3.md) ✓ · ⧖ 2026-11-12
 
 ## Agents
 
