@@ -13,7 +13,7 @@ private-remote-verify: preflight_sidecars compares visibility only when creating
 
 ## Dependencies
 
-- **Depends on:** [sase-1sd.6](sase-1sd.6.md) ◐ · ⧖ 2026-11-12
+- **Depends on:** [sase-1sd.6](sase-1sd.6.md) ✓ · ⧖ 2026-11-12
 
 ## Agents
 
