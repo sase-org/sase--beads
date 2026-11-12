@@ -44,7 +44,7 @@ FOLLOW-UP TRIAGE COMPLETE: the sole proposal, .3 note #1 edit-lock concurrency f
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1sb.2.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sb.2.1.land/README.md) | [sase-1sb.2.1](sase-1sb.2.1.md) | 2 |
+| [bbugyi200.athena.sase-1sb.2.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sb.2.1.land/README.md) | [sase-1sb.2.1](sase-1sb.2.1.md) | 3 |
 
 ## Commits
 
@@ -52,6 +52,7 @@ FOLLOW-UP TRIAGE COMPLETE: the sole proposal, .3 note #1 edit-lock concurrency f
 |---|---|---|---|---|
 | sase | [`681de35`](https://github.com/sase-org/sase/commit/681de3542bdd024f8aa3ccfe247a9f1aa4b42ef2) | fix(config): enforce local command trust provenance | [sase-1sb.2.1](sase-1sb.2.1.md) | 2026-11-12 11:06:29 EST |
 | sase | [`2b53bb0`](https://github.com/sase-org/sase/commit/2b53bb0c7fc2a9f6dba7805b16778efd49cf3323) | fix(macro): keep trusted sparse project overrides out of prompt-only macros | [sase-1sb.2.1](sase-1sb.2.1.md) | 2026-11-12 16:56:30 EST |
+| sase--plans | [`sase--plans@035ca1a`](https://github.com/sase-org/sase--plans/commit/035ca1a75ea67e5c8ac311012227dd30a5af2136) | chore(plans): mark local-command digest trust epic and repair tale done | [sase-1sb.2.1](sase-1sb.2.1.md) | 2026-11-12 16:57:59 EST |
 
 <!-- sase:referenced-by:start -->
 

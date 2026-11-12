@@ -85,7 +85,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1sb.2.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sb.2.1.2/README.md) | [sase-1sb.2.1.2](sase-1sb.2.1.2.md) | 2 |
 | [bbugyi200.athena.sase-1sb.2.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1sb.2.1.3.md) | [sase-1sb.2.1.3](sase-1sb.2.1.3.md) | 1 |
 | [bbugyi200.athena.sase-1sb.2.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sb.2.1.4/README.md) | [sase-1sb.2.1.4](sase-1sb.2.1.4.md) | 1 |
-| [bbugyi200.athena.sase-1sb.2.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sb.2.1.land/README.md) | [sase-1sb.2.1](sase-1sb.2.1.md) | 2 |
+| [bbugyi200.athena.sase-1sb.2.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sb.2.1.land/README.md) | [sase-1sb.2.1](sase-1sb.2.1.md) | 3 |
 | [bbugyi200.athena.sase-1sb.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sb.3/README.md) | [sase-1sb.3](sase-1sb.3.md) | 1 |
 | [bbugyi200.athena.sase-1sb.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1sb.4.md) | [sase-1sb.4](sase-1sb.4.md) | 1 |
 | [bbugyi200.athena.sase-1sb.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sb.5/README.md) | [sase-1sb.5](sase-1sb.5.md) | 1 |
@@ -112,6 +112,7 @@ flowchart TD
 | sase | [`ea41213`](https://github.com/sase-org/sase/commit/ea4121387b21bf727b021eb80e746a6054811ff4) | feat(config): enforce local-command trust for config macros | [sase-1sb.2.1.4](sase-1sb.2.1.4.md) | 2026-11-12 05:14:43 EST |
 | sase | [`681de35`](https://github.com/sase-org/sase/commit/681de3542bdd024f8aa3ccfe247a9f1aa4b42ef2) | fix(config): enforce local command trust provenance | [sase-1sb.2.1](sase-1sb.2.1.md) | 2026-11-12 11:06:29 EST |
 | sase | [`2b53bb0`](https://github.com/sase-org/sase/commit/2b53bb0c7fc2a9f6dba7805b16778efd49cf3323) | fix(macro): keep trusted sparse project overrides out of prompt-only macros | [sase-1sb.2.1](sase-1sb.2.1.md) | 2026-11-12 16:56:30 EST |
+| sase--plans | [`sase--plans@035ca1a`](https://github.com/sase-org/sase--plans/commit/035ca1a75ea67e5c8ac311012227dd30a5af2136) | chore(plans): mark local-command digest trust epic and repair tale done | [sase-1sb.2.1](sase-1sb.2.1.md) | 2026-11-12 16:57:59 EST |
 
 <!-- sase:referenced-by:start -->
 
