@@ -22,7 +22,7 @@ agent-identity: a kill or reboot that never writes done.json leaves the TUI show
 ## Dependencies
 
 - **Depends on:** [sase-1sd.5](sase-1sd.5.md) ✓ · ⧖ 2026-11-12
-- **Blocks:** [sase-1sd.7](sase-1sd.7.md) ◐ · ⧖ 2026-11-12
+- **Blocks:** [sase-1sd.7](sase-1sd.7.md) ✓ · ⧖ 2026-11-12
 
 ## Agents
 
@@ -36,3 +36,15 @@ agent-identity: a kill or reboot that never writes done.json leaves the TUI show
 |---|---|---|---|---|
 | sase-core | [`sase-core@3416e4e`](https://github.com/sase-org/sase-core/commit/3416e4e24c84db3b6d596c6a4e4ede6d9a77c8cb) | feat(agent-scan): project process identity in scans | [sase-1sd.6](sase-1sd.6.md) | 2026-11-12 17:09:44 EST |
 | sase | [`c77ff7e`](https://github.com/sase-org/sase/commit/c77ff7e8f7ed0e645d77d4892bb9745ad9b54ab4) | fix(agent): include dead agents in restart lookup | [sase-1sd.6](sase-1sd.6.md) | 2026-11-12 17:11:46 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1sd.6][1] | Confirm resolved follow-up notes before closing the phase | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sd.6/README.md
+
+<!-- sase:referenced-by:end -->
