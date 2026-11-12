@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / sase-1se
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.1bq](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.1bq.md) · **Assignee:** `sase-1se.land`
-**Created:** 2026-11-12 06:15:58 EST
+**Created:** 2026-11-12 06:15:58 EST · **Closed:** 2026-11-12 11:10:22 EST
 **Plan:** [202611/auto\_restart\_update\_skew\_fixes.md](https://github.com/sase-org/sase--plans/blob/main/202611/auto_restart_update_skew_fixes.md)
 
 <!-- sase:links:start -->
@@ -40,6 +40,8 @@ Additional bounded epic gap confirmed after the audit snapshot: both healer_targ
 
 Proposing one validated medium tale, auto_restart_reserved_launcher_landing, to repair owned planned-name recovery and parser-error ledger identity handling, exercise the real launch guard and held-workspace path, run just check, recheck drift/symbol readiness, close sase-1se normally, run just symvision and mark plan:202611/auto_restart_update_skew_fixes.md done in the same coding turn. No step waits for the repair's own commit or CI. Keep the epic and its original plan unfinished until that acceptance succeeds.
 
+[2026-11-12T16:10:22Z · sase-1se.land--1] Landing verified: launcher resubmission releases only the failed row's owned planned reservation (owner-checked) and revalidates with the real launch-name guard so foreign names are never stolen and races fail closed; parser/binding failures in _project_for_artifacts_dir/_project_for_done propagate instead of guessing month-keyed ledger identities and history skips poisoned rows. Added tests/test_agent_auto_restart_launcher_reservation.py (11 tests: owned release with real guard, foreign preservation, race fail-closed, invalid-prompt non-mutation, failed-spawn terminality, workspace-slot coexistence, parser-error/None/exception identity). Focused suites green (35 healer + 36 launch-validation + new file); sase tool run check 0769d0b344ed9da80bc53de09355b182 exit 0, verdict pass, KNOWN 0 FLAKY 0 (core-floor probe still reports blocked_unpublished advisory for local-command trust capabilities without failing the gate). Follow-up triage recorded in epic landing note #1 and file:explicit:9023ae26f2429704cab3f420 (1se.2 preprocessing proposal declined, 1se.3 flake filed as sase-1sg). sase bead epic-symbols sase-1se empty; no stale symbols. Integration: sase commits since cb0a3c9a80 are d237c84 (this repair), 8eef093 (turns settlement) and 8bb1374b (macro split) with no auto-restart conflicts; sase-core since 47f1af1c is only afc64b10 (stranded_work monitor ownership), pin already at afc64b10.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -53,7 +55,7 @@ Proposing one validated medium tale, auto_restart_reserved_launcher_landing, to 
 
 ```mermaid
 flowchart TD
-    n0["sase-1se: Auto-restart heals update-skew failures in self-hosted dev installs [in_progress]"]
+    n0["sase-1se: Auto-restart heals update-skew failures in self-hosted dev installs [closed]"]
     n1["sase-1se.1: sase-core: managed-root precedence and exception-scoped never-restart markers [closed]"]
     n2["sase-1se.2: Healer ledger keys derive the project from the canonical artifact path parser [closed]"]
     n3["sase-1se.3: Healer relaunches launcher rows that died before naming [closed]"]
@@ -76,7 +78,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1se.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1se.2/README.md) | [sase-1se.2](sase-1se.2.md) | 1 |
 | [bbugyi200.athena.sase-1se.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1se.3/README.md) | [sase-1se.3](sase-1se.3.md) | 1 |
 | [bbugyi200.athena.sase-1se.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1se.4/README.md) | [sase-1se.4](sase-1se.4.md) | 1 |
-| [bbugyi200.athena.sase-1se.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1se.land.md) | [sase-1se](README.md) | 1 |
+| [bbugyi200.athena.sase-1se.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1se.land.md) | [sase-1se](README.md) | 2 |
 
 ## Commits
 
@@ -87,6 +89,7 @@ flowchart TD
 | sase | [`7665654`](https://github.com/sase-org/sase/commit/7665654aaaa8987a92f485991bb3b30af7c4717e) | fix(agent\_auto\_restart): resubmit unnamed launcher prompts | [sase-1se.3](sase-1se.3.md) | 2026-11-12 08:33:07 EST |
 | sase | [`cb0a3c9`](https://github.com/sase-org/sase/commit/cb0a3c9a807d692e79850c62cd9b6a493bd43748) | feat(auto-restart): ratchet core pin to 47f1af1c with tests and docs | [sase-1se.4](sase-1se.4.md) | 2026-11-12 09:06:00 EST |
 | sase | [`d237c84`](https://github.com/sase-org/sase/commit/d237c842040a7bd9449359ee9c0aa8e6d3d566c7) | fix(auto-restart): hand off owned planned names in launcher resubmission; stop parser-error project guesses | [sase-1se](README.md) | 2026-11-12 10:50:54 EST |
+| sase--plans | [`sase--plans@6cab294`](https://github.com/sase-org/sase--plans/commit/6cab294bcff5a391e418d05405612be1ab2e48b7) | docs(plans): mark auto\_restart\_update\_skew\_fixes done on sase-1se landing | [sase-1se](README.md) | 2026-11-12 11:12:47 EST |
 
 <!-- sase:referenced-by:start -->
 
