@@ -20,7 +20,7 @@ Add both-state and stale-cache/end-to-end no-execution regressions.
 
 ## Dependencies
 
-- **Depends on:** [sase-1sb.2.1.2](sase-1sb.2.1.2.md) ◐ · ⧖ 2026-11-11
+- **Depends on:** [sase-1sb.2.1.2](sase-1sb.2.1.2.md) ✓ · ⧖ 2026-11-11
 - **Blocks:** [sase-1sb.2.1.4](sase-1sb.2.1.4.md) ◐ · ⧖ 2026-11-11
 
 ## Agents

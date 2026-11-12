@@ -23,7 +23,7 @@ finalization and ensure the sase core revision pin contains the bindings.
 
 ## Dependencies
 
-- **Blocks:** [sase-1sb.2.1.2](sase-1sb.2.1.2.md) ◐ · ⧖ 2026-11-11
+- **Blocks:** [sase-1sb.2.1.2](sase-1sb.2.1.2.md) ✓ · ⧖ 2026-11-11
 
 ## Agents
 
