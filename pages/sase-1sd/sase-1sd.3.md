@@ -40,3 +40,15 @@ monitor-ownership: a monitor member that is done but still reports followup_pend
 |---|---|---|---|---|
 | sase-core | [`sase-core@afc64b1`](https://github.com/sase-org/sase-core/commit/afc64b102dcdaf3cbb10cfd9c3b741b35fc94fb6) | fix(stranded\_work): stop dead monitors with stale followup\_pending from owning beads | [sase-1sd.3](sase-1sd.3.md) | 2026-11-12 09:37:23 EST |
 | sase | [`8eef093`](https://github.com/sase-org/sase/commit/8eef093fa99e3c2a96df6efb2d60ae0846e63848) | fix(turns): record suppressed follow-up outcome on a stopped shell | [sase-1sd.3](sase-1sd.3.md) | 2026-11-12 09:38:51 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1sd.3][1] | Need phase scope, notes, and DECISIONS before closing | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sd.3/README.md
+
+<!-- sase:referenced-by:end -->
