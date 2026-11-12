@@ -32,7 +32,7 @@ Complete and close the seven ready task beads ranked by the 202611 next-seven re
 | [sase-1sd.3](sase-1sd.3.md) | Stop done monitors with stale followup\_pending from owning beads forever (sase-1re) | ✓ closed | medium | 2026-11-12 | 1 | 2 |
 | [sase-1sd.4](sase-1sd.4.md) | Stop continuation capture from nesting fork ancestry past the 256 KiB cap (sase-1o1) | ✓ closed | large | 2026-11-12 | 1 | 2 |
 | [sase-1sd.5](sase-1sd.5.md) | Stop host completion from refusing checks that passed (sase-1qm) | ✓ closed | large | 2026-11-12 | 1 | 2 |
-| [sase-1sd.6](sase-1sd.6.md) | Make sase agent restart find crash-killed agents (sase-1qi, ride-along sase-1qr) | ✓ closed | medium | 2026-11-12 | 1 | 1 |
+| [sase-1sd.6](sase-1sd.6.md) | Make sase agent restart find crash-killed agents (sase-1qi, ride-along sase-1qr) | ✓ closed | medium | 2026-11-12 | 1 | 2 |
 | [sase-1sd.7](sase-1sd.7.md) | Verify an existing attachments-private remote is actually private before pushing (sase-1db) | ◐ in_progress | medium | 2026-11-12 | 1 | 0 |
 
 ## Lineage
@@ -71,7 +71,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1sd.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sd.3/README.md) | [sase-1sd.3](sase-1sd.3.md) | 2 |
 | [bbugyi200.athena.sase-1sd.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1sd.4.md) | [sase-1sd.4](sase-1sd.4.md) | 2 |
 | [bbugyi200.athena.sase-1sd.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1sd.5.md) | [sase-1sd.5](sase-1sd.5.md) | 2 |
-| [bbugyi200.athena.sase-1sd.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sd.6/README.md) | [sase-1sd.6](sase-1sd.6.md) | 1 |
+| [bbugyi200.athena.sase-1sd.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sd.6/README.md) | [sase-1sd.6](sase-1sd.6.md) | 2 |
 | [bbugyi200.athena.sase-1sd.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sd.7/README.md) | [sase-1sd.7](sase-1sd.7.md) | 0 |
 | [bbugyi200.athena.sase-1sd.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sd.land/README.md) | [sase-1sd](README.md) | 0 |
 
@@ -88,3 +88,4 @@ flowchart TD
 | sase-core | [`sase-core@6111b9b`](https://github.com/sase-org/sase-core/commit/6111b9b57f30663b5dd92ca7b2550e8e0c1e15ea) | feat(continuation): report fingerprint mismatch details | [sase-1sd.5](sase-1sd.5.md) | 2026-11-12 15:16:01 EST |
 | sase | [`a49dac1`](https://github.com/sase-org/sase/commit/a49dac15cafc3e6b667734f6b1e5f4b8eb7df33a) | fix(monitor): preserve completion fingerprints and diagnostics | [sase-1sd.5](sase-1sd.5.md) | 2026-11-12 15:17:38 EST |
 | sase-core | [`sase-core@3416e4e`](https://github.com/sase-org/sase-core/commit/3416e4e24c84db3b6d596c6a4e4ede6d9a77c8cb) | feat(agent-scan): project process identity in scans | [sase-1sd.6](sase-1sd.6.md) | 2026-11-12 17:09:44 EST |
+| sase | [`c77ff7e`](https://github.com/sase-org/sase/commit/c77ff7e8f7ed0e645d77d4892bb9745ad9b54ab4) | fix(agent): include dead agents in restart lookup | [sase-1sd.6](sase-1sd.6.md) | 2026-11-12 17:11:46 EST |
