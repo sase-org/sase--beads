@@ -30,10 +30,11 @@ fingerprint-refusal: prepared completions backed by a fully green just check are
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1sd.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1sd.5.md) | [sase-1sd.5](sase-1sd.5.md) | 1 |
+| [bbugyi200.athena.sase-1sd.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1sd.5.md) | [sase-1sd.5](sase-1sd.5.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@6111b9b`](https://github.com/sase-org/sase-core/commit/6111b9b57f30663b5dd92ca7b2550e8e0c1e15ea) | feat(continuation): report fingerprint mismatch details | [sase-1sd.5](sase-1sd.5.md) | 2026-11-12 15:16:01 EST |
+| sase | [`a49dac1`](https://github.com/sase-org/sase/commit/a49dac15cafc3e6b667734f6b1e5f4b8eb7df33a) | fix(monitor): preserve completion fingerprints and diagnostics | [sase-1sd.5](sase-1sd.5.md) | 2026-11-12 15:17:38 EST |
