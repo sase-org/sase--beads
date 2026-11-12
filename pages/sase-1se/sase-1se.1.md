@@ -23,10 +23,16 @@ core-origin-precedence: in sase-core, a traceback file under a managed root coun
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1se.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1se.1/README.md) | [sase-1se.1](sase-1se.1.md) | 1 |
+| [bbugyi200.athena.sase-1se.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1se.1/README.md) | [sase-1se.1](sase-1se.1.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase-core | [`sase-core@47f1af1`](https://github.com/sase-org/sase-core/commit/47f1af1cb8fd196220098298dc1970044d4251ee) | fix(agent\_auto\_restart): managed-root precedence and exception-scoped never-restart markers | [sase-1se.1](sase-1se.1.md) | 2026-11-12 06:50:53 EST |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1se.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1se.1/README.md
+
+<!-- sase:referenced-by:end -->

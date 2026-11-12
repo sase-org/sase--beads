@@ -13,7 +13,7 @@ launcher-relaunch: the healer detects failed rows whose runner died before assig
 
 ## Dependencies
 
-- **Depends on:** [sase-1se.2](sase-1se.2.md) ◐ · ⧖ 2026-11-12
+- **Depends on:** [sase-1se.2](sase-1se.2.md) ✓ · ⧖ 2026-11-12
 - **Blocks:** [sase-1se.4](sase-1se.4.md) ◐ · ⧖ 2026-11-12
 
 ## Agents
