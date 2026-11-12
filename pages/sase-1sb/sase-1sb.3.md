@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1sb](README.md) / sase-1sb.3
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.1bk](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.1bk.md) · **Assignee:** `sase-1sb.3` · **Size:** medium
-**Created:** 2026-11-11 17:38:53 EST
+**Created:** 2026-11-11 17:38:53 EST · **Closed:** 2026-11-11 21:55:31 EST
 **Plan:** [202611/security\_bug\_audit\_fixes.md](https://github.com/sase-org/sase--plans/blob/main/202611/security_bug_audit_fixes.md)
 
 ## Description
@@ -62,8 +62,18 @@ Tests: traversal attempts (`..`-bearing and absolute names) for each fixed helpe
 must raise/refuse and must not create directories; valid names keep working.
 Check tests/ for existing coverage of these modules and extend it.
 
+## Notes
+
+[2026-11-12T02:55:31Z · sase-1sb.3] Path containment for linked/sidecar clone dirs and project log helpers. Traversal names raise/refuse and do not create directories; valid names still work. Checkout markers validate project_name and slash-separated project_key without rejecting live sase-org/sase keys or empty fallback fields. sase tool run check passed (f059f6d97c5ce06f9c789fbc5b5c6461). No leftover --epic-symbol entries.
+
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1sb.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sb.3/README.md) | [sase-1sb.3](sase-1sb.3.md) | 0 |
+| [bbugyi200.athena.sase-1sb.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sb.3/README.md) | [sase-1sb.3](sase-1sb.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`b366ab0`](https://github.com/sase-org/sase/commit/b366ab0b60bedce6fc2147f2dfd16c4d40b89801) | fix(paths): contain clone dirs and project log paths | [sase-1sb.3](sase-1sb.3.md) | 2026-11-11 21:57:03 EST |
