@@ -54,3 +54,15 @@ token is reclaimed.
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`6cdb74c`](https://github.com/sase-org/sase/commit/6cdb74c3e673c786a5d345985b1a9e9816e270d2) | fix(ace): make patch and edit locks race-safe | [sase-1sb.5](sase-1sb.5.md) | 2026-11-11 20:53:32 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1sb.5][1] | Verify the assigned phase is closed after implementation and test completion | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sb.5/README.md
+
+<!-- sase:referenced-by:end -->

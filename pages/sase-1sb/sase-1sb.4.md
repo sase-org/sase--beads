@@ -63,4 +63,4 @@ env var.
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1sb.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sb.4/README.md) | [sase-1sb.4](sase-1sb.4.md) | 0 |
+| [bbugyi200.athena.sase-1sb.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1sb.4.md) | [sase-1sb.4](sase-1sb.4.md) | 0 |

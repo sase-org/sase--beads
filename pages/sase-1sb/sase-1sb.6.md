@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1sb](README.md) / sase-1sb.6
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.1bk](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.1bk.md) · **Assignee:** `sase-1sb.6` · **Size:** medium
-**Created:** 2026-11-11 17:38:54 EST
+**Created:** 2026-11-11 17:38:54 EST · **Closed:** 2026-11-11 20:52:55 EST
 **Plan:** [202611/security\_bug\_audit\_fixes.md](https://github.com/sase-org/sase--plans/blob/main/202611/security_bug_audit_fixes.md)
 
 ## Description
@@ -44,8 +44,30 @@ crash-window test (kill between open and write is hard — instead assert the
 implementation never truncates the target in place, e.g. by checking the target's
 content is always one of the two valid states while a writer loops).
 
+## Notes
+
+[2026-11-12T01:52:55Z · sase-1sb.6] Replaced MRU, hook, command, and axe JSON writes with unique same-directory temp files and atomic replace; flock now serializes MRU and recent-error read-modify-write cycles. Added atomic-read and concurrent-writer regressions. Focused tests passed (53 passed); sase tool run check passed all lint, validation, and scoped tests.
+
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1sb.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sb.6/README.md) | [sase-1sb.6](sase-1sb.6.md) | 0 |
+| [bbugyi200.athena.sase-1sb.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sb.6/README.md) | [sase-1sb.6](sase-1sb.6.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`6a6549c`](https://github.com/sase-org/sase/commit/6a6549cf65140a1aac54083c45836ff0bcc1a33c) | fix(state): make history and axe JSON writes atomic | [sase-1sb.6](sase-1sb.6.md) | 2026-11-11 20:54:47 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1sb.6][1] | Need the phase scope, design file, decisions, and prior notes | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sb.6/README.md
+
+<!-- sase:referenced-by:end -->
