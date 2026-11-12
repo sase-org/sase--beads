@@ -30,13 +30,14 @@ store. This phase does not yet change runtime command loading.
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1sb.2.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sb.2.1.2/README.md) | [sase-1sb.2.1.2](sase-1sb.2.1.2.md) | 1 |
+| [bbugyi200.athena.sase-1sb.2.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sb.2.1.2/README.md) | [sase-1sb.2.1.2](sase-1sb.2.1.2.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@233cb41`](https://github.com/sase-org/sase-core/commit/233cb41d6bb7186a711e75999394570e9ad9943e) | feat(config): persist digest-pinned local command trust | [sase-1sb.2.1.2](sase-1sb.2.1.2.md) | 2026-11-12 01:29:04 EST |
+| sase | [`7710dd0`](https://github.com/sase-org/sase/commit/7710dd0bc61b2b079886b0c8d8f632a18aba0b7d) | feat(config): add human-reviewed local command trust CLI | [sase-1sb.2.1.2](sase-1sb.2.1.2.md) | 2026-11-12 01:30:27 EST |
 
 <!-- sase:referenced-by:start -->
 

@@ -27,7 +27,7 @@ Verified injection, traversal, privilege-gap, and state-corruption bugs from the
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-1sb.1](sase-1sb.1.md) | Stop $(cmd) execution in agent-authored prompt text | ✓ closed | medium | 2026-11-11 | 1 | 0 |
+| [sase-1sb.1](sase-1sb.1.md) | Stop $(cmd) execution in agent-authored prompt text | ✓ closed | medium | 2026-11-11 | 1 | 1 |
 | [sase-1sb.2](sase-1sb.2.md) | Trust-gate command-bearing project-local config | ◐ in_progress | large | 2026-11-11 | 1 | 0 |
 | [sase-1sb.3](sase-1sb.3.md) | Path-component validation for repo clone dirs and project log paths | ✓ closed | medium | 2026-11-11 | 1 | 1 |
 | [sase-1sb.4](sase-1sb.4.md) | Shell-quote workflow interpolations, validate git refs, fix agent-guard parity | ✓ closed | medium | 2026-11-11 | 1 | 1 |
@@ -73,10 +73,10 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1sb.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sb.1/README.md) | [sase-1sb.1](sase-1sb.1.md) | 0 |
+| [bbugyi200.athena.sase-1sb.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sb.1/README.md) | [sase-1sb.1](sase-1sb.1.md) | 1 |
 | [bbugyi200.athena.sase-1sb.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1sb.2.md) | [sase-1sb.2](sase-1sb.2.md) | 0 |
 | [bbugyi200.athena.sase-1sb.2.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1sb.2.1.1.md) | [sase-1sb.2.1.1](sase-1sb.2.1.1.md) | 3 |
-| [bbugyi200.athena.sase-1sb.2.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sb.2.1.2/README.md) | [sase-1sb.2.1.2](sase-1sb.2.1.2.md) | 1 |
+| [bbugyi200.athena.sase-1sb.2.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sb.2.1.2/README.md) | [sase-1sb.2.1.2](sase-1sb.2.1.2.md) | 2 |
 | [bbugyi200.athena.sase-1sb.2.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sb.2.1.3/README.md) | [sase-1sb.2.1.3](sase-1sb.2.1.3.md) | 0 |
 | [bbugyi200.athena.sase-1sb.2.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sb.2.1.4/README.md) | [sase-1sb.2.1.4](sase-1sb.2.1.4.md) | 0 |
 | [bbugyi200.athena.sase-1sb.2.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sb.2.1.land/README.md) | [sase-1sb.2.1](sase-1sb.2.1.md) | 0 |
@@ -99,4 +99,6 @@ flowchart TD
 | sase-core | [`sase-core@e7647bf`](https://github.com/sase-org/sase-core/commit/e7647bf7a37c53ddce11726024c69a55ec877760) | feat(config): add digest-pinned local-command trust contract and bindings | [sase-1sb.2.1.1](sase-1sb.2.1.1.md) | 2026-11-11 22:01:54 EST |
 | sase | [`2e7ce5c`](https://github.com/sase-org/sase/commit/2e7ce5cea11b8cd5509d3b90e5567be7a1356852) | feat(config): add local-command trust projection adapter and contract tests | [sase-1sb.2.1.1](sase-1sb.2.1.1.md) | 2026-11-11 22:03:16 EST |
 | sase | [`181b213`](https://github.com/sase-org/sase/commit/181b213e8c58f8c90357d1e56cf910b5c727c0ea) | fix(trust-policy): whitelist local-trust adapter in symvision and terminology guard | [sase-1sb.2.1.1](sase-1sb.2.1.1.md) | 2026-11-11 22:53:14 EST |
+| sase | [`d0dc942`](https://github.com/sase-org/sase/commit/d0dc942c16b2da6cb3ddb6a38abee394ef1d10a3) | fix(prompts): prevent command substitution in agent text | [sase-1sb.1](sase-1sb.1.md) | 2026-11-12 01:03:32 EST |
 | sase-core | [`sase-core@233cb41`](https://github.com/sase-org/sase-core/commit/233cb41d6bb7186a711e75999394570e9ad9943e) | feat(config): persist digest-pinned local command trust | [sase-1sb.2.1.2](sase-1sb.2.1.2.md) | 2026-11-12 01:29:04 EST |
+| sase | [`7710dd0`](https://github.com/sase-org/sase/commit/7710dd0bc61b2b079886b0c8d8f632a18aba0b7d) | feat(config): add human-reviewed local command trust CLI | [sase-1sb.2.1.2](sase-1sb.2.1.2.md) | 2026-11-12 01:30:27 EST |
