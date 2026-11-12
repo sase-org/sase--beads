@@ -67,13 +67,7 @@ env var.
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1sb.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1sb.4.md) | [sase-1sb.4](sase-1sb.4.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase | [`22e1ef1`](https://github.com/sase-org/sase/commit/22e1ef1249059503a29749c548564dbf01da0825) | fix(sase-1sb.4): repair shell-arg-hardening regressions found by check | [sase-1sb.4](sase-1sb.4.md) | 2026-11-11 21:33:39 EST |
+| [bbugyi200.athena.sase-1sb.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1sb.4.md) | [sase-1sb.4](sase-1sb.4.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
