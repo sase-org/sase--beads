@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1sd](README.md) / sase-1sd.2
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.1bp](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.1bp.md) · **Assignee:** `sase-1sd.2` · **Size:** small
-**Created:** 2026-11-12 05:26:15 EST
+**Created:** 2026-11-12 05:26:15 EST · **Closed:** 2026-11-12 07:00:18 EST
 **Plan:** [202611/next\_seven\_salvage\_and\_unstrand.md](https://github.com/sase-org/sase--plans/blob/main/202611/next_seven_salvage_and_unstrand.md)
 
 ## Description
@@ -15,10 +15,12 @@ sigterm-import: importing sase.axe.run_agent_runner (line 87) or sase.axe.mentor
 
 [2026-11-12T11:34:28Z · sase-1sd.2] TASK RESOLVED: sase-1s2 — fresh-interpreter imports of sase.axe.run_agent_runner and sase.axe.mentor_runner leave the caller SIGTERM handler in place (athena, base e072729599; before: SIG_DFL became install_sigterm_handler._handler; after: caller handler preserved). Agent main() still installs soft=True and settles under a real SIGTERM; mentor main() still installs the hard handler and exits 128+SIGTERM. Coverage: tests/axe/test_runner_import_sigterm.py plus tests/test_axe_runner_utils_signals.py (14 passed) and runner main/bootstrap tests (25 passed). No sase-1ra members were live on this surface. Bootstrap still reinstalls the workspace-release handler.
 
+[2026-11-12T12:00:18Z · sase-1sd.2--1] Closed by explicit `sase stitch create -B close` after create_commit landed 063c98293b ("fix(axe): install SIGTERM handlers in runner main, not at import"). The commit author requested bead completion after verifying the bead scope. Reopen with `sase bead open sase-1sd.2` if more work remains.
+
 ## Dependencies
 
 - **Depends on:** [sase-1sd.1](sase-1sd.1.md) ✓ · ⧖ 2026-11-12
-- **Blocks:** [sase-1sd.3](sase-1sd.3.md) ◐ · ⧖ 2026-11-12
+- **Blocks:** [sase-1sd.3](sase-1sd.3.md) ✓ · ⧖ 2026-11-12
 
 ## Agents
 
@@ -31,3 +33,15 @@ sigterm-import: importing sase.axe.run_agent_runner (line 87) or sase.axe.mentor
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`063c982`](https://github.com/sase-org/sase/commit/063c98293b69f23543c91d66709a2b28eaa310a1) | fix(axe): install SIGTERM handlers in runner main, not at import | [sase-1sd.2](sase-1sd.2.md) | 2026-11-12 06:59:06 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1sd.2--1][1] | Need phase scope, notes, and status after stale host completion | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1sd.2.md
+
+<!-- sase:referenced-by:end -->

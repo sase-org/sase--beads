@@ -15,3 +15,9 @@ agent-identity: a kill or reboot that never writes done.json leaves the TUI show
 
 - **Depends on:** [sase-1sd.5](sase-1sd.5.md) ◐ · ⧖ 2026-11-12
 - **Blocks:** [sase-1sd.7](sase-1sd.7.md) ◐ · ⧖ 2026-11-12
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-1sd.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sd.6/README.md) | [sase-1sd.6](sase-1sd.6.md) | 0 |

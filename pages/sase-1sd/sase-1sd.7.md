@@ -14,3 +14,9 @@ private-remote-verify: preflight_sidecars compares visibility only when creating
 ## Dependencies
 
 - **Depends on:** [sase-1sd.6](sase-1sd.6.md) ◐ · ⧖ 2026-11-12
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-1sd.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sd.7/README.md) | [sase-1sd.7](sase-1sd.7.md) | 0 |

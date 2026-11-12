@@ -15,3 +15,9 @@ fingerprint-refusal: prepared completions backed by a fully green just check are
 
 - **Depends on:** [sase-1sd.4](sase-1sd.4.md) ◐ · ⧖ 2026-11-12
 - **Blocks:** [sase-1sd.6](sase-1sd.6.md) ◐ · ⧖ 2026-11-12
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-1sd.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sd.5/README.md) | [sase-1sd.5](sase-1sd.5.md) | 0 |

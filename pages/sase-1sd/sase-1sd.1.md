@@ -31,7 +31,7 @@ salvage-display-name: sase repo list/log/open/path -p still resolves the project
 
 ## Dependencies
 
-- **Blocks:** [sase-1sd.2](sase-1sd.2.md) ◐ · ⧖ 2026-11-12
+- **Blocks:** [sase-1sd.2](sase-1sd.2.md) ✓ · ⧖ 2026-11-12
 
 ## Agents
 

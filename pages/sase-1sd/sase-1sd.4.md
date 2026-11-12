@@ -13,5 +13,11 @@ continuation-capture: persist_agent_delta records the #fork-expanded step prompt
 
 ## Dependencies
 
-- **Depends on:** [sase-1sd.3](sase-1sd.3.md) ◐ · ⧖ 2026-11-12
+- **Depends on:** [sase-1sd.3](sase-1sd.3.md) ✓ · ⧖ 2026-11-12
 - **Blocks:** [sase-1sd.5](sase-1sd.5.md) ◐ · ⧖ 2026-11-12
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-1sd.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sd.4/README.md) | [sase-1sd.4](sase-1sd.4.md) | 0 |
