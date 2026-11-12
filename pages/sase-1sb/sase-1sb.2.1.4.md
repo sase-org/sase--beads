@@ -37,3 +37,15 @@ sase-1sb.2 or any ancestor from a child phase.
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`ea41213`](https://github.com/sase-org/sase/commit/ea4121387b21bf727b021eb80e746a6054811ff4) | feat(config): enforce local-command trust for config macros | [sase-1sb.2.1.4](sase-1sb.2.1.4.md) | 2026-11-12 05:14:43 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1sb.2.1.4][1] | Need remaining notes, design, DECISIONS, and remaining work | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sb.2.1.4/README.md
+
+<!-- sase:referenced-by:end -->

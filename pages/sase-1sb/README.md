@@ -23,6 +23,10 @@
 
 Verified injection, traversal, privilege-gap, and state-corruption bugs from the codebase audit are fixed with regression tests
 
+## Notes
+
+[2026-11-12T10:30:31Z · sase-1sb.2.1.land] DISCOVERED ISSUE: Triaged PROPOSED FOLLOW-UP from sase-1sb.2.1.3 note #1 through /sase_new_task. The reported test_concurrent_edit_lock_acquisition_has_one_owner flake has a deterministic production race in phase sase-1sb.5's acquire_edit_lock: O_EXCL publishes an empty inode before os.write fills PID/token; a second contender reads None, treats that in-flight publication as stale, unlinks it, and acquires its own inode. Delaying only the first writer until the second acquisition returns yields ['first:owner', 'second:owner'] on ea4121387b. No real project state touched. Reproduction source/output: file:explicit:f7ff68994727a64108f4cdd2. Same-type and all-type searches and last-week task sweeps found no duplicate. This active epic has a direct causal link via .5, so no standalone task was created. Reject quarantine/retry as the remedy; fix atomic ownership publication/stale reclamation and cover the deterministic interleaving. The trust child .2.1 does not own this lock repair; leave it for this security epic's landing.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -79,7 +83,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1sb.2.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sb.2.1.2/README.md) | [sase-1sb.2.1.2](sase-1sb.2.1.2.md) | 2 |
 | [bbugyi200.athena.sase-1sb.2.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1sb.2.1.3.md) | [sase-1sb.2.1.3](sase-1sb.2.1.3.md) | 1 |
 | [bbugyi200.athena.sase-1sb.2.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sb.2.1.4/README.md) | [sase-1sb.2.1.4](sase-1sb.2.1.4.md) | 1 |
-| [bbugyi200.athena.sase-1sb.2.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sb.2.1.land/README.md) | [sase-1sb.2.1](sase-1sb.2.1.md) | 0 |
+| [bbugyi200.athena.sase-1sb.2.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1sb.2.1.land.md) | [sase-1sb.2.1](sase-1sb.2.1.md) | 1 |
 | [bbugyi200.athena.sase-1sb.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sb.3/README.md) | [sase-1sb.3](sase-1sb.3.md) | 1 |
 | [bbugyi200.athena.sase-1sb.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1sb.4.md) | [sase-1sb.4](sase-1sb.4.md) | 1 |
 | [bbugyi200.athena.sase-1sb.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sb.5/README.md) | [sase-1sb.5](sase-1sb.5.md) | 1 |
@@ -104,3 +108,4 @@ flowchart TD
 | sase | [`7710dd0`](https://github.com/sase-org/sase/commit/7710dd0bc61b2b079886b0c8d8f632a18aba0b7d) | feat(config): add human-reviewed local command trust CLI | [sase-1sb.2.1.2](sase-1sb.2.1.2.md) | 2026-11-12 01:30:27 EST |
 | sase | [`021cd73`](https://github.com/sase-org/sase/commit/021cd73021b62e9f92ccd6829c9ded59c80ed7cd) | feat(config): enforce trust for merged config and file hooks | [sase-1sb.2.1.3](sase-1sb.2.1.3.md) | 2026-11-12 04:21:44 EST |
 | sase | [`ea41213`](https://github.com/sase-org/sase/commit/ea4121387b21bf727b021eb80e746a6054811ff4) | feat(config): enforce local-command trust for config macros | [sase-1sb.2.1.4](sase-1sb.2.1.4.md) | 2026-11-12 05:14:43 EST |
+| sase | [`681de35`](https://github.com/sase-org/sase/commit/681de3542bdd024f8aa3ccfe247a9f1aa4b42ef2) | fix(config): enforce local command trust provenance | [sase-1sb.2.1](sase-1sb.2.1.md) | 2026-11-12 11:06:29 EST |

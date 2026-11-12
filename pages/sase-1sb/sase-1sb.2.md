@@ -52,6 +52,10 @@ src/sase/default_config.yml if config keys are added). Tests must cover both fla
 states, trusted/untrusted/digest-changed projects, and that an untrusted local
 layer still merges its non-command keys.
 
+## Notes
+
+[2026-11-12T10:30:48Z · sase-1sb.2.1.land] LANDING BLOCKER: Child epic sase-1sb.2.1 remains open after source review and safe reproductions showed snapshot/provenance, revocation, cache, embedded-execution, and sparse-composition gaps. Evidence file:explicit:f7ff68994727a64108f4cdd2 and full audit/follow-up disposition are on the child. A validated medium tale will repair these and close the child and this delegated phase in its final implementation turn. Do not mark this phase complete before those checks and symbol cleanup. The separate edit-lock ownership race was routed to containing epic sase-1sb.
+
 ## Agents
 
 | Agent | Bead | Commits |
