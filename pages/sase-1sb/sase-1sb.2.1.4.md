@@ -20,7 +20,7 @@ sase-1sb.2 or any ancestor from a child phase.
 
 ## Dependencies
 
-- **Depends on:** [sase-1sb.2.1.3](sase-1sb.2.1.3.md) ◐ · ⧖ 2026-11-11
+- **Depends on:** [sase-1sb.2.1.3](sase-1sb.2.1.3.md) ✓ · ⧖ 2026-11-11
 
 ## Agents
 
