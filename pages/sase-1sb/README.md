@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/security_bug_audit_fixes.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/sase-org/sase--plans/blob/main/202611/security_bug_audit_fixes.md
 
 <!-- sase:links:end -->
@@ -32,7 +34,7 @@ Verified injection, traversal, privilege-gap, and state-corruption bugs from the
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-1sb.1](sase-1sb.1.md) | Stop $(cmd) execution in agent-authored prompt text | ✓ closed | medium | 2026-11-11 | 1 | 1 |
-| [sase-1sb.2](sase-1sb.2.md) | Trust-gate command-bearing project-local config | ◐ in_progress | large | 2026-11-11 | 1 | 0 |
+| [sase-1sb.2](sase-1sb.2.md) | Trust-gate command-bearing project-local config | ✓ closed | large | 2026-11-11 | 1 | 0 |
 | [sase-1sb.3](sase-1sb.3.md) | Path-component validation for repo clone dirs and project log paths | ✓ closed | medium | 2026-11-11 | 1 | 1 |
 | [sase-1sb.4](sase-1sb.4.md) | Shell-quote workflow interpolations, validate git refs, fix agent-guard parity | ✓ closed | medium | 2026-11-11 | 1 | 1 |
 | [sase-1sb.5](sase-1sb.5.md) | Fix patch-lock fd double close and edit-lock acquisition races | ✓ closed | small | 2026-11-11 | 1 | 1 |
@@ -45,8 +47,8 @@ Verified injection, traversal, privilege-gap, and state-corruption bugs from the
 flowchart TD
     n0["sase-1sb: Security and robustness audit fixes [in_progress]"]
     n1["sase-1sb.1: Stop $(cmd) execution in agent-authored prompt text [closed]"]
-    n2["sase-1sb.2: Trust-gate command-bearing project-local config [in_progress]"]
-    n3["sase-1sb.2.1: Digest-pinned trust for project-local commands [in_progress]"]
+    n2["sase-1sb.2: Trust-gate command-bearing project-local config [closed]"]
+    n3["sase-1sb.2.1: Digest-pinned trust for project-local commands [closed]"]
     n4["sase-1sb.2.1.1: Define the Rust local-command trust contract [closed]"]
     n5["sase-1sb.2.1.2: Persist trust and add human acknowledgment commands [closed]"]
     n6["sase-1sb.2.1.3: Enforce trust for merged config and file hooks [closed]"]
@@ -83,7 +85,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1sb.2.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sb.2.1.2/README.md) | [sase-1sb.2.1.2](sase-1sb.2.1.2.md) | 2 |
 | [bbugyi200.athena.sase-1sb.2.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1sb.2.1.3.md) | [sase-1sb.2.1.3](sase-1sb.2.1.3.md) | 1 |
 | [bbugyi200.athena.sase-1sb.2.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sb.2.1.4/README.md) | [sase-1sb.2.1.4](sase-1sb.2.1.4.md) | 1 |
-| [bbugyi200.athena.sase-1sb.2.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1sb.2.1.land.md) | [sase-1sb.2.1](sase-1sb.2.1.md) | 1 |
+| [bbugyi200.athena.sase-1sb.2.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sb.2.1.land/README.md) | [sase-1sb.2.1](sase-1sb.2.1.md) | 2 |
 | [bbugyi200.athena.sase-1sb.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sb.3/README.md) | [sase-1sb.3](sase-1sb.3.md) | 1 |
 | [bbugyi200.athena.sase-1sb.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1sb.4.md) | [sase-1sb.4](sase-1sb.4.md) | 1 |
 | [bbugyi200.athena.sase-1sb.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sb.5/README.md) | [sase-1sb.5](sase-1sb.5.md) | 1 |
@@ -109,3 +111,16 @@ flowchart TD
 | sase | [`021cd73`](https://github.com/sase-org/sase/commit/021cd73021b62e9f92ccd6829c9ded59c80ed7cd) | feat(config): enforce trust for merged config and file hooks | [sase-1sb.2.1.3](sase-1sb.2.1.3.md) | 2026-11-12 04:21:44 EST |
 | sase | [`ea41213`](https://github.com/sase-org/sase/commit/ea4121387b21bf727b021eb80e746a6054811ff4) | feat(config): enforce local-command trust for config macros | [sase-1sb.2.1.4](sase-1sb.2.1.4.md) | 2026-11-12 05:14:43 EST |
 | sase | [`681de35`](https://github.com/sase-org/sase/commit/681de3542bdd024f8aa3ccfe247a9f1aa4b42ef2) | fix(config): enforce local command trust provenance | [sase-1sb.2.1](sase-1sb.2.1.md) | 2026-11-12 11:06:29 EST |
+| sase | [`2b53bb0`](https://github.com/sase-org/sase/commit/2b53bb0c7fc2a9f6dba7805b16778efd49cf3323) | fix(macro): keep trusted sparse project overrides out of prompt-only macros | [sase-1sb.2.1](sase-1sb.2.1.md) | 2026-11-12 16:56:30 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1sb.2.1.land--3][1] | Need phase notes and documented lock-race disposition for approved closeout | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1sb.2.1.land.md
+
+<!-- sase:referenced-by:end -->

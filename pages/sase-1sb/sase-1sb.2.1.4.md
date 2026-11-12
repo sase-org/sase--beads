@@ -45,7 +45,9 @@ sase-1sb.2 or any ancestor from a child phase.
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1sb.2.1.4][1] | Need remaining notes, design, DECISIONS, and remaining work | 2 |
+| read-by | [agent:sase-1sb.2.1.land--3][2] | Need phase notes and documented lock-race disposition for approved closeout | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sb.2.1.4/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1sb.2.1.land.md
 
 <!-- sase:referenced-by:end -->

@@ -47,8 +47,10 @@ store. This phase does not yet change runtime command loading.
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1sb.2.1.1--1][1] | Check consumer phase for epic-symbol re-key | 1 |
 | read-by | [agent:sase-1sb.2.1.2][2] | Need the phase scope, design file, decisions, and prior work notes | 1 |
+| read-by | [agent:sase-1sb.2.1.land--3][3] | Need phase notes and documented lock-race disposition for approved closeout | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1sb.2.1.1.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sb.2.1.2/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1sb.2.1.land.md
 
 <!-- sase:referenced-by:end -->
