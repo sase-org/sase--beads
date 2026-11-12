@@ -26,7 +26,7 @@ monitor-ownership: a monitor member that is done but still reports followup_pend
 ## Dependencies
 
 - **Depends on:** [sase-1sd.2](sase-1sd.2.md) ✓ · ⧖ 2026-11-12
-- **Blocks:** [sase-1sd.4](sase-1sd.4.md) ◐ · ⧖ 2026-11-12
+- **Blocks:** [sase-1sd.4](sase-1sd.4.md) ✓ · ⧖ 2026-11-12
 
 ## Agents
 

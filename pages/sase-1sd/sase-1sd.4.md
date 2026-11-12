@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1sd](README.md) / sase-1sd.4
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.1bp](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.1bp.md) · **Assignee:** `sase-1sd.4` · **Size:** large
-**Created:** 2026-11-12 05:26:16 EST
+**Created:** 2026-11-12 05:26:16 EST · **Closed:** 2026-11-12 12:12:29 EST
 **Plan:** [202611/next\_seven\_salvage\_and\_unstrand.md](https://github.com/sase-org/sase--plans/blob/main/202611/next_seven_salvage_and_unstrand.md)
 
 ## Description
@@ -15,10 +15,12 @@ continuation-capture: persist_agent_delta records the #fork-expanded step prompt
 
 [2026-11-12T14:51:18Z · sase-1sd.4] Planning only: inspected clean sase 8eef093fa9 and sase-core afc64b10. Bug remains: deferred launch fork expansion precedes anonymous workflow preparation, which labels the expanded step prompt and its local_authored segment as local. Exact parent hydration already exists; the 100-handoff regression bypasses this launch boundary. Prepared a medium tale with launch-provenance transport, existing replay compatibility, Rust byte-count diagnostics, and tested checkpoint resume for over-cap legacy capture. No source edits or implementation tests yet: checkout venv lacks sase_core_rs, so boundary probes failed at import. Current agent scan found no live sase-1ra worker and the sase-1n6.11 steward waiting on its GitHub-settings monitor; no continuation edits overlap observed. No phase epic-symbol entries. Historical 708391-byte session not reproduced by current listed-agent scan; cited research artifact did not resolve. Implementation scope remains entirely with the approved tale successor; keep this phase in progress.
 
+[2026-11-12T17:12:29Z · sase-1sd.4--1] Closed by explicit `sase stitch create -B close` after create_commit landed 1087ccd7f1 ("fix(continuation): preserve local request provenance"). The commit author requested bead completion after verifying the bead scope. Reopen with `sase bead open sase-1sd.4` if more work remains.
+
 ## Dependencies
 
 - **Depends on:** [sase-1sd.3](sase-1sd.3.md) ✓ · ⧖ 2026-11-12
-- **Blocks:** [sase-1sd.5](sase-1sd.5.md) ◐ · ⧖ 2026-11-12
+- **Blocks:** [sase-1sd.5](sase-1sd.5.md) ✓ · ⧖ 2026-11-12
 
 ## Agents
 
@@ -32,3 +34,15 @@ continuation-capture: persist_agent_delta records the #fork-expanded step prompt
 |---|---|---|---|---|
 | sase-core | [`sase-core@fae59b4`](https://github.com/sase-org/sase-core/commit/fae59b46a9db7e7c37656bea7d1e7fa98ebaabc6) | fix(continuation): report authored request byte limits | [sase-1sd.4](sase-1sd.4.md) | 2026-11-12 12:10:02 EST |
 | sase | [`1087ccd`](https://github.com/sase-org/sase/commit/1087ccd7f15f09f9cd2267a4cef598a1219432ca) | fix(continuation): preserve local request provenance | [sase-1sd.4](sase-1sd.4.md) | 2026-11-12 12:11:33 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1sd.4--1][1] | Confirm the assigned phase scope and current state before final verification and closure | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1sd.4.md
+
+<!-- sase:referenced-by:end -->
