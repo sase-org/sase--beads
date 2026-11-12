@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1sb](README.md) / sase-1sb.4
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.1bk](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.1bk.md) · **Assignee:** `sase-1sb.4` · **Size:** medium
-**Created:** 2026-11-11 17:38:53 EST
+**Created:** 2026-11-11 17:38:53 EST · **Closed:** 2026-11-11 21:32:01 EST
 **Plan:** [202611/security\_bug\_audit\_fixes.md](https://github.com/sase-org/sase--plans/blob/main/202611/security_bug_audit_fixes.md)
 
 ## Description
@@ -59,8 +59,18 @@ nothing (assert via marker files/mocked subprocess); hostile revision names must
 be refused before any git invocation; agent_guard must refuse under each marker
 env var.
 
+## Notes
+
+[2026-11-12T02:32:01Z · sase-1sb.4--1] Fixed 3 real regressions from the hardening change plus 1 load-flake, verified green. (1) Agent-type regex rejected @tribe names (#fork:@epic): split validation so AGENT allows optional leading @ via _AGENT_RE while WORD stays strict [A-Za-z0-9._-]+; @ is shell-safe so autoquoting still verbatim. (2) test_python_step_with_jinja_context used the pre-hardening inside-string idiom that repr-quoting intentionally breaks (shipped macros already migrated to tojson-outside-string, e.g. mentor.yml): migrated the test template to print("result=" + {{ input_value | tojson }} + "_processed"), assertion unchanged (hello_processed) — expectation change justified by the autoquote contract, not a weakening. (3) test_git_mail_bare_remote_push_only expected the pre-hardening push argv: updated to the flag-safe form with --end-of-options (verified real git 2.47.3 accepts and pushes it), matching the phase's own test_mail_pins_revision_after_end_of_options. (4) test_wait_spec_display_and_result_are_canonical timed out in pilot.pause() under full-suite load (64s) with no code-path overlap to this phase's 16 files; passes consistently in isolation (25/25 modal file green in 8s). Verified: 31 focused + 88 broader (executor script, jinja/standalone, git ops, guards) + 30 fork/query + 25 modal all pass; ruff check, ruff format --check, mypy clean on touched files; epic-symbols clean.
+
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1sb.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1sb.4.md) | [sase-1sb.4](sase-1sb.4.md) | 0 |
+| [bbugyi200.athena.sase-1sb.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1sb.4.md) | [sase-1sb.4](sase-1sb.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`22e1ef1`](https://github.com/sase-org/sase/commit/22e1ef1249059503a29749c548564dbf01da0825) | fix(sase-1sb.4): repair shell-arg-hardening regressions found by check | [sase-1sb.4](sase-1sb.4.md) | 2026-11-11 21:33:39 EST |

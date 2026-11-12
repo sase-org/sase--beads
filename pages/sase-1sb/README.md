@@ -30,7 +30,7 @@ Verified injection, traversal, privilege-gap, and state-corruption bugs from the
 | [sase-1sb.1](sase-1sb.1.md) | Stop $(cmd) execution in agent-authored prompt text | ◐ in_progress | medium | 2026-11-11 | 1 | 0 |
 | [sase-1sb.2](sase-1sb.2.md) | Trust-gate command-bearing project-local config | ◐ in_progress | large | 2026-11-11 | 1 | 0 |
 | [sase-1sb.3](sase-1sb.3.md) | Path-component validation for repo clone dirs and project log paths | ◐ in_progress | medium | 2026-11-11 | 1 | 0 |
-| [sase-1sb.4](sase-1sb.4.md) | Shell-quote workflow interpolations, validate git refs, fix agent-guard parity | ◐ in_progress | medium | 2026-11-11 | 1 | 0 |
+| [sase-1sb.4](sase-1sb.4.md) | Shell-quote workflow interpolations, validate git refs, fix agent-guard parity | ✓ closed | medium | 2026-11-11 | 1 | 1 |
 | [sase-1sb.5](sase-1sb.5.md) | Fix patch-lock fd double close and edit-lock acquisition races | ✓ closed | small | 2026-11-11 | 1 | 1 |
 | [sase-1sb.6](sase-1sb.6.md) | Atomic writes and locking for MRU, history, and axe error state | ✓ closed | medium | 2026-11-11 | 1 | 1 |
 | [sase-1sb.7](sase-1sb.7.md) | Chat-catalog cache lock handling and bead migration idempotency | ✓ closed | small | 2026-11-11 | 1 | 1 |
@@ -48,7 +48,7 @@ flowchart TD
     n6["sase-1sb.2.1.3: Enforce trust for merged config and file hooks [in_progress]"]
     n7["sase-1sb.2.1.4: Enforce trust for local macro workflows and finish integration [in_progress]"]
     n8["sase-1sb.3: Path-component validation for repo clone dirs and project log paths [in_progress]"]
-    n9["sase-1sb.4: Shell-quote workflow interpolations, validate git refs, fix agent-guard parity [in_progress]"]
+    n9["sase-1sb.4: Shell-quote workflow interpolations, validate git refs, fix agent-guard parity [closed]"]
     n10["sase-1sb.5: Fix patch-lock fd double close and edit-lock acquisition races [closed]"]
     n11["sase-1sb.6: Atomic writes and locking for MRU, history, and axe error state [closed]"]
     n12["sase-1sb.7: Chat-catalog cache lock handling and bead migration idempotency [closed]"]
@@ -81,7 +81,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1sb.2.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sb.2.1.4/README.md) | [sase-1sb.2.1.4](sase-1sb.2.1.4.md) | 0 |
 | [bbugyi200.athena.sase-1sb.2.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sb.2.1.land/README.md) | [sase-1sb.2.1](sase-1sb.2.1.md) | 0 |
 | [bbugyi200.athena.sase-1sb.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sb.3/README.md) | [sase-1sb.3](sase-1sb.3.md) | 0 |
-| [bbugyi200.athena.sase-1sb.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1sb.4.md) | [sase-1sb.4](sase-1sb.4.md) | 0 |
+| [bbugyi200.athena.sase-1sb.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1sb.4.md) | [sase-1sb.4](sase-1sb.4.md) | 1 |
 | [bbugyi200.athena.sase-1sb.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sb.5/README.md) | [sase-1sb.5](sase-1sb.5.md) | 1 |
 | [bbugyi200.athena.sase-1sb.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sb.6/README.md) | [sase-1sb.6](sase-1sb.6.md) | 1 |
 | [bbugyi200.athena.sase-1sb.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1sb.7.md) | [sase-1sb.7](sase-1sb.7.md) | 1 |
@@ -94,3 +94,4 @@ flowchart TD
 | sase | [`6cdb74c`](https://github.com/sase-org/sase/commit/6cdb74c3e673c786a5d345985b1a9e9816e270d2) | fix(ace): make patch and edit locks race-safe | [sase-1sb.5](sase-1sb.5.md) | 2026-11-11 20:53:32 EST |
 | sase | [`6a6549c`](https://github.com/sase-org/sase/commit/6a6549cf65140a1aac54083c45836ff0bcc1a33c) | fix(state): make history and axe JSON writes atomic | [sase-1sb.6](sase-1sb.6.md) | 2026-11-11 20:54:47 EST |
 | sase | [`b9572a8`](https://github.com/sase-org/sase/commit/b9572a8d59b73123199c256c7da7be473bf41ccb) | fix(history): keep catalog cache on lock and make bead type migration restartable | [sase-1sb.7](sase-1sb.7.md) | 2026-11-11 21:18:13 EST |
+| sase | [`22e1ef1`](https://github.com/sase-org/sase/commit/22e1ef1249059503a29749c548564dbf01da0825) | fix(sase-1sb.4): repair shell-arg-hardening regressions found by check | [sase-1sb.4](sase-1sb.4.md) | 2026-11-11 21:33:39 EST |
