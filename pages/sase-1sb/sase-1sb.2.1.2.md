@@ -19,7 +19,7 @@ store. This phase does not yet change runtime command loading.
 
 ## Dependencies
 
-- **Depends on:** [sase-1sb.2.1.1](sase-1sb.2.1.1.md) ◐ · ⧖ 2026-11-11
+- **Depends on:** [sase-1sb.2.1.1](sase-1sb.2.1.1.md) ✓ · ⧖ 2026-11-11
 - **Blocks:** [sase-1sb.2.1.3](sase-1sb.2.1.3.md) ◐ · ⧖ 2026-11-11
 
 ## Agents
@@ -27,3 +27,15 @@ store. This phase does not yet change runtime command loading.
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1sb.2.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sb.2.1.2/README.md) | [sase-1sb.2.1.2](sase-1sb.2.1.2.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1sb.2.1.1--1][1] | Check consumer phase for epic-symbol re-key | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1sb.2.1.1.md
+
+<!-- sase:referenced-by:end -->

@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1sb](README.md) / sase-1sb.1
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.1bk](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.1bk.md) · **Assignee:** `sase-1sb.1` · **Size:** medium
-**Created:** 2026-11-11 17:38:52 EST
+**Created:** 2026-11-11 17:38:52 EST · **Closed:** 2026-11-12 01:01:15 EST
 **Plan:** [202611/security\_bug\_audit\_fixes.md](https://github.com/sase-org/sase--plans/blob/main/202611/security_bug_audit_fixes.md)
 
 ## Description
@@ -53,8 +53,18 @@ substitution, (d) macros still expand in handoff prompts under the `provenance`
 choice. Place tests near existing preprocessing tests (tests/ mirrors src/
 layout).
 
+## Notes
+
+[2026-11-12T06:01:15Z · sase-1sb.1] Implemented authorship provenance gating for prompt command substitution; preserved model output through Jinja and directive extraction; macro and artifact expansion remain active. Verified with passing sase tool run check: 2,058 scoped test files passed, with all lint and validation stages green.
+
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1sb.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sb.1/README.md) | [sase-1sb.1](sase-1sb.1.md) | 0 |
+| [bbugyi200.athena.sase-1sb.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sb.1/README.md) | [sase-1sb.1](sase-1sb.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`d0dc942`](https://github.com/sase-org/sase/commit/d0dc942c16b2da6cb3ddb6a38abee394ef1d10a3) | fix(prompts): prevent command substitution in agent text | [sase-1sb.1](sase-1sb.1.md) | 2026-11-12 01:03:32 EST |

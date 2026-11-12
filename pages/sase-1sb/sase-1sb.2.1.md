@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/local_config_digest_trust.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/sase-org/sase--plans/blob/main/202611/local_config_digest_trust.md
 
 <!-- sase:links:end -->
@@ -28,3 +30,15 @@ Require human acknowledgment of a project's current executable config before hos
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1sb.2.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sb.2.1.land/README.md) | [sase-1sb.2.1](sase-1sb.2.1.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1sb.2.1.1--1][1] | Check parent epic scope | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1sb.2.1.1.md
+
+<!-- sase:referenced-by:end -->

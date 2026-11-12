@@ -27,7 +27,7 @@ Verified injection, traversal, privilege-gap, and state-corruption bugs from the
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-1sb.1](sase-1sb.1.md) | Stop $(cmd) execution in agent-authored prompt text | ◐ in_progress | medium | 2026-11-11 | 1 | 0 |
+| [sase-1sb.1](sase-1sb.1.md) | Stop $(cmd) execution in agent-authored prompt text | ✓ closed | medium | 2026-11-11 | 1 | 1 |
 | [sase-1sb.2](sase-1sb.2.md) | Trust-gate command-bearing project-local config | ◐ in_progress | large | 2026-11-11 | 1 | 0 |
 | [sase-1sb.3](sase-1sb.3.md) | Path-component validation for repo clone dirs and project log paths | ✓ closed | medium | 2026-11-11 | 1 | 1 |
 | [sase-1sb.4](sase-1sb.4.md) | Shell-quote workflow interpolations, validate git refs, fix agent-guard parity | ✓ closed | medium | 2026-11-11 | 1 | 1 |
@@ -40,10 +40,10 @@ Verified injection, traversal, privilege-gap, and state-corruption bugs from the
 ```mermaid
 flowchart TD
     n0["sase-1sb: Security and robustness audit fixes [in_progress]"]
-    n1["sase-1sb.1: Stop $(cmd) execution in agent-authored prompt text [in_progress]"]
+    n1["sase-1sb.1: Stop $(cmd) execution in agent-authored prompt text [closed]"]
     n2["sase-1sb.2: Trust-gate command-bearing project-local config [in_progress]"]
     n3["sase-1sb.2.1: Digest-pinned trust for project-local commands [in_progress]"]
-    n4["sase-1sb.2.1.1: Define the Rust local-command trust contract [in_progress]"]
+    n4["sase-1sb.2.1.1: Define the Rust local-command trust contract [closed]"]
     n5["sase-1sb.2.1.2: Persist trust and add human acknowledgment commands [in_progress]"]
     n6["sase-1sb.2.1.3: Enforce trust for merged config and file hooks [in_progress]"]
     n7["sase-1sb.2.1.4: Enforce trust for local macro workflows and finish integration [in_progress]"]
@@ -73,7 +73,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1sb.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sb.1/README.md) | [sase-1sb.1](sase-1sb.1.md) | 0 |
+| [bbugyi200.athena.sase-1sb.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sb.1/README.md) | [sase-1sb.1](sase-1sb.1.md) | 1 |
 | [bbugyi200.athena.sase-1sb.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1sb.2.md) | [sase-1sb.2](sase-1sb.2.md) | 0 |
 | [bbugyi200.athena.sase-1sb.2.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1sb.2.1.1.md) | [sase-1sb.2.1.1](sase-1sb.2.1.1.md) | 3 |
 | [bbugyi200.athena.sase-1sb.2.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sb.2.1.2/README.md) | [sase-1sb.2.1.2](sase-1sb.2.1.2.md) | 0 |
@@ -99,3 +99,4 @@ flowchart TD
 | sase-core | [`sase-core@e7647bf`](https://github.com/sase-org/sase-core/commit/e7647bf7a37c53ddce11726024c69a55ec877760) | feat(config): add digest-pinned local-command trust contract and bindings | [sase-1sb.2.1.1](sase-1sb.2.1.1.md) | 2026-11-11 22:01:54 EST |
 | sase | [`2e7ce5c`](https://github.com/sase-org/sase/commit/2e7ce5cea11b8cd5509d3b90e5567be7a1356852) | feat(config): add local-command trust projection adapter and contract tests | [sase-1sb.2.1.1](sase-1sb.2.1.1.md) | 2026-11-11 22:03:16 EST |
 | sase | [`181b213`](https://github.com/sase-org/sase/commit/181b213e8c58f8c90357d1e56cf910b5c727c0ea) | fix(trust-policy): whitelist local-trust adapter in symvision and terminology guard | [sase-1sb.2.1.1](sase-1sb.2.1.1.md) | 2026-11-11 22:53:14 EST |
+| sase | [`d0dc942`](https://github.com/sase-org/sase/commit/d0dc942c16b2da6cb3ddb6a38abee394ef1d10a3) | fix(prompts): prevent command substitution in agent text | [sase-1sb.1](sase-1sb.1.md) | 2026-11-12 01:03:32 EST |
