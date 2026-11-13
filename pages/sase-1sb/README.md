@@ -113,7 +113,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1sb.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sb.5/README.md) | [sase-1sb.5](sase-1sb.5.md) | 1 |
 | [bbugyi200.athena.sase-1sb.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sb.6/README.md) | [sase-1sb.6](sase-1sb.6.md) | 1 |
 | [bbugyi200.athena.sase-1sb.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1sb.7.md) | [sase-1sb.7](sase-1sb.7.md) | 1 |
-| [bbugyi200.athena.sase-1sb.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1sb.land.md) | [sase-1sb](README.md) | 1 |
+| [bbugyi200.athena.sase-1sb.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1sb.land.md) | [sase-1sb](README.md) | 2 |
 
 ## Commits
 
@@ -136,6 +136,7 @@ flowchart TD
 | sase | [`2b53bb0`](https://github.com/sase-org/sase/commit/2b53bb0c7fc2a9f6dba7805b16778efd49cf3323) | fix(macro): keep trusted sparse project overrides out of prompt-only macros | [sase-1sb.2.1](sase-1sb.2.1.md) | 2026-11-12 16:56:30 EST |
 | sase--plans | [`sase--plans@035ca1a`](https://github.com/sase-org/sase--plans/commit/035ca1a75ea67e5c8ac311012227dd30a5af2136) | chore(plans): mark local-command digest trust epic and repair tale done | [sase-1sb.2.1](sase-1sb.2.1.md) | 2026-11-12 16:57:59 EST |
 | sase | [`4a4ee98`](https://github.com/sase-org/sase/commit/4a4ee98c651bbbb1e1c6e8417891de83dd827777) | fix(sase-1sb): atomic edit-lock publish and replace-all placeholder rendering with regression tests | [sase-1sb](README.md) | 2026-11-12 20:31:39 EST |
+| sase--plans | [`sase--plans@e80fe7e`](https://github.com/sase-org/sase--plans/commit/e80fe7e300b617ed6a065517d13cb0a0b75026a8) | docs(sase-1sb): mark security\_bug\_audit\_fixes plan status done | [sase-1sb](README.md) | 2026-11-12 20:32:59 EST |
 
 <!-- sase:referenced-by:start -->
 
