@@ -14,7 +14,7 @@ athena-soak: soak a TUI instance on athena for at least an hour under real agent
 ## Dependencies
 
 - **Depends on:** [sase-1sl.2](sase-1sl.2.md) ◐ · ⧖ 2026-11-12
-- **Depends on:** [sase-1sl.3](sase-1sl.3.md) ◐ · ⧖ 2026-11-12
+- **Depends on:** [sase-1sl.3](sase-1sl.3.md) ✓ · ⧖ 2026-11-12
 
 ## Agents
 

@@ -13,7 +13,7 @@ capacity-verdict-cache: persist the compact classification and closure/context k
 
 ## Dependencies
 
-- **Depends on:** [sase-1sl.1.1.1](sase-1sl.1.1.1.md) ◐ · ⧖ 2026-11-12
+- **Depends on:** [sase-1sl.1.1.1](sase-1sl.1.1.1.md) ✓ · ⧖ 2026-11-12
 - **Blocks:** [sase-1sl.1.1.3](sase-1sl.1.1.3.md) ◐ · ⧖ 2026-11-12
 
 ## Agents

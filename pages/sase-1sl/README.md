@@ -29,7 +29,7 @@ The sase TUI and waiting agent runners stop burning CPU and memory on full-archi
 |---|---|---|---|---|---:|---:|
 | [sase-1sl.1](sase-1sl.1.md) | sase-core: capacity-only scan cost scales with live records, not archive size | ◐ in_progress | large | 2026-11-12 | 1 | 0 |
 | [sase-1sl.2](sase-1sl.2.md) | Ratchet the core pin and re-measure the scan on the real archive | ◐ in_progress | small | 2026-11-12 | 1 | 0 |
-| [sase-1sl.3](sase-1sl.3.md) | TUI GC policy: full collections respect a duty-cycle bound | ◐ in_progress | medium | 2026-11-12 | 1 | 1 |
+| [sase-1sl.3](sase-1sl.3.md) | TUI GC policy: full collections respect a duty-cycle bound | ✓ closed | medium | 2026-11-12 | 1 | 0 |
 | [sase-1sl.4](sase-1sl.4.md) | Measured verification on athena and residual-leak attribution | ◐ in_progress | medium | 2026-11-12 | 1 | 0 |
 
 ## Lineage
@@ -39,11 +39,11 @@ flowchart TD
     n0["sase-1sl: Bound the runner-slot capacity scan and make the TUI GC policy cost-adaptive [in_progress]"]
     n1["sase-1sl.1: sase-core: capacity-only scan cost scales with live records, not archive size [in_progress]"]
     n2["sase-1sl.1.1: Bound Rust capacity scans while preserving admission records [in_progress]"]
-    n3["sase-1sl.1.1.1: Classify capacity candidates before constructing full records [in_progress]"]
+    n3["sase-1sl.1.1.1: Classify capacity candidates before constructing full records [closed]"]
     n4["sase-1sl.1.1.2: Persist validated never-live classifications across processes [in_progress]"]
     n5["sase-1sl.1.1.3: Prove archive-scale scan budgets and complete the Rust change [in_progress]"]
     n6["sase-1sl.2: Ratchet the core pin and re-measure the scan on the real archive [in_progress]"]
-    n7["sase-1sl.3: TUI GC policy: full collections respect a duty-cycle bound [in_progress]"]
+    n7["sase-1sl.3: TUI GC policy: full collections respect a duty-cycle bound [closed]"]
     n8["sase-1sl.4: Measured verification on athena and residual-leak attribution [in_progress]"]
     n0 --> n1
     n1 --> n2
@@ -66,12 +66,12 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1sl.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1sl.1.md) | [sase-1sl.1](sase-1sl.1.md) | 0 |
-| [bbugyi200.athena.sase-1sl.1.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sl.1.1.1/README.md) | [sase-1sl.1.1.1](sase-1sl.1.1.1.md) | 0 |
+| [bbugyi200.athena.sase-1sl.1.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1sl.1.1.1.md) | [sase-1sl.1.1.1](sase-1sl.1.1.1.md) | 1 |
 | [bbugyi200.athena.sase-1sl.1.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sl.1.1.2/README.md) | [sase-1sl.1.1.2](sase-1sl.1.1.2.md) | 0 |
 | [bbugyi200.athena.sase-1sl.1.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sl.1.1.3/README.md) | [sase-1sl.1.1.3](sase-1sl.1.1.3.md) | 0 |
 | [bbugyi200.athena.sase-1sl.1.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sl.1.1.land/README.md) | [sase-1sl.1.1](sase-1sl.1.1.md) | 0 |
 | [bbugyi200.athena.sase-1sl.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sl.2/README.md) | [sase-1sl.2](sase-1sl.2.md) | 0 |
-| [bbugyi200.athena.sase-1sl.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1sl.3.md) | [sase-1sl.3](sase-1sl.3.md) | 1 |
+| [bbugyi200.athena.sase-1sl.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1sl.3.md) | [sase-1sl.3](sase-1sl.3.md) | 0 |
 | [bbugyi200.athena.sase-1sl.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sl.4/README.md) | [sase-1sl.4](sase-1sl.4.md) | 0 |
 | [bbugyi200.athena.sase-1sl.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sl.land/README.md) | [sase-1sl](README.md) | 0 |
 
@@ -79,4 +79,4 @@ flowchart TD
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| sase | [`bdf8ae1`](https://github.com/sase-org/sase/commit/bdf8ae15909f3fb61d8cb63af463183ae7a8f985) | feat(tui): bound full GC collections by duty cycle in gc\_policy | [sase-1sl.3](sase-1sl.3.md) | 2026-11-12 17:43:20 EST |
+| sase-core | [`sase-core@1ceb6a8`](https://github.com/sase-org/sase-core/commit/1ceb6a8f619d0d5493ce541255831b6ca3fcb94a) | feat(agent-scan): add compact capacity projection and parity oracle | [sase-1sl.1.1.1](sase-1sl.1.1.1.md) | 2026-11-12 19:30:45 EST |

@@ -13,7 +13,7 @@ capacity-cost-proof: add and run a reproducible 20k-directory release-mode bench
 
 ## Dependencies
 
-- **Depends on:** [sase-1sl.1.1.1](sase-1sl.1.1.1.md) ◐ · ⧖ 2026-11-12
+- **Depends on:** [sase-1sl.1.1.1](sase-1sl.1.1.1.md) ✓ · ⧖ 2026-11-12
 - **Depends on:** [sase-1sl.1.1.2](sase-1sl.1.1.2.md) ◐ · ⧖ 2026-11-12
 
 ## Agents
