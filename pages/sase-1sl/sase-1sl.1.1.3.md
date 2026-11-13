@@ -31,3 +31,15 @@ capacity-cost-proof: add and run a reproducible 20k-directory release-mode bench
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@bab5978`](https://github.com/sase-org/sase-core/commit/bab5978195d9a52afa828b18cdba779a1b930ee2) | feat(agent-scan): prove archive-scale scan budgets with verdict-cache warm path | [sase-1sl.1.1.3](sase-1sl.1.1.3.md) | 2026-11-12 23:32:29 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1sl.1.1.3--4][1] | Verify phase status before closing after green check | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1sl.1.1.3.md
+
+<!-- sase:referenced-by:end -->

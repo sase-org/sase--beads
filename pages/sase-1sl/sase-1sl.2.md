@@ -13,7 +13,7 @@ sase-adopt-pin: move sase-core-revision.txt past the core commit, adopt any new 
 
 ## Dependencies
 
-- **Depends on:** [sase-1sl.1](sase-1sl.1.md) ◐ · ⧖ 2026-11-12
+- **Depends on:** [sase-1sl.1](sase-1sl.1.md) ✓ · ⧖ 2026-11-12
 - **Blocks:** [sase-1sl.4](sase-1sl.4.md) ◐ · ⧖ 2026-11-12
 
 ## Agents
