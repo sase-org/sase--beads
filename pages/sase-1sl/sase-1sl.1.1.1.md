@@ -17,7 +17,7 @@ capacity-projection: in linked sase-core, implement the marker precheck and comp
 
 ## Dependencies
 
-- **Blocks:** [sase-1sl.1.1.2](sase-1sl.1.1.2.md) ◐ · ⧖ 2026-11-12
+- **Blocks:** [sase-1sl.1.1.2](sase-1sl.1.1.2.md) ✓ · ⧖ 2026-11-12
 - **Blocks:** [sase-1sl.1.1.3](sase-1sl.1.1.3.md) ◐ · ⧖ 2026-11-12
 
 ## Agents
@@ -31,3 +31,15 @@ capacity-projection: in linked sase-core, implement the marker precheck and comp
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@1ceb6a8`](https://github.com/sase-org/sase-core/commit/1ceb6a8f619d0d5493ce541255831b6ca3fcb94a) | feat(agent-scan): add compact capacity projection and parity oracle | [sase-1sl.1.1.1](sase-1sl.1.1.1.md) | 2026-11-12 19:30:45 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1sl.1.1.1--3][1] | Verify that only the assigned phase bead closed with the required completion note | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1sl.1.1.1.md
+
+<!-- sase:referenced-by:end -->
