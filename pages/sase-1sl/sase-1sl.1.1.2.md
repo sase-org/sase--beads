@@ -18,7 +18,7 @@ capacity-verdict-cache: persist the compact classification and closure/context k
 ## Dependencies
 
 - **Depends on:** [sase-1sl.1.1.1](sase-1sl.1.1.1.md) ✓ · ⧖ 2026-11-12
-- **Blocks:** [sase-1sl.1.1.3](sase-1sl.1.1.3.md) ◐ · ⧖ 2026-11-12
+- **Blocks:** [sase-1sl.1.1.3](sase-1sl.1.1.3.md) ✓ · ⧖ 2026-11-12
 
 ## Agents
 
@@ -31,3 +31,15 @@ capacity-verdict-cache: persist the compact classification and closure/context k
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@fa5adc2`](https://github.com/sase-org/sase-core/commit/fa5adc2b4ce2c128b9ee55986d32348feb6b278d) | feat(agent-scan): persist validated never-live capacity verdicts across processes | [sase-1sl.1.1.2](sase-1sl.1.1.2.md) | 2026-11-12 20:26:21 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1sl.1.1.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sl.1.1.2/README.md
+
+<!-- sase:referenced-by:end -->
