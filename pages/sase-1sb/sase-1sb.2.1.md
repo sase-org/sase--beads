@@ -16,7 +16,7 @@
 | implemented-by | [plan:202611/local_config_digest_trust.md][1] | derived from the plan's `bead_id:` frontmatter field |
 | related | file:explicit:f7ff68994727a64108f4cdd2 | attached via sase artifact create --bead |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202611/local_config_digest_trust.md
 
@@ -62,6 +62,7 @@ FOLLOW-UP TRIAGE COMPLETE: the sole proposal, .3 note #1 edit-lock concurrency f
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1sb.2.1.1--1][1] | Check parent epic scope | 1 |
 | read-by | [agent:sase-1sb.2.1.4][2] | Need parent epic DECISIONS, phases, and remaining child work | 1 |
+| read-by | [agent:sase-1sb.2.1.land][3] | Need the epic scope, children, and linked plan file | 1 |
 | read-by | [agent:sase-1sb.2.1.land--3][3] | Need phase scope, notes, and current status before closeout | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1sb.2.1.1.md

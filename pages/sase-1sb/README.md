@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / sase-1sb
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.1bk](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.1bk.md) · **Assignee:** `sase-1sb.land`
-**Created:** 2026-11-11 17:38:52 EST
+**Created:** 2026-11-11 17:38:52 EST · **Closed:** 2026-11-12 20:26:28 EST
 **Plan:** [202611/security\_bug\_audit\_fixes.md](https://github.com/sase-org/sase--plans/blob/main/202611/security_bug_audit_fixes.md)
 
 <!-- sase:links:start -->
@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/security_bug_audit_fixes.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202611/security_bug_audit_fixes.md
 
@@ -28,6 +28,28 @@ Verified injection, traversal, privilege-gap, and state-corruption bugs from the
 ## Notes
 
 [2026-11-12T10:30:31Z · sase-1sb.2.1.land] DISCOVERED ISSUE: Triaged PROPOSED FOLLOW-UP from sase-1sb.2.1.3 note #1 through /sase_new_task. The reported test_concurrent_edit_lock_acquisition_has_one_owner flake has a deterministic production race in phase sase-1sb.5's acquire_edit_lock: O_EXCL publishes an empty inode before os.write fills PID/token; a second contender reads None, treats that in-flight publication as stale, unlinks it, and acquires its own inode. Delaying only the first writer until the second acquisition returns yields ['first:owner', 'second:owner'] on ea4121387b. No real project state touched. Reproduction source/output: file:explicit:f7ff68994727a64108f4cdd2. Same-type and all-type searches and last-week task sweeps found no duplicate. This active epic has a direct causal link via .5, so no standalone task was created. Reject quarantine/retry as the remedy; fix atomic ownership publication/stale reclamation and cover the deterministic interleaving. The trust child .2.1 does not own this lock repair; leave it for this security epic's landing.
+
+[2026-11-12T22:26:11Z · sase-1sb.land] LANDING AUDIT + FOLLOW-UP TRIAGE (sase-1sb.land): NOT READY TO CLOSE. Two epic-caused defects remain; a tale will fix them and close the epic.
+
+Verified: all 7 phases plus nested child epic sase-1sb.2.1 (4 phases) are closed; every child note was read. All three DECISIONS are honored: provenance (SASE_PROMPT_AUTHORSHIP gate in preprocess_prompt_late, macros still expand); digest_trust (sase-1sb.2.1, sunset flag local_config_command_trust, retire task sase-1sc); autoquote (shlex-quoting Jinja env with a | raw opt-out, WORD [A-Za-z0-9._-]+, AGENT allows a leading @). Source checks: linked/sidecar clone dirs use require_safe_path_component and the five log helpers use sase_project_dir; CheckoutMarker validates its fields; git revisions are validated and push uses --end-of-options; AGENT_ENV_VARS includes SASE_AGENT_NAME; MRU/hook/command/axe JSON writes are atomic, with flock on the MRU and append_error; the chat-catalog cache re-raises OperationalError and uses a 5s busy timeout; _migrate_issue_types drops _issues_new first; init_db closes its connection on failure. The test_db_migrations split (51466616d2) kept the restart regression in test_db_migrations_rebuild.py. epic-symbols: none.
+
+REMAINING EPIC WORK:
+(1) sase-1sb.5 edit-lock ownership race (DISCOVERED ISSUE note #1) is still on master 2b53bb0c7f. A deterministic probe that delays the first writer's os.write until a second acquire returns gives ['first:owner', 'second:owner']: an O_EXCL file is visible empty, _read_edit_lock returns None, and the contender reclaims it as stale. release_edit_lock also unlinks unconditionally, so a reclaimed owner can delete its successor's lock.
+(2) sase-1sb.1 regression: render_prompt_template replaces only the first occurrence of each placeholder (str.find), so a prompt template that interpolates {{ step._raw }} twice leaves a literal __SASE_MODEL_OUTPUT_<nonce>_0__ token in the prompt. Verified by probe.
+
+INTEGRATION: reviewed every non-epic commit since 6cdb74c3e6, including d0dc942c16's siblings, 1087ccd7f1 continuation provenance, the auto-restart launcher resubmit (7665654aaa/d237c84204), a49dac15ca monitor follow-up, and the processor/config/loader/migration-test splits. 1087ccd7f1 tracks authored-request capture text, not command-substitution authorship, so there is no conflict. The healer relaunch passes origin=generated, so with_launch_provenance stamps authorship=agent (fail-closed; accepted). No new multi-writer state or project-dir joins bypass the epic's helpers. No core drift affects the epic.
+
+FOLLOW-UPS:
+- sase-1sb.5 note #1 (TUI x-row lifecycle flake): duplicate of sase-1sg (same test, same line-274 signature, confirmed in ToolRun 9fc932a5 stdout). +1 recorded, no new task.
+- sase-1sb.7 note #1 (sase-core issue_type_migration_sql lacks the DROP guard): verified at schema.rs:92 (sase-core 3416e4e2) and reproduced ("table _issues_new already exists"). Not epic-caused, and no causal active epic, so new task sase-1sm (bug, small, ready).
+- sase-1sb.2.1.3 note #1 (edit-lock flake): previously routed to this epic as DISCOVERED ISSUE note #1; it is remaining work item (1). Quarantine/retry declined because the race is real.
+- Landing discovery: structured prompt-step outputs, _data, loop join:text, and step outputs carrying agent-writable state (e.g. sync.yml's branch_name) still reach host $(cmd) in human-launched workflows. Probe: field/_data/loop executed, _raw protected. This predates the epic and is outside the audited _raw/_response scope, and fixing it needs a design that keeps prompt_part macro expansion (with_q_and_a/with_feedback) and Jinja conditionals working, so new task sase-1sn (bug, large, ready). The placeholder conditional/filter semantics are recorded there as design context.
+- Plan out-of-scope item (sase-github _run_shell / ext:: remotes): already filed as sase-1sa; nothing new.
+- No parent bead on sase-1sb.
+
+[2026-11-13T00:14:39Z · sase-1sd.land] DISCOVERED ISSUE (corroboration from the sase-1sd landing): phase sase-1sd.1--1 (note #6) saw tests/ace/changespec/test_edit_lock.py::test_concurrent_edit_lock_acquisition_has_one_owner fail once in full check run cdb14e97a0880c9de1127a1bd78bcdf6 on base ea4121387b. The failure was the busy.wait(timeout=2) bound under full-lane load, and the whole file passed 15/15 in isolation. The sase-1sd.1 diff touched only patch_sync.py, workspace_handler_context.py, and test_project_ref_canonicalization.py. This is the same node this epic already owns as remaining work item (1), the acquire_edit_lock O_EXCL empty-inode race from sase-1sb.5 (6cdb74c3e6). No new task was created.
+
+[2026-11-13T01:26:28Z · sase-1sb.land--2] Landing closeout: audit verified all 7 phases plus nested child epic sase-1sb.2.1 closed with DECISIONS honored (provenance, digest_trust, autoquote). Fixed (1) sase-1sb.5 edit-lock ownership race in src/sase/ace/patch/locking.py — atomic publish via temp-file + os.link (O_EXCL fallback), unparseable-lock sentinel with 5s grace, owner-only release; regression tests in tests/ace/changespec/test_edit_lock.py cover deterministic interleave and stale-reclamation. Fixed (2) render_prompt_template placeholder leak in src/sase/macro/workflow_executor_utils.py — replace all occurrences per placeholder (was first-only); regression test in tests/test_prompt_authorship_safety.py covers repeated placeholder interpolation. Passing check: b719f65305c62c1597e15a96bd3e6579 (just check, exit 0). Triage: verdict pass, KIND none, KNOWN 0, FLAKY 0. epic-symbols: none (empty, added none keyed to sase-1sb).
 
 ## Phases
 
@@ -45,7 +67,7 @@ Verified injection, traversal, privilege-gap, and state-corruption bugs from the
 
 ```mermaid
 flowchart TD
-    n0["sase-1sb: Security and robustness audit fixes [in_progress]"]
+    n0["sase-1sb: Security and robustness audit fixes [closed]"]
     n1["sase-1sb.1: Stop $(cmd) execution in agent-authored prompt text [closed]"]
     n2["sase-1sb.2: Trust-gate command-bearing project-local config [closed]"]
     n3["sase-1sb.2.1: Digest-pinned trust for project-local commands [closed]"]
@@ -91,7 +113,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1sb.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sb.5/README.md) | [sase-1sb.5](sase-1sb.5.md) | 1 |
 | [bbugyi200.athena.sase-1sb.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sb.6/README.md) | [sase-1sb.6](sase-1sb.6.md) | 1 |
 | [bbugyi200.athena.sase-1sb.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1sb.7.md) | [sase-1sb.7](sase-1sb.7.md) | 1 |
-| [bbugyi200.athena.sase-1sb.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sb.land/README.md) | [sase-1sb](README.md) | 0 |
+| [bbugyi200.athena.sase-1sb.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1sb.land.md) | [sase-1sb](README.md) | 1 |
 
 ## Commits
 
@@ -113,6 +135,7 @@ flowchart TD
 | sase | [`681de35`](https://github.com/sase-org/sase/commit/681de3542bdd024f8aa3ccfe247a9f1aa4b42ef2) | fix(config): enforce local command trust provenance | [sase-1sb.2.1](sase-1sb.2.1.md) | 2026-11-12 11:06:29 EST |
 | sase | [`2b53bb0`](https://github.com/sase-org/sase/commit/2b53bb0c7fc2a9f6dba7805b16778efd49cf3323) | fix(macro): keep trusted sparse project overrides out of prompt-only macros | [sase-1sb.2.1](sase-1sb.2.1.md) | 2026-11-12 16:56:30 EST |
 | sase--plans | [`sase--plans@035ca1a`](https://github.com/sase-org/sase--plans/commit/035ca1a75ea67e5c8ac311012227dd30a5af2136) | chore(plans): mark local-command digest trust epic and repair tale done | [sase-1sb.2.1](sase-1sb.2.1.md) | 2026-11-12 16:57:59 EST |
+| sase | [`4a4ee98`](https://github.com/sase-org/sase/commit/4a4ee98c651bbbb1e1c6e8417891de83dd827777) | fix(sase-1sb): atomic edit-lock publish and replace-all placeholder rendering with regression tests | [sase-1sb](README.md) | 2026-11-12 20:31:39 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -120,8 +143,11 @@ flowchart TD
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
+| read-by | [agent:sase-1sb.2.1.land][1] | Confirm edit-lock follow-up disposition recorded by earlier lander | 1 |
 | read-by | [agent:sase-1sb.2.1.land--3][1] | Need phase notes and documented lock-race disposition for approved closeout | 1 |
+| read-by | [agent:sase-1sd.land][2] | Read edit-lock flake disposition notes | 3 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1sb.2.1.land.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sd.land/README.md
 
 <!-- sase:referenced-by:end -->

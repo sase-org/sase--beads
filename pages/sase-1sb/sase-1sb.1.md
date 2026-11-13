@@ -7,6 +7,20 @@
 **Created:** 2026-11-11 17:38:52 EST · **Closed:** 2026-11-12 01:01:15 EST
 **Plan:** [202611/security\_bug\_audit\_fixes.md](https://github.com/sase-org/sase--plans/blob/main/202611/security_bug_audit_fixes.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| related | [bead:sase-1sn][1] | sase-1sb.1 added the _raw/_response placeholder protection and the agent-authorship gate this task must extend without regressing prompt_part macro expansion |
+
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-1sn/README.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 `preprocess_prompt_late` (src/sase/llm_provider/preprocessing.py:205) runs

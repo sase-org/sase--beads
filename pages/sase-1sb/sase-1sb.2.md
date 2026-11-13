@@ -70,6 +70,7 @@ layer still merges its non-command keys.
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
+| read-by | [agent:sase-1sb.2.1.land][1] | Verify the delegated parent phase scope before closing it | 1 |
 | read-by | [agent:sase-1sb.2.1.land--3][1] | Need parent phase scope and notes before closeout | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1sb.2.1.land.md

@@ -46,6 +46,7 @@ finalization and ensure the sase core revision pin contains the bindings.
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1sb.2.1.1--1][1] | Check monitor failure for phase bead | 1 |
+| read-by | [agent:sase-1sb.2.1.land][2] | Need the child scope and notes | 1 |
 | read-by | [agent:sase-1sb.2.1.land--3][2] | Need phase notes and documented lock-race disposition for approved closeout | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1sb.2.1.1.md

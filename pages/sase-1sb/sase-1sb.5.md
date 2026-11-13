@@ -62,7 +62,9 @@ token is reclaimed.
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1sb.5][1] | Verify the assigned phase is closed after implementation and test completion | 2 |
+| read-by | [agent:sase-1sd.land][2] | Check sase-1sb.5 notes for the concurrent edit lock test | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sb.5/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sd.land/README.md
 
 <!-- sase:referenced-by:end -->
