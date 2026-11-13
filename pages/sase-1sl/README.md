@@ -69,7 +69,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1sl.1.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1sl.1.1.1.md) | [sase-1sl.1.1.1](sase-1sl.1.1.1.md) | 1 |
 | [bbugyi200.athena.sase-1sl.1.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sl.1.1.2/README.md) | [sase-1sl.1.1.2](sase-1sl.1.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1sl.1.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1sl.1.1.3.md) | [sase-1sl.1.1.3](sase-1sl.1.1.3.md) | 1 |
-| [bbugyi200.athena.sase-1sl.1.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1sl.1.1.land.md) | [sase-1sl.1.1](sase-1sl.1.1.md) | 1 |
+| [bbugyi200.athena.sase-1sl.1.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1sl.1.1.land.md) | [sase-1sl.1.1](sase-1sl.1.1.md) | 2 |
 | [bbugyi200.athena.sase-1sl.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sl.2/README.md) | [sase-1sl.2](sase-1sl.2.md) | 0 |
 | [bbugyi200.athena.sase-1sl.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1sl.3.md) | [sase-1sl.3](sase-1sl.3.md) | 1 |
 | [bbugyi200.athena.sase-1sl.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sl.4/README.md) | [sase-1sl.4](sase-1sl.4.md) | 0 |
@@ -84,3 +84,4 @@ flowchart TD
 | sase-core | [`sase-core@fa5adc2`](https://github.com/sase-org/sase-core/commit/fa5adc2b4ce2c128b9ee55986d32348feb6b278d) | feat(agent-scan): persist validated never-live capacity verdicts across processes | [sase-1sl.1.1.2](sase-1sl.1.1.2.md) | 2026-11-12 20:26:21 EST |
 | sase-core | [`sase-core@bab5978`](https://github.com/sase-org/sase-core/commit/bab5978195d9a52afa828b18cdba779a1b930ee2) | feat(agent-scan): prove archive-scale scan budgets with verdict-cache warm path | [sase-1sl.1.1.3](sase-1sl.1.1.3.md) | 2026-11-12 23:32:29 EST |
 | sase-core | [`sase-core@1b3aef9`](https://github.com/sase-org/sase-core/commit/1b3aef9464b929dafbce125638367596041ece5b) | test(agent-scan): prove capacity cache write safety | [sase-1sl.1.1](sase-1sl.1.1.md) | 2026-11-13 00:46:47 EST |
+| sase--plans | [`sase--plans@abca233`](https://github.com/sase-org/sase--plans/commit/abca233e69ecf78743ccd4b4831a726316af1411) | docs(plans): mark capacity scan plan complete | [sase-1sl.1.1](sase-1sl.1.1.md) | 2026-11-13 00:48:08 EST |

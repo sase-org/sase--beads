@@ -48,13 +48,14 @@ Both sase bead epic-symbols sase-1sl.1.1 and sase bead epic-symbols sase-1sl.1 a
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1sl.1.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1sl.1.1.land.md) | [sase-1sl.1.1](sase-1sl.1.1.md) | 1 |
+| [bbugyi200.athena.sase-1sl.1.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1sl.1.1.land.md) | [sase-1sl.1.1](sase-1sl.1.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@1b3aef9`](https://github.com/sase-org/sase-core/commit/1b3aef9464b929dafbce125638367596041ece5b) | test(agent-scan): prove capacity cache write safety | [sase-1sl.1.1](sase-1sl.1.1.md) | 2026-11-13 00:46:47 EST |
+| sase--plans | [`sase--plans@abca233`](https://github.com/sase-org/sase--plans/commit/abca233e69ecf78743ccd4b4831a726316af1411) | docs(plans): mark capacity scan plan complete | [sase-1sl.1.1](sase-1sl.1.1.md) | 2026-11-13 00:48:08 EST |
 
 <!-- sase:referenced-by:start -->
 
