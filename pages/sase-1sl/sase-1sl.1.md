@@ -17,7 +17,7 @@ core-capacity-scan: in the linked sase-core repo, add a statx-only live-marker p
 
 ## Dependencies
 
-- **Blocks:** [sase-1sl.2](sase-1sl.2.md) ◐ · ⧖ 2026-11-12
+- **Blocks:** [sase-1sl.2](sase-1sl.2.md) ✓ · ⧖ 2026-11-12
 
 ## Agents
 
