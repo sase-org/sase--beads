@@ -36,3 +36,15 @@ private-remote-verify: preflight_sidecars compares visibility only when creating
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`03b3a01`](https://github.com/sase-org/sase/commit/03b3a01dc9511cbf5be0f61f651894a90027e70f) | fix(attachments): refuse private bytes on public remotes | [sase-1sd.7](sase-1sd.7.md) | 2026-11-12 18:39:03 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1sd.7][1] | phase scope | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sd.7/README.md
+
+<!-- sase:referenced-by:end -->
