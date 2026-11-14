@@ -30,3 +30,15 @@ research-swarm-hydrogen: in the linked sase-research-artifacts plugin, change th
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-research-artifacts | [`sase-research-artifacts@fec2ab7`](https://github.com/sase-org/sase-research-artifacts/commit/fec2ab7b8854be1de45f65001222b22f715481ae) | feat(research-swarm): default Gemini researcher to agy/gemini-4-hydrogen-xhigh | [sase-1ss.2](sase-1ss.2.md) | 2026-11-13 20:12:48 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ss.2][1] | check phase notes and remaining work | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ss.2/README.md
+
+<!-- sase:referenced-by:end -->
