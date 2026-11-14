@@ -27,7 +27,7 @@ agy-hydrogen-catalog: in the sase repo, add the four Hydrogen slugs and their hy
 
 ## Dependencies
 
-- **Blocks:** [sase-1ss.2](sase-1ss.2.md) ◐ · ⧖ 2026-11-13
+- **Blocks:** [sase-1ss.2](sase-1ss.2.md) ✓ · ⧖ 2026-11-13
 
 ## Agents
 
@@ -40,3 +40,15 @@ agy-hydrogen-catalog: in the sase repo, add the four Hydrogen slugs and their hy
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`cf7a09f`](https://github.com/sase-org/sase/commit/cf7a09f15b485b8e1f0b9216b4707aab93f16a5b) | feat(sase-1ss.1): catalog Gemini 4 Hydrogen on Antigravity | [sase-1ss.1](sase-1ss.1.md) | 2026-11-13 19:52:07 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ss.1--1][1] | Verify phase scope before closing after green check | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ss.1.md
+
+<!-- sase:referenced-by:end -->

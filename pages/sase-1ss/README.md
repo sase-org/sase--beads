@@ -28,7 +28,7 @@ Gemini 4 Hydrogen shows up as a catalogued Antigravity model on every manifest-d
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-1ss.1](sase-1ss.1.md) | Catalog Gemini 4 Hydrogen on Antigravity (sase) | ✓ closed | medium | 2026-11-13 | 1 | 1 |
-| [sase-1ss.2](sase-1ss.2.md) | Default the swarm's Gemini researcher to Hydrogen (sase-research-artifacts) | ◐ in_progress | small | 2026-11-13 | 1 | 0 |
+| [sase-1ss.2](sase-1ss.2.md) | Default the swarm's Gemini researcher to Hydrogen (sase-research-artifacts) | ✓ closed | small | 2026-11-13 | 1 | 1 |
 
 ## Lineage
 
@@ -36,7 +36,7 @@ Gemini 4 Hydrogen shows up as a catalogued Antigravity model on every manifest-d
 flowchart TD
     n0["sase-1ss: Google Gemini 4 Argon and Hydrogen support [in_progress]"]
     n1["sase-1ss.1: Catalog Gemini 4 Hydrogen on Antigravity (sase) [closed]"]
-    n2["sase-1ss.2: Default the swarm's Gemini researcher to Hydrogen (sase-research-artifacts) [in_progress]"]
+    n2["sase-1ss.2: Default the swarm's Gemini researcher to Hydrogen (sase-research-artifacts) [closed]"]
     n0 --> n1
     n0 --> n2
     n1 -.-> n2
@@ -47,7 +47,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1ss.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ss.1.md) | [sase-1ss.1](sase-1ss.1.md) | 1 |
-| [bbugyi200.athena.sase-1ss.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ss.2/README.md) | [sase-1ss.2](sase-1ss.2.md) | 0 |
+| [bbugyi200.athena.sase-1ss.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ss.2/README.md) | [sase-1ss.2](sase-1ss.2.md) | 1 |
 | [bbugyi200.athena.sase-1ss.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ss.land/README.md) | [sase-1ss](README.md) | 0 |
 
 ## Commits
@@ -55,3 +55,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`cf7a09f`](https://github.com/sase-org/sase/commit/cf7a09f15b485b8e1f0b9216b4707aab93f16a5b) | feat(sase-1ss.1): catalog Gemini 4 Hydrogen on Antigravity | [sase-1ss.1](sase-1ss.1.md) | 2026-11-13 19:52:07 EST |
+| sase-research-artifacts | [`sase-research-artifacts@fec2ab7`](https://github.com/sase-org/sase-research-artifacts/commit/fec2ab7b8854be1de45f65001222b22f715481ae) | feat(research-swarm): default Gemini researcher to agy/gemini-4-hydrogen-xhigh | [sase-1ss.2](sase-1ss.2.md) | 2026-11-13 20:12:48 EST |
