@@ -33,3 +33,15 @@ mentions: underline resolved bead IDs in prompt text using a memory-only overlay
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`0c92939`](https://github.com/sase-org/sase/commit/0c929393a5b8451eb772a9c18dc0cf7468c1396b) | feat(tui): underline resolved bead IDs with status-tinted prompt mentions | [sase-1sy.3](sase-1sy.3.md) | 2026-11-15 13:32:10 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1sy.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sy.3/README.md
+
+<!-- sase:referenced-by:end -->
