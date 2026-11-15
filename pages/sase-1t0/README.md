@@ -27,16 +27,16 @@ The hourly artifact_retention job reclaims dangling index rows instead of failin
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-1t0.1](sase-1t0.1.md) | Artifact retention tolerates dangling stored files | ◐ in_progress | medium | 2026-11-15 | 1 | 0 |
-| [sase-1t0.2](sase-1t0.2.md) | Grace window for unresolved deferred prompt archives | ◐ in_progress | medium | 2026-11-15 | 1 | 1 |
+| [sase-1t0.1](sase-1t0.1.md) | Artifact retention tolerates dangling stored files | ✓ closed | medium | 2026-11-15 | 1 | 1 |
+| [sase-1t0.2](sase-1t0.2.md) | Grace window for unresolved deferred prompt archives | ✓ closed | medium | 2026-11-15 | 1 | 0 |
 
 ## Lineage
 
 ```mermaid
 flowchart TD
     n0["sase-1t0: Stop recurring hourly job failures from dangling artifacts and in-flight prompt archives [in_progress]"]
-    n1["sase-1t0.1: Artifact retention tolerates dangling stored files [in_progress]"]
-    n2["sase-1t0.2: Grace window for unresolved deferred prompt archives [in_progress]"]
+    n1["sase-1t0.1: Artifact retention tolerates dangling stored files [closed]"]
+    n2["sase-1t0.2: Grace window for unresolved deferred prompt archives [closed]"]
     n0 --> n1
     n0 --> n2
 ```
@@ -45,12 +45,12 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1t0.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t0.1.md) | [sase-1t0.1](sase-1t0.1.md) | 0 |
-| [bbugyi200.athena.sase-1t0.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t0.2.md) | [sase-1t0.2](sase-1t0.2.md) | 1 |
+| [bbugyi200.athena.sase-1t0.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t0.1.md) | [sase-1t0.1](sase-1t0.1.md) | 1 |
+| [bbugyi200.athena.sase-1t0.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t0.2.md) | [sase-1t0.2](sase-1t0.2.md) | 0 |
 | [bbugyi200.athena.sase-1t0.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t0.land/README.md) | [sase-1t0](README.md) | 0 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| sase | [`974c600`](https://github.com/sase-org/sase/commit/974c600c6a29cf25b123ab3ae3aa381bdfcbf522) | feat(agents-sync): grace unresolved deferred prompt archives | [sase-1t0.2](sase-1t0.2.md) | 2026-11-15 13:28:13 EST |
+| sase-core | [`sase-core@2159438`](https://github.com/sase-org/sase-core/commit/2159438daaad1b2925acde6a9a6dabfd3e79bca5) | fix(artifact-files): support missing payloads in trash | [sase-1t0.1](sase-1t0.1.md) | 2026-11-15 14:41:03 EST |
