@@ -21,4 +21,10 @@ pubnoise: treat a young unresolved prompt archive as a deferral (no error, no at
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1t0.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t0.2.md) | [sase-1t0.2](sase-1t0.2.md) | 0 |
+| [bbugyi200.athena.sase-1t0.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t0.2.md) | [sase-1t0.2](sase-1t0.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`974c600`](https://github.com/sase-org/sase/commit/974c600c6a29cf25b123ab3ae3aa381bdfcbf522) | feat(agents-sync): grace unresolved deferred prompt archives | [sase-1t0.2](sase-1t0.2.md) | 2026-11-15 13:28:13 EST |
