@@ -74,7 +74,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1sy.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sy.1/README.md) | [sase-1sy.1](sase-1sy.1.md) | 1 |
 | [bbugyi200.athena.sase-1sy.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1sy.2.md) | [sase-1sy.2](sase-1sy.2.md) | 1 |
 | [bbugyi200.athena.sase-1sy.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sy.3/README.md) | [sase-1sy.3](sase-1sy.3.md) | 1 |
-| [bbugyi200.athena.sase-1sy.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1sy.land.md) | [sase-1sy](README.md) | 1 |
+| [bbugyi200.athena.sase-1sy.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1sy.land.md) | [sase-1sy](README.md) | 2 |
 
 ## Commits
 
@@ -84,6 +84,7 @@ flowchart TD
 | sase | [`baf2309`](https://github.com/sase-org/sase/commit/baf23097d646611b6530c1a2970404e76f0f231e) | feat(tui): add related beads, navigation, and full detail to the K card | [sase-1sy.2](sase-1sy.2.md) | 2026-11-15 11:43:44 EST |
 | sase | [`0c92939`](https://github.com/sase-org/sase/commit/0c929393a5b8451eb772a9c18dc0cf7468c1396b) | feat(tui): underline resolved bead IDs with status-tinted prompt mentions | [sase-1sy.3](sase-1sy.3.md) | 2026-11-15 13:32:10 EST |
 | sase | [`082f2bc`](https://github.com/sase-org/sase/commit/082f2bc7054de7d71a86646105c863b4dd85849d) | fix(ace): complete bead preview routing and mentions | [sase-1sy](README.md) | 2026-11-15 16:03:27 EST |
+| sase--plans | [`sase--plans@edf395b`](https://github.com/sase-org/sase--plans/commit/edf395baa4a8c8ab3950c9e6444078bf5e259998) | docs(plans): mark bead preview plan done | [sase-1sy](README.md) | 2026-11-15 16:04:25 EST |
 
 <!-- sase:referenced-by:start -->
 
