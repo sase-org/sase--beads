@@ -14,7 +14,7 @@ mentions: underline resolved bead IDs in prompt text using a memory-only overlay
 ## Dependencies
 
 - **Depends on:** [sase-1sy.1](sase-1sy.1.md) ✓ · ⧖ 2026-11-14
-- **Depends on:** [sase-1sy.2](sase-1sy.2.md) ◐ · ⧖ 2026-11-14
+- **Depends on:** [sase-1sy.2](sase-1sy.2.md) ✓ · ⧖ 2026-11-14
 
 ## Agents
 

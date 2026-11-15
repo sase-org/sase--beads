@@ -17,7 +17,7 @@ peek: recognize bare and @bead: IDs at the cursor, route them through a warm app
 
 ## Dependencies
 
-- **Blocks:** [sase-1sy.2](sase-1sy.2.md) ◐ · ⧖ 2026-11-14
+- **Blocks:** [sase-1sy.2](sase-1sy.2.md) ✓ · ⧖ 2026-11-14
 - **Blocks:** [sase-1sy.3](sase-1sy.3.md) ◐ · ⧖ 2026-11-14
 
 ## Agents
@@ -31,3 +31,15 @@ peek: recognize bare and @bead: IDs at the cursor, route them through a warm app
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`4006ec3`](https://github.com/sase-org/sase/commit/4006ec36adf88bfc2a1691432e48b62b00018eb5) | feat(tui): preview beads with K in the prompt input | [sase-1sy.1](sase-1sy.1.md) | 2026-11-15 08:29:32 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1sy.1][1] | Need full notes and remaining work for this phase | 4 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1sy.1/README.md
+
+<!-- sase:referenced-by:end -->
