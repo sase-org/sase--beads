@@ -18,7 +18,7 @@ peek: recognize bare and @bead: IDs at the cursor, route them through a warm app
 ## Dependencies
 
 - **Blocks:** [sase-1sy.2](sase-1sy.2.md) ✓ · ⧖ 2026-11-14
-- **Blocks:** [sase-1sy.3](sase-1sy.3.md) ◐ · ⧖ 2026-11-14
+- **Blocks:** [sase-1sy.3](sase-1sy.3.md) ✓ · ⧖ 2026-11-14
 
 ## Agents
 

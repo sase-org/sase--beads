@@ -20,7 +20,7 @@ relations: add lineage, a numbered phase/children list with a progress meter, an
 ## Dependencies
 
 - **Depends on:** [sase-1sy.1](sase-1sy.1.md) ✓ · ⧖ 2026-11-14
-- **Blocks:** [sase-1sy.3](sase-1sy.3.md) ◐ · ⧖ 2026-11-14
+- **Blocks:** [sase-1sy.3](sase-1sy.3.md) ✓ · ⧖ 2026-11-14
 
 ## Agents
 
