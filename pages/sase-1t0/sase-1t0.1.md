@@ -33,3 +33,15 @@ retention: let the trash store accept a missing payload on opt-in, pass the flag
 |---|---|---|---|---|
 | sase-core | [`sase-core@2159438`](https://github.com/sase-org/sase-core/commit/2159438daaad1b2925acde6a9a6dabfd3e79bca5) | fix(artifact-files): support missing payloads in trash | [sase-1t0.1](sase-1t0.1.md) | 2026-11-15 14:41:03 EST |
 | sase | [`9793a95`](https://github.com/sase-org/sase/commit/9793a95a5c507b75d97139b084797488329f9aab) | fix(artifact-retention): tolerate dangling payloads | [sase-1t0.1](sase-1t0.1.md) | 2026-11-15 14:42:24 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1t0.1--2][1] | Need the assigned phase scope and current status before verification and close | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t0.1.md
+
+<!-- sase:referenced-by:end -->
