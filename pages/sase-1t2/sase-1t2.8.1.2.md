@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1t2.8.1](sase-1t2.8.1.md) / sase-1t2.8.1.2
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-1t2.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t2.8.md) · **Assignee:** `sase-1t2.8.1.2` · **Size:** medium
-**Created:** 2026-11-16 04:09:08 EST
+**Created:** 2026-11-16 04:09:08 EST · **Closed:** 2026-11-16 08:34:35 EST
 **Plan:** [202611/hijack\_latch\_boundaries.md](https://github.com/sase-org/sase--plans/blob/main/202611/hijack_latch_boundaries.md)
 
 ## Description
@@ -15,10 +15,12 @@ spawn_guards: carry predecessor identity through follow-up and detached launch p
 
 [2026-11-16T12:17:53Z · sase-1t2.8.1.2] Spawn guards wired through follow-up, detached, and successor-delivery paths. HijackLatchedError is not a RuntimeError and is re-raised ahead of every fallback. 23 focused tests passed; lock-order tracer covers request/apply/cancel/callback. No leftover --epic-symbol entries. Host-owned just check will close this phase.
 
+[2026-11-16T13:34:35Z · sase-1t2.8.1.2--mon-0] Closed by explicit `sase stitch create -B close` after create_commit landed ba6ec6897b ("feat(agent-hijack): refuse successor launches against a latched predecessor"). The commit author requested bead completion after verifying the bead scope. Reopen with `sase bead open sase-1t2.8.1.2` if more work remains.
+
 ## Dependencies
 
 - **Depends on:** [sase-1t2.8.1.1](sase-1t2.8.1.1.md) ✓ · ⧖ 2026-11-16
-- **Blocks:** [sase-1t2.8.1.3](sase-1t2.8.1.3.md) ◐ · ⧖ 2026-11-16
+- **Blocks:** [sase-1t2.8.1.3](sase-1t2.8.1.3.md) ✓ · ⧖ 2026-11-16
 
 ## Agents
 

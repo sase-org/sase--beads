@@ -19,7 +19,7 @@ latch_store: add additive Rust latch transitions and reconcile policy, bindings,
 
 ## Dependencies
 
-- **Blocks:** [sase-1t2.8.1.2](sase-1t2.8.1.2.md) ◐ · ⧖ 2026-11-16
+- **Blocks:** [sase-1t2.8.1.2](sase-1t2.8.1.2.md) ✓ · ⧖ 2026-11-16
 
 ## Agents
 
