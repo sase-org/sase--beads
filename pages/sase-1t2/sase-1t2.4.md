@@ -33,3 +33,15 @@ facts_resolver: build one Python facts builder used by every hijack caller (no h
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`cc1e71b`](https://github.com/sase-org/sase/commit/cc1e71b755672fb6186a439d380da3515b24eef9) | feat(agent-hijack): resolve session occupants before stopping | [sase-1t2.4](sase-1t2.4.md) | 2026-11-15 23:48:58 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1t2.4--2][1] | Verify the phase close result after its pre-close lint and symbol checks completed. | 4 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t2.4.md
+
+<!-- sase:referenced-by:end -->
