@@ -11,6 +11,10 @@
 
 monitor_adapter: running monitor turns become immediate through stop_monitor with a hijack intent; the settlement funnel suppresses --next, holds the workspace, and writes a hijacked done marker for proc-backed and legacy monitors; a settled monitor with a pending follow-up latches. Recovery offers Continue (recorded follow-up with untrusted partial output), Escalate, Re-run command, View, Shell, and Dismiss.
 
+## Notes
+
+[2026-11-16T20:25:20Z · sase-1t2.11] PLANNING HANDOFF: Checked existing work at sase b586776bf3 and the approved epic/research. Shared latch and recovery infrastructure has landed, but monitor eligibility still refuses, settlement has no hijack checkpoint, terminal writers overwrite outcome as monitored, and monitor recovery/rerun remain absent. Authored a seven-phase child epic with parent_bead=sase-1t2.11; both plan validations passed with zero warnings and sase plan propose reported Staged. No implementation files changed and no bead was closed. No epic-symbol entries currently belong to this phase. The child epic land workflow owns phase completion after implementation and verification.
+
 ## Dependencies
 
 - **Blocks:** [sase-1t2.13](sase-1t2.13.md) ◐ · ⧖ 2026-11-15
@@ -20,7 +24,7 @@ monitor_adapter: running monitor turns become immediate through stop_monitor wit
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1t2.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11/README.md) | [sase-1t2.11](sase-1t2.11.md) | 0 |
+| [bbugyi200.athena.sase-1t2.11](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t2.11.md) | [sase-1t2.11](sase-1t2.11.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 

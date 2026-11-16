@@ -44,7 +44,9 @@ activate_cli: return latched decisions only for supported finalizing or staged a
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1t2.8.1.6--1][1] | Need phase scope and design file to repair failed verify | 1 |
+| read-by | [agent:sase-1t2.8.1.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t2.8.1.6.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.8.1.land/README.md
 
 <!-- sase:referenced-by:end -->

@@ -41,7 +41,9 @@ pending_tui: add pending overlays on members and containers, durable cancel/forc
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1t2.8.1.5][1] | Need remaining notes, DECISIONS, and design details for pending_tui | 5 |
+| read-by | [agent:sase-1t2.8.1.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.8.1.5/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.8.1.land/README.md
 
 <!-- sase:referenced-by:end -->

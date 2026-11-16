@@ -29,7 +29,7 @@ Landing evidence is in the sase-1t2.8.1 close note. Checkpoint inventory for cha
 
 ## Dependencies
 
-- **Blocks:** [sase-1t2.10](sase-1t2.10.md) ◐ · ⧖ 2026-11-15
+- **Blocks:** [sase-1t2.10](sase-1t2.10.md) ✓ · ⧖ 2026-11-15
 - **Blocks:** [sase-1t2.11](sase-1t2.11.md) ◐ · ⧖ 2026-11-15
 - **Depends on:** [sase-1t2.7](sase-1t2.7.md) ✓ · ⧖ 2026-11-15
 
@@ -47,8 +47,10 @@ Landing evidence is in the sase-1t2.8.1 close note. Checkpoint inventory for cha
 | --- | --- | --- | ---: |
 | read-by | [agent:ef][1] | Check cross-epic coordination between hijack epic sase-1t2 and TUI perf epic sase-1t3 | 1 |
 | read-by | [agent:sase-1t2.8.1.1][2] | Need the parent phase notes and design links | 1 |
+| read-by | [agent:sase-1t2.8.1.land][3] | Confirm the parent phase auto-close state after epic close | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.ef/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.8.1.1/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.8.1.land/README.md
 
 <!-- sase:referenced-by:end -->
