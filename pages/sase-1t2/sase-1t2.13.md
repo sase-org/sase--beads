@@ -18,6 +18,12 @@ chaos: a scripted fakey session (agent, sleep monitor, agent) that fires hijack 
 - **Blocks:** [sase-1t2.14](sase-1t2.14.md) ◐ · ⧖ 2026-11-15
 - **Depends on:** [sase-1t2.9](sase-1t2.9.md) ✓ · ⧖ 2026-11-15
 
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-1t2.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.13/README.md) | [sase-1t2.13](sase-1t2.13.md) | 0 |
+
 <!-- sase:referenced-by:start -->
 
 ## Referenced By

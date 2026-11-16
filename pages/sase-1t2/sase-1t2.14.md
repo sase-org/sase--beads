@@ -15,3 +15,9 @@ land: reconcile the hijack Reference docs with the final behavior, update the Ag
 
 - **Depends on:** [sase-1t2.12](sase-1t2.12.md) ✓ · ⧖ 2026-11-15
 - **Depends on:** [sase-1t2.13](sase-1t2.13.md) ◐ · ⧖ 2026-11-15
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-1t2.14](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.14/README.md) | [sase-1t2.14](sase-1t2.14.md) | 0 |

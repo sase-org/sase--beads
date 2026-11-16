@@ -25,6 +25,12 @@ _Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 Complete sase-1t2.8 with durable, cancellable hijacks that suppress successors at safe agent-turn boundaries.
 
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-1t2.8.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.8.1.land/README.md) | [sase-1t2.8.1](sase-1t2.8.1.md) | 0 |
+
 <!-- sase:referenced-by:start -->
 
 ## Referenced By

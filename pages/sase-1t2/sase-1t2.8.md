@@ -21,6 +21,12 @@ latch_core: latched ledger state and events in sase-core; the decision returns l
 - **Blocks:** [sase-1t2.11](sase-1t2.11.md) ◐ · ⧖ 2026-11-15
 - **Depends on:** [sase-1t2.7](sase-1t2.7.md) ✓ · ⧖ 2026-11-15
 
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-1t2.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t2.8.md) | [sase-1t2.8](sase-1t2.8.md) | 0 |
+
 <!-- sase:referenced-by:start -->
 
 ## Referenced By
