@@ -11,6 +11,10 @@
 
 session-clans: replace session and clan archive enumeration with targeted Rust queries and group resolution, preserve generation and archived-completion semantics, and verify authoritative hijack resolution without archive scans.
 
+## Notes
+
+[2026-11-16T20:20:24Z · sase-1t3.6.1.3--1] PROPOSED FOLLOW-UP: Track the linked sase-core check’s four baseline clippy::needless_bool failures with sase-1t1; this run reproduced the unchanged grammar.rs, tokenize.rs, and demand.rs diagnostics.
+
 ## Dependencies
 
 - **Depends on:** [sase-1t3.6.1.1](sase-1t3.6.1.1.md) ✓ · ⧖ 2026-11-16
@@ -20,4 +24,4 @@ session-clans: replace session and clan archive enumeration with targeted Rust q
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1t3.6.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.6.1.3/README.md) | [sase-1t3.6.1.3](sase-1t3.6.1.3.md) | 0 |
+| [bbugyi200.athena.sase-1t3.6.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.6.1.3.md) | [sase-1t3.6.1.3](sase-1t3.6.1.3.md) | 0 |

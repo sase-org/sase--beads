@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1t3](README.md) / sase-1t3.12
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.research.62.linker.w0](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.research.62.linker.w0.md) · **Assignee:** `sase-1t3.12` · **Size:** large
-**Created:** 2026-11-16 07:57:56 EST
+**Created:** 2026-11-16 07:57:56 EST · **Closed:** 2026-11-16 13:25:25 EST
 **Plan:** [202611/tui\_storm\_trust\_heap\_recovery.md](https://github.com/sase-org/sase--plans/blob/main/202611/tui_storm_trust_heap_recovery.md)
 
 ## Description
@@ -60,6 +60,8 @@ Host should run `just check` again after this snapshot fix before landing.
 
 [2026-11-16T16:08:33Z · sase-1t3.12--1] VERIFICATION: just check monitor kyb2khn6wdrc / tool run e3295df430d8ae18f2e451ff6a882b4f failed NEW on tests/test_models_panel_history.py::test_footer_shows_history_only_for_supported_rows[large-True] (OptionDoesNotExist: 'large'). Alias/bucket rows only appear after the provider-snapshot worker; compose starts with empty alias views and pause() can return first under load. History tests now wait for snapshot idle and the target option before highlighting. 20 history tests + 24 dispatch/wire tests pass. Unrelated to terminalization policy; needed for the landing gate. -r Record the check recovery on the assigned phase bead
 
+[2026-11-16T18:25:25Z · sase-1t3.12--4] Closed by explicit `sase stitch create -B close` after create_commit landed f8c2763ae3 ("feat(agent-scan): surface terminalization diagnostics on the index update wire"). The commit author requested bead completion after verifying the bead scope. Reopen with `sase bead open sase-1t3.12` if more work remains.
+
 ## Dependencies
 
 - **Blocks:** [sase-1t3.14](sase-1t3.14.md) ◐ · ⧖ 2026-11-16
@@ -76,3 +78,15 @@ Host should run `just check` again after this snapshot fix before landing.
 |---|---|---|---|---|
 | sase-core | [`sase-core@969096d`](https://github.com/sase-org/sase-core/commit/969096d095350a73ce38d5ee4f90b62c2bbe420f) | feat(agent-scan): terminalize stale running index rows with lifecycle witnesses | [sase-1t3.12](sase-1t3.12.md) | 2026-11-16 13:22:55 EST |
 | sase | [`f8c2763`](https://github.com/sase-org/sase/commit/f8c2763ae38fc3bb67afed60d8356b346563b5ec) | feat(agent-scan): surface terminalization diagnostics on the index update wire | [sase-1t3.12](sase-1t3.12.md) | 2026-11-16 13:24:31 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1t3.12--4][1] | Need assigned bead scope to choose keep vs close on host completion | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.12.md
+
+<!-- sase:referenced-by:end -->

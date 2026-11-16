@@ -45,8 +45,12 @@ named-bundles: replace find_named_agent's full artifact scan and recursive dismi
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1t3.6.1.2][1] | Need full details including notes and decisions | 2 |
+| read-by | [agent:sase-1t2.8.1.7][1] | Check whether the stale epic-symbol freshness failure belongs to an existing phase follow-up | 1 |
+| read-by | [agent:sase-1t2.8.1.land][2] | Check whether the archive-corpus/drain KNOWN check failures are already tracked | 1 |
+| read-by | [agent:sase-1t3.6.1.2][3] | Need full details including notes and decisions | 2 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.6.1.2/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.8.1.7/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.8.1.land/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.6.1.2/README.md
 
 <!-- sase:referenced-by:end -->

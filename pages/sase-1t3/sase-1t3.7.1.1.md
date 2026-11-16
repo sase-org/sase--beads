@@ -21,6 +21,10 @@ snapshot-consumers: introduce the TUI descriptor snapshot and pure lookup bounda
 
 [2026-11-16T17:45:30Z · sase-1t3.7.1.1--3] Recovery: just check failed with 2 NEW scoped tests. Allowlisted _artifact_tab_snapshot.py on the ref-prefix dispatch contract (identity lookup, not pane dispatch). AcePage palette catalog now passes the committed snapshot. Marking mock accepts snapshot=. Gate origin-retention test disables held-claim TTL so a 2026-11-02 fixture stamp cannot age past the 14-day default. Focused pytest of contract, marking, scaffold, origin-retention, and snapshot tests passed (14). Re-staging prepared just check.
 
+[2026-11-16T18:54:14Z · sase-1t3.7.1.1--4] Recovery: prepared just check timed out at 1h during lint (mypy incomplete). rust-install spent 17m 40s compiling sase_core_rs, then model-policy took 13m 28s under loadavg ~25. Tests never started. No NEW product failure. rust wheel is now cached. Re-staging prepared just check with a 2h budget and accept: no-new.
+
+[2026-11-16T19:12:49Z · sase-1t3.7.1.1--5] Recovery: just check failed epic-symbol freshness (stale_checkout) for three closed sase-1t3.6.1.2 rows inherited from HEAD dc09b5eba3 while origin 8a1b84b096 had dropped them in e1d81ee6c6. Fast-forwarded master onto origin, reapplied snapshot-consumers work. Kept upstream origin-retention local_now() fix; dropped the local TTL=0 workaround. Catalog merged hijack options with show_artifacts_pane sources. epic-symbol freshness now exits 0; this bead has no --epic-symbol rows. Re-staging prepared just check.
+
 ## Dependencies
 
 - **Blocks:** [sase-1t3.7.1.2](sase-1t3.7.1.2.md) ◐ · ⧖ 2026-11-16
