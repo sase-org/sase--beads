@@ -20,7 +20,7 @@ runner_boundaries: enforce latches under staged adoption and successor-delivery 
 ## Dependencies
 
 - **Depends on:** [sase-1t2.8.1.2](sase-1t2.8.1.2.md) ✓ · ⧖ 2026-11-16
-- **Blocks:** [sase-1t2.8.1.4](sase-1t2.8.1.4.md) ◐ · ⧖ 2026-11-16
+- **Blocks:** [sase-1t2.8.1.4](sase-1t2.8.1.4.md) ✓ · ⧖ 2026-11-16
 
 ## Agents
 
@@ -33,3 +33,15 @@ runner_boundaries: enforce latches under staged adoption and successor-delivery 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`13b7ae9`](https://github.com/sase-org/sase/commit/13b7ae9075e96781c3d53480420a885b9f028b85) | feat(agent-hijack): enforce runner-side latch at adoption, retry, and delivery boundaries | [sase-1t2.8.1.3](sase-1t2.8.1.3.md) | 2026-11-16 09:08:06 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1t2.8.1.3][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.8.1.3/README.md
+
+<!-- sase:referenced-by:end -->

@@ -13,7 +13,7 @@ pending_tui: add pending overlays on members and containers, durable cancel/forc
 
 ## Dependencies
 
-- **Depends on:** [sase-1t2.8.1.4](sase-1t2.8.1.4.md) ◐ · ⧖ 2026-11-16
+- **Depends on:** [sase-1t2.8.1.4](sase-1t2.8.1.4.md) ✓ · ⧖ 2026-11-16
 - **Blocks:** [sase-1t2.8.1.6](sase-1t2.8.1.6.md) ◐ · ⧖ 2026-11-16
 
 ## Agents
