@@ -15,7 +15,7 @@ ops_polish: a `sase doctor` check for running agents lacking the hijack capabili
 
 - **Blocks:** [sase-1t2.14](sase-1t2.14.md) ◐ · ⧖ 2026-11-15
 - **Depends on:** [sase-1t2.5](sase-1t2.5.md) ◐ · ⧖ 2026-11-15
-- **Depends on:** [sase-1t2.6](sase-1t2.6.md) ◐ · ⧖ 2026-11-15
+- **Depends on:** [sase-1t2.6](sase-1t2.6.md) ✓ · ⧖ 2026-11-15
 
 ## Agents
 

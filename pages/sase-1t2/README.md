@@ -39,7 +39,7 @@ Pressing ,k (or the kill dialog's h, or `sase agent hijack NAME`) on any local a
 | [sase-1t2.3](sase-1t2.3.md) | Snapshot discovery that sees real linked-repo metadata | ✓ closed | small | 2026-11-15 | 1 | 1 |
 | [sase-1t2.4](sase-1t2.4.md) | One facts builder, occupant resolution, and \`sase agent hijack --explain\` | ✓ closed | medium | 2026-11-15 | 1 | 1 |
 | [sase-1t2.5](sase-1t2.5.md) | TUI ingress uses the backend decision: precise toasts, container retargeting, redirects | ◐ in_progress | medium | 2026-11-15 | 1 | 0 |
-| [sase-1t2.6](sase-1t2.6.md) | Transactional stop hardening and target-level dedup | ◐ in_progress | medium | 2026-11-15 | 1 | 1 |
+| [sase-1t2.6](sase-1t2.6.md) | Transactional stop hardening and target-level dedup | ✓ closed | medium | 2026-11-15 | 1 | 2 |
 | [sase-1t2.7](sase-1t2.7.md) | Real-pipeline hijack canary | ◐ in_progress | medium | 2026-11-15 | 1 | 0 |
 | [sase-1t2.8](sase-1t2.8.md) | Durable hijack latch at agent-turn hand-offs | ◐ in_progress | large | 2026-11-15 | 1 | 0 |
 | [sase-1t2.9](sase-1t2.9.md) | Hijack WAITING, QUEUED, and booting turns that hold a numbered workspace | ◐ in_progress | medium | 2026-11-15 | 1 | 0 |
@@ -59,7 +59,7 @@ flowchart TD
     n8["sase-1t2.3: Snapshot discovery that sees real linked-repo metadata [closed]"]
     n9["sase-1t2.4: One facts builder, occupant resolution, and `sase agent hijack --explain` [closed]"]
     n10["sase-1t2.5: TUI ingress uses the backend decision: precise toasts, container retargeting, redirects [in_progress]"]
-    n11["sase-1t2.6: Transactional stop hardening and target-level dedup [in_progress]"]
+    n11["sase-1t2.6: Transactional stop hardening and target-level dedup [closed]"]
     n12["sase-1t2.7: Real-pipeline hijack canary [in_progress]"]
     n13["sase-1t2.8: Durable hijack latch at agent-turn hand-offs [in_progress]"]
     n14["sase-1t2.9: Hijack WAITING, QUEUED, and booting turns that hold a numbered workspace [in_progress]"]
@@ -111,7 +111,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1t2.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t2.3.md) | [sase-1t2.3](sase-1t2.3.md) | 1 |
 | [bbugyi200.athena.sase-1t2.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t2.4.md) | [sase-1t2.4](sase-1t2.4.md) | 1 |
 | [bbugyi200.athena.sase-1t2.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.5/README.md) | [sase-1t2.5](sase-1t2.5.md) | 0 |
-| [bbugyi200.athena.sase-1t2.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t2.6.md) | [sase-1t2.6](sase-1t2.6.md) | 1 |
+| [bbugyi200.athena.sase-1t2.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t2.6.md) | [sase-1t2.6](sase-1t2.6.md) | 2 |
 | [bbugyi200.athena.sase-1t2.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.7/README.md) | [sase-1t2.7](sase-1t2.7.md) | 0 |
 | [bbugyi200.athena.sase-1t2.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.8/README.md) | [sase-1t2.8](sase-1t2.8.md) | 0 |
 | [bbugyi200.athena.sase-1t2.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.9/README.md) | [sase-1t2.9](sase-1t2.9.md) | 0 |
@@ -128,6 +128,7 @@ flowchart TD
 | sase | [`e2ae4f2`](https://github.com/sase-org/sase/commit/e2ae4f2252d3f3162a67364239089be59f8361c7) | test(models-panel): wait for alias rows before reset highlight | [sase-1t2.2](sase-1t2.2.md) | 2026-11-15 22:37:39 EST |
 | sase | [`cc1e71b`](https://github.com/sase-org/sase/commit/cc1e71b755672fb6186a439d380da3515b24eef9) | feat(agent-hijack): resolve session occupants before stopping | [sase-1t2.4](sase-1t2.4.md) | 2026-11-15 23:48:58 EST |
 | sase | [`deddacb`](https://github.com/sase-org/sase/commit/deddacb1e510d0d40fa12e05da8629cc8c15373d) | feat(agent-hijack): transactional stop hardening and target-level dedup | [sase-1t2.6](sase-1t2.6.md) | 2026-11-16 00:28:30 EST |
+| sase | [`dcae086`](https://github.com/sase-org/sase/commit/dcae0865684a74cf837c8189b5a481f6229b9ab5) | test(agent-hijack): review \_promote\_sessionless\_predecessor marker path passing | [sase-1t2.6](sase-1t2.6.md) | 2026-11-16 00:49:14 EST |
 
 <!-- sase:referenced-by:start -->
 

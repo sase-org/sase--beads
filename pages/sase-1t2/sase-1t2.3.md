@@ -21,7 +21,7 @@ snapshot_inventory: make hijack stop/release snapshot discovery accept dict-shap
 
 ## Dependencies
 
-- **Blocks:** [sase-1t2.6](sase-1t2.6.md) ◐ · ⧖ 2026-11-15
+- **Blocks:** [sase-1t2.6](sase-1t2.6.md) ✓ · ⧖ 2026-11-15
 
 ## Agents
 

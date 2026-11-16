@@ -20,7 +20,7 @@ facts_resolver: build one Python facts builder used by every hijack caller (no h
 - **Depends on:** [sase-1t2.1](sase-1t2.1.md) ✓ · ⧖ 2026-11-15
 - **Depends on:** [sase-1t2.2](sase-1t2.2.md) ✓ · ⧖ 2026-11-15
 - **Blocks:** [sase-1t2.5](sase-1t2.5.md) ◐ · ⧖ 2026-11-15
-- **Blocks:** [sase-1t2.6](sase-1t2.6.md) ◐ · ⧖ 2026-11-15
+- **Blocks:** [sase-1t2.6](sase-1t2.6.md) ✓ · ⧖ 2026-11-15
 
 ## Agents
 

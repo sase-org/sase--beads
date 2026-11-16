@@ -14,7 +14,7 @@ canary: a fakey end-to-end test that launches through the normal pipeline (anony
 ## Dependencies
 
 - **Depends on:** [sase-1t2.5](sase-1t2.5.md) ◐ · ⧖ 2026-11-15
-- **Depends on:** [sase-1t2.6](sase-1t2.6.md) ◐ · ⧖ 2026-11-15
+- **Depends on:** [sase-1t2.6](sase-1t2.6.md) ✓ · ⧖ 2026-11-15
 - **Blocks:** [sase-1t2.8](sase-1t2.8.md) ◐ · ⧖ 2026-11-15
 - **Blocks:** [sase-1t2.9](sase-1t2.9.md) ◐ · ⧖ 2026-11-15
 
