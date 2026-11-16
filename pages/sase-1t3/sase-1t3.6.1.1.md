@@ -26,10 +26,11 @@ lookup-core: add read-only, target-selective artifact queries, compatible lookup
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1t3.6.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.6.1.1/README.md) | [sase-1t3.6.1.1](sase-1t3.6.1.1.md) | 1 |
+| [bbugyi200.athena.sase-1t3.6.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.6.1.1/README.md) | [sase-1t3.6.1.1](sase-1t3.6.1.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@a4b1c84`](https://github.com/sase-org/sase-core/commit/a4b1c8432139f40fd6c926041e3ab2c33c5cff11) | feat(agent-scan): add read-only indexed artifact identity lookups | [sase-1t3.6.1.1](sase-1t3.6.1.1.md) | 2026-11-16 11:11:20 EST |
+| sase | [`dc09b5e`](https://github.com/sase-org/sase/commit/dc09b5eba323c0b9ae21400b0e45c70acb7a5dde) | feat(agent-scan): add lookup\_agent\_artifacts facade and schema 38 pin | [sase-1t3.6.1.1](sase-1t3.6.1.1.md) | 2026-11-16 11:12:52 EST |
