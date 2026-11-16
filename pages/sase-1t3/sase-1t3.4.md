@@ -17,6 +17,8 @@ trust-root: make enforcement and `sase config trust` derive the same checkout ro
 
 [2026-11-16T13:51:10Z · sase-1t3.4] Verified: owning_checkout_root_for_config returns <repo> for canonical sase/sase.yml (VCS/canonical tie-break; discover_project_root unchanged). Enforcement and sase config trust share identity, logical path, and digest for primary, numbered workspace, unregistered, symlink, and repo-named-sase. Collision fails closed. Cutover ignores checkout:v1:<root>/sase. Skip hint names sase config trust allow for the primary. No leftover --epic-symbol entries. Focused unit tests passed; just check is the remaining gate.
 
+[2026-11-16T14:57:21Z · sase-1t3.4--1] Verified: owning_checkout_root_for_config returns the checkout for canonical sase/sase.yml. Enforcement and sase config trust share identity, logical path, and digest for primary, numbered workspace, unregistered, symlink, and repo-named-sase. Collision fails closed. Cutover ignores checkout:v1:<root>/sase. Skip hint names sase config trust allow for the primary. Deleted unused public reset_lower_macros_cache and reset_project_identity_caches (generation already invalidates). No leftover --epic-symbol entries. Focused tests and just _lint-symvision passed; just check is the remaining host gate.
+
 ## Dependencies
 
 - **Blocks:** [sase-1t3.14](sase-1t3.14.md) ◐ · ⧖ 2026-11-16
@@ -27,4 +29,24 @@ trust-root: make enforcement and `sase config trust` derive the same checkout ro
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1t3.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.4.md) | [sase-1t3.4](sase-1t3.4.md) | 0 |
+| [bbugyi200.athena.sase-1t3.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.4.md) | [sase-1t3.4](sase-1t3.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`ac19f90`](https://github.com/sase-org/sase/commit/ac19f907ae531b47a40272013e3ef4e74da38d16) | fix(config): key local-command trust on the owning checkout | [sase-1t3.4](sase-1t3.4.md) | 2026-11-16 10:57:37 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1t2.8.1.4][1] | Determine whether the two unchanged Symvision failures are already tracked by this active bead | 1 |
+| read-by | [agent:toobig-9u.test_agent_hijack_canary.0][2] | Check whether the active trust enforcement phase covers symvision failures in local trust modules | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.8.1.4/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-9u.test_agent_hijack_canary.0/README.md
+
+<!-- sase:referenced-by:end -->

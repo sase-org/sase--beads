@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/tui_storm_trust_heap_recovery.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/sase-org/sase--plans/blob/main/202611/tui_storm_trust_heap_recovery.md
 
 <!-- sase:links:end -->
@@ -22,6 +24,10 @@
 ## Description
 
 `sase tui` reaches a usable Agents list in about 6-7 s instead of about 14 s. Selection changes can no longer start archive scans that fill memory or the default executor. Numbered workspaces inherit their project's trust acknowledgment. Long sessions keep a bounded heap and responsive j/k navigation. Existing telemetry proves each stage.
+
+## Notes
+
+[2026-11-16T15:28:39Z · toobig-9u.test_agent_hijack_canary.0] DISCOVERED ISSUE: On a clean checkout at 93273f4a4f1dc3f3ba25f740491837b182ceb76c, just _lint-symvision and sase tool run check both still report unused reset_lower_macros_cache in src/sase/config/local_trust_enforcement.py and reset_project_identity_caches in src/sase/config/local_trust_management.py; check stops before its scoped test lane. The canary tests pass 2/2. These same symbols are named as deleted in phase sase-1t3.4 note #3, so this checkout appears to predate that phase's fix; recheck after the phase changes land.
 
 ## Phases
 
@@ -35,7 +41,7 @@
 | [sase-1t3.14](sase-1t3.14.md) | End-to-end soak against the research baselines | ◐ in_progress | medium | 2026-11-16 | 1 | 0 |
 | [sase-1t3.2](sase-1t3.2.md) | Executor-saturation gauge and telemetry retention | ✓ closed | small | 2026-11-16 | 1 | 1 |
 | [sase-1t3.3](sase-1t3.3.md) | Semantics-preserving trust and config memoization | ✓ closed | medium | 2026-11-16 | 1 | 1 |
-| [sase-1t3.4](sase-1t3.4.md) | One checkout root for trust enforcement and acknowledgment | ◐ in_progress | medium | 2026-11-16 | 1 | 0 |
+| [sase-1t3.4](sase-1t3.4.md) | One checkout root for trust enforcement and acknowledgment | ◐ in_progress | medium | 2026-11-16 | 1 | 1 |
 | [sase-1t3.5](sase-1t3.5.md) | Per-load memos for the Agents loader decode stage | ◐ in_progress | medium | 2026-11-16 | 1 | 0 |
 | [sase-1t3.6](sase-1t3.6.md) | Index-backed agent name, session, clan, and dismissed-bundle lookups | ◐ in_progress | large | 2026-11-16 | 1 | 0 |
 | [sase-1t3.7](sase-1t3.7.md) | Provider-tab discovery after first paint as one generation | ◐ in_progress | large | 2026-11-16 | 1 | 0 |
@@ -119,7 +125,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1t3.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.1/README.md) | [sase-1t3.1](sase-1t3.1.md) | 1 |
+| [bbugyi200.athena.sase-1t3.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.1.md) | [sase-1t3.1](sase-1t3.1.md) | 1 |
 | [bbugyi200.athena.sase-1t3.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.10/README.md) | [sase-1t3.10](sase-1t3.10.md) | 0 |
 | [bbugyi200.athena.sase-1t3.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.11/README.md) | [sase-1t3.11](sase-1t3.11.md) | 0 |
 | [bbugyi200.athena.sase-1t3.12](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.12.md) | [sase-1t3.12](sase-1t3.12.md) | 0 |
@@ -127,7 +133,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1t3.14](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.14/README.md) | [sase-1t3.14](sase-1t3.14.md) | 0 |
 | [bbugyi200.athena.sase-1t3.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.2.md) | [sase-1t3.2](sase-1t3.2.md) | 1 |
 | [bbugyi200.athena.sase-1t3.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.3/README.md) | [sase-1t3.3](sase-1t3.3.md) | 1 |
-| [bbugyi200.athena.sase-1t3.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.4.md) | [sase-1t3.4](sase-1t3.4.md) | 0 |
+| [bbugyi200.athena.sase-1t3.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.4.md) | [sase-1t3.4](sase-1t3.4.md) | 1 |
 | [bbugyi200.athena.sase-1t3.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.5.md) | [sase-1t3.5](sase-1t3.5.md) | 0 |
 | [bbugyi200.athena.sase-1t3.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.6.md) | [sase-1t3.6](sase-1t3.6.md) | 0 |
 | [bbugyi200.athena.sase-1t3.6.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.6.1.1/README.md) | [sase-1t3.6.1.1](sase-1t3.6.1.1.md) | 0 |
@@ -146,3 +152,18 @@ flowchart TD
 | sase | [`157ae99`](https://github.com/sase-org/sase/commit/157ae99cf0a70d6af16283a9140c080cbae1df85) | feat(config): memoize trust identity and merged-config fast path | [sase-1t3.3](sase-1t3.3.md) | 2026-11-16 08:32:41 EST |
 | sase | [`c580b68`](https://github.com/sase-org/sase/commit/c580b689c18bace8e59234042fcbe08d9bfe2b23) | feat(ace): add executor saturation gauge and telemetry retention | [sase-1t3.2](sase-1t3.2.md) | 2026-11-16 08:58:50 EST |
 | sase | [`75ed2a1`](https://github.com/sase-org/sase/commit/75ed2a12395f17be73302b31081a40f85ee1b50b) | fix(tui): stop the hijack-decision compute storm | [sase-1t3.1](sase-1t3.1.md) | 2026-11-16 09:53:32 EST |
+| sase | [`ac19f90`](https://github.com/sase-org/sase/commit/ac19f907ae531b47a40272013e3ef4e74da38d16) | fix(config): key local-command trust on the owning checkout | [sase-1t3.4](sase-1t3.4.md) | 2026-11-16 10:57:37 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1t3.1][1] | Need parent epic decisions and phase list | 1 |
+| read-by | [agent:toobig-9u.test_agent_hijack_canary.0][2] | Check whether the active trust and config performance epic plausibly owns unused cache-reset symbols in local trust modules | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.1.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-9u.test_agent_hijack_canary.0/README.md
+
+<!-- sase:referenced-by:end -->

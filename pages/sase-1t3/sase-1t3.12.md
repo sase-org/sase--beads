@@ -49,6 +49,15 @@ sase-core `sase tool run check` is red on clippy `needless_bool` in unmodified f
 
 PROPOSED FOLLOW-UP: land a tiny clippy `needless_bool` cleanup on the four clean-base sites above so sase-core `just check` is green again. Witness: tool run `624757425a9b6a438e54efc838234bbd` on `50a6d972`.
 
+[2026-11-16T15:19:15Z · sase-1t3.12] ## Verification
+
+- `sase tool run check` in sase (run `70340607c0b8bc97ad399b1869e4494c`): lint green; scoped tests escalated to the full suite (`core-identity-changed`). 61196 passed, 1 failed: `tests/main/test_agents_dispatch_handler.py::test_dispatch_index_rebuild_json` expected the rebuild JSON without additive defaulted terminalization diagnostics. Updated the snapshot; 11 related tests pass.
+- `just rust-install` rebuilt `sase_core_rs` 0.44.2 into this workspace `.venv`.
+- `just fix` clean after the snapshot update.
+- sase-core `sase tool run check` still matches clean-base clippy (`needless_bool` in `plan/decisions/grammar.rs:900`, `prompt_prediction/tokenize.rs:514` and `:838`, `tool_run/store/demand.rs:47`; witness `624757425a9b6a438e54efc838234bbd`). Our extra `collapsible_if` was flattened. PROPOSED FOLLOW-UP already on this bead.
+
+Host should run `just check` again after this snapshot fix before landing.
+
 ## Dependencies
 
 - **Blocks:** [sase-1t3.14](sase-1t3.14.md) ◐ · ⧖ 2026-11-16
