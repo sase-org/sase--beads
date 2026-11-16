@@ -58,6 +58,8 @@ PROPOSED FOLLOW-UP: land a tiny clippy `needless_bool` cleanup on the four clean
 
 Host should run `just check` again after this snapshot fix before landing.
 
+[2026-11-16T16:08:33Z · sase-1t3.12--1] VERIFICATION: just check monitor kyb2khn6wdrc / tool run e3295df430d8ae18f2e451ff6a882b4f failed NEW on tests/test_models_panel_history.py::test_footer_shows_history_only_for_supported_rows[large-True] (OptionDoesNotExist: 'large'). Alias/bucket rows only appear after the provider-snapshot worker; compose starts with empty alias views and pause() can return first under load. History tests now wait for snapshot idle and the target option before highlighting. 20 history tests + 24 dispatch/wire tests pass. Unrelated to terminalization policy; needed for the landing gate. -r Record the check recovery on the assigned phase bead
+
 ## Dependencies
 
 - **Blocks:** [sase-1t3.14](sase-1t3.14.md) ◐ · ⧖ 2026-11-16

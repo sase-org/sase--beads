@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1t3](README.md) / sase-1t3.4
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.research.62.linker.w0](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.research.62.linker.w0.md) · **Assignee:** `sase-1t3.4` · **Size:** medium
-**Created:** 2026-11-16 07:57:55 EST
+**Created:** 2026-11-16 07:57:55 EST · **Closed:** 2026-11-16 10:58:29 EST
 **Plan:** [202611/tui\_storm\_trust\_heap\_recovery.md](https://github.com/sase-org/sase--plans/blob/main/202611/tui_storm_trust_heap_recovery.md)
 
 ## Description
@@ -19,6 +19,8 @@ trust-root: make enforcement and `sase config trust` derive the same checkout ro
 
 [2026-11-16T14:57:21Z · sase-1t3.4--1] Verified: owning_checkout_root_for_config returns the checkout for canonical sase/sase.yml. Enforcement and sase config trust share identity, logical path, and digest for primary, numbered workspace, unregistered, symlink, and repo-named-sase. Collision fails closed. Cutover ignores checkout:v1:<root>/sase. Skip hint names sase config trust allow for the primary. Deleted unused public reset_lower_macros_cache and reset_project_identity_caches (generation already invalidates). No leftover --epic-symbol entries. Focused tests and just _lint-symvision passed; just check is the remaining host gate.
 
+[2026-11-16T15:58:29Z · sase-1t3.4--mon-0] Closed by explicit `sase stitch create -B close` after create_commit landed ac19f907ae ("fix(config): key local-command trust on the owning checkout"). The commit author requested bead completion after verifying the bead scope. Reopen with `sase bead open sase-1t3.4` if more work remains.
+
 ## Dependencies
 
 - **Blocks:** [sase-1t3.14](sase-1t3.14.md) ◐ · ⧖ 2026-11-16
@@ -29,13 +31,7 @@ trust-root: make enforcement and `sase config trust` derive the same checkout ro
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1t3.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.4.md) | [sase-1t3.4](sase-1t3.4.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase | [`ac19f90`](https://github.com/sase-org/sase/commit/ac19f907ae531b47a40272013e3ef4e74da38d16) | fix(config): key local-command trust on the owning checkout | [sase-1t3.4](sase-1t3.4.md) | 2026-11-16 10:57:37 EST |
+| [bbugyi200.athena.sase-1t3.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.4.md) | [sase-1t3.4](sase-1t3.4.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 

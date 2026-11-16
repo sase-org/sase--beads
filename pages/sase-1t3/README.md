@@ -33,15 +33,15 @@ _Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-1t3.1](sase-1t3.1.md) | Stop the hijack-decision storm | ✓ closed | medium | 2026-11-16 | 1 | 1 |
+| [sase-1t3.1](sase-1t3.1.md) | Stop the hijack-decision storm | ✓ closed | medium | 2026-11-16 | 1 | 0 |
 | [sase-1t3.10](sase-1t3.10.md) | Slim list rows end to end and a one-generation snapshot cache | ◐ in_progress | large | 2026-11-16 | 1 | 0 |
 | [sase-1t3.11](sase-1t3.11.md) | Replace whole-file log caches with targeted queries | ◐ in_progress | large | 2026-11-16 | 1 | 0 |
 | [sase-1t3.12](sase-1t3.12.md) | Terminalize stale running rows in index maintenance | ◐ in_progress | large | 2026-11-16 | 1 | 0 |
 | [sase-1t3.13](sase-1t3.13.md) | Interaction latency after the heap shrinks | ◐ in_progress | large | 2026-11-16 | 1 | 0 |
 | [sase-1t3.14](sase-1t3.14.md) | End-to-end soak against the research baselines | ◐ in_progress | medium | 2026-11-16 | 1 | 0 |
-| [sase-1t3.2](sase-1t3.2.md) | Executor-saturation gauge and telemetry retention | ✓ closed | small | 2026-11-16 | 1 | 1 |
-| [sase-1t3.3](sase-1t3.3.md) | Semantics-preserving trust and config memoization | ✓ closed | medium | 2026-11-16 | 1 | 1 |
-| [sase-1t3.4](sase-1t3.4.md) | One checkout root for trust enforcement and acknowledgment | ◐ in_progress | medium | 2026-11-16 | 1 | 1 |
+| [sase-1t3.2](sase-1t3.2.md) | Executor-saturation gauge and telemetry retention | ✓ closed | small | 2026-11-16 | 1 | 0 |
+| [sase-1t3.3](sase-1t3.3.md) | Semantics-preserving trust and config memoization | ✓ closed | medium | 2026-11-16 | 1 | 0 |
+| [sase-1t3.4](sase-1t3.4.md) | One checkout root for trust enforcement and acknowledgment | ✓ closed | medium | 2026-11-16 | 1 | 0 |
 | [sase-1t3.5](sase-1t3.5.md) | Per-load memos for the Agents loader decode stage | ◐ in_progress | medium | 2026-11-16 | 1 | 0 |
 | [sase-1t3.6](sase-1t3.6.md) | Index-backed agent name, session, clan, and dismissed-bundle lookups | ◐ in_progress | large | 2026-11-16 | 1 | 0 |
 | [sase-1t3.7](sase-1t3.7.md) | Provider-tab discovery after first paint as one generation | ◐ in_progress | large | 2026-11-16 | 1 | 0 |
@@ -61,11 +61,11 @@ flowchart TD
     n6["sase-1t3.14: End-to-end soak against the research baselines [in_progress]"]
     n7["sase-1t3.2: Executor-saturation gauge and telemetry retention [closed]"]
     n8["sase-1t3.3: Semantics-preserving trust and config memoization [closed]"]
-    n9["sase-1t3.4: One checkout root for trust enforcement and acknowledgment [in_progress]"]
+    n9["sase-1t3.4: One checkout root for trust enforcement and acknowledgment [closed]"]
     n10["sase-1t3.5: Per-load memos for the Agents loader decode stage [in_progress]"]
     n11["sase-1t3.6: Index-backed agent name, session, clan, and dismissed-bundle lookups [in_progress]"]
     n12["sase-1t3.6.1: Indexed agent name, session, clan, and dismissed-bundle resolution [in_progress]"]
-    n13["sase-1t3.6.1.1: Targeted Rust artifact lookup queries and bounded recovery contract [in_progress]"]
+    n13["sase-1t3.6.1.1: Targeted Rust artifact lookup queries and bounded recovery contract [closed]"]
     n14["sase-1t3.6.1.2: Indexed named-agent and dismissed-bundle resolution [in_progress]"]
     n15["sase-1t3.6.1.3: Indexed session and clan resolution with hijack parity [in_progress]"]
     n16["sase-1t3.7: Provider-tab discovery after first paint as one generation [in_progress]"]
@@ -125,22 +125,22 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1t3.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.1.md) | [sase-1t3.1](sase-1t3.1.md) | 1 |
+| [bbugyi200.athena.sase-1t3.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.1.md) | [sase-1t3.1](sase-1t3.1.md) | 0 |
 | [bbugyi200.athena.sase-1t3.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.10/README.md) | [sase-1t3.10](sase-1t3.10.md) | 0 |
 | [bbugyi200.athena.sase-1t3.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.11/README.md) | [sase-1t3.11](sase-1t3.11.md) | 0 |
 | [bbugyi200.athena.sase-1t3.12](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.12.md) | [sase-1t3.12](sase-1t3.12.md) | 0 |
 | [bbugyi200.athena.sase-1t3.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.13/README.md) | [sase-1t3.13](sase-1t3.13.md) | 0 |
 | [bbugyi200.athena.sase-1t3.14](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.14/README.md) | [sase-1t3.14](sase-1t3.14.md) | 0 |
-| [bbugyi200.athena.sase-1t3.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.2.md) | [sase-1t3.2](sase-1t3.2.md) | 1 |
-| [bbugyi200.athena.sase-1t3.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.3/README.md) | [sase-1t3.3](sase-1t3.3.md) | 1 |
-| [bbugyi200.athena.sase-1t3.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.4.md) | [sase-1t3.4](sase-1t3.4.md) | 1 |
+| [bbugyi200.athena.sase-1t3.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.2.md) | [sase-1t3.2](sase-1t3.2.md) | 0 |
+| [bbugyi200.athena.sase-1t3.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.3/README.md) | [sase-1t3.3](sase-1t3.3.md) | 0 |
+| [bbugyi200.athena.sase-1t3.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.4.md) | [sase-1t3.4](sase-1t3.4.md) | 0 |
 | [bbugyi200.athena.sase-1t3.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.5.md) | [sase-1t3.5](sase-1t3.5.md) | 0 |
 | [bbugyi200.athena.sase-1t3.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.6.md) | [sase-1t3.6](sase-1t3.6.md) | 0 |
-| [bbugyi200.athena.sase-1t3.6.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.6.1.1/README.md) | [sase-1t3.6.1.1](sase-1t3.6.1.1.md) | 0 |
+| [bbugyi200.athena.sase-1t3.6.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.6.1.1/README.md) | [sase-1t3.6.1.1](sase-1t3.6.1.1.md) | 1 |
 | [bbugyi200.athena.sase-1t3.6.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.6.1.2/README.md) | [sase-1t3.6.1.2](sase-1t3.6.1.2.md) | 0 |
 | [bbugyi200.athena.sase-1t3.6.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.6.1.3/README.md) | [sase-1t3.6.1.3](sase-1t3.6.1.3.md) | 0 |
 | [bbugyi200.athena.sase-1t3.6.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.6.1.land/README.md) | [sase-1t3.6.1](sase-1t3.6.1.md) | 0 |
-| [bbugyi200.athena.sase-1t3.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.7/README.md) | [sase-1t3.7](sase-1t3.7.md) | 0 |
+| [bbugyi200.athena.sase-1t3.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.7.md) | [sase-1t3.7](sase-1t3.7.md) | 0 |
 | [bbugyi200.athena.sase-1t3.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.8/README.md) | [sase-1t3.8](sase-1t3.8.md) | 0 |
 | [bbugyi200.athena.sase-1t3.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.9/README.md) | [sase-1t3.9](sase-1t3.9.md) | 0 |
 | [bbugyi200.athena.sase-1t3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.land/README.md) | [sase-1t3](README.md) | 0 |
@@ -149,10 +149,7 @@ flowchart TD
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| sase | [`157ae99`](https://github.com/sase-org/sase/commit/157ae99cf0a70d6af16283a9140c080cbae1df85) | feat(config): memoize trust identity and merged-config fast path | [sase-1t3.3](sase-1t3.3.md) | 2026-11-16 08:32:41 EST |
-| sase | [`c580b68`](https://github.com/sase-org/sase/commit/c580b689c18bace8e59234042fcbe08d9bfe2b23) | feat(ace): add executor saturation gauge and telemetry retention | [sase-1t3.2](sase-1t3.2.md) | 2026-11-16 08:58:50 EST |
-| sase | [`75ed2a1`](https://github.com/sase-org/sase/commit/75ed2a12395f17be73302b31081a40f85ee1b50b) | fix(tui): stop the hijack-decision compute storm | [sase-1t3.1](sase-1t3.1.md) | 2026-11-16 09:53:32 EST |
-| sase | [`ac19f90`](https://github.com/sase-org/sase/commit/ac19f907ae531b47a40272013e3ef4e74da38d16) | fix(config): key local-command trust on the owning checkout | [sase-1t3.4](sase-1t3.4.md) | 2026-11-16 10:57:37 EST |
+| sase-core | [`sase-core@a4b1c84`](https://github.com/sase-org/sase-core/commit/a4b1c8432139f40fd6c926041e3ab2c33c5cff11) | feat(agent-scan): add read-only indexed artifact identity lookups | [sase-1t3.6.1.1](sase-1t3.6.1.1.md) | 2026-11-16 11:11:20 EST |
 
 <!-- sase:referenced-by:start -->
 
