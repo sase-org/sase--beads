@@ -143,7 +143,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1t2.8.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.8.1.5/README.md) | [sase-1t2.8.1.5](sase-1t2.8.1.5.md) | 1 |
 | [bbugyi200.athena.sase-1t2.8.1.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t2.8.1.6.md) | [sase-1t2.8.1.6](sase-1t2.8.1.6.md) | 2 |
 | [bbugyi200.athena.sase-1t2.8.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.8.1.7/README.md) | [sase-1t2.8.1.7](sase-1t2.8.1.7.md) | 1 |
-| [bbugyi200.athena.sase-1t2.8.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.8.1.land/README.md) | [sase-1t2.8.1](sase-1t2.8.1.md) | 1 |
+| [bbugyi200.athena.sase-1t2.8.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.8.1.land/README.md) | [sase-1t2.8.1](sase-1t2.8.1.md) | 2 |
 | [bbugyi200.athena.sase-1t2.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.9/README.md) | [sase-1t2.9](sase-1t2.9.md) | 3 |
 | [bbugyi200.athena.sase-1t2.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.land/README.md) | [sase-1t2](README.md) | 0 |
 
@@ -176,6 +176,7 @@ flowchart TD
 | sase | [`5f99e0c`](https://github.com/sase-org/sase/commit/5f99e0ce00b043cb29304860be6ca3c4ee573b56) | feat(agent-hijack): latch finalizer turns and expose cancel/explain/now CLI contract | [sase-1t2.8.1.6](sase-1t2.8.1.6.md) | 2026-11-16 12:29:38 EST |
 | sase | [`8a1b84b`](https://github.com/sase-org/sase/commit/8a1b84b096401ced7f1ec2f8b4c3d937ae5ab135) | fix(hijack): complete staged latch recovery | [sase-1t2.8.1.7](sase-1t2.8.1.7.md) | 2026-11-16 13:56:51 EST |
 | sase | [`81dfe57`](https://github.com/sase-org/sase/commit/81dfe5710ea123542f9426a1abafe7bd01c17bbb) | fix(ace): tolerate duck-typed rows when mirroring hijack overlays | [sase-1t2.8.1](sase-1t2.8.1.md) | 2026-11-16 15:19:07 EST |
+| sase--plans | [`sase--plans@507a87d`](https://github.com/sase-org/sase--plans/commit/507a87d1b817c58cb3ca7b3be26b6c77a6b9005d) | docs(plans): mark hijack latch boundaries plan done | [sase-1t2.8.1](sase-1t2.8.1.md) | 2026-11-16 15:20:07 EST |
 
 <!-- sase:referenced-by:start -->
 
