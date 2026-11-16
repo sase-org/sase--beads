@@ -17,8 +17,14 @@ slim-list-rows: return and consume a slim list DTO from sase-core instead of inf
 - **Blocks:** [sase-1t3.14](sase-1t3.14.md) ◐ · ⧖ 2026-11-16
 - **Depends on:** [sase-1t3.9](sase-1t3.9.md) ◐ · ⧖ 2026-11-16
 
-## Agents
+<!-- sase:referenced-by:start -->
 
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-1t3.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.10/README.md) | [sase-1t3.10](sase-1t3.10.md) | 0 |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:ef][1] | Confirm slim-list-rows dependencies for conflict report recommendation | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.ef/README.md
+
+<!-- sase:referenced-by:end -->

@@ -11,14 +11,12 @@
 
 loader-memos: build the project alias map once per load, hoist the held-claim TTL config read, enrich each unique agent once with batch-scoped retention and artifacts-dir memos, and compute instruction-bundle file lists lazily for the detail panel.
 
+## Notes
+
+[2026-11-16T17:39:02Z · sase-1t3.5--1] PROPOSED FOLLOW-UP: Profile the unusually long diff-scoped test lane — while check remained active for hours, py-spy samples landed in the path-label audit walking 2,274 TUI Python files and in pytest tmp_path.find_prefixed; measure the dominant costs before narrowing tests or optimizing helpers.
+
 ## Dependencies
 
 - **Blocks:** [sase-1t3.14](sase-1t3.14.md) ◐ · ⧖ 2026-11-16
 - **Blocks:** [sase-1t3.8](sase-1t3.8.md) ◐ · ⧖ 2026-11-16
 - **Blocks:** [sase-1t3.9](sase-1t3.9.md) ◐ · ⧖ 2026-11-16
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-1t3.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.5.md) | [sase-1t3.5](sase-1t3.5.md) | 0 |
