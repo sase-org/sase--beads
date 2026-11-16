@@ -42,7 +42,7 @@ _Plus 4 automatic references — see [Referenced By](#referenced-by)._
 | [sase-1t3.2](sase-1t3.2.md) | Executor-saturation gauge and telemetry retention | ✓ closed | small | 2026-11-16 | 1 | 1 |
 | [sase-1t3.3](sase-1t3.3.md) | Semantics-preserving trust and config memoization | ✓ closed | medium | 2026-11-16 | 1 | 1 |
 | [sase-1t3.4](sase-1t3.4.md) | One checkout root for trust enforcement and acknowledgment | ✓ closed | medium | 2026-11-16 | 1 | 1 |
-| [sase-1t3.5](sase-1t3.5.md) | Per-load memos for the Agents loader decode stage | ✓ closed | medium | 2026-11-16 | 1 | 0 |
+| [sase-1t3.5](sase-1t3.5.md) | Per-load memos for the Agents loader decode stage | ✓ closed | medium | 2026-11-16 | 1 | 1 |
 | [sase-1t3.6](sase-1t3.6.md) | Index-backed agent name, session, clan, and dismissed-bundle lookups | ◐ in_progress | large | 2026-11-16 | 1 | 0 |
 | [sase-1t3.7](sase-1t3.7.md) | Provider-tab discovery after first paint as one generation | ◐ in_progress | large | 2026-11-16 | 1 | 0 |
 | [sase-1t3.8](sase-1t3.8.md) | Lazy action imports and startup background work off the critical path | ◐ in_progress | large | 2026-11-16 | 1 | 0 |
@@ -141,14 +141,14 @@ flowchart TD
 | [bbugyi200.athena.sase-1t3.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.2.md) | [sase-1t3.2](sase-1t3.2.md) | 1 |
 | [bbugyi200.athena.sase-1t3.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.3/README.md) | [sase-1t3.3](sase-1t3.3.md) | 1 |
 | [bbugyi200.athena.sase-1t3.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.4.md) | [sase-1t3.4](sase-1t3.4.md) | 1 |
-| [bbugyi200.athena.sase-1t3.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.5.md) | [sase-1t3.5](sase-1t3.5.md) | 0 |
+| [bbugyi200.athena.sase-1t3.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.5.md) | [sase-1t3.5](sase-1t3.5.md) | 1 |
 | [bbugyi200.athena.sase-1t3.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.6.md) | [sase-1t3.6](sase-1t3.6.md) | 0 |
 | [bbugyi200.athena.sase-1t3.6.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.6.1.1/README.md) | [sase-1t3.6.1.1](sase-1t3.6.1.1.md) | 2 |
 | [bbugyi200.athena.sase-1t3.6.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.6.1.2/README.md) | [sase-1t3.6.1.2](sase-1t3.6.1.2.md) | 2 |
 | [bbugyi200.athena.sase-1t3.6.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.6.1.3.md) | [sase-1t3.6.1.3](sase-1t3.6.1.3.md) | 0 |
 | [bbugyi200.athena.sase-1t3.6.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.6.1.land/README.md) | [sase-1t3.6.1](sase-1t3.6.1.md) | 0 |
 | [bbugyi200.athena.sase-1t3.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.7.md) | [sase-1t3.7](sase-1t3.7.md) | 0 |
-| [bbugyi200.athena.sase-1t3.7.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.7.1.1.md) | [sase-1t3.7.1.1](sase-1t3.7.1.1.md) | 1 |
+| [bbugyi200.athena.sase-1t3.7.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.7.1.1.md) | [sase-1t3.7.1.1](sase-1t3.7.1.1.md) | 2 |
 | [bbugyi200.athena.sase-1t3.7.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.7.1.2/README.md) | [sase-1t3.7.1.2](sase-1t3.7.1.2.md) | 0 |
 | [bbugyi200.athena.sase-1t3.7.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.7.1.land/README.md) | [sase-1t3.7.1](sase-1t3.7.1.md) | 0 |
 | [bbugyi200.athena.sase-1t3.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.8/README.md) | [sase-1t3.8](sase-1t3.8.md) | 0 |
@@ -169,7 +169,9 @@ flowchart TD
 | sase | [`e1d81ee`](https://github.com/sase-org/sase/commit/e1d81ee6c6f2adc9c99819764ed7fa8740443f63) | feat(agent-names): indexed lookup via lookup\_agent\_artifacts with workflow-name ranking | [sase-1t3.6.1.2](sase-1t3.6.1.2.md) | 2026-11-16 13:15:57 EST |
 | sase-core | [`sase-core@969096d`](https://github.com/sase-org/sase-core/commit/969096d095350a73ce38d5ee4f90b62c2bbe420f) | feat(agent-scan): terminalize stale running index rows with lifecycle witnesses | [sase-1t3.12](sase-1t3.12.md) | 2026-11-16 13:22:55 EST |
 | sase | [`f8c2763`](https://github.com/sase-org/sase/commit/f8c2763ae38fc3bb67afed60d8356b346563b5ec) | feat(agent-scan): surface terminalization diagnostics on the index update wire | [sase-1t3.12](sase-1t3.12.md) | 2026-11-16 13:24:31 EST |
+| sase | [`fadbfdc`](https://github.com/sase-org/sase/commit/fadbfdc497dc98b2a17a0250b64c43a83da93a85) | feat(ace): memoize per-load agent loader work | [sase-1t3.5](sase-1t3.5.md) | 2026-11-16 15:35:18 EST |
 | sase-core | [`sase-core@a2abeb1`](https://github.com/sase-org/sase-core/commit/a2abeb1e1b1905780bcd554f55989114c3995292) | fix(agent-archive): compile corpus against current store schema | [sase-1t3.7.1.1](sase-1t3.7.1.1.md) | 2026-11-16 16:31:40 EST |
+| sase | [`1bd8552`](https://github.com/sase-org/sase/commit/1bd855256e1b8c00917caa113f7a0aadb4a467ea) | feat(ace): pin Artifacts consumers to a descriptor snapshot | [sase-1t3.7.1.1](sase-1t3.7.1.1.md) | 2026-11-16 16:33:04 EST |
 
 <!-- sase:referenced-by:start -->
 

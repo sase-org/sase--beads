@@ -37,10 +37,11 @@ PROPOSED FOLLOW-UP: add sase-core to the sase check tool fingerprint.repos so no
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1t3.7.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.7.1.1.md) | [sase-1t3.7.1.1](sase-1t3.7.1.1.md) | 1 |
+| [bbugyi200.athena.sase-1t3.7.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.7.1.1.md) | [sase-1t3.7.1.1](sase-1t3.7.1.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@a2abeb1`](https://github.com/sase-org/sase-core/commit/a2abeb1e1b1905780bcd554f55989114c3995292) | fix(agent-archive): compile corpus against current store schema | [sase-1t3.7.1.1](sase-1t3.7.1.1.md) | 2026-11-16 16:31:40 EST |
+| sase | [`1bd8552`](https://github.com/sase-org/sase/commit/1bd855256e1b8c00917caa113f7a0aadb4a467ea) | feat(ace): pin Artifacts consumers to a descriptor snapshot | [sase-1t3.7.1.1](sase-1t3.7.1.1.md) | 2026-11-16 16:33:04 EST |
