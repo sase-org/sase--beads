@@ -19,7 +19,7 @@ heap-census: soak a separate TUI instance with the GC census at about 10 min and
 - **Blocks:** [sase-1t3.14](sase-1t3.14.md) ◐ · ⧖ 2026-11-16
 - **Depends on:** [sase-1t3.2](sase-1t3.2.md) ✓ · ⧖ 2026-11-16
 - **Depends on:** [sase-1t3.3](sase-1t3.3.md) ✓ · ⧖ 2026-11-16
-- **Depends on:** [sase-1t3.5](sase-1t3.5.md) ◐ · ⧖ 2026-11-16
+- **Depends on:** [sase-1t3.5](sase-1t3.5.md) ✓ · ⧖ 2026-11-16
 
 ## Agents
 

@@ -25,6 +25,10 @@ snapshot-consumers: introduce the TUI descriptor snapshot and pure lookup bounda
 
 [2026-11-16T19:12:49Z · sase-1t3.7.1.1--5] Recovery: just check failed epic-symbol freshness (stale_checkout) for three closed sase-1t3.6.1.2 rows inherited from HEAD dc09b5eba3 while origin 8a1b84b096 had dropped them in e1d81ee6c6. Fast-forwarded master onto origin, reapplied snapshot-consumers work. Kept upstream origin-retention local_now() fix; dropped the local TTL=0 workaround. Catalog merged hijack options with show_artifacts_pane sources. epic-symbol freshness now exits 0; this bead has no --epic-symbol rows. Re-staging prepared just check.
 
+[2026-11-16T21:29:42Z · sase-1t3.7.1.1--7] in_progress --status -n Recovery: just check had no NEW failures (2 KNOWN, 1 FLAKY) but host completion refused no_new_incomplete_coverage:sase-core. sase check fingerprints only the primary repo, so a covering no-new receipt cannot include the sibling. sase-core just check now passes (1fefcec24edbf1323e63b1b45c1d3542) after schema-4 corpus compile plus clippy needless_bool reductions on master. Landing both via unverified host commit; host commits sase-core first and ratchets sase-core-revision.txt.
+
+PROPOSED FOLLOW-UP: add sase-core to the sase check tool fingerprint.repos so no-new prepared completion can cover a dirty pinned sibling.
+
 ## Dependencies
 
 - **Blocks:** [sase-1t3.7.1.2](sase-1t3.7.1.2.md) ◐ · ⧖ 2026-11-16
@@ -33,4 +37,10 @@ snapshot-consumers: introduce the TUI descriptor snapshot and pure lookup bounda
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1t3.7.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.7.1.1.md) | [sase-1t3.7.1.1](sase-1t3.7.1.1.md) | 0 |
+| [bbugyi200.athena.sase-1t3.7.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.7.1.1.md) | [sase-1t3.7.1.1](sase-1t3.7.1.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase-core | [`sase-core@a2abeb1`](https://github.com/sase-org/sase-core/commit/a2abeb1e1b1905780bcd554f55989114c3995292) | fix(agent-archive): compile corpus against current store schema | [sase-1t3.7.1.1](sase-1t3.7.1.1.md) | 2026-11-16 16:31:40 EST |
