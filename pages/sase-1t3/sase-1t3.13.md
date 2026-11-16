@@ -17,3 +17,9 @@ interaction-pass: re-measure j/k and detail selection, then move detail-header l
 - **Depends on:** [sase-1t3.10](sase-1t3.10.md) ◐ · ⧖ 2026-11-16
 - **Depends on:** [sase-1t3.11](sase-1t3.11.md) ◐ · ⧖ 2026-11-16
 - **Blocks:** [sase-1t3.14](sase-1t3.14.md) ◐ · ⧖ 2026-11-16
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-1t3.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.13/README.md) | [sase-1t3.13](sase-1t3.13.md) | 0 |

@@ -22,3 +22,9 @@
 ## Description
 
 Fixed Artifacts panes paint without provider discovery, and every TUI consumer adopts each complete provider-tab generation together.
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-1t3.7.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.7.1.land/README.md) | [sase-1t3.7.1](sase-1t3.7.1.md) | 0 |

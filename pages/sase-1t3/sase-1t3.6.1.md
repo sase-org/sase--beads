@@ -25,6 +25,12 @@ _Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 Preserve agent lookup results while removing archive-wide work from authoritative hijack resolution and achieving warm resolution below one second on athena.
 
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-1t3.6.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.6.1.land/README.md) | [sase-1t3.6.1](sase-1t3.6.1.md) | 0 |
+
 <!-- sase:referenced-by:start -->
 
 ## Referenced By

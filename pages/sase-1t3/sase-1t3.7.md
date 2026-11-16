@@ -19,3 +19,9 @@ provider-discovery-deferral: build fixed-tab bindings synchronously. Publish pro
 
 - **Blocks:** [sase-1t3.14](sase-1t3.14.md) ◐ · ⧖ 2026-11-16
 - **Depends on:** [sase-1t3.4](sase-1t3.4.md) ✓ · ⧖ 2026-11-16
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-1t3.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.7.md) | [sase-1t3.7](sase-1t3.7.md) | 0 |

@@ -24,3 +24,9 @@ snapshot-consumers: introduce the TUI descriptor snapshot and pure lookup bounda
 ## Dependencies
 
 - **Blocks:** [sase-1t3.7.1.2](sase-1t3.7.1.2.md) ◐ · ⧖ 2026-11-16
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-1t3.7.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.7.1.1.md) | [sase-1t3.7.1.1](sase-1t3.7.1.1.md) | 0 |

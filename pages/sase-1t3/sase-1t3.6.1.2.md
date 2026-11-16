@@ -28,10 +28,11 @@ named-bundles: replace find_named_agent's full artifact scan and recursive dismi
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1t3.6.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.6.1.2/README.md) | [sase-1t3.6.1.2](sase-1t3.6.1.2.md) | 1 |
+| [bbugyi200.athena.sase-1t3.6.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.6.1.2/README.md) | [sase-1t3.6.1.2](sase-1t3.6.1.2.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@8593b14`](https://github.com/sase-org/sase-core/commit/8593b148fd3b00678e21775f414f19c0a99104e4) | feat(agent-archive): project workflow\_name column with name-or-workflow lookup | [sase-1t3.6.1.2](sase-1t3.6.1.2.md) | 2026-11-16 13:14:41 EST |
+| sase | [`e1d81ee`](https://github.com/sase-org/sase/commit/e1d81ee6c6f2adc9c99819764ed7fa8740443f63) | feat(agent-names): indexed lookup via lookup\_agent\_artifacts with workflow-name ranking | [sase-1t3.6.1.2](sase-1t3.6.1.2.md) | 2026-11-16 13:15:57 EST |

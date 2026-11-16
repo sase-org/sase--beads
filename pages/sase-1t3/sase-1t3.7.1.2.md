@@ -14,3 +14,9 @@ post-paint-publication: bootstrap fixed descriptors without discovery; schedule 
 ## Dependencies
 
 - **Depends on:** [sase-1t3.7.1.1](sase-1t3.7.1.1.md) ◐ · ⧖ 2026-11-16
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-1t3.7.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.7.1.2/README.md) | [sase-1t3.7.1.2](sase-1t3.7.1.2.md) | 0 |
