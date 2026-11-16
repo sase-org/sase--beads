@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/agent_hijack_dependability.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202611/agent_hijack_dependability.md
 
@@ -42,7 +42,7 @@ Pressing ,k (or the kill dialog's h, or `sase agent hijack NAME`) on any local a
 | [sase-1t2.6](sase-1t2.6.md) | Transactional stop hardening and target-level dedup | ✓ closed | medium | 2026-11-15 | 1 | 2 |
 | [sase-1t2.7](sase-1t2.7.md) | Real-pipeline hijack canary | ✓ closed | medium | 2026-11-15 | 1 | 1 |
 | [sase-1t2.8](sase-1t2.8.md) | Durable hijack latch at agent-turn hand-offs | ◐ in_progress | large | 2026-11-15 | 1 | 0 |
-| [sase-1t2.9](sase-1t2.9.md) | Hijack WAITING, QUEUED, and booting turns that hold a numbered workspace | ✓ closed | medium | 2026-11-15 | 1 | 1 |
+| [sase-1t2.9](sase-1t2.9.md) | Hijack WAITING, QUEUED, and booting turns that hold a numbered workspace | ◐ in_progress | medium | 2026-11-15 | 1 | 1 |
 
 ## Lineage
 
@@ -63,14 +63,14 @@ flowchart TD
     n12["sase-1t2.7: Real-pipeline hijack canary [closed]"]
     n13["sase-1t2.8: Durable hijack latch at agent-turn hand-offs [in_progress]"]
     n14["sase-1t2.8.1: Durable hijack latches across agent handoffs [in_progress]"]
-    n15["sase-1t2.8.1.1: Latch ledger contract and durable application primitives [in_progress]"]
+    n15["sase-1t2.8.1.1: Latch ledger contract and durable application primitives [closed]"]
     n16["sase-1t2.8.1.2: Prevent successor launches from bypassing a hijack [in_progress]"]
     n17["sase-1t2.8.1.3: Apply latches at adoption, retry, and run completion [in_progress]"]
     n18["sase-1t2.8.1.4: Reconcile dead owners and support explicit forced stops [in_progress]"]
     n19["sase-1t2.8.1.5: Present pending hijacks and durable cancel or force actions [in_progress]"]
     n20["sase-1t2.8.1.6: Enable finalizer latching and expose the CLI contract [in_progress]"]
     n21["sase-1t2.8.1.7: Verify the complete latch flow and prepare phase closure [in_progress]"]
-    n22["sase-1t2.9: Hijack WAITING, QUEUED, and booting turns that hold a numbered workspace [closed]"]
+    n22["sase-1t2.9: Hijack WAITING, QUEUED, and booting turns that hold a numbered workspace [in_progress]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -136,7 +136,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1t2.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t2.6.md) | [sase-1t2.6](sase-1t2.6.md) | 2 |
 | [bbugyi200.athena.sase-1t2.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t2.7.md) | [sase-1t2.7](sase-1t2.7.md) | 1 |
 | [bbugyi200.athena.sase-1t2.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t2.8.md) | [sase-1t2.8](sase-1t2.8.md) | 0 |
-| [bbugyi200.athena.sase-1t2.8.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.8.1.1/README.md) | [sase-1t2.8.1.1](sase-1t2.8.1.1.md) | 0 |
+| [bbugyi200.athena.sase-1t2.8.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.8.1.1/README.md) | [sase-1t2.8.1.1](sase-1t2.8.1.1.md) | 1 |
 | [bbugyi200.athena.sase-1t2.8.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.8.1.2/README.md) | [sase-1t2.8.1.2](sase-1t2.8.1.2.md) | 0 |
 | [bbugyi200.athena.sase-1t2.8.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.8.1.3/README.md) | [sase-1t2.8.1.3](sase-1t2.8.1.3.md) | 0 |
 | [bbugyi200.athena.sase-1t2.8.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.8.1.4/README.md) | [sase-1t2.8.1.4](sase-1t2.8.1.4.md) | 0 |
@@ -164,6 +164,7 @@ flowchart TD
 | sase | [`3c8564d`](https://github.com/sase-org/sase/commit/3c8564dd8735b014bec17a9f2a8357918dbc5fc6) | feat(agent-hijack): add doctor check, dispatch watchdog, and remote referrals | [sase-1t2.12](sase-1t2.12.md) | 2026-11-16 02:58:57 EST |
 | sase | [`8254254`](https://github.com/sase-org/sase/commit/8254254e2f61726db20f2313ce4f8afb9b7e4300) | feat(agent-hijack): add real-pipeline hijack canary | [sase-1t2.7](sase-1t2.7.md) | 2026-11-16 03:55:28 EST |
 | sase-core | [`sase-core@20b8133`](https://github.com/sase-org/sase-core/commit/20b8133ea3e82a852ccd17a2228820c6a1c97160) | feat(agent-hijack): add pre-provider decisions | [sase-1t2.9](sase-1t2.9.md) | 2026-11-16 04:34:04 EST |
+| sase-core | [`sase-core@e9b1cf0`](https://github.com/sase-org/sase-core/commit/e9b1cf04158d1168e43fb150dc6d7a62c14a959c) | feat(agent-hijack): add latch ledger policy and bindings | [sase-1t2.8.1.1](sase-1t2.8.1.1.md) | 2026-11-16 06:05:49 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -172,7 +173,9 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1t2.1][1] | need epic plan and scope | 1 |
+| read-by | [agent:sase-1t2.9][2] | Need the epic's accepted glossary decision context and phase state to keep the authorized memory edit accurate | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.9/README.md
 
 <!-- sase:referenced-by:end -->

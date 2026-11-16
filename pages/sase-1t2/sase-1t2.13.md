@@ -16,7 +16,7 @@ chaos: a scripted fakey session (agent, sleep monitor, agent) that fires hijack 
 - **Depends on:** [sase-1t2.10](sase-1t2.10.md) ◐ · ⧖ 2026-11-15
 - **Depends on:** [sase-1t2.11](sase-1t2.11.md) ◐ · ⧖ 2026-11-15
 - **Blocks:** [sase-1t2.14](sase-1t2.14.md) ◐ · ⧖ 2026-11-15
-- **Depends on:** [sase-1t2.9](sase-1t2.9.md) ✓ · ⧖ 2026-11-15
+- **Depends on:** [sase-1t2.9](sase-1t2.9.md) ◐ · ⧖ 2026-11-15
 
 ## Agents
 

@@ -13,7 +13,7 @@ spawn_guards: carry predecessor identity through follow-up and detached launch p
 
 ## Dependencies
 
-- **Depends on:** [sase-1t2.8.1.1](sase-1t2.8.1.1.md) ◐ · ⧖ 2026-11-16
+- **Depends on:** [sase-1t2.8.1.1](sase-1t2.8.1.1.md) ✓ · ⧖ 2026-11-16
 - **Blocks:** [sase-1t2.8.1.3](sase-1t2.8.1.3.md) ◐ · ⧖ 2026-11-16
 
 ## Agents
