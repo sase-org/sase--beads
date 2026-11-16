@@ -20,7 +20,7 @@ owner_recovery: integrate identity-checked latch reconciliation with stale sweep
 ## Dependencies
 
 - **Depends on:** [sase-1t2.8.1.3](sase-1t2.8.1.3.md) ✓ · ⧖ 2026-11-16
-- **Blocks:** [sase-1t2.8.1.5](sase-1t2.8.1.5.md) ◐ · ⧖ 2026-11-16
+- **Blocks:** [sase-1t2.8.1.5](sase-1t2.8.1.5.md) ✓ · ⧖ 2026-11-16
 
 ## Agents
 
@@ -33,3 +33,15 @@ owner_recovery: integrate identity-checked latch reconciliation with stale sweep
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`93273f4`](https://github.com/sase-org/sase/commit/93273f4a4f1dc3f3ba25f740491837b182ceb76c) | feat(agent-hijack): reconcile stale latch owners and forced stops | [sase-1t2.8.1.4](sase-1t2.8.1.4.md) | 2026-11-16 10:09:28 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1t2.8.1.4][1] | Need the phase scope, design file, notes, and prior work before continuing the assigned bead | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.8.1.4/README.md
+
+<!-- sase:referenced-by:end -->

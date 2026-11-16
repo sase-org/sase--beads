@@ -13,7 +13,7 @@ activate_cli: return latched decisions only for supported finalizing or staged a
 
 ## Dependencies
 
-- **Depends on:** [sase-1t2.8.1.5](sase-1t2.8.1.5.md) ◐ · ⧖ 2026-11-16
+- **Depends on:** [sase-1t2.8.1.5](sase-1t2.8.1.5.md) ✓ · ⧖ 2026-11-16
 - **Blocks:** [sase-1t2.8.1.7](sase-1t2.8.1.7.md) ◐ · ⧖ 2026-11-16
 
 ## Agents
