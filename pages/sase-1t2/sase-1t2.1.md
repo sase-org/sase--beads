@@ -23,7 +23,7 @@ core_decision_v2: in sase-core, add the v2 eligibility facts/decision wires (sep
 
 ## Dependencies
 
-- **Blocks:** [sase-1t2.4](sase-1t2.4.md) ◐ · ⧖ 2026-11-15
+- **Blocks:** [sase-1t2.4](sase-1t2.4.md) ✓ · ⧖ 2026-11-15
 
 ## Agents
 

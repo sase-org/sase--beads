@@ -17,7 +17,7 @@ meta_facts: fix D3 (runner_capabilities erased by directive extraction) with one
 
 ## Dependencies
 
-- **Blocks:** [sase-1t2.4](sase-1t2.4.md) ◐ · ⧖ 2026-11-15
+- **Blocks:** [sase-1t2.4](sase-1t2.4.md) ✓ · ⧖ 2026-11-15
 
 ## Agents
 
@@ -31,3 +31,15 @@ meta_facts: fix D3 (runner_capabilities erased by directive extraction) with one
 |---|---|---|---|---|
 | sase | [`bd99aba`](https://github.com/sase-org/sase/commit/bd99aba1c871134b1b7e2c0935d7c0cdf7ce851f) | fix(hijack): preserve runner boot meta and read real model facts | [sase-1t2.2](sase-1t2.2.md) | 2026-11-15 22:35:17 EST |
 | sase | [`e2ae4f2`](https://github.com/sase-org/sase/commit/e2ae4f2252d3f3162a67364239089be59f8361c7) | test(models-panel): wait for alias rows before reset highlight | [sase-1t2.2](sase-1t2.2.md) | 2026-11-15 22:37:39 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1t2.2][1] | Need the phase scope, design file, notes, and DECISIONS | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.2/README.md
+
+<!-- sase:referenced-by:end -->
