@@ -20,7 +20,7 @@ pending_tui: add pending overlays on members and containers, durable cancel/forc
 ## Dependencies
 
 - **Depends on:** [sase-1t2.8.1.4](sase-1t2.8.1.4.md) ✓ · ⧖ 2026-11-16
-- **Blocks:** [sase-1t2.8.1.6](sase-1t2.8.1.6.md) ◐ · ⧖ 2026-11-16
+- **Blocks:** [sase-1t2.8.1.6](sase-1t2.8.1.6.md) ✓ · ⧖ 2026-11-16
 
 ## Agents
 
@@ -33,3 +33,15 @@ pending_tui: add pending overlays on members and containers, durable cancel/forc
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`ade2558`](https://github.com/sase-org/sase/commit/ade2558ba85772ca6687049f094c2ddb59c144a1) | feat(ace): present pending hijack latches with cancel and force | [sase-1t2.8.1.5](sase-1t2.8.1.5.md) | 2026-11-16 10:51:12 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1t2.8.1.5][1] | Need remaining notes, DECISIONS, and design details for pending_tui | 5 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.8.1.5/README.md
+
+<!-- sase:referenced-by:end -->

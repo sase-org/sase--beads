@@ -13,10 +13,4 @@ land: extend the real-pipeline canary through finalizing and recovery, verify ra
 
 ## Dependencies
 
-- **Depends on:** [sase-1t2.8.1.6](sase-1t2.8.1.6.md) ◐ · ⧖ 2026-11-16
-
-## Agents
-
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-1t2.8.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.8.1.7/README.md) | [sase-1t2.8.1.7](sase-1t2.8.1.7.md) | 0 |
+- **Depends on:** [sase-1t2.8.1.6](sase-1t2.8.1.6.md) ✓ · ⧖ 2026-11-16

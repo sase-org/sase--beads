@@ -16,8 +16,14 @@ gate_routing: a gate executing its selected option yields latched; settle_gate_t
 - **Blocks:** [sase-1t2.13](sase-1t2.13.md) ◐ · ⧖ 2026-11-15
 - **Depends on:** [sase-1t2.8](sase-1t2.8.md) ◐ · ⧖ 2026-11-15
 
-## Agents
+<!-- sase:referenced-by:start -->
 
-| Agent | Bead | Commits |
-|---|---|---:|
-| [bbugyi200.athena.sase-1t2.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.10/README.md) | [sase-1t2.10](sase-1t2.10.md) | 0 |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:ef][1] | Check cross-epic coordination notes between hijack epic sase-1t2 and TUI perf epic sase-1t3 | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.ef/README.md
+
+<!-- sase:referenced-by:end -->
