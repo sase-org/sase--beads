@@ -14,7 +14,7 @@ session-clans: replace session and clan archive enumeration with targeted Rust q
 ## Dependencies
 
 - **Depends on:** [sase-1t3.6.1.1](sase-1t3.6.1.1.md) ✓ · ⧖ 2026-11-16
-- **Depends on:** [sase-1t3.6.1.2](sase-1t3.6.1.2.md) ◐ · ⧖ 2026-11-16
+- **Depends on:** [sase-1t3.6.1.2](sase-1t3.6.1.2.md) ✓ · ⧖ 2026-11-16
 
 ## Agents
 

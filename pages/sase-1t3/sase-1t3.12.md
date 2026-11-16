@@ -68,4 +68,10 @@ Host should run `just check` again after this snapshot fix before landing.
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1t3.12](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.12.md) | [sase-1t3.12](sase-1t3.12.md) | 0 |
+| [bbugyi200.athena.sase-1t3.12](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.12.md) | [sase-1t3.12](sase-1t3.12.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase-core | [`sase-core@969096d`](https://github.com/sase-org/sase-core/commit/969096d095350a73ce38d5ee4f90b62c2bbe420f) | feat(agent-scan): terminalize stale running index rows with lifecycle witnesses | [sase-1t3.12](sase-1t3.12.md) | 2026-11-16 13:22:55 EST |
