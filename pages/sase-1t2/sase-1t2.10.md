@@ -41,7 +41,9 @@ gate_routing: a gate executing its selected option yields latched; settle_gate_t
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:ef][1] | Check cross-epic coordination notes between hijack epic sase-1t2 and TUI perf epic sase-1t3 | 1 |
+| read-by | [agent:sase-1t2.10][2] | Confirm the assigned phase closed after the verified implementation | 3 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.ef/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.10/README.md
 
 <!-- sase:referenced-by:end -->

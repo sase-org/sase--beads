@@ -53,7 +53,7 @@ flowchart TD
     n2["sase-1t2.10: Latch hijacks behind executing gates [closed]"]
     n3["sase-1t2.11: Monitor hijack adapter (closes the screenshot case) [in_progress]"]
     n4["sase-1t2.11.1: Complete monitor hijack custody and recovery [in_progress]"]
-    n5["sase-1t2.11.1.1: Monitor stop adapter and durable hijack settlement [in_progress]"]
+    n5["sase-1t2.11.1.1: Monitor stop adapter and durable hijack settlement [closed]"]
     n6["sase-1t2.11.1.2: Recover the recorded monitor follow-up [in_progress]"]
     n7["sase-1t2.11.1.3: Re-run the command as a new monitor [in_progress]"]
     n8["sase-1t2.11.1.4: Enable running and settling monitor hijacks [in_progress]"]
@@ -154,7 +154,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1t2.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.1/README.md) | [sase-1t2.1](sase-1t2.1.md) | 2 |
 | [bbugyi200.athena.sase-1t2.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.10/README.md) | [sase-1t2.10](sase-1t2.10.md) | 1 |
 | [bbugyi200.athena.sase-1t2.11](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t2.11.md) | [sase-1t2.11](sase-1t2.11.md) | 0 |
-| [bbugyi200.athena.sase-1t2.11.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11.1.1/README.md) | [sase-1t2.11.1.1](sase-1t2.11.1.1.md) | 0 |
+| [bbugyi200.athena.sase-1t2.11.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11.1.1/README.md) | [sase-1t2.11.1.1](sase-1t2.11.1.1.md) | 1 |
 | [bbugyi200.athena.sase-1t2.11.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11.1.2/README.md) | [sase-1t2.11.1.2](sase-1t2.11.1.2.md) | 0 |
 | [bbugyi200.athena.sase-1t2.11.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11.1.3/README.md) | [sase-1t2.11.1.3](sase-1t2.11.1.3.md) | 0 |
 | [bbugyi200.athena.sase-1t2.11.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11.1.4/README.md) | [sase-1t2.11.1.4](sase-1t2.11.1.4.md) | 0 |
@@ -179,7 +179,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1t2.8.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.8.1.5/README.md) | [sase-1t2.8.1.5](sase-1t2.8.1.5.md) | 1 |
 | [bbugyi200.athena.sase-1t2.8.1.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t2.8.1.6.md) | [sase-1t2.8.1.6](sase-1t2.8.1.6.md) | 2 |
 | [bbugyi200.athena.sase-1t2.8.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.8.1.7/README.md) | [sase-1t2.8.1.7](sase-1t2.8.1.7.md) | 1 |
-| [bbugyi200.athena.sase-1t2.8.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.8.1.land/README.md) | [sase-1t2.8.1](sase-1t2.8.1.md) | 1 |
+| [bbugyi200.athena.sase-1t2.8.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.8.1.land/README.md) | [sase-1t2.8.1](sase-1t2.8.1.md) | 2 |
 | [bbugyi200.athena.sase-1t2.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.9/README.md) | [sase-1t2.9](sase-1t2.9.md) | 3 |
 | [bbugyi200.athena.sase-1t2.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.land/README.md) | [sase-1t2](README.md) | 0 |
 
@@ -212,7 +212,9 @@ flowchart TD
 | sase | [`5f99e0c`](https://github.com/sase-org/sase/commit/5f99e0ce00b043cb29304860be6ca3c4ee573b56) | feat(agent-hijack): latch finalizer turns and expose cancel/explain/now CLI contract | [sase-1t2.8.1.6](sase-1t2.8.1.6.md) | 2026-11-16 12:29:38 EST |
 | sase | [`8a1b84b`](https://github.com/sase-org/sase/commit/8a1b84b096401ced7f1ec2f8b4c3d937ae5ab135) | fix(hijack): complete staged latch recovery | [sase-1t2.8.1.7](sase-1t2.8.1.7.md) | 2026-11-16 13:56:51 EST |
 | sase | [`81dfe57`](https://github.com/sase-org/sase/commit/81dfe5710ea123542f9426a1abafe7bd01c17bbb) | fix(ace): tolerate duck-typed rows when mirroring hijack overlays | [sase-1t2.8.1](sase-1t2.8.1.md) | 2026-11-16 15:19:07 EST |
+| sase--plans | [`sase--plans@507a87d`](https://github.com/sase-org/sase--plans/commit/507a87d1b817c58cb3ca7b3be26b6c77a6b9005d) | docs(plans): mark hijack latch boundaries plan done | [sase-1t2.8.1](sase-1t2.8.1.md) | 2026-11-16 15:20:07 EST |
 | sase | [`fbd0c47`](https://github.com/sase-org/sase/commit/fbd0c4781a19231e6452a751135fe1b868b8f2e6) | feat(agent-hijack): latch executing gates before follow-up | [sase-1t2.10](sase-1t2.10.md) | 2026-11-16 15:45:42 EST |
+| sase | [`a2c9c3e`](https://github.com/sase-org/sase/commit/a2c9c3ecb5ecd441e85807cb06d1115eac1fc2aa) | feat(agent-hijack): add durable monitor stop custody | [sase-1t2.11.1.1](sase-1t2.11.1.1.md) | 2026-11-16 16:53:11 EST |
 
 <!-- sase:referenced-by:start -->
 
