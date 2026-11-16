@@ -121,7 +121,7 @@ Close event: sase-1t2:000099:issue_closed:sase-1t2.9:7f096b9a9c55e988d6389385049
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1t2.9][1] | Reconfirm phase scope and notes before closing the completed implementation | 2 |
+| read-by | [agent:sase-1t2.9][1] | Reconfirm phase scope and notes before closing the completed implementation | 3 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.9/README.md
 

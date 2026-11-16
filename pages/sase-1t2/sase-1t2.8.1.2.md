@@ -11,6 +11,10 @@
 
 spawn_guards: carry predecessor identity through follow-up and detached launch paths, enforce pre/post-spawn checks, preserve HijackLatchedError through every fallback, and prove lock order and child cleanup.
 
+## Notes
+
+[2026-11-16T12:17:53Z · sase-1t2.8.1.2] Spawn guards wired through follow-up, detached, and successor-delivery paths. HijackLatchedError is not a RuntimeError and is re-raised ahead of every fallback. 23 focused tests passed; lock-order tracer covers request/apply/cancel/callback. No leftover --epic-symbol entries. Host-owned just check will close this phase.
+
 ## Dependencies
 
 - **Depends on:** [sase-1t2.8.1.1](sase-1t2.8.1.1.md) ✓ · ⧖ 2026-11-16
@@ -20,4 +24,10 @@ spawn_guards: carry predecessor identity through follow-up and detached launch p
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1t2.8.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.8.1.2/README.md) | [sase-1t2.8.1.2](sase-1t2.8.1.2.md) | 0 |
+| [bbugyi200.athena.sase-1t2.8.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t2.8.1.2.md) | [sase-1t2.8.1.2](sase-1t2.8.1.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`ba6ec68`](https://github.com/sase-org/sase/commit/ba6ec6897bf3b50ba318e3c349cc3eac158508dd) | feat(agent-hijack): refuse successor launches against a latched predecessor | [sase-1t2.8.1.2](sase-1t2.8.1.2.md) | 2026-11-16 08:33:19 EST |
