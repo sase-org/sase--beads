@@ -19,7 +19,7 @@ tui_ingress: replace agent_can_offer_hijack with an asynchronously cached backen
 
 - **Blocks:** [sase-1t2.12](sase-1t2.12.md) ✓ · ⧖ 2026-11-15
 - **Depends on:** [sase-1t2.4](sase-1t2.4.md) ✓ · ⧖ 2026-11-15
-- **Blocks:** [sase-1t2.7](sase-1t2.7.md) ◐ · ⧖ 2026-11-15
+- **Blocks:** [sase-1t2.7](sase-1t2.7.md) ✓ · ⧖ 2026-11-15
 
 ## Agents
 

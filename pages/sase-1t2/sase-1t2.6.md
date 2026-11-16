@@ -22,7 +22,7 @@ stop_txn: target-level dedup that returns the active operation, verified intent 
 - **Blocks:** [sase-1t2.12](sase-1t2.12.md) ✓ · ⧖ 2026-11-15
 - **Depends on:** [sase-1t2.3](sase-1t2.3.md) ✓ · ⧖ 2026-11-15
 - **Depends on:** [sase-1t2.4](sase-1t2.4.md) ✓ · ⧖ 2026-11-15
-- **Blocks:** [sase-1t2.7](sase-1t2.7.md) ◐ · ⧖ 2026-11-15
+- **Blocks:** [sase-1t2.7](sase-1t2.7.md) ✓ · ⧖ 2026-11-15
 
 ## Agents
 
