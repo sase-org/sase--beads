@@ -11,6 +11,24 @@
 
 chaos: a scripted fakey session (agent, sleep monitor, agent) that fires hijack at every checkpoint and requires HIJACKED, latched, or a defined redirect, never a generic refusal; crash-between-steps convergence tests; and a static guard test that fails when a new successor-launch path lacks a latch checkpoint.
 
+## Notes
+
+[2026-11-16T20:15:50Z · sase-1t2.8.1.land] CHECKPOINT INVENTORY (from sase-1t2.8.1 land, tree 8a1b84b096 + land fix) for the chaos static hand-off guard. Covered call sites:
+(1) Spawn funnel agent/launch_spawn.py: refuse_if_latched(boundary="spawn") before process creation plus spawn_admission("spawn_callback") re-check under the target_index lock inside the claim callback; guard gets its recovery identity from bind_recovery_identity.
+(2) turns/followup_launch.py::launch_turn_followup: refuse_if_latched("followup"), with HijackLatchedError re-raised ahead of the transfer, fresh-claim, pool-claim, and workspace-zero fallbacks. Its callers build guards with latch_guard_from_predecessor: gate_turn/followup.py and monitor/followup.py (monitor/resume.py -> launch_followup_agent goes through that same guard).
+(3) agent/detached_child.py: two detached-child guards.
+(4) axe/run_agent_exec_staged_dispatch.py: enforce_staged_adoption_latch under the adoption lock; enforce_adoption_replay_latch on the already-adopted, replay, and held paths; moot_runner_latch_at_run_end. Callers in axe/run_agent_exec.py (staged dispatch in setup and loop) re-raise HijackLatchedError.
+(5) axe/run_agent_successor_inprocess.py: enforce_inprocess_successor_latch before member identity mutation.
+(6) axe/run_agent_exec_pipe_handoff.py and axe/run_agent_successor_staged_identity.py: enforce_adoption_replay_latch (pipe replay and staged restoration).
+(7) axe/run_agent_successor_delivery.py: check_detached_delivery_latch before submit, plus a guarded spawn via latch_guard_from_predecessor.
+(8) Retry: axe/run_agent_exec_retry.py (in-process, check_retry_latch with re-raise) and axe/run_agent_retry_spawn.py (spawned, check plus re-raise so a refused spawn retry cannot fall into an in-process retry).
+(9) axe/run_agent_exec_finalize.py: run-end moot plus observe_runner_latch, so finalize keeps applied-latch custody.
+(10) ace/scheduler/_stale_running_hijack.py: reconcile_latched_records for dead owners.
+Narrow exemptions:
+(a) Launches with no predecessor (guard None) are unaffected by design.
+(b) spawn_guard._authorized_recovery lets one launch through: the authorized hijack recovery successor, whose RECOVERY_LINEAGE_ENV hijack_id equals the record's hijack_id and whose record is in an applied state with latched_at set.
+(c) refuse_if_latched ignores records for a different predecessor (artifacts_dir/member mismatch) and applied immediate (non-latch) records where latched_at is None. Those are owned by ordinary hijack custody, not the latch.
+
 ## Dependencies
 
 - **Depends on:** [sase-1t2.10](sase-1t2.10.md) ◐ · ⧖ 2026-11-15

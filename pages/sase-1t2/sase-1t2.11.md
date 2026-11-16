@@ -14,7 +14,7 @@ monitor_adapter: running monitor turns become immediate through stop_monitor wit
 ## Dependencies
 
 - **Blocks:** [sase-1t2.13](sase-1t2.13.md) ◐ · ⧖ 2026-11-15
-- **Depends on:** [sase-1t2.8](sase-1t2.8.md) ◐ · ⧖ 2026-11-15
+- **Depends on:** [sase-1t2.8](sase-1t2.8.md) ✓ · ⧖ 2026-11-15
 
 ## Agents
 

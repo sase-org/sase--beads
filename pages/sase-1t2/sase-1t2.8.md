@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1t2](README.md) / sase-1t2.8
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.1ct](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.1ct.md) · **Assignee:** `sase-1t2.8` · **Size:** large
-**Created:** 2026-11-15 20:00:10 EST
+**Created:** 2026-11-15 20:00:10 EST · **Closed:** 2026-11-16 15:16:28 EST
 **Plan:** [202611/agent\_hijack\_dependability.md](https://github.com/sase-org/sase--plans/blob/main/202611/agent_hijack_dependability.md)
 
 ## Description
@@ -14,6 +14,18 @@ latch_core: latched ledger state and events in sase-core; the decision returns l
 ## Notes
 
 [2026-11-16T09:07:00Z · sase-1t2.8] PROPOSED FOLLOW-UP: Repair the parent plan research reference — audited reading of research:202611/agent_hijack_dependability/agent_hijack_dependability.md returned missing on this run; planning uses the approved epic contract, which is complete enough to proceed.
+
+[2026-11-16T20:16:48Z · sase-1t2.8.1.land] Closed automatically when child epic sase-1t2.8.1 closed. The sase-1t2.8.1 land agent verified that the child plan delivered every latch_core requirement in this phase's description:
+- sase-core latched state and latch/apply_latch/cancel_latch events (c58ecb80/e9b1cf04, contained in pin 969096d0)
+- latched decisions for finalizing and staged-pending turns
+- target-keyed Python latch store (agent/hijack/latch.py)
+- runner checkpoints at staged adoption, run-end moot, and retry
+- pre/post-spawn guards with HijackLatchedError re-raised ahead of every fallback
+- dead-owner reconciliation in the stale sweep
+- explicit force-now after 120s
+- CLI -c/--cancel, -e/--explain, -n/--now with exit 3
+- TUI pending overlay with cancel/force
+Landing evidence is in the sase-1t2.8.1 close note. Checkpoint inventory for chaos is recorded on sase-1t2.13. No --epic-symbol entries for sase-1t2.8. The containing epic sase-1t2 stays with its land agent.
 
 ## Dependencies
 
