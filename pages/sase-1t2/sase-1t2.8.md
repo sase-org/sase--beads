@@ -26,3 +26,15 @@ latch_core: latched ledger state and events in sase-core; the decision returns l
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1t2.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t2.8.md) | [sase-1t2.8](sase-1t2.8.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1t2.8.1.1][1] | Need the parent phase notes and design links | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.8.1.1/README.md
+
+<!-- sase:referenced-by:end -->

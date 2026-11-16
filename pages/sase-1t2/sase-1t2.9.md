@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1t2](README.md) / sase-1t2.9
 
-**Status:** ◐ in_progress · **Type:** ↳ phase · **↺ Reopened:** ↺1
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase · **↺ Reopened:** ↺1
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.1ct](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.1ct.md) · **Assignee:** `sase-1t2.9` · **Size:** medium
-**Created:** 2026-11-15 20:00:11 EST
+**Created:** 2026-11-15 20:00:11 EST · **Closed:** 2026-11-16 06:42:10 EST
 **Plan:** [202611/agent\_hijack\_dependability.md](https://github.com/sase-org/sase--plans/blob/main/202611/agent_hijack_dependability.md)
 
 ## Previously Closed
@@ -90,6 +90,12 @@ Close event: sase-1t2:000099:issue_closed:sase-1t2.9:7f096b9a9c55e988d6389385049
 
 [2026-11-16T11:04:31Z · sase-1t2.9] PROPOSED FOLLOW-UP: Fix pre-existing sase-core Clippy needless_bool errors — sase tool run check failed identically on the changed tree (e7da0ea2a052e5cb4a97993217cea33e) and clean base 20b8133e (a8c883da6ae8f249f057b8d18f8d18bd): plan/decisions/grammar.rs:900, prompt_prediction/tokenize.rs:514 and :838, tool_run/store/demand.rs:47. Rust 1.100 Clippy denies these warnings before tests; this phase changes only hijack tests in sase-core.
 
+[2026-11-16T11:08:15Z · sase-1t2.9] PROPOSED FOLLOW-UP: Restore the epic research reference — the authoritative plan asks workers to read research:202611/agent_hijack_dependability/agent_hijack_dependability.md, but its audited artifact read resolves as missing. The phase scope and authoritative plan remained available.
+
+[2026-11-16T11:32:18Z · sase-1t2.9] PROPOSED FOLLOW-UP: Existing task sase-1t1 tracks the four clean-base Rust Clippy needless_bool errors reported above. Its nodes match both runs from this phase; no new task is needed.
+
+[2026-11-16T11:42:10Z · sase-1t2.9] Recovered the unlanded waiter-branch snapshot and retained the already-landed Rust policy via pin 20b8133e. Verified live WAITING/QUEUED/booting and dead-runner custody, claimless kill-and-edit routing, wait cancellation serialized with slot admission, dependent waiters staying parked, and Continue/Escalate without transcripts. Main check 762863772ffc86fda6fae4e35af3d477 passed every lint gate and 61,190 tests (18 skipped); its sole marker-mutation audit failure was reviewed and repaired, then all 65 focused Python tests passed in run 73a4ca242c31da2e6d52a0c764695cb4. Rust hijack/core-binding tests passed 87 tests in c9835cf40081e549c4864f8ccb3d0ed7. Full Rust check reproduces the same four Clippy errors on the clean base, tracked by sase-1t1 and noted here. just fix and git diff --check pass; epic-symbols reports no entries.
+
 ## Dependencies
 
 - **Blocks:** [sase-1t2.13](sase-1t2.13.md) ◐ · ⧖ 2026-11-15
@@ -99,13 +105,14 @@ Close event: sase-1t2:000099:issue_closed:sase-1t2.9:7f096b9a9c55e988d6389385049
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1t2.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.9/README.md) | [sase-1t2.9](sase-1t2.9.md) | 1 |
+| [bbugyi200.athena.sase-1t2.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.9/README.md) | [sase-1t2.9](sase-1t2.9.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@20b8133`](https://github.com/sase-org/sase-core/commit/20b8133ea3e82a852ccd17a2228820c6a1c97160) | feat(agent-hijack): add pre-provider decisions | [sase-1t2.9](sase-1t2.9.md) | 2026-11-16 04:34:04 EST |
+| sase-core | [`sase-core@50a6d97`](https://github.com/sase-org/sase-core/commit/50a6d972f9ec7f985c2e34624f3b368ff55cb59b) | test(agent-hijack): cover pre-provider hijack decisions | [sase-1t2.9](sase-1t2.9.md) | 2026-11-16 06:45:16 EST |
 
 <!-- sase:referenced-by:start -->
 
