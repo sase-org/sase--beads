@@ -22,4 +22,4 @@ canary: a fakey end-to-end test that launches through the normal pipeline (anony
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1t2.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.7/README.md) | [sase-1t2.7](sase-1t2.7.md) | 0 |
+| [bbugyi200.athena.sase-1t2.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t2.7.md) | [sase-1t2.7](sase-1t2.7.md) | 0 |

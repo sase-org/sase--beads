@@ -17,7 +17,7 @@ tui_ingress: replace agent_can_offer_hijack with an asynchronously cached backen
 
 ## Dependencies
 
-- **Blocks:** [sase-1t2.12](sase-1t2.12.md) ◐ · ⧖ 2026-11-15
+- **Blocks:** [sase-1t2.12](sase-1t2.12.md) ✓ · ⧖ 2026-11-15
 - **Depends on:** [sase-1t2.4](sase-1t2.4.md) ✓ · ⧖ 2026-11-15
 - **Blocks:** [sase-1t2.7](sase-1t2.7.md) ◐ · ⧖ 2026-11-15
 
@@ -32,3 +32,15 @@ tui_ingress: replace agent_can_offer_hijack with an asynchronously cached backen
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`d26b581`](https://github.com/sase-org/sase/commit/d26b581253780c3c1417839c6af08c1294885328) | feat(agent-hijack): cache backend decisions for TUI hijack ingress | [sase-1t2.5](sase-1t2.5.md) | 2026-11-16 01:27:04 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1t2.5][1] | Need remaining description, notes, and design details | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.5/README.md
+
+<!-- sase:referenced-by:end -->

@@ -13,7 +13,7 @@ land: reconcile the hijack Reference docs with the final behavior, update the Ag
 
 ## Dependencies
 
-- **Depends on:** [sase-1t2.12](sase-1t2.12.md) ◐ · ⧖ 2026-11-15
+- **Depends on:** [sase-1t2.12](sase-1t2.12.md) ✓ · ⧖ 2026-11-15
 - **Depends on:** [sase-1t2.13](sase-1t2.13.md) ◐ · ⧖ 2026-11-15
 
 ## Agents
