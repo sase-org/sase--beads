@@ -70,8 +70,8 @@ flowchart TD
     n15["sase-1t3.6.1.3: Indexed session and clan resolution with hijack parity [in_progress]"]
     n16["sase-1t3.7: Provider-tab discovery after first paint as one generation [in_progress]"]
     n17["sase-1t3.7.1: Publish provider tabs after first paint as one generation [in_progress]"]
-    n18["sase-1t3.7.1.1: Pin Artifacts consumers to an explicit descriptor snapshot [in_progress]"]
-    n19["sase-1t3.7.1.2: Discover after first paint and publish mounted generations coherently [in_progress]"]
+    n18["sase-1t3.7.1.1: Pin Artifacts consumers to an explicit descriptor snapshot [closed]"]
+    n19["sase-1t3.7.1.2: Discover after first paint and publish mounted generations coherently [closed]"]
     n20["sase-1t3.8: Lazy action imports and startup background work off the critical path [in_progress]"]
     n21["sase-1t3.9: Post-storm GC census and heap-owner attribution [in_progress]"]
     n0 --> n1
@@ -149,7 +149,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1t3.6.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.6.1.land/README.md) | [sase-1t3.6.1](sase-1t3.6.1.md) | 0 |
 | [bbugyi200.athena.sase-1t3.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.7.md) | [sase-1t3.7](sase-1t3.7.md) | 0 |
 | [bbugyi200.athena.sase-1t3.7.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.7.1.1.md) | [sase-1t3.7.1.1](sase-1t3.7.1.1.md) | 2 |
-| [bbugyi200.athena.sase-1t3.7.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.7.1.2/README.md) | [sase-1t3.7.1.2](sase-1t3.7.1.2.md) | 0 |
+| [bbugyi200.athena.sase-1t3.7.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.7.1.2.md) | [sase-1t3.7.1.2](sase-1t3.7.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1t3.7.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.7.1.land/README.md) | [sase-1t3.7.1](sase-1t3.7.1.md) | 0 |
 | [bbugyi200.athena.sase-1t3.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.8/README.md) | [sase-1t3.8](sase-1t3.8.md) | 0 |
 | [bbugyi200.athena.sase-1t3.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.9/README.md) | [sase-1t3.9](sase-1t3.9.md) | 0 |
@@ -172,6 +172,7 @@ flowchart TD
 | sase | [`fadbfdc`](https://github.com/sase-org/sase/commit/fadbfdc497dc98b2a17a0250b64c43a83da93a85) | feat(ace): memoize per-load agent loader work | [sase-1t3.5](sase-1t3.5.md) | 2026-11-16 15:35:18 EST |
 | sase-core | [`sase-core@a2abeb1`](https://github.com/sase-org/sase-core/commit/a2abeb1e1b1905780bcd554f55989114c3995292) | fix(agent-archive): compile corpus against current store schema | [sase-1t3.7.1.1](sase-1t3.7.1.1.md) | 2026-11-16 16:31:40 EST |
 | sase | [`1bd8552`](https://github.com/sase-org/sase/commit/1bd855256e1b8c00917caa113f7a0aadb4a467ea) | feat(ace): pin Artifacts consumers to a descriptor snapshot | [sase-1t3.7.1.1](sase-1t3.7.1.1.md) | 2026-11-16 16:33:04 EST |
+| sase | [`7c68d18`](https://github.com/sase-org/sase/commit/7c68d1860cb6fa8b94a43cc77c8ce7672f90170e) | feat(artifacts): publish provider tabs after first paint as one coherent generation | [sase-1t3.7.1.2](sase-1t3.7.1.2.md) | 2026-11-16 17:45:49 EST |
 
 <!-- sase:referenced-by:start -->
 
