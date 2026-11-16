@@ -27,14 +27,14 @@ Pressing ,k (or the kill dialog's h, or `sase agent hijack NAME`) on any local a
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-1t2.1](sase-1t2.1.md) | sase-core: eligibility decision v2, occupant selection, stop\_blocked ledger state | ◐ in_progress | medium | 2026-11-15 | 1 | 0 |
+| [sase-1t2.1](sase-1t2.1.md) | sase-core: eligibility decision v2, occupant selection, stop\_blocked ledger state | ✓ closed | medium | 2026-11-15 | 1 | 1 |
 | [sase-1t2.10](sase-1t2.10.md) | Latch hijacks behind executing gates | ◐ in_progress | small | 2026-11-15 | 1 | 0 |
 | [sase-1t2.11](sase-1t2.11.md) | Monitor hijack adapter (closes the screenshot case) | ◐ in_progress | large | 2026-11-15 | 1 | 0 |
 | [sase-1t2.12](sase-1t2.12.md) | Doctor check, resolving watchdog, and remote referral tracking | ◐ in_progress | small | 2026-11-15 | 1 | 0 |
 | [sase-1t2.13](sase-1t2.13.md) | Boundary chaos test, crash convergence, and hand-off inventory guard | ◐ in_progress | medium | 2026-11-15 | 1 | 0 |
 | [sase-1t2.14](sase-1t2.14.md) | Docs sweep, glossary strand, and final verification | ◐ in_progress | small | 2026-11-15 | 1 | 0 |
-| [sase-1t2.2](sase-1t2.2.md) | Keep the hijack capability stamp and read the model facts runners actually write | ◐ in_progress | small | 2026-11-15 | 1 | 0 |
-| [sase-1t2.3](sase-1t2.3.md) | Snapshot discovery that sees real linked-repo metadata | ✓ closed | small | 2026-11-15 | 1 | 1 |
+| [sase-1t2.2](sase-1t2.2.md) | Keep the hijack capability stamp and read the model facts runners actually write | ✓ closed | small | 2026-11-15 | 1 | 0 |
+| [sase-1t2.3](sase-1t2.3.md) | Snapshot discovery that sees real linked-repo metadata | ✓ closed | small | 2026-11-15 | 1 | 0 |
 | [sase-1t2.4](sase-1t2.4.md) | One facts builder, occupant resolution, and \`sase agent hijack --explain\` | ◐ in_progress | medium | 2026-11-15 | 1 | 0 |
 | [sase-1t2.5](sase-1t2.5.md) | TUI ingress uses the backend decision: precise toasts, container retargeting, redirects | ◐ in_progress | medium | 2026-11-15 | 1 | 0 |
 | [sase-1t2.6](sase-1t2.6.md) | Transactional stop hardening and target-level dedup | ◐ in_progress | medium | 2026-11-15 | 1 | 0 |
@@ -47,13 +47,13 @@ Pressing ,k (or the kill dialog's h, or `sase agent hijack NAME`) on any local a
 ```mermaid
 flowchart TD
     n0["sase-1t2: Agent Hijack dependability: make v1 real, then hijack the agent, not the row [in_progress]"]
-    n1["sase-1t2.1: sase-core: eligibility decision v2, occupant selection, stop_blocked ledger state [in_progress]"]
+    n1["sase-1t2.1: sase-core: eligibility decision v2, occupant selection, stop_blocked ledger state [closed]"]
     n2["sase-1t2.10: Latch hijacks behind executing gates [in_progress]"]
     n3["sase-1t2.11: Monitor hijack adapter (closes the screenshot case) [in_progress]"]
     n4["sase-1t2.12: Doctor check, resolving watchdog, and remote referral tracking [in_progress]"]
     n5["sase-1t2.13: Boundary chaos test, crash convergence, and hand-off inventory guard [in_progress]"]
     n6["sase-1t2.14: Docs sweep, glossary strand, and final verification [in_progress]"]
-    n7["sase-1t2.2: Keep the hijack capability stamp and read the model facts runners actually write [in_progress]"]
+    n7["sase-1t2.2: Keep the hijack capability stamp and read the model facts runners actually write [closed]"]
     n8["sase-1t2.3: Snapshot discovery that sees real linked-repo metadata [closed]"]
     n9["sase-1t2.4: One facts builder, occupant resolution, and `sase agent hijack --explain` [in_progress]"]
     n10["sase-1t2.5: TUI ingress uses the backend decision: precise toasts, container retargeting, redirects [in_progress]"]
@@ -99,14 +99,14 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1t2.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.1/README.md) | [sase-1t2.1](sase-1t2.1.md) | 0 |
+| [bbugyi200.athena.sase-1t2.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.1/README.md) | [sase-1t2.1](sase-1t2.1.md) | 1 |
 | [bbugyi200.athena.sase-1t2.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.10/README.md) | [sase-1t2.10](sase-1t2.10.md) | 0 |
 | [bbugyi200.athena.sase-1t2.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11/README.md) | [sase-1t2.11](sase-1t2.11.md) | 0 |
 | [bbugyi200.athena.sase-1t2.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.12/README.md) | [sase-1t2.12](sase-1t2.12.md) | 0 |
 | [bbugyi200.athena.sase-1t2.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.13/README.md) | [sase-1t2.13](sase-1t2.13.md) | 0 |
 | [bbugyi200.athena.sase-1t2.14](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.14/README.md) | [sase-1t2.14](sase-1t2.14.md) | 0 |
 | [bbugyi200.athena.sase-1t2.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.2/README.md) | [sase-1t2.2](sase-1t2.2.md) | 0 |
-| [bbugyi200.athena.sase-1t2.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t2.3.md) | [sase-1t2.3](sase-1t2.3.md) | 1 |
+| [bbugyi200.athena.sase-1t2.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t2.3.md) | [sase-1t2.3](sase-1t2.3.md) | 0 |
 | [bbugyi200.athena.sase-1t2.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.4/README.md) | [sase-1t2.4](sase-1t2.4.md) | 0 |
 | [bbugyi200.athena.sase-1t2.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.5/README.md) | [sase-1t2.5](sase-1t2.5.md) | 0 |
 | [bbugyi200.athena.sase-1t2.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.6/README.md) | [sase-1t2.6](sase-1t2.6.md) | 0 |
@@ -119,4 +119,4 @@ flowchart TD
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| sase | [`880f7e9`](https://github.com/sase-org/sase/commit/880f7e96f375b0c867531cde29443b8b62f0cec4) | feat(hijack): share linked-repo inventory for stop/release snapshots | [sase-1t2.3](sase-1t2.3.md) | 2026-11-15 20:47:46 EST |
+| sase-core | [`sase-core@9940715`](https://github.com/sase-org/sase-core/commit/9940715099807a75f0ab1046c8b4fa6bc8fd7409) | feat(agent-hijack): add eligibility v2 wire, occupant selection, stop\_blocked ledger | [sase-1t2.1](sase-1t2.1.md) | 2026-11-15 21:25:37 EST |
