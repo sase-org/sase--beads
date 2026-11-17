@@ -31,3 +31,15 @@ land: reconcile the hijack Reference docs with the final behavior, update the Ag
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`875d599`](https://github.com/sase-org/sase/commit/875d599023728c2b309384d8ce2e4f2f05729867) | docs(hijack): land glossary strand, doc reconciliation, and final verification | [sase-1t2.14](sase-1t2.14.md) | 2026-11-17 05:21:06 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1t2.14][1] | Need phase scope design notes | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.14/README.md
+
+<!-- sase:referenced-by:end -->

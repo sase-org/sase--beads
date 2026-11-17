@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / sase-1t2
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.1ct](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.1ct.md) · **Assignee:** `sase-1t2.land`
-**Created:** 2026-11-15 20:00:08 EST
+**Created:** 2026-11-15 20:00:08 EST · **Closed:** 2026-11-17 05:49:00 EST
 **Plan:** [202611/agent\_hijack\_dependability.md](https://github.com/sase-org/sase--plans/blob/main/202611/agent_hijack_dependability.md)
 
 <!-- sase:links:start -->
@@ -39,6 +39,43 @@ Pressing ,k (or the kill dialog's h, or `sase agent hijack NAME`) on any local a
 
 [2026-11-17T09:44:36Z · sase-1t2.11.1.land] RESOLVED by the sase-1t2.11.1 landing: DISCOVERED ISSUE #2 (TUI import footprint). It was caused by this child epic: a2c9c3ecb5 (sase-1t2.11.1.1) made monitor/_settlement_followup.py import monitor.hijack_settlement eagerly, which imported sase.agent.hijack._stop_models and pulled the whole sase.agent.hijack facade (48 modules) into TUI startup. Measured 12,024,012 bytes at a2c9c3ecb5^, 12,311,609 at a2c9c3ecb5, and 12,340,115 at HEAD against the 12,162,484 cap; Master Gate 44050410830 failed it. The landing defers both edges (a call-site import in settle_claim_and_followup, plus TYPE_CHECKING and function-local _stop_models imports) and adds sase.agent.hijack and sase.monitor.hijack_settlement to the absolute _DEFERRED_MODULES guard. The footprint is now 12,051,268 and test_app_import_budget passes. DISCOVERED ISSUE #3 (the submitted_xprompt literal in the monitor canary) was already fixed by fa771fe912, and tests/test_macro_terminology.py passes at HEAD.
 
+[2026-11-17T10:49:00Z · sase-1t2.land] LANDED by sase-1t2.land.
+
+STEP 1 VERIFY: All 14 phases are closed, and every phase note was reviewed. Both nested child epics (sase-1t2.8.1 latch, sase-1t2.11.1 monitor adapter) were already landed by their own landers, with integration and follow-up triage. Source spot-checks pass:
+- Rust v2 decision/occupant/ledger, and the sase-core pin d2010865 contains every agent_hijack commit (none unpinned on origin).
+- The generic "not eligible" toast is gone. agent_can_offer_hijack is now only the cheap row-local pre-decision check.
+- CLI -c/-e/-n/-j/-r are present. The doctor check is agent_hijack.capability.
+- HijackLatchedError is not a WorkspaceClaimError.
+- Lock-order, chaos, inventory-guard, canary, parity, and screenshot-fixture tests exist.
+- glossary:agent-hijack was rewritten per the glossary_strand=yes decision. No other memory was edited.
+
+Epic notes:
+- #1 (oversized hijack action test): fixed by 178f57cc91.
+- #2 (import footprint) and #3 (macro terminology): resolved per note #6.
+- #4: resolved.
+- #5 (canary harness unsafe when run concurrently) was epic-caused and is FIXED IN THIS LANDING. Root cause: terminate_agent_processes also signals any host process whose environ carries the target's SASE_LAUNCH_SCRATCH_KEY (<project>-ws<N>-<timestamp>). Timestamps are unique only per SASE_HOME, so concurrent canaries sharing project 'hijack-canary' and ws3 SIGTERMed each other's runners (kill_source=external). CanaryHarness now uses a host-unique project name (hijack-canary-<8hex>). Verification under the same short TMPDIR: pytest -n 6 went from 5/6 failing to 6/6 passing. Under the long agent TMPDIR the two finalizing-latch canaries still fail serially; that is the known sase-1t4 (provenance_id >160B), not concurrency.
+
+STEP 2 INTEGRATE: The only non-epic commits after the sase-1t2.11.1 landing (346d84ce32) are fbf8555011 (unrelated test split). The indexed lookup commits 7c514e2f8e and 824fc2445e already route hijack resolution through indexed session/clan queries, with parity tests, and the earlier landers verified the stop/latch/supervise/TUI splits. No duplication or conflict was found. sase tool run check 45d5e5ebbd86d4bae584cf51e9364107 succeeded: all lint gates plus the scoped tests.
+
+FOLLOW-UP TRIAGE:
+- .1 #1 pin move: done (pin d2010865).
+- .1 #2 models-panel flake: fixed by e2ae4f2252.
+- .1 #3, .9 #3/#5, .12 #1 clippy: duplicate of sase-1t1, already corroborated.
+- .8 #1 and .9 #4 missing research ref: declined. It resolves after pulling the research sidecar; it was a stale local clone.
+- .10 #1 12 unrelated failures: declined. They were triaged by the sase-1t2.8.1 and .11.1 landers and pass at HEAD.
+- .12 #2 completion snapshot drift: declined. tests/completion/test_snapshot.py passes at HEAD.
+- .12 #3 bead-preview flake: filed as sase-1t6 (flake).
+- The land phase .14 never recorded the plan-mandated deferred follow-ups; triaged here:
+  - routed remote execution: sase-1t7
+  - home-mode custody: sase-1t8
+  - bulk hijack: sase-1t9
+  - Resume suppressed hand-off: sase-1ta
+  - Telegram/mobile ingress: +1 on sase-1rj, scope widened to requesting hijacks
+  - pending-gate adapter: declined, because the plan conditions it on real-use demand and there is none yet.
+- Task sase-1t5 (toobig, including this epic's note #1) was closed as verified resolved upstream.
+
+No --epic-symbol entries. No parent bead.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -62,7 +99,7 @@ Pressing ,k (or the kill dialog's h, or `sase agent hijack NAME`) on any local a
 
 ```mermaid
 flowchart TD
-    n0["sase-1t2: Agent Hijack dependability: make v1 real, then hijack the agent, not the row [in_progress]"]
+    n0["sase-1t2: Agent Hijack dependability: make v1 real, then hijack the agent, not the row [closed]"]
     n1["sase-1t2.1: sase-core: eligibility decision v2, occupant selection, stop_blocked ledger state [closed]"]
     n2["sase-1t2.10: Latch hijacks behind executing gates [closed]"]
     n3["sase-1t2.11: Monitor hijack adapter (closes the screenshot case) [closed]"]
@@ -195,7 +232,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1t2.8.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.8.1.7/README.md) | [sase-1t2.8.1.7](sase-1t2.8.1.7.md) | 1 |
 | [bbugyi200.athena.sase-1t2.8.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.8.1.land/README.md) | [sase-1t2.8.1](sase-1t2.8.1.md) | 2 |
 | [bbugyi200.athena.sase-1t2.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.9/README.md) | [sase-1t2.9](sase-1t2.9.md) | 3 |
-| [bbugyi200.athena.sase-1t2.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.land/README.md) | [sase-1t2](README.md) | 0 |
+| [bbugyi200.athena.sase-1t2.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.land/README.md) | [sase-1t2](README.md) | 1 |
 
 ## Commits
 
@@ -245,6 +282,7 @@ flowchart TD
 | sase--plans | [`sase--plans@855c28a`](https://github.com/sase-org/sase--plans/commit/855c28ae1a46152df367280a95a99e409aa16638) | docs(plans): mark monitor hijack adapter plan done | [sase-1t2.11.1](sase-1t2.11.1.md) | 2026-11-17 04:48:42 EST |
 | sase | [`9ab2401`](https://github.com/sase-org/sase/commit/9ab2401aea42479ef3eb56cd59035c2def910942) | test(hijack): add agent hijack chaos coverage | [sase-1t2.13](sase-1t2.13.md) | 2026-11-17 05:01:56 EST |
 | sase | [`875d599`](https://github.com/sase-org/sase/commit/875d599023728c2b309384d8ce2e4f2f05729867) | docs(hijack): land glossary strand, doc reconciliation, and final verification | [sase-1t2.14](sase-1t2.14.md) | 2026-11-17 05:21:06 EST |
+| sase | [`694cdec`](https://github.com/sase-org/sase/commit/694cdec86b1b67dbab0df37d2dfe4255ce0ccc48) | fix(agent-hijack): give each hijack canary a host-unique project | [sase-1t2](README.md) | 2026-11-17 05:51:19 EST |
 
 <!-- sase:referenced-by:start -->
 
