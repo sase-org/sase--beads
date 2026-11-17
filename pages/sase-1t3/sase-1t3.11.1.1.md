@@ -31,3 +31,15 @@ artifact_files: replace the persistent full artifact-file index cache with targe
 |---|---|---|---|---|
 | sase-core | [`sase-core@19b89ac`](https://github.com/sase-org/sase-core/commit/19b89ac9dd45fe27546e600926915a88e4dcd27f) | feat(artifact-file): add targeted association query over JSONL index | [sase-1t3.11.1.1](sase-1t3.11.1.1.md) | 2026-11-17 14:34:57 EST |
 | sase | [`8a64510`](https://github.com/sase-org/sase/commit/8a6451068e2be0c4bc407484b7c43708adbd289f) | feat(artifact-file): query associations instead of caching the full index | [sase-1t3.11.1.1](sase-1t3.11.1.1.md) | 2026-11-17 14:37:11 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1t3.11.1.1][1] | Need the phase scope, design file, notes, and DECISIONS before continuing implementation | 4 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.11.1.1/README.md
+
+<!-- sase:referenced-by:end -->

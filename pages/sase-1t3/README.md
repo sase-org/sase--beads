@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/tui_storm_trust_heap_recovery.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 6 automatic references — see [Referenced By](#referenced-by)._
+_Plus 7 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202611/tui_storm_trust_heap_recovery.md
 
@@ -90,7 +90,7 @@ flowchart TD
     n2["sase-1t3.10: Slim list rows end to end and a one-generation snapshot cache [in_progress]"]
     n3["sase-1t3.10.1: Slim agent list rows and bound retained snapshots [in_progress]"]
     n4["sase-1t3.10.1.1: Add compact list contracts and Rust bindings [closed]"]
-    n5["sase-1t3.10.1.2: Decode compact rows and construct ordinary agents [in_progress]"]
+    n5["sase-1t3.10.1.2: Decode compact rows and construct ordinary agents [closed]"]
     n6["sase-1t3.10.1.3: Consume slim rows throughout TUI loading [in_progress]"]
     n7["sase-1t3.10.1.4: Bound snapshot and detail retention and measure the result [in_progress]"]
     n8["sase-1t3.11: Replace whole-file log caches with targeted queries [in_progress]"]
@@ -206,7 +206,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1t3.10.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.10.1.land/README.md) | [sase-1t3.10.1](sase-1t3.10.1.md) | 0 |
 | [bbugyi200.athena.sase-1t3.11](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.11.md) | [sase-1t3.11](sase-1t3.11.md) | 0 |
 | [bbugyi200.athena.sase-1t3.11.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.11.1.1/README.md) | [sase-1t3.11.1.1](sase-1t3.11.1.1.md) | 2 |
-| [bbugyi200.athena.sase-1t3.11.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.11.1.2/README.md) | [sase-1t3.11.1.2](sase-1t3.11.1.2.md) | 0 |
+| [bbugyi200.athena.sase-1t3.11.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.11.1.2.md) | [sase-1t3.11.1.2](sase-1t3.11.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1t3.11.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.11.1.3/README.md) | [sase-1t3.11.1.3](sase-1t3.11.1.3.md) | 0 |
 | [bbugyi200.athena.sase-1t3.11.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.11.1.4/README.md) | [sase-1t3.11.1.4](sase-1t3.11.1.4.md) | 0 |
 | [bbugyi200.athena.sase-1t3.11.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.11.1.5/README.md) | [sase-1t3.11.1.5](sase-1t3.11.1.5.md) | 0 |
@@ -262,6 +262,7 @@ flowchart TD
 | sase-core | [`sase-core@8cedd45`](https://github.com/sase-org/sase-core/commit/8cedd45d2e83c901daf23e475407bfee4f7450bd) | feat: add compact agent-list wire contracts and PyO3 bindings | [sase-1t3.10.1.1](sase-1t3.10.1.1.md) | 2026-11-17 13:49:50 EST |
 | sase-core | [`sase-core@19b89ac`](https://github.com/sase-org/sase-core/commit/19b89ac9dd45fe27546e600926915a88e4dcd27f) | feat(artifact-file): add targeted association query over JSONL index | [sase-1t3.11.1.1](sase-1t3.11.1.1.md) | 2026-11-17 14:34:57 EST |
 | sase | [`8a64510`](https://github.com/sase-org/sase/commit/8a6451068e2be0c4bc407484b7c43708adbd289f) | feat(artifact-file): query associations instead of caching the full index | [sase-1t3.11.1.1](sase-1t3.11.1.1.md) | 2026-11-17 14:37:11 EST |
+| sase-core | [`sase-core@c5e60d7`](https://github.com/sase-org/sase-core/commit/c5e60d78575b50b8eefd1b2881e6fac2b8768f55) | feat(audit-query): add targeted memory audit query over JSONL | [sase-1t3.11.1.2](sase-1t3.11.1.2.md) | 2026-11-17 15:37:19 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -271,16 +272,18 @@ flowchart TD
 | --- | --- | --- | ---: |
 | read-by | [agent:ef][1] | User asked whether epics sase-1t2 and sase-1t3 conflict | 1 |
 | read-by | [agent:sase-1t3.1][2] | Need parent epic decisions and phase list | 1 |
-| read-by | [agent:sase-1t3.6.1.1][3] | Need parent phase and grandparent epic DECISIONS for lookup-core | 1 |
-| read-by | [agent:sase-1t3.6.1.land--1][4] | Check the active TUI startup epic for ownership of the import-budget overage | 2 |
-| read-by | [agent:toobig-9u.test_agent_hijack_canary.0][5] | Check whether the active trust and config performance epic plausibly owns unused cache-reset symbols in local trust modules | 1 |
-| read-by | [agent:toobig-9v.local_trust_management.0][6] | Check whether the active TUI/trust epic plausibly owns the unrelated ACE mypy failures | 3 |
+| read-by | [agent:sase-1t3.11.1.1][3] | Need inherited DECISIONS from parent epic | 1 |
+| read-by | [agent:sase-1t3.6.1.1][4] | Need parent phase and grandparent epic DECISIONS for lookup-core | 1 |
+| read-by | [agent:sase-1t3.6.1.land--1][5] | Check the active TUI startup epic for ownership of the import-budget overage | 2 |
+| read-by | [agent:toobig-9u.test_agent_hijack_canary.0][6] | Check whether the active trust and config performance epic plausibly owns unused cache-reset symbols in local trust modules | 1 |
+| read-by | [agent:toobig-9v.local_trust_management.0][7] | Check whether the active TUI/trust epic plausibly owns the unrelated ACE mypy failures | 3 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.ef/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.1.md
-[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.6.1.1/README.md
-[4]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.6.1.land.md
-[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-9u.test_agent_hijack_canary.0/README.md
-[6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-9v.local_trust_management.0/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.11.1.1/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.6.1.1/README.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.6.1.land.md
+[6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-9u.test_agent_hijack_canary.0/README.md
+[7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-9v.local_trust_management.0/README.md
 
 <!-- sase:referenced-by:end -->
