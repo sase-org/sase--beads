@@ -19,7 +19,7 @@ custody: implement monitor-specific stop and settlement effects, durable recover
 
 ## Dependencies
 
-- **Blocks:** [sase-1t2.11.1.2](sase-1t2.11.1.2.md) ◐ · ⧖ 2026-11-16
+- **Blocks:** [sase-1t2.11.1.2](sase-1t2.11.1.2.md) ✓ · ⧖ 2026-11-16
 - **Blocks:** [sase-1t2.11.1.7](sase-1t2.11.1.7.md) ◐ · ⧖ 2026-11-16
 
 ## Agents
@@ -33,3 +33,15 @@ custody: implement monitor-specific stop and settlement effects, durable recover
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`a2c9c3e`](https://github.com/sase-org/sase/commit/a2c9c3ecb5ecd441e85807cb06d1115eac1fc2aa) | feat(agent-hijack): add durable monitor stop custody | [sase-1t2.11.1.1](sase-1t2.11.1.1.md) | 2026-11-16 16:53:11 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1t2.11.1.1][1] | Need the phase scope, existing notes, and design file before implementation | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11.1.1/README.md
+
+<!-- sase:referenced-by:end -->

@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/agent_hijack_dependability.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 5 automatic references — see [Referenced By](#referenced-by)._
+_Plus 6 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202611/agent_hijack_dependability.md
 
@@ -24,6 +24,10 @@ _Plus 5 automatic references — see [Referenced By](#referenced-by)._
 ## Description
 
 Pressing ,k (or the kill dialog's h, or `sase agent hijack NAME`) on any local agent row, session container, or session name hijacks the session's occupying turn when that is safe now, latches the hijack to the next safe hand-off when it is not, and otherwise answers with a precise reason and next action, never the generic "not eligible" toast. Ordinary running agent turns, --plan/--tale turns, retries, booting and WAITING/QUEUED turns that hold a numbered workspace, running monitor turns, finalizing turns, staged hand-offs, monitor follow-ups, and executing gates are all covered. A real-pipeline canary proves hijack then Continue works end to end, and concurrent or crashed hijacks converge to exactly one operation and at most one successor.
+
+## Notes
+
+[2026-11-16T23:50:38Z · toobig-9v.local_trust_management.0] DISCOVERED ISSUE: On 2026-11-16, during an unrelated local trust split, just _lint-toobig reported tests/ace/tui/test_agent_hijack_action.py at 1092 lines, over its 1000-line limit. This is a deterministic violation outside the trust split. The active hijack epic has ongoing boundary-chaos and final verification work; triage the test-size fix with the appropriate phase owner.
 
 ## Phases
 
@@ -54,7 +58,7 @@ flowchart TD
     n3["sase-1t2.11: Monitor hijack adapter (closes the screenshot case) [in_progress]"]
     n4["sase-1t2.11.1: Complete monitor hijack custody and recovery [in_progress]"]
     n5["sase-1t2.11.1.1: Monitor stop adapter and durable hijack settlement [closed]"]
-    n6["sase-1t2.11.1.2: Recover the recorded monitor follow-up [in_progress]"]
+    n6["sase-1t2.11.1.2: Recover the recorded monitor follow-up [closed]"]
     n7["sase-1t2.11.1.3: Re-run the command as a new monitor [in_progress]"]
     n8["sase-1t2.11.1.4: Enable running and settling monitor hijacks [in_progress]"]
     n9["sase-1t2.11.1.5: Present monitor recovery in the TUI [in_progress]"]
@@ -155,7 +159,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1t2.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.10/README.md) | [sase-1t2.10](sase-1t2.10.md) | 1 |
 | [bbugyi200.athena.sase-1t2.11](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t2.11.md) | [sase-1t2.11](sase-1t2.11.md) | 0 |
 | [bbugyi200.athena.sase-1t2.11.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11.1.1/README.md) | [sase-1t2.11.1.1](sase-1t2.11.1.1.md) | 1 |
-| [bbugyi200.athena.sase-1t2.11.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11.1.2/README.md) | [sase-1t2.11.1.2](sase-1t2.11.1.2.md) | 0 |
+| [bbugyi200.athena.sase-1t2.11.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11.1.2/README.md) | [sase-1t2.11.1.2](sase-1t2.11.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1t2.11.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11.1.3/README.md) | [sase-1t2.11.1.3](sase-1t2.11.1.3.md) | 0 |
 | [bbugyi200.athena.sase-1t2.11.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11.1.4/README.md) | [sase-1t2.11.1.4](sase-1t2.11.1.4.md) | 0 |
 | [bbugyi200.athena.sase-1t2.11.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11.1.5/README.md) | [sase-1t2.11.1.5](sase-1t2.11.1.5.md) | 0 |
@@ -215,6 +219,7 @@ flowchart TD
 | sase--plans | [`sase--plans@507a87d`](https://github.com/sase-org/sase--plans/commit/507a87d1b817c58cb3ca7b3be26b6c77a6b9005d) | docs(plans): mark hijack latch boundaries plan done | [sase-1t2.8.1](sase-1t2.8.1.md) | 2026-11-16 15:20:07 EST |
 | sase | [`fbd0c47`](https://github.com/sase-org/sase/commit/fbd0c4781a19231e6452a751135fe1b868b8f2e6) | feat(agent-hijack): latch executing gates before follow-up | [sase-1t2.10](sase-1t2.10.md) | 2026-11-16 15:45:42 EST |
 | sase | [`a2c9c3e`](https://github.com/sase-org/sase/commit/a2c9c3ecb5ecd441e85807cb06d1115eac1fc2aa) | feat(agent-hijack): add durable monitor stop custody | [sase-1t2.11.1.1](sase-1t2.11.1.1.md) | 2026-11-16 16:53:11 EST |
+| sase-core | [`sase-core@2108ed3`](https://github.com/sase-org/sase-core/commit/2108ed33bb8301e2b2b14e16bcc6a35a8586be76) | feat(agent-hijack): add monitor-scope recovery preview rows | [sase-1t2.11.1.2](sase-1t2.11.1.2.md) | 2026-11-16 19:17:47 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -227,11 +232,13 @@ flowchart TD
 | read-by | [agent:sase-1t2.1][3] | need epic plan and scope | 1 |
 | read-by | [agent:sase-1t2.8.1.land][4] | Find chaos phase bead id and status for inventory handoff | 1 |
 | read-by | [agent:sase-1t2.9][5] | Need the epic's accepted glossary decision context and phase state to keep the authorized memory edit accurate | 1 |
+| read-by | [agent:toobig-9v.local_trust_management.0][6] | Inspect the newly added follow-up note after shell quoting substituted its punctuation | 3 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.ef/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.62.final/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.1/README.md
 [4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.8.1.land/README.md
 [5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.9/README.md
+[6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-9v.local_trust_management.0/README.md
 
 <!-- sase:referenced-by:end -->

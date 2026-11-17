@@ -13,7 +13,7 @@ rerun: implement a durable rerun recovery action using the existing monitor-star
 
 ## Dependencies
 
-- **Depends on:** [sase-1t2.11.1.2](sase-1t2.11.1.2.md) ◐ · ⧖ 2026-11-16
+- **Depends on:** [sase-1t2.11.1.2](sase-1t2.11.1.2.md) ✓ · ⧖ 2026-11-16
 - **Blocks:** [sase-1t2.11.1.4](sase-1t2.11.1.4.md) ◐ · ⧖ 2026-11-16
 - **Blocks:** [sase-1t2.11.1.5](sase-1t2.11.1.5.md) ◐ · ⧖ 2026-11-16
 - **Blocks:** [sase-1t2.11.1.7](sase-1t2.11.1.7.md) ◐ · ⧖ 2026-11-16

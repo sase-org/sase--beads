@@ -33,7 +33,11 @@ monitor_adapter: running monitor turns become immediate through stop_monitor wit
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:ef][1] | Check cross-epic coordination notes between hijack epic sase-1t2 and TUI perf epic sase-1t3 | 1 |
+| read-by | [agent:sase-1t2.11.1.1][2] | Need the parent phase decisions that govern monitor adapter implementation | 1 |
+| read-by | [agent:toobig-9v.local_trust_management.0][3] | Check whether the monitor-hijack phase owns the oversized hijack action test file | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.ef/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11.1.1/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-9v.local_trust_management.0/README.md
 
 <!-- sase:referenced-by:end -->
