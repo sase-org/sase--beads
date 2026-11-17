@@ -44,8 +44,10 @@ activation: gather durable monitor occupancy and pending-follow-up facts, enable
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1t2.11.1.4][1] | Need notes and remaining work if any | 8 |
 | read-by | [agent:sase-1t2.11.1.7][2] | Need predecessor notes, close evidence, and remaining work before land | 1 |
+| read-by | [agent:sase-1t2.11.1.land][3] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11.1.4/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11.1.7/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11.1.land/README.md
 
 <!-- sase:referenced-by:end -->

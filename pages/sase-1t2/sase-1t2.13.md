@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1t2](README.md) / sase-1t2.13
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.1ct](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.1ct.md) · **Assignee:** `sase-1t2.13` · **Size:** medium
-**Created:** 2026-11-15 20:00:12 EST
+**Created:** 2026-11-15 20:00:12 EST · **Closed:** 2026-11-17 04:59:25 EST
 **Plan:** [202611/agent\_hijack\_dependability.md](https://github.com/sase-org/sase--plans/blob/main/202611/agent_hijack_dependability.md)
 
 ## Description
@@ -31,6 +31,8 @@ Narrow exemptions:
 
 [2026-11-17T08:18:01Z · sase-1t2.11.1.7] MONITOR CANARY COUNTS from sase-1t2.11.1.7 land (for chaos inventory): continue path produces 1 hijack record and 1 same-workspace follow-up successor; rerun path produces 1 new monitor command in the held workspace and 1 eventual follow-up. Both fakey canaries passed on this tree. Does not take over crash/inventory work.
 
+[2026-11-17T09:59:25Z · sase-1t2.13] chaos phase done: added tests/test_agent_hijack_chaos.py (536 lines, 11 tests). Boundary chaos covers staged/replay/inprocess/run-end-moot/retry/detached/spawn/followup checkpoints, each asserting HijackLatchedError or a defined moot verdict (never generic refusal) and at most one suppressed successor. Crash convergence kills the worker at record/intent/pin/begin_stop/terminate/settle/evidence/publish/latch-apply states and asserts stale-sweep/latch reconciliation converges with no second stop (target slot still maps to the one hijack id) and no surviving-writer release (dead owner settles held, live owner goes stop_blocked with custody retained). Static inventory guard enumerates every successor-launch primitive call site and requires a latch checkpoint or one-line allow-list reason. Verified: new file 11 passed standalone; sase tool run check 432a36725a555757ccfb55cf2964889c succeeded (all lint gates + scoped tests, exit 0). No epic-symbol entries remain.
+
 ## Dependencies
 
 - **Depends on:** [sase-1t2.10](sase-1t2.10.md) ✓ · ⧖ 2026-11-15
@@ -42,7 +44,13 @@ Narrow exemptions:
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1t2.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.13/README.md) | [sase-1t2.13](sase-1t2.13.md) | 0 |
+| [bbugyi200.athena.sase-1t2.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.13/README.md) | [sase-1t2.13](sase-1t2.13.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`9ab2401`](https://github.com/sase-org/sase/commit/9ab2401aea42479ef3eb56cd59035c2def910942) | test(hijack): add agent hijack chaos coverage | [sase-1t2.13](sase-1t2.13.md) | 2026-11-17 05:01:56 EST |
 
 <!-- sase:referenced-by:start -->
 

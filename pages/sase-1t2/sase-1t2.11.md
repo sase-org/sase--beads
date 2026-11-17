@@ -21,7 +21,7 @@ monitor_adapter: running monitor turns become immediate through stop_monitor wit
 
 ## Dependencies
 
-- **Blocks:** [sase-1t2.13](sase-1t2.13.md) ◐ · ⧖ 2026-11-15
+- **Blocks:** [sase-1t2.13](sase-1t2.13.md) ✓ · ⧖ 2026-11-15
 - **Depends on:** [sase-1t2.8](sase-1t2.8.md) ✓ · ⧖ 2026-11-15
 
 ## Agents
@@ -39,11 +39,13 @@ monitor_adapter: running monitor turns become immediate through stop_monitor wit
 | read-by | [agent:ef][1] | Check cross-epic coordination notes between hijack epic sase-1t2 and TUI perf epic sase-1t3 | 1 |
 | read-by | [agent:sase-1t2.11.1.1][2] | Need the parent phase decisions that govern monitor adapter implementation | 1 |
 | read-by | [agent:sase-1t2.11.1.7][3] | Need parent phase DECISIONS and land requirements for completion evidence | 1 |
-| read-by | [agent:toobig-9v.local_trust_management.0][4] | Check whether the monitor-hijack phase owns the oversized hijack action test file | 1 |
+| read-by | [agent:sase-1t2.11.1.land][4] | Confirm parent phase status and links after child epic close | 1 |
+| read-by | [agent:toobig-9v.local_trust_management.0][5] | Check whether the monitor-hijack phase owns the oversized hijack action test file | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.ef/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11.1.1/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11.1.7/README.md
-[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-9v.local_trust_management.0/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11.1.land/README.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-9v.local_trust_management.0/README.md
 
 <!-- sase:referenced-by:end -->

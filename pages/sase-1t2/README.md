@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/agent_hijack_dependability.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 8 automatic references — see [Referenced By](#referenced-by)._
+_Plus 9 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202611/agent_hijack_dependability.md
 
@@ -47,7 +47,7 @@ Pressing ,k (or the kill dialog's h, or `sase agent hijack NAME`) on any local a
 | [sase-1t2.10](sase-1t2.10.md) | Latch hijacks behind executing gates | ✓ closed | small | 2026-11-15 | 1 | 1 |
 | [sase-1t2.11](sase-1t2.11.md) | Monitor hijack adapter (closes the screenshot case) | ✓ closed | large | 2026-11-15 | 1 | 0 |
 | [sase-1t2.12](sase-1t2.12.md) | Doctor check, resolving watchdog, and remote referral tracking | ✓ closed | small | 2026-11-15 | 1 | 2 |
-| [sase-1t2.13](sase-1t2.13.md) | Boundary chaos test, crash convergence, and hand-off inventory guard | ◐ in_progress | medium | 2026-11-15 | 1 | 0 |
+| [sase-1t2.13](sase-1t2.13.md) | Boundary chaos test, crash convergence, and hand-off inventory guard | ✓ closed | medium | 2026-11-15 | 1 | 1 |
 | [sase-1t2.14](sase-1t2.14.md) | Docs sweep, glossary strand, and final verification | ◐ in_progress | small | 2026-11-15 | 1 | 0 |
 | [sase-1t2.2](sase-1t2.2.md) | Keep the hijack capability stamp and read the model facts runners actually write | ✓ closed | small | 2026-11-15 | 1 | 2 |
 | [sase-1t2.3](sase-1t2.3.md) | Snapshot discovery that sees real linked-repo metadata | ✓ closed | small | 2026-11-15 | 1 | 1 |
@@ -75,7 +75,7 @@ flowchart TD
     n10["sase-1t2.11.1.6: Exercise a real monitor hijack and recovery [closed]"]
     n11["sase-1t2.11.1.7: Verify and land the monitor adapter phase [closed]"]
     n12["sase-1t2.12: Doctor check, resolving watchdog, and remote referral tracking [closed]"]
-    n13["sase-1t2.13: Boundary chaos test, crash convergence, and hand-off inventory guard [in_progress]"]
+    n13["sase-1t2.13: Boundary chaos test, crash convergence, and hand-off inventory guard [closed]"]
     n14["sase-1t2.14: Docs sweep, glossary strand, and final verification [in_progress]"]
     n15["sase-1t2.2: Keep the hijack capability stamp and read the model facts runners actually write [closed]"]
     n16["sase-1t2.3: Snapshot discovery that sees real linked-repo metadata [closed]"]
@@ -175,9 +175,9 @@ flowchart TD
 | [bbugyi200.athena.sase-1t2.11.1.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t2.11.1.5.md) | [sase-1t2.11.1.5](sase-1t2.11.1.5.md) | 1 |
 | [bbugyi200.athena.sase-1t2.11.1.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t2.11.1.6.md) | [sase-1t2.11.1.6](sase-1t2.11.1.6.md) | 3 |
 | [bbugyi200.athena.sase-1t2.11.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11.1.7/README.md) | [sase-1t2.11.1.7](sase-1t2.11.1.7.md) | 1 |
-| [bbugyi200.athena.sase-1t2.11.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11.1.land/README.md) | [sase-1t2.11.1](sase-1t2.11.1.md) | 2 |
+| [bbugyi200.athena.sase-1t2.11.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11.1.land/README.md) | [sase-1t2.11.1](sase-1t2.11.1.md) | 1 |
 | [bbugyi200.athena.sase-1t2.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.12/README.md) | [sase-1t2.12](sase-1t2.12.md) | 2 |
-| [bbugyi200.athena.sase-1t2.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.13/README.md) | [sase-1t2.13](sase-1t2.13.md) | 0 |
+| [bbugyi200.athena.sase-1t2.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.13/README.md) | [sase-1t2.13](sase-1t2.13.md) | 1 |
 | [bbugyi200.athena.sase-1t2.14](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.14/README.md) | [sase-1t2.14](sase-1t2.14.md) | 0 |
 | [bbugyi200.athena.sase-1t2.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.2/README.md) | [sase-1t2.2](sase-1t2.2.md) | 2 |
 | [bbugyi200.athena.sase-1t2.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t2.3.md) | [sase-1t2.3](sase-1t2.3.md) | 1 |
@@ -242,7 +242,7 @@ flowchart TD
 | sase | [`fa771fe`](https://github.com/sase-org/sase/commit/fa771fe9121c486aca2e160af32c524d30e93619) | fix(agent-hijack): use legacy prompt filename constants in monitor canary | [sase-1t2.11.1.6](sase-1t2.11.1.6.md) | 2026-11-17 02:58:39 EST |
 | sase | [`346d84c`](https://github.com/sase-org/sase/commit/346d84ce327c6f2cba5510028e05bd6ba24b1d33) | docs(monitor): document hijack recovery and command rerun | [sase-1t2.11.1.7](sase-1t2.11.1.7.md) | 2026-11-17 03:41:26 EST |
 | sase | [`3431374`](https://github.com/sase-org/sase/commit/343137405d5e8373684b9d002db2c36657071850) | fix(agent-hijack): keep hijack modules out of TUI startup and settle canary races | [sase-1t2.11.1](sase-1t2.11.1.md) | 2026-11-17 04:47:35 EST |
-| sase--plans | [`sase--plans@855c28a`](https://github.com/sase-org/sase--plans/commit/855c28ae1a46152df367280a95a99e409aa16638) | docs(plans): mark monitor hijack adapter plan done | [sase-1t2.11.1](sase-1t2.11.1.md) | 2026-11-17 04:48:42 EST |
+| sase | [`9ab2401`](https://github.com/sase-org/sase/commit/9ab2401aea42479ef3eb56cd59035c2def910942) | test(hijack): add agent hijack chaos coverage | [sase-1t2.13](sase-1t2.13.md) | 2026-11-17 05:01:56 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -253,18 +253,20 @@ flowchart TD
 | read-by | [agent:ef][1] | User asked whether epics sase-1t2 and sase-1t3 conflict | 1 |
 | read-by | [agent:research.62.final][2] | Confirm hijack epic status for TUI perf consolidation | 1 |
 | read-by | [agent:sase-1t2.1][3] | need epic plan and scope | 1 |
-| read-by | [agent:sase-1t2.8.1.land][4] | Find chaos phase bead id and status for inventory handoff | 1 |
-| read-by | [agent:sase-1t2.9][5] | Need the epic's accepted glossary decision context and phase state to keep the authorized memory edit accurate | 1 |
-| read-by | [agent:sase-1t3.6.1.land][6] | Confirm the import-footprint follow-up is routed to the active hijack epic | 1 |
-| read-by | [agent:sase-1t3.6.1.land--1][6] | Check whether the agent-hijack epic owns the canary string changes behind the macro terminology failure | 1 |
-| read-by | [agent:toobig-9v.local_trust_management.0][7] | Inspect the newly added follow-up note after shell quoting substituted its punctuation | 3 |
+| read-by | [agent:sase-1t2.11.1.land][4] | Find ordinal of my session-hijack DISCOVERED ISSUE note to correct it | 3 |
+| read-by | [agent:sase-1t2.8.1.land][5] | Find chaos phase bead id and status for inventory handoff | 1 |
+| read-by | [agent:sase-1t2.9][6] | Need the epic's accepted glossary decision context and phase state to keep the authorized memory edit accurate | 1 |
+| read-by | [agent:sase-1t3.6.1.land][7] | Confirm the import-footprint follow-up is routed to the active hijack epic | 1 |
+| read-by | [agent:sase-1t3.6.1.land--1][7] | Check whether the agent-hijack epic owns the canary string changes behind the macro terminology failure | 1 |
+| read-by | [agent:toobig-9v.local_trust_management.0][8] | Inspect the newly added follow-up note after shell quoting substituted its punctuation | 3 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.ef/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.research.62.final/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.1/README.md
-[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.8.1.land/README.md
-[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.9/README.md
-[6]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.6.1.land.md
-[7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-9v.local_trust_management.0/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11.1.land/README.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.8.1.land/README.md
+[6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.9/README.md
+[7]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.6.1.land.md
+[8]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-9v.local_trust_management.0/README.md
 
 <!-- sase:referenced-by:end -->

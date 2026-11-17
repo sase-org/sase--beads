@@ -98,7 +98,7 @@ Close event: sase-1t2:000099:issue_closed:sase-1t2.9:7f096b9a9c55e988d6389385049
 
 ## Dependencies
 
-- **Blocks:** [sase-1t2.13](sase-1t2.13.md) ◐ · ⧖ 2026-11-15
+- **Blocks:** [sase-1t2.13](sase-1t2.13.md) ✓ · ⧖ 2026-11-15
 - **Depends on:** [sase-1t2.7](sase-1t2.7.md) ✓ · ⧖ 2026-11-15
 
 ## Agents

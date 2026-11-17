@@ -19,7 +19,7 @@ gate_routing: a gate executing its selected option yields latched; settle_gate_t
 
 ## Dependencies
 
-- **Blocks:** [sase-1t2.13](sase-1t2.13.md) ◐ · ⧖ 2026-11-15
+- **Blocks:** [sase-1t2.13](sase-1t2.13.md) ✓ · ⧖ 2026-11-15
 - **Depends on:** [sase-1t2.8](sase-1t2.8.md) ✓ · ⧖ 2026-11-15
 
 ## Agents

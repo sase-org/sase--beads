@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/monitor_hijack_adapter.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202611/monitor_hijack_adapter.md
 
@@ -33,14 +33,13 @@ Hijack the occupying monitor, retain its workspace, and recover exactly once thr
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1t2.11.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11.1.land/README.md) | [sase-1t2.11.1](sase-1t2.11.1.md) | 2 |
+| [bbugyi200.athena.sase-1t2.11.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11.1.land/README.md) | [sase-1t2.11.1](sase-1t2.11.1.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`3431374`](https://github.com/sase-org/sase/commit/343137405d5e8373684b9d002db2c36657071850) | fix(agent-hijack): keep hijack modules out of TUI startup and settle canary races | [sase-1t2.11.1](sase-1t2.11.1.md) | 2026-11-17 04:47:35 EST |
-| sase--plans | [`sase--plans@855c28a`](https://github.com/sase-org/sase--plans/commit/855c28ae1a46152df367280a95a99e409aa16638) | docs(plans): mark monitor hijack adapter plan done | [sase-1t2.11.1](sase-1t2.11.1.md) | 2026-11-17 04:48:42 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -51,9 +50,11 @@ Hijack the occupying monitor, retain its workspace, and recover exactly once thr
 | read-by | [agent:sase-1t2.11.1.1][1] | Need the parent epic decisions and scope before implementing its assigned phase | 1 |
 | read-by | [agent:sase-1t2.11.1.4][2] | Need parent epic DECISIONS and phase notes | 1 |
 | read-by | [agent:sase-1t2.11.1.7][3] | Need predecessor notes, close evidence, and remaining work before land | 2 |
+| read-by | [agent:sase-1t2.11.1.land][4] | Need the epic scope, children, and linked plan file | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11.1.1/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11.1.4/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11.1.7/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11.1.land/README.md
 
 <!-- sase:referenced-by:end -->
