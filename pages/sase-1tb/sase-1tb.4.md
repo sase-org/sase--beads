@@ -22,7 +22,7 @@ video-frame-cache: add the ffmpeg-backed frame service. It does exact-frame extr
 ## Dependencies
 
 - **Depends on:** [sase-1tb.1](sase-1tb.1.md) ✓ · ⧖ 2026-11-17
-- **Blocks:** [sase-1tb.5](sase-1tb.5.md) ◐ · ⧖ 2026-11-17
+- **Blocks:** [sase-1tb.5](sase-1tb.5.md) ✓ · ⧖ 2026-11-17
 
 ## Agents
 

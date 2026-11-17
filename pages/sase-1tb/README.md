@@ -33,8 +33,8 @@ Opening a video artifact from the Agents tab inside tmux shows a useful frame in
 | [sase-1tb.2](sase-1tb.2.md) | Trim the viewer child's startup tax | ✓ closed | small | 2026-11-17 | 1 | 1 |
 | [sase-1tb.3](sase-1tb.3.md) | Move tmux split and decoration off the Textual UI thread | ✓ closed | medium | 2026-11-17 | 1 | 1 |
 | [sase-1tb.4](sase-1tb.4.md) | Persistent frame, scrub-track, and storyboard cache | ✓ closed | medium | 2026-11-17 | 1 | 1 |
-| [sase-1tb.5](sase-1tb.5.md) | Inspect-first video view with scrubbing keys | ◐ in_progress | medium | 2026-11-17 | 1 | 1 |
-| [sase-1tb.6](sase-1tb.6.md) | Motion backends, native handoff, and audio semantics | ◐ in_progress | medium | 2026-11-17 | 1 | 0 |
+| [sase-1tb.5](sase-1tb.5.md) | Inspect-first video view with scrubbing keys | ✓ closed | medium | 2026-11-17 | 1 | 1 |
+| [sase-1tb.6](sase-1tb.6.md) | Motion backends, native handoff, and audio semantics | ✓ closed | medium | 2026-11-17 | 1 | 1 |
 | [sase-1tb.7](sase-1tb.7.md) | Cell-preview fallback for terminals without kitty graphics | ◐ in_progress | small | 2026-11-17 | 1 | 0 |
 
 ## Lineage
@@ -46,8 +46,8 @@ flowchart TD
     n2["sase-1tb.2: Trim the viewer child's startup tax [closed]"]
     n3["sase-1tb.3: Move tmux split and decoration off the Textual UI thread [closed]"]
     n4["sase-1tb.4: Persistent frame, scrub-track, and storyboard cache [closed]"]
-    n5["sase-1tb.5: Inspect-first video view with scrubbing keys [in_progress]"]
-    n6["sase-1tb.6: Motion backends, native handoff, and audio semantics [in_progress]"]
+    n5["sase-1tb.5: Inspect-first video view with scrubbing keys [closed]"]
+    n6["sase-1tb.6: Motion backends, native handoff, and audio semantics [closed]"]
     n7["sase-1tb.7: Cell-preview fallback for terminals without kitty graphics [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -73,7 +73,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1tb.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tb.3/README.md) | [sase-1tb.3](sase-1tb.3.md) | 1 |
 | [bbugyi200.athena.sase-1tb.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tb.4.md) | [sase-1tb.4](sase-1tb.4.md) | 1 |
 | [bbugyi200.athena.sase-1tb.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tb.5.md) | [sase-1tb.5](sase-1tb.5.md) | 1 |
-| [bbugyi200.athena.sase-1tb.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tb.6/README.md) | [sase-1tb.6](sase-1tb.6.md) | 0 |
+| [bbugyi200.athena.sase-1tb.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tb.6.md) | [sase-1tb.6](sase-1tb.6.md) | 1 |
 | [bbugyi200.athena.sase-1tb.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tb.7/README.md) | [sase-1tb.7](sase-1tb.7.md) | 0 |
 | [bbugyi200.athena.sase-1tb.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tb.land/README.md) | [sase-1tb](README.md) | 0 |
 
@@ -87,6 +87,7 @@ flowchart TD
 | sase | [`5b4e61b`](https://github.com/sase-org/sase/commit/5b4e61bfa7d256d0fb29317eb268782bbee7f42b) | feat(tui): launch artifact tmux panes off the UI thread | [sase-1tb.3](sase-1tb.3.md) | 2026-11-17 13:42:05 EST |
 | sase | [`f2fb7fb`](https://github.com/sase-org/sase/commit/f2fb7fb6b5006fdee544b398fab0f74fecbaa3aa) | feat(viewer): add persistent video frame, scrub-track, and storyboard cache | [sase-1tb.4](sase-1tb.4.md) | 2026-11-17 14:46:04 EST |
 | sase | [`ded40c1`](https://github.com/sase-org/sase/commit/ded40c1e6393eeaad92a86e6dfad722bf19b961c) | feat(artifact-viewer): inspect-first video scrubber | [sase-1tb.5](sase-1tb.5.md) | 2026-11-17 17:20:38 EST |
+| sase | [`4a6d3c5`](https://github.com/sase-org/sase/commit/4a6d3c51b352c61f9054b01546663f4a0a48c536) | feat(viewer): motion backends, native handoff, and muted in-pane audio | [sase-1tb.6](sase-1tb.6.md) | 2026-11-17 18:39:30 EST |
 
 <!-- sase:referenced-by:start -->
 

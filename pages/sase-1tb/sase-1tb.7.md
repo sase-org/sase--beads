@@ -13,7 +13,7 @@ non-kitty-fallback: detect kitty-graphics capability from the terminal name, usi
 
 ## Dependencies
 
-- **Depends on:** [sase-1tb.6](sase-1tb.6.md) ◐ · ⧖ 2026-11-17
+- **Depends on:** [sase-1tb.6](sase-1tb.6.md) ✓ · ⧖ 2026-11-17
 
 ## Agents
 
