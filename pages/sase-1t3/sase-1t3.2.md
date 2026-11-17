@@ -22,7 +22,7 @@ Verification: `just fmt` succeeded; `sase tool run check` 6274a4c67e72e8de6a5c63
 ## Dependencies
 
 - **Blocks:** [sase-1t3.14](sase-1t3.14.md) ◐ · ⧖ 2026-11-16
-- **Blocks:** [sase-1t3.9](sase-1t3.9.md) ◐ · ⧖ 2026-11-16
+- **Blocks:** [sase-1t3.9](sase-1t3.9.md) ✓ · ⧖ 2026-11-16
 
 ## Agents
 

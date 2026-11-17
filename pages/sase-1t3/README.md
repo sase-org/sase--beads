@@ -33,6 +33,35 @@ _Plus 6 automatic references — see [Referenced By](#referenced-by)._
 
 [2026-11-17T08:31:00Z · sase-1t3.6.1.land--1] DISCOVERED ISSUE: Required check ToolRun a4ac7f1adcae20a048906fdb9a55ee9e on 2026-11-17 failed tests/ace/tui/test_app_import_budget.py::test_tui_app_import_stays_under_startup_budget at 12,340,057 normalized source bytes versus the 12,162,484 cap. Running .venv/bin/python tools/tui_import_closure --diff 42f5f6fc944935ec550d0a420921dcd0eecf5611 measured the base at 12,342,089 bytes and this integrated lookup patch at 12,340,057: zero module changes and a 2,032-byte decrease. The residual overage is therefore present at the rebase base and this patch does not cause it. The existing startup phase 1t3.8 already owns the footprint work; this corroborates that report, and the closed module-count task sase-1ic is not reopened.
 
+[2026-11-17T17:17:07Z · sase-1t3.9--2] Post-storm GC census ranked heap owners (sase-1t3.9 closed). Diet phases sase-1t3.10 (slim-list-rows) and sase-1t3.11 (bounded-log-caches) should use this list. Full method/PIDs/dirs live on sase-1t3.9. Cross-ref on sase-1sl.4. tui_perf.md not edited (DECISIONS tui_perf_memory=no).
+
+2h sample: instance 39893a35 PID 1706747, census index 11 nearest 7200s (uptime 6937s / 115.6 min, RSS 3.652 GB, allocated_blocks 13,042,356, survivors 1,748,928 / 271.60 MB). Ranking holds at census 12 (7539s) and last census 13 (8141s / 135.7 min). 10 min sample: instance d5ac2b89 PID 4050454 census index 1 @ 683s (RSS 2.337 GB). Mid-soak support: instance 2e14b925 PID 2450990 last census ~65 min (RSS 3.220 GB).
+
+RSS / GC / executor (39893a35, 28 heartbeats, 135.7 min): RSS 1.416–3.652 GB (last 3.012 GB); allocated_blocks 8,086,536–15,536,694; gen-2 n=131 p50=1.285s p95=2.030s max=2.470s; default_executor workers=32 threads=16 queue=0 saturated=false every heartbeat.
+
+Ranked surviving owners at ~2h (count / shallow bytes), with 10 min → 2h:
+
+1. builtins.dict — 84,054 / 25.7 MB @10m (d5ac2b89) → 378,739 / 128.3 MB @2h (39893a35). Dominant byte owner. Slim nested wire/list-row payloads (sase-1t3.10).
+2. builtins.list — 267,581 / 26.8 MB → 684,723 / 78.9 MB. Same diet.
+3. pathlib.PosixPath — 96,071 / 10.0 MB → 277,559 / 28.9 MB. Filesystem walks feeding log/index caches (sase-1t3.11).
+4. builtins.tuple — 16,338 / 2.7 MB → 56,285 / 9.4 MB. Nested row/cache keys.
+5. pathlib._os.DirEntryInfo — 72,515 / 4.6 MB → 85,957 / 5.5 MB. Same walks as PosixPath.
+6. sase.core.artifact_file_types.ArtifactFile — 47,466 / 2.28 MB → 47,658 / 2.29 MB (stable after first load; matches _artifact_file_index_cache.row_total 47,460 → 47,625). Anchor: src/sase/core/artifact_file_types.py, src/sase/core/artifact_file_explicit.py. First sase-1t3.11 target.
+7. sase.notifications.models.NotificationPlusOne — 22,368 / 1.07 MB → 28,547 / 1.37 MB (grows over idle soak). Anchor: src/sase/notifications/models.py. Not in 1t3.10/1t3.11 scope.
+8. sase.memory._read_log_models.MemoryReadEvent — 6,262 / 0.30 MB on d5ac2b89 (bob-cli cache 6,260) vs 23,457 / 1.13 MB on 39893a35 (sase+tailnet cache 23,457; 1:1 with live objects). Anchor: src/sase/memory/_read_log_models.py, src/sase/ace/tui/memory_reads.py. sase-1t3.11.
+9. sase.agents.catalog._query.AgentCatalogLinkFacets — 17,832 / 1.00 MB → 17,889 / 1.00 MB (stable after first paint). Anchor: src/sase/agents/catalog/_query.py. sase-1t3.10.
+10. sase.core.bead_touch_index_models.BeadTouch — 7,332 / 0.35 MB on d5ac2b89 vs 16,307 / 0.78 MB on 39893a35 (stable on that soak; _bead_touches_snapshot_cache.event_total=0 so these are not in that cache). Anchor: src/sase/core/bead_touch_index_models.py, src/sase/ace/tui/_bead_touches_loader.py. sase-1t3.11 must find the real materializer.
+11. sase.skills.use_log.SkillUseEvent — 11,402 / 0.55 MB @2h ≈ _skill_uses_snapshot_cache 11,397. Anchor: src/sase/skills/use_log.py, src/sase/ace/tui/skill_uses.py. Whole-file cache, not named in the 1t3.11 phase text.
+12. textual.cache.FIFOCache — soak-dependent growth: 45,933 / 2.94 MB @10m d5ac2b89; 91,405 / 5.85 MB @65m 2e14b925; only 7,709 / 0.49 MB @2h 39893a35 (200x50 idle viewport). Still a sase-1t3.10 render-cache owner. Also rich.segment.Segment / textual.strip.Strip.
+
+survivor_watch at ~2h (39893a35 census 11): Agent 2,816 (oscillates 900–2,800; src/sase/ace/tui/models/agent.py); AceRowHandle 4,044 (oscillates 2,050–4,221; src/sase/ace/tui/provider_contract.py); AgentCatalogLinkFacets 17,889; ArtifactReadEvent 146 live vs cache 27,587 (src/sase/artifact_read_log.py, src/sase/ace/tui/artifact_reads.py; on 2e14b925 live objects matched cache at 13,584); AgentArtifactRecordWire watch path sase.core.agent_scan_wire.AgentArtifactRecordWire always 0; live type sase.core.agent_scan_wire_records.AgentArtifactRecordWire is transient 0–1,217 (defined src/sase/core/agent_scan_wire_records.py, re-exported src/sase/core/agent_scan_wire.py); ArtifactFile 47,658; BeadTouch 16,307; MemoryReadEvent 23,457; Notification 8,454; NotificationPlusOne 28,547; FIFOCache 7,709.
+
+known_caches at ~2h: ARTIFACT_SNAPSHOT_CACHE entries=8/max=8 record_total=812 (src/sase/ace/tui/models/_agent_loader_artifact_cache.py) — cap at one live generation in sase-1t3.10; _artifact_file_index_cache rows=47,625; _artifact_reads_snapshot_cache events=27,587 (sase 27,441 + tailnet 146); _memory_reads_snapshot_cache events=23,457; _bead_touches_snapshot_cache events=0; _glossary_reads_snapshot_cache 357; _skill_uses_snapshot_cache 11,397.
+
+sase-1t3.10 order: slim list DTO (dict/list/tuple + AgentCatalogLinkFacets), drop wire snapshots after Agent construction (Agent / AceRowHandle already bounded; records-module AgentArtifactRecordWire is not a chronic survivor), cap ARTIFACT_SNAPSHOT_CACHE at one generation, treat FIFOCache as a growth owner when the viewport actually paints.
+
+sase-1t3.11 census order: ArtifactFile index (stable 47.5k), MemoryReadEvent cache (1:1 live), BeadTouch (16k live, cache empty), PosixPath/DirEntryInfo walks, ArtifactReadEvent snapshot cache (27.6k events, few live objects on this soak), then SkillUseEvent if that phase takes whole-file log caches beyond the named set.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -50,7 +79,7 @@ _Plus 6 automatic references — see [Referenced By](#referenced-by)._
 | [sase-1t3.6](sase-1t3.6.md) | Index-backed agent name, session, clan, and dismissed-bundle lookups | ✓ closed | large | 2026-11-16 | 1 | 0 |
 | [sase-1t3.7](sase-1t3.7.md) | Provider-tab discovery after first paint as one generation | ✓ closed | large | 2026-11-16 | 1 | 0 |
 | [sase-1t3.8](sase-1t3.8.md) | Lazy action imports and startup background work off the critical path | ✓ closed | large | 2026-11-16 | 1 | 1 |
-| [sase-1t3.9](sase-1t3.9.md) | Post-storm GC census and heap-owner attribution | ◐ in_progress | medium | 2026-11-16 | 1 | 1 |
+| [sase-1t3.9](sase-1t3.9.md) | Post-storm GC census and heap-owner attribution | ✓ closed | medium | 2026-11-16 | 1 | 1 |
 
 ## Lineage
 
@@ -59,77 +88,109 @@ flowchart TD
     n0["sase-1t3: Recover TUI speed - stop the hijack storm, fix the trust-root defect, shrink the heap [in_progress]"]
     n1["sase-1t3.1: Stop the hijack-decision storm [closed]"]
     n2["sase-1t3.10: Slim list rows end to end and a one-generation snapshot cache [in_progress]"]
-    n3["sase-1t3.11: Replace whole-file log caches with targeted queries [in_progress]"]
-    n4["sase-1t3.12: Terminalize stale running rows in index maintenance [closed]"]
-    n5["sase-1t3.13: Interaction latency after the heap shrinks [in_progress]"]
-    n6["sase-1t3.14: End-to-end soak against the research baselines [in_progress]"]
-    n7["sase-1t3.2: Executor-saturation gauge and telemetry retention [closed]"]
-    n8["sase-1t3.3: Semantics-preserving trust and config memoization [closed]"]
-    n9["sase-1t3.4: One checkout root for trust enforcement and acknowledgment [closed]"]
-    n10["sase-1t3.5: Per-load memos for the Agents loader decode stage [closed]"]
-    n11["sase-1t3.6: Index-backed agent name, session, clan, and dismissed-bundle lookups [closed]"]
-    n12["sase-1t3.6.1: Indexed agent name, session, clan, and dismissed-bundle resolution [closed]"]
-    n13["sase-1t3.6.1.1: Targeted Rust artifact lookup queries and bounded recovery contract [closed]"]
-    n14["sase-1t3.6.1.2: Indexed named-agent and dismissed-bundle resolution [closed]"]
-    n15["sase-1t3.6.1.3: Indexed session and clan resolution with hijack parity [closed]"]
-    n16["sase-1t3.7: Provider-tab discovery after first paint as one generation [closed]"]
-    n17["sase-1t3.7.1: Publish provider tabs after first paint as one generation [closed]"]
-    n18["sase-1t3.7.1.1: Pin Artifacts consumers to an explicit descriptor snapshot [closed]"]
-    n19["sase-1t3.7.1.2: Discover after first paint and publish mounted generations coherently [closed]"]
-    n20["sase-1t3.8: Lazy action imports and startup background work off the critical path [closed]"]
-    n21["sase-1t3.9: Post-storm GC census and heap-owner attribution [in_progress]"]
+    n3["sase-1t3.10.1: Slim agent list rows and bound retained snapshots [in_progress]"]
+    n4["sase-1t3.10.1.1: Add compact list contracts and Rust bindings [closed]"]
+    n5["sase-1t3.10.1.2: Decode compact rows and construct ordinary agents [in_progress]"]
+    n6["sase-1t3.10.1.3: Consume slim rows throughout TUI loading [in_progress]"]
+    n7["sase-1t3.10.1.4: Bound snapshot and detail retention and measure the result [in_progress]"]
+    n8["sase-1t3.11: Replace whole-file log caches with targeted queries [in_progress]"]
+    n9["sase-1t3.11.1: Bound retained log objects with targeted backend queries [in_progress]"]
+    n10["sase-1t3.11.1.1: Stream artifact-file queries before Python conversion [in_progress]"]
+    n11["sase-1t3.11.1.2: Query memory-read history for the selected context [in_progress]"]
+    n12["sase-1t3.11.1.3: Restrict touch queries to exact actors and session aliases [in_progress]"]
+    n13["sase-1t3.11.1.4: Reuse targeted audit queries for artifact-read history [in_progress]"]
+    n14["sase-1t3.11.1.5: Collect stranded facts and titles from one targeted snapshot [in_progress]"]
+    n15["sase-1t3.11.1.6: Verify combined heap retention and query costs [in_progress]"]
+    n16["sase-1t3.12: Terminalize stale running rows in index maintenance [closed]"]
+    n17["sase-1t3.13: Interaction latency after the heap shrinks [in_progress]"]
+    n18["sase-1t3.14: End-to-end soak against the research baselines [in_progress]"]
+    n19["sase-1t3.2: Executor-saturation gauge and telemetry retention [closed]"]
+    n20["sase-1t3.3: Semantics-preserving trust and config memoization [closed]"]
+    n21["sase-1t3.4: One checkout root for trust enforcement and acknowledgment [closed]"]
+    n22["sase-1t3.5: Per-load memos for the Agents loader decode stage [closed]"]
+    n23["sase-1t3.6: Index-backed agent name, session, clan, and dismissed-bundle lookups [closed]"]
+    n24["sase-1t3.6.1: Indexed agent name, session, clan, and dismissed-bundle resolution [closed]"]
+    n25["sase-1t3.6.1.1: Targeted Rust artifact lookup queries and bounded recovery contract [closed]"]
+    n26["sase-1t3.6.1.2: Indexed named-agent and dismissed-bundle resolution [closed]"]
+    n27["sase-1t3.6.1.3: Indexed session and clan resolution with hijack parity [closed]"]
+    n28["sase-1t3.7: Provider-tab discovery after first paint as one generation [closed]"]
+    n29["sase-1t3.7.1: Publish provider tabs after first paint as one generation [closed]"]
+    n30["sase-1t3.7.1.1: Pin Artifacts consumers to an explicit descriptor snapshot [closed]"]
+    n31["sase-1t3.7.1.2: Discover after first paint and publish mounted generations coherently [closed]"]
+    n32["sase-1t3.8: Lazy action imports and startup background work off the critical path [closed]"]
+    n33["sase-1t3.9: Post-storm GC census and heap-owner attribution [closed]"]
     n0 --> n1
     n0 --> n2
-    n0 --> n3
-    n0 --> n4
-    n0 --> n5
-    n0 --> n6
-    n0 --> n7
+    n2 --> n3
+    n3 --> n4
+    n3 --> n5
+    n3 --> n6
+    n3 --> n7
     n0 --> n8
-    n0 --> n9
-    n0 --> n10
-    n0 --> n11
-    n11 --> n12
-    n12 --> n13
-    n12 --> n14
-    n12 --> n15
+    n8 --> n9
+    n9 --> n10
+    n9 --> n11
+    n9 --> n12
+    n9 --> n13
+    n9 --> n14
+    n9 --> n15
     n0 --> n16
-    n16 --> n17
-    n17 --> n18
-    n17 --> n19
+    n0 --> n17
+    n0 --> n18
+    n0 --> n19
     n0 --> n20
     n0 --> n21
-    n1 -.-> n5
-    n1 -.-> n6
-    n1 -.-> n20
-    n1 -.-> n21
-    n2 -.-> n5
-    n2 -.-> n6
-    n3 -.-> n5
-    n3 -.-> n6
-    n4 -.-> n6
+    n0 --> n22
+    n0 --> n23
+    n23 --> n24
+    n24 --> n25
+    n24 --> n26
+    n24 --> n27
+    n0 --> n28
+    n28 --> n29
+    n29 --> n30
+    n29 --> n31
+    n0 --> n32
+    n0 --> n33
+    n1 -.-> n17
+    n1 -.-> n18
+    n1 -.-> n32
+    n1 -.-> n33
+    n2 -.-> n17
+    n2 -.-> n18
+    n4 -.-> n5
     n5 -.-> n6
-    n7 -.-> n6
-    n7 -.-> n21
-    n8 -.-> n6
-    n8 -.-> n9
-    n8 -.-> n20
-    n8 -.-> n21
-    n9 -.-> n6
-    n9 -.-> n16
-    n10 -.-> n6
-    n10 -.-> n20
-    n10 -.-> n21
-    n11 -.-> n6
+    n6 -.-> n7
+    n8 -.-> n17
+    n8 -.-> n18
+    n10 -.-> n11
+    n11 -.-> n12
+    n12 -.-> n13
     n13 -.-> n14
-    n13 -.-> n15
     n14 -.-> n15
-    n16 -.-> n6
-    n18 -.-> n19
-    n20 -.-> n6
-    n21 -.-> n2
-    n21 -.-> n3
-    n21 -.-> n6
+    n16 -.-> n18
+    n17 -.-> n18
+    n19 -.-> n18
+    n19 -.-> n33
+    n20 -.-> n18
+    n20 -.-> n21
+    n20 -.-> n32
+    n20 -.-> n33
+    n21 -.-> n18
+    n21 -.-> n28
+    n22 -.-> n18
+    n22 -.-> n32
+    n22 -.-> n33
+    n23 -.-> n18
+    n25 -.-> n26
+    n25 -.-> n27
+    n26 -.-> n27
+    n28 -.-> n18
+    n30 -.-> n31
+    n32 -.-> n18
+    n33 -.-> n2
+    n33 -.-> n8
+    n33 -.-> n18
 ```
 
 ## Agents
@@ -137,8 +198,20 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1t3.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.1/README.md) | [sase-1t3.1](sase-1t3.1.md) | 1 |
-| [bbugyi200.athena.sase-1t3.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.10/README.md) | [sase-1t3.10](sase-1t3.10.md) | 0 |
-| [bbugyi200.athena.sase-1t3.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.11/README.md) | [sase-1t3.11](sase-1t3.11.md) | 0 |
+| [bbugyi200.athena.sase-1t3.10](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.10.md) | [sase-1t3.10](sase-1t3.10.md) | 0 |
+| [bbugyi200.athena.sase-1t3.10.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.10.1.1/README.md) | [sase-1t3.10.1.1](sase-1t3.10.1.1.md) | 1 |
+| [bbugyi200.athena.sase-1t3.10.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.10.1.2/README.md) | [sase-1t3.10.1.2](sase-1t3.10.1.2.md) | 0 |
+| [bbugyi200.athena.sase-1t3.10.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.10.1.3/README.md) | [sase-1t3.10.1.3](sase-1t3.10.1.3.md) | 0 |
+| [bbugyi200.athena.sase-1t3.10.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.10.1.4/README.md) | [sase-1t3.10.1.4](sase-1t3.10.1.4.md) | 0 |
+| [bbugyi200.athena.sase-1t3.10.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.10.1.land/README.md) | [sase-1t3.10.1](sase-1t3.10.1.md) | 0 |
+| [bbugyi200.athena.sase-1t3.11](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.11.md) | [sase-1t3.11](sase-1t3.11.md) | 0 |
+| [bbugyi200.athena.sase-1t3.11.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.11.1.1/README.md) | [sase-1t3.11.1.1](sase-1t3.11.1.1.md) | 0 |
+| [bbugyi200.athena.sase-1t3.11.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.11.1.2/README.md) | [sase-1t3.11.1.2](sase-1t3.11.1.2.md) | 0 |
+| [bbugyi200.athena.sase-1t3.11.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.11.1.3/README.md) | [sase-1t3.11.1.3](sase-1t3.11.1.3.md) | 0 |
+| [bbugyi200.athena.sase-1t3.11.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.11.1.4/README.md) | [sase-1t3.11.1.4](sase-1t3.11.1.4.md) | 0 |
+| [bbugyi200.athena.sase-1t3.11.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.11.1.5/README.md) | [sase-1t3.11.1.5](sase-1t3.11.1.5.md) | 0 |
+| [bbugyi200.athena.sase-1t3.11.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.11.1.6/README.md) | [sase-1t3.11.1.6](sase-1t3.11.1.6.md) | 0 |
+| [bbugyi200.athena.sase-1t3.11.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.11.1.land/README.md) | [sase-1t3.11.1](sase-1t3.11.1.md) | 0 |
 | [bbugyi200.athena.sase-1t3.12](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.12.md) | [sase-1t3.12](sase-1t3.12.md) | 2 |
 | [bbugyi200.athena.sase-1t3.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.13/README.md) | [sase-1t3.13](sase-1t3.13.md) | 0 |
 | [bbugyi200.athena.sase-1t3.14](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.14/README.md) | [sase-1t3.14](sase-1t3.14.md) | 0 |
@@ -186,6 +259,7 @@ flowchart TD
 | sase--plans | [`sase--plans@4b2ef58`](https://github.com/sase-org/sase--plans/commit/4b2ef58f10bd8b5d785c37c07275bfc8e35458bb) | chore(plans): mark indexed agent lookup epic and landing tale done | [sase-1t3.6.1](sase-1t3.6.1.md) | 2026-11-17 04:06:02 EST |
 | sase | [`10c55db`](https://github.com/sase-org/sase/commit/10c55dbe3022514fd2bf0ec8af90948e3560431b) | perf(ace): keep startup off the agents-action and AXE snapshot path | [sase-1t3.8](sase-1t3.8.md) | 2026-11-17 07:25:58 EST |
 | sase | [`4adc535`](https://github.com/sase-org/sase/commit/4adc535e273922761deddae398eedd2005015145) | feat(tui): attribute post-storm heap owners in the GC census | [sase-1t3.9](sase-1t3.9.md) | 2026-11-17 08:04:32 EST |
+| sase-core | [`sase-core@8cedd45`](https://github.com/sase-org/sase-core/commit/8cedd45d2e83c901daf23e475407bfee4f7450bd) | feat: add compact agent-list wire contracts and PyO3 bindings | [sase-1t3.10.1.1](sase-1t3.10.1.1.md) | 2026-11-17 13:49:50 EST |
 
 <!-- sase:referenced-by:start -->
 
