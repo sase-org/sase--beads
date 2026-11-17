@@ -159,7 +159,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1t2.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.10/README.md) | [sase-1t2.10](sase-1t2.10.md) | 1 |
 | [bbugyi200.athena.sase-1t2.11](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t2.11.md) | [sase-1t2.11](sase-1t2.11.md) | 0 |
 | [bbugyi200.athena.sase-1t2.11.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11.1.1/README.md) | [sase-1t2.11.1.1](sase-1t2.11.1.1.md) | 1 |
-| [bbugyi200.athena.sase-1t2.11.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11.1.2/README.md) | [sase-1t2.11.1.2](sase-1t2.11.1.2.md) | 1 |
+| [bbugyi200.athena.sase-1t2.11.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11.1.2/README.md) | [sase-1t2.11.1.2](sase-1t2.11.1.2.md) | 2 |
 | [bbugyi200.athena.sase-1t2.11.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11.1.3/README.md) | [sase-1t2.11.1.3](sase-1t2.11.1.3.md) | 0 |
 | [bbugyi200.athena.sase-1t2.11.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11.1.4/README.md) | [sase-1t2.11.1.4](sase-1t2.11.1.4.md) | 0 |
 | [bbugyi200.athena.sase-1t2.11.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11.1.5/README.md) | [sase-1t2.11.1.5](sase-1t2.11.1.5.md) | 0 |
@@ -220,6 +220,7 @@ flowchart TD
 | sase | [`fbd0c47`](https://github.com/sase-org/sase/commit/fbd0c4781a19231e6452a751135fe1b868b8f2e6) | feat(agent-hijack): latch executing gates before follow-up | [sase-1t2.10](sase-1t2.10.md) | 2026-11-16 15:45:42 EST |
 | sase | [`a2c9c3e`](https://github.com/sase-org/sase/commit/a2c9c3ecb5ecd441e85807cb06d1115eac1fc2aa) | feat(agent-hijack): add durable monitor stop custody | [sase-1t2.11.1.1](sase-1t2.11.1.1.md) | 2026-11-16 16:53:11 EST |
 | sase-core | [`sase-core@2108ed3`](https://github.com/sase-org/sase-core/commit/2108ed33bb8301e2b2b14e16bcc6a35a8586be76) | feat(agent-hijack): add monitor-scope recovery preview rows | [sase-1t2.11.1.2](sase-1t2.11.1.2.md) | 2026-11-16 19:17:47 EST |
+| sase | [`fe314c9`](https://github.com/sase-org/sase/commit/fe314c9f8f20fb8c5c44021d2b5fb73ac6833cf6) | feat(agent-hijack): recover recorded monitor follow-up keep-work | [sase-1t2.11.1.2](sase-1t2.11.1.2.md) | 2026-11-16 19:20:01 EST |
 
 <!-- sase:referenced-by:start -->
 
