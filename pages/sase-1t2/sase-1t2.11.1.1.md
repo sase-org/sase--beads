@@ -41,7 +41,9 @@ custody: implement monitor-specific stop and settlement effects, durable recover
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1t2.11.1.1][1] | Need the phase scope, existing notes, and design file before implementation | 1 |
+| read-by | [agent:sase-1t2.11.1.2][2] | Need custody phase notes and landed evidence before followup work | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11.1.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11.1.2/README.md
 
 <!-- sase:referenced-by:end -->

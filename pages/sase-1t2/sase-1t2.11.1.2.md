@@ -39,3 +39,15 @@ followup: implement monitor-scope Continue and Escalate through exactly-once rec
 |---|---|---|---|---|
 | sase-core | [`sase-core@2108ed3`](https://github.com/sase-org/sase-core/commit/2108ed33bb8301e2b2b14e16bcc6a35a8586be76) | feat(agent-hijack): add monitor-scope recovery preview rows | [sase-1t2.11.1.2](sase-1t2.11.1.2.md) | 2026-11-16 19:17:47 EST |
 | sase | [`fe314c9`](https://github.com/sase-org/sase/commit/fe314c9f8f20fb8c5c44021d2b5fb73ac6833cf6) | feat(agent-hijack): recover recorded monitor follow-up keep-work | [sase-1t2.11.1.2](sase-1t2.11.1.2.md) | 2026-11-16 19:20:01 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1t2.11.1.2][1] | Need remaining notes, decisions, and design details | 7 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11.1.2/README.md
+
+<!-- sase:referenced-by:end -->
