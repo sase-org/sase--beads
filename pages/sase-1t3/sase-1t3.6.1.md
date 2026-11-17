@@ -2,10 +2,18 @@
 
 [Bead Pages](../README.md) / [sase-1t3.6](sase-1t3.6.md) / sase-1t3.6.1
 
-**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic · **↺ Reopened:** ↺1
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-1t3.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.6.md) · **Assignee:** `sase-1t3.6.1.land`
-**Created:** 2026-11-16 08:12:22 EST · **Closed:** 2026-11-17 02:38:18 EST
+**Created:** 2026-11-16 08:12:22 EST · **Closed:** 2026-11-17 04:04:01 EST
 **Plan:** [202611/indexed\_agent\_lookups.md](https://github.com/sase-org/sase--plans/blob/main/202611/indexed_agent_lookups.md)
+
+## Previously Closed
+
+> ↺ Closed 2026-11-17T07:38:18Z · done
+>
+> (none)
+>
+> Reopened 2026-11-17T08:38:09Z by an epic work preclaim
 
 <!-- sase:links:start -->
 
@@ -34,11 +42,28 @@ Preserve agent lookup results while removing archive-wide work from authoritativ
 
 [2026-11-17T07:38:18Z · sase-1t3.6.1.land--1] Implemented and verified indexed lookup landing repairs; audit recorded on parent phase file:explicit:68f0e0cdaf4f6ceee3b9927d. Focused Rust and PyO3 tests passed; primary check has one KNOWN existing import-budget failure and core check passed. Symvision clean. Approved follow-up dispositions are recorded on parent phase.
 
+[2026-11-17T08:38:09Z · sase-1t3.6.1.land--1] STITCH FAILED: host finalization failed (stitch_failed) for run 20261117010817 (sase-1t3.6.1.land--1); reopening this run's still-current done closes.
+Repositories without landing proof: plans (/home/bryan/.local/state/sase/workspaces/sase-org/sase/sase_11/sase/repos/plans; no landing marker).
+Repositories landed or discharged: main (commit 824fc2445e33); sase-core (commit d20108657804).
+Preserved commit-message paths: /home/bryan/.local/state/sase/workspaces/sase-org/sase/sase_11/.sase/finalizers/commit-message-685161-1794901271856859879.txt; /home/bryan/.local/state/sase/workspaces/sase-org/sase/sase_11/sase/repos/linked/sase-core/.sase/finalizers/commit-message-685161-1794901211845166688.txt; /home/bryan/.local/state/sase/workspaces/sase-org/sase/sase_11/sase/repos/plans/.sase/finalizers/commit-message-685161-1794904669601194497.txt.
+Failure evidence: Commit finalizer failed: dirty work vanished without an attributable commit. The finalizer will not treat discarded, reset, or foreign-agent work as successful finalization.
+- plans: /home/bryan/.local/state/sase/workspaces/sase-org/sase/sase_11/sase/repos/plans (HEAD did not advance)
+  - HEAD: 6de7775567a3c041ac66148586a87236b067c552 -> 6de7775567a3c041ac66148586a87236b067c552
+  - next step: HEAD did not advance and no run-owned commit marker was recorded for this repository during this run. The finalizer only verified that the changed files became clean without an attributable marker; inspect the workspace before recovering or redoing the changes.
+  - changed files (2):
+    - 202611/indexed_agent_lookups.md
+    - 202611/indexed_lookup_landing_repairs.md.
+Evidence locations: /home/bryan/.sase/projects/gh_sase-org__sase/artifacts/ace-run/202611/17/20261117010817.
+Bead: sase-1t3.6.1
+Close event: sase-1t3.6.1:000052:issue_closed:sase-1t3.6.1:eb7c69ca24eedd1947f46212005c2e8701323f62dcd6f7ba79020d137322000e
+
+[2026-11-17T09:04:01Z · sase-1t3.6.1.land] RE-LAND after host stitch failure (only the plans-sidecar status commit was lost; code had landed). Verified at sase fbf8555011 / sase-core d2010865 (= pinned sase-core-revision.txt, core HEAD): all three phases closed (.1 lookup-core dc09b5eba3/a4b1c843; .2 named-bundles e1d81ee6c6/8593b148; .3 session-clans 7c514e2f8e/b9f33b02) and landing repairs 824fc2445e/d2010865 implement every audit finding of plan:202611/indexed_lookup_landing_repairs.md: Rust select_named_agent evaluates eligibility per spelling (two-spelling live-child regression), complete/truncated propagated as typed AgentNamedLookupUnavailable, Rust lookup_named_dismissed_bundle with 200-entry/file budget, 4 MiB payload cap, 200 ms busy timeout, stale-path skip; hijack _facts_resolve/_preview_recovery/recover_subject/reconcile map unavailability to lookup_unavailable/retain_with_error. Integration: only post-landing commits are 346d84ce32 (monitor docs) and fbf8555011 (test split); neither touches lookup code; _rerun_monitor resume path returns already_resolving on every branch so an uncertain lookup cannot launch a duplicate. Re-ran focused indexed lookup/group/hijack facts/TUI parity/bundle persistence tests at HEAD: 58 passed. Prior evidence (file:explicit:68f0e0cdaf4f6ceee3b9927d): synthetic 23,133 artifacts/65,875 bundles, internal warm p95 12.6-56.4 ms (hit/miss/session/clan/dismissed); core check passed; primary check no_new_failures with one KNOWN import-budget failure (-2,032 bytes own delta, cap not raised). epic-symbols: none for sase-1t3.6.1 or sase-1t3.6. FOLLOW-UP OUTCOMES (unchanged from note #2): .1 n1/.3 n1 needless_bool -> existing sase-1t1, fixed by core a2abeb1e, no new task; .2 n1 archive corpus/order -> fixed a2abeb1e + gate fixture 7c514e2f8e, declined; .2 n2 hijack overlay/drain/launch-chain -> fixed 81dfe5710e/7c514e2f8e/b9f33b02, declined; .3 n3 snapshot/mypy/symvision -> fixed 2e04694766, declined; import footprint -> routed to active causal epic sase-1t2; sase-1ic remains closed (different cause). No new tasks filed.
+
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1t3.6.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.6.1.land.md) | [sase-1t3.6.1](sase-1t3.6.1.md) | 2 |
+| [bbugyi200.athena.sase-1t3.6.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.6.1.land/README.md) | [sase-1t3.6.1](sase-1t3.6.1.md) | 3 |
 
 ## Commits
 
@@ -46,6 +71,7 @@ Preserve agent lookup results while removing archive-wide work from authoritativ
 |---|---|---|---|---|
 | sase-core | [`sase-core@d201086`](https://github.com/sase-org/sase-core/commit/d20108657804cfc257342b0bfb4617ea8bc61a0f) | feat(agent-scan): add bounded named lookup selection | [sase-1t3.6.1](sase-1t3.6.1.md) | 2026-11-17 02:40:16 EST |
 | sase | [`824fc24`](https://github.com/sase-org/sase/commit/824fc2445e33499872674f4a26fb4ad9bc672a34) | feat(agent-lookup): land indexed lookup resolution | [sase-1t3.6.1](sase-1t3.6.1.md) | 2026-11-17 03:35:12 EST |
+| sase--plans | [`sase--plans@4b2ef58`](https://github.com/sase-org/sase--plans/commit/4b2ef58f10bd8b5d785c37c07275bfc8e35458bb) | chore(plans): mark indexed agent lookup epic and landing tale done | [sase-1t3.6.1](sase-1t3.6.1.md) | 2026-11-17 04:06:02 EST |
 
 <!-- sase:referenced-by:start -->
 

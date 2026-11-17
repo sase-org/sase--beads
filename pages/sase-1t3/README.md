@@ -150,7 +150,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1t3.6.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.6.1.1/README.md) | [sase-1t3.6.1.1](sase-1t3.6.1.1.md) | 2 |
 | [bbugyi200.athena.sase-1t3.6.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.6.1.2/README.md) | [sase-1t3.6.1.2](sase-1t3.6.1.2.md) | 2 |
 | [bbugyi200.athena.sase-1t3.6.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.6.1.3.md) | [sase-1t3.6.1.3](sase-1t3.6.1.3.md) | 2 |
-| [bbugyi200.athena.sase-1t3.6.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.6.1.land.md) | [sase-1t3.6.1](sase-1t3.6.1.md) | 2 |
+| [bbugyi200.athena.sase-1t3.6.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.6.1.land/README.md) | [sase-1t3.6.1](sase-1t3.6.1.md) | 3 |
 | [bbugyi200.athena.sase-1t3.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.7.md) | [sase-1t3.7](sase-1t3.7.md) | 0 |
 | [bbugyi200.athena.sase-1t3.7.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.7.1.1.md) | [sase-1t3.7.1.1](sase-1t3.7.1.1.md) | 2 |
 | [bbugyi200.athena.sase-1t3.7.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.7.1.2.md) | [sase-1t3.7.1.2](sase-1t3.7.1.2.md) | 1 |
@@ -183,6 +183,7 @@ flowchart TD
 | sase | [`7c514e2`](https://github.com/sase-org/sase/commit/7c514e2f8ee94a289fd5dbd10fbf7bafc4602bc9) | feat(agents): resolve sessions and clans through indexed core queries | [sase-1t3.6.1.3](sase-1t3.6.1.3.md) | 2026-11-16 23:45:57 EST |
 | sase-core | [`sase-core@d201086`](https://github.com/sase-org/sase-core/commit/d20108657804cfc257342b0bfb4617ea8bc61a0f) | feat(agent-scan): add bounded named lookup selection | [sase-1t3.6.1](sase-1t3.6.1.md) | 2026-11-17 02:40:16 EST |
 | sase | [`824fc24`](https://github.com/sase-org/sase/commit/824fc2445e33499872674f4a26fb4ad9bc672a34) | feat(agent-lookup): land indexed lookup resolution | [sase-1t3.6.1](sase-1t3.6.1.md) | 2026-11-17 03:35:12 EST |
+| sase--plans | [`sase--plans@4b2ef58`](https://github.com/sase-org/sase--plans/commit/4b2ef58f10bd8b5d785c37c07275bfc8e35458bb) | chore(plans): mark indexed agent lookup epic and landing tale done | [sase-1t3.6.1](sase-1t3.6.1.md) | 2026-11-17 04:06:02 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -193,7 +194,7 @@ flowchart TD
 | read-by | [agent:ef][1] | User asked whether epics sase-1t2 and sase-1t3 conflict | 1 |
 | read-by | [agent:sase-1t3.1][2] | Need parent epic decisions and phase list | 1 |
 | read-by | [agent:sase-1t3.6.1.1][3] | Need parent phase and grandparent epic DECISIONS for lookup-core | 1 |
-| read-by | [agent:sase-1t3.6.1.land--1][4] | Re-read indexed agent lookups epic and descendants before landing | 1 |
+| read-by | [agent:sase-1t3.6.1.land--1][4] | Check the active TUI startup epic for ownership of the import-budget overage | 2 |
 | read-by | [agent:toobig-9u.test_agent_hijack_canary.0][5] | Check whether the active trust and config performance epic plausibly owns unused cache-reset symbols in local trust modules | 1 |
 | read-by | [agent:toobig-9v.local_trust_management.0][6] | Check whether the active TUI/trust epic plausibly owns the unrelated ACE mypy failures | 3 |
 
