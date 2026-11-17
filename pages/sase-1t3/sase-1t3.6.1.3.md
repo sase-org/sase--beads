@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1t3.6.1](sase-1t3.6.1.md) / sase-1t3.6.1.3
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-1t3.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.6.md) · **Assignee:** `sase-1t3.6.1.3` · **Size:** medium
-**Created:** 2026-11-16 08:12:23 EST
+**Created:** 2026-11-16 08:12:23 EST · **Closed:** 2026-11-16 23:46:49 EST
 **Plan:** [202611/indexed\_agent\_lookups.md](https://github.com/sase-org/sase--plans/blob/main/202611/indexed_agent_lookups.md)
 
 <!-- sase:links:start -->
@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | related | file:explicit:30a40133acfe3c8fa7bda0f4 | attached via sase artifact create --bead |
 | related | file:explicit:f39aaeb2254856086d4bd6a2 | attached via sase artifact create --bead |
+
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -36,6 +38,8 @@ session-clans: replace session and clan archive enumeration with targeted Rust q
 
 [2026-11-17T04:43:42Z · sase-1t3.6.1.3--3] Final verification complete. Primary ToolRun 66887b29f78dca541377773dc6df7e76 (monitor 6e6sedkef57m) completed all 20 stages: 17 passed; mypy, Symvision and scoped tests exited 1 solely for the five independently documented KNOWN baseline failures. Full-suite result: 61,438 passed, 17 skipped, 3 failed (the two completion snapshot tests and TUI import budget); no canary or phase regression remains. Triage is no_new_failures, with complete evidence and no incomplete stages. Baseline evidence: file:explicit:30a40133acfe3c8fa7bda0f4. Prior final-source build, 178 focused Python tests, 16 binding tests and full core check passed (core ToolRun 4a39c7d5ee72188cdb929a746859b56e; runtime summary file:explicit:f39aaeb2254856086d4bd6a2). Rechecked current HEADs and SHA-256 content of all 18 primary and 10 core dirty paths against those completed runs: exact matches. Both diff whitespace checks pass; no epic symbols remain. No tracked changes or test reruns this recovery turn. Prepared completion was withheld for no_new_incomplete_coverage:sase-core because the primary receipt covers only the primary checkout; the separate core execution succeeded. Submitting ordinary final commit decisions for both repositories and close only sase-1t3.6.1.3; host owns core-first commit and primary revision-pin update. Ancestors remain open.
 
+[2026-11-17T04:46:49Z · sase-1t3.6.1.3--3] Closed by explicit `sase stitch create -B close` after create_commit landed 7c514e2f8e ("feat(agents): resolve sessions and clans through indexed core queries"). The commit author requested bead completion after verifying the bead scope. Reopen with `sase bead open sase-1t3.6.1.3` if more work remains.
+
 ## Dependencies
 
 - **Depends on:** [sase-1t3.6.1.1](sase-1t3.6.1.1.md) ✓ · ⧖ 2026-11-16
@@ -53,3 +57,15 @@ session-clans: replace session and clan archive enumeration with targeted Rust q
 |---|---|---|---|---|
 | sase-core | [`sase-core@b9f33b0`](https://github.com/sase-org/sase-core/commit/b9f33b02caa17bfbb72ed504375b03680890210a) | feat(agent-scan): select indexed session and clan generations | [sase-1t3.6.1.3](sase-1t3.6.1.3.md) | 2026-11-16 23:44:37 EST |
 | sase | [`7c514e2`](https://github.com/sase-org/sase/commit/7c514e2f8ee94a289fd5dbd10fbf7bafc4602bc9) | feat(agents): resolve sessions and clans through indexed core queries | [sase-1t3.6.1.3](sase-1t3.6.1.3.md) | 2026-11-16 23:45:57 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1t3.6.1.3--3][1] | Check completed phase scope and existing baseline notes before closure | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.6.1.3.md
+
+<!-- sase:referenced-by:end -->

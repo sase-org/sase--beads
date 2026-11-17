@@ -24,7 +24,7 @@ named-bundles: replace find_named_agent's full artifact scan and recursive dismi
 ## Dependencies
 
 - **Depends on:** [sase-1t3.6.1.1](sase-1t3.6.1.1.md) ✓ · ⧖ 2026-11-16
-- **Blocks:** [sase-1t3.6.1.3](sase-1t3.6.1.3.md) ◐ · ⧖ 2026-11-16
+- **Blocks:** [sase-1t3.6.1.3](sase-1t3.6.1.3.md) ✓ · ⧖ 2026-11-16
 
 ## Agents
 

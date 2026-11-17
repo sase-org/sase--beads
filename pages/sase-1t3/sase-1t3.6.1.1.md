@@ -20,7 +20,7 @@ lookup-core: add read-only, target-selective artifact queries, compatible lookup
 ## Dependencies
 
 - **Blocks:** [sase-1t3.6.1.2](sase-1t3.6.1.2.md) ✓ · ⧖ 2026-11-16
-- **Blocks:** [sase-1t3.6.1.3](sase-1t3.6.1.3.md) ◐ · ⧖ 2026-11-16
+- **Blocks:** [sase-1t3.6.1.3](sase-1t3.6.1.3.md) ✓ · ⧖ 2026-11-16
 
 ## Agents
 
