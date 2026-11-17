@@ -48,7 +48,7 @@ Pressing ,k (or the kill dialog's h, or `sase agent hijack NAME`) on any local a
 | [sase-1t2.11](sase-1t2.11.md) | Monitor hijack adapter (closes the screenshot case) | ✓ closed | large | 2026-11-15 | 1 | 0 |
 | [sase-1t2.12](sase-1t2.12.md) | Doctor check, resolving watchdog, and remote referral tracking | ✓ closed | small | 2026-11-15 | 1 | 2 |
 | [sase-1t2.13](sase-1t2.13.md) | Boundary chaos test, crash convergence, and hand-off inventory guard | ✓ closed | medium | 2026-11-15 | 1 | 1 |
-| [sase-1t2.14](sase-1t2.14.md) | Docs sweep, glossary strand, and final verification | ◐ in_progress | small | 2026-11-15 | 1 | 0 |
+| [sase-1t2.14](sase-1t2.14.md) | Docs sweep, glossary strand, and final verification | ✓ closed | small | 2026-11-15 | 1 | 1 |
 | [sase-1t2.2](sase-1t2.2.md) | Keep the hijack capability stamp and read the model facts runners actually write | ✓ closed | small | 2026-11-15 | 1 | 2 |
 | [sase-1t2.3](sase-1t2.3.md) | Snapshot discovery that sees real linked-repo metadata | ✓ closed | small | 2026-11-15 | 1 | 1 |
 | [sase-1t2.4](sase-1t2.4.md) | One facts builder, occupant resolution, and \`sase agent hijack --explain\` | ✓ closed | medium | 2026-11-15 | 1 | 1 |
@@ -76,7 +76,7 @@ flowchart TD
     n11["sase-1t2.11.1.7: Verify and land the monitor adapter phase [closed]"]
     n12["sase-1t2.12: Doctor check, resolving watchdog, and remote referral tracking [closed]"]
     n13["sase-1t2.13: Boundary chaos test, crash convergence, and hand-off inventory guard [closed]"]
-    n14["sase-1t2.14: Docs sweep, glossary strand, and final verification [in_progress]"]
+    n14["sase-1t2.14: Docs sweep, glossary strand, and final verification [closed]"]
     n15["sase-1t2.2: Keep the hijack capability stamp and read the model facts runners actually write [closed]"]
     n16["sase-1t2.3: Snapshot discovery that sees real linked-repo metadata [closed]"]
     n17["sase-1t2.4: One facts builder, occupant resolution, and `sase agent hijack --explain` [closed]"]
@@ -175,10 +175,10 @@ flowchart TD
 | [bbugyi200.athena.sase-1t2.11.1.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t2.11.1.5.md) | [sase-1t2.11.1.5](sase-1t2.11.1.5.md) | 1 |
 | [bbugyi200.athena.sase-1t2.11.1.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t2.11.1.6.md) | [sase-1t2.11.1.6](sase-1t2.11.1.6.md) | 3 |
 | [bbugyi200.athena.sase-1t2.11.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11.1.7/README.md) | [sase-1t2.11.1.7](sase-1t2.11.1.7.md) | 1 |
-| [bbugyi200.athena.sase-1t2.11.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11.1.land/README.md) | [sase-1t2.11.1](sase-1t2.11.1.md) | 1 |
+| [bbugyi200.athena.sase-1t2.11.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11.1.land/README.md) | [sase-1t2.11.1](sase-1t2.11.1.md) | 2 |
 | [bbugyi200.athena.sase-1t2.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.12/README.md) | [sase-1t2.12](sase-1t2.12.md) | 2 |
 | [bbugyi200.athena.sase-1t2.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.13/README.md) | [sase-1t2.13](sase-1t2.13.md) | 1 |
-| [bbugyi200.athena.sase-1t2.14](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.14/README.md) | [sase-1t2.14](sase-1t2.14.md) | 0 |
+| [bbugyi200.athena.sase-1t2.14](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.14/README.md) | [sase-1t2.14](sase-1t2.14.md) | 1 |
 | [bbugyi200.athena.sase-1t2.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.2/README.md) | [sase-1t2.2](sase-1t2.2.md) | 2 |
 | [bbugyi200.athena.sase-1t2.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t2.3.md) | [sase-1t2.3](sase-1t2.3.md) | 1 |
 | [bbugyi200.athena.sase-1t2.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t2.4.md) | [sase-1t2.4](sase-1t2.4.md) | 1 |
@@ -242,7 +242,9 @@ flowchart TD
 | sase | [`fa771fe`](https://github.com/sase-org/sase/commit/fa771fe9121c486aca2e160af32c524d30e93619) | fix(agent-hijack): use legacy prompt filename constants in monitor canary | [sase-1t2.11.1.6](sase-1t2.11.1.6.md) | 2026-11-17 02:58:39 EST |
 | sase | [`346d84c`](https://github.com/sase-org/sase/commit/346d84ce327c6f2cba5510028e05bd6ba24b1d33) | docs(monitor): document hijack recovery and command rerun | [sase-1t2.11.1.7](sase-1t2.11.1.7.md) | 2026-11-17 03:41:26 EST |
 | sase | [`3431374`](https://github.com/sase-org/sase/commit/343137405d5e8373684b9d002db2c36657071850) | fix(agent-hijack): keep hijack modules out of TUI startup and settle canary races | [sase-1t2.11.1](sase-1t2.11.1.md) | 2026-11-17 04:47:35 EST |
+| sase--plans | [`sase--plans@855c28a`](https://github.com/sase-org/sase--plans/commit/855c28ae1a46152df367280a95a99e409aa16638) | docs(plans): mark monitor hijack adapter plan done | [sase-1t2.11.1](sase-1t2.11.1.md) | 2026-11-17 04:48:42 EST |
 | sase | [`9ab2401`](https://github.com/sase-org/sase/commit/9ab2401aea42479ef3eb56cd59035c2def910942) | test(hijack): add agent hijack chaos coverage | [sase-1t2.13](sase-1t2.13.md) | 2026-11-17 05:01:56 EST |
+| sase | [`875d599`](https://github.com/sase-org/sase/commit/875d599023728c2b309384d8ce2e4f2f05729867) | docs(hijack): land glossary strand, doc reconciliation, and final verification | [sase-1t2.14](sase-1t2.14.md) | 2026-11-17 05:21:06 EST |
 
 <!-- sase:referenced-by:start -->
 
