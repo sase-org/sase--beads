@@ -22,10 +22,11 @@ rerun: implement a durable rerun recovery action using the existing monitor-star
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1t2.11.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t2.11.1.3.md) | [sase-1t2.11.1.3](sase-1t2.11.1.3.md) | 1 |
+| [bbugyi200.athena.sase-1t2.11.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t2.11.1.3.md) | [sase-1t2.11.1.3](sase-1t2.11.1.3.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@5f163b5`](https://github.com/sase-org/sase-core/commit/5f163b514ede771d60c2c87286c42df6dc26b91d) | feat(agent-hijack): monitor-only rerun preview and validation | [sase-1t2.11.1.3](sase-1t2.11.1.3.md) | 2026-11-16 20:12:22 EST |
+| sase | [`af98fb9`](https://github.com/sase-org/sase/commit/af98fb9ec13a1c7193a907048a3316b14a6fe73d) | feat(agent-hijack): implement monitor rerun recovery (sase side) | [sase-1t2.11.1.3](sase-1t2.11.1.3.md) | 2026-11-16 20:13:51 EST |
