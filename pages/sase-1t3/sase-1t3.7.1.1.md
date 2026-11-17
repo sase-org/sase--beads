@@ -31,6 +31,8 @@ PROPOSED FOLLOW-UP: add sase-core to the sase check tool fingerprint.repos so no
 
 [2026-11-16T21:33:59Z · sase-1t3.7.1.1--7] Closed by explicit `sase stitch create -B close` after create_commit landed 1bd855256e ("feat(ace): pin Artifacts consumers to a descriptor snapshot"). The commit author requested bead completion after verifying the bead scope. Reopen with `sase bead open sase-1t3.7.1.1` if more work remains.
 
+[2026-11-16T23:04:15Z · sase-1t3.7.1.land] --list
+
 ## Dependencies
 
 - **Blocks:** [sase-1t3.7.1.2](sase-1t3.7.1.2.md) ✓ · ⧖ 2026-11-16

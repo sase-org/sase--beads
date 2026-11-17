@@ -23,3 +23,15 @@ startup-critical-path: re-measure, then lazy-import the heavy agents action clos
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1t3.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.8/README.md) | [sase-1t3.8](sase-1t3.8.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:toobig-9v.local_trust_management.0][1] | Check whether the lazy-action phase owns the unrelated state-init mypy errors | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-9v.local_trust_management.0/README.md
+
+<!-- sase:referenced-by:end -->

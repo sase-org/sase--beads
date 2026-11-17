@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/tui_storm_trust_heap_recovery.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 4 automatic references — see [Referenced By](#referenced-by)._
+_Plus 5 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202611/tui_storm_trust_heap_recovery.md
 
@@ -28,6 +28,8 @@ _Plus 4 automatic references — see [Referenced By](#referenced-by)._
 ## Notes
 
 [2026-11-16T15:28:39Z · toobig-9u.test_agent_hijack_canary.0] DISCOVERED ISSUE: On a clean checkout at 93273f4a4f1dc3f3ba25f740491837b182ceb76c, just _lint-symvision and sase tool run check both still report unused reset_lower_macros_cache in src/sase/config/local_trust_enforcement.py and reset_project_identity_caches in src/sase/config/local_trust_management.py; check stops before its scoped test lane. The canary tests pass 2/2. These same symbols are named as deleted in phase sase-1t3.4 note #3, so this checkout appears to predate that phase's fix; recheck after the phase changes land.
+
+[2026-11-16T23:51:22Z · toobig-9v.local_trust_management.0] DISCOVERED ISSUE: On 2026-11-16, during an unrelated local trust split, standalone mypy and the requested sase tool run check both failed on untouched TUI files. Errors: src/sase/ace/tui/actions/_state_init_late.py has four [misc] errors at lines 381, 382, 384, and 385 for type declarations in assignments to non-self attributes; src/sase/ace/tui/actions/artifacts_navigation.py:548 assigns str to a variable inferred as None. The check records both as NEW and stops before scoped tests. The files map directly to active phase 1t3.8 (late action initialization/lazy imports) and phase 1t3.7 (provider-tab navigation), respectively. The trust split touches neither file. Please triage against those active phase trees.
 
 ## Phases
 
@@ -44,7 +46,7 @@ _Plus 4 automatic references — see [Referenced By](#referenced-by)._
 | [sase-1t3.4](sase-1t3.4.md) | One checkout root for trust enforcement and acknowledgment | ✓ closed | medium | 2026-11-16 | 1 | 1 |
 | [sase-1t3.5](sase-1t3.5.md) | Per-load memos for the Agents loader decode stage | ✓ closed | medium | 2026-11-16 | 1 | 1 |
 | [sase-1t3.6](sase-1t3.6.md) | Index-backed agent name, session, clan, and dismissed-bundle lookups | ◐ in_progress | large | 2026-11-16 | 1 | 0 |
-| [sase-1t3.7](sase-1t3.7.md) | Provider-tab discovery after first paint as one generation | ◐ in_progress | large | 2026-11-16 | 1 | 0 |
+| [sase-1t3.7](sase-1t3.7.md) | Provider-tab discovery after first paint as one generation | ✓ closed | large | 2026-11-16 | 1 | 0 |
 | [sase-1t3.8](sase-1t3.8.md) | Lazy action imports and startup background work off the critical path | ◐ in_progress | large | 2026-11-16 | 1 | 0 |
 | [sase-1t3.9](sase-1t3.9.md) | Post-storm GC census and heap-owner attribution | ◐ in_progress | medium | 2026-11-16 | 1 | 0 |
 
@@ -68,8 +70,8 @@ flowchart TD
     n13["sase-1t3.6.1.1: Targeted Rust artifact lookup queries and bounded recovery contract [closed]"]
     n14["sase-1t3.6.1.2: Indexed named-agent and dismissed-bundle resolution [closed]"]
     n15["sase-1t3.6.1.3: Indexed session and clan resolution with hijack parity [in_progress]"]
-    n16["sase-1t3.7: Provider-tab discovery after first paint as one generation [in_progress]"]
-    n17["sase-1t3.7.1: Publish provider tabs after first paint as one generation [in_progress]"]
+    n16["sase-1t3.7: Provider-tab discovery after first paint as one generation [closed]"]
+    n17["sase-1t3.7.1: Publish provider tabs after first paint as one generation [closed]"]
     n18["sase-1t3.7.1.1: Pin Artifacts consumers to an explicit descriptor snapshot [closed]"]
     n19["sase-1t3.7.1.2: Discover after first paint and publish mounted generations coherently [closed]"]
     n20["sase-1t3.8: Lazy action imports and startup background work off the critical path [in_progress]"]
@@ -150,7 +152,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1t3.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.7.md) | [sase-1t3.7](sase-1t3.7.md) | 0 |
 | [bbugyi200.athena.sase-1t3.7.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.7.1.1.md) | [sase-1t3.7.1.1](sase-1t3.7.1.1.md) | 2 |
 | [bbugyi200.athena.sase-1t3.7.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.7.1.2.md) | [sase-1t3.7.1.2](sase-1t3.7.1.2.md) | 1 |
-| [bbugyi200.athena.sase-1t3.7.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.7.1.land/README.md) | [sase-1t3.7.1](sase-1t3.7.1.md) | 0 |
+| [bbugyi200.athena.sase-1t3.7.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.7.1.land.md) | [sase-1t3.7.1](sase-1t3.7.1.md) | 1 |
 | [bbugyi200.athena.sase-1t3.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.8/README.md) | [sase-1t3.8](sase-1t3.8.md) | 0 |
 | [bbugyi200.athena.sase-1t3.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.9/README.md) | [sase-1t3.9](sase-1t3.9.md) | 0 |
 | [bbugyi200.athena.sase-1t3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.land/README.md) | [sase-1t3](README.md) | 0 |
@@ -173,6 +175,7 @@ flowchart TD
 | sase-core | [`sase-core@a2abeb1`](https://github.com/sase-org/sase-core/commit/a2abeb1e1b1905780bcd554f55989114c3995292) | fix(agent-archive): compile corpus against current store schema | [sase-1t3.7.1.1](sase-1t3.7.1.1.md) | 2026-11-16 16:31:40 EST |
 | sase | [`1bd8552`](https://github.com/sase-org/sase/commit/1bd855256e1b8c00917caa113f7a0aadb4a467ea) | feat(ace): pin Artifacts consumers to a descriptor snapshot | [sase-1t3.7.1.1](sase-1t3.7.1.1.md) | 2026-11-16 16:33:04 EST |
 | sase | [`7c68d18`](https://github.com/sase-org/sase/commit/7c68d1860cb6fa8b94a43cc77c8ce7672f90170e) | feat(artifacts): publish provider tabs after first paint as one coherent generation | [sase-1t3.7.1.2](sase-1t3.7.1.2.md) | 2026-11-16 17:45:49 EST |
+| sase | [`f8fc0bb`](https://github.com/sase-org/sase/commit/f8fc0bbf855290c9d9e04ba5f6d55a1cbdc8a7ba) | fix(ace): finish coherent provider-tab publication | [sase-1t3.7.1](sase-1t3.7.1.md) | 2026-11-16 20:34:42 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -184,10 +187,12 @@ flowchart TD
 | read-by | [agent:sase-1t3.1][2] | Need parent epic decisions and phase list | 1 |
 | read-by | [agent:sase-1t3.6.1.1][3] | Need parent phase and grandparent epic DECISIONS for lookup-core | 1 |
 | read-by | [agent:toobig-9u.test_agent_hijack_canary.0][4] | Check whether the active trust and config performance epic plausibly owns unused cache-reset symbols in local trust modules | 1 |
+| read-by | [agent:toobig-9v.local_trust_management.0][5] | Check whether the active TUI/trust epic plausibly owns the unrelated ACE mypy failures | 3 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.ef/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.1.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.6.1.1/README.md
 [4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-9u.test_agent_hijack_canary.0/README.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-9v.local_trust_management.0/README.md
 
 <!-- sase:referenced-by:end -->
