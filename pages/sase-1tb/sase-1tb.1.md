@@ -21,7 +21,7 @@ tmux-still-hotfix: inside tmux with a kitty VO, render an ffmpeg still plus ffpr
 
 ## Dependencies
 
-- **Blocks:** [sase-1tb.4](sase-1tb.4.md) ◐ · ⧖ 2026-11-17
+- **Blocks:** [sase-1tb.4](sase-1tb.4.md) ✓ · ⧖ 2026-11-17
 
 ## Agents
 
