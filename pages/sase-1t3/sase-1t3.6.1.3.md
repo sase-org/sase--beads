@@ -45,10 +45,11 @@ session-clans: replace session and clan archive enumeration with targeted Rust q
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1t3.6.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.6.1.3.md) | [sase-1t3.6.1.3](sase-1t3.6.1.3.md) | 1 |
+| [bbugyi200.athena.sase-1t3.6.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.6.1.3.md) | [sase-1t3.6.1.3](sase-1t3.6.1.3.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@b9f33b0`](https://github.com/sase-org/sase-core/commit/b9f33b02caa17bfbb72ed504375b03680890210a) | feat(agent-scan): select indexed session and clan generations | [sase-1t3.6.1.3](sase-1t3.6.1.3.md) | 2026-11-16 23:44:37 EST |
+| sase | [`7c514e2`](https://github.com/sase-org/sase/commit/7c514e2f8ee94a289fd5dbd10fbf7bafc4602bc9) | feat(agents): resolve sessions and clans through indexed core queries | [sase-1t3.6.1.3](sase-1t3.6.1.3.md) | 2026-11-16 23:45:57 EST |

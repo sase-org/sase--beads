@@ -147,7 +147,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1t3.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.6.md) | [sase-1t3.6](sase-1t3.6.md) | 0 |
 | [bbugyi200.athena.sase-1t3.6.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.6.1.1/README.md) | [sase-1t3.6.1.1](sase-1t3.6.1.1.md) | 2 |
 | [bbugyi200.athena.sase-1t3.6.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.6.1.2/README.md) | [sase-1t3.6.1.2](sase-1t3.6.1.2.md) | 2 |
-| [bbugyi200.athena.sase-1t3.6.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.6.1.3.md) | [sase-1t3.6.1.3](sase-1t3.6.1.3.md) | 1 |
+| [bbugyi200.athena.sase-1t3.6.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.6.1.3.md) | [sase-1t3.6.1.3](sase-1t3.6.1.3.md) | 2 |
 | [bbugyi200.athena.sase-1t3.6.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.6.1.land/README.md) | [sase-1t3.6.1](sase-1t3.6.1.md) | 0 |
 | [bbugyi200.athena.sase-1t3.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.7.md) | [sase-1t3.7](sase-1t3.7.md) | 0 |
 | [bbugyi200.athena.sase-1t3.7.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.7.1.1.md) | [sase-1t3.7.1.1](sase-1t3.7.1.1.md) | 2 |
@@ -178,6 +178,7 @@ flowchart TD
 | sase | [`f8fc0bb`](https://github.com/sase-org/sase/commit/f8fc0bbf855290c9d9e04ba5f6d55a1cbdc8a7ba) | fix(ace): finish coherent provider-tab publication | [sase-1t3.7.1](sase-1t3.7.1.md) | 2026-11-16 20:34:42 EST |
 | sase--plans | [`sase--plans@f7a5604`](https://github.com/sase-org/sase--plans/commit/f7a56045db1ca8a5398c6bd609a570fe1df9b327) | docs(plans): mark provider-tab generation and finish tale done | [sase-1t3.7.1](sase-1t3.7.1.md) | 2026-11-16 20:36:02 EST |
 | sase-core | [`sase-core@b9f33b0`](https://github.com/sase-org/sase-core/commit/b9f33b02caa17bfbb72ed504375b03680890210a) | feat(agent-scan): select indexed session and clan generations | [sase-1t3.6.1.3](sase-1t3.6.1.3.md) | 2026-11-16 23:44:37 EST |
+| sase | [`7c514e2`](https://github.com/sase-org/sase/commit/7c514e2f8ee94a289fd5dbd10fbf7bafc4602bc9) | feat(agents): resolve sessions and clans through indexed core queries | [sase-1t3.6.1.3](sase-1t3.6.1.3.md) | 2026-11-16 23:45:57 EST |
 
 <!-- sase:referenced-by:start -->
 
