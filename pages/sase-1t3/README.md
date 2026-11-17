@@ -95,7 +95,7 @@ flowchart TD
     n7["sase-1t3.10.1.4: Bound snapshot and detail retention and measure the result [in_progress]"]
     n8["sase-1t3.11: Replace whole-file log caches with targeted queries [in_progress]"]
     n9["sase-1t3.11.1: Bound retained log objects with targeted backend queries [in_progress]"]
-    n10["sase-1t3.11.1.1: Stream artifact-file queries before Python conversion [in_progress]"]
+    n10["sase-1t3.11.1.1: Stream artifact-file queries before Python conversion [closed]"]
     n11["sase-1t3.11.1.2: Query memory-read history for the selected context [in_progress]"]
     n12["sase-1t3.11.1.3: Restrict touch queries to exact actors and session aliases [in_progress]"]
     n13["sase-1t3.11.1.4: Reuse targeted audit queries for artifact-read history [in_progress]"]
@@ -205,7 +205,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1t3.10.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.10.1.4/README.md) | [sase-1t3.10.1.4](sase-1t3.10.1.4.md) | 0 |
 | [bbugyi200.athena.sase-1t3.10.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.10.1.land/README.md) | [sase-1t3.10.1](sase-1t3.10.1.md) | 0 |
 | [bbugyi200.athena.sase-1t3.11](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.11.md) | [sase-1t3.11](sase-1t3.11.md) | 0 |
-| [bbugyi200.athena.sase-1t3.11.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.11.1.1/README.md) | [sase-1t3.11.1.1](sase-1t3.11.1.1.md) | 0 |
+| [bbugyi200.athena.sase-1t3.11.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.11.1.1/README.md) | [sase-1t3.11.1.1](sase-1t3.11.1.1.md) | 1 |
 | [bbugyi200.athena.sase-1t3.11.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.11.1.2/README.md) | [sase-1t3.11.1.2](sase-1t3.11.1.2.md) | 0 |
 | [bbugyi200.athena.sase-1t3.11.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.11.1.3/README.md) | [sase-1t3.11.1.3](sase-1t3.11.1.3.md) | 0 |
 | [bbugyi200.athena.sase-1t3.11.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.11.1.4/README.md) | [sase-1t3.11.1.4](sase-1t3.11.1.4.md) | 0 |
@@ -260,6 +260,7 @@ flowchart TD
 | sase | [`10c55db`](https://github.com/sase-org/sase/commit/10c55dbe3022514fd2bf0ec8af90948e3560431b) | perf(ace): keep startup off the agents-action and AXE snapshot path | [sase-1t3.8](sase-1t3.8.md) | 2026-11-17 07:25:58 EST |
 | sase | [`4adc535`](https://github.com/sase-org/sase/commit/4adc535e273922761deddae398eedd2005015145) | feat(tui): attribute post-storm heap owners in the GC census | [sase-1t3.9](sase-1t3.9.md) | 2026-11-17 08:04:32 EST |
 | sase-core | [`sase-core@8cedd45`](https://github.com/sase-org/sase-core/commit/8cedd45d2e83c901daf23e475407bfee4f7450bd) | feat: add compact agent-list wire contracts and PyO3 bindings | [sase-1t3.10.1.1](sase-1t3.10.1.1.md) | 2026-11-17 13:49:50 EST |
+| sase-core | [`sase-core@19b89ac`](https://github.com/sase-org/sase-core/commit/19b89ac9dd45fe27546e600926915a88e4dcd27f) | feat(artifact-file): add targeted association query over JSONL index | [sase-1t3.11.1.1](sase-1t3.11.1.1.md) | 2026-11-17 14:34:57 EST |
 
 <!-- sase:referenced-by:start -->
 

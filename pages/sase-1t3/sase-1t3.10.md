@@ -30,7 +30,9 @@ slim-list-rows: return and consume a slim list DTO from sase-core instead of inf
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:ef][1] | Confirm slim-list-rows dependencies for conflict report recommendation | 2 |
+| read-by | [agent:sase-1t3.10.1.1][2] | Need parent epic DECISIONS that this phase must honor | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.ef/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.10.1.1/README.md
 
 <!-- sase:referenced-by:end -->

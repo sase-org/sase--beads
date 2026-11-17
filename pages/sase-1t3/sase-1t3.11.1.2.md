@@ -13,7 +13,7 @@ memory_reads: add the Rust streamed audit-query contract and memory decoder, swi
 
 ## Dependencies
 
-- **Depends on:** [sase-1t3.11.1.1](sase-1t3.11.1.1.md) ◐ · ⧖ 2026-11-17
+- **Depends on:** [sase-1t3.11.1.1](sase-1t3.11.1.1.md) ✓ · ⧖ 2026-11-17
 - **Blocks:** [sase-1t3.11.1.3](sase-1t3.11.1.3.md) ◐ · ⧖ 2026-11-17
 
 ## Agents

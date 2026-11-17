@@ -52,3 +52,15 @@ NEXT PHASE: no production caller until sase-core-revision.txt contains this comm
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@8cedd45`](https://github.com/sase-org/sase-core/commit/8cedd45d2e83c901daf23e475407bfee4f7450bd) | feat: add compact agent-list wire contracts and PyO3 bindings | [sase-1t3.10.1.1](sase-1t3.10.1.1.md) | 2026-11-17 13:49:50 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1t3.10.1.1][1] | Need current phase scope, notes, and status before finishing remaining verification | 7 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.10.1.1/README.md
+
+<!-- sase:referenced-by:end -->
