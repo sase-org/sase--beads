@@ -29,7 +29,7 @@ Opening a video artifact from the Agents tab inside tmux shows a useful frame in
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-1tb.1](sase-1tb.1.md) | Stop launching mpv in tmux; show a still frame plus metadata | ◐ in_progress | medium | 2026-11-17 | 1 | 1 |
+| [sase-1tb.1](sase-1tb.1.md) | Stop launching mpv in tmux; show a still frame plus metadata | ✓ closed | medium | 2026-11-17 | 1 | 2 |
 | [sase-1tb.2](sase-1tb.2.md) | Trim the viewer child's startup tax | ✓ closed | small | 2026-11-17 | 1 | 1 |
 | [sase-1tb.3](sase-1tb.3.md) | Move tmux split and decoration off the Textual UI thread | ◐ in_progress | medium | 2026-11-17 | 1 | 0 |
 | [sase-1tb.4](sase-1tb.4.md) | Persistent frame, scrub-track, and storyboard cache | ◐ in_progress | medium | 2026-11-17 | 1 | 0 |
@@ -42,7 +42,7 @@ Opening a video artifact from the Agents tab inside tmux shows a useful frame in
 ```mermaid
 flowchart TD
     n0["sase-1tb: Fast inspect-first video artifacts in the tmux viewer pane [in_progress]"]
-    n1["sase-1tb.1: Stop launching mpv in tmux; show a still frame plus metadata [in_progress]"]
+    n1["sase-1tb.1: Stop launching mpv in tmux; show a still frame plus metadata [closed]"]
     n2["sase-1tb.2: Trim the viewer child's startup tax [closed]"]
     n3["sase-1tb.3: Move tmux split and decoration off the Textual UI thread [in_progress]"]
     n4["sase-1tb.4: Persistent frame, scrub-track, and storyboard cache [in_progress]"]
@@ -68,7 +68,7 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1tb.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tb.1.md) | [sase-1tb.1](sase-1tb.1.md) | 1 |
+| [bbugyi200.athena.sase-1tb.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tb.1/README.md) | [sase-1tb.1](sase-1tb.1.md) | 2 |
 | [bbugyi200.athena.sase-1tb.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tb.2/README.md) | [sase-1tb.2](sase-1tb.2.md) | 1 |
 | [bbugyi200.athena.sase-1tb.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tb.3/README.md) | [sase-1tb.3](sase-1tb.3.md) | 0 |
 | [bbugyi200.athena.sase-1tb.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tb.4/README.md) | [sase-1tb.4](sase-1tb.4.md) | 0 |
@@ -83,6 +83,7 @@ flowchart TD
 |---|---|---|---|---|
 | sase | [`4878259`](https://github.com/sase-org/sase/commit/487825956afdd4eba04706367c563b5addea3723) | feat(tui): trim artifact viewer child startup tax | [sase-1tb.2](sase-1tb.2.md) | 2026-11-17 12:17:46 EST |
 | sase | [`bfa6032`](https://github.com/sase-org/sase/commit/bfa60324a69641e8019e7dd9e60b1f120eed30fc) | feat(viewer): show video still frame with metadata in tmux | [sase-1tb.1](sase-1tb.1.md) | 2026-11-17 12:33:43 EST |
+| sase | [`898eb8f`](https://github.com/sase-org/sase/commit/898eb8ffa5b90e04a19ead37e3cbcfc13867854f) | perf(viewer): defer video still module off TUI startup | [sase-1tb.1](sase-1tb.1.md) | 2026-11-17 13:26:34 EST |
 
 <!-- sase:referenced-by:start -->
 

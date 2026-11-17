@@ -13,7 +13,7 @@ video-frame-cache: add the ffmpeg-backed frame service. It does exact-frame extr
 
 ## Dependencies
 
-- **Depends on:** [sase-1tb.1](sase-1tb.1.md) ◐ · ⧖ 2026-11-17
+- **Depends on:** [sase-1tb.1](sase-1tb.1.md) ✓ · ⧖ 2026-11-17
 - **Blocks:** [sase-1tb.5](sase-1tb.5.md) ◐ · ⧖ 2026-11-17
 
 ## Agents
@@ -21,3 +21,15 @@ video-frame-cache: add the ffmpeg-backed frame service. It does exact-frame extr
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1tb.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tb.4/README.md) | [sase-1tb.4](sase-1tb.4.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1tb.1--1][1] | conflict repair: verify symvision epic-symbol whitelist bead exists | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tb.1.md
+
+<!-- sase:referenced-by:end -->
