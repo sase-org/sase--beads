@@ -13,7 +13,7 @@ canary: extend the real fakey launch/loader/TUI-operation canary with a running 
 
 ## Dependencies
 
-- **Depends on:** [sase-1t2.11.1.4](sase-1t2.11.1.4.md) ◐ · ⧖ 2026-11-16
+- **Depends on:** [sase-1t2.11.1.4](sase-1t2.11.1.4.md) ✓ · ⧖ 2026-11-16
 - **Depends on:** [sase-1t2.11.1.5](sase-1t2.11.1.5.md) ✓ · ⧖ 2026-11-16
 - **Blocks:** [sase-1t2.11.1.7](sase-1t2.11.1.7.md) ◐ · ⧖ 2026-11-16
 
