@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/agent_hijack_dependability.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 7 automatic references — see [Referenced By](#referenced-by)._
+_Plus 8 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202611/agent_hijack_dependability.md
 
@@ -33,13 +33,19 @@ Pressing ,k (or the kill dialog's h, or `sase agent hijack NAME`) on any local a
 
 [2026-11-17T08:30:43Z · sase-1t3.6.1.land--1] DISCOVERED ISSUE: Required check ToolRun a4ac7f1adcae20a048906fdb9a55ee9e on 2026-11-17 failed tests/test_macro_terminology.py::test_macro_string_literals_avoid_xprompt_terms. The scanner finds submitted_xprompt.md in tests/fakey/_agent_hijack_monitor_canary.py, a canary file changed in the current branch base relative to origin/master, plus a legacy-directive literal in tests/ace/tui/widgets/test_directive_completion_candidates.py. This is a test-guard regression in the active hijack canary work, not in the staged indexed-lookup repair. Existing task sase-1hr received independent corroboration; please route the canary literal through the legacy filename constants or otherwise keep the guard green.
 
+[2026-11-17T09:15:51Z · sase-1t2.11.1.land] DISCOVERED ISSUE (resolved in the sase-1t2.11.1 landing): Proposed by phase sase-1t2.11.1.6 (note 1). tests/fakey/test_agent_hijack_canary.py::test_session_hijack_chooses_running_member_one (the sase-1t2.7 canary) failed with WorkspaceClaimError 'workspace #3 is already claimed' when spawning member --1. Check ToolRun 9ef863fa1ed9a1ffba539ccf7d488e79 reproduced it as NEW. Root cause is a test race, not product code: the runner writes the success done.json in run_agent_exec before finalize_runner_shutdown releases the claim (caller_tag agent-finalize), but the scenario spawned --1 as soon as done.json existed. Fixed by adding CanaryHarness.wait_workspace_released() and calling it before the child spawn. Same landing: added the canary harness's missing json/Any imports (wait_meta's 'except json.JSONDecodeError' would have raised NameError on a partial agent_meta.json read) and removed a duplicated _dirty_workspace definition. Re-run check ToolRun 5de39afe2e015b68215f220c23cd2824 succeeded.
+
+[2026-11-17T09:44:31Z · sase-1t2.11.1.land] DISCOVERED ISSUE: The sase-1t2.7 real-pipeline hijack canary harness (tests/fakey/_agent_hijack_canary_harness.py) is not safe when its tests run concurrently on one host. On sase 346d84ce32, both with and without the sase-1t2.11.1 landing changes, 'tools/run_pytest fast tests/fakey/test_agent_hijack_canary.py' (14 worksteal workers, all 6 canaries at once) fails 5 of 6 in about 15s. A raw 'pytest -n 6' fails the same way. Every failing test shares one launch artifacts_timestamp (e.g. 20261117043340); the runners report kill_source=external, log "Ignoring stale SASE_AGENT_PLANNED_NAME='canary' because its registry reservation does not belong to artifacts directory ...", and one LLM canary is refused with unnumbered_workspace (session=None). This matches the earlier KNOWN witness 0297c0b9e7f93a8615f576f01f20e711, which predates the monitor canaries. Identical names, workflow names and timestamps across xdist workers collide in some host-global state. The same tests pass serially, two monitor canaries pass concurrently, Master Gate CI shards pass them, and the scoped check lane passed (ToolRun 5de39afe2e015b68215f220c23cd2824). The harness owner (sase-1t2.7 / chaos phase sase-1t2.13) should give each test unique launch identity or group the canaries onto one xdist worker. No new task was created because this active epic owns the harness.
+
+[2026-11-17T09:44:36Z · sase-1t2.11.1.land] RESOLVED by the sase-1t2.11.1 landing: DISCOVERED ISSUE #2 (TUI import footprint). It was caused by this child epic: a2c9c3ecb5 (sase-1t2.11.1.1) made monitor/_settlement_followup.py import monitor.hijack_settlement eagerly, which imported sase.agent.hijack._stop_models and pulled the whole sase.agent.hijack facade (48 modules) into TUI startup. Measured 12,024,012 bytes at a2c9c3ecb5^, 12,311,609 at a2c9c3ecb5, and 12,340,115 at HEAD against the 12,162,484 cap; Master Gate 44050410830 failed it. The landing defers both edges (a call-site import in settle_claim_and_followup, plus TYPE_CHECKING and function-local _stop_models imports) and adds sase.agent.hijack and sase.monitor.hijack_settlement to the absolute _DEFERRED_MODULES guard. The footprint is now 12,051,268 and test_app_import_budget passes. DISCOVERED ISSUE #3 (the submitted_xprompt literal in the monitor canary) was already fixed by fa771fe912, and tests/test_macro_terminology.py passes at HEAD.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-1t2.1](sase-1t2.1.md) | sase-core: eligibility decision v2, occupant selection, stop\_blocked ledger state | ✓ closed | medium | 2026-11-15 | 1 | 2 |
 | [sase-1t2.10](sase-1t2.10.md) | Latch hijacks behind executing gates | ✓ closed | small | 2026-11-15 | 1 | 1 |
-| [sase-1t2.11](sase-1t2.11.md) | Monitor hijack adapter (closes the screenshot case) | ◐ in_progress | large | 2026-11-15 | 1 | 0 |
+| [sase-1t2.11](sase-1t2.11.md) | Monitor hijack adapter (closes the screenshot case) | ✓ closed | large | 2026-11-15 | 1 | 0 |
 | [sase-1t2.12](sase-1t2.12.md) | Doctor check, resolving watchdog, and remote referral tracking | ✓ closed | small | 2026-11-15 | 1 | 2 |
 | [sase-1t2.13](sase-1t2.13.md) | Boundary chaos test, crash convergence, and hand-off inventory guard | ◐ in_progress | medium | 2026-11-15 | 1 | 0 |
 | [sase-1t2.14](sase-1t2.14.md) | Docs sweep, glossary strand, and final verification | ◐ in_progress | small | 2026-11-15 | 1 | 0 |
@@ -59,8 +65,8 @@ flowchart TD
     n0["sase-1t2: Agent Hijack dependability: make v1 real, then hijack the agent, not the row [in_progress]"]
     n1["sase-1t2.1: sase-core: eligibility decision v2, occupant selection, stop_blocked ledger state [closed]"]
     n2["sase-1t2.10: Latch hijacks behind executing gates [closed]"]
-    n3["sase-1t2.11: Monitor hijack adapter (closes the screenshot case) [in_progress]"]
-    n4["sase-1t2.11.1: Complete monitor hijack custody and recovery [in_progress]"]
+    n3["sase-1t2.11: Monitor hijack adapter (closes the screenshot case) [closed]"]
+    n4["sase-1t2.11.1: Complete monitor hijack custody and recovery [closed]"]
     n5["sase-1t2.11.1.1: Monitor stop adapter and durable hijack settlement [closed]"]
     n6["sase-1t2.11.1.2: Recover the recorded monitor follow-up [closed]"]
     n7["sase-1t2.11.1.3: Re-run the command as a new monitor [closed]"]
@@ -169,7 +175,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1t2.11.1.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t2.11.1.5.md) | [sase-1t2.11.1.5](sase-1t2.11.1.5.md) | 1 |
 | [bbugyi200.athena.sase-1t2.11.1.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t2.11.1.6.md) | [sase-1t2.11.1.6](sase-1t2.11.1.6.md) | 3 |
 | [bbugyi200.athena.sase-1t2.11.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11.1.7/README.md) | [sase-1t2.11.1.7](sase-1t2.11.1.7.md) | 1 |
-| [bbugyi200.athena.sase-1t2.11.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11.1.land/README.md) | [sase-1t2.11.1](sase-1t2.11.1.md) | 0 |
+| [bbugyi200.athena.sase-1t2.11.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11.1.land/README.md) | [sase-1t2.11.1](sase-1t2.11.1.md) | 1 |
 | [bbugyi200.athena.sase-1t2.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.12/README.md) | [sase-1t2.12](sase-1t2.12.md) | 2 |
 | [bbugyi200.athena.sase-1t2.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.13/README.md) | [sase-1t2.13](sase-1t2.13.md) | 0 |
 | [bbugyi200.athena.sase-1t2.14](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.14/README.md) | [sase-1t2.14](sase-1t2.14.md) | 0 |
@@ -235,6 +241,7 @@ flowchart TD
 | sase | [`42f5f6f`](https://github.com/sase-org/sase/commit/42f5f6fc944935ec550d0a420921dcd0eecf5611) | fix(agent-hijack): allow monitor rerun resolution and correct canary assertions | [sase-1t2.11.1.6](sase-1t2.11.1.6.md) | 2026-11-17 02:28:46 EST |
 | sase | [`fa771fe`](https://github.com/sase-org/sase/commit/fa771fe9121c486aca2e160af32c524d30e93619) | fix(agent-hijack): use legacy prompt filename constants in monitor canary | [sase-1t2.11.1.6](sase-1t2.11.1.6.md) | 2026-11-17 02:58:39 EST |
 | sase | [`346d84c`](https://github.com/sase-org/sase/commit/346d84ce327c6f2cba5510028e05bd6ba24b1d33) | docs(monitor): document hijack recovery and command rerun | [sase-1t2.11.1.7](sase-1t2.11.1.7.md) | 2026-11-17 03:41:26 EST |
+| sase | [`3431374`](https://github.com/sase-org/sase/commit/343137405d5e8373684b9d002db2c36657071850) | fix(agent-hijack): keep hijack modules out of TUI startup and settle canary races | [sase-1t2.11.1](sase-1t2.11.1.md) | 2026-11-17 04:47:35 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -247,6 +254,7 @@ flowchart TD
 | read-by | [agent:sase-1t2.1][3] | need epic plan and scope | 1 |
 | read-by | [agent:sase-1t2.8.1.land][4] | Find chaos phase bead id and status for inventory handoff | 1 |
 | read-by | [agent:sase-1t2.9][5] | Need the epic's accepted glossary decision context and phase state to keep the authorized memory edit accurate | 1 |
+| read-by | [agent:sase-1t3.6.1.land][6] | Confirm the import-footprint follow-up is routed to the active hijack epic | 1 |
 | read-by | [agent:sase-1t3.6.1.land--1][6] | Check whether the agent-hijack epic owns the canary string changes behind the macro terminology failure | 1 |
 | read-by | [agent:toobig-9v.local_trust_management.0][7] | Inspect the newly added follow-up note after shell quoting substituted its punctuation | 3 |
 

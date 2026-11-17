@@ -48,8 +48,10 @@ followup: implement monitor-scope Continue and Escalate through exactly-once rec
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1t2.11.1.2][1] | Need remaining notes, decisions, and design details | 7 |
 | read-by | [agent:sase-1t2.11.1.4][2] | Need followup phase close notes for landed work | 1 |
+| read-by | [agent:sase-1t2.11.1.7][3] | Need predecessor notes, close evidence, and remaining work before land | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11.1.2/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11.1.4/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11.1.7/README.md
 
 <!-- sase:referenced-by:end -->

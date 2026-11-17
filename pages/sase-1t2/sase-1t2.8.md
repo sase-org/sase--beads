@@ -30,7 +30,7 @@ Landing evidence is in the sase-1t2.8.1 close note. Checkpoint inventory for cha
 ## Dependencies
 
 - **Blocks:** [sase-1t2.10](sase-1t2.10.md) ✓ · ⧖ 2026-11-15
-- **Blocks:** [sase-1t2.11](sase-1t2.11.md) ◐ · ⧖ 2026-11-15
+- **Blocks:** [sase-1t2.11](sase-1t2.11.md) ✓ · ⧖ 2026-11-15
 - **Depends on:** [sase-1t2.7](sase-1t2.7.md) ✓ · ⧖ 2026-11-15
 
 ## Agents

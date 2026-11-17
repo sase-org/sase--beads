@@ -40,7 +40,9 @@ surfaces: render Continue, Escalate, Re-run command, View, Shell, and Dismiss fr
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1t2.11.1.5--1][1] | Verify bead status after monitored check completion | 1 |
+| read-by | [agent:sase-1t2.11.1.7][2] | Need predecessor notes, close evidence, and remaining work before land | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t2.11.1.5.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11.1.7/README.md
 
 <!-- sase:referenced-by:end -->

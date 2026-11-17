@@ -45,7 +45,9 @@ canary: extend the real fakey launch/loader/TUI-operation canary with a running 
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1t2.11.1.6--1][1] | Need full notes and design for failure diagnosis | 2 |
 | read-by | [agent:sase-1t2.11.1.6--2][1] | Need bead state before epic-symbols and close | 1 |
+| read-by | [agent:sase-1t2.11.1.7][2] | Need predecessor notes, close evidence, and remaining work before land | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t2.11.1.6.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11.1.7/README.md
 
 <!-- sase:referenced-by:end -->
