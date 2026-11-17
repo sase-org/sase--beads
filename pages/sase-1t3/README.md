@@ -152,7 +152,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1t3.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.7.md) | [sase-1t3.7](sase-1t3.7.md) | 0 |
 | [bbugyi200.athena.sase-1t3.7.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.7.1.1.md) | [sase-1t3.7.1.1](sase-1t3.7.1.1.md) | 2 |
 | [bbugyi200.athena.sase-1t3.7.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.7.1.2.md) | [sase-1t3.7.1.2](sase-1t3.7.1.2.md) | 1 |
-| [bbugyi200.athena.sase-1t3.7.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.7.1.land.md) | [sase-1t3.7.1](sase-1t3.7.1.md) | 1 |
+| [bbugyi200.athena.sase-1t3.7.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.7.1.land.md) | [sase-1t3.7.1](sase-1t3.7.1.md) | 2 |
 | [bbugyi200.athena.sase-1t3.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.8/README.md) | [sase-1t3.8](sase-1t3.8.md) | 0 |
 | [bbugyi200.athena.sase-1t3.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.9/README.md) | [sase-1t3.9](sase-1t3.9.md) | 0 |
 | [bbugyi200.athena.sase-1t3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.land/README.md) | [sase-1t3](README.md) | 0 |
@@ -176,6 +176,7 @@ flowchart TD
 | sase | [`1bd8552`](https://github.com/sase-org/sase/commit/1bd855256e1b8c00917caa113f7a0aadb4a467ea) | feat(ace): pin Artifacts consumers to a descriptor snapshot | [sase-1t3.7.1.1](sase-1t3.7.1.1.md) | 2026-11-16 16:33:04 EST |
 | sase | [`7c68d18`](https://github.com/sase-org/sase/commit/7c68d1860cb6fa8b94a43cc77c8ce7672f90170e) | feat(artifacts): publish provider tabs after first paint as one coherent generation | [sase-1t3.7.1.2](sase-1t3.7.1.2.md) | 2026-11-16 17:45:49 EST |
 | sase | [`f8fc0bb`](https://github.com/sase-org/sase/commit/f8fc0bbf855290c9d9e04ba5f6d55a1cbdc8a7ba) | fix(ace): finish coherent provider-tab publication | [sase-1t3.7.1](sase-1t3.7.1.md) | 2026-11-16 20:34:42 EST |
+| sase--plans | [`sase--plans@f7a5604`](https://github.com/sase-org/sase--plans/commit/f7a56045db1ca8a5398c6bd609a570fe1df9b327) | docs(plans): mark provider-tab generation and finish tale done | [sase-1t3.7.1](sase-1t3.7.1.md) | 2026-11-16 20:36:02 EST |
 
 <!-- sase:referenced-by:start -->
 
