@@ -45,7 +45,9 @@ rerun: implement a durable rerun recovery action using the existing monitor-star
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1t2.11.1.3--1][1] | continuation verification | 2 |
+| read-by | [agent:sase-1t2.11.1.4][2] | Need predecessor rerun phase notes to check landed work | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t2.11.1.3.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11.1.4/README.md
 
 <!-- sase:referenced-by:end -->

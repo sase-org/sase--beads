@@ -163,8 +163,8 @@ flowchart TD
 | [bbugyi200.athena.sase-1t2.11.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11.1.1/README.md) | [sase-1t2.11.1.1](sase-1t2.11.1.1.md) | 1 |
 | [bbugyi200.athena.sase-1t2.11.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11.1.2/README.md) | [sase-1t2.11.1.2](sase-1t2.11.1.2.md) | 2 |
 | [bbugyi200.athena.sase-1t2.11.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t2.11.1.3.md) | [sase-1t2.11.1.3](sase-1t2.11.1.3.md) | 3 |
-| [bbugyi200.athena.sase-1t2.11.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11.1.4/README.md) | [sase-1t2.11.1.4](sase-1t2.11.1.4.md) | 1 |
-| [bbugyi200.athena.sase-1t2.11.1.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t2.11.1.5.md) | [sase-1t2.11.1.5](sase-1t2.11.1.5.md) | 0 |
+| [bbugyi200.athena.sase-1t2.11.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11.1.4/README.md) | [sase-1t2.11.1.4](sase-1t2.11.1.4.md) | 2 |
+| [bbugyi200.athena.sase-1t2.11.1.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t2.11.1.5.md) | [sase-1t2.11.1.5](sase-1t2.11.1.5.md) | 1 |
 | [bbugyi200.athena.sase-1t2.11.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11.1.6/README.md) | [sase-1t2.11.1.6](sase-1t2.11.1.6.md) | 0 |
 | [bbugyi200.athena.sase-1t2.11.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11.1.7/README.md) | [sase-1t2.11.1.7](sase-1t2.11.1.7.md) | 0 |
 | [bbugyi200.athena.sase-1t2.11.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11.1.land/README.md) | [sase-1t2.11.1](sase-1t2.11.1.md) | 0 |
@@ -226,7 +226,9 @@ flowchart TD
 | sase-core | [`sase-core@5f163b5`](https://github.com/sase-org/sase-core/commit/5f163b514ede771d60c2c87286c42df6dc26b91d) | feat(agent-hijack): monitor-only rerun preview and validation | [sase-1t2.11.1.3](sase-1t2.11.1.3.md) | 2026-11-16 20:12:22 EST |
 | sase | [`af98fb9`](https://github.com/sase-org/sase/commit/af98fb9ec13a1c7193a907048a3316b14a6fe73d) | feat(agent-hijack): implement monitor rerun recovery (sase side) | [sase-1t2.11.1.3](sase-1t2.11.1.3.md) | 2026-11-16 20:13:51 EST |
 | sase | [`2e04694`](https://github.com/sase-org/sase/commit/2e046947668d262c8d696c5dee2fa75f2a4e8c88) | fix(agent-hijack): clear rerun lint gates and sync completion snapshot | [sase-1t2.11.1.3](sase-1t2.11.1.3.md) | 2026-11-16 21:24:49 EST |
+| sase | [`c52a24a`](https://github.com/sase-org/sase/commit/c52a24ade967836e4abac3ec93f7b0a40df07888) | feat(ace-tui): present monitor recovery in hijack panel | [sase-1t2.11.1.5](sase-1t2.11.1.5.md) | 2026-11-16 21:59:24 EST |
 | sase-core | [`sase-core@aef1da8`](https://github.com/sase-org/sase-core/commit/aef1da8b05f7b60c32c74ce06dd91ae4a5983085) | feat(agent-hijack): decide running and latched monitor occupancy | [sase-1t2.11.1.4](sase-1t2.11.1.4.md) | 2026-11-17 00:05:12 EST |
+| sase | [`3f3cf4f`](https://github.com/sase-org/sase/commit/3f3cf4fb3844d47b47ca9319d676a0344751d075) | feat(agent-hijack): enable running and settling monitor hijacks | [sase-1t2.11.1.4](sase-1t2.11.1.4.md) | 2026-11-17 00:56:01 EST |
 
 <!-- sase:referenced-by:start -->
 

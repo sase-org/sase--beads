@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/monitor_hijack_adapter.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202611/monitor_hijack_adapter.md
 
@@ -38,7 +38,9 @@ Hijack the occupying monitor, retain its workspace, and recover exactly once thr
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1t2.11.1.1][1] | Need the parent epic decisions and scope before implementing its assigned phase | 1 |
+| read-by | [agent:sase-1t2.11.1.4][2] | Need parent epic DECISIONS and phase notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11.1.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11.1.4/README.md
 
 <!-- sase:referenced-by:end -->
