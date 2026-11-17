@@ -20,7 +20,7 @@ activation: gather durable monitor occupancy and pending-follow-up facts, enable
 ## Dependencies
 
 - **Depends on:** [sase-1t2.11.1.3](sase-1t2.11.1.3.md) ✓ · ⧖ 2026-11-16
-- **Blocks:** [sase-1t2.11.1.6](sase-1t2.11.1.6.md) ◐ · ⧖ 2026-11-16
+- **Blocks:** [sase-1t2.11.1.6](sase-1t2.11.1.6.md) ✓ · ⧖ 2026-11-16
 - **Blocks:** [sase-1t2.11.1.7](sase-1t2.11.1.7.md) ◐ · ⧖ 2026-11-16
 
 ## Agents

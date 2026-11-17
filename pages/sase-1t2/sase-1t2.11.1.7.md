@@ -18,7 +18,7 @@ land: integrate all phases, finish monitor reference documentation, verify requi
 - **Depends on:** [sase-1t2.11.1.3](sase-1t2.11.1.3.md) ✓ · ⧖ 2026-11-16
 - **Depends on:** [sase-1t2.11.1.4](sase-1t2.11.1.4.md) ✓ · ⧖ 2026-11-16
 - **Depends on:** [sase-1t2.11.1.5](sase-1t2.11.1.5.md) ✓ · ⧖ 2026-11-16
-- **Depends on:** [sase-1t2.11.1.6](sase-1t2.11.1.6.md) ◐ · ⧖ 2026-11-16
+- **Depends on:** [sase-1t2.11.1.6](sase-1t2.11.1.6.md) ✓ · ⧖ 2026-11-16
 
 ## Agents
 

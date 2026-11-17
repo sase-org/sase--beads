@@ -64,7 +64,7 @@ flowchart TD
     n7["sase-1t2.11.1.3: Re-run the command as a new monitor [closed]"]
     n8["sase-1t2.11.1.4: Enable running and settling monitor hijacks [closed]"]
     n9["sase-1t2.11.1.5: Present monitor recovery in the TUI [closed]"]
-    n10["sase-1t2.11.1.6: Exercise a real monitor hijack and recovery [in_progress]"]
+    n10["sase-1t2.11.1.6: Exercise a real monitor hijack and recovery [closed]"]
     n11["sase-1t2.11.1.7: Verify and land the monitor adapter phase [in_progress]"]
     n12["sase-1t2.12: Doctor check, resolving watchdog, and remote referral tracking [closed]"]
     n13["sase-1t2.13: Boundary chaos test, crash convergence, and hand-off inventory guard [in_progress]"]
@@ -165,7 +165,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1t2.11.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t2.11.1.3.md) | [sase-1t2.11.1.3](sase-1t2.11.1.3.md) | 3 |
 | [bbugyi200.athena.sase-1t2.11.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11.1.4/README.md) | [sase-1t2.11.1.4](sase-1t2.11.1.4.md) | 2 |
 | [bbugyi200.athena.sase-1t2.11.1.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t2.11.1.5.md) | [sase-1t2.11.1.5](sase-1t2.11.1.5.md) | 1 |
-| [bbugyi200.athena.sase-1t2.11.1.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t2.11.1.6.md) | [sase-1t2.11.1.6](sase-1t2.11.1.6.md) | 2 |
+| [bbugyi200.athena.sase-1t2.11.1.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t2.11.1.6.md) | [sase-1t2.11.1.6](sase-1t2.11.1.6.md) | 3 |
 | [bbugyi200.athena.sase-1t2.11.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11.1.7/README.md) | [sase-1t2.11.1.7](sase-1t2.11.1.7.md) | 0 |
 | [bbugyi200.athena.sase-1t2.11.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11.1.land/README.md) | [sase-1t2.11.1](sase-1t2.11.1.md) | 0 |
 | [bbugyi200.athena.sase-1t2.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.12/README.md) | [sase-1t2.12](sase-1t2.12.md) | 2 |
@@ -231,6 +231,7 @@ flowchart TD
 | sase | [`3f3cf4f`](https://github.com/sase-org/sase/commit/3f3cf4fb3844d47b47ca9319d676a0344751d075) | feat(agent-hijack): enable running and settling monitor hijacks | [sase-1t2.11.1.4](sase-1t2.11.1.4.md) | 2026-11-17 00:56:01 EST |
 | sase-core | [`sase-core@35904eb`](https://github.com/sase-org/sase-core/commit/35904ebd0713ea1db7046be1386f9e05c434a52a) | fix(agent-hijack): allow held monitor rerun resolution in ledger | [sase-1t2.11.1.6](sase-1t2.11.1.6.md) | 2026-11-17 02:27:11 EST |
 | sase | [`42f5f6f`](https://github.com/sase-org/sase/commit/42f5f6fc944935ec550d0a420921dcd0eecf5611) | fix(agent-hijack): allow monitor rerun resolution and correct canary assertions | [sase-1t2.11.1.6](sase-1t2.11.1.6.md) | 2026-11-17 02:28:46 EST |
+| sase | [`fa771fe`](https://github.com/sase-org/sase/commit/fa771fe9121c486aca2e160af32c524d30e93619) | fix(agent-hijack): use legacy prompt filename constants in monitor canary | [sase-1t2.11.1.6](sase-1t2.11.1.6.md) | 2026-11-17 02:58:39 EST |
 
 <!-- sase:referenced-by:start -->
 
