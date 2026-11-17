@@ -21,7 +21,7 @@ canary: extend the real fakey launch/loader/TUI-operation canary with a running 
 
 - **Depends on:** [sase-1t2.11.1.4](sase-1t2.11.1.4.md) ✓ · ⧖ 2026-11-16
 - **Depends on:** [sase-1t2.11.1.5](sase-1t2.11.1.5.md) ✓ · ⧖ 2026-11-16
-- **Blocks:** [sase-1t2.11.1.7](sase-1t2.11.1.7.md) ◐ · ⧖ 2026-11-16
+- **Blocks:** [sase-1t2.11.1.7](sase-1t2.11.1.7.md) ✓ · ⧖ 2026-11-16
 
 ## Agents
 
@@ -44,6 +44,7 @@ canary: extend the real fakey launch/loader/TUI-operation canary with a running 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1t2.11.1.6--1][1] | Need full notes and design for failure diagnosis | 2 |
+| read-by | [agent:sase-1t2.11.1.6--2][1] | Need bead state before epic-symbols and close | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t2.11.1.6.md
 

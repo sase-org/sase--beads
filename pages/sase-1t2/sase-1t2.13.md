@@ -29,6 +29,8 @@ Narrow exemptions:
 (b) spawn_guard._authorized_recovery lets one launch through: the authorized hijack recovery successor, whose RECOVERY_LINEAGE_ENV hijack_id equals the record's hijack_id and whose record is in an applied state with latched_at set.
 (c) refuse_if_latched ignores records for a different predecessor (artifacts_dir/member mismatch) and applied immediate (non-latch) records where latched_at is None. Those are owned by ordinary hijack custody, not the latch.
 
+[2026-11-17T08:18:01Z · sase-1t2.11.1.7] MONITOR CANARY COUNTS from sase-1t2.11.1.7 land (for chaos inventory): continue path produces 1 hijack record and 1 same-workspace follow-up successor; rerun path produces 1 new monitor command in the held workspace and 1 eventual follow-up. Both fakey canaries passed on this tree. Does not take over crash/inventory work.
+
 ## Dependencies
 
 - **Depends on:** [sase-1t2.10](sase-1t2.10.md) ✓ · ⧖ 2026-11-15

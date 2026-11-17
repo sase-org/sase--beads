@@ -20,7 +20,7 @@ custody: implement monitor-specific stop and settlement effects, durable recover
 ## Dependencies
 
 - **Blocks:** [sase-1t2.11.1.2](sase-1t2.11.1.2.md) ✓ · ⧖ 2026-11-16
-- **Blocks:** [sase-1t2.11.1.7](sase-1t2.11.1.7.md) ◐ · ⧖ 2026-11-16
+- **Blocks:** [sase-1t2.11.1.7](sase-1t2.11.1.7.md) ✓ · ⧖ 2026-11-16
 
 ## Agents
 

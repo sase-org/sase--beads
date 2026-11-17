@@ -41,7 +41,9 @@ canary: a fakey end-to-end test that launches through the normal pipeline (anony
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1t2.7--2][1] | Need assigned phase scope, notes, and completion criteria after tree_drift_before_execution recovery | 1 |
+| read-by | [agent:sase-1t3.6.1.land--1][2] | Check canary-phase scope for the macro terminology finding | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t2.7.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.6.1.land.md
 
 <!-- sase:referenced-by:end -->

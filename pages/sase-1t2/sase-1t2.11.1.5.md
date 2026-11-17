@@ -19,7 +19,7 @@ surfaces: render Continue, Escalate, Re-run command, View, Shell, and Dismiss fr
 
 - **Depends on:** [sase-1t2.11.1.3](sase-1t2.11.1.3.md) ✓ · ⧖ 2026-11-16
 - **Blocks:** [sase-1t2.11.1.6](sase-1t2.11.1.6.md) ✓ · ⧖ 2026-11-16
-- **Blocks:** [sase-1t2.11.1.7](sase-1t2.11.1.7.md) ◐ · ⧖ 2026-11-16
+- **Blocks:** [sase-1t2.11.1.7](sase-1t2.11.1.7.md) ✓ · ⧖ 2026-11-16
 
 ## Agents
 
