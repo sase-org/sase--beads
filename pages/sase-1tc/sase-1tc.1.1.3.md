@@ -13,7 +13,7 @@ workflow_routes: migrate all prompt rendering callers, remove context-value plac
 
 ## Dependencies
 
-- **Depends on:** [sase-1tc.1.1.2](sase-1tc.1.1.2.md) ◐ · ⧖ 2026-11-17
+- **Depends on:** [sase-1tc.1.1.2](sase-1tc.1.1.2.md) ✓ · ⧖ 2026-11-17
 
 ## Agents
 

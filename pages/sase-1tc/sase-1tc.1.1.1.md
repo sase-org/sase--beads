@@ -17,7 +17,7 @@ source_policy: implement typed provenance, command-span planning, Python binding
 
 ## Dependencies
 
-- **Blocks:** [sase-1tc.1.1.2](sase-1tc.1.1.2.md) ◐ · ⧖ 2026-11-17
+- **Blocks:** [sase-1tc.1.1.2](sase-1tc.1.1.2.md) ✓ · ⧖ 2026-11-17
 
 ## Agents
 
@@ -30,3 +30,15 @@ source_policy: implement typed provenance, command-span planning, Python binding
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@1191f9a`](https://github.com/sase-org/sase-core/commit/1191f9a68e76b0c49d7da8768b7cf161edd42b1a) | feat: add prompt command-substitution source policy | [sase-1tc.1.1.1](sase-1tc.1.1.1.md) | 2026-11-17 12:22:29 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1tc.1.1.1][1] | Need remaining bead notes, DECISIONS, and design file body | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.1.1.1/README.md
+
+<!-- sase:referenced-by:end -->

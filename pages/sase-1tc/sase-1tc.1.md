@@ -24,3 +24,15 @@ cmdsub: close every model-output and agent-writable channel into host command su
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1tc.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tc.1.md) | [sase-1tc.1](sase-1tc.1.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1tc.1.1.1][1] | Need parent phase DECISIONS that this child epic must honor | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.1.1.1/README.md
+
+<!-- sase:referenced-by:end -->
