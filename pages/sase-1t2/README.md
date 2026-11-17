@@ -232,7 +232,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1t2.8.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.8.1.7/README.md) | [sase-1t2.8.1.7](sase-1t2.8.1.7.md) | 1 |
 | [bbugyi200.athena.sase-1t2.8.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.8.1.land/README.md) | [sase-1t2.8.1](sase-1t2.8.1.md) | 2 |
 | [bbugyi200.athena.sase-1t2.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.9/README.md) | [sase-1t2.9](sase-1t2.9.md) | 3 |
-| [bbugyi200.athena.sase-1t2.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.land/README.md) | [sase-1t2](README.md) | 1 |
+| [bbugyi200.athena.sase-1t2.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.land/README.md) | [sase-1t2](README.md) | 2 |
 
 ## Commits
 
@@ -283,6 +283,7 @@ flowchart TD
 | sase | [`9ab2401`](https://github.com/sase-org/sase/commit/9ab2401aea42479ef3eb56cd59035c2def910942) | test(hijack): add agent hijack chaos coverage | [sase-1t2.13](sase-1t2.13.md) | 2026-11-17 05:01:56 EST |
 | sase | [`875d599`](https://github.com/sase-org/sase/commit/875d599023728c2b309384d8ce2e4f2f05729867) | docs(hijack): land glossary strand, doc reconciliation, and final verification | [sase-1t2.14](sase-1t2.14.md) | 2026-11-17 05:21:06 EST |
 | sase | [`694cdec`](https://github.com/sase-org/sase/commit/694cdec86b1b67dbab0df37d2dfe4255ce0ccc48) | fix(agent-hijack): give each hijack canary a host-unique project | [sase-1t2](README.md) | 2026-11-17 05:51:19 EST |
+| sase--plans | [`sase--plans@46a2beb`](https://github.com/sase-org/sase--plans/commit/46a2beba6b0f540afe6bcc4fb107b82366bdcb58) | chore(plans): mark agent\_hijack\_dependability done | [sase-1t2](README.md) | 2026-11-17 05:52:24 EST |
 
 <!-- sase:referenced-by:start -->
 
