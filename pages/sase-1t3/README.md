@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/tui_storm_trust_heap_recovery.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 5 automatic references — see [Referenced By](#referenced-by)._
+_Plus 6 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202611/tui_storm_trust_heap_recovery.md
 
@@ -30,6 +30,8 @@ _Plus 5 automatic references — see [Referenced By](#referenced-by)._
 [2026-11-16T15:28:39Z · toobig-9u.test_agent_hijack_canary.0] DISCOVERED ISSUE: On a clean checkout at 93273f4a4f1dc3f3ba25f740491837b182ceb76c, just _lint-symvision and sase tool run check both still report unused reset_lower_macros_cache in src/sase/config/local_trust_enforcement.py and reset_project_identity_caches in src/sase/config/local_trust_management.py; check stops before its scoped test lane. The canary tests pass 2/2. These same symbols are named as deleted in phase sase-1t3.4 note #3, so this checkout appears to predate that phase's fix; recheck after the phase changes land.
 
 [2026-11-16T23:51:22Z · toobig-9v.local_trust_management.0] DISCOVERED ISSUE: On 2026-11-16, during an unrelated local trust split, standalone mypy and the requested sase tool run check both failed on untouched TUI files. Errors: src/sase/ace/tui/actions/_state_init_late.py has four [misc] errors at lines 381, 382, 384, and 385 for type declarations in assignments to non-self attributes; src/sase/ace/tui/actions/artifacts_navigation.py:548 assigns str to a variable inferred as None. The check records both as NEW and stops before scoped tests. The files map directly to active phase 1t3.8 (late action initialization/lazy imports) and phase 1t3.7 (provider-tab navigation), respectively. The trust split touches neither file. Please triage against those active phase trees.
+
+[2026-11-17T08:31:00Z · sase-1t3.6.1.land--1] DISCOVERED ISSUE: Required check ToolRun a4ac7f1adcae20a048906fdb9a55ee9e on 2026-11-17 failed tests/ace/tui/test_app_import_budget.py::test_tui_app_import_stays_under_startup_budget at 12,340,057 normalized source bytes versus the 12,162,484 cap. Running .venv/bin/python tools/tui_import_closure --diff 42f5f6fc944935ec550d0a420921dcd0eecf5611 measured the base at 12,342,089 bytes and this integrated lookup patch at 12,340,057: zero module changes and a 2,032-byte decrease. The residual overage is therefore present at the rebase base and this patch does not cause it. The existing startup phase 1t3.8 already owns the footprint work; this corroborates that report, and the closed module-count task sase-1ic is not reopened.
 
 ## Phases
 
@@ -148,7 +150,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1t3.6.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.6.1.1/README.md) | [sase-1t3.6.1.1](sase-1t3.6.1.1.md) | 2 |
 | [bbugyi200.athena.sase-1t3.6.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.6.1.2/README.md) | [sase-1t3.6.1.2](sase-1t3.6.1.2.md) | 2 |
 | [bbugyi200.athena.sase-1t3.6.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.6.1.3.md) | [sase-1t3.6.1.3](sase-1t3.6.1.3.md) | 2 |
-| [bbugyi200.athena.sase-1t3.6.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.6.1.land.md) | [sase-1t3.6.1](sase-1t3.6.1.md) | 1 |
+| [bbugyi200.athena.sase-1t3.6.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.6.1.land.md) | [sase-1t3.6.1](sase-1t3.6.1.md) | 2 |
 | [bbugyi200.athena.sase-1t3.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.7.md) | [sase-1t3.7](sase-1t3.7.md) | 0 |
 | [bbugyi200.athena.sase-1t3.7.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.7.1.1.md) | [sase-1t3.7.1.1](sase-1t3.7.1.1.md) | 2 |
 | [bbugyi200.athena.sase-1t3.7.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.7.1.2.md) | [sase-1t3.7.1.2](sase-1t3.7.1.2.md) | 1 |
@@ -180,6 +182,7 @@ flowchart TD
 | sase-core | [`sase-core@b9f33b0`](https://github.com/sase-org/sase-core/commit/b9f33b02caa17bfbb72ed504375b03680890210a) | feat(agent-scan): select indexed session and clan generations | [sase-1t3.6.1.3](sase-1t3.6.1.3.md) | 2026-11-16 23:44:37 EST |
 | sase | [`7c514e2`](https://github.com/sase-org/sase/commit/7c514e2f8ee94a289fd5dbd10fbf7bafc4602bc9) | feat(agents): resolve sessions and clans through indexed core queries | [sase-1t3.6.1.3](sase-1t3.6.1.3.md) | 2026-11-16 23:45:57 EST |
 | sase-core | [`sase-core@d201086`](https://github.com/sase-org/sase-core/commit/d20108657804cfc257342b0bfb4617ea8bc61a0f) | feat(agent-scan): add bounded named lookup selection | [sase-1t3.6.1](sase-1t3.6.1.md) | 2026-11-17 02:40:16 EST |
+| sase | [`824fc24`](https://github.com/sase-org/sase/commit/824fc2445e33499872674f4a26fb4ad9bc672a34) | feat(agent-lookup): land indexed lookup resolution | [sase-1t3.6.1](sase-1t3.6.1.md) | 2026-11-17 03:35:12 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -190,13 +193,15 @@ flowchart TD
 | read-by | [agent:ef][1] | User asked whether epics sase-1t2 and sase-1t3 conflict | 1 |
 | read-by | [agent:sase-1t3.1][2] | Need parent epic decisions and phase list | 1 |
 | read-by | [agent:sase-1t3.6.1.1][3] | Need parent phase and grandparent epic DECISIONS for lookup-core | 1 |
-| read-by | [agent:toobig-9u.test_agent_hijack_canary.0][4] | Check whether the active trust and config performance epic plausibly owns unused cache-reset symbols in local trust modules | 1 |
-| read-by | [agent:toobig-9v.local_trust_management.0][5] | Check whether the active TUI/trust epic plausibly owns the unrelated ACE mypy failures | 3 |
+| read-by | [agent:sase-1t3.6.1.land--1][4] | Re-read indexed agent lookups epic and descendants before landing | 1 |
+| read-by | [agent:toobig-9u.test_agent_hijack_canary.0][5] | Check whether the active trust and config performance epic plausibly owns unused cache-reset symbols in local trust modules | 1 |
+| read-by | [agent:toobig-9v.local_trust_management.0][6] | Check whether the active TUI/trust epic plausibly owns the unrelated ACE mypy failures | 3 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.ef/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.1.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.6.1.1/README.md
-[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-9u.test_agent_hijack_canary.0/README.md
-[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-9v.local_trust_management.0/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.6.1.land.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-9u.test_agent_hijack_canary.0/README.md
+[6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-9v.local_trust_management.0/README.md
 
 <!-- sase:referenced-by:end -->

@@ -16,7 +16,7 @@
 | implemented-by | [plan:202611/indexed_agent_lookups.md][1] | derived from the plan's `bead_id:` frontmatter field |
 | related | file:explicit:342e54884b78a18ce53099ce | attached via sase artifact create --bead |
 
-_Plus 4 automatic references — see [Referenced By](#referenced-by)._
+_Plus 5 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202611/indexed_agent_lookups.md
 
@@ -38,13 +38,14 @@ Preserve agent lookup results while removing archive-wide work from authoritativ
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1t3.6.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.6.1.land.md) | [sase-1t3.6.1](sase-1t3.6.1.md) | 1 |
+| [bbugyi200.athena.sase-1t3.6.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.6.1.land.md) | [sase-1t3.6.1](sase-1t3.6.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@d201086`](https://github.com/sase-org/sase-core/commit/d20108657804cfc257342b0bfb4617ea8bc61a0f) | feat(agent-scan): add bounded named lookup selection | [sase-1t3.6.1](sase-1t3.6.1.md) | 2026-11-17 02:40:16 EST |
+| sase | [`824fc24`](https://github.com/sase-org/sase/commit/824fc2445e33499872674f4a26fb4ad9bc672a34) | feat(agent-lookup): land indexed lookup resolution | [sase-1t3.6.1](sase-1t3.6.1.md) | 2026-11-17 03:35:12 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -56,10 +57,12 @@ Preserve agent lookup results while removing archive-wide work from authoritativ
 | read-by | [agent:sase-1t2.8.1.land][2] | Check the parent epic status for archive failures | 1 |
 | read-by | [agent:sase-1t3.6.1.1][3] | Need child epic DECISIONS for lookup-core phase | 3 |
 | read-by | [agent:sase-1t3.6.1.2][4] | check epic decisions | 1 |
+| read-by | [agent:sase-1t3.6.1.land--1][5] | Re-read the indexed lookup land bead before completion | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.ef/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.8.1.land/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.6.1.1/README.md
 [4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.6.1.2/README.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.6.1.land.md
 
 <!-- sase:referenced-by:end -->
