@@ -17,6 +17,8 @@ heap-census: soak a separate TUI instance with the GC census at about 10 min and
 
 [2026-11-17T11:17:40Z · sase-1t3.9] SOAK RELAUNCHED after executor-gauge bind fix: tmux sase-1t3-9-census pid 4050454 instance d5ac2b89 logs /home/bryan/.sase/perf/sase-1t3.9/gc_census_20261117T111640Z/. First heartbeat RSS 1.24 GB, allocated_blocks 7.13M, default_executor 32 workers/16 threads/queue 0/not saturated. Python 3.14.7, HEAD 694cdec86b, census on, live TUI 3161729 untouched. Prior attempt a428c9ee discarded.
 
+[2026-11-17T12:32:39Z · sase-1t3.9] Relaunched post-storm census soak after first instance died at ~46 min. Dead: PID 4050454 instance d5ac2b89 dir gc_census_20261117T111640Z (10 min sample intact: census@683s ArtifactFile 47466 FIFOCache 45933 RSS~2.3GB). New: tmux sase-1t3-9-census PID 2450990 instance 2e14b925 dir /home/bryan/.sase/perf/sase-1t3.9/gc_census_20261117T123124Z started 20261117T123124Z; first heartbeat workers=32 threads=18 queue=0 RSS 1.23GB. Do not kill live TUI restart-service PID 1556497. Need 2h sample from the new instance before close.
+
 ## Dependencies
 
 - **Depends on:** [sase-1t3.1](sase-1t3.1.md) ✓ · ⧖ 2026-11-16
@@ -31,4 +33,10 @@ heap-census: soak a separate TUI instance with the GC census at about 10 min and
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1t3.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.9/README.md) | [sase-1t3.9](sase-1t3.9.md) | 0 |
+| [bbugyi200.athena.sase-1t3.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.9.md) | [sase-1t3.9](sase-1t3.9.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`4adc535`](https://github.com/sase-org/sase/commit/4adc535e273922761deddae398eedd2005015145) | feat(tui): attribute post-storm heap owners in the GC census | [sase-1t3.9](sase-1t3.9.md) | 2026-11-17 08:04:32 EST |

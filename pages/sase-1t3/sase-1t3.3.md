@@ -21,7 +21,7 @@ trust-memo: memoize the per-primary registry-membership scan and the lower-layer
 
 - **Blocks:** [sase-1t3.14](sase-1t3.14.md) ◐ · ⧖ 2026-11-16
 - **Blocks:** [sase-1t3.4](sase-1t3.4.md) ✓ · ⧖ 2026-11-16
-- **Blocks:** [sase-1t3.8](sase-1t3.8.md) ◐ · ⧖ 2026-11-16
+- **Blocks:** [sase-1t3.8](sase-1t3.8.md) ✓ · ⧖ 2026-11-16
 - **Blocks:** [sase-1t3.9](sase-1t3.9.md) ◐ · ⧖ 2026-11-16
 
 ## Agents

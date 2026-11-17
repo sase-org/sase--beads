@@ -49,8 +49,8 @@ _Plus 6 automatic references — see [Referenced By](#referenced-by)._
 | [sase-1t3.5](sase-1t3.5.md) | Per-load memos for the Agents loader decode stage | ✓ closed | medium | 2026-11-16 | 1 | 1 |
 | [sase-1t3.6](sase-1t3.6.md) | Index-backed agent name, session, clan, and dismissed-bundle lookups | ✓ closed | large | 2026-11-16 | 1 | 0 |
 | [sase-1t3.7](sase-1t3.7.md) | Provider-tab discovery after first paint as one generation | ✓ closed | large | 2026-11-16 | 1 | 0 |
-| [sase-1t3.8](sase-1t3.8.md) | Lazy action imports and startup background work off the critical path | ◐ in_progress | large | 2026-11-16 | 1 | 1 |
-| [sase-1t3.9](sase-1t3.9.md) | Post-storm GC census and heap-owner attribution | ◐ in_progress | medium | 2026-11-16 | 1 | 0 |
+| [sase-1t3.8](sase-1t3.8.md) | Lazy action imports and startup background work off the critical path | ✓ closed | large | 2026-11-16 | 1 | 1 |
+| [sase-1t3.9](sase-1t3.9.md) | Post-storm GC census and heap-owner attribution | ◐ in_progress | medium | 2026-11-16 | 1 | 1 |
 
 ## Lineage
 
@@ -76,7 +76,7 @@ flowchart TD
     n17["sase-1t3.7.1: Publish provider tabs after first paint as one generation [closed]"]
     n18["sase-1t3.7.1.1: Pin Artifacts consumers to an explicit descriptor snapshot [closed]"]
     n19["sase-1t3.7.1.2: Discover after first paint and publish mounted generations coherently [closed]"]
-    n20["sase-1t3.8: Lazy action imports and startup background work off the critical path [in_progress]"]
+    n20["sase-1t3.8: Lazy action imports and startup background work off the critical path [closed]"]
     n21["sase-1t3.9: Post-storm GC census and heap-owner attribution [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -156,7 +156,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1t3.7.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.7.1.2.md) | [sase-1t3.7.1.2](sase-1t3.7.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1t3.7.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.7.1.land.md) | [sase-1t3.7.1](sase-1t3.7.1.md) | 2 |
 | [bbugyi200.athena.sase-1t3.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.8.md) | [sase-1t3.8](sase-1t3.8.md) | 1 |
-| [bbugyi200.athena.sase-1t3.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.9/README.md) | [sase-1t3.9](sase-1t3.9.md) | 0 |
+| [bbugyi200.athena.sase-1t3.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.9.md) | [sase-1t3.9](sase-1t3.9.md) | 1 |
 | [bbugyi200.athena.sase-1t3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.land/README.md) | [sase-1t3](README.md) | 0 |
 
 ## Commits
@@ -185,6 +185,7 @@ flowchart TD
 | sase | [`824fc24`](https://github.com/sase-org/sase/commit/824fc2445e33499872674f4a26fb4ad9bc672a34) | feat(agent-lookup): land indexed lookup resolution | [sase-1t3.6.1](sase-1t3.6.1.md) | 2026-11-17 03:35:12 EST |
 | sase--plans | [`sase--plans@4b2ef58`](https://github.com/sase-org/sase--plans/commit/4b2ef58f10bd8b5d785c37c07275bfc8e35458bb) | chore(plans): mark indexed agent lookup epic and landing tale done | [sase-1t3.6.1](sase-1t3.6.1.md) | 2026-11-17 04:06:02 EST |
 | sase | [`10c55db`](https://github.com/sase-org/sase/commit/10c55dbe3022514fd2bf0ec8af90948e3560431b) | perf(ace): keep startup off the agents-action and AXE snapshot path | [sase-1t3.8](sase-1t3.8.md) | 2026-11-17 07:25:58 EST |
+| sase | [`4adc535`](https://github.com/sase-org/sase/commit/4adc535e273922761deddae398eedd2005015145) | feat(tui): attribute post-storm heap owners in the GC census | [sase-1t3.9](sase-1t3.9.md) | 2026-11-17 08:04:32 EST |
 
 <!-- sase:referenced-by:start -->
 
