@@ -11,6 +11,12 @@
 
 heap-census: soak a separate TUI instance with the GC census at about 10 min and 2 h, then record a ranked list of surviving heap owners with code anchors for the heap-diet phases. Coordinate with sase-1sl.4.
 
+## Notes
+
+[2026-11-17T11:14:33Z · sase-1t3.9] SOAK STARTED: dedicated tmux session sase-1t3-9-census, pid 3987386, app_instance_id a428c9ee, Python 3.14.7, HEAD 694cdec86b (storm-hotfix ancestor), SASE_TUI_GC_CENSUS=1, logs /home/bryan/.sase/perf/sase-1t3.9/gc_census_20261117T111346Z/. Live TUI pid 3161729 left untouched. Census tooling now emits watchlist, shallow bytes, and known_caches. First idle census ~10 min, soak through ~2 h.
+
+[2026-11-17T11:17:40Z · sase-1t3.9] SOAK RELAUNCHED after executor-gauge bind fix: tmux sase-1t3-9-census pid 4050454 instance d5ac2b89 logs /home/bryan/.sase/perf/sase-1t3.9/gc_census_20261117T111640Z/. First heartbeat RSS 1.24 GB, allocated_blocks 7.13M, default_executor 32 workers/16 threads/queue 0/not saturated. Python 3.14.7, HEAD 694cdec86b, census on, live TUI 3161729 untouched. Prior attempt a428c9ee discarded.
+
 ## Dependencies
 
 - **Depends on:** [sase-1t3.1](sase-1t3.1.md) ✓ · ⧖ 2026-11-16

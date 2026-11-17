@@ -42,6 +42,7 @@ lookup-core: add read-only, target-selective artifact queries, compatible lookup
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1t3.6.1.1][1] | Need the phase scope and design file | 4 |
+| read-by | [agent:sase-1t3.6.1.land][2] | Need the child scope and notes | 1 |
 | read-by | [agent:sase-1t3.6.1.land--1][2] | Re-read completed lookup-core descendant and its disposition before landing | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.6.1.1/README.md

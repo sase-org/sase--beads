@@ -23,7 +23,7 @@
 | --- | --- | --- |
 | related | file:explicit:68f0e0cdaf4f6ceee3b9927d | attached via sase artifact create --bead |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -72,6 +72,7 @@ Close event: sase-1t3:000125:issue_closed:sase-1t3.6:0ba0e9efc61e110f649c5c72428
 | --- | --- | --- | ---: |
 | read-by | [agent:ef][1] | Check cross-epic coordination between hijack epic sase-1t2 and TUI perf epic sase-1t3 | 1 |
 | read-by | [agent:sase-1t3.6.1.1][2] | Need parent phase and grandparent epic DECISIONS for lookup-core | 1 |
+| read-by | [agent:sase-1t3.6.1.land][3] | Confirm the parent phase is closed | 2 |
 | read-by | [agent:sase-1t3.6.1.land--1][3] | Re-read the indexed lookup landing phase before completion | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.ef/README.md

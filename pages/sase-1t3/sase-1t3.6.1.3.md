@@ -16,7 +16,7 @@
 | related | file:explicit:30a40133acfe3c8fa7bda0f4 | attached via sase artifact create --bead |
 | related | file:explicit:f39aaeb2254856086d4bd6a2 | attached via sase artifact create --bead |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 <!-- sase:links:end -->
 
@@ -65,6 +65,7 @@ session-clans: replace session and clan archive enumeration with targeted Rust q
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1t3.6.1.3--3][1] | Check completed phase scope and existing baseline notes before closure | 1 |
+| read-by | [agent:sase-1t3.6.1.land][2] | Need the child scope and notes | 1 |
 | read-by | [agent:sase-1t3.6.1.land--1][2] | Re-read completed session-clans descendant and its disposition before landing | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.6.1.3.md
