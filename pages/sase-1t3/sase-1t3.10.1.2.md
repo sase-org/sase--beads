@@ -33,3 +33,15 @@ scalar-row-adapters: advance the sase core source pin, add thin Python compact-w
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`be6adc2`](https://github.com/sase-org/sase/commit/be6adc20d0926f49055094192a1a36f08356f029) | feat(agent-scan): add compact scalar-row list adapters with parity and guards | [sase-1t3.10.1.2](sase-1t3.10.1.2.md) | 2026-11-17 15:47:30 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1t3.10.1.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.10.1.2/README.md
+
+<!-- sase:referenced-by:end -->

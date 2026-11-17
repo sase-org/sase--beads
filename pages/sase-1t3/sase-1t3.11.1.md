@@ -25,6 +25,10 @@ _Plus 1 automatic references — see [Referenced By](#referenced-by)._
 
 Complete sase-1t3.11 by removing project-wide Python log and index snapshots from TUI queries while preserving results, attribution, freshness, and responsiveness.
 
+## Notes
+
+[2026-11-17T22:04:21Z · sase-1tc.1.1.land] DISCOVERED ISSUE: Landing audit for sase-1tc.1.1, triaging PROPOSED FOLLOW-UP from sase-1tc.1.1.3 note #2. On clean HEAD 81656950c6, test_app_import_budget.py::test_tui_app_import_stays_under_startup_budget fails at 11,865,876 normalized bytes vs 11,828,610 cap. tools/tui_import_closure --diff 71f0060927 attributes +6,846 net bytes to memory-query commit 1c626f39e5: memory._read_log_query_facade +7,893 and ace.tui.memory_reads -1,047. This belongs to active phase sase-1t3.11.1.2; defer the query implementation until needed without raising the budget. Compact-row +19,043 is separately recorded on sase-1t3.10.1 and cmdsub +11,178 stays with sase-1tc.1.1. No files in your scope were edited.
+
 ## Agents
 
 | Agent | Bead | Commits |

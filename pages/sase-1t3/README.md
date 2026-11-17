@@ -96,7 +96,7 @@ flowchart TD
     n8["sase-1t3.11: Replace whole-file log caches with targeted queries [in_progress]"]
     n9["sase-1t3.11.1: Bound retained log objects with targeted backend queries [in_progress]"]
     n10["sase-1t3.11.1.1: Stream artifact-file queries before Python conversion [closed]"]
-    n11["sase-1t3.11.1.2: Query memory-read history for the selected context [in_progress]"]
+    n11["sase-1t3.11.1.2: Query memory-read history for the selected context [closed]"]
     n12["sase-1t3.11.1.3: Restrict touch queries to exact actors and session aliases [in_progress]"]
     n13["sase-1t3.11.1.4: Reuse targeted audit queries for artifact-read history [in_progress]"]
     n14["sase-1t3.11.1.5: Collect stranded facts and titles from one targeted snapshot [in_progress]"]
@@ -200,13 +200,13 @@ flowchart TD
 | [bbugyi200.athena.sase-1t3.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.1/README.md) | [sase-1t3.1](sase-1t3.1.md) | 1 |
 | [bbugyi200.athena.sase-1t3.10](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.10.md) | [sase-1t3.10](sase-1t3.10.md) | 0 |
 | [bbugyi200.athena.sase-1t3.10.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.10.1.1/README.md) | [sase-1t3.10.1.1](sase-1t3.10.1.1.md) | 1 |
-| [bbugyi200.athena.sase-1t3.10.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.10.1.2/README.md) | [sase-1t3.10.1.2](sase-1t3.10.1.2.md) | 0 |
+| [bbugyi200.athena.sase-1t3.10.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.10.1.2/README.md) | [sase-1t3.10.1.2](sase-1t3.10.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1t3.10.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.10.1.3/README.md) | [sase-1t3.10.1.3](sase-1t3.10.1.3.md) | 0 |
 | [bbugyi200.athena.sase-1t3.10.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.10.1.4/README.md) | [sase-1t3.10.1.4](sase-1t3.10.1.4.md) | 0 |
 | [bbugyi200.athena.sase-1t3.10.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.10.1.land/README.md) | [sase-1t3.10.1](sase-1t3.10.1.md) | 0 |
 | [bbugyi200.athena.sase-1t3.11](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.11.md) | [sase-1t3.11](sase-1t3.11.md) | 0 |
 | [bbugyi200.athena.sase-1t3.11.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.11.1.1/README.md) | [sase-1t3.11.1.1](sase-1t3.11.1.1.md) | 2 |
-| [bbugyi200.athena.sase-1t3.11.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.11.1.2.md) | [sase-1t3.11.1.2](sase-1t3.11.1.2.md) | 2 |
+| [bbugyi200.athena.sase-1t3.11.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.11.1.2.md) | [sase-1t3.11.1.2](sase-1t3.11.1.2.md) | 3 |
 | [bbugyi200.athena.sase-1t3.11.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.11.1.3/README.md) | [sase-1t3.11.1.3](sase-1t3.11.1.3.md) | 0 |
 | [bbugyi200.athena.sase-1t3.11.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.11.1.4/README.md) | [sase-1t3.11.1.4](sase-1t3.11.1.4.md) | 0 |
 | [bbugyi200.athena.sase-1t3.11.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.11.1.5/README.md) | [sase-1t3.11.1.5](sase-1t3.11.1.5.md) | 0 |
@@ -264,6 +264,8 @@ flowchart TD
 | sase | [`8a64510`](https://github.com/sase-org/sase/commit/8a6451068e2be0c4bc407484b7c43708adbd289f) | feat(artifact-file): query associations instead of caching the full index | [sase-1t3.11.1.1](sase-1t3.11.1.1.md) | 2026-11-17 14:37:11 EST |
 | sase-core | [`sase-core@c5e60d7`](https://github.com/sase-org/sase-core/commit/c5e60d78575b50b8eefd1b2881e6fac2b8768f55) | feat(audit-query): add targeted memory audit query over JSONL | [sase-1t3.11.1.2](sase-1t3.11.1.2.md) | 2026-11-17 15:37:19 EST |
 | sase | [`1c626f3`](https://github.com/sase-org/sase/commit/1c626f39e5a40ede6de4c7d60082f1e46d193ecd) | feat(memory-reads): query memory audit log with targeted Rust backend | [sase-1t3.11.1.2](sase-1t3.11.1.2.md) | 2026-11-17 15:39:07 EST |
+| sase | [`be6adc2`](https://github.com/sase-org/sase/commit/be6adc20d0926f49055094192a1a36f08356f029) | feat(agent-scan): add compact scalar-row list adapters with parity and guards | [sase-1t3.10.1.2](sase-1t3.10.1.2.md) | 2026-11-17 15:47:30 EST |
+| sase | [`cd0b9c5`](https://github.com/sase-org/sase/commit/cd0b9c52733af177af29cadf61c6cde474b6340c) | fix(memory-reads): privatize audit row per symvision unused-public hierarchy | [sase-1t3.11.1.2](sase-1t3.11.1.2.md) | 2026-11-17 17:23:59 EST |
 
 <!-- sase:referenced-by:start -->
 

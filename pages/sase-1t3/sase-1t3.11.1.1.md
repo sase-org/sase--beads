@@ -17,7 +17,7 @@ artifact_files: replace the persistent full artifact-file index cache with targe
 
 ## Dependencies
 
-- **Blocks:** [sase-1t3.11.1.2](sase-1t3.11.1.2.md) ◐ · ⧖ 2026-11-17
+- **Blocks:** [sase-1t3.11.1.2](sase-1t3.11.1.2.md) ✓ · ⧖ 2026-11-17
 
 ## Agents
 
