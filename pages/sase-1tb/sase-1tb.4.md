@@ -28,6 +28,7 @@ video-frame-cache: add the ffmpeg-backed frame service. It does exact-frame extr
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
+| read-by | [agent:sase-1tb.1][1] | Check whether the in-progress video-frame-cache phase depends on _viewer_video_media names I plan to move | 1 |
 | read-by | [agent:sase-1tb.1--1][1] | conflict repair: verify symvision epic-symbol whitelist bead exists | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tb.1.md

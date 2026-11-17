@@ -25,7 +25,7 @@ viewer-child-startup: pass the parent's resolved video config to the pane child 
 
 ## Dependencies
 
-- **Blocks:** [sase-1tb.3](sase-1tb.3.md) ◐ · ⧖ 2026-11-17
+- **Blocks:** [sase-1tb.3](sase-1tb.3.md) ✓ · ⧖ 2026-11-17
 - **Blocks:** [sase-1tb.5](sase-1tb.5.md) ◐ · ⧖ 2026-11-17
 
 ## Agents
