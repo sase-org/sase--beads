@@ -205,7 +205,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1t3.10.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.10.1.4/README.md) | [sase-1t3.10.1.4](sase-1t3.10.1.4.md) | 0 |
 | [bbugyi200.athena.sase-1t3.10.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.10.1.land/README.md) | [sase-1t3.10.1](sase-1t3.10.1.md) | 0 |
 | [bbugyi200.athena.sase-1t3.11](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.11.md) | [sase-1t3.11](sase-1t3.11.md) | 0 |
-| [bbugyi200.athena.sase-1t3.11.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.11.1.1/README.md) | [sase-1t3.11.1.1](sase-1t3.11.1.1.md) | 1 |
+| [bbugyi200.athena.sase-1t3.11.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.11.1.1/README.md) | [sase-1t3.11.1.1](sase-1t3.11.1.1.md) | 2 |
 | [bbugyi200.athena.sase-1t3.11.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.11.1.2/README.md) | [sase-1t3.11.1.2](sase-1t3.11.1.2.md) | 0 |
 | [bbugyi200.athena.sase-1t3.11.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.11.1.3/README.md) | [sase-1t3.11.1.3](sase-1t3.11.1.3.md) | 0 |
 | [bbugyi200.athena.sase-1t3.11.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.11.1.4/README.md) | [sase-1t3.11.1.4](sase-1t3.11.1.4.md) | 0 |
@@ -261,6 +261,7 @@ flowchart TD
 | sase | [`4adc535`](https://github.com/sase-org/sase/commit/4adc535e273922761deddae398eedd2005015145) | feat(tui): attribute post-storm heap owners in the GC census | [sase-1t3.9](sase-1t3.9.md) | 2026-11-17 08:04:32 EST |
 | sase-core | [`sase-core@8cedd45`](https://github.com/sase-org/sase-core/commit/8cedd45d2e83c901daf23e475407bfee4f7450bd) | feat: add compact agent-list wire contracts and PyO3 bindings | [sase-1t3.10.1.1](sase-1t3.10.1.1.md) | 2026-11-17 13:49:50 EST |
 | sase-core | [`sase-core@19b89ac`](https://github.com/sase-org/sase-core/commit/19b89ac9dd45fe27546e600926915a88e4dcd27f) | feat(artifact-file): add targeted association query over JSONL index | [sase-1t3.11.1.1](sase-1t3.11.1.1.md) | 2026-11-17 14:34:57 EST |
+| sase | [`8a64510`](https://github.com/sase-org/sase/commit/8a6451068e2be0c4bc407484b7c43708adbd289f) | feat(artifact-file): query associations instead of caching the full index | [sase-1t3.11.1.1](sase-1t3.11.1.1.md) | 2026-11-17 14:37:11 EST |
 
 <!-- sase:referenced-by:start -->
 
