@@ -24,7 +24,7 @@ preprocessing: implement source-aware Jinja rendering, explicit preprocessing pr
 ## Dependencies
 
 - **Depends on:** [sase-1tc.1.1.1](sase-1tc.1.1.1.md) ✓ · ⧖ 2026-11-17
-- **Blocks:** [sase-1tc.1.1.3](sase-1tc.1.1.3.md) ◐ · ⧖ 2026-11-17
+- **Blocks:** [sase-1tc.1.1.3](sase-1tc.1.1.3.md) ✓ · ⧖ 2026-11-17
 
 ## Agents
 
@@ -37,3 +37,15 @@ preprocessing: implement source-aware Jinja rendering, explicit preprocessing pr
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`efc66a4`](https://github.com/sase-org/sase/commit/efc66a420b8c738e52cefa4f04bc28eec0031132) | feat(macro): evaluate authored commands before interpolating data | [sase-1tc.1.1.2](sase-1tc.1.1.2.md) | 2026-11-17 15:12:16 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1tc.1.1.2--1][1] | Need phase scope and design for failure triage | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tc.1.1.2.md
+
+<!-- sase:referenced-by:end -->

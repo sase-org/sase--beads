@@ -32,7 +32,9 @@ cmdsub: close every model-output and agent-writable channel into host command su
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1tc.1.1.1][1] | Need parent phase DECISIONS that this child epic must honor | 1 |
+| read-by | [agent:sase-1tc.1.1.2--1][2] | Check ancestor status | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.1.1.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tc.1.1.2.md
 
 <!-- sase:referenced-by:end -->
