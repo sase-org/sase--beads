@@ -33,13 +33,14 @@ Hijack the occupying monitor, retain its workspace, and recover exactly once thr
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1t2.11.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11.1.land/README.md) | [sase-1t2.11.1](sase-1t2.11.1.md) | 1 |
+| [bbugyi200.athena.sase-1t2.11.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t2.11.1.land/README.md) | [sase-1t2.11.1](sase-1t2.11.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`3431374`](https://github.com/sase-org/sase/commit/343137405d5e8373684b9d002db2c36657071850) | fix(agent-hijack): keep hijack modules out of TUI startup and settle canary races | [sase-1t2.11.1](sase-1t2.11.1.md) | 2026-11-17 04:47:35 EST |
+| sase--plans | [`sase--plans@855c28a`](https://github.com/sase-org/sase--plans/commit/855c28ae1a46152df367280a95a99e409aa16638) | docs(plans): mark monitor hijack adapter plan done | [sase-1t2.11.1](sase-1t2.11.1.md) | 2026-11-17 04:48:42 EST |
 
 <!-- sase:referenced-by:start -->
 
