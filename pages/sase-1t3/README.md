@@ -99,7 +99,7 @@ flowchart TD
     n11["sase-1t3.11.1.2: Query memory-read history for the selected context [closed]"]
     n12["sase-1t3.11.1.3: Restrict touch queries to exact actors and session aliases [closed]"]
     n13["sase-1t3.11.1.4: Reuse targeted audit queries for artifact-read history [closed]"]
-    n14["sase-1t3.11.1.5: Collect stranded facts and titles from one targeted snapshot [in_progress]"]
+    n14["sase-1t3.11.1.5: Collect stranded facts and titles from one targeted snapshot [closed]"]
     n15["sase-1t3.11.1.6: Verify combined heap retention and query costs [in_progress]"]
     n16["sase-1t3.12: Terminalize stale running rows in index maintenance [closed]"]
     n17["sase-1t3.13: Interaction latency after the heap shrinks [in_progress]"]
@@ -209,7 +209,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1t3.11.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.11.1.2.md) | [sase-1t3.11.1.2](sase-1t3.11.1.2.md) | 3 |
 | [bbugyi200.athena.sase-1t3.11.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.11.1.3/README.md) | [sase-1t3.11.1.3](sase-1t3.11.1.3.md) | 2 |
 | [bbugyi200.athena.sase-1t3.11.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.11.1.4/README.md) | [sase-1t3.11.1.4](sase-1t3.11.1.4.md) | 2 |
-| [bbugyi200.athena.sase-1t3.11.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.11.1.5/README.md) | [sase-1t3.11.1.5](sase-1t3.11.1.5.md) | 0 |
+| [bbugyi200.athena.sase-1t3.11.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.11.1.5/README.md) | [sase-1t3.11.1.5](sase-1t3.11.1.5.md) | 1 |
 | [bbugyi200.athena.sase-1t3.11.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.11.1.6/README.md) | [sase-1t3.11.1.6](sase-1t3.11.1.6.md) | 0 |
 | [bbugyi200.athena.sase-1t3.11.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.11.1.land/README.md) | [sase-1t3.11.1](sase-1t3.11.1.md) | 0 |
 | [bbugyi200.athena.sase-1t3.12](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.12.md) | [sase-1t3.12](sase-1t3.12.md) | 2 |
@@ -271,6 +271,7 @@ flowchart TD
 | sase | [`4894d41`](https://github.com/sase-org/sase/commit/4894d4199101499cf69fa519881a909fb2825217) | feat(bead): route touch and legacy view queries through targeted Rust member queries | [sase-1t3.11.1.3](sase-1t3.11.1.3.md) | 2026-11-17 20:02:02 EST |
 | sase-core | [`sase-core@3992fce`](https://github.com/sase-org/sase-core/commit/3992fce8871f13adaac332e66c791cf9a91df47c) | feat(audit-query): query artifact-read audit logs | [sase-1t3.11.1.4](sase-1t3.11.1.4.md) | 2026-11-17 22:13:55 EST |
 | sase | [`5e3931c`](https://github.com/sase-org/sase/commit/5e3931c592a59fae099d386147d94094aabe8369) | feat(artifact-reads): query audit events by agent | [sase-1t3.11.1.4](sase-1t3.11.1.4.md) | 2026-11-17 22:16:19 EST |
+| sase-core | [`sase-core@71c59dc`](https://github.com/sase-org/sase-core/commit/71c59dca5790d8ac7e8eab1e9c1e11f8d2ae4440) | perf(bead): add bead\_stranded\_snapshot slim projection | [sase-1t3.11.1.5](sase-1t3.11.1.5.md) | 2026-11-18 00:19:09 EST |
 
 <!-- sase:referenced-by:start -->
 

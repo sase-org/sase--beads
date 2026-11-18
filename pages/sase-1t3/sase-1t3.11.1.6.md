@@ -13,7 +13,7 @@ verify_retention: integrate cache census coverage, compare retained objects and 
 
 ## Dependencies
 
-- **Depends on:** [sase-1t3.11.1.5](sase-1t3.11.1.5.md) ◐ · ⧖ 2026-11-17
+- **Depends on:** [sase-1t3.11.1.5](sase-1t3.11.1.5.md) ✓ · ⧖ 2026-11-17
 
 ## Agents
 

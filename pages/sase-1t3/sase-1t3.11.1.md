@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/bounded_log_queries.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202611/bounded_log_queries.md
 
@@ -42,7 +42,9 @@ Complete sase-1t3.11 by removing project-wide Python log and index snapshots fro
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1t3.11.1.1][1] | Need parent epic DECISIONS and plan | 1 |
+| read-by | [agent:sase-1t3.11.1.4][2] | Need inherited epic decisions before implementing artifact-read phase | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.11.1.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.11.1.4/README.md
 
 <!-- sase:referenced-by:end -->
