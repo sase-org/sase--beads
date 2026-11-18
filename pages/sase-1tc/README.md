@@ -57,8 +57,13 @@ flowchart TD
     n11["sase-1tc.3.1.3: Attach typed admission to the durable chop batch [closed]"]
     n12["sase-1tc.3.1.4: Resume unfinished batches and honor clan kills [closed]"]
     n13["sase-1tc.3.1.5: Prove process-stop recovery and record disposable acceptance [closed]"]
-    n14["sase-1tc.4: beads.db has one SQLite library owner per process (sase-1kp) [in_progress]"]
-    n15["sase-1tc.5: Failure triage attaches the owning task bead (sase-1ha) [in_progress]"]
+    n14["sase-1tc.3.1.6: Make chop batch recovery correct against production evidence [in_progress]"]
+    n15["sase-1tc.3.1.6.1: Reconcile spawn evidence by run linkage and replay with the original launch context [closed]"]
+    n16["sase-1tc.3.1.6.2: Single executor ownership, crossing cancellation and consistent claims [in_progress]"]
+    n17["sase-1tc.3.1.6.3: Visible holds, bounded retention, complete clan-kill coverage and per-episode notices [in_progress]"]
+    n18["sase-1tc.3.1.6.4: Re-prove recovery with production-shaped evidence and record corrected acceptance [in_progress]"]
+    n19["sase-1tc.4: beads.db has one SQLite library owner per process (sase-1kp) [in_progress]"]
+    n20["sase-1tc.5: Failure triage attaches the owning task bead (sase-1ha) [in_progress]"]
     n0 --> n1
     n1 --> n2
     n2 --> n3
@@ -72,18 +77,26 @@ flowchart TD
     n8 --> n11
     n8 --> n12
     n8 --> n13
-    n0 --> n14
-    n0 --> n15
+    n8 --> n14
+    n14 --> n15
+    n14 --> n16
+    n14 --> n17
+    n14 --> n18
+    n0 --> n19
+    n0 --> n20
     n1 -.-> n6
     n3 -.-> n4
     n4 -.-> n5
     n6 -.-> n7
-    n7 -.-> n14
+    n7 -.-> n19
     n9 -.-> n10
     n10 -.-> n11
     n11 -.-> n12
     n12 -.-> n13
-    n14 -.-> n15
+    n15 -.-> n16
+    n16 -.-> n17
+    n17 -.-> n18
+    n19 -.-> n20
 ```
 
 ## Agents
@@ -102,7 +115,12 @@ flowchart TD
 | [bbugyi200.athena.sase-1tc.3.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tc.3.1.3.md) | [sase-1tc.3.1.3](sase-1tc.3.1.3.md) | 1 |
 | [bbugyi200.athena.sase-1tc.3.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tc.3.1.4.md) | [sase-1tc.3.1.4](sase-1tc.3.1.4.md) | 1 |
 | [bbugyi200.athena.sase-1tc.3.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.5/README.md) | [sase-1tc.3.1.5](sase-1tc.3.1.5.md) | 1 |
-| [bbugyi200.athena.sase-1tc.3.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.land/README.md) | [sase-1tc.3.1](sase-1tc.3.1.md) | 0 |
+| [bbugyi200.athena.sase-1tc.3.1.6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.1/README.md) | [sase-1tc.3.1.6.1](sase-1tc.3.1.6.1.md) | 1 |
+| [bbugyi200.athena.sase-1tc.3.1.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.2/README.md) | [sase-1tc.3.1.6.2](sase-1tc.3.1.6.2.md) | 0 |
+| [bbugyi200.athena.sase-1tc.3.1.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.3/README.md) | [sase-1tc.3.1.6.3](sase-1tc.3.1.6.3.md) | 0 |
+| [bbugyi200.athena.sase-1tc.3.1.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.4/README.md) | [sase-1tc.3.1.6.4](sase-1tc.3.1.6.4.md) | 0 |
+| [bbugyi200.athena.sase-1tc.3.1.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.land/README.md) | [sase-1tc.3.1.6](sase-1tc.3.1.6.md) | 0 |
+| [bbugyi200.athena.sase-1tc.3.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tc.3.1.land.md) | [sase-1tc.3.1](sase-1tc.3.1.md) | 0 |
 | [bbugyi200.athena.sase-1tc.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.4/README.md) | [sase-1tc.4](sase-1tc.4.md) | 0 |
 | [bbugyi200.athena.sase-1tc.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.5/README.md) | [sase-1tc.5](sase-1tc.5.md) | 0 |
 | [bbugyi200.athena.sase-1tc.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.land/README.md) | [sase-1tc](README.md) | 0 |
@@ -122,6 +140,7 @@ flowchart TD
 | sase | [`3cf982b`](https://github.com/sase-org/sase/commit/3cf982bdff43f5ab232c668bf0a1770d9a77644a) | feat(axe): attach typed admission to durable chop batches | [sase-1tc.3.1.3](sase-1tc.3.1.3.md) | 2026-11-18 04:56:41 EST |
 | sase | [`b8c9f6c`](https://github.com/sase-org/sase/commit/b8c9f6c6aa101546a21539dcafc17b20ccdcdaf5) | feat(axe): add chop batch pause-resume recovery, clan cancellation, and durable notices | [sase-1tc.3.1.4](sase-1tc.3.1.4.md) | 2026-11-18 05:54:13 EST |
 | sase | [`0747964`](https://github.com/sase-org/sase/commit/07479640e2f1949fbc787892920f0bf2955a203a) | feat(axe): recover interrupted chop batches | [sase-1tc.3.1.5](sase-1tc.3.1.5.md) | 2026-11-18 06:57:37 EST |
+| sase | [`6026cc1`](https://github.com/sase-org/sase/commit/6026cc1182910ec2cde1c5392ec66c91356cced7) | feat(axe): chop batch recovery via run-linkage spawn matching | [sase-1tc.3.1.6.1](sase-1tc.3.1.6.1.md) | 2026-11-18 08:00:32 EST |
 
 <!-- sase:referenced-by:start -->
 

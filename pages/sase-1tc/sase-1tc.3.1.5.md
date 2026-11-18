@@ -32,3 +32,15 @@ acceptance: exercise process-death windows, repeated restart, cancellation and n
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`0747964`](https://github.com/sase-org/sase/commit/07479640e2f1949fbc787892920f0bf2955a203a) | feat(axe): recover interrupted chop batches | [sase-1tc.3.1.5](sase-1tc.3.1.5.md) | 2026-11-18 06:57:37 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1tc.3.1.5][1] | Need final phase notes and state before attaching verified acceptance evidence | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.5/README.md
+
+<!-- sase:referenced-by:end -->

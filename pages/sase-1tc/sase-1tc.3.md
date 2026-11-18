@@ -17,6 +17,8 @@ chop_launch: journal in-flight chop launch batches and resume them idempotently 
 
 [2026-11-18T11:55:58Z · sase-1tc.3.1.5] TASK RESOLVED: sase-1c2 — Added isolated subprocess coverage for ordinary and typed chop batch restart recovery, kill boundaries, SIGTERM pause, cancellation, notices, and idempotent restart; fixed recovery ownership and clan cancellation races. Focused regressions: 89 passed. Manual demo: spawn-before-ack SIGKILL recovered the remaining 3 of 4 exactly once, then a second restart launched 0; cancellation demo retained cancelled state and removed the launch receipt. Full sase tool run check ba8ef87f6437b5613155426b30e3979a passed.
 
+[2026-11-18T12:17:24Z · sase-1tc.3.1.land] NOTE FROM sase-1tc.3.1.land: the TASK RESOLVED: sase-1c2 evidence in note #2 came from a harness that faked chop-agent records as cl_name=<agent name>. Production records use the project name or VCS ref, and the recovery code matches on that field, so spawn-before-ack reconciliation does not work in production. Child-epic remaining work under sase-1tc.3.1 fixes this and will record superseding TASK RESOLVED evidence here. Do not treat sase-1c2 as resolved until then.
+
 ## Dependencies
 
 - **Depends on:** [sase-1tc.2](sase-1tc.2.md) ✓ · ⧖ 2026-11-17
@@ -27,3 +29,15 @@ chop_launch: journal in-flight chop launch batches and resume them idempotently 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1tc.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tc.3.md) | [sase-1tc.3](sase-1tc.3.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1tc.3.1.5][1] | Need parent phase context before recording the required TASK RESOLVED acceptance evidence | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.5/README.md
+
+<!-- sase:referenced-by:end -->
