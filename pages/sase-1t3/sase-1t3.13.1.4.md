@@ -33,3 +33,15 @@ delta-copy: introduce a conservative exact-delta copy-on-write preparation path 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`1092245`](https://github.com/sase-org/sase/commit/10922458c1900528846de26298cffbd0536f3a3d) | feat(agents): add exact-delta copy-on-write fast path for Agents-tab loads | [sase-1t3.13.1.4](sase-1t3.13.1.4.md) | 2026-11-18 17:10:24 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1t3.13.1.4--1][1] | Verify phase scope before close | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.13.1.4.md
+
+<!-- sase:referenced-by:end -->

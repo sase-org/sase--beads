@@ -45,3 +45,15 @@ PROPOSED FOLLOW-UP: Review the load-sensitive publication cleanup test — full-
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`f81ff92`](https://github.com/sase-org/sase/commit/f81ff92e0549150a29cdb5fe2cd2fa51930bb60a) | perf(ace): bound runtime and bead warmup work | [sase-1t3.13.1.3](sase-1t3.13.1.3.md) | 2026-11-18 17:06:19 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1t3.13.1.3--1][1] | Need the phase scope, design file, decisions, and prior notes before continuing | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.13.1.3.md
+
+<!-- sase:referenced-by:end -->

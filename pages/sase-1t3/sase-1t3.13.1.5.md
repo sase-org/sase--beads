@@ -13,7 +13,7 @@ integration: repeat the baseline workload on the combined changes, verify respon
 
 ## Dependencies
 
-- **Depends on:** [sase-1t3.13.1.2](sase-1t3.13.1.2.md) ◐ · ⧖ 2026-11-18
+- **Depends on:** [sase-1t3.13.1.2](sase-1t3.13.1.2.md) ✓ · ⧖ 2026-11-18
 - **Depends on:** [sase-1t3.13.1.3](sase-1t3.13.1.3.md) ✓ · ⧖ 2026-11-18
 - **Depends on:** [sase-1t3.13.1.4](sase-1t3.13.1.4.md) ✓ · ⧖ 2026-11-18
 
