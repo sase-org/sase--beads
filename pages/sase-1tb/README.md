@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / sase-1tb
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.1di](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.1di.md) · **Assignee:** `sase-1tb.land`
-**Created:** 2026-11-17 11:16:32 EST
+**Created:** 2026-11-17 11:16:32 EST · **Closed:** 2026-11-18 00:12:25 EST
 **Plan:** [202611/fast\_video\_artifact\_pane.md](https://github.com/sase-org/sase--plans/blob/main/202611/fast_video_artifact_pane.md)
 
 <!-- sase:links:start -->
@@ -43,6 +43,8 @@ Opening a video artifact from the Agents tab inside tmux shows a useful frame in
   (d) FLAKY import-budget timing test: declined as a separate task. No node id or fail/pass evidence was recorded, and the deterministic footprint failure on that node is handled under (a).
 - Typed related links from sase-1td..1tg to sase-1tb were NOT recorded. 'sase artifact link add' spins at ~90% CPU in partition_artifact_link_candidates for >100 s; recorded as a DISCOVERED ISSUE on in-progress epic sase-yy.8 (publication path).
 
+[2026-11-18T05:12:25Z · sase-1tb.land--1] LAND VERIFICATION (sase-1tb.land, 2026-11-18): all 7 phases closed (sase-1tb.1..7). Source f28da33a13 reviewed; defects 1-8 fixed. Measured probe: header->first APC 223.4ms, l->APC 9.1ms, client bytes 395431, 3 APCs, burst 00:05.0. Footprint 11,882,349 vs 11,894,200 cap. sase tool run check 9a7cf6e32335914f711e3e047e69aeb6: EXIT 0, VERDICT pass, all 20 stages incl. symvision and scoped tests. Symvision inline clean after removing the cross-file private re-export (_viewer_loop_video_common.py no longer re-exports _assemble/_completed/_decode_inspect_key; tests import them from _viewer_video_input). Targeted pytest 39 passed (test_video_inspect + test_app_import_budget). Follow-up triage per land note already recorded on the epic.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -59,7 +61,7 @@ Opening a video artifact from the Agents tab inside tmux shows a useful frame in
 
 ```mermaid
 flowchart TD
-    n0["sase-1tb: Fast inspect-first video artifacts in the tmux viewer pane [in_progress]"]
+    n0["sase-1tb: Fast inspect-first video artifacts in the tmux viewer pane [closed]"]
     n1["sase-1tb.1: Stop launching mpv in tmux; show a still frame plus metadata [closed]"]
     n2["sase-1tb.2: Trim the viewer child's startup tax [closed]"]
     n3["sase-1tb.3: Move tmux split and decoration off the Textual UI thread [closed]"]
@@ -93,7 +95,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1tb.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tb.5.md) | [sase-1tb.5](sase-1tb.5.md) | 1 |
 | [bbugyi200.athena.sase-1tb.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tb.6.md) | [sase-1tb.6](sase-1tb.6.md) | 1 |
 | [bbugyi200.athena.sase-1tb.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tb.7.md) | [sase-1tb.7](sase-1tb.7.md) | 1 |
-| [bbugyi200.athena.sase-1tb.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tb.land.md) | [sase-1tb](README.md) | 1 |
+| [bbugyi200.athena.sase-1tb.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tb.land.md) | [sase-1tb](README.md) | 2 |
 
 ## Commits
 
@@ -108,6 +110,7 @@ flowchart TD
 | sase | [`4a6d3c5`](https://github.com/sase-org/sase/commit/4a6d3c51b352c61f9054b01546663f4a0a48c536) | feat(viewer): motion backends, native handoff, and muted in-pane audio | [sase-1tb.6](sase-1tb.6.md) | 2026-11-17 18:39:30 EST |
 | sase | [`f28da33`](https://github.com/sase-org/sase/commit/f28da33a13f55399cc6df2a8791d1658f9eb970d) | feat(ace): cell-preview fallback for terminals without kitty graphics | [sase-1tb.7](sase-1tb.7.md) | 2026-11-17 19:25:57 EST |
 | sase | [`61212be`](https://github.com/sase-org/sase/commit/61212bee5ebb2cac251b575571dc2dec4df6d65a) | fix(ace): land fast video inspect pane fixes for sase-1tb | [sase-1tb](README.md) | 2026-11-17 22:31:00 EST |
+| sase | [`c5f4964`](https://github.com/sase-org/sase/commit/c5f4964a67cb2a0abd333c981c778dfbe3c4739c) | fix(ace): stop re-exporting private video inspect helpers | [sase-1tb](README.md) | 2026-11-18 01:56:20 EST |
 
 <!-- sase:referenced-by:start -->
 
