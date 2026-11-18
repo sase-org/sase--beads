@@ -26,10 +26,11 @@ artifact_reads: extend the audit-query contract to artifact events, remove the f
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1t3.11.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.11.1.4/README.md) | [sase-1t3.11.1.4](sase-1t3.11.1.4.md) | 1 |
+| [bbugyi200.athena.sase-1t3.11.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.11.1.4/README.md) | [sase-1t3.11.1.4](sase-1t3.11.1.4.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@3992fce`](https://github.com/sase-org/sase-core/commit/3992fce8871f13adaac332e66c791cf9a91df47c) | feat(audit-query): query artifact-read audit logs | [sase-1t3.11.1.4](sase-1t3.11.1.4.md) | 2026-11-17 22:13:55 EST |
+| sase | [`5e3931c`](https://github.com/sase-org/sase/commit/5e3931c592a59fae099d386147d94094aabe8369) | feat(artifact-reads): query audit events by agent | [sase-1t3.11.1.4](sase-1t3.11.1.4.md) | 2026-11-17 22:16:19 EST |
