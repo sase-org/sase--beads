@@ -61,7 +61,7 @@ flowchart TD
     n11["sase-1tc.3.1.3: Attach typed admission to the durable chop batch [closed]"]
     n12["sase-1tc.3.1.4: Resume unfinished batches and honor clan kills [closed]"]
     n13["sase-1tc.3.1.5: Prove process-stop recovery and record disposable acceptance [closed]"]
-    n14["sase-1tc.3.1.6: Make chop batch recovery correct against production evidence [in_progress]"]
+    n14["sase-1tc.3.1.6: Make chop batch recovery correct against production evidence [closed]"]
     n15["sase-1tc.3.1.6.1: Reconcile spawn evidence by run linkage and replay with the original launch context [closed]"]
     n16["sase-1tc.3.1.6.2: Single executor ownership, crossing cancellation and consistent claims [closed]"]
     n17["sase-1tc.3.1.6.3: Visible holds, bounded retention, complete clan-kill coverage and per-episode notices [closed]"]
@@ -123,7 +123,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1tc.3.1.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.2/README.md) | [sase-1tc.3.1.6.2](sase-1tc.3.1.6.2.md) | 2 |
 | [bbugyi200.athena.sase-1tc.3.1.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.3/README.md) | [sase-1tc.3.1.6.3](sase-1tc.3.1.6.3.md) | 1 |
 | [bbugyi200.athena.sase-1tc.3.1.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.4/README.md) | [sase-1tc.3.1.6.4](sase-1tc.3.1.6.4.md) | 1 |
-| [bbugyi200.athena.sase-1tc.3.1.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.land/README.md) | [sase-1tc.3.1.6](sase-1tc.3.1.6.md) | 0 |
+| [bbugyi200.athena.sase-1tc.3.1.6.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tc.3.1.6.land.md) | [sase-1tc.3.1.6](sase-1tc.3.1.6.md) | 1 |
 | [bbugyi200.athena.sase-1tc.3.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tc.3.1.land.md) | [sase-1tc.3.1](sase-1tc.3.1.md) | 0 |
 | [bbugyi200.athena.sase-1tc.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.4/README.md) | [sase-1tc.4](sase-1tc.4.md) | 0 |
 | [bbugyi200.athena.sase-1tc.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.5/README.md) | [sase-1tc.5](sase-1tc.5.md) | 0 |
@@ -149,6 +149,7 @@ flowchart TD
 | sase | [`4e5c1b9`](https://github.com/sase-org/sase/commit/4e5c1b9730229036faa5c1eef1029457ef36f14d) | fix(axe-chop): preserve batch claims across cancellation | [sase-1tc.3.1.6.2](sase-1tc.3.1.6.2.md) | 2026-11-18 12:08:43 EST |
 | sase | [`3c6e3a0`](https://github.com/sase-org/sase/commit/3c6e3a06c039d1032cf6043f28a7b83ff6e63ba0) | fix(axe): make batch recovery visible and durable | [sase-1tc.3.1.6.3](sase-1tc.3.1.6.3.md) | 2026-11-18 13:52:42 EST |
 | sase | [`5b08952`](https://github.com/sase-org/sase/commit/5b08952c6d8dd69b6b1731989a3580c61b3d660e) | feat(axe): re-prove chop batch recovery with production-shaped acceptance evidence | [sase-1tc.3.1.6.4](sase-1tc.3.1.6.4.md) | 2026-11-18 15:27:35 EST |
+| sase-core | [`sase-core@b1a0363`](https://github.com/sase-org/sase-core/commit/b1a0363997eb8150f8db8a425b83564faf5101f3) | feat(axe-chop): add clan-scoped generation match and cancelled settlement | [sase-1tc.3.1.6](sase-1tc.3.1.6.md) | 2026-11-18 17:13:53 EST |
 
 <!-- sase:referenced-by:start -->
 

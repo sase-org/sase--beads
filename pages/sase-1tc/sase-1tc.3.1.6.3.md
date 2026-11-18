@@ -42,8 +42,10 @@ visibility: surface every recovery hold and failure, stop silent per-tick retry 
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1tc.3.1.6.2][1] | Need the epic decisions and sibling phase work before implementation | 1 |
 | read-by | [agent:sase-1tc.3.1.6.3][2] | Need the full phase scope and notes before implementation | 4 |
+| read-by | [agent:sase-1tc.3.1.6.4][3] | Check earlier phase landing evidence to avoid redo | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.2/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.3/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.4/README.md
 
 <!-- sase:referenced-by:end -->

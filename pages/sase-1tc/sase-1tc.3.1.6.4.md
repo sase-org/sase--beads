@@ -41,8 +41,10 @@ acceptance: rerun the subprocess harness with real chop linkage records and name
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1tc.3.1.6.2][1] | Need the epic decisions and sibling phase work before implementation | 1 |
 | read-by | [agent:sase-1tc.3.1.6.3][2] | Need earlier phase landing evidence and current acceptance phase ownership to avoid overlap | 1 |
+| read-by | [agent:sase-1tc.3.1.6.4][3] | Need the phase scope and design file | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.2/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.3/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.4/README.md
 
 <!-- sase:referenced-by:end -->

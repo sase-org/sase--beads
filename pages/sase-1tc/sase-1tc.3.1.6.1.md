@@ -40,9 +40,11 @@ evidence: match chop-agent records by run and proposal index instead of cl_name,
 | read-by | [agent:sase-1tc.3.1.6.1][1] | check prior notes for remaining work from earlier agents | 3 |
 | read-by | [agent:sase-1tc.3.1.6.2][2] | Need the epic decisions and sibling phase work before implementation | 1 |
 | read-by | [agent:sase-1tc.3.1.6.3][3] | Need earlier phase landing evidence and current acceptance phase ownership to avoid overlap | 1 |
+| read-by | [agent:sase-1tc.3.1.6.4][4] | Check earlier phase landing evidence to avoid redo | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.1/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.2/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.3/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.4/README.md
 
 <!-- sase:referenced-by:end -->
