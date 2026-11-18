@@ -30,7 +30,7 @@ motion-handoff: add the backend and open_command config keys. mpv runs in-pane o
 ## Dependencies
 
 - **Depends on:** [sase-1tb.5](sase-1tb.5.md) ✓ · ⧖ 2026-11-17
-- **Blocks:** [sase-1tb.7](sase-1tb.7.md) ◐ · ⧖ 2026-11-17
+- **Blocks:** [sase-1tb.7](sase-1tb.7.md) ✓ · ⧖ 2026-11-17
 
 ## Agents
 
@@ -43,3 +43,15 @@ motion-handoff: add the backend and open_command config keys. mpv runs in-pane o
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`4a6d3c5`](https://github.com/sase-org/sase/commit/4a6d3c51b352c61f9054b01546663f4a0a48c536) | feat(viewer): motion backends, native handoff, and muted in-pane audio | [sase-1tb.6](sase-1tb.6.md) | 2026-11-17 18:39:30 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1tb.6--1][1] | Need phase scope to repair just check failures | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tb.6.md
+
+<!-- sase:referenced-by:end -->
