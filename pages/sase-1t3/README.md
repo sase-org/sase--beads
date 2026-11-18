@@ -62,6 +62,10 @@ sase-1t3.10 order: slim list DTO (dict/list/tuple + AgentCatalogLinkFacets), dro
 
 sase-1t3.11 census order: ArtifactFile index (stable 47.5k), MemoryReadEvent cache (1:1 live), BeadTouch (16k live, cache empty), PosixPath/DirEntryInfo walks, ArtifactReadEvent snapshot cache (27.6k events, few live objects on this soak), then SkillUseEvent if that phase takes whole-file log caches beyond the named set.
 
+[2026-11-18T06:26:13Z · sase-1t3.11.1.6--2] Combined retention evidence from sase-1t3.11.1.6: the ten-minute separate TUI census showed only current bounded result/context owners for artifact reads and touches; the old full artifact-read, touch, and view snapshots are absent. Live query rows were artifact 0, memory 3, touch 0; stranded reports 4. A representative 100k-row Rust memory query returned 50 rows in 0.733 s with +3.61 MB process peak RSS. The child note contains the before/after table, source commands, versions, census/GC/RSS/executor data, and measurement limits. `just fix` and 13 census tests passed; `sase tool run check` is the final gate. Existing follow-ups were preserved; epic-symbols was empty.
+
+[2026-11-18T06:58:45Z · sase-1t3.11.1.6--3] Verification recovery: assigned phase sase-1t3.11.1.6 had one new full-suite failure in the bounded-drain lock cleanup timing assertion (4.12s vs 2.0s) during host load 20.24/35.91/38.81 on 64 CPUs; its focused rerun passed in 8.457s on the unchanged tree. A fresh required full check remains pending.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -210,7 +214,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1t3.11.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.11.1.3/README.md) | [sase-1t3.11.1.3](sase-1t3.11.1.3.md) | 2 |
 | [bbugyi200.athena.sase-1t3.11.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.11.1.4/README.md) | [sase-1t3.11.1.4](sase-1t3.11.1.4.md) | 2 |
 | [bbugyi200.athena.sase-1t3.11.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.11.1.5/README.md) | [sase-1t3.11.1.5](sase-1t3.11.1.5.md) | 2 |
-| [bbugyi200.athena.sase-1t3.11.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.11.1.6/README.md) | [sase-1t3.11.1.6](sase-1t3.11.1.6.md) | 0 |
+| [bbugyi200.athena.sase-1t3.11.1.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.11.1.6.md) | [sase-1t3.11.1.6](sase-1t3.11.1.6.md) | 1 |
 | [bbugyi200.athena.sase-1t3.11.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.11.1.land/README.md) | [sase-1t3.11.1](sase-1t3.11.1.md) | 0 |
 | [bbugyi200.athena.sase-1t3.12](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.12.md) | [sase-1t3.12](sase-1t3.12.md) | 2 |
 | [bbugyi200.athena.sase-1t3.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.13/README.md) | [sase-1t3.13](sase-1t3.13.md) | 0 |
@@ -273,6 +277,7 @@ flowchart TD
 | sase | [`5e3931c`](https://github.com/sase-org/sase/commit/5e3931c592a59fae099d386147d94094aabe8369) | feat(artifact-reads): query audit events by agent | [sase-1t3.11.1.4](sase-1t3.11.1.4.md) | 2026-11-17 22:16:19 EST |
 | sase-core | [`sase-core@71c59dc`](https://github.com/sase-org/sase-core/commit/71c59dca5790d8ac7e8eab1e9c1e11f8d2ae4440) | perf(bead): add bead\_stranded\_snapshot slim projection | [sase-1t3.11.1.5](sase-1t3.11.1.5.md) | 2026-11-18 00:19:09 EST |
 | sase | [`88431ca`](https://github.com/sase-org/sase/commit/88431cab7190cf5bb3b78c6e629c4a33958d5d10) | perf(bead): read stranded report from single slim snapshot | [sase-1t3.11.1.5](sase-1t3.11.1.5.md) | 2026-11-18 00:20:52 EST |
+| sase | [`81e124e`](https://github.com/sase-org/sase/commit/81e124eca85a9f0a369fb3fb3382c18406e676bd) | perf(tui): verify bounded log retention | [sase-1t3.11.1.6](sase-1t3.11.1.6.md) | 2026-11-18 02:30:41 EST |
 
 <!-- sase:referenced-by:start -->
 
