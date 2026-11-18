@@ -215,7 +215,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1t3.11.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.11.1.4/README.md) | [sase-1t3.11.1.4](sase-1t3.11.1.4.md) | 2 |
 | [bbugyi200.athena.sase-1t3.11.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.11.1.5/README.md) | [sase-1t3.11.1.5](sase-1t3.11.1.5.md) | 2 |
 | [bbugyi200.athena.sase-1t3.11.1.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.11.1.6.md) | [sase-1t3.11.1.6](sase-1t3.11.1.6.md) | 1 |
-| [bbugyi200.athena.sase-1t3.11.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.11.1.land.md) | [sase-1t3.11.1](sase-1t3.11.1.md) | 1 |
+| [bbugyi200.athena.sase-1t3.11.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.11.1.land.md) | [sase-1t3.11.1](sase-1t3.11.1.md) | 2 |
 | [bbugyi200.athena.sase-1t3.12](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.12.md) | [sase-1t3.12](sase-1t3.12.md) | 2 |
 | [bbugyi200.athena.sase-1t3.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.13/README.md) | [sase-1t3.13](sase-1t3.13.md) | 0 |
 | [bbugyi200.athena.sase-1t3.14](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.14/README.md) | [sase-1t3.14](sase-1t3.14.md) | 0 |
@@ -279,6 +279,7 @@ flowchart TD
 | sase | [`88431ca`](https://github.com/sase-org/sase/commit/88431cab7190cf5bb3b78c6e629c4a33958d5d10) | perf(bead): read stranded report from single slim snapshot | [sase-1t3.11.1.5](sase-1t3.11.1.5.md) | 2026-11-18 00:20:52 EST |
 | sase | [`81e124e`](https://github.com/sase-org/sase/commit/81e124eca85a9f0a369fb3fb3382c18406e676bd) | perf(tui): verify bounded log retention | [sase-1t3.11.1.6](sase-1t3.11.1.6.md) | 2026-11-18 02:30:41 EST |
 | sase-core | [`sase-core@dbf3ed9`](https://github.com/sase-org/sase-core/commit/dbf3ed90cbff32c3435c986aeb2fbf78702a3001) | fix(bead): stream touch member index queries | [sase-1t3.11.1](sase-1t3.11.1.md) | 2026-11-18 03:34:30 EST |
+| sase--plans | [`sase--plans@958e382`](https://github.com/sase-org/sase--plans/commit/958e382253f6acb3de32531f3568d7ebe5134964) | chore(plan): mark bounded log query epic complete | [sase-1t3.11.1](sase-1t3.11.1.md) | 2026-11-18 03:35:51 EST |
 
 <!-- sase:referenced-by:start -->
 
