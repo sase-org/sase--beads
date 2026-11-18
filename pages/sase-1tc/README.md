@@ -65,7 +65,7 @@ flowchart TD
     n15["sase-1tc.3.1.6.1: Reconcile spawn evidence by run linkage and replay with the original launch context [closed]"]
     n16["sase-1tc.3.1.6.2: Single executor ownership, crossing cancellation and consistent claims [closed]"]
     n17["sase-1tc.3.1.6.3: Visible holds, bounded retention, complete clan-kill coverage and per-episode notices [closed]"]
-    n18["sase-1tc.3.1.6.4: Re-prove recovery with production-shaped evidence and record corrected acceptance [in_progress]"]
+    n18["sase-1tc.3.1.6.4: Re-prove recovery with production-shaped evidence and record corrected acceptance [closed]"]
     n19["sase-1tc.4: beads.db has one SQLite library owner per process (sase-1kp) [in_progress]"]
     n20["sase-1tc.5: Failure triage attaches the owning task bead (sase-1ha) [in_progress]"]
     n0 --> n1
@@ -122,7 +122,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1tc.3.1.6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.1/README.md) | [sase-1tc.3.1.6.1](sase-1tc.3.1.6.1.md) | 1 |
 | [bbugyi200.athena.sase-1tc.3.1.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.2/README.md) | [sase-1tc.3.1.6.2](sase-1tc.3.1.6.2.md) | 2 |
 | [bbugyi200.athena.sase-1tc.3.1.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.3/README.md) | [sase-1tc.3.1.6.3](sase-1tc.3.1.6.3.md) | 1 |
-| [bbugyi200.athena.sase-1tc.3.1.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.4/README.md) | [sase-1tc.3.1.6.4](sase-1tc.3.1.6.4.md) | 0 |
+| [bbugyi200.athena.sase-1tc.3.1.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.4/README.md) | [sase-1tc.3.1.6.4](sase-1tc.3.1.6.4.md) | 1 |
 | [bbugyi200.athena.sase-1tc.3.1.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.land/README.md) | [sase-1tc.3.1.6](sase-1tc.3.1.6.md) | 0 |
 | [bbugyi200.athena.sase-1tc.3.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tc.3.1.land.md) | [sase-1tc.3.1](sase-1tc.3.1.md) | 0 |
 | [bbugyi200.athena.sase-1tc.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.4/README.md) | [sase-1tc.4](sase-1tc.4.md) | 0 |
@@ -148,6 +148,7 @@ flowchart TD
 | sase-core | [`sase-core@98a22b7`](https://github.com/sase-org/sase-core/commit/98a22b7906f3bdcc5a9e5c293d975a9ec2c116b5) | fix(axe-chop): settle in-flight launches after cancellation | [sase-1tc.3.1.6.2](sase-1tc.3.1.6.2.md) | 2026-11-18 11:11:48 EST |
 | sase | [`4e5c1b9`](https://github.com/sase-org/sase/commit/4e5c1b9730229036faa5c1eef1029457ef36f14d) | fix(axe-chop): preserve batch claims across cancellation | [sase-1tc.3.1.6.2](sase-1tc.3.1.6.2.md) | 2026-11-18 12:08:43 EST |
 | sase | [`3c6e3a0`](https://github.com/sase-org/sase/commit/3c6e3a06c039d1032cf6043f28a7b83ff6e63ba0) | fix(axe): make batch recovery visible and durable | [sase-1tc.3.1.6.3](sase-1tc.3.1.6.3.md) | 2026-11-18 13:52:42 EST |
+| sase | [`5b08952`](https://github.com/sase-org/sase/commit/5b08952c6d8dd69b6b1731989a3580c61b3d660e) | feat(axe): re-prove chop batch recovery with production-shaped acceptance evidence | [sase-1tc.3.1.6.4](sase-1tc.3.1.6.4.md) | 2026-11-18 15:27:35 EST |
 
 <!-- sase:referenced-by:start -->
 

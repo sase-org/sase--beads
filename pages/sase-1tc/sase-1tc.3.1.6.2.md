@@ -41,10 +41,12 @@ ownership: hold batch ownership during first-run ordinary and typed dispatch, se
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1t3.10.1.land][1] | Need causal ownership of deterministic cancellation-contract test failures found by slim-list landing | 1 |
 | read-by | [agent:sase-1tc.3.1.6.2][2] | Reconfirm phase scope while diagnosing the full check failures | 4 |
-| read-by | [agent:toobig-a2.chop_batch_recovery.0][3] | Check whether the oversized proposal-launch file is owned by the active launch-ownership phase | 1 |
+| read-by | [agent:sase-1tc.3.1.6.3][3] | Need earlier phase landing evidence and current acceptance phase ownership to avoid overlap | 1 |
+| read-by | [agent:toobig-a2.chop_batch_recovery.0][4] | Check whether the oversized proposal-launch file is owned by the active launch-ownership phase | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.10.1.land.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.2/README.md
-[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-a2.chop_batch_recovery.0/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.3/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-a2.chop_batch_recovery.0/README.md
 
 <!-- sase:referenced-by:end -->

@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/chop_recovery_defects.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 4 automatic references — see [Referenced By](#referenced-by)._
+_Plus 5 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202611/chop_recovery_defects.md
 
@@ -50,11 +50,13 @@ Interrupted chop batches resume exactly the missing members with real chop linka
 | read-by | [agent:sase-1t3.10.1.land][1] | Need causal ownership of deterministic cancellation-contract test failures found by slim-list landing | 1 |
 | read-by | [agent:sase-1tc.3.1.6.1][2] | need parent epic context | 1 |
 | read-by | [agent:sase-1tc.3.1.6.2][3] | Need the epic decisions and sibling phase work before implementation | 1 |
-| read-by | [agent:toobig-a2.chop_batch_recovery.0][4] | Check whether the active chop recovery epic owns the unrelated oversized proposal-launch implementation | 1 |
+| read-by | [agent:sase-1tc.3.1.6.3][4] | Need parent epic decisions and boundaries for this phase | 1 |
+| read-by | [agent:toobig-a2.chop_batch_recovery.0][5] | Check whether the active chop recovery epic owns the unrelated oversized proposal-launch implementation | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.10.1.land.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.1/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.2/README.md
-[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-a2.chop_batch_recovery.0/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.3/README.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-a2.chop_batch_recovery.0/README.md
 
 <!-- sase:referenced-by:end -->

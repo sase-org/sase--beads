@@ -20,7 +20,7 @@ visibility: surface every recovery hold and failure, stop silent per-tick retry 
 ## Dependencies
 
 - **Depends on:** [sase-1tc.3.1.6.2](sase-1tc.3.1.6.2.md) ✓ · ⧖ 2026-11-18
-- **Blocks:** [sase-1tc.3.1.6.4](sase-1tc.3.1.6.4.md) ◐ · ⧖ 2026-11-18
+- **Blocks:** [sase-1tc.3.1.6.4](sase-1tc.3.1.6.4.md) ✓ · ⧖ 2026-11-18
 
 ## Agents
 
@@ -41,7 +41,9 @@ visibility: surface every recovery hold and failure, stop silent per-tick retry 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1tc.3.1.6.2][1] | Need the epic decisions and sibling phase work before implementation | 1 |
+| read-by | [agent:sase-1tc.3.1.6.3][2] | Need the full phase scope and notes before implementation | 4 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.2/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.3/README.md
 
 <!-- sase:referenced-by:end -->
