@@ -31,7 +31,7 @@ Every research-macro report lands in a checkout the host commits. A run that wri
 |---|---|---|---|---|---:|---:|
 | [sase-1tj.1](sase-1tj.1.md) | Resolve research paths at agent run time | ✓ closed | small | 2026-11-18 | 1 | 1 |
 | [sase-1tj.2](sase-1tj.2.md) | Flag writes the commit finalizer cannot see | ✓ closed | medium | 2026-11-18 | 1 | 1 |
-| [sase-1tj.3](sase-1tj.3.md) | Recover stranded research reports from apollo | ✓ closed | small | 2026-11-18 | 1 | 0 |
+| [sase-1tj.3](sase-1tj.3.md) | Recover stranded research reports from apollo | ✓ closed | small | 2026-11-18 | 1 | 1 |
 
 ## Lineage
 
@@ -53,7 +53,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-1tj.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tj.1/README.md) | [sase-1tj.1](sase-1tj.1.md) | 1 |
 | [bbugyi200.athena.sase-1tj.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tj.2/README.md) | [sase-1tj.2](sase-1tj.2.md) | 1 |
-| [bbugyi200.athena.sase-1tj.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tj.3/README.md) | [sase-1tj.3](sase-1tj.3.md) | 0 |
+| [bbugyi200.athena.sase-1tj.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tj.3/README.md) | [sase-1tj.3](sase-1tj.3.md) | 1 |
 | [bbugyi200.athena.sase-1tj.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tj.land/README.md) | [sase-1tj](README.md) | 0 |
 
 ## Commits
@@ -62,6 +62,7 @@ flowchart TD
 |---|---|---|---|---|
 | sase | [`03a48ab`](https://github.com/sase-org/sase/commit/03a48ab7fc25f64baf244dfef1012a5cbcc42e02) | feat(finalizers): flag writes the commit finalizer cannot see | [sase-1tj.2](sase-1tj.2.md) | 2026-11-18 12:22:39 EST |
 | sase | [`43ef590`](https://github.com/sase-org/sase/commit/43ef590bb62ec0873fda2a6e7566b2e5b8e0ad66) | docs(macros): clarify command substitution cwd behavior | [sase-1tj.1](sase-1tj.1.md) | 2026-11-18 12:48:05 EST |
+| sase--research | [`sase--research@df90f1e`](https://github.com/sase-org/sase--research/commit/df90f1ef9aff1992f65185df8ec4e176578632cc) | docs(research): recover stranded overnight\_backlog\_epic\_chains\_audit report from apollo | [sase-1tj.3](sase-1tj.3.md) | 2026-11-18 12:56:57 EST |
 
 <!-- sase:referenced-by:start -->
 
