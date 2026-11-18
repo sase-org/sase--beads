@@ -30,7 +30,13 @@ workflow-list-cutover: adapt workflow and prompt-step rows, switch TUI indexed, 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1t3.10.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.10.1.3.md) | [sase-1t3.10.1.3](sase-1t3.10.1.3.md) | 0 |
+| [bbugyi200.athena.sase-1t3.10.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.10.1.3.md) | [sase-1t3.10.1.3](sase-1t3.10.1.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`8fa9c1a`](https://github.com/sase-org/sase/commit/8fa9c1ad8bdea0abd8364a0cc65129c34e0695e3) | fix(tui): repair workflow-list-cutover regressions found by full-suite monitor | [sase-1t3.10.1.3](sase-1t3.10.1.3.md) | 2026-11-17 19:02:03 EST |
 
 <!-- sase:referenced-by:start -->
 

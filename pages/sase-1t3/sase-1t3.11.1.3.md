@@ -32,10 +32,11 @@ Both repos changed, uncommitted for the host: sase (14 files) + linked sase-core
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1t3.11.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.11.1.3/README.md) | [sase-1t3.11.1.3](sase-1t3.11.1.3.md) | 1 |
+| [bbugyi200.athena.sase-1t3.11.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.11.1.3/README.md) | [sase-1t3.11.1.3](sase-1t3.11.1.3.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@9f9341e`](https://github.com/sase-org/sase-core/commit/9f9341e55169216ecb63ab34e0bd384ff32b4126) | feat(bead): add member-targeted touch index query with streaming views fold | [sase-1t3.11.1.3](sase-1t3.11.1.3.md) | 2026-11-17 20:00:08 EST |
+| sase | [`4894d41`](https://github.com/sase-org/sase/commit/4894d4199101499cf69fa519881a909fb2825217) | feat(bead): route touch and legacy view queries through targeted Rust member queries | [sase-1t3.11.1.3](sase-1t3.11.1.3.md) | 2026-11-17 20:02:02 EST |
