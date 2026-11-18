@@ -30,3 +30,15 @@ stray-report-recovery: copy the untracked reports from apollo's primary research
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase--research | [`sase--research@df90f1e`](https://github.com/sase-org/sase--research/commit/df90f1ef9aff1992f65185df8ec4e176578632cc) | docs(research): recover stranded overnight\_backlog\_epic\_chains\_audit report from apollo | [sase-1tj.3](sase-1tj.3.md) | 2026-11-18 12:56:57 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1tj.3][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tj.3/README.md
+
+<!-- sase:referenced-by:end -->
