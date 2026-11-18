@@ -68,7 +68,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1tj.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tj.1/README.md) | [sase-1tj.1](sase-1tj.1.md) | 2 |
 | [bbugyi200.athena.sase-1tj.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tj.2/README.md) | [sase-1tj.2](sase-1tj.2.md) | 1 |
 | [bbugyi200.athena.sase-1tj.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tj.3/README.md) | [sase-1tj.3](sase-1tj.3.md) | 1 |
-| [bbugyi200.athena.sase-1tj.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tj.land.md) | [sase-1tj](README.md) | 2 |
+| [bbugyi200.athena.sase-1tj.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tj.land.md) | [sase-1tj](README.md) | 3 |
 
 ## Commits
 
@@ -80,6 +80,7 @@ flowchart TD
 | sase--research | [`sase--research@df90f1e`](https://github.com/sase-org/sase--research/commit/df90f1ef9aff1992f65185df8ec4e176578632cc) | docs(research): recover stranded overnight\_backlog\_epic\_chains\_audit report from apollo | [sase-1tj.3](sase-1tj.3.md) | 2026-11-18 12:56:57 EST |
 | sase-core | [`sase-core@7ac2081`](https://github.com/sase-org/sase-core/commit/7ac2081b30d402317f261b968934d720ab9db019) | feat(finalizer): add shared unscanned-writes coverage and repair policy | [sase-1tj](README.md) | 2026-11-18 15:46:35 EST |
 | sase | [`bd86168`](https://github.com/sase-org/sase/commit/bd8616817d90d840b68ba5858bf44af12f9d1573) | feat(finalizer): finish unscanned-writes guard with shared Rust policy | [sase-1tj](README.md) | 2026-11-18 15:47:38 EST |
+| sase--plans | [`sase--plans@78225fd`](https://github.com/sase-org/sase--plans/commit/78225fda5148b332a5baedabe821bf37ec73136b) | docs(plans): mark research\_commit\_gap done | [sase-1tj](README.md) | 2026-11-18 15:48:13 EST |
 
 <!-- sase:referenced-by:start -->
 
