@@ -72,7 +72,7 @@ sase-1t3.11 census order: ArtifactFile index (stable 47.5k), MemoryReadEvent cac
 |---|---|---|---|---|---:|---:|
 | [sase-1t3.1](sase-1t3.1.md) | Stop the hijack-decision storm | ✓ closed | medium | 2026-11-16 | 1 | 1 |
 | [sase-1t3.10](sase-1t3.10.md) | Slim list rows end to end and a one-generation snapshot cache | ◐ in_progress | large | 2026-11-16 | 1 | 0 |
-| [sase-1t3.11](sase-1t3.11.md) | Replace whole-file log caches with targeted queries | ◐ in_progress | large | 2026-11-16 | 1 | 0 |
+| [sase-1t3.11](sase-1t3.11.md) | Replace whole-file log caches with targeted queries | ✓ closed | large | 2026-11-16 | 1 | 0 |
 | [sase-1t3.12](sase-1t3.12.md) | Terminalize stale running rows in index maintenance | ✓ closed | large | 2026-11-16 | 1 | 2 |
 | [sase-1t3.13](sase-1t3.13.md) | Interaction latency after the heap shrinks | ◐ in_progress | large | 2026-11-16 | 1 | 0 |
 | [sase-1t3.14](sase-1t3.14.md) | End-to-end soak against the research baselines | ◐ in_progress | medium | 2026-11-16 | 1 | 0 |
@@ -97,14 +97,14 @@ flowchart TD
     n5["sase-1t3.10.1.2: Decode compact rows and construct ordinary agents [closed]"]
     n6["sase-1t3.10.1.3: Consume slim rows throughout TUI loading [in_progress]"]
     n7["sase-1t3.10.1.4: Bound snapshot and detail retention and measure the result [in_progress]"]
-    n8["sase-1t3.11: Replace whole-file log caches with targeted queries [in_progress]"]
-    n9["sase-1t3.11.1: Bound retained log objects with targeted backend queries [in_progress]"]
+    n8["sase-1t3.11: Replace whole-file log caches with targeted queries [closed]"]
+    n9["sase-1t3.11.1: Bound retained log objects with targeted backend queries [closed]"]
     n10["sase-1t3.11.1.1: Stream artifact-file queries before Python conversion [closed]"]
     n11["sase-1t3.11.1.2: Query memory-read history for the selected context [closed]"]
     n12["sase-1t3.11.1.3: Restrict touch queries to exact actors and session aliases [closed]"]
     n13["sase-1t3.11.1.4: Reuse targeted audit queries for artifact-read history [closed]"]
     n14["sase-1t3.11.1.5: Collect stranded facts and titles from one targeted snapshot [closed]"]
-    n15["sase-1t3.11.1.6: Verify combined heap retention and query costs [in_progress]"]
+    n15["sase-1t3.11.1.6: Verify combined heap retention and query costs [closed]"]
     n16["sase-1t3.12: Terminalize stale running rows in index maintenance [closed]"]
     n17["sase-1t3.13: Interaction latency after the heap shrinks [in_progress]"]
     n18["sase-1t3.14: End-to-end soak against the research baselines [in_progress]"]
@@ -215,7 +215,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1t3.11.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.11.1.4/README.md) | [sase-1t3.11.1.4](sase-1t3.11.1.4.md) | 2 |
 | [bbugyi200.athena.sase-1t3.11.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.11.1.5/README.md) | [sase-1t3.11.1.5](sase-1t3.11.1.5.md) | 2 |
 | [bbugyi200.athena.sase-1t3.11.1.6](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.11.1.6.md) | [sase-1t3.11.1.6](sase-1t3.11.1.6.md) | 1 |
-| [bbugyi200.athena.sase-1t3.11.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.11.1.land/README.md) | [sase-1t3.11.1](sase-1t3.11.1.md) | 0 |
+| [bbugyi200.athena.sase-1t3.11.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.11.1.land.md) | [sase-1t3.11.1](sase-1t3.11.1.md) | 1 |
 | [bbugyi200.athena.sase-1t3.12](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.12.md) | [sase-1t3.12](sase-1t3.12.md) | 2 |
 | [bbugyi200.athena.sase-1t3.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.13/README.md) | [sase-1t3.13](sase-1t3.13.md) | 0 |
 | [bbugyi200.athena.sase-1t3.14](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.14/README.md) | [sase-1t3.14](sase-1t3.14.md) | 0 |
@@ -278,6 +278,7 @@ flowchart TD
 | sase-core | [`sase-core@71c59dc`](https://github.com/sase-org/sase-core/commit/71c59dca5790d8ac7e8eab1e9c1e11f8d2ae4440) | perf(bead): add bead\_stranded\_snapshot slim projection | [sase-1t3.11.1.5](sase-1t3.11.1.5.md) | 2026-11-18 00:19:09 EST |
 | sase | [`88431ca`](https://github.com/sase-org/sase/commit/88431cab7190cf5bb3b78c6e629c4a33958d5d10) | perf(bead): read stranded report from single slim snapshot | [sase-1t3.11.1.5](sase-1t3.11.1.5.md) | 2026-11-18 00:20:52 EST |
 | sase | [`81e124e`](https://github.com/sase-org/sase/commit/81e124eca85a9f0a369fb3fb3382c18406e676bd) | perf(tui): verify bounded log retention | [sase-1t3.11.1.6](sase-1t3.11.1.6.md) | 2026-11-18 02:30:41 EST |
+| sase-core | [`sase-core@dbf3ed9`](https://github.com/sase-org/sase-core/commit/dbf3ed90cbff32c3435c986aeb2fbf78702a3001) | fix(bead): stream touch member index queries | [sase-1t3.11.1](sase-1t3.11.1.md) | 2026-11-18 03:34:30 EST |
 
 <!-- sase:referenced-by:start -->
 

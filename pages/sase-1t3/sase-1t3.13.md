@@ -15,7 +15,7 @@ interaction-pass: re-measure j/k and detail selection, then move detail-header l
 
 - **Depends on:** [sase-1t3.1](sase-1t3.1.md) ✓ · ⧖ 2026-11-16
 - **Depends on:** [sase-1t3.10](sase-1t3.10.md) ◐ · ⧖ 2026-11-16
-- **Depends on:** [sase-1t3.11](sase-1t3.11.md) ◐ · ⧖ 2026-11-16
+- **Depends on:** [sase-1t3.11](sase-1t3.11.md) ✓ · ⧖ 2026-11-16
 - **Blocks:** [sase-1t3.14](sase-1t3.14.md) ◐ · ⧖ 2026-11-16
 
 ## Agents

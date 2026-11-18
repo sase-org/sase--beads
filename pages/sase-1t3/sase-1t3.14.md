@@ -15,7 +15,7 @@ soak-verify: run a separate-instance soak with the whole epic, compare every sta
 
 - **Depends on:** [sase-1t3.1](sase-1t3.1.md) ✓ · ⧖ 2026-11-16
 - **Depends on:** [sase-1t3.10](sase-1t3.10.md) ◐ · ⧖ 2026-11-16
-- **Depends on:** [sase-1t3.11](sase-1t3.11.md) ◐ · ⧖ 2026-11-16
+- **Depends on:** [sase-1t3.11](sase-1t3.11.md) ✓ · ⧖ 2026-11-16
 - **Depends on:** [sase-1t3.12](sase-1t3.12.md) ✓ · ⧖ 2026-11-16
 - **Depends on:** [sase-1t3.13](sase-1t3.13.md) ◐ · ⧖ 2026-11-16
 - **Depends on:** [sase-1t3.2](sase-1t3.2.md) ✓ · ⧖ 2026-11-16

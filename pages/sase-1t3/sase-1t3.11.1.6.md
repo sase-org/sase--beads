@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1t3.11.1](sase-1t3.11.1.md) / sase-1t3.11.1.6
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-1t3.11](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.11.md) · **Assignee:** `sase-1t3.11.1.6` · **Size:** medium
-**Created:** 2026-11-17 12:30:57 EST
+**Created:** 2026-11-17 12:30:57 EST · **Closed:** 2026-11-18 02:31:51 EST
 **Plan:** [202611/bounded\_log\_queries.md](https://github.com/sase-org/sase--plans/blob/main/202611/bounded_log_queries.md)
 
 ## Description
@@ -31,6 +31,8 @@ Separate TUI census: temporary `sase tui -x -t agents` in tmux window @13, PID 3
 TUI runtime limits: RSS ranged 1.45–2.51 GB (last 2.28 GB); swap 0–822 MB (last 763 MB); allocated blocks 6.25–8.74M (last 7.78M). Executor: 32 configured workers, 17 threads, queue 0, never saturated. 20 generation-2 pause events ranged 0.808–2.347 s. These are whole-process heap/RSS observations, not attributable solely to the targeted caches. Host load was elevated and only sampled at evidence-recording time, so no controlled CPU comparison is claimed. The temporary @13 window and `/tmp/sase_27_retention_combined_stalls.jsonl` were stopped/removed after summarization. Full `sase tool run check` remains the final verification gate.
 
 [2026-11-18T06:58:48Z · sase-1t3.11.1.6--3] Verification recovery: required ToolRun d9ad4b37754877e9d97c9322dfc9fa0a failed the full test lane (61,862 passed, 18 skipped, 2 failed). New failure: tests/agents_sync/test_commit_publication_bounded_drain.py::test_blocked_render_with_young_index_lock_is_bounded measured 4.12s cleanup against a 2.0s assertion; test_pre_expand_parallel_no_embedded_workflows was KNOWN. The check saw host load averages 20.24/35.91/38.81 on 64 CPUs. On the unchanged tree, two focused runs of `sase tool run test -- tests/agents_sync/test_commit_publication_bounded_drain.py::test_blocked_render_with_young_index_lock_is_bounded` passed in 8.457s and 8.847s. This supports a load-sensitive failure; a fresh required `just check` is still needed to establish completion.
+
+[2026-11-18T07:31:51Z · sase-1t3.11.1.6--mon-2] Closed by explicit `sase stitch create -B close` after create_commit landed 81e124eca8 ("perf(tui): verify bounded log retention"). The commit author requested bead completion after verifying the bead scope. Reopen with `sase bead open sase-1t3.11.1.6` if more work remains.
 
 ## Dependencies
 

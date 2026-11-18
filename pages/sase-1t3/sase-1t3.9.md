@@ -65,7 +65,7 @@ Verified: tooling commit 4adc535e27, just check ToolRun bc35f3b8febac02bae0373d7
 
 - **Depends on:** [sase-1t3.1](sase-1t3.1.md) ✓ · ⧖ 2026-11-16
 - **Blocks:** [sase-1t3.10](sase-1t3.10.md) ◐ · ⧖ 2026-11-16
-- **Blocks:** [sase-1t3.11](sase-1t3.11.md) ◐ · ⧖ 2026-11-16
+- **Blocks:** [sase-1t3.11](sase-1t3.11.md) ✓ · ⧖ 2026-11-16
 - **Blocks:** [sase-1t3.14](sase-1t3.14.md) ◐ · ⧖ 2026-11-16
 - **Depends on:** [sase-1t3.2](sase-1t3.2.md) ✓ · ⧖ 2026-11-16
 - **Depends on:** [sase-1t3.3](sase-1t3.3.md) ✓ · ⧖ 2026-11-16
