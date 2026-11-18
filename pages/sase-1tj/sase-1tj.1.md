@@ -21,17 +21,28 @@ research-macro-paths: make the five research macros resolve the research checkou
 
 ## Dependencies
 
-- **Blocks:** [sase-1tj.3](sase-1tj.3.md) ◐ · ⧖ 2026-11-18
+- **Blocks:** [sase-1tj.3](sase-1tj.3.md) ✓ · ⧖ 2026-11-18
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1tj.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tj.1/README.md) | [sase-1tj.1](sase-1tj.1.md) | 2 |
+| [bbugyi200.athena.sase-1tj.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tj.1/README.md) | [sase-1tj.1](sase-1tj.1.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`43ef590`](https://github.com/sase-org/sase/commit/43ef590bb62ec0873fda2a6e7566b2e5b8e0ad66) | docs(macros): clarify command substitution cwd behavior | [sase-1tj.1](sase-1tj.1.md) | 2026-11-18 12:48:05 EST |
-| sase-research-artifacts | [`sase-research-artifacts@73b3350`](https://github.com/sase-org/sase-research-artifacts/commit/73b335096249aea1aed535c2f2f76c712a4230a7) | fix(research): resolve checkout paths at agent runtime | [sase-1tj.1](sase-1tj.1.md) | 2026-11-18 12:48:55 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1tj.1][1] | Check whether earlier phase work left notes or remaining-work guidance | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tj.1/README.md
+
+<!-- sase:referenced-by:end -->
