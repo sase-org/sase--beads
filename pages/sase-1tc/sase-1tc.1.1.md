@@ -49,13 +49,7 @@ Fix sase-1tc.1 and sase-1sn while preserving authored commands, macro expansion,
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1tc.1.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tc.1.1.land.md) | [sase-1tc.1.1](sase-1tc.1.1.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase | [`4b9513e`](https://github.com/sase-org/sase/commit/4b9513e3f4775d753cf48d1c8e67699f1abb8e07) | feat(macro): finish command-substitution provenance landing | [sase-1tc.1.1](sase-1tc.1.1.md) | 2026-11-17 20:47:31 EST |
+| [bbugyi200.athena.sase-1tc.1.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tc.1.1.land.md) | [sase-1tc.1.1](sase-1tc.1.1.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
