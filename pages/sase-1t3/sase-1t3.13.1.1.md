@@ -91,7 +91,7 @@ Clean-tree `test_bench_clan_jk_at_each_panel_fold_level` fails at the final stal
 
 - **Blocks:** [sase-1t3.13.1.2](sase-1t3.13.1.2.md) ◐ · ⧖ 2026-11-18
 - **Blocks:** [sase-1t3.13.1.3](sase-1t3.13.1.3.md) ✓ · ⧖ 2026-11-18
-- **Blocks:** [sase-1t3.13.1.4](sase-1t3.13.1.4.md) ◐ · ⧖ 2026-11-18
+- **Blocks:** [sase-1t3.13.1.4](sase-1t3.13.1.4.md) ✓ · ⧖ 2026-11-18
 
 ## Agents
 
