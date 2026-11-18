@@ -96,7 +96,7 @@ flowchart TD
     n4["sase-1t3.10.1.1: Add compact list contracts and Rust bindings [closed]"]
     n5["sase-1t3.10.1.2: Decode compact rows and construct ordinary agents [closed]"]
     n6["sase-1t3.10.1.3: Consume slim rows throughout TUI loading [closed]"]
-    n7["sase-1t3.10.1.4: Bound snapshot and detail retention and measure the result [in_progress]"]
+    n7["sase-1t3.10.1.4: Bound snapshot and detail retention and measure the result [closed]"]
     n8["sase-1t3.11: Replace whole-file log caches with targeted queries [closed]"]
     n9["sase-1t3.11.1: Bound retained log objects with targeted backend queries [closed]"]
     n10["sase-1t3.11.1.1: Stream artifact-file queries before Python conversion [closed]"]
@@ -207,7 +207,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1t3.10.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.10.1.2/README.md) | [sase-1t3.10.1.2](sase-1t3.10.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1t3.10.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.10.1.3.md) | [sase-1t3.10.1.3](sase-1t3.10.1.3.md) | 1 |
 | [bbugyi200.athena.sase-1t3.10.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.10.1.4.md) | [sase-1t3.10.1.4](sase-1t3.10.1.4.md) | 1 |
-| [bbugyi200.athena.sase-1t3.10.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.10.1.land/README.md) | [sase-1t3.10.1](sase-1t3.10.1.md) | 0 |
+| [bbugyi200.athena.sase-1t3.10.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.10.1.land/README.md) | [sase-1t3.10.1](sase-1t3.10.1.md) | 1 |
 | [bbugyi200.athena.sase-1t3.11](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.11.md) | [sase-1t3.11](sase-1t3.11.md) | 0 |
 | [bbugyi200.athena.sase-1t3.11.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.11.1.1/README.md) | [sase-1t3.11.1.1](sase-1t3.11.1.1.md) | 2 |
 | [bbugyi200.athena.sase-1t3.11.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.11.1.2.md) | [sase-1t3.11.1.2](sase-1t3.11.1.2.md) | 3 |
@@ -281,6 +281,7 @@ flowchart TD
 | sase-core | [`sase-core@dbf3ed9`](https://github.com/sase-org/sase-core/commit/dbf3ed90cbff32c3435c986aeb2fbf78702a3001) | fix(bead): stream touch member index queries | [sase-1t3.11.1](sase-1t3.11.1.md) | 2026-11-18 03:34:30 EST |
 | sase--plans | [`sase--plans@958e382`](https://github.com/sase-org/sase--plans/commit/958e382253f6acb3de32531f3568d7ebe5134964) | chore(plan): mark bounded log query epic complete | [sase-1t3.11.1](sase-1t3.11.1.md) | 2026-11-18 03:35:51 EST |
 | sase | [`fbc1e34`](https://github.com/sase-org/sase/commit/fbc1e34fbcc4dc7b7636bd10fc02b4f791991830) | perf(tui): bound snapshot and detail retention to one compact generation | [sase-1t3.10.1.4](sase-1t3.10.1.4.md) | 2026-11-18 11:07:35 EST |
+| sase | [`fbfaf07`](https://github.com/sase-org/sase/commit/fbfaf07123b790738caf0bf203b3f3d3711aa374) | refactor(agent-scan): retire unused compact-list landing APIs | [sase-1t3.10.1](sase-1t3.10.1.md) | 2026-11-18 12:57:07 EST |
 
 <!-- sase:referenced-by:start -->
 

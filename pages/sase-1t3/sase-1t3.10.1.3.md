@@ -26,7 +26,7 @@ workflow-list-cutover: adapt workflow and prompt-step rows, switch TUI indexed, 
 ## Dependencies
 
 - **Depends on:** [sase-1t3.10.1.2](sase-1t3.10.1.2.md) ✓ · ⧖ 2026-11-17
-- **Blocks:** [sase-1t3.10.1.4](sase-1t3.10.1.4.md) ◐ · ⧖ 2026-11-17
+- **Blocks:** [sase-1t3.10.1.4](sase-1t3.10.1.4.md) ✓ · ⧖ 2026-11-17
 
 ## Agents
 

@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1t3.10.1](sase-1t3.10.1.md) / sase-1t3.10.1.4
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-1t3.10](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.10.md) · **Assignee:** `sase-1t3.10.1.4` · **Size:** medium
-**Created:** 2026-11-17 12:28:10 EST
+**Created:** 2026-11-17 12:28:10 EST · **Closed:** 2026-11-18 11:10:34 EST
 **Plan:** [202611/slim\_agent\_list\_rows.md](https://github.com/sase-org/sase--plans/blob/main/202611/slim_agent_list_rows.md)
 
 ## Description
@@ -29,6 +29,8 @@ Measurements (identical fixture workload, /tmp/measure_retention.py, 200 compact
 - decode 5x200 rows: before 1.61s / after 1.55s (load path unchanged).
 Real-data smoke (separate process, completed tree, real 375MB index): cold Tier-1 2.03s, warm 0.27-0.39s (25/50 rows); after 10 alternating refreshes cache holds 1 entry/103 records; 7 real rows hydrated with owner size 2 and zero retained full records; RSS 64 -> 242.8MB across loads, flat across hydration. gen-2 pause timing not sampled headless; interactive j/k responsiveness is deferred to the sase-1t3.14 soak, which owns it.
 Gate: sase tool run check lint stages all green incl. symvision; diff-scoped test lane joined to monitor for completion.
+
+[2026-11-18T16:10:34Z · sase-1t3.10.1.4--1] Verified: sase tool run check green (lint incl. symvision + diff-scoped test lane); one-generation compact cache and bounded selected-detail owner covered by tests/ace/tui/models/test_projected_detail_retention.py and the before/after measurements in the bead land-evidence note.
 
 ## Dependencies
 
