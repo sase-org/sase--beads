@@ -20,7 +20,7 @@ scalar-row-adapters: advance the sase core source pin, add thin Python compact-w
 ## Dependencies
 
 - **Depends on:** [sase-1t3.10.1.1](sase-1t3.10.1.1.md) ✓ · ⧖ 2026-11-17
-- **Blocks:** [sase-1t3.10.1.3](sase-1t3.10.1.3.md) ◐ · ⧖ 2026-11-17
+- **Blocks:** [sase-1t3.10.1.3](sase-1t3.10.1.3.md) ✓ · ⧖ 2026-11-17
 
 ## Agents
 

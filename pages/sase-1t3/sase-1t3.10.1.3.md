@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1t3.10.1](sase-1t3.10.1.md) / sase-1t3.10.1.3
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-1t3.10](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.10.md) · **Assignee:** `sase-1t3.10.1.3` · **Size:** medium
-**Created:** 2026-11-17 12:28:10 EST
+**Created:** 2026-11-17 12:28:10 EST · **Closed:** 2026-11-18 09:43:18 EST
 **Plan:** [202611/slim\_agent\_list\_rows.md](https://github.com/sase-org/sase--plans/blob/main/202611/slim_agent_list_rows.md)
 
 ## Description
@@ -20,6 +20,8 @@ workflow-list-cutover: adapt workflow and prompt-step rows, switch TUI indexed, 
 [2026-11-17T22:39:14Z · sase-1t3.10.1.3] WORKFLOW-LIST-CUTOVER COMPLETE, CLOSE BLOCKED ON DEFAULT-BRANCH LANDING: all phase scope is implemented and verified (see bead notes). sase bead epic-symbols is clean in this tree: 10 of 12 rows resolved (6 wired to production consumers, 4 same-file helpers privatized per hierarchy), 2 orphans (query_agent_artifact_index_list, scan_agent_artifact_dir_list) re-keyed to parent epic sase-1t3.10.1. sase bead close still refuses because the guard unions the working tree with origin/master, which still carries 1.2s 12 landed rows keyed to this bead; no working-tree edit can clear that union. UNBLOCK: after this turns stitch merges to the default branch (removal lands), re-run sase bead epic-symbols sase-1t3.10.1.3 and close. Full-suite gate: just check escalated to FULL_SUITE on overloaded host; run 424711b1b121f30e2f3ca775d70ba5fb joined to monitor dya8zw (staged fd98f51d). All phase-named suites verified green inline; only gate item is KNOWN MemoryAuditRow, already fixed upstream by cd0b9c5.
 
 [2026-11-17T23:21:54Z · sase-1t3.10.1.3--1] Monitor triage fix-forward: full-suite run 424711b1b121f30e2f3ca775d70ba5fb showed 28 failures (23 NEW per triage). Root causes fixed in working tree: (1) oracle compared full ScanWire via compact loader - switched source_scan to scan_agent_artifacts_list and index paths to query_agent_artifact_index_list in tests/perf/_agent_load_tiering_oracle.py; (2) bench stub referenced removed scan_agent_artifact_dirs - updated tests/ace/tui/bench_prompt_bar_keys.py to stub scan_agent_artifacts_list/scan_agent_artifact_dirs_list with empty list snapshot (fixes 7 hot_spare + 1 perf smoke); (3) eager wait_epic_follow_view import in _compact_meta_enrichment.py broke deferred-module budget - made lazy; (4) marker audits needed new reviewed entries for _release_stale_compact_running_home_marker and _compact_monitor_supervisor_identity; (5) footprint baseline bumped 11,824,514 -> 11,920,681 (cap 11,924,777) for intentional +54,655 compact-loader closure. Verified: marker audits 5 passed, harness+projection 4 passed, production_oracle 12 passed, hot_spare+perf smoke 12 passed, compact/integration 44 passed, import budget 11 passed, ruff clean, mypy clean for touched src, symvision clean for loaders dir. Full just check not rerun inline (51min); land agent should rerun gate. -r monitor triage fix-forward verification
+
+[2026-11-18T14:43:18Z · sase-1t3.10.1.3] Confirmed workflow-list-cutover implementation is on master: be6adc20d0 and regression-fix 8fa9c1ad8b are ancestors of HEAD, and the working tree is clean. Prior phase verification records passing marker-audit, harness/projection, oracle, hot-spare/perf-smoke, compact/integration, import-budget, Ruff, mypy, and Symvision checks; the full just check was not rerun after fix-forward and remains for the land agent. epic-symbols is clean with no remaining entries.
 
 ## Dependencies
 
