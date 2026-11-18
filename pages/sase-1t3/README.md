@@ -201,7 +201,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1t3.10](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.10.md) | [sase-1t3.10](sase-1t3.10.md) | 0 |
 | [bbugyi200.athena.sase-1t3.10.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.10.1.1/README.md) | [sase-1t3.10.1.1](sase-1t3.10.1.1.md) | 1 |
 | [bbugyi200.athena.sase-1t3.10.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.10.1.2/README.md) | [sase-1t3.10.1.2](sase-1t3.10.1.2.md) | 1 |
-| [bbugyi200.athena.sase-1t3.10.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.10.1.3/README.md) | [sase-1t3.10.1.3](sase-1t3.10.1.3.md) | 0 |
+| [bbugyi200.athena.sase-1t3.10.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.10.1.3.md) | [sase-1t3.10.1.3](sase-1t3.10.1.3.md) | 1 |
 | [bbugyi200.athena.sase-1t3.10.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.10.1.4/README.md) | [sase-1t3.10.1.4](sase-1t3.10.1.4.md) | 0 |
 | [bbugyi200.athena.sase-1t3.10.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.10.1.land/README.md) | [sase-1t3.10.1](sase-1t3.10.1.md) | 0 |
 | [bbugyi200.athena.sase-1t3.11](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.11.md) | [sase-1t3.11](sase-1t3.11.md) | 0 |
@@ -266,6 +266,7 @@ flowchart TD
 | sase | [`1c626f3`](https://github.com/sase-org/sase/commit/1c626f39e5a40ede6de4c7d60082f1e46d193ecd) | feat(memory-reads): query memory audit log with targeted Rust backend | [sase-1t3.11.1.2](sase-1t3.11.1.2.md) | 2026-11-17 15:39:07 EST |
 | sase | [`be6adc2`](https://github.com/sase-org/sase/commit/be6adc20d0926f49055094192a1a36f08356f029) | feat(agent-scan): add compact scalar-row list adapters with parity and guards | [sase-1t3.10.1.2](sase-1t3.10.1.2.md) | 2026-11-17 15:47:30 EST |
 | sase | [`cd0b9c5`](https://github.com/sase-org/sase/commit/cd0b9c52733af177af29cadf61c6cde474b6340c) | fix(memory-reads): privatize audit row per symvision unused-public hierarchy | [sase-1t3.11.1.2](sase-1t3.11.1.2.md) | 2026-11-17 17:23:59 EST |
+| sase | [`8fa9c1a`](https://github.com/sase-org/sase/commit/8fa9c1ad8bdea0abd8364a0cc65129c34e0695e3) | fix(tui): repair workflow-list-cutover regressions found by full-suite monitor | [sase-1t3.10.1.3](sase-1t3.10.1.3.md) | 2026-11-17 19:02:03 EST |
 
 <!-- sase:referenced-by:start -->
 

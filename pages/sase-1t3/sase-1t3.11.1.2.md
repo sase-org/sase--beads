@@ -39,3 +39,15 @@ memory_reads: add the Rust streamed audit-query contract and memory decoder, swi
 | sase-core | [`sase-core@c5e60d7`](https://github.com/sase-org/sase-core/commit/c5e60d78575b50b8eefd1b2881e6fac2b8768f55) | feat(audit-query): add targeted memory audit query over JSONL | [sase-1t3.11.1.2](sase-1t3.11.1.2.md) | 2026-11-17 15:37:19 EST |
 | sase | [`1c626f3`](https://github.com/sase-org/sase/commit/1c626f39e5a40ede6de4c7d60082f1e46d193ecd) | feat(memory-reads): query memory audit log with targeted Rust backend | [sase-1t3.11.1.2](sase-1t3.11.1.2.md) | 2026-11-17 15:39:07 EST |
 | sase | [`cd0b9c5`](https://github.com/sase-org/sase/commit/cd0b9c52733af177af29cadf61c6cde474b6340c) | fix(memory-reads): privatize audit row per symvision unused-public hierarchy | [sase-1t3.11.1.2](sase-1t3.11.1.2.md) | 2026-11-17 17:23:59 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1t3.11.1.2--2][1] | check phase bead status for monitor handoff close-out | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.11.1.2.md
+
+<!-- sase:referenced-by:end -->
