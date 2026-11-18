@@ -25,6 +25,10 @@ _Plus 1 automatic references — see [Referenced By](#referenced-by)._
 
 The five most important unowned task beads are fixed and closed: model output can never run host $(cmd), host finalizer failures never re-run an agent, a scheduler stop never silently drops a chop's launch batch, beads.db has one SQLite library owner per process, and check-run triage attaches the owning task bead. The lander then continues the backlog chain with the next five beads.
 
+## Notes
+
+[2026-11-18T09:40:38Z · sase-1tc.3.1.3--3] DISCOVERED ISSUE: While recovering phase sase-1tc.3.1.3, ToolRun ad627b9af9e24daebcb010e105f90945 failed tests/llm_provider/test_commit_finalizer_auto_sdd_status.py::test_auto_commit_git_runner_recovers_stale_index_lock in the full 14-worker check. Triage labeled it NEW with no owner even though it shares the aged .git/index.lock recovery path tracked by ready task sase-1kr; I recorded this independent reproduction there. The same node passed unchanged in focused ToolRun 03a698314138047be3a67e857c073538. This is direct evidence for phase sase-1tc.5's exact-node/location owner-matching scope.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -49,7 +53,7 @@ flowchart TD
     n7["sase-1tc.3: A scheduler stop never silently drops a chop's launch batch (sase-1c2) [in_progress]"]
     n8["sase-1tc.3.1: Resume interrupted chop launch batches without duplicates [in_progress]"]
     n9["sase-1tc.3.1.1: Define and persist the crash-safe chop batch contract [closed]"]
-    n10["sase-1tc.3.1.2: Journal ordinary launches at each spawn boundary [in_progress]"]
+    n10["sase-1tc.3.1.2: Journal ordinary launches at each spawn boundary [closed]"]
     n11["sase-1tc.3.1.3: Attach typed admission to the durable chop batch [in_progress]"]
     n12["sase-1tc.3.1.4: Resume unfinished batches and honor clan kills [in_progress]"]
     n13["sase-1tc.3.1.5: Prove process-stop recovery and record disposable acceptance [in_progress]"]
@@ -95,7 +99,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1tc.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tc.3.md) | [sase-1tc.3](sase-1tc.3.md) | 0 |
 | [bbugyi200.athena.sase-1tc.3.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.1/README.md) | [sase-1tc.3.1.1](sase-1tc.3.1.1.md) | 2 |
 | [bbugyi200.athena.sase-1tc.3.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tc.3.1.2.md) | [sase-1tc.3.1.2](sase-1tc.3.1.2.md) | 1 |
-| [bbugyi200.athena.sase-1tc.3.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.3/README.md) | [sase-1tc.3.1.3](sase-1tc.3.1.3.md) | 0 |
+| [bbugyi200.athena.sase-1tc.3.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tc.3.1.3.md) | [sase-1tc.3.1.3](sase-1tc.3.1.3.md) | 1 |
 | [bbugyi200.athena.sase-1tc.3.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.4/README.md) | [sase-1tc.3.1.4](sase-1tc.3.1.4.md) | 0 |
 | [bbugyi200.athena.sase-1tc.3.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.5/README.md) | [sase-1tc.3.1.5](sase-1tc.3.1.5.md) | 0 |
 | [bbugyi200.athena.sase-1tc.3.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.land/README.md) | [sase-1tc.3.1](sase-1tc.3.1.md) | 0 |
@@ -115,6 +119,7 @@ flowchart TD
 | sase-core | [`sase-core@6cd9a0c`](https://github.com/sase-org/sase-core/commit/6cd9a0c2898850c8a81e90a23aca489cd742ba26) | feat(axe-chop): versioned crash-safe chop batch contract | [sase-1tc.3.1.1](sase-1tc.3.1.1.md) | 2026-11-17 21:17:51 EST |
 | sase | [`c6b6da1`](https://github.com/sase-org/sase/commit/c6b6da1d2ca5dcbeebae8fab0beacb4f180ca345) | feat(axe): crash-safe chop batch store and facade | [sase-1tc.3.1.1](sase-1tc.3.1.1.md) | 2026-11-17 21:19:41 EST |
 | sase | [`558fbd1`](https://github.com/sase-org/sase/commit/558fbd127f0ea0f7b83c771dca98849da132590b) | feat(axe): journal ordinary chop launches at spawn boundaries | [sase-1tc.3.1.2](sase-1tc.3.1.2.md) | 2026-11-18 02:48:14 EST |
+| sase | [`3cf982b`](https://github.com/sase-org/sase/commit/3cf982bdff43f5ab232c668bf0a1770d9a77644a) | feat(axe): attach typed admission to durable chop batches | [sase-1tc.3.1.3](sase-1tc.3.1.3.md) | 2026-11-18 04:56:41 EST |
 
 <!-- sase:referenced-by:start -->
 

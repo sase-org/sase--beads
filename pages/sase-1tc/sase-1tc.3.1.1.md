@@ -23,7 +23,7 @@ journal: implement Rust batch wire types and reconciliation rules, registered Py
 
 ## Dependencies
 
-- **Blocks:** [sase-1tc.3.1.2](sase-1tc.3.1.2.md) ◐ · ⧖ 2026-11-17
+- **Blocks:** [sase-1tc.3.1.2](sase-1tc.3.1.2.md) ✓ · ⧖ 2026-11-17
 
 ## Agents
 

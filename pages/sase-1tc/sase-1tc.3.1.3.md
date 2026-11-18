@@ -13,11 +13,17 @@ typed_launch: link each batch to its existing typed admission bundle before disp
 
 ## Dependencies
 
-- **Depends on:** [sase-1tc.3.1.2](sase-1tc.3.1.2.md) ◐ · ⧖ 2026-11-17
+- **Depends on:** [sase-1tc.3.1.2](sase-1tc.3.1.2.md) ✓ · ⧖ 2026-11-17
 - **Blocks:** [sase-1tc.3.1.4](sase-1tc.3.1.4.md) ◐ · ⧖ 2026-11-17
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1tc.3.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.3/README.md) | [sase-1tc.3.1.3](sase-1tc.3.1.3.md) | 0 |
+| [bbugyi200.athena.sase-1tc.3.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tc.3.1.3.md) | [sase-1tc.3.1.3](sase-1tc.3.1.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`3cf982b`](https://github.com/sase-org/sase/commit/3cf982bdff43f5ab232c668bf0a1770d9a77644a) | feat(axe): attach typed admission to durable chop batches | [sase-1tc.3.1.3](sase-1tc.3.1.3.md) | 2026-11-18 04:56:41 EST |
