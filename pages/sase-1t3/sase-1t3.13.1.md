@@ -7,6 +7,18 @@
 **Created:** 2026-11-18 15:37:13 EST
 **Plan:** [202611/interaction\_latency.md](https://github.com/sase-org/sase--plans/blob/main/202611/interaction_latency.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202611/interaction_latency.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/sase-org/sase--plans/blob/main/202611/interaction_latency.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 Make selection, detail enrichment, and small roster updates responsive without rebuilding or retaining unrelated agent data.

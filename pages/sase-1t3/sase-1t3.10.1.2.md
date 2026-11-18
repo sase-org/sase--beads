@@ -43,6 +43,7 @@ scalar-row-adapters: advance the sase core source pin, add thin Python compact-w
 | read-by | [agent:1dr--1][1] | Confirm compact-adapter phase introduced the unreviewed running-marker mutation site before routing the audit failure | 1 |
 | read-by | [agent:sase-1t3.10.1.2][2] | Need the phase scope and design file | 1 |
 | read-by | [agent:sase-1t3.10.1.land][3] | Need the child scope and notes | 1 |
+| read-by | [agent:sase-1t3.10.1.land--1][3] | Review child phase notes and follow-up dispositions before landing closeout | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.1dr.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.10.1.2/README.md

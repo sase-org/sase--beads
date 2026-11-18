@@ -56,6 +56,7 @@ Gate: sase tool run check lint stages all green incl. symvision; diff-scoped tes
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1t3.10.1.3--1][1] | check next phase status for re-key | 1 |
 | read-by | [agent:sase-1t3.10.1.land][2] | Need the complete retention evidence and all notes | 2 |
+| read-by | [agent:sase-1t3.10.1.land--1][2] | Review child phase notes and follow-up dispositions before landing closeout | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.10.1.3.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.10.1.land.md

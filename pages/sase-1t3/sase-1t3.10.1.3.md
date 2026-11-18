@@ -49,6 +49,7 @@ workflow-list-cutover: adapt workflow and prompt-step rows, switch TUI indexed, 
 | read-by | [agent:sase-1t3.10.1.2][1] | check sibling progress to avoid duplicate work | 1 |
 | read-by | [agent:sase-1t3.10.1.3--1][2] | Need phase scope and design for triage of monitor failure | 2 |
 | read-by | [agent:sase-1t3.10.1.land][3] | Need the child scope and notes | 1 |
+| read-by | [agent:sase-1t3.10.1.land--1][3] | Review child phase notes and follow-up dispositions before landing closeout | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.10.1.2/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.10.1.3.md

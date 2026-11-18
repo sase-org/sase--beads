@@ -36,6 +36,7 @@ slim-list-rows: return and consume a slim list DTO from sase-core instead of inf
 | read-by | [agent:ef][1] | Confirm slim-list-rows dependencies for conflict report recommendation | 2 |
 | read-by | [agent:sase-1t3.10.1.1][2] | Need parent epic DECISIONS that this phase must honor | 2 |
 | read-by | [agent:sase-1t3.10.1.land][3] | Need delegated parent phase scope and notes | 1 |
+| read-by | [agent:sase-1t3.10.1.land--1][3] | Verify the auto-closed parent phase and its notes before recording final landing verification | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.ef/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.10.1.1/README.md

@@ -18,7 +18,7 @@
 | related | file:explicit:390183b0f5d7c729aaa2f505 | attached via sase artifact create --bead |
 | related | file:explicit:b20e7bc07e4622a2fb08abb5 | attached via sase artifact create --bead |
 
-_Plus 5 automatic references — see [Referenced By](#referenced-by)._
+_Plus 6 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202611/slim_agent_list_rows.md
 [2]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-1ti/README.md
@@ -77,6 +77,7 @@ Complete sase-1t3.10 with compact Rust list projections, selected-only detail hy
 | read-by | [agent:sase-1t3.10.1.2][3] | need epic plan scope | 1 |
 | read-by | [agent:sase-1t3.10.1.3--1][4] | check parent epic status for re-key | 1 |
 | read-by | [agent:sase-1t3.10.1.land][5] | Need the epic scope, children, and linked plan file | 1 |
+| read-by | [agent:sase-1t3.10.1.land--1][5] | Review the landing phase requirements and its current notes before closing it | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.1dr.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.10.1.1/README.md
