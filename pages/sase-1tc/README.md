@@ -47,8 +47,14 @@ flowchart TD
     n5["sase-1tc.1.1.3: Preserve provenance across every workflow rendering route [closed]"]
     n6["sase-1tc.2: Provider retry never re-runs an agent for a host finalizer failure (sase-1he) [closed]"]
     n7["sase-1tc.3: A scheduler stop never silently drops a chop's launch batch (sase-1c2) [in_progress]"]
-    n8["sase-1tc.4: beads.db has one SQLite library owner per process (sase-1kp) [in_progress]"]
-    n9["sase-1tc.5: Failure triage attaches the owning task bead (sase-1ha) [in_progress]"]
+    n8["sase-1tc.3.1: Resume interrupted chop launch batches without duplicates [in_progress]"]
+    n9["sase-1tc.3.1.1: Define and persist the crash-safe chop batch contract [in_progress]"]
+    n10["sase-1tc.3.1.2: Journal ordinary launches at each spawn boundary [in_progress]"]
+    n11["sase-1tc.3.1.3: Attach typed admission to the durable chop batch [in_progress]"]
+    n12["sase-1tc.3.1.4: Resume unfinished batches and honor clan kills [in_progress]"]
+    n13["sase-1tc.3.1.5: Prove process-stop recovery and record disposable acceptance [in_progress]"]
+    n14["sase-1tc.4: beads.db has one SQLite library owner per process (sase-1kp) [in_progress]"]
+    n15["sase-1tc.5: Failure triage attaches the owning task bead (sase-1ha) [in_progress]"]
     n0 --> n1
     n1 --> n2
     n2 --> n3
@@ -56,14 +62,24 @@ flowchart TD
     n2 --> n5
     n0 --> n6
     n0 --> n7
-    n0 --> n8
-    n0 --> n9
+    n7 --> n8
+    n8 --> n9
+    n8 --> n10
+    n8 --> n11
+    n8 --> n12
+    n8 --> n13
+    n0 --> n14
+    n0 --> n15
     n1 -.-> n6
     n3 -.-> n4
     n4 -.-> n5
     n6 -.-> n7
-    n7 -.-> n8
-    n8 -.-> n9
+    n7 -.-> n14
+    n9 -.-> n10
+    n10 -.-> n11
+    n11 -.-> n12
+    n12 -.-> n13
+    n14 -.-> n15
 ```
 
 ## Agents
@@ -74,9 +90,15 @@ flowchart TD
 | [bbugyi200.athena.sase-1tc.1.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.1.1.1/README.md) | [sase-1tc.1.1.1](sase-1tc.1.1.1.md) | 1 |
 | [bbugyi200.athena.sase-1tc.1.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tc.1.1.2.md) | [sase-1tc.1.1.2](sase-1tc.1.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1tc.1.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tc.1.1.3.md) | [sase-1tc.1.1.3](sase-1tc.1.1.3.md) | 1 |
-| [bbugyi200.athena.sase-1tc.1.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tc.1.1.land.md) | [sase-1tc.1.1](sase-1tc.1.1.md) | 0 |
+| [bbugyi200.athena.sase-1tc.1.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tc.1.1.land.md) | [sase-1tc.1.1](sase-1tc.1.1.md) | 1 |
 | [bbugyi200.athena.sase-1tc.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.2/README.md) | [sase-1tc.2](sase-1tc.2.md) | 1 |
-| [bbugyi200.athena.sase-1tc.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3/README.md) | [sase-1tc.3](sase-1tc.3.md) | 0 |
+| [bbugyi200.athena.sase-1tc.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tc.3.md) | [sase-1tc.3](sase-1tc.3.md) | 0 |
+| [bbugyi200.athena.sase-1tc.3.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.1/README.md) | [sase-1tc.3.1.1](sase-1tc.3.1.1.md) | 0 |
+| [bbugyi200.athena.sase-1tc.3.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.2/README.md) | [sase-1tc.3.1.2](sase-1tc.3.1.2.md) | 0 |
+| [bbugyi200.athena.sase-1tc.3.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.3/README.md) | [sase-1tc.3.1.3](sase-1tc.3.1.3.md) | 0 |
+| [bbugyi200.athena.sase-1tc.3.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.4/README.md) | [sase-1tc.3.1.4](sase-1tc.3.1.4.md) | 0 |
+| [bbugyi200.athena.sase-1tc.3.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.5/README.md) | [sase-1tc.3.1.5](sase-1tc.3.1.5.md) | 0 |
+| [bbugyi200.athena.sase-1tc.3.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.land/README.md) | [sase-1tc.3.1](sase-1tc.3.1.md) | 0 |
 | [bbugyi200.athena.sase-1tc.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.4/README.md) | [sase-1tc.4](sase-1tc.4.md) | 0 |
 | [bbugyi200.athena.sase-1tc.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.5/README.md) | [sase-1tc.5](sase-1tc.5.md) | 0 |
 | [bbugyi200.athena.sase-1tc.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.land/README.md) | [sase-1tc](README.md) | 0 |
@@ -89,6 +111,7 @@ flowchart TD
 | sase | [`efc66a4`](https://github.com/sase-org/sase/commit/efc66a420b8c738e52cefa4f04bc28eec0031132) | feat(macro): evaluate authored commands before interpolating data | [sase-1tc.1.1.2](sase-1tc.1.1.2.md) | 2026-11-17 15:12:16 EST |
 | sase | [`8165695`](https://github.com/sase-org/sase/commit/81656950c684d2c5fb4722439331993b79c6008c) | feat(macro): preserve provenance across workflow rendering routes | [sase-1tc.1.1.3](sase-1tc.1.1.3.md) | 2026-11-17 16:54:05 EST |
 | sase | [`07aedfc`](https://github.com/sase-org/sase/commit/07aedfc8ca479b7142c05610eebfab193e352137) | fix(llm\_provider): skip agent retry on host finalizer failures | [sase-1tc.2](sase-1tc.2.md) | 2026-11-17 19:03:29 EST |
+| sase | [`4b9513e`](https://github.com/sase-org/sase/commit/4b9513e3f4775d753cf48d1c8e67699f1abb8e07) | feat(macro): finish command-substitution provenance landing | [sase-1tc.1.1](sase-1tc.1.1.md) | 2026-11-17 20:47:31 EST |
 
 <!-- sase:referenced-by:start -->
 

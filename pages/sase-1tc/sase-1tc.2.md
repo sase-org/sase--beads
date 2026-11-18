@@ -35,3 +35,15 @@ retry_scope: type host finalizer and publish failures so provider retry patterns
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`07aedfc`](https://github.com/sase-org/sase/commit/07aedfc8ca479b7142c05610eebfab193e352137) | fix(llm\_provider): skip agent retry on host finalizer failures | [sase-1tc.2](sase-1tc.2.md) | 2026-11-17 19:03:29 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1tc.2][1] | need phase notes | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.2/README.md
+
+<!-- sase:referenced-by:end -->
