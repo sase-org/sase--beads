@@ -15,6 +15,8 @@ chop_launch: journal in-flight chop launch batches and resume them idempotently 
 
 [2026-11-18T00:13:46Z · sase-1tc.3] Planning evidence: inspected sase 07aedfc8ca and linked sase-core c5e60d78; phase had no prior work notes and no epic-symbol entries. Existing ordinary clan launch records batch results only after the multi-prompt call returns. Side-effect-free injected SystemExit(143) after 2/4 simulated spawns yielded zero batch progress callbacks; no real agents or runtime state were changed. Typed admission already has durable unit journals but needs original-bundle linkage and startup recovery. Authored and twice validated a five-phase sequential child epic (journal, ordinary_launch, typed_launch, recovery, acceptance), parent_bead=sase-1tc.3, including explicit clan-generation cancellation and a disposable subprocess stop/resume demonstration. Submitting through sase plan propose; implementation and closure remain for approved child work and its land agent.
 
+[2026-11-18T11:55:58Z · sase-1tc.3.1.5] TASK RESOLVED: sase-1c2 — Added isolated subprocess coverage for ordinary and typed chop batch restart recovery, kill boundaries, SIGTERM pause, cancellation, notices, and idempotent restart; fixed recovery ownership and clan cancellation races. Focused regressions: 89 passed. Manual demo: spawn-before-ack SIGKILL recovered the remaining 3 of 4 exactly once, then a second restart launched 0; cancellation demo retained cancelled state and removed the launch receipt. Full sase tool run check ba8ef87f6437b5613155426b30e3979a passed.
+
 ## Dependencies
 
 - **Depends on:** [sase-1tc.2](sase-1tc.2.md) ✓ · ⧖ 2026-11-17

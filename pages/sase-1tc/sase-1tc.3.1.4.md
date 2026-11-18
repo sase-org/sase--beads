@@ -18,7 +18,7 @@ recovery: reconcile pending batches before routine guards, thread shutdown throu
 ## Dependencies
 
 - **Depends on:** [sase-1tc.3.1.3](sase-1tc.3.1.3.md) ✓ · ⧖ 2026-11-17
-- **Blocks:** [sase-1tc.3.1.5](sase-1tc.3.1.5.md) ◐ · ⧖ 2026-11-17
+- **Blocks:** [sase-1tc.3.1.5](sase-1tc.3.1.5.md) ✓ · ⧖ 2026-11-17
 
 ## Agents
 
