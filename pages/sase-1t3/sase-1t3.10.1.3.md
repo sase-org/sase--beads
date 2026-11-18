@@ -30,13 +30,7 @@ workflow-list-cutover: adapt workflow and prompt-step rows, switch TUI indexed, 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1t3.10.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.10.1.3.md) | [sase-1t3.10.1.3](sase-1t3.10.1.3.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase | [`8fa9c1a`](https://github.com/sase-org/sase/commit/8fa9c1ad8bdea0abd8364a0cc65129c34e0695e3) | fix(tui): repair workflow-list-cutover regressions found by full-suite monitor | [sase-1t3.10.1.3](sase-1t3.10.1.3.md) | 2026-11-17 19:02:03 EST |
+| [bbugyi200.athena.sase-1t3.10.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.10.1.3.md) | [sase-1t3.10.1.3](sase-1t3.10.1.3.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
@@ -45,7 +39,9 @@ workflow-list-cutover: adapt workflow and prompt-step rows, switch TUI indexed, 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1t3.10.1.2][1] | check sibling progress to avoid duplicate work | 1 |
+| read-by | [agent:sase-1t3.10.1.3--1][2] | Need phase scope and design for triage of monitor failure | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.10.1.2/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.10.1.3.md
 
 <!-- sase:referenced-by:end -->

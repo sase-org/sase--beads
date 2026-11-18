@@ -20,3 +20,15 @@ bounded-retention: retain one compact artifact snapshot generation, release obso
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1t3.10.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.10.1.4/README.md) | [sase-1t3.10.1.4](sase-1t3.10.1.4.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1t3.10.1.3--1][1] | check next phase status for re-key | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.10.1.3.md
+
+<!-- sase:referenced-by:end -->

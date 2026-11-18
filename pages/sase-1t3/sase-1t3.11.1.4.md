@@ -13,7 +13,7 @@ artifact_reads: extend the audit-query contract to artifact events, remove the f
 
 ## Dependencies
 
-- **Depends on:** [sase-1t3.11.1.3](sase-1t3.11.1.3.md) ◐ · ⧖ 2026-11-17
+- **Depends on:** [sase-1t3.11.1.3](sase-1t3.11.1.3.md) ✓ · ⧖ 2026-11-17
 - **Blocks:** [sase-1t3.11.1.5](sase-1t3.11.1.5.md) ◐ · ⧖ 2026-11-17
 
 ## Agents

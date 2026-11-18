@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/slim_agent_list_rows.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202611/slim_agent_list_rows.md
 
@@ -46,9 +46,11 @@ Complete sase-1t3.10 with compact Rust list projections, selected-only detail hy
 | read-by | [agent:1dr--1][1] | Confirm causal ownership of the compact running-marker audit failure and existing import-footprint report | 1 |
 | read-by | [agent:sase-1t3.10.1.1][2] | Need parent epic decisions and phase list for slim-core-contract | 2 |
 | read-by | [agent:sase-1t3.10.1.2][3] | need epic plan scope | 1 |
+| read-by | [agent:sase-1t3.10.1.3--1][4] | check parent epic status for re-key | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.1dr.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.10.1.1/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.10.1.2/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.10.1.3.md
 
 <!-- sase:referenced-by:end -->
