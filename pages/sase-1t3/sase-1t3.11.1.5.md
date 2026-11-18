@@ -26,10 +26,11 @@ stranded_reports: remeasure the indexed bead reader, eliminate repeated candidat
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1t3.11.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.11.1.5/README.md) | [sase-1t3.11.1.5](sase-1t3.11.1.5.md) | 1 |
+| [bbugyi200.athena.sase-1t3.11.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.11.1.5/README.md) | [sase-1t3.11.1.5](sase-1t3.11.1.5.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@71c59dc`](https://github.com/sase-org/sase-core/commit/71c59dca5790d8ac7e8eab1e9c1e11f8d2ae4440) | perf(bead): add bead\_stranded\_snapshot slim projection | [sase-1t3.11.1.5](sase-1t3.11.1.5.md) | 2026-11-18 00:19:09 EST |
+| sase | [`88431ca`](https://github.com/sase-org/sase/commit/88431cab7190cf5bb3b78c6e629c4a33958d5d10) | perf(bead): read stranded report from single slim snapshot | [sase-1t3.11.1.5](sase-1t3.11.1.5.md) | 2026-11-18 00:20:52 EST |
