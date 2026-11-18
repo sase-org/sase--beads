@@ -31,6 +31,8 @@ The five most important unowned task beads are fixed and closed: model output ca
 
 [2026-11-18T15:38:19Z · ex.f0] DISCOVERED ISSUE: efc66a420b (sase-1tc.1.1.2) makes #research name the PRIMARY research checkout, so reports land outside the commit finalizer's scan and are silently never committed. Cause: macro bodies now run their own $(...) during expansion (src/sase/macro/_processor_render.py:123). The runner expands macros (run_agent_runner_bootstrap.py:442) before it enters the workspace (:448). With no workspace marker in cwd, `sase repo path research --ensure` (sase-research-artifacts xprompts/research.md:39) falls back to workspace #0 (repo_handler_common.py:87-89). Before efc66, $(...) ran at the provider call inside the workspace. Impact on apollo: 0 of 96 #research runs Nov 15 to Nov 17 14:28 named the primary path; all 24 from Nov 17 15:30 did (sase, bob-cli, tailnet). Of those, 7 committed (the agent wrote into a checkout it had opened) and 11 finished with no research commit. Concrete case: agent ex (run 20261118095611) opened research at its workspace clone, but wrote 202611/overnight_backlog_epic_chains_audit.md to the primary checkout. The clone stayed clean, so final context was not_triggered / submission_required=false and the commit finalizer reported success with empty evidence. The file is still untracked in the primary. Suggested fix: resolve launch-time macro commands inside the claimed workspace, or pass the runner's workspace number to `sase repo path`. A finalize-time check for untracked writes outside scanned repos would also have caught it (see related sase-1g1). Report: research:202611/research_report_finalized_without_commit.md (file:explicit:6c500d0b78ec209c6a77680b).
 
+[2026-11-18T18:03:15Z · sase-1tj.land] DISCOVERED ISSUE: sase-1tj.1 note #1 proposes resolving the general launch-time cwd hazard caused by efc66a420b (sase-1tc.1.1.2). Landing review at fbfaf07123 confirms _processor_render.py executes eligible macro-body commands while run_agent_runner_bootstrap.py calls preprocess_prompt_macros before enter_agent_workspace; repo_handler_common.resolve_list_workspace_num returns workspace 0 without a matching marker. Research-specific macros are fixed in plugin 73b3350, but other authored cwd-sensitive commands still see the launch cwd. Please evaluate entering an already-known workspace before expansion or preserving source provenance while deferring execution until after claim, including deferred launches. Routed here via /sase_new_task; same causal issue as note #2, not a duplicate task or a request to weaken the cmdsub trust model.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -62,7 +64,7 @@ flowchart TD
     n14["sase-1tc.3.1.6: Make chop batch recovery correct against production evidence [in_progress]"]
     n15["sase-1tc.3.1.6.1: Reconcile spawn evidence by run linkage and replay with the original launch context [closed]"]
     n16["sase-1tc.3.1.6.2: Single executor ownership, crossing cancellation and consistent claims [closed]"]
-    n17["sase-1tc.3.1.6.3: Visible holds, bounded retention, complete clan-kill coverage and per-episode notices [in_progress]"]
+    n17["sase-1tc.3.1.6.3: Visible holds, bounded retention, complete clan-kill coverage and per-episode notices [closed]"]
     n18["sase-1tc.3.1.6.4: Re-prove recovery with production-shaped evidence and record corrected acceptance [in_progress]"]
     n19["sase-1tc.4: beads.db has one SQLite library owner per process (sase-1kp) [in_progress]"]
     n20["sase-1tc.5: Failure triage attaches the owning task bead (sase-1ha) [in_progress]"]
@@ -119,7 +121,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1tc.3.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.5/README.md) | [sase-1tc.3.1.5](sase-1tc.3.1.5.md) | 1 |
 | [bbugyi200.athena.sase-1tc.3.1.6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.1/README.md) | [sase-1tc.3.1.6.1](sase-1tc.3.1.6.1.md) | 1 |
 | [bbugyi200.athena.sase-1tc.3.1.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.2/README.md) | [sase-1tc.3.1.6.2](sase-1tc.3.1.6.2.md) | 2 |
-| [bbugyi200.athena.sase-1tc.3.1.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.3/README.md) | [sase-1tc.3.1.6.3](sase-1tc.3.1.6.3.md) | 0 |
+| [bbugyi200.athena.sase-1tc.3.1.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.3/README.md) | [sase-1tc.3.1.6.3](sase-1tc.3.1.6.3.md) | 1 |
 | [bbugyi200.athena.sase-1tc.3.1.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.4/README.md) | [sase-1tc.3.1.6.4](sase-1tc.3.1.6.4.md) | 0 |
 | [bbugyi200.athena.sase-1tc.3.1.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.land/README.md) | [sase-1tc.3.1.6](sase-1tc.3.1.6.md) | 0 |
 | [bbugyi200.athena.sase-1tc.3.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tc.3.1.land.md) | [sase-1tc.3.1](sase-1tc.3.1.md) | 0 |
@@ -145,6 +147,7 @@ flowchart TD
 | sase | [`6026cc1`](https://github.com/sase-org/sase/commit/6026cc1182910ec2cde1c5392ec66c91356cced7) | feat(axe): chop batch recovery via run-linkage spawn matching | [sase-1tc.3.1.6.1](sase-1tc.3.1.6.1.md) | 2026-11-18 08:00:32 EST |
 | sase-core | [`sase-core@98a22b7`](https://github.com/sase-org/sase-core/commit/98a22b7906f3bdcc5a9e5c293d975a9ec2c116b5) | fix(axe-chop): settle in-flight launches after cancellation | [sase-1tc.3.1.6.2](sase-1tc.3.1.6.2.md) | 2026-11-18 11:11:48 EST |
 | sase | [`4e5c1b9`](https://github.com/sase-org/sase/commit/4e5c1b9730229036faa5c1eef1029457ef36f14d) | fix(axe-chop): preserve batch claims across cancellation | [sase-1tc.3.1.6.2](sase-1tc.3.1.6.2.md) | 2026-11-18 12:08:43 EST |
+| sase | [`3c6e3a0`](https://github.com/sase-org/sase/commit/3c6e3a06c039d1032cf6043f28a7b83ff6e63ba0) | fix(axe): make batch recovery visible and durable | [sase-1tc.3.1.6.3](sase-1tc.3.1.6.3.md) | 2026-11-18 13:52:42 EST |
 
 <!-- sase:referenced-by:start -->
 

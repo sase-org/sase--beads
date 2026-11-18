@@ -13,7 +13,7 @@ acceptance: rerun the subprocess harness with real chop linkage records and name
 
 ## Dependencies
 
-- **Depends on:** [sase-1tc.3.1.6.3](sase-1tc.3.1.6.3.md) ◐ · ⧖ 2026-11-18
+- **Depends on:** [sase-1tc.3.1.6.3](sase-1tc.3.1.6.3.md) ✓ · ⧖ 2026-11-18
 
 ## Agents
 
