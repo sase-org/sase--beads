@@ -54,8 +54,8 @@ flowchart TD
     n8["sase-1tc.3.1: Resume interrupted chop launch batches without duplicates [in_progress]"]
     n9["sase-1tc.3.1.1: Define and persist the crash-safe chop batch contract [closed]"]
     n10["sase-1tc.3.1.2: Journal ordinary launches at each spawn boundary [closed]"]
-    n11["sase-1tc.3.1.3: Attach typed admission to the durable chop batch [in_progress]"]
-    n12["sase-1tc.3.1.4: Resume unfinished batches and honor clan kills [in_progress]"]
+    n11["sase-1tc.3.1.3: Attach typed admission to the durable chop batch [closed]"]
+    n12["sase-1tc.3.1.4: Resume unfinished batches and honor clan kills [closed]"]
     n13["sase-1tc.3.1.5: Prove process-stop recovery and record disposable acceptance [in_progress]"]
     n14["sase-1tc.4: beads.db has one SQLite library owner per process (sase-1kp) [in_progress]"]
     n15["sase-1tc.5: Failure triage attaches the owning task bead (sase-1ha) [in_progress]"]
@@ -100,7 +100,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1tc.3.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.1/README.md) | [sase-1tc.3.1.1](sase-1tc.3.1.1.md) | 2 |
 | [bbugyi200.athena.sase-1tc.3.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tc.3.1.2.md) | [sase-1tc.3.1.2](sase-1tc.3.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1tc.3.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tc.3.1.3.md) | [sase-1tc.3.1.3](sase-1tc.3.1.3.md) | 1 |
-| [bbugyi200.athena.sase-1tc.3.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.4/README.md) | [sase-1tc.3.1.4](sase-1tc.3.1.4.md) | 0 |
+| [bbugyi200.athena.sase-1tc.3.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tc.3.1.4.md) | [sase-1tc.3.1.4](sase-1tc.3.1.4.md) | 1 |
 | [bbugyi200.athena.sase-1tc.3.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.5/README.md) | [sase-1tc.3.1.5](sase-1tc.3.1.5.md) | 0 |
 | [bbugyi200.athena.sase-1tc.3.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.land/README.md) | [sase-1tc.3.1](sase-1tc.3.1.md) | 0 |
 | [bbugyi200.athena.sase-1tc.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.4/README.md) | [sase-1tc.4](sase-1tc.4.md) | 0 |
@@ -120,6 +120,7 @@ flowchart TD
 | sase | [`c6b6da1`](https://github.com/sase-org/sase/commit/c6b6da1d2ca5dcbeebae8fab0beacb4f180ca345) | feat(axe): crash-safe chop batch store and facade | [sase-1tc.3.1.1](sase-1tc.3.1.1.md) | 2026-11-17 21:19:41 EST |
 | sase | [`558fbd1`](https://github.com/sase-org/sase/commit/558fbd127f0ea0f7b83c771dca98849da132590b) | feat(axe): journal ordinary chop launches at spawn boundaries | [sase-1tc.3.1.2](sase-1tc.3.1.2.md) | 2026-11-18 02:48:14 EST |
 | sase | [`3cf982b`](https://github.com/sase-org/sase/commit/3cf982bdff43f5ab232c668bf0a1770d9a77644a) | feat(axe): attach typed admission to durable chop batches | [sase-1tc.3.1.3](sase-1tc.3.1.3.md) | 2026-11-18 04:56:41 EST |
+| sase | [`b8c9f6c`](https://github.com/sase-org/sase/commit/b8c9f6c6aa101546a21539dcafc17b20ccdcdaf5) | feat(axe): add chop batch pause-resume recovery, clan cancellation, and durable notices | [sase-1tc.3.1.4](sase-1tc.3.1.4.md) | 2026-11-18 05:54:13 EST |
 
 <!-- sase:referenced-by:start -->
 

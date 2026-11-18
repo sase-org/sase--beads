@@ -13,7 +13,7 @@ acceptance: exercise process-death windows, repeated restart, cancellation and n
 
 ## Dependencies
 
-- **Depends on:** [sase-1tc.3.1.4](sase-1tc.3.1.4.md) ◐ · ⧖ 2026-11-17
+- **Depends on:** [sase-1tc.3.1.4](sase-1tc.3.1.4.md) ✓ · ⧖ 2026-11-17
 
 ## Agents
 

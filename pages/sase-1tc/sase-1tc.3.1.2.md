@@ -20,7 +20,7 @@ ordinary_launch: persist accepted concrete plans before dispatch and record ordi
 ## Dependencies
 
 - **Depends on:** [sase-1tc.3.1.1](sase-1tc.3.1.1.md) ✓ · ⧖ 2026-11-17
-- **Blocks:** [sase-1tc.3.1.3](sase-1tc.3.1.3.md) ◐ · ⧖ 2026-11-17
+- **Blocks:** [sase-1tc.3.1.3](sase-1tc.3.1.3.md) ✓ · ⧖ 2026-11-17
 
 ## Agents
 
