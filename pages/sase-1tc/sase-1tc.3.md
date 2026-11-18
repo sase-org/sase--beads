@@ -37,7 +37,9 @@ chop_launch: journal in-flight chop launch batches and resume them idempotently 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1tc.3.1.5][1] | Need parent phase context before recording the required TASK RESOLVED acceptance evidence | 1 |
+| read-by | [agent:sase-1tc.3.1.6.2][2] | Review the prior TASK RESOLVED evidence before adding the superseding production-shaped evidence | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.5/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.2/README.md
 
 <!-- sase:referenced-by:end -->

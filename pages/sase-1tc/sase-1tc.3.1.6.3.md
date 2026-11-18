@@ -21,3 +21,15 @@ visibility: surface every recovery hold and failure, stop silent per-tick retry 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1tc.3.1.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.3/README.md) | [sase-1tc.3.1.6.3](sase-1tc.3.1.6.3.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1tc.3.1.6.2][1] | Need the epic decisions and sibling phase work before implementation | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.2/README.md
+
+<!-- sase:referenced-by:end -->

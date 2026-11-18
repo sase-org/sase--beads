@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/chop_launch_recovery.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202611/chop_launch_recovery.md
 
@@ -44,7 +44,9 @@ Scheduler and service-host stops preserve every accepted chop launch, resume its
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1tc.3.1.1][1] | parent epic context | 1 |
+| read-by | [agent:sase-1tc.3.1.6.2][2] | Need the parent epic decisions and landing context | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.2/README.md
 
 <!-- sase:referenced-by:end -->

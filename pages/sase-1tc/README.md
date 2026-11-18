@@ -118,7 +118,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1tc.3.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tc.3.1.4.md) | [sase-1tc.3.1.4](sase-1tc.3.1.4.md) | 1 |
 | [bbugyi200.athena.sase-1tc.3.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.5/README.md) | [sase-1tc.3.1.5](sase-1tc.3.1.5.md) | 1 |
 | [bbugyi200.athena.sase-1tc.3.1.6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.1/README.md) | [sase-1tc.3.1.6.1](sase-1tc.3.1.6.1.md) | 1 |
-| [bbugyi200.athena.sase-1tc.3.1.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.2/README.md) | [sase-1tc.3.1.6.2](sase-1tc.3.1.6.2.md) | 1 |
+| [bbugyi200.athena.sase-1tc.3.1.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.2/README.md) | [sase-1tc.3.1.6.2](sase-1tc.3.1.6.2.md) | 2 |
 | [bbugyi200.athena.sase-1tc.3.1.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.3/README.md) | [sase-1tc.3.1.6.3](sase-1tc.3.1.6.3.md) | 0 |
 | [bbugyi200.athena.sase-1tc.3.1.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.4/README.md) | [sase-1tc.3.1.6.4](sase-1tc.3.1.6.4.md) | 0 |
 | [bbugyi200.athena.sase-1tc.3.1.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.land/README.md) | [sase-1tc.3.1.6](sase-1tc.3.1.6.md) | 0 |
@@ -144,6 +144,7 @@ flowchart TD
 | sase | [`0747964`](https://github.com/sase-org/sase/commit/07479640e2f1949fbc787892920f0bf2955a203a) | feat(axe): recover interrupted chop batches | [sase-1tc.3.1.5](sase-1tc.3.1.5.md) | 2026-11-18 06:57:37 EST |
 | sase | [`6026cc1`](https://github.com/sase-org/sase/commit/6026cc1182910ec2cde1c5392ec66c91356cced7) | feat(axe): chop batch recovery via run-linkage spawn matching | [sase-1tc.3.1.6.1](sase-1tc.3.1.6.1.md) | 2026-11-18 08:00:32 EST |
 | sase-core | [`sase-core@98a22b7`](https://github.com/sase-org/sase-core/commit/98a22b7906f3bdcc5a9e5c293d975a9ec2c116b5) | fix(axe-chop): settle in-flight launches after cancellation | [sase-1tc.3.1.6.2](sase-1tc.3.1.6.2.md) | 2026-11-18 11:11:48 EST |
+| sase | [`4e5c1b9`](https://github.com/sase-org/sase/commit/4e5c1b9730229036faa5c1eef1029457ef36f14d) | fix(axe-chop): preserve batch claims across cancellation | [sase-1tc.3.1.6.2](sase-1tc.3.1.6.2.md) | 2026-11-18 12:08:43 EST |
 
 <!-- sase:referenced-by:start -->
 

@@ -20,3 +20,15 @@ acceptance: rerun the subprocess harness with real chop linkage records and name
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1tc.3.1.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.4/README.md) | [sase-1tc.3.1.6.4](sase-1tc.3.1.6.4.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1tc.3.1.6.2][1] | Need the epic decisions and sibling phase work before implementation | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.2/README.md
+
+<!-- sase:referenced-by:end -->

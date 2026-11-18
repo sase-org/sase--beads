@@ -24,13 +24,14 @@ ownership: hold batch ownership during first-run ordinary and typed dispatch, se
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1tc.3.1.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.2/README.md) | [sase-1tc.3.1.6.2](sase-1tc.3.1.6.2.md) | 1 |
+| [bbugyi200.athena.sase-1tc.3.1.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.2/README.md) | [sase-1tc.3.1.6.2](sase-1tc.3.1.6.2.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@98a22b7`](https://github.com/sase-org/sase-core/commit/98a22b7906f3bdcc5a9e5c293d975a9ec2c116b5) | fix(axe-chop): settle in-flight launches after cancellation | [sase-1tc.3.1.6.2](sase-1tc.3.1.6.2.md) | 2026-11-18 11:11:48 EST |
+| sase | [`4e5c1b9`](https://github.com/sase-org/sase/commit/4e5c1b9730229036faa5c1eef1029457ef36f14d) | fix(axe-chop): preserve batch claims across cancellation | [sase-1tc.3.1.6.2](sase-1tc.3.1.6.2.md) | 2026-11-18 12:08:43 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -38,8 +39,10 @@ ownership: hold batch ownership during first-run ordinary and typed dispatch, se
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:toobig-a2.chop_batch_recovery.0][1] | Check whether the oversized proposal-launch file is owned by the active launch-ownership phase | 1 |
+| read-by | [agent:sase-1tc.3.1.6.2][1] | Reconfirm phase scope while diagnosing the full check failures | 4 |
+| read-by | [agent:toobig-a2.chop_batch_recovery.0][2] | Check whether the oversized proposal-launch file is owned by the active launch-ownership phase | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-a2.chop_batch_recovery.0/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.2/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-a2.chop_batch_recovery.0/README.md
 
 <!-- sase:referenced-by:end -->
