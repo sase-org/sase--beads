@@ -26,3 +26,15 @@ unscanned-write-guard: add a shared detector for run writes and registered artif
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`03a48ab`](https://github.com/sase-org/sase/commit/03a48ab7fc25f64baf244dfef1012a5cbcc42e02) | feat(finalizers): flag writes the commit finalizer cannot see | [sase-1tj.2](sase-1tj.2.md) | 2026-11-18 12:22:39 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1tj.2][1] | Need notes and full bead context | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tj.2/README.md
+
+<!-- sase:referenced-by:end -->

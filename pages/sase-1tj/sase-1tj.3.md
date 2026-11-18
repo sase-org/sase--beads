@@ -13,7 +13,7 @@ stray-report-recovery: copy the untracked reports from apollo's primary research
 
 ## Dependencies
 
-- **Depends on:** [sase-1tj.1](sase-1tj.1.md) ◐ · ⧖ 2026-11-18
+- **Depends on:** [sase-1tj.1](sase-1tj.1.md) ✓ · ⧖ 2026-11-18
 
 ## Agents
 
