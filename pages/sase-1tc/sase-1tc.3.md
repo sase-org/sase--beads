@@ -13,7 +13,7 @@ chop_launch: journal in-flight chop launch batches and resume them idempotently 
 
 ## Dependencies
 
-- **Depends on:** [sase-1tc.2](sase-1tc.2.md) ◐ · ⧖ 2026-11-17
+- **Depends on:** [sase-1tc.2](sase-1tc.2.md) ✓ · ⧖ 2026-11-17
 - **Blocks:** [sase-1tc.4](sase-1tc.4.md) ◐ · ⧖ 2026-11-17
 
 ## Agents

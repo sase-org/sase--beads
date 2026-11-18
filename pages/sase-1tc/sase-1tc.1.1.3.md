@@ -42,7 +42,9 @@ workflow_routes: migrate all prompt rendering callers, remove context-value plac
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1tc.1.1.2--1][1] | Check if later phase touched same files | 1 |
+| read-by | [agent:sase-1tc.1.1.3--1][2] | Need the phase scope and design file for close verification | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tc.1.1.2.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tc.1.1.3.md
 
 <!-- sase:referenced-by:end -->

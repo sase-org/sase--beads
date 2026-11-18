@@ -29,8 +29,8 @@ The five most important unowned task beads are fixed and closed: model output ca
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-1tc.1](sase-1tc.1.md) | Model output never reaches host $(cmd) (sase-1sn) | ◐ in_progress | large | 2026-11-17 | 1 | 0 |
-| [sase-1tc.2](sase-1tc.2.md) | Provider retry never re-runs an agent for a host finalizer failure (sase-1he) | ◐ in_progress | medium | 2026-11-17 | 1 | 0 |
+| [sase-1tc.1](sase-1tc.1.md) | Model output never reaches host $(cmd) (sase-1sn) | ✓ closed | large | 2026-11-17 | 1 | 0 |
+| [sase-1tc.2](sase-1tc.2.md) | Provider retry never re-runs an agent for a host finalizer failure (sase-1he) | ✓ closed | medium | 2026-11-17 | 1 | 1 |
 | [sase-1tc.3](sase-1tc.3.md) | A scheduler stop never silently drops a chop's launch batch (sase-1c2) | ◐ in_progress | large | 2026-11-17 | 1 | 0 |
 | [sase-1tc.4](sase-1tc.4.md) | beads.db has one SQLite library owner per process (sase-1kp) | ◐ in_progress | large | 2026-11-17 | 1 | 0 |
 | [sase-1tc.5](sase-1tc.5.md) | Failure triage attaches the owning task bead (sase-1ha) | ◐ in_progress | large | 2026-11-17 | 1 | 0 |
@@ -40,12 +40,12 @@ The five most important unowned task beads are fixed and closed: model output ca
 ```mermaid
 flowchart TD
     n0["sase-1tc: Backlog epic 1: cmdsub safety, honest retries, durable chop launches, one beads.db owner, triage owners [in_progress]"]
-    n1["sase-1tc.1: Model output never reaches host $(cmd) (sase-1sn) [in_progress]"]
-    n2["sase-1tc.1.1: Keep workflow data out of host command substitution [in_progress]"]
+    n1["sase-1tc.1: Model output never reaches host $(cmd) (sase-1sn) [closed]"]
+    n2["sase-1tc.1.1: Keep workflow data out of host command substitution [closed]"]
     n3["sase-1tc.1.1.1: Rust-owned command substitution source policy [closed]"]
     n4["sase-1tc.1.1.2: Evaluate authored commands before interpolating data [closed]"]
     n5["sase-1tc.1.1.3: Preserve provenance across every workflow rendering route [closed]"]
-    n6["sase-1tc.2: Provider retry never re-runs an agent for a host finalizer failure (sase-1he) [in_progress]"]
+    n6["sase-1tc.2: Provider retry never re-runs an agent for a host finalizer failure (sase-1he) [closed]"]
     n7["sase-1tc.3: A scheduler stop never silently drops a chop's launch batch (sase-1c2) [in_progress]"]
     n8["sase-1tc.4: beads.db has one SQLite library owner per process (sase-1kp) [in_progress]"]
     n9["sase-1tc.5: Failure triage attaches the owning task bead (sase-1ha) [in_progress]"]
@@ -74,8 +74,8 @@ flowchart TD
 | [bbugyi200.athena.sase-1tc.1.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.1.1.1/README.md) | [sase-1tc.1.1.1](sase-1tc.1.1.1.md) | 1 |
 | [bbugyi200.athena.sase-1tc.1.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tc.1.1.2.md) | [sase-1tc.1.1.2](sase-1tc.1.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1tc.1.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tc.1.1.3.md) | [sase-1tc.1.1.3](sase-1tc.1.1.3.md) | 1 |
-| [bbugyi200.athena.sase-1tc.1.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.1.1.land/README.md) | [sase-1tc.1.1](sase-1tc.1.1.md) | 0 |
-| [bbugyi200.athena.sase-1tc.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.2/README.md) | [sase-1tc.2](sase-1tc.2.md) | 0 |
+| [bbugyi200.athena.sase-1tc.1.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tc.1.1.land.md) | [sase-1tc.1.1](sase-1tc.1.1.md) | 0 |
+| [bbugyi200.athena.sase-1tc.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.2/README.md) | [sase-1tc.2](sase-1tc.2.md) | 1 |
 | [bbugyi200.athena.sase-1tc.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3/README.md) | [sase-1tc.3](sase-1tc.3.md) | 0 |
 | [bbugyi200.athena.sase-1tc.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.4/README.md) | [sase-1tc.4](sase-1tc.4.md) | 0 |
 | [bbugyi200.athena.sase-1tc.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.5/README.md) | [sase-1tc.5](sase-1tc.5.md) | 0 |
@@ -88,6 +88,7 @@ flowchart TD
 | sase-core | [`sase-core@1191f9a`](https://github.com/sase-org/sase-core/commit/1191f9a68e76b0c49d7da8768b7cf161edd42b1a) | feat: add prompt command-substitution source policy | [sase-1tc.1.1.1](sase-1tc.1.1.1.md) | 2026-11-17 12:22:29 EST |
 | sase | [`efc66a4`](https://github.com/sase-org/sase/commit/efc66a420b8c738e52cefa4f04bc28eec0031132) | feat(macro): evaluate authored commands before interpolating data | [sase-1tc.1.1.2](sase-1tc.1.1.2.md) | 2026-11-17 15:12:16 EST |
 | sase | [`8165695`](https://github.com/sase-org/sase/commit/81656950c684d2c5fb4722439331993b79c6008c) | feat(macro): preserve provenance across workflow rendering routes | [sase-1tc.1.1.3](sase-1tc.1.1.3.md) | 2026-11-17 16:54:05 EST |
+| sase | [`07aedfc`](https://github.com/sase-org/sase/commit/07aedfc8ca479b7142c05610eebfab193e352137) | fix(llm\_provider): skip agent retry on host finalizer failures | [sase-1tc.2](sase-1tc.2.md) | 2026-11-17 19:03:29 EST |
 
 <!-- sase:referenced-by:start -->
 
