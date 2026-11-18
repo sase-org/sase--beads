@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1t3.10](sase-1t3.10.md) / sase-1t3.10.1
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-1t3.10](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.10.md) · **Assignee:** `sase-1t3.10.1.land`
-**Created:** 2026-11-17 12:28:09 EST
+**Created:** 2026-11-17 12:28:09 EST · **Closed:** 2026-11-18 15:29:04 EST
 **Plan:** [202611/slim\_agent\_list\_rows.md](https://github.com/sase-org/sase--plans/blob/main/202611/slim_agent_list_rows.md)
 
 <!-- sase:links:start -->
@@ -18,7 +18,7 @@
 | related | file:explicit:390183b0f5d7c729aaa2f505 | attached via sase artifact create --bead |
 | related | file:explicit:b20e7bc07e4622a2fb08abb5 | attached via sase artifact create --bead |
 
-_Plus 4 automatic references — see [Referenced By](#referenced-by)._
+_Plus 5 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202611/slim_agent_list_rows.md
 [2]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-1ti/README.md
@@ -47,17 +47,22 @@ Complete sase-1t3.10 with compact Rust list projections, selected-only detail hy
 
 [2026-11-18T17:55:26Z · sase-1t3.10.1.land] LANDER FINAL VERIFICATION AND DRIFT: 38 focused compact wire/row/workflow/retention/marker tests passed. Required just check ToolRun 6b3ba7450a20b7f13a341f55e64a1f40 exited 1: every lint/validation stage including Symvision passed, then the expanded nonvisual suite reported 61918 passed, 18 skipped and four cancellation failures. All four reproduced serially (4 failed in 6.77s), evidence file:explicit:5a1946d926ef97e2b7ce4d60. They paired primary fbc1e34fbc with newly built linked core 98a22b79. Fresh upstream review through 43ef590bb6 found companion 4e5c1b9730 already updates all four exact assertions and pins that core revision; do not reverse the intended skipped/cancelled and crossing-launch settlement semantics. Via /sase_new_task, corroborated existing tasks sase-1tl and sase-1tm and recorded the causal diagnosis on active epic sase-1tc.3.1.6; no new tasks. Reviewed six post-audit upstream commits (chop recovery/contract, repository-integration split, finalizer visibility, TUI update wait notices, cmdsub docs): no additional compact consumers or changes to remaining repair boundaries. The four local epic-symbol exemptions are removed and git diff --check is clean; upstream-only exemptions disappear when this lander cleanup commits. Epic remains open for the documented retention/compact-contract/cache defects. A validated medium tale will implement only that remaining work and finish this epic plus parent phase sase-1t3.10 in its own coding turn.
 
+[2026-11-18T20:29:04Z · sase-1t3.10.1.land--1] LANDING CLOSEOUT 2026-11-18: compact list and bounded retention scope is complete. Primary just check ToolRun 4bd12aac194f3924f3fc6b2cc899973d passed with exit 0, including scoped tests. Linked core ToolRun 3d6acab87f4dfae7c457a427680ac5aa passed with exit 0 after updating a stale fixture that expected arbitrary meta_keep to survive; its final triage verdict is pass. The earlier core run 58c91f6c9c3126f8776dd196a6fe8c01 exposed that assertion; the repaired fixtures preserve meta_patch and prove prompt/workflow metadata stays deferred. Core check retained a non-failing baseline-file lookup diagnostic. Separate Python process smoke used the real Tier-1 index: 605 compact rows among 641 rows, selected detail hydrated and released, 4.233 s, and detail owner size 0 after release. The index change
+
+… and 1133 more characters
+
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1t3.10.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.10.1.land/README.md) | [sase-1t3.10.1](sase-1t3.10.1.md) | 1 |
+| [bbugyi200.athena.sase-1t3.10.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.10.1.land.md) | [sase-1t3.10.1](sase-1t3.10.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`fbfaf07`](https://github.com/sase-org/sase/commit/fbfaf07123b790738caf0bf203b3f3d3711aa374) | refactor(agent-scan): retire unused compact-list landing APIs | [sase-1t3.10.1](sase-1t3.10.1.md) | 2026-11-18 12:57:07 EST |
+| sase-core | [`sase-core@9a87b5b`](https://github.com/sase-org/sase-core/commit/9a87b5bd86d2c1336fe18dbf413b49e5906e304d) | feat(agent-scan): preserve monitor identity in compact rows | [sase-1t3.10.1](sase-1t3.10.1.md) | 2026-11-18 15:54:55 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -69,10 +74,12 @@ Complete sase-1t3.10 with compact Rust list projections, selected-only detail hy
 | read-by | [agent:sase-1t3.10.1.1][2] | Need parent epic decisions and phase list for slim-core-contract | 2 |
 | read-by | [agent:sase-1t3.10.1.2][3] | need epic plan scope | 1 |
 | read-by | [agent:sase-1t3.10.1.3--1][4] | check parent epic status for re-key | 1 |
+| read-by | [agent:sase-1t3.10.1.land][5] | Need the epic scope, children, and linked plan file | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.1dr.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.10.1.1/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.10.1.2/README.md
 [4]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.10.1.3.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.10.1.land.md
 
 <!-- sase:referenced-by:end -->

@@ -61,8 +61,10 @@ NEXT PHASE: no production caller until sase-core-revision.txt contains this comm
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1t3.10.1.1][1] | Need current phase scope, notes, and status before finishing remaining verification | 7 |
 | read-by | [agent:sase-1t3.10.1.2][2] | need prior phase contract output | 1 |
+| read-by | [agent:sase-1t3.10.1.land][3] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.10.1.1/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.10.1.2/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.10.1.land.md
 
 <!-- sase:referenced-by:end -->

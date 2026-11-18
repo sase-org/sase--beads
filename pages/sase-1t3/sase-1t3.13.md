@@ -11,10 +11,14 @@
 
 interaction-pass: re-measure j/k and detail selection, then move detail-header lanes off the pump with per-agent caches and keep `,j` on the highlight path. Make clan runtime aggregation, delta-load graph copies, and bead-confirmation warmups proportional to changed or visible rows.
 
+## Notes
+
+[2026-11-18T20:52:35Z · sase-1t3.13.1.1] Baseline sase-1t3.13.1.1 landed on sase-1t3.13.1.1: steady-state j/k already satisfied (p95 ~10-12ms < 16ms); detail-selection, unread-jump, runtime-tick, exact-delta-copy, bead-warmup remain with measured evidence. Commands, fixture params, and JSON evidence in the phase bead note. One clean-tree PROPOSED FOLLOW-UP: clan fold bench stall-log gate trips on prompt_activity initial event.
+
 ## Dependencies
 
 - **Depends on:** [sase-1t3.1](sase-1t3.1.md) ✓ · ⧖ 2026-11-16
-- **Depends on:** [sase-1t3.10](sase-1t3.10.md) ◐ · ⧖ 2026-11-16
+- **Depends on:** [sase-1t3.10](sase-1t3.10.md) ✓ · ⧖ 2026-11-16
 - **Depends on:** [sase-1t3.11](sase-1t3.11.md) ✓ · ⧖ 2026-11-16
 - **Blocks:** [sase-1t3.14](sase-1t3.14.md) ◐ · ⧖ 2026-11-16
 
@@ -22,4 +26,4 @@ interaction-pass: re-measure j/k and detail selection, then move detail-header l
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1t3.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.13/README.md) | [sase-1t3.13](sase-1t3.13.md) | 0 |
+| [bbugyi200.athena.sase-1t3.13](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.13.md) | [sase-1t3.13](sase-1t3.13.md) | 0 |
