@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [sase-1tc.3.1.6](sase-1tc.3.1.6.md) / sase-1tc.3.1.6.2
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-1tc.3.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tc.3.1.land.md) · **Assignee:** `sase-1tc.3.1.6.2` · **Size:** medium
-**Created:** 2026-11-18 07:19:04 EST
+**Created:** 2026-11-18 07:19:04 EST · **Closed:** 2026-11-18 11:10:01 EST
 **Plan:** [202611/chop\_recovery\_defects.md](https://github.com/sase-org/sase--plans/blob/main/202611/chop_recovery_defects.md)
 
 ## Description
 
 ownership: hold batch ownership during first-run ordinary and typed dispatch, settle a launch that crosses a clan kill without failing the run, stop typed dispatch on outer cancellation, keep once-per claims for journaled pending members, and stop lifecycle finalization while any dispatch work remains. See Phase ownership.
+
+## Notes
+
+[2026-11-18T16:10:01Z · sase-1tc.3.1.6.2] Implemented first-run ownership on ordinary and typed dispatch, crossing clan-cancellation settlement in Rust and bindings, typed outer-cancellation stopping, pending-claim retention, and lifecycle wait for unfinished batches. Focused regressions passed; primary check f2c7bf4cb73f41b6afd54021dea9169e and core check b89b7b4defbecfda706d013722444aa9 passed. TUI import closure is 11,856,052 bytes against the 11,894,200 cap. epic-symbol audit found none.
 
 ## Dependencies
 
@@ -20,4 +24,22 @@ ownership: hold batch ownership during first-run ordinary and typed dispatch, se
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1tc.3.1.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.2/README.md) | [sase-1tc.3.1.6.2](sase-1tc.3.1.6.2.md) | 0 |
+| [bbugyi200.athena.sase-1tc.3.1.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.2/README.md) | [sase-1tc.3.1.6.2](sase-1tc.3.1.6.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase-core | [`sase-core@98a22b7`](https://github.com/sase-org/sase-core/commit/98a22b7906f3bdcc5a9e5c293d975a9ec2c116b5) | fix(axe-chop): settle in-flight launches after cancellation | [sase-1tc.3.1.6.2](sase-1tc.3.1.6.2.md) | 2026-11-18 11:11:48 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:toobig-a2.chop_batch_recovery.0][1] | Check whether the oversized proposal-launch file is owned by the active launch-ownership phase | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-a2.chop_batch_recovery.0/README.md
+
+<!-- sase:referenced-by:end -->

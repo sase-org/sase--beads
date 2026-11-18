@@ -13,7 +13,7 @@ visibility: surface every recovery hold and failure, stop silent per-tick retry 
 
 ## Dependencies
 
-- **Depends on:** [sase-1tc.3.1.6.2](sase-1tc.3.1.6.2.md) ◐ · ⧖ 2026-11-18
+- **Depends on:** [sase-1tc.3.1.6.2](sase-1tc.3.1.6.2.md) ✓ · ⧖ 2026-11-18
 - **Blocks:** [sase-1tc.3.1.6.4](sase-1tc.3.1.6.4.md) ◐ · ⧖ 2026-11-18
 
 ## Agents

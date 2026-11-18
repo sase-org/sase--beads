@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/backlog_epic_cmdsub_retries_launches.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202611/backlog_epic_cmdsub_retries_launches.md
 
@@ -28,6 +28,8 @@ The five most important unowned task beads are fixed and closed: model output ca
 ## Notes
 
 [2026-11-18T09:40:38Z · sase-1tc.3.1.3--3] DISCOVERED ISSUE: While recovering phase sase-1tc.3.1.3, ToolRun ad627b9af9e24daebcb010e105f90945 failed tests/llm_provider/test_commit_finalizer_auto_sdd_status.py::test_auto_commit_git_runner_recovers_stale_index_lock in the full 14-worker check. Triage labeled it NEW with no owner even though it shares the aged .git/index.lock recovery path tracked by ready task sase-1kr; I recorded this independent reproduction there. The same node passed unchanged in focused ToolRun 03a698314138047be3a67e857c073538. This is direct evidence for phase sase-1tc.5's exact-node/location owner-matching scope.
+
+[2026-11-18T15:38:19Z · ex.f0] DISCOVERED ISSUE: efc66a420b (sase-1tc.1.1.2) makes #research name the PRIMARY research checkout, so reports land outside the commit finalizer's scan and are silently never committed. Cause: macro bodies now run their own $(...) during expansion (src/sase/macro/_processor_render.py:123). The runner expands macros (run_agent_runner_bootstrap.py:442) before it enters the workspace (:448). With no workspace marker in cwd, `sase repo path research --ensure` (sase-research-artifacts xprompts/research.md:39) falls back to workspace #0 (repo_handler_common.py:87-89). Before efc66, $(...) ran at the provider call inside the workspace. Impact on apollo: 0 of 96 #research runs Nov 15 to Nov 17 14:28 named the primary path; all 24 from Nov 17 15:30 did (sase, bob-cli, tailnet). Of those, 7 committed (the agent wrote into a checkout it had opened) and 11 finished with no research commit. Concrete case: agent ex (run 20261118095611) opened research at its workspace clone, but wrote 202611/overnight_backlog_epic_chains_audit.md to the primary checkout. The clone stayed clean, so final context was not_triggered / submission_required=false and the commit finalizer reported success with empty evidence. The file is still untracked in the primary. Suggested fix: resolve launch-time macro commands inside the claimed workspace, or pass the runner's workspace number to `sase repo path`. A finalize-time check for untracked writes outside scanned repos would also have caught it (see related sase-1g1). Report: research:202611/research_report_finalized_without_commit.md (file:explicit:6c500d0b78ec209c6a77680b).
 
 ## Phases
 
@@ -59,7 +61,7 @@ flowchart TD
     n13["sase-1tc.3.1.5: Prove process-stop recovery and record disposable acceptance [closed]"]
     n14["sase-1tc.3.1.6: Make chop batch recovery correct against production evidence [in_progress]"]
     n15["sase-1tc.3.1.6.1: Reconcile spawn evidence by run linkage and replay with the original launch context [closed]"]
-    n16["sase-1tc.3.1.6.2: Single executor ownership, crossing cancellation and consistent claims [in_progress]"]
+    n16["sase-1tc.3.1.6.2: Single executor ownership, crossing cancellation and consistent claims [closed]"]
     n17["sase-1tc.3.1.6.3: Visible holds, bounded retention, complete clan-kill coverage and per-episode notices [in_progress]"]
     n18["sase-1tc.3.1.6.4: Re-prove recovery with production-shaped evidence and record corrected acceptance [in_progress]"]
     n19["sase-1tc.4: beads.db has one SQLite library owner per process (sase-1kp) [in_progress]"]
@@ -116,7 +118,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1tc.3.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tc.3.1.4.md) | [sase-1tc.3.1.4](sase-1tc.3.1.4.md) | 1 |
 | [bbugyi200.athena.sase-1tc.3.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.5/README.md) | [sase-1tc.3.1.5](sase-1tc.3.1.5.md) | 1 |
 | [bbugyi200.athena.sase-1tc.3.1.6.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.1/README.md) | [sase-1tc.3.1.6.1](sase-1tc.3.1.6.1.md) | 1 |
-| [bbugyi200.athena.sase-1tc.3.1.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.2/README.md) | [sase-1tc.3.1.6.2](sase-1tc.3.1.6.2.md) | 0 |
+| [bbugyi200.athena.sase-1tc.3.1.6.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.2/README.md) | [sase-1tc.3.1.6.2](sase-1tc.3.1.6.2.md) | 1 |
 | [bbugyi200.athena.sase-1tc.3.1.6.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.3/README.md) | [sase-1tc.3.1.6.3](sase-1tc.3.1.6.3.md) | 0 |
 | [bbugyi200.athena.sase-1tc.3.1.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.4/README.md) | [sase-1tc.3.1.6.4](sase-1tc.3.1.6.4.md) | 0 |
 | [bbugyi200.athena.sase-1tc.3.1.6.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.land/README.md) | [sase-1tc.3.1.6](sase-1tc.3.1.6.md) | 0 |
@@ -141,6 +143,7 @@ flowchart TD
 | sase | [`b8c9f6c`](https://github.com/sase-org/sase/commit/b8c9f6c6aa101546a21539dcafc17b20ccdcdaf5) | feat(axe): add chop batch pause-resume recovery, clan cancellation, and durable notices | [sase-1tc.3.1.4](sase-1tc.3.1.4.md) | 2026-11-18 05:54:13 EST |
 | sase | [`0747964`](https://github.com/sase-org/sase/commit/07479640e2f1949fbc787892920f0bf2955a203a) | feat(axe): recover interrupted chop batches | [sase-1tc.3.1.5](sase-1tc.3.1.5.md) | 2026-11-18 06:57:37 EST |
 | sase | [`6026cc1`](https://github.com/sase-org/sase/commit/6026cc1182910ec2cde1c5392ec66c91356cced7) | feat(axe): chop batch recovery via run-linkage spawn matching | [sase-1tc.3.1.6.1](sase-1tc.3.1.6.1.md) | 2026-11-18 08:00:32 EST |
+| sase-core | [`sase-core@98a22b7`](https://github.com/sase-org/sase-core/commit/98a22b7906f3bdcc5a9e5c293d975a9ec2c116b5) | fix(axe-chop): settle in-flight launches after cancellation | [sase-1tc.3.1.6.2](sase-1tc.3.1.6.2.md) | 2026-11-18 11:11:48 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -148,8 +151,10 @@ flowchart TD
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1tc.1.1.2--1][1] | Check top epic | 1 |
+| read-by | [agent:ex.f0][1] | Need the epic scope: in-progress backlog epic whose cmdsub phase caused the regression | 1 |
+| read-by | [agent:sase-1tc.1.1.2--1][2] | Check top epic | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tc.1.1.2.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.ex.f0/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tc.1.1.2.md
 
 <!-- sase:referenced-by:end -->

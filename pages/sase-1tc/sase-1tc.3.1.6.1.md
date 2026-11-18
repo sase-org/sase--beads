@@ -17,7 +17,7 @@ evidence: match chop-agent records by run and proposal index instead of cl_name,
 
 ## Dependencies
 
-- **Blocks:** [sase-1tc.3.1.6.2](sase-1tc.3.1.6.2.md) ◐ · ⧖ 2026-11-18
+- **Blocks:** [sase-1tc.3.1.6.2](sase-1tc.3.1.6.2.md) ✓ · ⧖ 2026-11-18
 
 ## Agents
 
@@ -30,3 +30,15 @@ evidence: match chop-agent records by run and proposal index instead of cl_name,
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`6026cc1`](https://github.com/sase-org/sase/commit/6026cc1182910ec2cde1c5392ec66c91356cced7) | feat(axe): chop batch recovery via run-linkage spawn matching | [sase-1tc.3.1.6.1](sase-1tc.3.1.6.1.md) | 2026-11-18 08:00:32 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1tc.3.1.6.1][1] | check prior notes for remaining work from earlier agents | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.1/README.md
+
+<!-- sase:referenced-by:end -->

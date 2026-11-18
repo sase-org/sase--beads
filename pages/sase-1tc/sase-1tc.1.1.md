@@ -16,7 +16,7 @@
 | implemented-by | [plan:202611/cmdsub_source_provenance.md][1] | derived from the plan's `bead_id:` frontmatter field |
 | related | [bead:sase-1th][2] | Closed epic whose 4b9513e3f4 landing introduced the always-copy pre-render behavior that made this test stale |
 
-_Plus 4 automatic references — see [Referenced By](#referenced-by)._
+_Plus 5 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202611/cmdsub_source_provenance.md
 [2]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-1th/README.md
@@ -67,12 +67,14 @@ Fix sase-1tc.1 and sase-1sn while preserving authored commands, macro expansion,
 | --- | --- | --- | ---: |
 | read-by | [agent:1dn][1] | Check whether the in-progress epic that produced efc66a420b owns the macro-guard regression | 1 |
 | read-by | [agent:1dr--1][2] | Confirm provenance epic owns remaining import deferral and integrate verification evidence for its approved marker-fix dependency | 1 |
-| read-by | [agent:sase-1tc.1.1.1][3] | Need parent epic DECISIONS and design | 1 |
-| read-by | [agent:sase-1tc.1.1.2--1][4] | Check ancestor status before deciding on reopen | 1 |
+| read-by | [agent:ex.f0][3] | Need the epic scope: cmdsub child epic that landed efc66a420b | 1 |
+| read-by | [agent:sase-1tc.1.1.1][4] | Need parent epic DECISIONS and design | 1 |
+| read-by | [agent:sase-1tc.1.1.2--1][5] | Check ancestor status before deciding on reopen | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.1dn/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.1dr.md
-[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.1.1.1/README.md
-[4]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tc.1.1.2.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.ex.f0/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.1.1.1/README.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tc.1.1.2.md
 
 <!-- sase:referenced-by:end -->
