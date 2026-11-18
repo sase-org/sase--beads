@@ -14,10 +14,12 @@
 | Relation | Artifact | Why |
 | --- | --- | --- |
 | implemented-by | [plan:202611/cmdsub_source_provenance.md][1] | derived from the plan's `bead_id:` frontmatter field |
+| related | [bead:sase-1th][2] | Closed epic whose 4b9513e3f4 landing introduced the always-copy pre-render behavior that made this test stale |
 
 _Plus 4 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202611/cmdsub_source_provenance.md
+[2]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-1th/README.md
 
 <!-- sase:links:end -->
 

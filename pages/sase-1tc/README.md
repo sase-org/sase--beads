@@ -94,7 +94,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1tc.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.2/README.md) | [sase-1tc.2](sase-1tc.2.md) | 1 |
 | [bbugyi200.athena.sase-1tc.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tc.3.md) | [sase-1tc.3](sase-1tc.3.md) | 0 |
 | [bbugyi200.athena.sase-1tc.3.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.1/README.md) | [sase-1tc.3.1.1](sase-1tc.3.1.1.md) | 2 |
-| [bbugyi200.athena.sase-1tc.3.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.2/README.md) | [sase-1tc.3.1.2](sase-1tc.3.1.2.md) | 0 |
+| [bbugyi200.athena.sase-1tc.3.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tc.3.1.2.md) | [sase-1tc.3.1.2](sase-1tc.3.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1tc.3.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.3/README.md) | [sase-1tc.3.1.3](sase-1tc.3.1.3.md) | 0 |
 | [bbugyi200.athena.sase-1tc.3.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.4/README.md) | [sase-1tc.3.1.4](sase-1tc.3.1.4.md) | 0 |
 | [bbugyi200.athena.sase-1tc.3.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.5/README.md) | [sase-1tc.3.1.5](sase-1tc.3.1.5.md) | 0 |
@@ -114,6 +114,7 @@ flowchart TD
 | sase | [`4b9513e`](https://github.com/sase-org/sase/commit/4b9513e3f4775d753cf48d1c8e67699f1abb8e07) | feat(macro): finish command-substitution provenance landing | [sase-1tc.1.1](sase-1tc.1.1.md) | 2026-11-17 20:47:31 EST |
 | sase-core | [`sase-core@6cd9a0c`](https://github.com/sase-org/sase-core/commit/6cd9a0c2898850c8a81e90a23aca489cd742ba26) | feat(axe-chop): versioned crash-safe chop batch contract | [sase-1tc.3.1.1](sase-1tc.3.1.1.md) | 2026-11-17 21:17:51 EST |
 | sase | [`c6b6da1`](https://github.com/sase-org/sase/commit/c6b6da1d2ca5dcbeebae8fab0beacb4f180ca345) | feat(axe): crash-safe chop batch store and facade | [sase-1tc.3.1.1](sase-1tc.3.1.1.md) | 2026-11-17 21:19:41 EST |
+| sase | [`558fbd1`](https://github.com/sase-org/sase/commit/558fbd127f0ea0f7b83c771dca98849da132590b) | feat(axe): journal ordinary chop launches at spawn boundaries | [sase-1tc.3.1.2](sase-1tc.3.1.2.md) | 2026-11-18 02:48:14 EST |
 
 <!-- sase:referenced-by:start -->
 
