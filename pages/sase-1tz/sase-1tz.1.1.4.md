@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [sase-1tz.1.1](sase-1tz.1.1.md) / sase-1tz.1.1.4
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-1tz.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tz.1.md) · **Assignee:** `sase-1tz.1.1.4` · **Size:** medium
-**Created:** 2026-11-19 07:28:41 EST
+**Created:** 2026-11-19 07:28:41 EST · **Closed:** 2026-11-19 09:09:39 EST
 **Plan:** [202611/outage\_disk\_attribution\_and\_held\_workspaces.md](https://github.com/sase-org/sase--plans/blob/main/202611/outage_disk_attribution_and_held_workspaces.md)
 
 ## Description
 
 unknown_sizes: the tree sizer returns measured, lower-bound, or unmeasured results. The sase-core disk-inventory wire moves to v2 with a per-row size state, unmeasured-owner reporting, and lower-bound totals. sase disk list renders unknown sizes honestly, and the pin moves.
+
+## Notes
+
+[2026-11-19T14:09:39Z · sase-1tz.1.1.4] unknown_sizes: BoundedTreeSizer returns measured/lower_bound/unmeasured; disk-inventory wire v2 with size_state, unmeasured_owners, totals_are_lower_bound; sase disk list renders unmeasured/\u2265X; unattributed residual names unmeasured owners. Verified sase-core sase tool run check (4e97915911c7da4dc542c97ef0defa5e) and sase sase tool run check (6a5fc50c9dc9970c1cbf4a9c5fbcf0bb); 39 targeted Python tests plus 15 sase_core disk_ + 2 sase_core_py disk_inventory tests.
 
 ## Dependencies
 
@@ -20,4 +24,10 @@ unknown_sizes: the tree sizer returns measured, lower-bound, or unmeasured resul
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1tz.1.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.1.1.4/README.md) | [sase-1tz.1.1.4](sase-1tz.1.1.4.md) | 0 |
+| [bbugyi200.athena.sase-1tz.1.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.1.1.4/README.md) | [sase-1tz.1.1.4](sase-1tz.1.1.4.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase-core | [`sase-core@eabe416`](https://github.com/sase-org/sase-core/commit/eabe416cb5691876e3fd275e40769fcfbd18788d) | feat!: bump disk-inventory wire to v2 with per-row size state | [sase-1tz.1.1.4](sase-1tz.1.1.4.md) | 2026-11-19 09:10:50 EST |

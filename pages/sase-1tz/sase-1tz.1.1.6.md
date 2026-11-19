@@ -14,7 +14,7 @@ pressure_recovery: the disk_pressure chop reaps before collecting a fail-open in
 ## Dependencies
 
 - **Depends on:** [sase-1tz.1.1.1](sase-1tz.1.1.1.md) ✓ · ⧖ 2026-11-19
-- **Depends on:** [sase-1tz.1.1.4](sase-1tz.1.1.4.md) ◐ · ⧖ 2026-11-19
+- **Depends on:** [sase-1tz.1.1.4](sase-1tz.1.1.4.md) ✓ · ⧖ 2026-11-19
 
 ## Agents
 

@@ -13,7 +13,7 @@ owner_first: workspace checkouts and owner roots are sized before managed-tmp bu
 
 ## Dependencies
 
-- **Depends on:** [sase-1tz.1.1.4](sase-1tz.1.1.4.md) ◐ · ⧖ 2026-11-19
+- **Depends on:** [sase-1tz.1.1.4](sase-1tz.1.1.4.md) ✓ · ⧖ 2026-11-19
 
 ## Agents
 
