@@ -25,6 +25,8 @@ noise: give agent_publication per-(project, signature) backoff with standing ale
 
 [2026-11-19T19:55:09Z · sase-1tz.2.1.8] stall_telemetry (sase-1tz.2.1.8): before install, athena tui_stalls.jsonl is 38.3 MB + 2.1 MB .1 (0 torn) and tui_faults.log 17 KB of headers only; apollo is 16.7 MB + 2.1 MB (3 torn) and 14.8 KB. After install, the stall log is capped at 24 MiB/segment (>= 48 h; athena replays at 19.8 MiB/48 h), and tui_faults.log gets headers only for real faults. The after-install commands are in the sase-1tz.2.1.8 measurement note.
 
+[2026-11-19T22:32:32Z · sase-1tz.2.1.10] heap_retainers one-liner: fixed the top TUI-owned retainer (skill-use whole-file snapshot cache -> targeted scan, 11,360 retained -> <=50, cold miss 3.6x faster) and added SkillUseEvent census tracking; notification +1 TUI bound and freed per-type census left as follow-ups.
+
 ## Attachments
 
 - 🔒 ui\_io\_offload\_stalls.py · text/x-python · 1.67773 KiB (private attachment)

@@ -13,7 +13,7 @@ tui_acceptance: run the TUI benches and a comparable soak, then record before/af
 
 ## Dependencies
 
-- **Depends on:** [sase-1tz.2.1.10](sase-1tz.2.1.10.md) ◐ · ⧖ 2026-11-19
+- **Depends on:** [sase-1tz.2.1.10](sase-1tz.2.1.10.md) ✓ · ⧖ 2026-11-19
 - **Depends on:** [sase-1tz.2.1.11](sase-1tz.2.1.11.md) ✓ · ⧖ 2026-11-19
 - **Depends on:** [sase-1tz.2.1.12](sase-1tz.2.1.12.md) ✓ · ⧖ 2026-11-19
 - **Depends on:** [sase-1tz.2.1.8](sase-1tz.2.1.8.md) ✓ · ⧖ 2026-11-19

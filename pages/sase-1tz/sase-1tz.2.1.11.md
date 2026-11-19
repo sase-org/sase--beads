@@ -48,7 +48,9 @@ ui_io_offload: move the launchable-MRU tick's stat and config-token peek, the hi
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1tz.2.1.11][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1tz.2.1.9][2] | Check whether clean-base test failures already have task beads for the proposed follow-up note | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.11/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.9/README.md
 
 <!-- sase:referenced-by:end -->

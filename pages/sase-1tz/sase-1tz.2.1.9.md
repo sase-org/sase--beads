@@ -21,7 +21,7 @@ gc_policy: idle, backstop, and RSS-backstop collections stay bounded. The policy
 
 ## Dependencies
 
-- **Blocks:** [sase-1tz.2.1.10](sase-1tz.2.1.10.md) ◐ · ⧖ 2026-11-19
+- **Blocks:** [sase-1tz.2.1.10](sase-1tz.2.1.10.md) ✓ · ⧖ 2026-11-19
 - **Blocks:** [sase-1tz.2.1.13](sase-1tz.2.1.13.md) ◐ · ⧖ 2026-11-19
 - **Depends on:** [sase-1tz.2.1.8](sase-1tz.2.1.8.md) ✓ · ⧖ 2026-11-19
 
@@ -36,3 +36,15 @@ gc_policy: idle, backstop, and RSS-backstop collections stay bounded. The policy
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`49b96a9`](https://github.com/sase-org/sase/commit/49b96a9c5095bf677829c980bcfe8b658d0b5182) | feat(tui): gate policy GC pauses | [sase-1tz.2.1.9](sase-1tz.2.1.9.md) | 2026-11-19 17:03:45 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1tz.2.1.9][1] | Verify the implementation evidence note was recorded | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.9/README.md
+
+<!-- sase:referenced-by:end -->
