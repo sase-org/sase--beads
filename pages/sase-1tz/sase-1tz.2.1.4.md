@@ -30,7 +30,7 @@ One-time live sweep of the Nov 3 pair is proposed via `/sase_gate`, not applied 
 ## Dependencies
 
 - **Blocks:** [sase-1tz.2.1.5](sase-1tz.2.1.5.md) ◐ · ⧖ 2026-11-19
-- **Blocks:** [sase-1tz.2.1.6](sase-1tz.2.1.6.md) ◐ · ⧖ 2026-11-19
+- **Blocks:** [sase-1tz.2.1.6](sase-1tz.2.1.6.md) ✓ · ⧖ 2026-11-19
 
 ## Agents
 

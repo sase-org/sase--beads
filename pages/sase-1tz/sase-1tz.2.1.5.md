@@ -20,4 +20,4 @@ pub_inventory: build the hood inventory once per project per tick instead of onc
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1tz.2.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.5/README.md) | [sase-1tz.2.1.5](sase-1tz.2.1.5.md) | 0 |
+| [bbugyi200.athena.sase-1tz.2.1.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tz.2.1.5.md) | [sase-1tz.2.1.5](sase-1tz.2.1.5.md) | 0 |

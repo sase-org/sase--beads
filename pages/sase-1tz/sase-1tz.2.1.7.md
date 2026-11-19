@@ -14,7 +14,7 @@ pub_doctor: doctor's agent_publication_outbox check groups issues by (project, s
 ## Dependencies
 
 - **Depends on:** [sase-1tz.2.1.3](sase-1tz.2.1.3.md) ✓ · ⧖ 2026-11-19
-- **Depends on:** [sase-1tz.2.1.6](sase-1tz.2.1.6.md) ◐ · ⧖ 2026-11-19
+- **Depends on:** [sase-1tz.2.1.6](sase-1tz.2.1.6.md) ✓ · ⧖ 2026-11-19
 
 ## Agents
 

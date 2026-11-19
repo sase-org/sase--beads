@@ -38,10 +38,16 @@ heap_retainers: census the object types freed by idle full collections (up to 7M
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1tz.2.1.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.10/README.md) | [sase-1tz.2.1.10](sase-1tz.2.1.10.md) | 1 |
+| [bbugyi200.athena.sase-1tz.2.1.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.10/README.md) | [sase-1tz.2.1.10](sase-1tz.2.1.10.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase | [`225bfb7`](https://github.com/sase-org/sase/commit/225bfb7ff24084ad4ffe3e9ba962d6d8c478784a) | perf(tui): replace skill-use whole-file snapshot cache with targeted scans | [sase-1tz.2.1.10](sase-1tz.2.1.10.md) | 2026-11-19 17:34:31 EST |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1tz.2.1.10][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.10/README.md
+
+<!-- sase:referenced-by:end -->
