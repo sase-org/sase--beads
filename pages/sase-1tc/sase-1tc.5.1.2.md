@@ -33,10 +33,11 @@ candidate_projection: replace full Python task hydration with a narrow Rust cand
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1tc.5.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.5.1.2/README.md) | [sase-1tc.5.1.2](sase-1tc.5.1.2.md) | 1 |
+| [bbugyi200.athena.sase-1tc.5.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.5.1.2/README.md) | [sase-1tc.5.1.2](sase-1tc.5.1.2.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@cb76eb2`](https://github.com/sase-org/sase-core/commit/cb76eb283d319c24c3eb8ecd305f4f6eba3d604f) | feat(bead): project triage owner candidates from the read model | [sase-1tc.5.1.2](sase-1tc.5.1.2.md) | 2026-11-19 14:44:43 EST |
+| sase | [`179495b`](https://github.com/sase-org/sase/commit/179495b93a9650f8f18ae1d8511af8e4bdb7e5a3) | feat(triage): load owner candidates through the Rust bead projection | [sase-1tc.5.1.2](sase-1tc.5.1.2.md) | 2026-11-19 14:46:40 EST |
