@@ -275,7 +275,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1t3.7.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.7.1.land.md) | [sase-1t3.7.1](sase-1t3.7.1.md) | 2 |
 | [bbugyi200.athena.sase-1t3.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.8.md) | [sase-1t3.8](sase-1t3.8.md) | 1 |
 | [bbugyi200.athena.sase-1t3.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.9.md) | [sase-1t3.9](sase-1t3.9.md) | 1 |
-| [bbugyi200.athena.sase-1t3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.land/README.md) | [sase-1t3](README.md) | 1 |
+| [bbugyi200.athena.sase-1t3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.land/README.md) | [sase-1t3](README.md) | 2 |
 
 ## Commits
 
@@ -332,7 +332,7 @@ flowchart TD
 | sase | [`d152f20`](https://github.com/sase-org/sase/commit/d152f200b294deabb84cac52b2e5d606a2017837) | fix(ace): move exact-delta share-back off the UI loop | [sase-1t3.13.1](sase-1t3.13.1.md) | 2026-11-18 20:01:38 EST |
 | sase--plans | [`sase--plans@78bbde9`](https://github.com/sase-org/sase--plans/commit/78bbde9fbc8c59aac936c37fa488ca0883b6e35b) | docs(plan): mark interaction latency landing complete | [sase-1t3.13.1](sase-1t3.13.1.md) | 2026-11-18 20:03:24 EST |
 
-… and 2 more commits
+… and 3 more commits
 
 <!-- sase:referenced-by:start -->
 
