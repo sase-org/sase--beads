@@ -20,7 +20,7 @@
 | related | file:explicit:4aecc722ba3df33887ba80b0 | attached via sase artifact create --bead |
 | related | file:explicit:daeee05e874919ec98daa999 | attached via sase artifact create --bead |
 
-_Plus 6 automatic references — see [Referenced By](#referenced-by)._
+_Plus 7 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202611/chop_recovery_defects.md
 
@@ -82,6 +82,7 @@ Interrupted chop batches resume exactly the missing members with real chop linka
 | read-by | [agent:sase-1tc.3.1.6.3][4] | Need parent epic decisions and boundaries for this phase | 1 |
 | read-by | [agent:sase-1tc.3.1.6.4][5] | Need parent epic decisions and plan for phase 3.1.6.4 | 2 |
 | read-by | [agent:toobig-a2.chop_batch_recovery.0][6] | Check whether the active chop recovery epic owns the unrelated oversized proposal-launch implementation | 1 |
+| read-by | [agent:toobig-a6.test_projected_detail_retention.0][7] | Assess whether the new chop recovery mypy failure belongs on this active child epic | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.10.1.land.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.1/README.md
@@ -89,5 +90,6 @@ Interrupted chop batches resume exactly the missing members with real chop linka
 [4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.3/README.md
 [5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.4/README.md
 [6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-a2.chop_batch_recovery.0/README.md
+[7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-a6.test_projected_detail_retention.0/README.md
 
 <!-- sase:referenced-by:end -->

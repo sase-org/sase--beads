@@ -22,7 +22,7 @@ retry_scope: type host finalizer and publish failures so provider retry patterns
 ## Dependencies
 
 - **Depends on:** [sase-1tc.1](sase-1tc.1.md) ✓ · ⧖ 2026-11-17
-- **Blocks:** [sase-1tc.3](sase-1tc.3.md) ◐ · ⧖ 2026-11-17
+- **Blocks:** [sase-1tc.3](sase-1tc.3.md) ✓ · ⧖ 2026-11-17
 
 ## Agents
 

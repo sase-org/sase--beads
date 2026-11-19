@@ -39,8 +39,8 @@ The five most important unowned task beads are fixed and closed: model output ca
 |---|---|---|---|---|---:|---:|
 | [sase-1tc.1](sase-1tc.1.md) | Model output never reaches host $(cmd) (sase-1sn) | ✓ closed | large | 2026-11-17 | 1 | 0 |
 | [sase-1tc.2](sase-1tc.2.md) | Provider retry never re-runs an agent for a host finalizer failure (sase-1he) | ✓ closed | medium | 2026-11-17 | 1 | 1 |
-| [sase-1tc.3](sase-1tc.3.md) | A scheduler stop never silently drops a chop's launch batch (sase-1c2) | ◐ in_progress | large | 2026-11-17 | 1 | 0 |
-| [sase-1tc.4](sase-1tc.4.md) | beads.db has one SQLite library owner per process (sase-1kp) | ◐ in_progress | large | 2026-11-17 | 1 | 0 |
+| [sase-1tc.3](sase-1tc.3.md) | A scheduler stop never silently drops a chop's launch batch (sase-1c2) | ✓ closed | large | 2026-11-17 | 1 | 0 |
+| [sase-1tc.4](sase-1tc.4.md) | beads.db has one SQLite library owner per process (sase-1kp) | ◐ in_progress | large | 2026-11-17 | 1 | 1 |
 | [sase-1tc.5](sase-1tc.5.md) | Failure triage attaches the owning task bead (sase-1ha) | ◐ in_progress | large | 2026-11-17 | 1 | 0 |
 
 ## Lineage
@@ -54,8 +54,8 @@ flowchart TD
     n4["sase-1tc.1.1.2: Evaluate authored commands before interpolating data [closed]"]
     n5["sase-1tc.1.1.3: Preserve provenance across every workflow rendering route [closed]"]
     n6["sase-1tc.2: Provider retry never re-runs an agent for a host finalizer failure (sase-1he) [closed]"]
-    n7["sase-1tc.3: A scheduler stop never silently drops a chop's launch batch (sase-1c2) [in_progress]"]
-    n8["sase-1tc.3.1: Resume interrupted chop launch batches without duplicates [in_progress]"]
+    n7["sase-1tc.3: A scheduler stop never silently drops a chop's launch batch (sase-1c2) [closed]"]
+    n8["sase-1tc.3.1: Resume interrupted chop launch batches without duplicates [closed]"]
     n9["sase-1tc.3.1.1: Define and persist the crash-safe chop batch contract [closed]"]
     n10["sase-1tc.3.1.2: Journal ordinary launches at each spawn boundary [closed]"]
     n11["sase-1tc.3.1.3: Attach typed admission to the durable chop batch [closed]"]
@@ -125,7 +125,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1tc.3.1.6.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.4/README.md) | [sase-1tc.3.1.6.4](sase-1tc.3.1.6.4.md) | 1 |
 | [bbugyi200.athena.sase-1tc.3.1.6.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tc.3.1.6.land.md) | [sase-1tc.3.1.6](sase-1tc.3.1.6.md) | 3 |
 | [bbugyi200.athena.sase-1tc.3.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tc.3.1.land.md) | [sase-1tc.3.1](sase-1tc.3.1.md) | 0 |
-| [bbugyi200.athena.sase-1tc.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.4/README.md) | [sase-1tc.4](sase-1tc.4.md) | 0 |
+| [bbugyi200.athena.sase-1tc.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tc.4.md) | [sase-1tc.4](sase-1tc.4.md) | 1 |
 | [bbugyi200.athena.sase-1tc.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.5/README.md) | [sase-1tc.5](sase-1tc.5.md) | 0 |
 | [bbugyi200.athena.sase-1tc.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.land/README.md) | [sase-1tc](README.md) | 0 |
 
@@ -152,6 +152,7 @@ flowchart TD
 | sase-core | [`sase-core@b1a0363`](https://github.com/sase-org/sase-core/commit/b1a0363997eb8150f8db8a425b83564faf5101f3) | feat(axe-chop): add clan-scoped generation match and cancelled settlement | [sase-1tc.3.1.6](sase-1tc.3.1.6.md) | 2026-11-18 17:13:53 EST |
 | sase | [`d3fcb19`](https://github.com/sase-org/sase/commit/d3fcb19562816378011aa3ca0c3ff7b5f1f693ee) | fix(axe): finish chop recovery safety and nested landing closeout | [sase-1tc.3.1.6](sase-1tc.3.1.6.md) | 2026-11-18 17:15:37 EST |
 | sase--plans | [`sase--plans@9394c75`](https://github.com/sase-org/sase--plans/commit/9394c750024cc6a0ce17635e85962ab3d3522fc4) | docs(plans): mark chop recovery defects plan done | [sase-1tc.3.1.6](sase-1tc.3.1.6.md) | 2026-11-18 17:16:53 EST |
+| sase | [`5b79f0f`](https://github.com/sase-org/sase/commit/5b79f0f5e37237e07b48088c4079dc04082453e1) | feat(beads): retire Python beads.db SQLite mirror | [sase-1tc.4](sase-1tc.4.md) | 2026-11-19 06:27:33 EST |
 
 <!-- sase:referenced-by:start -->
 
