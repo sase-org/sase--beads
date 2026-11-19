@@ -13,7 +13,7 @@ noise: give agent_publication per-(project, signature) backoff with standing ale
 
 ## Dependencies
 
-- **Depends on:** [sase-1tz.1](sase-1tz.1.md) ◐ · ⧖ 2026-11-19
+- **Depends on:** [sase-1tz.1](sase-1tz.1.md) ✓ · ⧖ 2026-11-19
 - **Blocks:** [sase-1tz.3](sase-1tz.3.md) ◐ · ⧖ 2026-11-19
 
 ## Agents

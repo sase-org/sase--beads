@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1tz](README.md) / sase-1tz.1
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.1eb](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.1eb.md) · **Assignee:** `sase-1tz.1` · **Size:** xlarge
-**Created:** 2026-11-19 07:09:38 EST
+**Created:** 2026-11-19 07:09:38 EST · **Closed:** 2026-11-19 10:48:20 EST
 **Plan:** [202611/notification\_log\_audit\_fixes.md](https://github.com/sase-org/sase--plans/blob/main/202611/notification_log_audit_fixes.md)
 
 ## Description
@@ -20,6 +20,8 @@ outage: stop reporting unmeasured disk as 0 B/complete, measure workspace roots 
 [2026-11-19T14:50:49Z · sase-1tz.1.1.6] pressure_recovery: apollo 99 disk_pressure rows (97 visible, 0 dedup keys) as of 2026-11-19; after-install ssh apollo -- sase notify list --sender disk_pressure --all --json --limit 10000
 
 [2026-11-19T14:57:01Z · sase-1tz.1.1.2] held_settle (sase-1tz.1.1.2) measurement: athena store generation advanced ~20/min on a 7.3 MB file before the fix (2026-11-19 09:04 EST); after-install repeat: g1=$(cat ~/.sase/notifications/notifications.jsonl.generation); sleep 60; g2=$(cat ~/.sase/notifications/notifications.jsonl.generation); echo $((g2-g1)).
+
+[2026-11-19T15:49:38Z · sase-1tz.1.1.land] Land verification from sase-1tz.1.1.land (phase auto-closed when child epic sase-1tz.1.1 closed): the outage phase's scope is complete. Unmeasured disk is never 0 B complete (wire v2, sase-core eabe416c); workspace/owner roots are measured first under their own 90s budget; disk_pressure reaps before a fail-open inventory, names unmeasured owners, uses episode-scoped keys, and escalates missed targets with check_error; held workspaces settle once per evidence fingerprint, with change-only +1s plus an hourly heartbeat on undismissed rows (held_heartbeat=yes); the sase-core store guard (d8681dbb) coalesces identical +1s and skips dismissed-row +1s with no rewrite. Pin eabe416c covers both sase-core commits. sase tool run check 59dbd43b and 505 focused tests passed; just symvision clean. Live acceptance after the human-owned install: the after-install commands are in notes #1-#4 above.
 
 ## Dependencies
 
@@ -38,11 +40,13 @@ outage: stop reporting unmeasured disk as 0 B/complete, measure workspace roots 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1tz.1.1.2][1] | need epic DECISIONS for held_settle phase | 1 |
-| read-by | [agent:sase-1tz.1.1.6][2] | Need parent phase DECISIONS that bind pressure_recovery | 2 |
-| read-by | [agent:sase-1tz.1.1.7][3] | Need earlier phase notes and remaining work context | 1 |
+| read-by | [agent:sase-1tz.1.1.5][2] | Need the parent phase's measurement note convention before recording the live-host summary | 1 |
+| read-by | [agent:sase-1tz.1.1.6][3] | Need parent phase DECISIONS that bind pressure_recovery | 2 |
+| read-by | [agent:sase-1tz.1.1.7][4] | Need earlier phase notes and remaining work context | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.1.1.2/README.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.1.1.6/README.md
-[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.1.1.7/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.1.1.5/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.1.1.6/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.1.1.7/README.md
 
 <!-- sase:referenced-by:end -->
