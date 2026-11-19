@@ -40,3 +40,15 @@ prompt_terminal: find why deferred prompt sources vanish and close each gap so d
 |---|---|---|---|---|
 | sase-core | [`sase-core@6eedf0a`](https://github.com/sase-org/sase-core/commit/6eedf0a6544cfd9da279a29cd42c245d70404a04) | feat(agent-publication-recovery): add terminal unrecoverable deferred-prompt outcome | [sase-1tz.2.1.6](sase-1tz.2.1.6.md) | 2026-11-19 17:49:43 EST |
 | sase | [`3d3d0f5`](https://github.com/sase-org/sase/commit/3d3d0f583d0790aa9ebab3af08d4fe2f32cb9904) | feat(agents-sync): retire terminal deferred prompts as unrecoverable | [sase-1tz.2.1.6](sase-1tz.2.1.6.md) | 2026-11-19 17:51:28 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1tz.2.1.6][1] | Need the phase scope and design file | 4 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.6/README.md
+
+<!-- sase:referenced-by:end -->

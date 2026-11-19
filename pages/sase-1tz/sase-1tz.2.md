@@ -27,6 +27,8 @@ noise: give agent_publication per-(project, signature) backoff with standing ale
 
 [2026-11-19T22:32:32Z · sase-1tz.2.1.10] heap_retainers one-liner: fixed the top TUI-owned retainer (skill-use whole-file snapshot cache -> targeted scan, 11,360 retained -> <=50, cold miss 3.6x faster) and added SkillUseEvent census tracking; notification +1 TUI bound and freed per-type census left as follow-ups.
 
+[2026-11-19T22:53:18Z · sase-1tz.2.1.13] TUI acceptance evidence: before install (phase notes .9/.11), athena gen2 max 324.224s (backstop; idle max 74.773s), apollo max sampled low-GC stall 116.8s, 24h heartbeat RSS peaks athena 5.83GB / apollo 3.87GB. Current tree HEAD 225bfb7ff2 benches: j/k suite 8 fail / 11 pass (582.76s); trace suite 1 fail / 6 pass (79.45s), with deterministic legacy clan-wave test mismatch noted on phase sase-1tz.2.1.13. Available live instance 01f377a7 is only partial and older source_revision 49b96a9c (pre-HEAD), with 23.4m diagnostic window: max observed hitch 2.324s, no gen2 collection samples (max pause unavailable), GC share 5.47%, heartbeat RSS 1.40GB -> 4.09GB, swap 0; report is INCOMPLETE (no post-warmup paired intervals/four-hour span). Do not treat as after acceptance. After human install of HEAD and TUI restart with SASE_TUI_PERF=1, run tools/tui_freeze_report --acceptance --instance <new-id> --since <post-warmup-start> --until <end> -b <representative-busy-hour-start> -e <busy-hour-end> -t agents; require >=4h gap-free coverage and retain full JSON report. Related task beads remain open: current evidence does not demonstrate resolution.
+
 ## Attachments
 
 - 🔒 ui\_io\_offload\_stalls.py · text/x-python · 1.67773 KiB (private attachment)
