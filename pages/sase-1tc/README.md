@@ -134,7 +134,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1tc.3.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tc.3.1.land.md) | [sase-1tc.3.1](sase-1tc.3.1.md) | 0 |
 | [bbugyi200.athena.sase-1tc.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tc.4.md) | [sase-1tc.4](sase-1tc.4.md) | 2 |
 | [bbugyi200.athena.sase-1tc.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tc.5.md) | [sase-1tc.5](sase-1tc.5.md) | 0 |
-| [bbugyi200.athena.sase-1tc.5.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tc.5.1.1.md) | [sase-1tc.5.1.1](sase-1tc.5.1.1.md) | 1 |
+| [bbugyi200.athena.sase-1tc.5.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tc.5.1.1.md) | [sase-1tc.5.1.1](sase-1tc.5.1.1.md) | 2 |
 | [bbugyi200.athena.sase-1tc.5.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.5.1.2/README.md) | [sase-1tc.5.1.2](sase-1tc.5.1.2.md) | 0 |
 | [bbugyi200.athena.sase-1tc.5.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.5.1.land/README.md) | [sase-1tc.5.1](sase-1tc.5.1.md) | 0 |
 | [bbugyi200.athena.sase-1tc.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.land/README.md) | [sase-1tc](README.md) | 0 |
@@ -165,6 +165,7 @@ flowchart TD
 | sase | [`5b79f0f`](https://github.com/sase-org/sase/commit/5b79f0f5e37237e07b48088c4079dc04082453e1) | feat(beads): retire Python beads.db SQLite mirror | [sase-1tc.4](sase-1tc.4.md) | 2026-11-19 06:27:33 EST |
 | sase | [`c4cb77b`](https://github.com/sase-org/sase/commit/c4cb77b3b88a86554a9f980f6f0e3e5f38449ccf) | test(beads): single-owner WAL-mirror adoption and exact SQLite owner guard | [sase-1tc.4](sase-1tc.4.md) | 2026-11-19 09:05:22 EST |
 | sase-core | [`sase-core@a06bdae`](https://github.com/sase-org/sase-core/commit/a06bdae7842de42a5ed95a7e04041908ba6c72db) | fix(triage): backfill staged owners at settle without rewriting verdicts | [sase-1tc.5.1.1](sase-1tc.5.1.1.md) | 2026-11-19 11:28:14 EST |
+| sase | [`d9cb9cf`](https://github.com/sase-org/sase/commit/d9cb9cf4a3d8c620464e27f32a882d42580b9b14) | test(triage): add settle owner-enrichment binding regression | [sase-1tc.5.1.1](sase-1tc.5.1.1.md) | 2026-11-19 11:29:42 EST |
 
 <!-- sase:referenced-by:start -->
 

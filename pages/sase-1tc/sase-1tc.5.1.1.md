@@ -27,10 +27,11 @@ owner_annotations: fix the reproduced stage-before-settle loss in sase-core, pre
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1tc.5.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tc.5.1.1.md) | [sase-1tc.5.1.1](sase-1tc.5.1.1.md) | 1 |
+| [bbugyi200.athena.sase-1tc.5.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tc.5.1.1.md) | [sase-1tc.5.1.1](sase-1tc.5.1.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@a06bdae`](https://github.com/sase-org/sase-core/commit/a06bdae7842de42a5ed95a7e04041908ba6c72db) | fix(triage): backfill staged owners at settle without rewriting verdicts | [sase-1tc.5.1.1](sase-1tc.5.1.1.md) | 2026-11-19 11:28:14 EST |
+| sase | [`d9cb9cf`](https://github.com/sase-org/sase/commit/d9cb9cf4a3d8c620464e27f32a882d42580b9b14) | test(triage): add settle owner-enrichment binding regression | [sase-1tc.5.1.1](sase-1tc.5.1.1.md) | 2026-11-19 11:29:42 EST |
