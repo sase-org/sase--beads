@@ -15,7 +15,7 @@ gc_policy: idle, backstop, and RSS-backstop collections stay bounded. The policy
 
 - **Blocks:** [sase-1tz.2.1.10](sase-1tz.2.1.10.md) ◐ · ⧖ 2026-11-19
 - **Blocks:** [sase-1tz.2.1.13](sase-1tz.2.1.13.md) ◐ · ⧖ 2026-11-19
-- **Depends on:** [sase-1tz.2.1.8](sase-1tz.2.1.8.md) ◐ · ⧖ 2026-11-19
+- **Depends on:** [sase-1tz.2.1.8](sase-1tz.2.1.8.md) ✓ · ⧖ 2026-11-19
 
 ## Agents
 
