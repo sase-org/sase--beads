@@ -31,13 +31,14 @@ pub_standing: a sase-core decider keys publication failures by (project, signatu
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1tz.2.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.3/README.md) | [sase-1tz.2.1.3](sase-1tz.2.1.3.md) | 1 |
+| [bbugyi200.athena.sase-1tz.2.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.3/README.md) | [sase-1tz.2.1.3](sase-1tz.2.1.3.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@3c3263f`](https://github.com/sase-org/sase-core/commit/3c3263fb98cfe2185764f8e6ea6e3b0aaae0a40c) | feat(publication): add standing-alert decider with capped backoff | [sase-1tz.2.1.3](sase-1tz.2.1.3.md) | 2026-11-19 15:22:42 EST |
+| sase | [`5f719a5`](https://github.com/sase-org/sase/commit/5f719a5361c407086763f5f2dd71282755cc1713) | feat(agents-sync): report repeated publication failures as standing alerts with backoff | [sase-1tz.2.1.3](sase-1tz.2.1.3.md) | 2026-11-19 16:39:00 EST |
 
 <!-- sase:referenced-by:start -->
 

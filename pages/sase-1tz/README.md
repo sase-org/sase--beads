@@ -129,18 +129,18 @@ flowchart TD
 | [bbugyi200.athena.sase-1tz.1.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.1.1.land/README.md) | [sase-1tz.1.1](sase-1tz.1.1.md) | 1 |
 | [bbugyi200.athena.sase-1tz.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tz.2.md) | [sase-1tz.2](sase-1tz.2.md) | 0 |
 | [bbugyi200.athena.sase-1tz.2.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.1/README.md) | [sase-1tz.2.1.1](sase-1tz.2.1.1.md) | 2 |
-| [bbugyi200.athena.sase-1tz.2.1.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.10/README.md) | [sase-1tz.2.1.10](sase-1tz.2.1.10.md) | 0 |
+| [bbugyi200.athena.sase-1tz.2.1.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.10/README.md) | [sase-1tz.2.1.10](sase-1tz.2.1.10.md) | 1 |
 | [bbugyi200.athena.sase-1tz.2.1.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.11/README.md) | [sase-1tz.2.1.11](sase-1tz.2.1.11.md) | 1 |
 | [bbugyi200.athena.sase-1tz.2.1.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.12/README.md) | [sase-1tz.2.1.12](sase-1tz.2.1.12.md) | 1 |
 | [bbugyi200.athena.sase-1tz.2.1.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.13/README.md) | [sase-1tz.2.1.13](sase-1tz.2.1.13.md) | 0 |
 | [bbugyi200.athena.sase-1tz.2.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.2/README.md) | [sase-1tz.2.1.2](sase-1tz.2.1.2.md) | 1 |
-| [bbugyi200.athena.sase-1tz.2.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.3/README.md) | [sase-1tz.2.1.3](sase-1tz.2.1.3.md) | 1 |
+| [bbugyi200.athena.sase-1tz.2.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.3/README.md) | [sase-1tz.2.1.3](sase-1tz.2.1.3.md) | 2 |
 | [bbugyi200.athena.sase-1tz.2.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tz.2.1.4.md) | [sase-1tz.2.1.4](sase-1tz.2.1.4.md) | 2 |
 | [bbugyi200.athena.sase-1tz.2.1.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tz.2.1.5.md) | [sase-1tz.2.1.5](sase-1tz.2.1.5.md) | 0 |
-| [bbugyi200.athena.sase-1tz.2.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.6/README.md) | [sase-1tz.2.1.6](sase-1tz.2.1.6.md) | 1 |
+| [bbugyi200.athena.sase-1tz.2.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.6/README.md) | [sase-1tz.2.1.6](sase-1tz.2.1.6.md) | 2 |
 | [bbugyi200.athena.sase-1tz.2.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.7/README.md) | [sase-1tz.2.1.7](sase-1tz.2.1.7.md) | 0 |
 | [bbugyi200.athena.sase-1tz.2.1.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.8/README.md) | [sase-1tz.2.1.8](sase-1tz.2.1.8.md) | 1 |
-| [bbugyi200.athena.sase-1tz.2.1.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.9/README.md) | [sase-1tz.2.1.9](sase-1tz.2.1.9.md) | 0 |
+| [bbugyi200.athena.sase-1tz.2.1.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.9/README.md) | [sase-1tz.2.1.9](sase-1tz.2.1.9.md) | 1 |
 | [bbugyi200.athena.sase-1tz.2.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.land/README.md) | [sase-1tz.2.1](sase-1tz.2.1.md) | 0 |
 | [bbugyi200.athena.sase-1tz.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3/README.md) | [sase-1tz.3](sase-1tz.3.md) | 0 |
 | [bbugyi200.athena.sase-1tz.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4/README.md) | [sase-1tz.4](sase-1tz.4.md) | 0 |
@@ -169,7 +169,11 @@ flowchart TD
 | sase | [`96b3716`](https://github.com/sase-org/sase/commit/96b3716cb32b0888fcdba7ab8861cd781087d973) | feat(axe): render grouped scheduler error digests with true totals | [sase-1tz.2.1.2](sase-1tz.2.1.2.md) | 2026-11-19 14:57:27 EST |
 | sase | [`afb0705`](https://github.com/sase-org/sase/commit/afb070580a159fc383b8b5f52e29ea649328c096) | feat(tui): rotate tui\_stalls.jsonl, tolerate torn lines, and spool fault logs | [sase-1tz.2.1.8](sase-1tz.2.1.8.md) | 2026-11-19 14:58:03 EST |
 | sase-core | [`sase-core@3c3263f`](https://github.com/sase-org/sase-core/commit/3c3263fb98cfe2185764f8e6ea6e3b0aaae0a40c) | feat(publication): add standing-alert decider with capped backoff | [sase-1tz.2.1.3](sase-1tz.2.1.3.md) | 2026-11-19 15:22:42 EST |
+| sase | [`5f719a5`](https://github.com/sase-org/sase/commit/5f719a5361c407086763f5f2dd71282755cc1713) | feat(agents-sync): report repeated publication failures as standing alerts with backoff | [sase-1tz.2.1.3](sase-1tz.2.1.3.md) | 2026-11-19 16:39:00 EST |
+| sase | [`49b96a9`](https://github.com/sase-org/sase/commit/49b96a9c5095bf677829c980bcfe8b658d0b5182) | feat(tui): gate policy GC pauses | [sase-1tz.2.1.9](sase-1tz.2.1.9.md) | 2026-11-19 17:03:45 EST |
+| sase | [`225bfb7`](https://github.com/sase-org/sase/commit/225bfb7ff24084ad4ffe3e9ba962d6d8c478784a) | perf(tui): replace skill-use whole-file snapshot cache with targeted scans | [sase-1tz.2.1.10](sase-1tz.2.1.10.md) | 2026-11-19 17:34:31 EST |
 | sase-core | [`sase-core@6eedf0a`](https://github.com/sase-org/sase-core/commit/6eedf0a6544cfd9da279a29cd42c245d70404a04) | feat(agent-publication-recovery): add terminal unrecoverable deferred-prompt outcome | [sase-1tz.2.1.6](sase-1tz.2.1.6.md) | 2026-11-19 17:49:43 EST |
+| sase | [`3d3d0f5`](https://github.com/sase-org/sase/commit/3d3d0f583d0790aa9ebab3af08d4fe2f32cb9904) | feat(agents-sync): retire terminal deferred prompts as unrecoverable | [sase-1tz.2.1.6](sase-1tz.2.1.6.md) | 2026-11-19 17:51:28 EST |
 
 <!-- sase:referenced-by:start -->
 
