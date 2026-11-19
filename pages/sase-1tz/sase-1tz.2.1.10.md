@@ -14,7 +14,7 @@ heap_retainers: census the object types freed by idle full collections (up to 7M
 ## Dependencies
 
 - **Blocks:** [sase-1tz.2.1.13](sase-1tz.2.1.13.md) ◐ · ⧖ 2026-11-19
-- **Depends on:** [sase-1tz.2.1.9](sase-1tz.2.1.9.md) ◐ · ⧖ 2026-11-19
+- **Depends on:** [sase-1tz.2.1.9](sase-1tz.2.1.9.md) ✓ · ⧖ 2026-11-19
 
 ## Agents
 

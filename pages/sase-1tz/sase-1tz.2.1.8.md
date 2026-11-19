@@ -37,7 +37,7 @@ Expected after install: the first append rotates the oversize 38 MB active file 
 ## Dependencies
 
 - **Blocks:** [sase-1tz.2.1.13](sase-1tz.2.1.13.md) ◐ · ⧖ 2026-11-19
-- **Blocks:** [sase-1tz.2.1.9](sase-1tz.2.1.9.md) ◐ · ⧖ 2026-11-19
+- **Blocks:** [sase-1tz.2.1.9](sase-1tz.2.1.9.md) ✓ · ⧖ 2026-11-19
 
 ## Agents
 

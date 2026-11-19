@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1tz.2.1](sase-1tz.2.1.md) / sase-1tz.2.1.4
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-1tz.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tz.2.md) · **Assignee:** `sase-1tz.2.1.4` · **Size:** medium
-**Created:** 2026-11-19 11:13:26 EST
+**Created:** 2026-11-19 11:13:26 EST · **Closed:** 2026-11-19 16:24:53 EST
 **Plan:** [202611/noise\_publication\_digests\_tui\_stalls.md](https://github.com/sase-org/sase--plans/blob/main/202611/noise_publication_digests_tui_stalls.md)
 
 ## Description
@@ -22,6 +22,10 @@ Apollo: 0 `.sase-v2-*` dirs. Same notify query = 3. Drain ledger 148 rows: no_re
 After-install (maxdepth 3 misses sidecar-root scratch at depth 4):
 `find ~/.sase/projects -name '.sase-v2-*'; sase notify list -a -j -l 10000 -q 'agents prompt archive' | python3 -c 'import json,sys;print(len(json.load(sys.stdin)))'`
 One-time live sweep of the Nov 3 pair is proposed via `/sase_gate`, not applied here.
+
+[2026-11-19T21:23:43Z · sase-1tz.2.1.4--1] PROPOSED FOLLOW-UP: just check symvision stale_checkout for sase-1tz.2.1.2 axe_error_wire_schema_version/group_errors/normalize_error_signature — local HEAD 179495b93a inherits whitelist rows removed upstream afb07058; unrelated to pub_cleanup, integrate upstream cleanup and rerun
+
+[2026-11-19T21:24:53Z · sase-1tz.2.1.4--1] pub_cleanup landed as c756511c11; 41 targeted tests green (publication_cleanup_policy, publication_scratch, commit_publication_bounded_drain, workspace_retention_agents_scratch, commit_finalizer_git_status); sase_core_rs.default_publication_cleanup_timeout()==15.0; epic-symbols clean; full check red only on unrelated symvision stale_checkout for sase-1tz.2.1.2 whitelist rows (recorded as PROPOSED FOLLOW-UP)
 
 ## Dependencies
 

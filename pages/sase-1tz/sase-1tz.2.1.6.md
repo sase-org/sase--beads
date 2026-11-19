@@ -13,7 +13,7 @@ prompt_terminal: find why deferred prompt sources vanish and close each gap so d
 
 ## Dependencies
 
-- **Depends on:** [sase-1tz.2.1.4](sase-1tz.2.1.4.md) ◐ · ⧖ 2026-11-19
+- **Depends on:** [sase-1tz.2.1.4](sase-1tz.2.1.4.md) ✓ · ⧖ 2026-11-19
 - **Blocks:** [sase-1tz.2.1.7](sase-1tz.2.1.7.md) ◐ · ⧖ 2026-11-19
 
 ## Agents

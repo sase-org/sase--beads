@@ -57,12 +57,12 @@ flowchart TD
     n16["sase-1tz.2.1.13: Measure the combined TUI result and settle the TUI task beads [in_progress]"]
     n17["sase-1tz.2.1.2: Render one digest line per cause with true totals, coverage, and pruning [closed]"]
     n18["sase-1tz.2.1.3: Turn repeated publication failures into standing alerts with backoff [closed]"]
-    n19["sase-1tz.2.1.4: Give drain cleanup a budget it can finish and sweep stranded publisher scratch [in_progress]"]
+    n19["sase-1tz.2.1.4: Give drain cleanup a budget it can finish and sweep stranded publisher scratch [closed]"]
     n20["sase-1tz.2.1.5: Bound inventory_build with reuse, an incremental history cache, and scoped queries [in_progress]"]
     n21["sase-1tz.2.1.6: Keep deferred prompt sources alive and add an audited terminal state [in_progress]"]
     n22["sase-1tz.2.1.7: Make the publication doctor checks report standing and terminal state [in_progress]"]
     n23["sase-1tz.2.1.8: Rotate tui_stalls.jsonl, tolerate torn lines, and write fault headers only on faults [closed]"]
-    n24["sase-1tz.2.1.9: Stop policy-initiated garbage collections from blocking the loop for seconds [in_progress]"]
+    n24["sase-1tz.2.1.9: Stop policy-initiated garbage collections from blocking the loop for seconds [closed]"]
     n25["sase-1tz.3: Targeted high-confidence defect fixes (items 6-10) [in_progress]"]
     n26["sase-1tz.4: Gateway checkpoint fix, notification hygiene, and retention sweep (items 11-13) [in_progress]"]
     n0 --> n1
@@ -140,7 +140,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1tz.2.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.6/README.md) | [sase-1tz.2.1.6](sase-1tz.2.1.6.md) | 0 |
 | [bbugyi200.athena.sase-1tz.2.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.7/README.md) | [sase-1tz.2.1.7](sase-1tz.2.1.7.md) | 0 |
 | [bbugyi200.athena.sase-1tz.2.1.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.8/README.md) | [sase-1tz.2.1.8](sase-1tz.2.1.8.md) | 1 |
-| [bbugyi200.athena.sase-1tz.2.1.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.9/README.md) | [sase-1tz.2.1.9](sase-1tz.2.1.9.md) | 0 |
+| [bbugyi200.athena.sase-1tz.2.1.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.9/README.md) | [sase-1tz.2.1.9](sase-1tz.2.1.9.md) | 1 |
 | [bbugyi200.athena.sase-1tz.2.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.land/README.md) | [sase-1tz.2.1](sase-1tz.2.1.md) | 0 |
 | [bbugyi200.athena.sase-1tz.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3/README.md) | [sase-1tz.3](sase-1tz.3.md) | 0 |
 | [bbugyi200.athena.sase-1tz.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4/README.md) | [sase-1tz.4](sase-1tz.4.md) | 0 |
@@ -170,6 +170,7 @@ flowchart TD
 | sase | [`afb0705`](https://github.com/sase-org/sase/commit/afb070580a159fc383b8b5f52e29ea649328c096) | feat(tui): rotate tui\_stalls.jsonl, tolerate torn lines, and spool fault logs | [sase-1tz.2.1.8](sase-1tz.2.1.8.md) | 2026-11-19 14:58:03 EST |
 | sase-core | [`sase-core@3c3263f`](https://github.com/sase-org/sase-core/commit/3c3263fb98cfe2185764f8e6ea6e3b0aaae0a40c) | feat(publication): add standing-alert decider with capped backoff | [sase-1tz.2.1.3](sase-1tz.2.1.3.md) | 2026-11-19 15:22:42 EST |
 | sase | [`5f719a5`](https://github.com/sase-org/sase/commit/5f719a5361c407086763f5f2dd71282755cc1713) | feat(agents-sync): report repeated publication failures as standing alerts with backoff | [sase-1tz.2.1.3](sase-1tz.2.1.3.md) | 2026-11-19 16:39:00 EST |
+| sase | [`49b96a9`](https://github.com/sase-org/sase/commit/49b96a9c5095bf677829c980bcfe8b658d0b5182) | feat(tui): gate policy GC pauses | [sase-1tz.2.1.9](sase-1tz.2.1.9.md) | 2026-11-19 17:03:45 EST |
 
 <!-- sase:referenced-by:start -->
 
