@@ -68,6 +68,9 @@ flowchart TD
     n18["sase-1tc.3.1.6.4: Re-prove recovery with production-shaped evidence and record corrected acceptance [closed]"]
     n19["sase-1tc.4: beads.db has one SQLite library owner per process (sase-1kp) [closed]"]
     n20["sase-1tc.5: Failure triage attaches the owning task bead (sase-1ha) [in_progress]"]
+    n21["sase-1tc.5.1: Attach triage owners after stage classification and bound candidate loading [in_progress]"]
+    n22["sase-1tc.5.1.1: Attach owners at settlement without rewriting stage verdicts [closed]"]
+    n23["sase-1tc.5.1.2: Project candidate fields in Rust and prove the full CLI path [in_progress]"]
     n0 --> n1
     n1 --> n2
     n2 --> n3
@@ -88,6 +91,9 @@ flowchart TD
     n14 --> n18
     n0 --> n19
     n0 --> n20
+    n20 --> n21
+    n21 --> n22
+    n21 --> n23
     n1 -.-> n6
     n3 -.-> n4
     n4 -.-> n5
@@ -101,6 +107,7 @@ flowchart TD
     n16 -.-> n17
     n17 -.-> n18
     n19 -.-> n20
+    n22 -.-> n23
 ```
 
 ## Agents
@@ -126,7 +133,10 @@ flowchart TD
 | [bbugyi200.athena.sase-1tc.3.1.6.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tc.3.1.6.land.md) | [sase-1tc.3.1.6](sase-1tc.3.1.6.md) | 3 |
 | [bbugyi200.athena.sase-1tc.3.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tc.3.1.land.md) | [sase-1tc.3.1](sase-1tc.3.1.md) | 0 |
 | [bbugyi200.athena.sase-1tc.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tc.4.md) | [sase-1tc.4](sase-1tc.4.md) | 2 |
-| [bbugyi200.athena.sase-1tc.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.5/README.md) | [sase-1tc.5](sase-1tc.5.md) | 0 |
+| [bbugyi200.athena.sase-1tc.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tc.5.md) | [sase-1tc.5](sase-1tc.5.md) | 0 |
+| [bbugyi200.athena.sase-1tc.5.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tc.5.1.1.md) | [sase-1tc.5.1.1](sase-1tc.5.1.1.md) | 1 |
+| [bbugyi200.athena.sase-1tc.5.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.5.1.2/README.md) | [sase-1tc.5.1.2](sase-1tc.5.1.2.md) | 0 |
+| [bbugyi200.athena.sase-1tc.5.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.5.1.land/README.md) | [sase-1tc.5.1](sase-1tc.5.1.md) | 0 |
 | [bbugyi200.athena.sase-1tc.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.land/README.md) | [sase-1tc](README.md) | 0 |
 
 ## Commits
@@ -154,6 +164,7 @@ flowchart TD
 | sase--plans | [`sase--plans@9394c75`](https://github.com/sase-org/sase--plans/commit/9394c750024cc6a0ce17635e85962ab3d3522fc4) | docs(plans): mark chop recovery defects plan done | [sase-1tc.3.1.6](sase-1tc.3.1.6.md) | 2026-11-18 17:16:53 EST |
 | sase | [`5b79f0f`](https://github.com/sase-org/sase/commit/5b79f0f5e37237e07b48088c4079dc04082453e1) | feat(beads): retire Python beads.db SQLite mirror | [sase-1tc.4](sase-1tc.4.md) | 2026-11-19 06:27:33 EST |
 | sase | [`c4cb77b`](https://github.com/sase-org/sase/commit/c4cb77b3b88a86554a9f980f6f0e3e5f38449ccf) | test(beads): single-owner WAL-mirror adoption and exact SQLite owner guard | [sase-1tc.4](sase-1tc.4.md) | 2026-11-19 09:05:22 EST |
+| sase-core | [`sase-core@a06bdae`](https://github.com/sase-org/sase-core/commit/a06bdae7842de42a5ed95a7e04041908ba6c72db) | fix(triage): backfill staged owners at settle without rewriting verdicts | [sase-1tc.5.1.1](sase-1tc.5.1.1.md) | 2026-11-19 11:28:14 EST |
 
 <!-- sase:referenced-by:start -->
 

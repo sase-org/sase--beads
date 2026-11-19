@@ -46,3 +46,15 @@ beads_db_owner: remove the Rust lock-file and Python WAL-mirror collision on bea
 |---|---|---|---|---|
 | sase | [`5b79f0f`](https://github.com/sase-org/sase/commit/5b79f0f5e37237e07b48088c4079dc04082453e1) | feat(beads): retire Python beads.db SQLite mirror | [sase-1tc.4](sase-1tc.4.md) | 2026-11-19 06:27:33 EST |
 | sase | [`c4cb77b`](https://github.com/sase-org/sase/commit/c4cb77b3b88a86554a9f980f6f0e3e5f38449ccf) | test(beads): single-owner WAL-mirror adoption and exact SQLite owner guard | [sase-1tc.4](sase-1tc.4.md) | 2026-11-19 09:05:22 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1tc.4--1][1] | Need phase state and notes before recording verification and closing | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tc.4.md
+
+<!-- sase:referenced-by:end -->
