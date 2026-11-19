@@ -41,7 +41,7 @@ The five most important unowned task beads are fixed and closed: model output ca
 | [sase-1tc.2](sase-1tc.2.md) | Provider retry never re-runs an agent for a host finalizer failure (sase-1he) | ✓ closed | medium | 2026-11-17 | 1 | 1 |
 | [sase-1tc.3](sase-1tc.3.md) | A scheduler stop never silently drops a chop's launch batch (sase-1c2) | ✓ closed | large | 2026-11-17 | 1 | 0 |
 | [sase-1tc.4](sase-1tc.4.md) | beads.db has one SQLite library owner per process (sase-1kp) | ✓ closed | large | 2026-11-17 | 1 | 2 |
-| [sase-1tc.5](sase-1tc.5.md) | Failure triage attaches the owning task bead (sase-1ha) | ◐ in_progress | large | 2026-11-17 | 1 | 0 |
+| [sase-1tc.5](sase-1tc.5.md) | Failure triage attaches the owning task bead (sase-1ha) | ✓ closed | large | 2026-11-17 | 1 | 0 |
 
 ## Lineage
 
@@ -67,8 +67,8 @@ flowchart TD
     n17["sase-1tc.3.1.6.3: Visible holds, bounded retention, complete clan-kill coverage and per-episode notices [closed]"]
     n18["sase-1tc.3.1.6.4: Re-prove recovery with production-shaped evidence and record corrected acceptance [closed]"]
     n19["sase-1tc.4: beads.db has one SQLite library owner per process (sase-1kp) [closed]"]
-    n20["sase-1tc.5: Failure triage attaches the owning task bead (sase-1ha) [in_progress]"]
-    n21["sase-1tc.5.1: Attach triage owners after stage classification and bound candidate loading [in_progress]"]
+    n20["sase-1tc.5: Failure triage attaches the owning task bead (sase-1ha) [closed]"]
+    n21["sase-1tc.5.1: Attach triage owners after stage classification and bound candidate loading [closed]"]
     n22["sase-1tc.5.1.1: Attach owners at settlement without rewriting stage verdicts [closed]"]
     n23["sase-1tc.5.1.2: Project candidate fields in Rust and prove the full CLI path [closed]"]
     n0 --> n1
@@ -136,7 +136,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1tc.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tc.5.md) | [sase-1tc.5](sase-1tc.5.md) | 0 |
 | [bbugyi200.athena.sase-1tc.5.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tc.5.1.1.md) | [sase-1tc.5.1.1](sase-1tc.5.1.1.md) | 2 |
 | [bbugyi200.athena.sase-1tc.5.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.5.1.2/README.md) | [sase-1tc.5.1.2](sase-1tc.5.1.2.md) | 2 |
-| [bbugyi200.athena.sase-1tc.5.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.5.1.land/README.md) | [sase-1tc.5.1](sase-1tc.5.1.md) | 0 |
+| [bbugyi200.athena.sase-1tc.5.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.5.1.land/README.md) | [sase-1tc.5.1](sase-1tc.5.1.md) | 1 |
 | [bbugyi200.athena.sase-1tc.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.land/README.md) | [sase-1tc](README.md) | 0 |
 
 ## Commits
@@ -168,6 +168,7 @@ flowchart TD
 | sase | [`d9cb9cf`](https://github.com/sase-org/sase/commit/d9cb9cf4a3d8c620464e27f32a882d42580b9b14) | test(triage): add settle owner-enrichment binding regression | [sase-1tc.5.1.1](sase-1tc.5.1.1.md) | 2026-11-19 11:29:42 EST |
 | sase-core | [`sase-core@cb76eb2`](https://github.com/sase-org/sase-core/commit/cb76eb283d319c24c3eb8ecd305f4f6eba3d604f) | feat(bead): project triage owner candidates from the read model | [sase-1tc.5.1.2](sase-1tc.5.1.2.md) | 2026-11-19 14:44:43 EST |
 | sase | [`179495b`](https://github.com/sase-org/sase/commit/179495b93a9650f8f18ae1d8511af8e4bdb7e5a3) | feat(triage): load owner candidates through the Rust bead projection | [sase-1tc.5.1.2](sase-1tc.5.1.2.md) | 2026-11-19 14:46:40 EST |
+| sase--plans | [`sase--plans@25138eb`](https://github.com/sase-org/sase--plans/commit/25138eb63c5113d2a063850e9a710e3baa074809) | docs(plans): complete triage owner settlement epic | [sase-1tc.5.1](sase-1tc.5.1.md) | 2026-11-19 15:26:35 EST |
 
 <!-- sase:referenced-by:start -->
 

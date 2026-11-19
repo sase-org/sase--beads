@@ -32,7 +32,7 @@ beads_db_owner: remove the Rust lock-file and Python WAL-mirror collision on bea
 ## Dependencies
 
 - **Depends on:** [sase-1tc.3](sase-1tc.3.md) ✓ · ⧖ 2026-11-17
-- **Blocks:** [sase-1tc.5](sase-1tc.5.md) ◐ · ⧖ 2026-11-17
+- **Blocks:** [sase-1tc.5](sase-1tc.5.md) ✓ · ⧖ 2026-11-17
 
 ## Agents
 
