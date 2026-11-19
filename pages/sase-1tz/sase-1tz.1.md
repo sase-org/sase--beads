@@ -15,6 +15,12 @@ outage: stop reporting unmeasured disk as 0 B/complete, measure workspace roots 
 
 [2026-11-19T13:20:31Z · sase-1tz.1.1.7] standing_skips: measured 34 athena managed_tmp_reap skip warnings on 2026-11-19 so far; after-install repeat command and implementation result are recorded on sase-1tz.1.1.7.
 
+[2026-11-19T14:49:24Z · sase-1tz.1.1.5] owner_first: workspace and owner roots now get a separate 90s pass with 60s per root and four concurrent du processes before detail and stray scans; read-only Apollo/Athena baselines and the expected per-root du tolerance are on sase-1tz.1.1.5, with post-install comparison pending the human-owned install.
+
+[2026-11-19T14:50:49Z · sase-1tz.1.1.6] pressure_recovery: apollo 99 disk_pressure rows (97 visible, 0 dedup keys) as of 2026-11-19; after-install ssh apollo -- sase notify list --sender disk_pressure --all --json --limit 10000
+
+[2026-11-19T14:57:01Z · sase-1tz.1.1.2] held_settle (sase-1tz.1.1.2) measurement: athena store generation advanced ~20/min on a 7.3 MB file before the fix (2026-11-19 09:04 EST); after-install repeat: g1=$(cat ~/.sase/notifications/notifications.jsonl.generation); sleep 60; g2=$(cat ~/.sase/notifications/notifications.jsonl.generation); echo $((g2-g1)).
+
 ## Dependencies
 
 - **Blocks:** [sase-1tz.2](sase-1tz.2.md) ◐ · ⧖ 2026-11-19

@@ -19,7 +19,7 @@ store_guard: in sase-core, key-based +1s to dismissed rows become no-ops unless 
 
 ## Dependencies
 
-- **Blocks:** [sase-1tz.1.1.2](sase-1tz.1.1.2.md) ◐ · ⧖ 2026-11-19
+- **Blocks:** [sase-1tz.1.1.2](sase-1tz.1.1.2.md) ✓ · ⧖ 2026-11-19
 - **Blocks:** [sase-1tz.1.1.6](sase-1tz.1.1.6.md) ◐ · ⧖ 2026-11-19
 
 ## Agents
