@@ -13,7 +13,7 @@ pub_inventory: build the hood inventory once per project per tick instead of onc
 
 ## Dependencies
 
-- **Depends on:** [sase-1tz.2.1.3](sase-1tz.2.1.3.md) ◐ · ⧖ 2026-11-19
+- **Depends on:** [sase-1tz.2.1.3](sase-1tz.2.1.3.md) ✓ · ⧖ 2026-11-19
 - **Depends on:** [sase-1tz.2.1.4](sase-1tz.2.1.4.md) ◐ · ⧖ 2026-11-19
 
 ## Agents

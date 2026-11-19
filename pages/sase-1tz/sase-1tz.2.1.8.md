@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1tz.2.1](sase-1tz.2.1.md) / sase-1tz.2.1.8
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-1tz.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tz.2.md) · **Assignee:** `sase-1tz.2.1.8` · **Size:** medium
-**Created:** 2026-11-19 11:13:27 EST
+**Created:** 2026-11-19 11:13:27 EST · **Closed:** 2026-11-19 14:55:36 EST
 **Plan:** [202611/noise\_publication\_digests\_tui\_stalls.md](https://github.com/sase-org/sase--plans/blob/main/202611/noise_publication_digests_tui_stalls.md)
 
 ## Description
@@ -32,6 +32,8 @@ Expected after install: the first append rotates the oversize 38 MB active file 
 
 [2026-11-19T19:55:15Z · sase-1tz.2.1.8] PROPOSED FOLLOW-UP: four KNOWN base-tree test failures seen in just check (run a6d0419fc49515d0e58f88b2544dcf23, witness 203b10da45bc5567b16d396fbb323c64, no owner), unrelated to stall_telemetry — tests/test_macro_terminology.py::test_macro_string_literals_avoid_xprompt_terms (flags %xprompts_enabled literals in tests/turns/test_workspace_retention_agents_scratch.py); tests/test_agent_artifact_directory_operation_audit.py::test_artifact_directory_operation_sites_are_reviewed (unreviewed site src/sase/agents_sync/publication_scratch.py:sweep_publication_scratch from c756511c11); tests/agents_sync/test_commit_publication_drain_accounting.py::test_cleanup_after_success_does_not_resurrect; tests/fakey/test_gate_capacity_custom_e2e.py::test_synchronous_gate_answer_claims_and_releases_runner_slot_capacity_like_an_agent.
 
+[2026-11-19T19:55:36Z · sase-1tz.2.1.8] Implemented stall_telemetry (stall_history = hours). (1) log_tui_stall now goes through the shared bounded-append helper with STALL_MAX_BYTES = 24 MiB per segment (SASE_TUI_STALL_MAX_BYTES overrides it). The in-place 48 h prune is gone, so no writer parses or rewrites the log. Rows are slimmed: young GC pause rows only at >= 0.5 s, with all >= 50 ms young pauses rolled into the heartbeat's gc_young_notable {count,total_s,max_s}; hitch stacks keep the innermost 24 frames, hitch-recovery stacks 8. Replaying the live rows gives athena 19.8 MiB/48 h and apollo 11.5 MiB/48 h, so one segment holds 48 h. The docstring and runbook state this. (2) Torn lines: a shared tests/_jsonl_rows reader is used by the bench helpers (_read_samples, _assert_no_stall_rows, the agents and deck-view benches) and the residual soak (_read_events). tools/tui_freeze_report now counts skips (stderr plus --json inputs.skipped_lines) and decodes with errors=replace. Rust perf_logs_query was verified tolerant already (malformed_skipped), so there is no sase-core change. (3) Long loop stalls re-sample the main-thread stack every 10 s, at most 6 samples of 32 frames, deduplicated (same_as_previous), carried as stack_samples on tui_stall_recovered. (4) faulthandler writes a per-process headerless spool, tui_faults.d/<pid>-<start_ms>-<version>.log. A clean exit or re-exec disables it and deletes the empty spool; the next start harvests dead spools into tui_faults.log under a [start] pid= sase= header. Docs: perf-runbook retention, hitch/stall, GC rows, and the new Fault log section. Verified: focused tests pass (watchdog, GC telemetry, retention, fault spool, ace_handler, freeze report: 175+ tests). sase tool run check a6d0419f: every lint stage passes, and the full suite (escalated) has 62,169 passed and 4 failed. All 4 failures are KNOWN with witness 203b10da and unrelated, recorded as a PROPOSED FOLLOW-UP. Before-numbers and after-install commands are in the measurement note, with a summary on sase-1tz.2.
+
 ## Dependencies
 
 - **Blocks:** [sase-1tz.2.1.13](sase-1tz.2.1.13.md) ◐ · ⧖ 2026-11-19
@@ -42,3 +44,15 @@ Expected after install: the first append rotates the oversize 38 MB active file 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1tz.2.1.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.8/README.md) | [sase-1tz.2.1.8](sase-1tz.2.1.8.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1tz.2.1.8][1] | Confirm close status after sync | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.8/README.md
+
+<!-- sase:referenced-by:end -->

@@ -23,6 +23,8 @@ noise: give agent_publication per-(project, signature) backoff with standing ale
 
 🔒 ui\_io\_offload\_stalls.py
 
+[2026-11-19T19:55:09Z · sase-1tz.2.1.8] stall_telemetry (sase-1tz.2.1.8): before install, athena tui_stalls.jsonl is 38.3 MB + 2.1 MB .1 (0 torn) and tui_faults.log 17 KB of headers only; apollo is 16.7 MB + 2.1 MB (3 torn) and 14.8 KB. After install, the stall log is capped at 24 MiB/segment (>= 48 h; athena replays at 19.8 MiB/48 h), and tui_faults.log gets headers only for real faults. The after-install commands are in the sase-1tz.2.1.8 measurement note.
+
 ## Attachments
 
 - 🔒 ui\_io\_offload\_stalls.py · text/x-python · 1.67773 KiB (private attachment)
@@ -37,3 +39,15 @@ noise: give agent_publication per-(project, signature) backoff with standing ale
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1tz.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tz.2.md) | [sase-1tz.2](sase-1tz.2.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1tz.2.1.11][1] | Need sibling phases' measurement-note format before recording ui_io_offload before-numbers on sase-1tz.2 | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.11/README.md
+
+<!-- sase:referenced-by:end -->

@@ -55,13 +55,13 @@ flowchart TD
     n14["sase-1tz.2.1.11: Move sampled synchronous filesystem work off the TUI main thread [closed]"]
     n15["sase-1tz.2.1.12: Cache compiled query profiles and cut per-second clan runtime work [closed]"]
     n16["sase-1tz.2.1.13: Measure the combined TUI result and settle the TUI task beads [in_progress]"]
-    n17["sase-1tz.2.1.2: Render one digest line per cause with true totals, coverage, and pruning [in_progress]"]
-    n18["sase-1tz.2.1.3: Turn repeated publication failures into standing alerts with backoff [in_progress]"]
+    n17["sase-1tz.2.1.2: Render one digest line per cause with true totals, coverage, and pruning [closed]"]
+    n18["sase-1tz.2.1.3: Turn repeated publication failures into standing alerts with backoff [closed]"]
     n19["sase-1tz.2.1.4: Give drain cleanup a budget it can finish and sweep stranded publisher scratch [in_progress]"]
     n20["sase-1tz.2.1.5: Bound inventory_build with reuse, an incremental history cache, and scoped queries [in_progress]"]
     n21["sase-1tz.2.1.6: Keep deferred prompt sources alive and add an audited terminal state [in_progress]"]
     n22["sase-1tz.2.1.7: Make the publication doctor checks report standing and terminal state [in_progress]"]
-    n23["sase-1tz.2.1.8: Rotate tui_stalls.jsonl, tolerate torn lines, and write fault headers only on faults [in_progress]"]
+    n23["sase-1tz.2.1.8: Rotate tui_stalls.jsonl, tolerate torn lines, and write fault headers only on faults [closed]"]
     n24["sase-1tz.2.1.9: Stop policy-initiated garbage collections from blocking the loop for seconds [in_progress]"]
     n25["sase-1tz.3: Targeted high-confidence defect fixes (items 6-10) [in_progress]"]
     n26["sase-1tz.4: Gateway checkpoint fix, notification hygiene, and retention sweep (items 11-13) [in_progress]"]
@@ -130,11 +130,11 @@ flowchart TD
 | [bbugyi200.athena.sase-1tz.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tz.2.md) | [sase-1tz.2](sase-1tz.2.md) | 0 |
 | [bbugyi200.athena.sase-1tz.2.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.1/README.md) | [sase-1tz.2.1.1](sase-1tz.2.1.1.md) | 2 |
 | [bbugyi200.athena.sase-1tz.2.1.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.10/README.md) | [sase-1tz.2.1.10](sase-1tz.2.1.10.md) | 0 |
-| [bbugyi200.athena.sase-1tz.2.1.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.11/README.md) | [sase-1tz.2.1.11](sase-1tz.2.1.11.md) | 1 |
+| [bbugyi200.athena.sase-1tz.2.1.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.11/README.md) | [sase-1tz.2.1.11](sase-1tz.2.1.11.md) | 0 |
 | [bbugyi200.athena.sase-1tz.2.1.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.12/README.md) | [sase-1tz.2.1.12](sase-1tz.2.1.12.md) | 1 |
 | [bbugyi200.athena.sase-1tz.2.1.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.13/README.md) | [sase-1tz.2.1.13](sase-1tz.2.1.13.md) | 0 |
 | [bbugyi200.athena.sase-1tz.2.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.2/README.md) | [sase-1tz.2.1.2](sase-1tz.2.1.2.md) | 0 |
-| [bbugyi200.athena.sase-1tz.2.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.3/README.md) | [sase-1tz.2.1.3](sase-1tz.2.1.3.md) | 0 |
+| [bbugyi200.athena.sase-1tz.2.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.3/README.md) | [sase-1tz.2.1.3](sase-1tz.2.1.3.md) | 1 |
 | [bbugyi200.athena.sase-1tz.2.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.4/README.md) | [sase-1tz.2.1.4](sase-1tz.2.1.4.md) | 2 |
 | [bbugyi200.athena.sase-1tz.2.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.5/README.md) | [sase-1tz.2.1.5](sase-1tz.2.1.5.md) | 0 |
 | [bbugyi200.athena.sase-1tz.2.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.6/README.md) | [sase-1tz.2.1.6](sase-1tz.2.1.6.md) | 0 |
@@ -165,7 +165,7 @@ flowchart TD
 | sase-core | [`sase-core@5ad6013`](https://github.com/sase-org/sase-core/commit/5ad60139499e9149dbc6a1a3db01ec7f088134b0) | feat(publication): raise cleanup timeout to 15s | [sase-1tz.2.1.4](sase-1tz.2.1.4.md) | 2026-11-19 12:50:13 EST |
 | sase | [`1ae81b4`](https://github.com/sase-org/sase/commit/1ae81b40987b9bd19fefc8abc926eb703e17108d) | feat(axe): add durable error counts with signature grouping | [sase-1tz.2.1.1](sase-1tz.2.1.1.md) | 2026-11-19 12:50:24 EST |
 | sase | [`c756511`](https://github.com/sase-org/sase/commit/c756511c1113809840c79d5dda5d25d41b5c164a) | feat(agents-sync): reserve 15s for publisher drain cleanup | [sase-1tz.2.1.4](sase-1tz.2.1.4.md) | 2026-11-19 12:51:37 EST |
-| sase | [`238ef42`](https://github.com/sase-org/sase/commit/238ef42df90900ae0cb78c900de9b55a23439de2) | perf(ace): move sampled main-thread filesystem work off the TUI loop | [sase-1tz.2.1.11](sase-1tz.2.1.11.md) | 2026-11-19 14:55:11 EST |
+| sase-core | [`sase-core@3c3263f`](https://github.com/sase-org/sase-core/commit/3c3263fb98cfe2185764f8e6ea6e3b0aaae0a40c) | feat(publication): add standing-alert decider with capped backoff | [sase-1tz.2.1.3](sase-1tz.2.1.3.md) | 2026-11-19 15:22:42 EST |
 
 <!-- sase:referenced-by:start -->
 

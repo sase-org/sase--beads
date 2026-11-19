@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1tz.2.1](sase-1tz.2.1.md) / sase-1tz.2.1.2
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-1tz.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tz.2.md) · **Assignee:** `sase-1tz.2.1.2` · **Size:** medium
-**Created:** 2026-11-19 11:13:26 EST
+**Created:** 2026-11-19 11:13:26 EST · **Closed:** 2026-11-19 14:58:58 EST
 **Plan:** [202611/noise\_publication\_digests\_tui\_stalls.md](https://github.com/sase-org/sase--plans/blob/main/202611/noise_publication_digests_tui_stalls.md)
 
 ## Description
@@ -19,6 +19,10 @@ digest_render: the hourly digest snapshots and resets the interval counter atomi
 
 [2026-11-19T19:14:06Z · sase-1tz.2.1.2] PROPOSED FOLLOW-UP: sibling pub_cleanup left three just-check NEW failures that reproduce identically on clean HEAD — test_macro_string_literals_avoid_xprompt_terms findings in tests/turns/test_workspace_retention_agents_scratch.py (%xprompts_enabled strings; same class as closed sase-1hr); test_cleanup_after_success_does_not_resurrect TypeError remaining_timeout vs clean() mock; extra live site src/sase/agents_sync/publication_scratch.py:sweep_publication_scratch in test_artifact_directory_operation_sites_are_reviewed
 
+[2026-11-19T19:55:32Z · sase-1tz.2.1.2] sase bead close refused while origin/master still lists the three consumed --epic-symbol rows; local Justfile already dropped them. Host close after this commit publishes the drop.
+
+[2026-11-19T19:58:58Z · sase-1tz.2.1.2] Closed by explicit `sase stitch create -B close` after create_commit landed 96b3716cb3 ("feat(axe): render grouped scheduler error digests with true totals"). The commit author requested bead completion after verifying the bead scope. Reopen with `sase bead open sase-1tz.2.1.2` if more work remains.
+
 ## Dependencies
 
 - **Depends on:** [sase-1tz.2.1.1](sase-1tz.2.1.1.md) ✓ · ⧖ 2026-11-19
@@ -27,10 +31,16 @@ digest_render: the hourly digest snapshots and resets the interval counter atomi
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1tz.2.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.2/README.md) | [sase-1tz.2.1.2](sase-1tz.2.1.2.md) | 1 |
+| [bbugyi200.athena.sase-1tz.2.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.2/README.md) | [sase-1tz.2.1.2](sase-1tz.2.1.2.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase | [`96b3716`](https://github.com/sase-org/sase/commit/96b3716cb32b0888fcdba7ab8861cd781087d973) | feat(axe): render grouped scheduler error digests with true totals | [sase-1tz.2.1.2](sase-1tz.2.1.2.md) | 2026-11-19 14:57:27 EST |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1tz.2.1.2][1] | Need remaining notes, description details, and work already done | 5 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.2/README.md
+
+<!-- sase:referenced-by:end -->
