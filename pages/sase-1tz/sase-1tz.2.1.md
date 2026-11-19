@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/noise_publication_digests_tui_stalls.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 3 automatic references — see [Referenced By](#referenced-by)._
+_Plus 5 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202611/noise_publication_digests_tui_stalls.md
 
@@ -42,12 +42,16 @@ Evidence: file:explicit:d35dea9eedbf5dc21c83df1d.
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1tz.2.1.1][1] | parent epic scope | 1 |
-| read-by | [agent:sase-1tz.2.1.2][2] | Need parent epic DECISIONS and phase list | 1 |
-| read-by | [agent:sase-1tz.2.1.4][3] | Need parent epic DECISIONS, design, and remaining phases for pub_cleanup | 1 |
+| read-by | [agent:sase-1tc.5.1.land][1] | Need causally related active scopes and runner-slot flake duplicate status | 1 |
+| read-by | [agent:sase-1tz.2.1.1][2] | parent epic scope | 1 |
+| read-by | [agent:sase-1tz.2.1.2][3] | Need parent epic DECISIONS and phase list | 1 |
+| read-by | [agent:sase-1tz.2.1.3][4] | parent epic scope | 1 |
+| read-by | [agent:sase-1tz.2.1.4][5] | Need parent epic DECISIONS, design, and remaining phases for pub_cleanup | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.1/README.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.2/README.md
-[3]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tz.2.1.4.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.5.1.land/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.1/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.2/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.3/README.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tz.2.1.4.md
 
 <!-- sase:referenced-by:end -->

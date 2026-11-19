@@ -32,7 +32,7 @@ One-time live sweep of the Nov 3 pair is proposed via `/sase_gate`, not applied 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1tz.2.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.4/README.md) | [sase-1tz.2.1.4](sase-1tz.2.1.4.md) | 2 |
+| [bbugyi200.athena.sase-1tz.2.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tz.2.1.4.md) | [sase-1tz.2.1.4](sase-1tz.2.1.4.md) | 2 |
 
 ## Commits
 
@@ -47,8 +47,10 @@ One-time live sweep of the Nov 3 pair is proposed via `/sase_gate`, not applied 
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1tz.2.1.4][1] | Need remaining notes, design path, and children after truncated first read | 4 |
+| read-by | [agent:sase-1tc.5.1.land][1] | Need causally related active scopes and runner-slot flake duplicate status | 1 |
+| read-by | [agent:sase-1tz.2.1.4][2] | Need remaining notes, design path, and children after truncated first read | 4 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tz.2.1.4.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.5.1.land/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tz.2.1.4.md
 
 <!-- sase:referenced-by:end -->
