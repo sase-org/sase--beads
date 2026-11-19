@@ -18,7 +18,7 @@ unknown_sizes: the tree sizer returns measured, lower-bound, or unmeasured resul
 ## Dependencies
 
 - **Blocks:** [sase-1tz.1.1.5](sase-1tz.1.1.5.md) ◐ · ⧖ 2026-11-19
-- **Blocks:** [sase-1tz.1.1.6](sase-1tz.1.1.6.md) ◐ · ⧖ 2026-11-19
+- **Blocks:** [sase-1tz.1.1.6](sase-1tz.1.1.6.md) ✓ · ⧖ 2026-11-19
 
 ## Agents
 

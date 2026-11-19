@@ -37,8 +37,10 @@ outage: stop reporting unmeasured disk as 0 B/complete, measure workspace roots 
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1tz.1.1.7][1] | Need earlier phase notes and remaining work context | 1 |
+| read-by | [agent:sase-1tz.1.1.2][1] | need epic DECISIONS for held_settle phase | 1 |
+| read-by | [agent:sase-1tz.1.1.7][2] | Need earlier phase notes and remaining work context | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.1.1.7/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.1.1.2/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.1.1.7/README.md
 
 <!-- sase:referenced-by:end -->
