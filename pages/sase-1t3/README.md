@@ -241,7 +241,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1t3.13.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.13.1.3.md) | [sase-1t3.13.1.3](sase-1t3.13.1.3.md) | 1 |
 | [bbugyi200.athena.sase-1t3.13.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.13.1.4.md) | [sase-1t3.13.1.4](sase-1t3.13.1.4.md) | 1 |
 | [bbugyi200.athena.sase-1t3.13.1.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.13.1.5.md) | [sase-1t3.13.1.5](sase-1t3.13.1.5.md) | 0 |
-| [bbugyi200.athena.sase-1t3.13.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.13.1.land.md) | [sase-1t3.13.1](sase-1t3.13.1.md) | 1 |
+| [bbugyi200.athena.sase-1t3.13.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.13.1.land.md) | [sase-1t3.13.1](sase-1t3.13.1.md) | 2 |
 | [bbugyi200.athena.sase-1t3.14](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.14/README.md) | [sase-1t3.14](sase-1t3.14.md) | 0 |
 | [bbugyi200.athena.sase-1t3.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.2.md) | [sase-1t3.2](sase-1t3.2.md) | 1 |
 | [bbugyi200.athena.sase-1t3.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.3/README.md) | [sase-1t3.3](sase-1t3.3.md) | 1 |
@@ -313,6 +313,7 @@ flowchart TD
 | sase | [`1092245`](https://github.com/sase-org/sase/commit/10922458c1900528846de26298cffbd0536f3a3d) | feat(agents): add exact-delta copy-on-write fast path for Agents-tab loads | [sase-1t3.13.1.4](sase-1t3.13.1.4.md) | 2026-11-18 17:10:24 EST |
 | sase | [`194b1a1`](https://github.com/sase-org/sase/commit/194b1a1ef4175fe5397b8f666883ac9028cbcec3) | feat(tui): bound agent detail enrichment | [sase-1t3.13.1.2](sase-1t3.13.1.2.md) | 2026-11-18 17:50:31 EST |
 | sase | [`d152f20`](https://github.com/sase-org/sase/commit/d152f200b294deabb84cac52b2e5d606a2017837) | fix(ace): move exact-delta share-back off the UI loop | [sase-1t3.13.1](sase-1t3.13.1.md) | 2026-11-18 20:01:38 EST |
+| sase--plans | [`sase--plans@78bbde9`](https://github.com/sase-org/sase--plans/commit/78bbde9fbc8c59aac936c37fa488ca0883b6e35b) | docs(plan): mark interaction latency landing complete | [sase-1t3.13.1](sase-1t3.13.1.md) | 2026-11-18 20:03:24 EST |
 
 <!-- sase:referenced-by:start -->
 
