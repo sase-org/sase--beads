@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1tz.1.1](sase-1tz.1.1.md) / sase-1tz.1.1.5
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-1tz.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tz.1.md) · **Assignee:** `sase-1tz.1.1.5` · **Size:** medium
-**Created:** 2026-11-19 07:28:41 EST
+**Created:** 2026-11-19 07:28:41 EST · **Closed:** 2026-11-19 10:32:45 EST
 **Plan:** [202611/outage\_disk\_attribution\_and\_held\_workspaces.md](https://github.com/sase-org/sase--plans/blob/main/202611/outage_disk_attribution_and_held_workspaces.md)
 
 ## Description
@@ -21,6 +21,8 @@ Athena: actstat 1616524 / 2088416; body 3763860 / 9576; cash 9884 / 13536; dev 3
 
 The code uses the same du -skx measurement and stores its KiB result multiplied by 1024, so 0 KiB difference is expected for an unchanged root. Compare each workspace row to du on its own path; do not sum nested detail rows, since the classifier removes overlap, including shared Git object paths. After install, repeat `sase disk list --json` on each host and run `du -skx -- PATH` for every section=workspaces path. Post-install comparison remains pending the human-owned global install.
 
+[2026-11-19T15:32:45Z · sase-1tz.1.1.5] Implemented first-pass measurement for workspace, SASE state, artifacts, and managed-temp owner roots with a 90s aggregate / 60s-per-root / 4-way budget ahead of the shared detail budget. just check passed (scoped pytest 21m26s). On Athena all 10 workspace owner roots were measured and matched fresh du -skx totals exactly (0 KiB delta). Recorded sase-1bf.4 findings and budgets in bead notes; Apollo post-install comparison remains to repeat after the human-owned global install. epic-symbol check found no leftovers.
+
 ## Dependencies
 
 - **Depends on:** [sase-1tz.1.1.4](sase-1tz.1.1.4.md) ✓ · ⧖ 2026-11-19
@@ -29,4 +31,10 @@ The code uses the same du -skx measurement and stores its KiB result multiplied 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1tz.1.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.1.1.5/README.md) | [sase-1tz.1.1.5](sase-1tz.1.1.5.md) | 0 |
+| [bbugyi200.athena.sase-1tz.1.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.1.1.5/README.md) | [sase-1tz.1.1.5](sase-1tz.1.1.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`6f21d01`](https://github.com/sase-org/sase/commit/6f21d01de33c0fa13f3479eaeb0091f7607dbd73) | feat(disk): prioritize workspace root measurements | [sase-1tz.1.1.5](sase-1tz.1.1.5.md) | 2026-11-19 10:34:30 EST |

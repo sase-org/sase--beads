@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/outage_disk_attribution_and_held_workspaces.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 4 automatic references — see [Referenced By](#referenced-by)._
+_Plus 5 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202611/outage_disk_attribution_and_held_workspaces.md
 
@@ -40,11 +40,13 @@ Disk inventory reports unmeasured owners as unknown rather than 0 B, and measure
 | read-by | [agent:sase-1tz.1.1.1][1] | Need the parent epic decisions and complete design context for this phase | 1 |
 | read-by | [agent:sase-1tz.1.1.2][2] | need epic scope and decisions | 1 |
 | read-by | [agent:sase-1tz.1.1.4][3] | Need parent epic DECISIONS which are final for this phase | 1 |
-| read-by | [agent:sase-1tz.1.1.7][4] | Need epic decisions and design constraints for phase implementation | 1 |
+| read-by | [agent:sase-1tz.1.1.6][4] | Need parent epic DECISIONS that this phase must honor | 2 |
+| read-by | [agent:sase-1tz.1.1.7][5] | Need epic decisions and design constraints for phase implementation | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.1.1.1/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.1.1.2/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.1.1.4/README.md
-[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.1.1.7/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.1.1.6/README.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.1.1.7/README.md
 
 <!-- sase:referenced-by:end -->
