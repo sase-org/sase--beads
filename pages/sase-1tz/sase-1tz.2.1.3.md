@@ -11,6 +11,12 @@
 
 pub_standing: a sase-core decider keys publication failures by (project, signature) and reports only opened, changed, escalated, and cleared transitions. It backs off project-scoped failures. A standing store keeps true attempt counts and first/last-seen times, and one notification per alert fires only on transitions.
 
+## Notes
+
+[2026-11-19T19:55:33Z · sase-1tz.2.1.3] Measurement: standing store path ~/.sase/agent_publication/standing_alerts.json; after install, run the error_groups ring snippet plus cat ~/.sase/agent_publication/standing_alerts.json to confirm one alert per (project, signature) with true attempt counts
+
+[2026-11-19T19:55:40Z · sase-1tz.2.1.3] PROPOSED FOLLOW-UP: sase-core standing change (decide_publication_standing + wire in agent_publication_recovery) is uncommitted in the linked sase-core checkout and sase-core-revision.txt still points at 5ad6013; the land flow must land the core commit first and move the pin past it, or CI builds core without the binding and the scheduler tick fails on AttributeError
+
 ## Dependencies
 
 - **Depends on:** [sase-1tz.2.1.1](sase-1tz.2.1.1.md) ✓ · ⧖ 2026-11-19
