@@ -23,7 +23,7 @@ trust-root: make enforcement and `sase config trust` derive the same checkout ro
 
 ## Dependencies
 
-- **Blocks:** [sase-1t3.14](sase-1t3.14.md) ◐ · ⧖ 2026-11-16
+- **Blocks:** [sase-1t3.14](sase-1t3.14.md) ✓ · ⧖ 2026-11-16
 - **Depends on:** [sase-1t3.3](sase-1t3.3.md) ✓ · ⧖ 2026-11-16
 - **Blocks:** [sase-1t3.7](sase-1t3.7.md) ✓ · ⧖ 2026-11-16
 

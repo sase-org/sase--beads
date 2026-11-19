@@ -66,6 +66,23 @@ sase-1t3.11 census order: ArtifactFile index (stable 47.5k), MemoryReadEvent cac
 
 [2026-11-18T06:58:45Z · sase-1t3.11.1.6--3] Verification recovery: assigned phase sase-1t3.11.1.6 had one new full-suite failure in the bounded-drain lock cleanup timing assertion (4.12s vs 2.0s) during host load 20.24/35.91/38.81 on 64 CPUs; its focused rerun passed in 8.457s on the unchanged tree. A fresh required full check remains pending.
 
+[2026-11-19T02:48:40Z · sase-1t3.14--1] sase-1t3.14 soak-verify stage table — 80-min separate-instance soak 2026-11-19T01:22:12Z..02:42:22Z, installed build 0.19.0+185.g194b1a1ef, core 0.44.2+42.gb1a036399 (pin b1a0363997e matches linked core), workspace HEAD 675a8ab0 3 test/refactor splits ahead of measured build. Soak instance 7eb96199 (pid 1866260), live TUI untouched (pid 3820644 before+after). Host loaded 11-20 on 64 CPUs, second pytest suite in another workspace. Dir: ~/.sase/perf/sase-1t3.14-soak-20261119T012212Z/.
+
+| Stage | Baseline | Target | Measured |
+| --- | --- | --- | --- |
+| Storm | 35G+30swap, 31 stuck | <=1 thread, no sat | 0 threads, no sat PASS |
+| Construction | 0.7-1s to 5-6s | ~1s | 12.3s FAIL |
+| Provider | ~6s cold | <1s | 135s cold FAIL |
+| Loads | 2-5s warm, 11.6s ready | ~1s / 5-6s | 101-412s / 555s FAIL |
+| Startup | ~14s wall | <3s mount | 59.2s FAIL |
+| Heap | 3-5.6G, ~3s, 95% | <2G, <=1s, <8M, <0.5% | 7.3G, 8.6s, 35M, 96% FAIL |
+| Interaction | p95 400-500ms | 16ms / 100ms | paint 91s FAIL* |
+| Overall | ~14s usable | 6-7s | 496s FAIL |
+
+Sources: Storm threads from pyspy_dump_30/55min (0 hijack, 29 threads); sat from 16/16 heartbeats false, workers 32, threads 5-13, q0. Construction from startup row app_construct_seconds. Provider cold from agent_loads startup disk_subs provider 134.7s (decode 208.4s); warm auto_refresh 47-63s, tier1 127-147s. Loads disk totals from agent_loads; agents_ready 554.8s, visible_ready 495.6s from startup row. Startup mount 59.2s, pa
+
+… and 1013 more characters
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -75,7 +92,7 @@ sase-1t3.11 census order: ArtifactFile index (stable 47.5k), MemoryReadEvent cac
 | [sase-1t3.11](sase-1t3.11.md) | Replace whole-file log caches with targeted queries | ✓ closed | large | 2026-11-16 | 1 | 0 |
 | [sase-1t3.12](sase-1t3.12.md) | Terminalize stale running rows in index maintenance | ✓ closed | large | 2026-11-16 | 1 | 2 |
 | [sase-1t3.13](sase-1t3.13.md) | Interaction latency after the heap shrinks | ✓ closed | large | 2026-11-16 | 1 | 0 |
-| [sase-1t3.14](sase-1t3.14.md) | End-to-end soak against the research baselines | ◐ in_progress | medium | 2026-11-16 | 1 | 0 |
+| [sase-1t3.14](sase-1t3.14.md) | End-to-end soak against the research baselines | ✓ closed | medium | 2026-11-16 | 1 | 1 |
 | [sase-1t3.2](sase-1t3.2.md) | Executor-saturation gauge and telemetry retention | ✓ closed | small | 2026-11-16 | 1 | 1 |
 | [sase-1t3.3](sase-1t3.3.md) | Semantics-preserving trust and config memoization | ✓ closed | medium | 2026-11-16 | 1 | 1 |
 | [sase-1t3.4](sase-1t3.4.md) | One checkout root for trust enforcement and acknowledgment | ✓ closed | medium | 2026-11-16 | 1 | 1 |
@@ -113,7 +130,7 @@ flowchart TD
     n21["sase-1t3.13.1.3: Limit periodic work to surfaced rows and relevant waiters [closed]"]
     n22["sase-1t3.13.1.4: Detach only rows affected by exact artifact deltas [closed]"]
     n23["sase-1t3.13.1.5: Verify combined latency and prepare parent-phase completion [closed]"]
-    n24["sase-1t3.14: End-to-end soak against the research baselines [in_progress]"]
+    n24["sase-1t3.14: End-to-end soak against the research baselines [closed]"]
     n25["sase-1t3.2: Executor-saturation gauge and telemetry retention [closed]"]
     n26["sase-1t3.3: Semantics-preserving trust and config memoization [closed]"]
     n27["sase-1t3.4: One checkout root for trust enforcement and acknowledgment [closed]"]
@@ -242,7 +259,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1t3.13.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.13.1.4.md) | [sase-1t3.13.1.4](sase-1t3.13.1.4.md) | 1 |
 | [bbugyi200.athena.sase-1t3.13.1.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.13.1.5.md) | [sase-1t3.13.1.5](sase-1t3.13.1.5.md) | 0 |
 | [bbugyi200.athena.sase-1t3.13.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.13.1.land.md) | [sase-1t3.13.1](sase-1t3.13.1.md) | 2 |
-| [bbugyi200.athena.sase-1t3.14](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.14/README.md) | [sase-1t3.14](sase-1t3.14.md) | 0 |
+| [bbugyi200.athena.sase-1t3.14](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.14.md) | [sase-1t3.14](sase-1t3.14.md) | 1 |
 | [bbugyi200.athena.sase-1t3.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.2.md) | [sase-1t3.2](sase-1t3.2.md) | 1 |
 | [bbugyi200.athena.sase-1t3.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.3/README.md) | [sase-1t3.3](sase-1t3.3.md) | 1 |
 | [bbugyi200.athena.sase-1t3.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.4.md) | [sase-1t3.4](sase-1t3.4.md) | 1 |
@@ -314,6 +331,8 @@ flowchart TD
 | sase | [`194b1a1`](https://github.com/sase-org/sase/commit/194b1a1ef4175fe5397b8f666883ac9028cbcec3) | feat(tui): bound agent detail enrichment | [sase-1t3.13.1.2](sase-1t3.13.1.2.md) | 2026-11-18 17:50:31 EST |
 | sase | [`d152f20`](https://github.com/sase-org/sase/commit/d152f200b294deabb84cac52b2e5d606a2017837) | fix(ace): move exact-delta share-back off the UI loop | [sase-1t3.13.1](sase-1t3.13.1.md) | 2026-11-18 20:01:38 EST |
 | sase--plans | [`sase--plans@78bbde9`](https://github.com/sase-org/sase--plans/commit/78bbde9fbc8c59aac936c37fa488ca0883b6e35b) | docs(plan): mark interaction latency landing complete | [sase-1t3.13.1](sase-1t3.13.1.md) | 2026-11-18 20:03:24 EST |
+
+… and 1 more commits
 
 <!-- sase:referenced-by:start -->
 

@@ -30,7 +30,7 @@ Focused tests passed (83). epic-symbols: none. Did not install globally or resta
 ## Dependencies
 
 - **Depends on:** [sase-1t3.1](sase-1t3.1.md) ✓ · ⧖ 2026-11-16
-- **Blocks:** [sase-1t3.14](sase-1t3.14.md) ◐ · ⧖ 2026-11-16
+- **Blocks:** [sase-1t3.14](sase-1t3.14.md) ✓ · ⧖ 2026-11-16
 - **Depends on:** [sase-1t3.3](sase-1t3.3.md) ✓ · ⧖ 2026-11-16
 - **Depends on:** [sase-1t3.5](sase-1t3.5.md) ✓ · ⧖ 2026-11-16
 

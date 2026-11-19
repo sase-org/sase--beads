@@ -56,7 +56,7 @@ Close event: sase-1t3:000125:issue_closed:sase-1t3.6:0ba0e9efc61e110f649c5c72428
 
 ## Dependencies
 
-- **Blocks:** [sase-1t3.14](sase-1t3.14.md) ◐ · ⧖ 2026-11-16
+- **Blocks:** [sase-1t3.14](sase-1t3.14.md) ✓ · ⧖ 2026-11-16
 
 ## Agents
 
