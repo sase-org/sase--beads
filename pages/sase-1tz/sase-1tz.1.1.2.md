@@ -42,7 +42,9 @@ held_settle: persist an evidence fingerprint and a cheap stat signature with the
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1tz.1.1.2][1] | check notes and remaining work | 2 |
+| read-by | [agent:sase-1tz.1.1.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.1.1.2/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.1.1.land/README.md
 
 <!-- sase:referenced-by:end -->

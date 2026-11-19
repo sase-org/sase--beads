@@ -41,8 +41,10 @@ unknown_sizes: the tree sizer returns measured, lower-bound, or unmeasured resul
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1tz.1.1.4][1] | Need full issue JSON for notes, decisions, design | 5 |
 | read-by | [agent:sase-1tz.1.1.6][2] | Need unknown_sizes landed work this phase depends on | 1 |
+| read-by | [agent:sase-1tz.1.1.land][3] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.1.1.4/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.1.1.6/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.1.1.land/README.md
 
 <!-- sase:referenced-by:end -->

@@ -43,10 +43,12 @@ outage: stop reporting unmeasured disk as 0 B/complete, measure workspace roots 
 | read-by | [agent:sase-1tz.1.1.5][2] | Need the parent phase's measurement note convention before recording the live-host summary | 1 |
 | read-by | [agent:sase-1tz.1.1.6][3] | Need parent phase DECISIONS that bind pressure_recovery | 2 |
 | read-by | [agent:sase-1tz.1.1.7][4] | Need earlier phase notes and remaining work context | 1 |
+| read-by | [agent:sase-1tz.1.1.land][5] | Confirm parent phase notes after auto-close | 3 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.1.1.2/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.1.1.5/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.1.1.6/README.md
 [4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.1.1.7/README.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.1.1.land/README.md
 
 <!-- sase:referenced-by:end -->

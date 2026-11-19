@@ -11,6 +11,12 @@
 
 noise: give agent_publication per-(project, signature) backoff with standing alerts, a bounded incremental drain, and a terminal state for unrestorable prompt archives. Aggregate the error ring and digests by signature with durable true counts and pruning. Cut measured TUI GC pauses and main-thread I/O stalls, with tui_stalls.jsonl as the acceptance metric.
 
+## Notes
+
+[2026-11-19T16:46:45Z · sase-1tz.2.1.4] pub_cleanup (sase-1tz.2.1.4): athena 2 Nov-3 `.sase-v2-*` dirs + 27 archive notices; apollo 0 scratch + 3 notices; cleanup cap 15s from athena p50≈1.6/max≈11.8; live sweep gated.
+
+[2026-11-19T16:56:41Z · sase-1tz.2.1.1] error_groups (sase-1tz.2.1.1): ring baseline athena 100 rows/44 publication (Nov14-19), apollo 100 rows/61 publication (Nov17-19); counts durable in error_counts.json after install.
+
 ## Dependencies
 
 - **Depends on:** [sase-1tz.1](sase-1tz.1.md) ✓ · ⧖ 2026-11-19
@@ -20,4 +26,4 @@ noise: give agent_publication per-(project, signature) backoff with standing ale
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1tz.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2/README.md) | [sase-1tz.2](sase-1tz.2.md) | 0 |
+| [bbugyi200.athena.sase-1tz.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tz.2.md) | [sase-1tz.2](sase-1tz.2.md) | 0 |

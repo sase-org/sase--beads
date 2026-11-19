@@ -46,7 +46,9 @@ The code uses the same du -skx measurement and stores its KiB result multiplied 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1tz.1.1.5][1] | Need the phase scope, design file, and prior work notes before implementing the assigned phase | 2 |
+| read-by | [agent:sase-1tz.1.1.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.1.1.5/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.1.1.land/README.md
 
 <!-- sase:referenced-by:end -->

@@ -49,8 +49,22 @@ flowchart TD
     n8["sase-1tz.1.1.6: Recover first, name unmeasured owners, and escalate missed recovery targets [closed]"]
     n9["sase-1tz.1.1.7: Report repeated managed-tmp reaper skips as one standing state [closed]"]
     n10["sase-1tz.2: Publication de-flap, truthful error digests, and TUI stall reduction (items 3-5) [in_progress]"]
-    n11["sase-1tz.3: Targeted high-confidence defect fixes (items 6-10) [in_progress]"]
-    n12["sase-1tz.4: Gateway checkpoint fix, notification hygiene, and retention sweep (items 11-13) [in_progress]"]
+    n11["sase-1tz.2.1: Publication de-flap, truthful error digests, and TUI stall reduction [in_progress]"]
+    n12["sase-1tz.2.1.1: Group the scheduler error ring by signature with durable interval counts [closed]"]
+    n13["sase-1tz.2.1.10: Find and fix the top cyclic-garbage producers and heap retainers [in_progress]"]
+    n14["sase-1tz.2.1.11: Move sampled synchronous filesystem work off the TUI main thread [in_progress]"]
+    n15["sase-1tz.2.1.12: Cache compiled query profiles and cut per-second clan runtime work [closed]"]
+    n16["sase-1tz.2.1.13: Measure the combined TUI result and settle the TUI task beads [in_progress]"]
+    n17["sase-1tz.2.1.2: Render one digest line per cause with true totals, coverage, and pruning [in_progress]"]
+    n18["sase-1tz.2.1.3: Turn repeated publication failures into standing alerts with backoff [in_progress]"]
+    n19["sase-1tz.2.1.4: Give drain cleanup a budget it can finish and sweep stranded publisher scratch [in_progress]"]
+    n20["sase-1tz.2.1.5: Bound inventory_build with reuse, an incremental history cache, and scoped queries [in_progress]"]
+    n21["sase-1tz.2.1.6: Keep deferred prompt sources alive and add an audited terminal state [in_progress]"]
+    n22["sase-1tz.2.1.7: Make the publication doctor checks report standing and terminal state [in_progress]"]
+    n23["sase-1tz.2.1.8: Rotate tui_stalls.jsonl, tolerate torn lines, and write fault headers only on faults [in_progress]"]
+    n24["sase-1tz.2.1.9: Stop policy-initiated garbage collections from blocking the loop for seconds [in_progress]"]
+    n25["sase-1tz.3: Targeted high-confidence defect fixes (items 6-10) [in_progress]"]
+    n26["sase-1tz.4: Gateway checkpoint fix, notification hygiene, and retention sweep (items 11-13) [in_progress]"]
     n0 --> n1
     n1 --> n2
     n2 --> n3
@@ -61,15 +75,43 @@ flowchart TD
     n2 --> n8
     n2 --> n9
     n0 --> n10
-    n0 --> n11
-    n0 --> n12
+    n10 --> n11
+    n11 --> n12
+    n11 --> n13
+    n11 --> n14
+    n11 --> n15
+    n11 --> n16
+    n11 --> n17
+    n11 --> n18
+    n11 --> n19
+    n11 --> n20
+    n11 --> n21
+    n11 --> n22
+    n11 --> n23
+    n11 --> n24
+    n0 --> n25
+    n0 --> n26
     n1 -.-> n10
     n3 -.-> n4
     n3 -.-> n8
     n6 -.-> n7
     n6 -.-> n8
-    n10 -.-> n11
-    n11 -.-> n12
+    n10 -.-> n25
+    n12 -.-> n17
+    n12 -.-> n18
+    n13 -.-> n16
+    n14 -.-> n16
+    n15 -.-> n16
+    n18 -.-> n20
+    n18 -.-> n22
+    n19 -.-> n20
+    n19 -.-> n21
+    n21 -.-> n22
+    n23 -.-> n16
+    n23 -.-> n24
+    n24 -.-> n13
+    n24 -.-> n16
+    n25 -.-> n26
 ```
 
 ## Agents
@@ -85,7 +127,21 @@ flowchart TD
 | [bbugyi200.athena.sase-1tz.1.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.1.1.6/README.md) | [sase-1tz.1.1.6](sase-1tz.1.1.6.md) | 1 |
 | [bbugyi200.athena.sase-1tz.1.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.1.1.7/README.md) | [sase-1tz.1.1.7](sase-1tz.1.1.7.md) | 1 |
 | [bbugyi200.athena.sase-1tz.1.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.1.1.land/README.md) | [sase-1tz.1.1](sase-1tz.1.1.md) | 1 |
-| [bbugyi200.athena.sase-1tz.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2/README.md) | [sase-1tz.2](sase-1tz.2.md) | 0 |
+| [bbugyi200.athena.sase-1tz.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tz.2.md) | [sase-1tz.2](sase-1tz.2.md) | 0 |
+| [bbugyi200.athena.sase-1tz.2.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.1/README.md) | [sase-1tz.2.1.1](sase-1tz.2.1.1.md) | 0 |
+| [bbugyi200.athena.sase-1tz.2.1.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.10/README.md) | [sase-1tz.2.1.10](sase-1tz.2.1.10.md) | 0 |
+| [bbugyi200.athena.sase-1tz.2.1.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.11/README.md) | [sase-1tz.2.1.11](sase-1tz.2.1.11.md) | 0 |
+| [bbugyi200.athena.sase-1tz.2.1.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.12/README.md) | [sase-1tz.2.1.12](sase-1tz.2.1.12.md) | 1 |
+| [bbugyi200.athena.sase-1tz.2.1.13](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.13/README.md) | [sase-1tz.2.1.13](sase-1tz.2.1.13.md) | 0 |
+| [bbugyi200.athena.sase-1tz.2.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.2/README.md) | [sase-1tz.2.1.2](sase-1tz.2.1.2.md) | 0 |
+| [bbugyi200.athena.sase-1tz.2.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.3/README.md) | [sase-1tz.2.1.3](sase-1tz.2.1.3.md) | 0 |
+| [bbugyi200.athena.sase-1tz.2.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.4/README.md) | [sase-1tz.2.1.4](sase-1tz.2.1.4.md) | 0 |
+| [bbugyi200.athena.sase-1tz.2.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.5/README.md) | [sase-1tz.2.1.5](sase-1tz.2.1.5.md) | 0 |
+| [bbugyi200.athena.sase-1tz.2.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.6/README.md) | [sase-1tz.2.1.6](sase-1tz.2.1.6.md) | 0 |
+| [bbugyi200.athena.sase-1tz.2.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.7/README.md) | [sase-1tz.2.1.7](sase-1tz.2.1.7.md) | 0 |
+| [bbugyi200.athena.sase-1tz.2.1.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.8/README.md) | [sase-1tz.2.1.8](sase-1tz.2.1.8.md) | 0 |
+| [bbugyi200.athena.sase-1tz.2.1.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.9/README.md) | [sase-1tz.2.1.9](sase-1tz.2.1.9.md) | 0 |
+| [bbugyi200.athena.sase-1tz.2.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.land/README.md) | [sase-1tz.2.1](sase-1tz.2.1.md) | 0 |
 | [bbugyi200.athena.sase-1tz.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3/README.md) | [sase-1tz.3](sase-1tz.3.md) | 0 |
 | [bbugyi200.athena.sase-1tz.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4/README.md) | [sase-1tz.4](sase-1tz.4.md) | 0 |
 | [bbugyi200.athena.sase-1tz.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.land/README.md) | [sase-1tz](README.md) | 0 |
@@ -104,6 +160,7 @@ flowchart TD
 | sase | [`7b6a44a`](https://github.com/sase-org/sase/commit/7b6a44a100e5090d8cc98481377d01af40c54aca) | feat(disk): recover under pressure before attributing owners | [sase-1tz.1.1.6](sase-1tz.1.1.6.md) | 2026-11-19 10:26:11 EST |
 | sase | [`6f21d01`](https://github.com/sase-org/sase/commit/6f21d01de33c0fa13f3479eaeb0091f7607dbd73) | feat(disk): prioritize workspace root measurements | [sase-1tz.1.1.5](sase-1tz.1.1.5.md) | 2026-11-19 10:34:30 EST |
 | sase--plans | [`sase--plans@2b4d1de`](https://github.com/sase-org/sase--plans/commit/2b4d1de2ac50f24091306eb54af02b1e20e70126) | chore(plans): mark outage disk attribution epic done | [sase-1tz.1.1](sase-1tz.1.1.md) | 2026-11-19 10:50:35 EST |
+| sase | [`ffb7d33`](https://github.com/sase-org/sase/commit/ffb7d33edb8ae72b9bc2f2ee2af9d2f426174fe6) | perf(ace): memoize built-in query profiles and clan runtime wire payloads | [sase-1tz.2.1.12](sase-1tz.2.1.12.md) | 2026-11-19 12:47:49 EST |
 
 <!-- sase:referenced-by:start -->
 

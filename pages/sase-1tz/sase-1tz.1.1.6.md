@@ -41,7 +41,9 @@ pressure_recovery: the disk_pressure chop reaps before collecting a fail-open in
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1tz.1.1.6][1] | Confirm the apollo measurement note landed after the unpublished-commit warning | 6 |
+| read-by | [agent:sase-1tz.1.1.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.1.1.6/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.1.1.land/README.md
 
 <!-- sase:referenced-by:end -->
