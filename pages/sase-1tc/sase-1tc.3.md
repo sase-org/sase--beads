@@ -23,10 +23,12 @@ chop_launch: journal in-flight chop launch batches and resume them idempotently 
 
 [2026-11-18T22:10:41Z · sase-1tc.3.1.6.land] Closeout blocker (from sase-1tc.3.1.6 tale closeout): child epic sase-1tc.3.1.6 closed; parent epic sase-1tc.3.1 left open pending epic-symbol direct-import refactor (15 entries) + full check green. Phase sase-1tc.3 stays open until sase-1tc.3.1 closes. Outer epic sase-1tc left to its waiting land agent.
 
+[2026-11-19T11:30:46Z · 1ea--code] Follow-up commit from this turn retires the Python clan-generation veto: the cancellation gate now trusts sase-core chop_batch_generation_matches at pin 6f8f016e, with no Python fallback. Serial focused regressions passed: 64 passed across the chop batch recovery/cancel, store, replay, process-recovery, and ACE kill suites, including test_clan_cancellation_during_launch_settles_current_and_stops_next, test_cancellation_priority_and_reconcile_selection, and test_older_generation_does_not_cancel_a_batch_without_recorded_generation. sase tool run check 2886ed157e17a3680cd65cc611971cf6 succeeded (exit 0). The host finalizer will commit this follow-up.
+
 ## Dependencies
 
 - **Depends on:** [sase-1tc.2](sase-1tc.2.md) ✓ · ⧖ 2026-11-17
-- **Blocks:** [sase-1tc.4](sase-1tc.4.md) ◐ · ⧖ 2026-11-17
+- **Blocks:** [sase-1tc.4](sase-1tc.4.md) ✓ · ⧖ 2026-11-17
 
 ## Agents
 
@@ -40,12 +42,14 @@ chop_launch: journal in-flight chop launch batches and resume them idempotently 
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1tc.3.1.5][1] | Need parent phase context before recording the required TASK RESOLVED acceptance evidence | 1 |
-| read-by | [agent:sase-1tc.3.1.6.2][2] | Review the prior TASK RESOLVED evidence before adding the superseding production-shaped evidence | 1 |
-| read-by | [agent:sase-1tc.3.1.6.4][3] | Need parent phase acceptance and TASK RESOLVED evidence location | 2 |
+| read-by | [agent:1ea--code][1] | Record closeout evidence for the approved generation mirror retirement | 1 |
+| read-by | [agent:sase-1tc.3.1.5][2] | Need parent phase context before recording the required TASK RESOLVED acceptance evidence | 1 |
+| read-by | [agent:sase-1tc.3.1.6.2][3] | Review the prior TASK RESOLVED evidence before adding the superseding production-shaped evidence | 1 |
+| read-by | [agent:sase-1tc.3.1.6.4][4] | Need parent phase acceptance and TASK RESOLVED evidence location | 2 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.5/README.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.2/README.md
-[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.4/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.1ea.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.5/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.2/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.3.1.6.4/README.md
 
 <!-- sase:referenced-by:end -->

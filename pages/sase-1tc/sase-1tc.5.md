@@ -13,7 +13,7 @@ triage_owners: root-cause and fix empty possible_owners in check-run triage so e
 
 ## Dependencies
 
-- **Depends on:** [sase-1tc.4](sase-1tc.4.md) ◐ · ⧖ 2026-11-17
+- **Depends on:** [sase-1tc.4](sase-1tc.4.md) ✓ · ⧖ 2026-11-17
 
 ## Agents
 
