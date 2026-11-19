@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / sase-1t3
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.research.62.linker.w0](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.research.62.linker.w0.md) · **Assignee:** `sase-1t3.land`
-**Created:** 2026-11-16 07:57:54 EST
+**Created:** 2026-11-16 07:57:54 EST · **Closed:** 2026-11-18 22:41:57 EST
 **Plan:** [202611/tui\_storm\_trust\_heap\_recovery.md](https://github.com/sase-org/sase--plans/blob/main/202611/tui_storm_trust_heap_recovery.md)
 
 <!-- sase:links:start -->
@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/tui_storm_trust_heap_recovery.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 9 automatic references — see [Referenced By](#referenced-by)._
+_Plus 10 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202611/tui_storm_trust_heap_recovery.md
 
@@ -81,7 +81,7 @@ sase-1t3.11 census order: ArtifactFile index (stable 47.5k), MemoryReadEvent cac
 
 Sources: Storm threads from pyspy_dump_30/55min (0 hijack, 29 threads); sat from 16/16 heartbeats false, workers 32, threads 5-13, q0. Construction from startup row app_construct_seconds. Provider cold from agent_loads startup disk_subs provider 134.7s (decode 208.4s); warm auto_refresh 47-63s, tier1 127-147s. Loads disk totals from agent_loads; agents_ready 554.8s, visible_ready 495.6s from startup row. Startup mount 59.2s, pa
 
-… and 1013 more characters
+… and 5461 more characters
 
 ## Phases
 
@@ -106,7 +106,7 @@ Sources: Storm threads from pyspy_dump_30/55min (0 hijack, 29 threads); sat from
 
 ```mermaid
 flowchart TD
-    n0["sase-1t3: Recover TUI speed - stop the hijack storm, fix the trust-root defect, shrink the heap [in_progress]"]
+    n0["sase-1t3: Recover TUI speed - stop the hijack storm, fix the trust-root defect, shrink the heap [closed]"]
     n1["sase-1t3.1: Stop the hijack-decision storm [closed]"]
     n2["sase-1t3.10: Slim list rows end to end and a one-generation snapshot cache [closed]"]
     n3["sase-1t3.10.1: Slim agent list rows and bound retained snapshots [closed]"]
@@ -275,7 +275,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1t3.7.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.7.1.land.md) | [sase-1t3.7.1](sase-1t3.7.1.md) | 2 |
 | [bbugyi200.athena.sase-1t3.8](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.8.md) | [sase-1t3.8](sase-1t3.8.md) | 1 |
 | [bbugyi200.athena.sase-1t3.9](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.9.md) | [sase-1t3.9](sase-1t3.9.md) | 1 |
-| [bbugyi200.athena.sase-1t3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.land/README.md) | [sase-1t3](README.md) | 0 |
+| [bbugyi200.athena.sase-1t3.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.land/README.md) | [sase-1t3](README.md) | 1 |
 
 ## Commits
 
@@ -332,7 +332,7 @@ flowchart TD
 | sase | [`d152f20`](https://github.com/sase-org/sase/commit/d152f200b294deabb84cac52b2e5d606a2017837) | fix(ace): move exact-delta share-back off the UI loop | [sase-1t3.13.1](sase-1t3.13.1.md) | 2026-11-18 20:01:38 EST |
 | sase--plans | [`sase--plans@78bbde9`](https://github.com/sase-org/sase--plans/commit/78bbde9fbc8c59aac936c37fa488ca0883b6e35b) | docs(plan): mark interaction latency landing complete | [sase-1t3.13.1](sase-1t3.13.1.md) | 2026-11-18 20:03:24 EST |
 
-… and 1 more commits
+… and 2 more commits
 
 <!-- sase:referenced-by:start -->
 
@@ -345,19 +345,21 @@ flowchart TD
 | read-by | [agent:sase-1t3.10.1.land--1][3] | Confirm the outer epic remains open after its child phase was auto-closed | 1 |
 | read-by | [agent:sase-1t3.11.1.1][4] | Need inherited DECISIONS from parent epic | 1 |
 | read-by | [agent:sase-1t3.13.1.3--1][5] | Need the ancestor epic decisions that constrain this phase | 1 |
-| read-by | [agent:sase-1t3.6.1.1][6] | Need parent phase and grandparent epic DECISIONS for lookup-core | 1 |
-| read-by | [agent:sase-1t3.6.1.land--1][7] | Check the active TUI startup epic for ownership of the import-budget overage | 2 |
-| read-by | [agent:toobig-9u.test_agent_hijack_canary.0][8] | Check whether the active trust and config performance epic plausibly owns unused cache-reset symbols in local trust modules | 1 |
-| read-by | [agent:toobig-9v.local_trust_management.0][9] | Check whether the active TUI/trust epic plausibly owns the unrelated ACE mypy failures | 3 |
+| read-by | [agent:sase-1t3.14--2][6] | Confirm parent epic still open after closing sase-1t3.14 | 1 |
+| read-by | [agent:sase-1t3.6.1.1][7] | Need parent phase and grandparent epic DECISIONS for lookup-core | 1 |
+| read-by | [agent:sase-1t3.6.1.land--1][8] | Check the active TUI startup epic for ownership of the import-budget overage | 2 |
+| read-by | [agent:toobig-9u.test_agent_hijack_canary.0][9] | Check whether the active trust and config performance epic plausibly owns unused cache-reset symbols in local trust modules | 1 |
+| read-by | [agent:toobig-9v.local_trust_management.0][10] | Check whether the active TUI/trust epic plausibly owns the unrelated ACE mypy failures | 3 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.ef/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.1.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.10.1.land.md
 [4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.11.1.1/README.md
 [5]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.13.1.3.md
-[6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.6.1.1/README.md
-[7]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.6.1.land.md
-[8]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-9u.test_agent_hijack_canary.0/README.md
-[9]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-9v.local_trust_management.0/README.md
+[6]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.14.md
+[7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.6.1.1/README.md
+[8]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.6.1.land.md
+[9]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-9u.test_agent_hijack_canary.0/README.md
+[10]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-9v.local_trust_management.0/README.md
 
 <!-- sase:referenced-by:end -->

@@ -66,3 +66,15 @@ soak-verify: run a separate-instance soak with the whole epic, compare every sta
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`c971a66`](https://github.com/sase-org/sase/commit/c971a665af152430100d76fee852d401f8af0c51) | docs(perf): record sase-1t3 soak-verify baselines and executor gauges | [sase-1t3.14](sase-1t3.14.md) | 2026-11-18 22:14:34 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1t3.14--2][1] | Need bead state before closing soak-verify after check triage | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.14.md
+
+<!-- sase:referenced-by:end -->
