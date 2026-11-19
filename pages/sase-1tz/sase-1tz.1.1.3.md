@@ -28,3 +28,15 @@ starter_scope: verify whether closed sase-1rg.3 keeps starter-inherited repo lis
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`63fc5cc`](https://github.com/sase-org/sase/commit/63fc5ccc4c6fed1adcb09eadc508587338dd508e) | test(monitor): live foreign starter repos do not retain | [sase-1tz.1.1.3](sase-1tz.1.1.3.md) | 2026-11-19 08:02:36 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1tz.1.1.3--1][1] | Verify close status after green check run dfa13d6a | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tz.1.1.3.md
+
+<!-- sase:referenced-by:end -->

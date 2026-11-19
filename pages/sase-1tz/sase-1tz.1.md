@@ -11,6 +11,10 @@
 
 outage: stop reporting unmeasured disk as 0 B/complete, measure workspace roots first, run reaping independently of inventory completeness, and make pressure notices name unmeasured owners and escalate missed recovery targets. Settle held workspaces once per evidence fingerprint, +1 only when evidence changes, and add a sase-core store guard that coalesces +1s and never rewrites the store for dismissed rows.
 
+## Notes
+
+[2026-11-19T13:20:31Z · sase-1tz.1.1.7] standing_skips: measured 34 athena managed_tmp_reap skip warnings on 2026-11-19 so far; after-install repeat command and implementation result are recorded on sase-1tz.1.1.7.
+
 ## Dependencies
 
 - **Blocks:** [sase-1tz.2](sase-1tz.2.md) ◐ · ⧖ 2026-11-19
