@@ -13,7 +13,7 @@ held_settle: persist an evidence fingerprint and a cheap stat signature with the
 
 ## Dependencies
 
-- **Depends on:** [sase-1tz.1.1.1](sase-1tz.1.1.1.md) ◐ · ⧖ 2026-11-19
+- **Depends on:** [sase-1tz.1.1.1](sase-1tz.1.1.1.md) ✓ · ⧖ 2026-11-19
 
 ## Agents
 
