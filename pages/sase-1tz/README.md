@@ -1,0 +1,95 @@
+# Bead: sase-1tz — Fix the 13 ranked defects from the apollo/athena notification and log audit
+
+[Bead Pages](../README.md) / sase-1tz
+
+**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.1eb](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.1eb.md) · **Assignee:** `sase-1tz.land`
+**Created:** 2026-11-19 07:09:38 EST
+**Plan:** [202611/notification\_log\_audit\_fixes.md](https://github.com/sase-org/sase--plans/blob/main/202611/notification_log_audit_fixes.md)
+
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202611/notification_log_audit_fixes.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/sase-org/sase--plans/blob/main/202611/notification_log_audit_fixes.md
+
+<!-- sase:links:end -->
+
+## Description
+
+Disk pressure names the owners it could not measure, and recovery runs even when attribution is incomplete. Held workspaces stop rewriting the notification store. agent_publication and the error digest report each cause once, with true counts. Measured TUI stalls shrink. The six targeted defects (prompt_prose wire, update races, Telegram transport, Codex bundle cap, triage request-id retry, gateway WAL checkpoint) are fixed. Notifications, logs, and state files follow their stated dedup and retention rules on both hosts.
+
+## Phases
+
+| Bead | Title | Status | Size | Created | Agents | Commits |
+|---|---|---|---|---|---:|---:|
+| [sase-1tz.1](sase-1tz.1.md) | Honest disk attribution and the held-workspace re-settlement loop (items 1-2) | ◐ in_progress | xlarge | 2026-11-19 | 1 | 0 |
+| [sase-1tz.2](sase-1tz.2.md) | Publication de-flap, truthful error digests, and TUI stall reduction (items 3-5) | ◐ in_progress | xlarge | 2026-11-19 | 1 | 0 |
+| [sase-1tz.3](sase-1tz.3.md) | Targeted high-confidence defect fixes (items 6-10) | ◐ in_progress | xlarge | 2026-11-19 | 1 | 0 |
+| [sase-1tz.4](sase-1tz.4.md) | Gateway checkpoint fix, notification hygiene, and retention sweep (items 11-13) | ◐ in_progress | xlarge | 2026-11-19 | 1 | 0 |
+
+## Lineage
+
+```mermaid
+flowchart TD
+    n0["sase-1tz: Fix the 13 ranked defects from the apollo/athena notification and log audit [in_progress]"]
+    n1["sase-1tz.1: Honest disk attribution and the held-workspace re-settlement loop (items 1-2) [in_progress]"]
+    n2["sase-1tz.1.1: Honest disk attribution and an end to the held-workspace re-settlement loop [in_progress]"]
+    n3["sase-1tz.1.1.1: Coalesce identical +1s and stop rewriting the store for dismissed rows [in_progress]"]
+    n4["sase-1tz.1.1.2: Settle held workspaces once per evidence fingerprint with change-only +1s [in_progress]"]
+    n5["sase-1tz.1.1.3: Check that starter-inherited repo lists stay inside the monitor's workspace [closed]"]
+    n6["sase-1tz.1.1.4: Represent unmeasured disk owners as unknown, never 0 B complete [in_progress]"]
+    n7["sase-1tz.1.1.5: Measure workspace and owner roots first under their own budget [in_progress]"]
+    n8["sase-1tz.1.1.6: Recover first, name unmeasured owners, and escalate missed recovery targets [in_progress]"]
+    n9["sase-1tz.1.1.7: Report repeated managed-tmp reaper skips as one standing state [in_progress]"]
+    n10["sase-1tz.2: Publication de-flap, truthful error digests, and TUI stall reduction (items 3-5) [in_progress]"]
+    n11["sase-1tz.3: Targeted high-confidence defect fixes (items 6-10) [in_progress]"]
+    n12["sase-1tz.4: Gateway checkpoint fix, notification hygiene, and retention sweep (items 11-13) [in_progress]"]
+    n0 --> n1
+    n1 --> n2
+    n2 --> n3
+    n2 --> n4
+    n2 --> n5
+    n2 --> n6
+    n2 --> n7
+    n2 --> n8
+    n2 --> n9
+    n0 --> n10
+    n0 --> n11
+    n0 --> n12
+    n1 -.-> n10
+    n3 -.-> n4
+    n3 -.-> n8
+    n6 -.-> n7
+    n6 -.-> n8
+    n10 -.-> n11
+    n11 -.-> n12
+```
+
+## Agents
+
+| Agent | Bead | Commits |
+|---|---|---:|
+| [bbugyi200.athena.sase-1tz.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tz.1.md) | [sase-1tz.1](sase-1tz.1.md) | 0 |
+| [bbugyi200.athena.sase-1tz.1.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.1.1.1/README.md) | [sase-1tz.1.1.1](sase-1tz.1.1.1.md) | 0 |
+| [bbugyi200.athena.sase-1tz.1.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.1.1.2/README.md) | [sase-1tz.1.1.2](sase-1tz.1.1.2.md) | 0 |
+| [bbugyi200.athena.sase-1tz.1.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tz.1.1.3.md) | [sase-1tz.1.1.3](sase-1tz.1.1.3.md) | 1 |
+| [bbugyi200.athena.sase-1tz.1.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.1.1.4/README.md) | [sase-1tz.1.1.4](sase-1tz.1.1.4.md) | 0 |
+| [bbugyi200.athena.sase-1tz.1.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.1.1.5/README.md) | [sase-1tz.1.1.5](sase-1tz.1.1.5.md) | 0 |
+| [bbugyi200.athena.sase-1tz.1.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.1.1.6/README.md) | [sase-1tz.1.1.6](sase-1tz.1.1.6.md) | 0 |
+| [bbugyi200.athena.sase-1tz.1.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.1.1.7/README.md) | [sase-1tz.1.1.7](sase-1tz.1.1.7.md) | 0 |
+| [bbugyi200.athena.sase-1tz.1.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.1.1.land/README.md) | [sase-1tz.1.1](sase-1tz.1.1.md) | 0 |
+| [bbugyi200.athena.sase-1tz.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2/README.md) | [sase-1tz.2](sase-1tz.2.md) | 0 |
+| [bbugyi200.athena.sase-1tz.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3/README.md) | [sase-1tz.3](sase-1tz.3.md) | 0 |
+| [bbugyi200.athena.sase-1tz.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4/README.md) | [sase-1tz.4](sase-1tz.4.md) | 0 |
+| [bbugyi200.athena.sase-1tz.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.land/README.md) | [sase-1tz](README.md) | 0 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`63fc5cc`](https://github.com/sase-org/sase/commit/63fc5ccc4c6fed1adcb09eadc508587338dd508e) | test(monitor): live foreign starter repos do not retain | [sase-1tz.1.1.3](sase-1tz.1.1.3.md) | 2026-11-19 08:02:36 EST |
