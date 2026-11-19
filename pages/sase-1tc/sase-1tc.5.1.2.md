@@ -49,7 +49,9 @@ candidate_projection: replace full Python task hydration with a narrow Rust cand
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1tc.5.1.2][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1tc.5.1.land][2] | Recheck child completion and parent link immediately before epic close | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.5.1.2/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.5.1.land/README.md
 
 <!-- sase:referenced-by:end -->

@@ -44,8 +44,10 @@ owner_annotations: fix the reproduced stage-before-settle loss in sase-core, pre
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1tc.5.1.1--1][1] | Verify phase status before final check and close | 1 |
 | read-by | [agent:sase-1tc.5.1.2][2] | Dependency outcome: what owner_annotations landed and its revisions | 1 |
+| read-by | [agent:sase-1tc.5.1.land][3] | Recheck child completion and parent link immediately before epic close | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tc.5.1.1.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.5.1.2/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.5.1.land/README.md
 
 <!-- sase:referenced-by:end -->

@@ -32,3 +32,15 @@ The normal child close automatically closed this parent phase with resolution do
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1tc.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tc.5.md) | [sase-1tc.5](sase-1tc.5.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1tc.5.1.land][1] | Verify child plan satisfied the parent phase and inspect automatic close note | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.5.1.land/README.md
+
+<!-- sase:referenced-by:end -->

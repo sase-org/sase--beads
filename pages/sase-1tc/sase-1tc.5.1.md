@@ -16,6 +16,8 @@
 | implemented-by | [plan:202611/triage_owner_settlement.md][1] | derived from the plan's `bead_id:` frontmatter field |
 | related | file:explicit:d35dea9eedbf5dc21c83df1d | attached via sase artifact create --bead |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/sase-org/sase--plans/blob/main/202611/triage_owner_settlement.md
 
 <!-- sase:links:end -->
@@ -51,3 +53,15 @@ Both sase bead epic-symbols sase-1tc.5.1 and sase bead epic-symbols sase-1tc.5 r
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase--plans | [`sase--plans@25138eb`](https://github.com/sase-org/sase--plans/commit/25138eb63c5113d2a063850e9a710e3baa074809) | docs(plans): complete triage owner settlement epic | [sase-1tc.5.1](sase-1tc.5.1.md) | 2026-11-19 15:26:35 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1tc.5.1.land][1] | Recheck child completion and parent link immediately before epic close | 4 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.5.1.land/README.md
+
+<!-- sase:referenced-by:end -->

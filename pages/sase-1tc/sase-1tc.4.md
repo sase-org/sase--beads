@@ -7,6 +7,20 @@
 **Created:** 2026-11-17 11:19:26 EST · **Closed:** 2026-11-19 09:04:01 EST
 **Plan:** [202611/backlog\_epic\_cmdsub\_retries\_launches.md](https://github.com/sase-org/sase--plans/blob/main/202611/backlog_epic_cmdsub_retries_launches.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| related | [bead:sase-1u2][1] | Proposing phase; recorded the original clean-base reproduction in note #3 |
+
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-1u2/README.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 beads_db_owner: remove the Rust lock-file and Python WAL-mirror collision on beads.db per the mirror_fix decision, with a same-process repro test.
