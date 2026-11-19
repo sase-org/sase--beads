@@ -70,7 +70,7 @@ flowchart TD
     n20["sase-1tc.5: Failure triage attaches the owning task bead (sase-1ha) [in_progress]"]
     n21["sase-1tc.5.1: Attach triage owners after stage classification and bound candidate loading [in_progress]"]
     n22["sase-1tc.5.1.1: Attach owners at settlement without rewriting stage verdicts [closed]"]
-    n23["sase-1tc.5.1.2: Project candidate fields in Rust and prove the full CLI path [in_progress]"]
+    n23["sase-1tc.5.1.2: Project candidate fields in Rust and prove the full CLI path [closed]"]
     n0 --> n1
     n1 --> n2
     n2 --> n3
@@ -135,7 +135,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1tc.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tc.4.md) | [sase-1tc.4](sase-1tc.4.md) | 2 |
 | [bbugyi200.athena.sase-1tc.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tc.5.md) | [sase-1tc.5](sase-1tc.5.md) | 0 |
 | [bbugyi200.athena.sase-1tc.5.1.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tc.5.1.1.md) | [sase-1tc.5.1.1](sase-1tc.5.1.1.md) | 2 |
-| [bbugyi200.athena.sase-1tc.5.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.5.1.2/README.md) | [sase-1tc.5.1.2](sase-1tc.5.1.2.md) | 0 |
+| [bbugyi200.athena.sase-1tc.5.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.5.1.2/README.md) | [sase-1tc.5.1.2](sase-1tc.5.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1tc.5.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.5.1.land/README.md) | [sase-1tc.5.1](sase-1tc.5.1.md) | 0 |
 | [bbugyi200.athena.sase-1tc.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.land/README.md) | [sase-1tc](README.md) | 0 |
 
@@ -166,6 +166,7 @@ flowchart TD
 | sase | [`c4cb77b`](https://github.com/sase-org/sase/commit/c4cb77b3b88a86554a9f980f6f0e3e5f38449ccf) | test(beads): single-owner WAL-mirror adoption and exact SQLite owner guard | [sase-1tc.4](sase-1tc.4.md) | 2026-11-19 09:05:22 EST |
 | sase-core | [`sase-core@a06bdae`](https://github.com/sase-org/sase-core/commit/a06bdae7842de42a5ed95a7e04041908ba6c72db) | fix(triage): backfill staged owners at settle without rewriting verdicts | [sase-1tc.5.1.1](sase-1tc.5.1.1.md) | 2026-11-19 11:28:14 EST |
 | sase | [`d9cb9cf`](https://github.com/sase-org/sase/commit/d9cb9cf4a3d8c620464e27f32a882d42580b9b14) | test(triage): add settle owner-enrichment binding regression | [sase-1tc.5.1.1](sase-1tc.5.1.1.md) | 2026-11-19 11:29:42 EST |
+| sase-core | [`sase-core@cb76eb2`](https://github.com/sase-org/sase-core/commit/cb76eb283d319c24c3eb8ecd305f4f6eba3d604f) | feat(bead): project triage owner candidates from the read model | [sase-1tc.5.1.2](sase-1tc.5.1.2.md) | 2026-11-19 14:44:43 EST |
 
 <!-- sase:referenced-by:start -->
 
