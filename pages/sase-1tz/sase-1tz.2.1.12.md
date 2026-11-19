@@ -32,3 +32,15 @@ ui_cpu_caches: memoize compiled built-in pane query profiles and stop re-seriali
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`ffb7d33`](https://github.com/sase-org/sase/commit/ffb7d33edb8ae72b9bc2f2ee2af9d2f426174fe6) | perf(ace): memoize built-in query profiles and clan runtime wire payloads | [sase-1tz.2.1.12](sase-1tz.2.1.12.md) | 2026-11-19 12:47:49 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1tz.2.1.12][1] | check notes and remaining work | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.12/README.md
+
+<!-- sase:referenced-by:end -->

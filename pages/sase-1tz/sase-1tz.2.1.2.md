@@ -11,6 +11,14 @@
 
 digest_render: the hourly digest snapshots and resets the interval counter atomically. It renders one line per cause with count, first/last time, and a sample under a true-total and coverage header, with no loss after downtime or a crash. Digest files are pruned on a 30-day horizon.
 
+## Notes
+
+[2026-11-19T18:28:48Z · sase-1tz.2.1.2] MEASUREMENT (read-only, before install): athena 729 digest files, 14535990 bytes, newest digest_20261119_124557.txt; apollo 440 files, 23576961 bytes, newest digest_20261119_124627.txt. After-install: ls ~/.sase/axe/error_digests | wc -l; tail -n 30 "$(ls -t ~/.sase/axe/error_digests/* | head -1)"
+
+[2026-11-19T18:28:50Z · sase-1tz.2.1.2] PROPOSED FOLLOW-UP: tests/test_axe_state.py::test_concurrent_error_appends_are_atomic_and_lossless fails with ModuleNotFoundError: No module named tests in multiprocessing spawn workers — reproduces independently of digest_render (spawn pickle of a tests helper); error_groups sase-1tz.2.1.1 added the test.
+
+[2026-11-19T19:14:06Z · sase-1tz.2.1.2] PROPOSED FOLLOW-UP: sibling pub_cleanup left three just-check NEW failures that reproduce identically on clean HEAD — test_macro_string_literals_avoid_xprompt_terms findings in tests/turns/test_workspace_retention_agents_scratch.py (%xprompts_enabled strings; same class as closed sase-1hr); test_cleanup_after_success_does_not_resurrect TypeError remaining_timeout vs clean() mock; extra live site src/sase/agents_sync/publication_scratch.py:sweep_publication_scratch in test_artifact_directory_operation_sites_are_reviewed
+
 ## Dependencies
 
 - **Depends on:** [sase-1tz.2.1.1](sase-1tz.2.1.1.md) ✓ · ⧖ 2026-11-19
