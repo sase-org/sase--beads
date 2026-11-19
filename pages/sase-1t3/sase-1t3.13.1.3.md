@@ -32,7 +32,7 @@ PROPOSED FOLLOW-UP: Review the load-sensitive publication cleanup test — full-
 ## Dependencies
 
 - **Depends on:** [sase-1t3.13.1.1](sase-1t3.13.1.1.md) ✓ · ⧖ 2026-11-18
-- **Blocks:** [sase-1t3.13.1.5](sase-1t3.13.1.5.md) ◐ · ⧖ 2026-11-18
+- **Blocks:** [sase-1t3.13.1.5](sase-1t3.13.1.5.md) ✓ · ⧖ 2026-11-18
 
 ## Agents
 

@@ -55,7 +55,7 @@ Complete sase-1t3.10 with compact Rust list projections, selected-only detail hy
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1t3.10.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.10.1.land.md) | [sase-1t3.10.1](sase-1t3.10.1.md) | 3 |
+| [bbugyi200.athena.sase-1t3.10.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.10.1.land.md) | [sase-1t3.10.1](sase-1t3.10.1.md) | 4 |
 
 ## Commits
 
@@ -64,6 +64,7 @@ Complete sase-1t3.10 with compact Rust list projections, selected-only detail hy
 | sase | [`fbfaf07`](https://github.com/sase-org/sase/commit/fbfaf07123b790738caf0bf203b3f3d3711aa374) | refactor(agent-scan): retire unused compact-list landing APIs | [sase-1t3.10.1](sase-1t3.10.1.md) | 2026-11-18 12:57:07 EST |
 | sase-core | [`sase-core@9a87b5b`](https://github.com/sase-org/sase-core/commit/9a87b5bd86d2c1336fe18dbf413b49e5906e304d) | feat(agent-scan): preserve monitor identity in compact rows | [sase-1t3.10.1](sase-1t3.10.1.md) | 2026-11-18 15:54:55 EST |
 | sase | [`af07b78`](https://github.com/sase-org/sase/commit/af07b78ac22bc55f394b6dc576e88fac5dd9573c) | feat(tui): bound compact agent list retention | [sase-1t3.10.1](sase-1t3.10.1.md) | 2026-11-18 15:56:49 EST |
+| sase--plans | [`sase--plans@1a357e7`](https://github.com/sase-org/sase--plans/commit/1a357e734ad84c76948a0c72b4719cf9a8615c80) | docs(plan): mark slim agent list rows complete | [sase-1t3.10.1](sase-1t3.10.1.md) | 2026-11-18 15:58:16 EST |
 
 <!-- sase:referenced-by:start -->
 

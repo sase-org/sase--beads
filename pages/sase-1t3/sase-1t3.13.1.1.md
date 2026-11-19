@@ -105,8 +105,10 @@ Clean-tree `test_bench_clan_jk_at_each_panel_fold_level` fails at the final stal
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1t3.13.1.3--1][1] | Need the completed baseline measurements and environment to record evidence for visible-work | 1 |
+| read-by | [agent:sase-1t3.13.1.2][1] | Need baseline performance measurements and retained evidence for the selection phase | 2 |
+| read-by | [agent:sase-1t3.13.1.3--1][2] | Need the completed baseline measurements and environment to record evidence for visible-work | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.13.1.3.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.13.1.2/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.13.1.3.md
 
 <!-- sase:referenced-by:end -->

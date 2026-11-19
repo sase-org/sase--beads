@@ -74,7 +74,7 @@ sase-1t3.11 census order: ArtifactFile index (stable 47.5k), MemoryReadEvent cac
 | [sase-1t3.10](sase-1t3.10.md) | Slim list rows end to end and a one-generation snapshot cache | ✓ closed | large | 2026-11-16 | 1 | 0 |
 | [sase-1t3.11](sase-1t3.11.md) | Replace whole-file log caches with targeted queries | ✓ closed | large | 2026-11-16 | 1 | 0 |
 | [sase-1t3.12](sase-1t3.12.md) | Terminalize stale running rows in index maintenance | ✓ closed | large | 2026-11-16 | 1 | 2 |
-| [sase-1t3.13](sase-1t3.13.md) | Interaction latency after the heap shrinks | ◐ in_progress | large | 2026-11-16 | 1 | 0 |
+| [sase-1t3.13](sase-1t3.13.md) | Interaction latency after the heap shrinks | ✓ closed | large | 2026-11-16 | 1 | 0 |
 | [sase-1t3.14](sase-1t3.14.md) | End-to-end soak against the research baselines | ◐ in_progress | medium | 2026-11-16 | 1 | 0 |
 | [sase-1t3.2](sase-1t3.2.md) | Executor-saturation gauge and telemetry retention | ✓ closed | small | 2026-11-16 | 1 | 1 |
 | [sase-1t3.3](sase-1t3.3.md) | Semantics-preserving trust and config memoization | ✓ closed | medium | 2026-11-16 | 1 | 1 |
@@ -106,13 +106,13 @@ flowchart TD
     n14["sase-1t3.11.1.5: Collect stranded facts and titles from one targeted snapshot [closed]"]
     n15["sase-1t3.11.1.6: Verify combined heap retention and query costs [closed]"]
     n16["sase-1t3.12: Terminalize stale running rows in index maintenance [closed]"]
-    n17["sase-1t3.13: Interaction latency after the heap shrinks [in_progress]"]
-    n18["sase-1t3.13.1: Finish measured Agents interaction latency recovery [in_progress]"]
+    n17["sase-1t3.13: Interaction latency after the heap shrinks [closed]"]
+    n18["sase-1t3.13.1: Finish measured Agents interaction latency recovery [closed]"]
     n19["sase-1t3.13.1.1: Measure the current interaction paths [closed]"]
     n20["sase-1t3.13.1.2: Bound detail enrichment and preserve immediate selection [closed]"]
     n21["sase-1t3.13.1.3: Limit periodic work to surfaced rows and relevant waiters [closed]"]
     n22["sase-1t3.13.1.4: Detach only rows affected by exact artifact deltas [closed]"]
-    n23["sase-1t3.13.1.5: Verify combined latency and prepare parent-phase completion [in_progress]"]
+    n23["sase-1t3.13.1.5: Verify combined latency and prepare parent-phase completion [closed]"]
     n24["sase-1t3.14: End-to-end soak against the research baselines [in_progress]"]
     n25["sase-1t3.2: Executor-saturation gauge and telemetry retention [closed]"]
     n26["sase-1t3.3: Semantics-preserving trust and config memoization [closed]"]
@@ -225,7 +225,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1t3.10.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.10.1.2/README.md) | [sase-1t3.10.1.2](sase-1t3.10.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1t3.10.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.10.1.3.md) | [sase-1t3.10.1.3](sase-1t3.10.1.3.md) | 1 |
 | [bbugyi200.athena.sase-1t3.10.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.10.1.4.md) | [sase-1t3.10.1.4](sase-1t3.10.1.4.md) | 1 |
-| [bbugyi200.athena.sase-1t3.10.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.10.1.land.md) | [sase-1t3.10.1](sase-1t3.10.1.md) | 3 |
+| [bbugyi200.athena.sase-1t3.10.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.10.1.land.md) | [sase-1t3.10.1](sase-1t3.10.1.md) | 4 |
 | [bbugyi200.athena.sase-1t3.11](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.11.md) | [sase-1t3.11](sase-1t3.11.md) | 0 |
 | [bbugyi200.athena.sase-1t3.11.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.11.1.1/README.md) | [sase-1t3.11.1.1](sase-1t3.11.1.1.md) | 2 |
 | [bbugyi200.athena.sase-1t3.11.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.11.1.2.md) | [sase-1t3.11.1.2](sase-1t3.11.1.2.md) | 3 |
@@ -240,8 +240,8 @@ flowchart TD
 | [bbugyi200.athena.sase-1t3.13.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.13.1.2/README.md) | [sase-1t3.13.1.2](sase-1t3.13.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1t3.13.1.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.13.1.3.md) | [sase-1t3.13.1.3](sase-1t3.13.1.3.md) | 1 |
 | [bbugyi200.athena.sase-1t3.13.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.13.1.4.md) | [sase-1t3.13.1.4](sase-1t3.13.1.4.md) | 1 |
-| [bbugyi200.athena.sase-1t3.13.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.13.1.5/README.md) | [sase-1t3.13.1.5](sase-1t3.13.1.5.md) | 0 |
-| [bbugyi200.athena.sase-1t3.13.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.13.1.land/README.md) | [sase-1t3.13.1](sase-1t3.13.1.md) | 0 |
+| [bbugyi200.athena.sase-1t3.13.1.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.13.1.5.md) | [sase-1t3.13.1.5](sase-1t3.13.1.5.md) | 0 |
+| [bbugyi200.athena.sase-1t3.13.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.13.1.land.md) | [sase-1t3.13.1](sase-1t3.13.1.md) | 1 |
 | [bbugyi200.athena.sase-1t3.14](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.14/README.md) | [sase-1t3.14](sase-1t3.14.md) | 0 |
 | [bbugyi200.athena.sase-1t3.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1t3.2.md) | [sase-1t3.2](sase-1t3.2.md) | 1 |
 | [bbugyi200.athena.sase-1t3.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.3/README.md) | [sase-1t3.3](sase-1t3.3.md) | 1 |
@@ -308,9 +308,11 @@ flowchart TD
 | sase | [`fbfaf07`](https://github.com/sase-org/sase/commit/fbfaf07123b790738caf0bf203b3f3d3711aa374) | refactor(agent-scan): retire unused compact-list landing APIs | [sase-1t3.10.1](sase-1t3.10.1.md) | 2026-11-18 12:57:07 EST |
 | sase-core | [`sase-core@9a87b5b`](https://github.com/sase-org/sase-core/commit/9a87b5bd86d2c1336fe18dbf413b49e5906e304d) | feat(agent-scan): preserve monitor identity in compact rows | [sase-1t3.10.1](sase-1t3.10.1.md) | 2026-11-18 15:54:55 EST |
 | sase | [`af07b78`](https://github.com/sase-org/sase/commit/af07b78ac22bc55f394b6dc576e88fac5dd9573c) | feat(tui): bound compact agent list retention | [sase-1t3.10.1](sase-1t3.10.1.md) | 2026-11-18 15:56:49 EST |
+| sase--plans | [`sase--plans@1a357e7`](https://github.com/sase-org/sase--plans/commit/1a357e734ad84c76948a0c72b4719cf9a8615c80) | docs(plan): mark slim agent list rows complete | [sase-1t3.10.1](sase-1t3.10.1.md) | 2026-11-18 15:58:16 EST |
 | sase | [`f81ff92`](https://github.com/sase-org/sase/commit/f81ff92e0549150a29cdb5fe2cd2fa51930bb60a) | perf(ace): bound runtime and bead warmup work | [sase-1t3.13.1.3](sase-1t3.13.1.3.md) | 2026-11-18 17:06:19 EST |
 | sase | [`1092245`](https://github.com/sase-org/sase/commit/10922458c1900528846de26298cffbd0536f3a3d) | feat(agents): add exact-delta copy-on-write fast path for Agents-tab loads | [sase-1t3.13.1.4](sase-1t3.13.1.4.md) | 2026-11-18 17:10:24 EST |
 | sase | [`194b1a1`](https://github.com/sase-org/sase/commit/194b1a1ef4175fe5397b8f666883ac9028cbcec3) | feat(tui): bound agent detail enrichment | [sase-1t3.13.1.2](sase-1t3.13.1.2.md) | 2026-11-18 17:50:31 EST |
+| sase | [`d152f20`](https://github.com/sase-org/sase/commit/d152f200b294deabb84cac52b2e5d606a2017837) | fix(ace): move exact-delta share-back off the UI loop | [sase-1t3.13.1](sase-1t3.13.1.md) | 2026-11-18 20:01:38 EST |
 
 <!-- sase:referenced-by:start -->
 

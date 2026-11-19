@@ -31,7 +31,7 @@ Known remaining cost, being fixed by a closeout tale before this phase closes: t
 
 ## Dependencies
 
-- **Blocks:** [sase-1t3.13](sase-1t3.13.md) ◐ · ⧖ 2026-11-16
+- **Blocks:** [sase-1t3.13](sase-1t3.13.md) ✓ · ⧖ 2026-11-16
 - **Blocks:** [sase-1t3.14](sase-1t3.14.md) ◐ · ⧖ 2026-11-16
 - **Depends on:** [sase-1t3.9](sase-1t3.9.md) ✓ · ⧖ 2026-11-16
 

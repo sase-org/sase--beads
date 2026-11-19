@@ -22,7 +22,7 @@ selection: preserve the existing immediate chrome and streamed lanes, bound sele
 ## Dependencies
 
 - **Depends on:** [sase-1t3.13.1.1](sase-1t3.13.1.1.md) ✓ · ⧖ 2026-11-18
-- **Blocks:** [sase-1t3.13.1.5](sase-1t3.13.1.5.md) ◐ · ⧖ 2026-11-18
+- **Blocks:** [sase-1t3.13.1.5](sase-1t3.13.1.5.md) ✓ · ⧖ 2026-11-18
 
 ## Agents
 
@@ -35,3 +35,15 @@ selection: preserve the existing immediate chrome and streamed lanes, bound sele
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`194b1a1`](https://github.com/sase-org/sase/commit/194b1a1ef4175fe5397b8f666883ac9028cbcec3) | feat(tui): bound agent detail enrichment | [sase-1t3.13.1.2](sase-1t3.13.1.2.md) | 2026-11-18 17:50:31 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1t3.13.1.2][1] | Need the final phase scope and notes before recording verification | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1t3.13.1.2/README.md
+
+<!-- sase:referenced-by:end -->

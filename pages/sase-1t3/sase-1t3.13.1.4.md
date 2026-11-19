@@ -7,6 +7,20 @@
 **Created:** 2026-11-18 15:37:15 EST · **Closed:** 2026-11-18 17:08:20 EST
 **Plan:** [202611/interaction\_latency.md](https://github.com/sase-org/sase--plans/blob/main/202611/interaction_latency.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| related | [bead:sase-1tt][1] | Phase that added the exact-delta shallow-copy fast path this task must bound |
+
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
+[1]: https://github.com/sase-org/sase--beads/blob/main/pages/sase-1tt/README.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 delta-copy: introduce a conservative exact-delta copy-on-write preparation path that owns every mutated row and relationship while sharing untouched presentation rows; preserve full-load and bounded-history semantics.
@@ -20,7 +34,7 @@ delta-copy: introduce a conservative exact-delta copy-on-write preparation path 
 ## Dependencies
 
 - **Depends on:** [sase-1t3.13.1.1](sase-1t3.13.1.1.md) ✓ · ⧖ 2026-11-18
-- **Blocks:** [sase-1t3.13.1.5](sase-1t3.13.1.5.md) ◐ · ⧖ 2026-11-18
+- **Blocks:** [sase-1t3.13.1.5](sase-1t3.13.1.5.md) ✓ · ⧖ 2026-11-18
 
 ## Agents
 
