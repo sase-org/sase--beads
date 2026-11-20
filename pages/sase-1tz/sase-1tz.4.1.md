@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/hygiene_gateway_notifications_retention.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202611/hygiene_gateway_notifications_retention.md
 
@@ -37,8 +37,10 @@ A busy SQLite WAL checkpoint reports busy instead of erroring, read paths checkp
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1tz.4.1.6][1] | See epic phase statuses and notes for coordination | 1 |
+| read-by | [agent:sase-1tz.4.1.12][1] | Need parent epic scope and sibling phases | 1 |
+| read-by | [agent:sase-1tz.4.1.6][2] | See epic phase statuses and notes for coordination | 1 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.6/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.12/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.6/README.md
 
 <!-- sase:referenced-by:end -->

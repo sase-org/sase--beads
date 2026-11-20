@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1tz.4.1](sase-1tz.4.1.md) / sase-1tz.4.1.11
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-1tz.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tz.4.md) · **Assignee:** `sase-1tz.4.1.11` · **Size:** medium
-**Created:** 2026-11-20 14:00:24 EST
+**Created:** 2026-11-20 14:00:24 EST · **Closed:** 2026-11-20 16:17:06 EST
 **Plan:** [202611/hygiene\_gateway\_notifications\_retention.md](https://github.com/sase-org/sase--plans/blob/main/202611/hygiene_gateway_notifications_retention.md)
 
 ## Description
@@ -43,8 +43,18 @@ print("daily", dict(sorted(counts.items())))
 print("max_run_repeats", runs.most_common(1)[0] if runs else None)
 PY
 
+[2026-11-20T21:16:30Z · sase-1tz.4.1.11] PROPOSED FOLLOW-UP: Refresh the stale CLI completion snapshot. `tests/completion/test_snapshot.py::test_checked_in_snapshot_has_no_drift` and `::test_current_structural_view_matches_checked_in_snapshot` both reproduce on clean HEAD f6b4344d87, matching the full check witness 004ecc862e32316588e888ef0cc4dd20; SASE triage marks both KNOWN with no owner or linked task bead.
+
+[2026-11-20T21:17:06Z · sase-1tz.4.1.11] Implemented persisted per-run unresolved verdict fingerprints, unchanged lookup/warning suppression, memo pruning and corruption recovery, plus summary counts and focused coverage. Focused tests and Symvision passed; `just check` completed with 62,487 passed and two completion snapshot failures that reproduce identically on clean HEAD, recorded as a PROPOSED FOLLOW-UP. Before/after host baselines and repeat command are recorded above.
+
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1tz.4.1.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.11/README.md) | [sase-1tz.4.1.11](sase-1tz.4.1.11.md) | 0 |
+| [bbugyi200.athena.sase-1tz.4.1.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.11/README.md) | [sase-1tz.4.1.11](sase-1tz.4.1.11.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`f960f75`](https://github.com/sase-org/sase/commit/f960f758ca9bc3b88f0a722d5c9c8df14ed1b40f) | feat(agents-sync): memoize unchanged refresh verdicts | [sase-1tz.4.1.11](sase-1tz.4.1.11.md) | 2026-11-20 16:19:07 EST |

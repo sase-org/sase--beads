@@ -15,6 +15,8 @@ waiter_expire: under blocked_waiters = offer, the root-blocker notice gets a one
 
 [2026-11-20T20:38:05Z · sase-1tz.4.1.6] From sase-1tz.4.1.6: root-blocker notice action_data contract (waiters JSON list with artifact_dir/name/project/via, blocker_* keys, wait_checks_auto_dismissed marker) is recorded as a CONTRACT note on sase-1tz.4.1.6 and in the module docstring of src/sase/scripts/_chop_wait_checks_root_notice.py.
 
+[2026-11-20T21:01:14Z · sase-1tz.4.1.7] No new terminal state: live parked waiters go through request_user_kill (existing killed/terminated outcome). Stale parked waiters with no pid go through kill_located_agent not_running marker cleanup, the same path as a manual kill of a waiting agent. Enter on the root-blocker notice is the one-key action; default_config.yml is unchanged.
+
 ## Dependencies
 
 - **Depends on:** [sase-1tz.4.1.6](sase-1tz.4.1.6.md) ✓ · ⧖ 2026-11-20
