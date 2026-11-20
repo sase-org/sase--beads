@@ -17,6 +17,8 @@ defects: add the prompt_prose artifact-link wire variant with a binding contract
 
 [2026-11-20T14:32:32Z · sase-1tz.3.1.5] prebuild_miss (sase-1tz.3.1.5): apollo baseline 23/45 prebuild attempts were commit-mismatch misses with nonzero consume rc (was 18/37 in the audit).
 
+[2026-11-20T15:47:59Z · sase-1tz.3.1.2] swap_repro (sase-1tz.3.1.2): the update-overlap reproducer landed with 6 strict xfails for swap_chop_guards and swap_launch_guards. Before install, every overlap failure fell within 120 s of an update (athena 6 of 6, apollo 4 of 4, last 7 days); all 6 SIGBUS exits started during the maturin-develop rebuild step, and no install path rewrites files in place. Re-measure after install with tools/swap_overlap_census (command on sase-1tz.3.1.2).
+
 ## Dependencies
 
 - **Depends on:** [sase-1tz.2](sase-1tz.2.md) ✓ · ⧖ 2026-11-19

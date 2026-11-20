@@ -13,7 +13,7 @@ swap_chop_guards: the code-swap writer records a durable last-swap stamp. The ch
 
 ## Dependencies
 
-- **Depends on:** [sase-1tz.3.1.2](sase-1tz.3.1.2.md) ◐ · ⧖ 2026-11-20
+- **Depends on:** [sase-1tz.3.1.2](sase-1tz.3.1.2.md) ✓ · ⧖ 2026-11-20
 - **Blocks:** [sase-1tz.3.1.4](sase-1tz.3.1.4.md) ◐ · ⧖ 2026-11-20
 
 ## Agents

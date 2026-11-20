@@ -27,10 +27,16 @@ tg_transport: in sase-telegram, plain-text fallback fires only for an entity-par
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1tz.3.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.6/README.md) | [sase-1tz.3.1.6](sase-1tz.3.1.6.md) | 1 |
+| [bbugyi200.athena.sase-1tz.3.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.6/README.md) | [sase-1tz.3.1.6](sase-1tz.3.1.6.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase-telegram | [`sase-telegram@60a94ab`](https://github.com/sase-org/sase-telegram/commit/60a94aba569c44752ed6b2d6e58ceb3e4d4ce590) | fix(telegram): fall back to plain text only on entity-parse errors and retry per chunk | [sase-1tz.3.1.6](sase-1tz.3.1.6.md) | 2026-11-20 09:56:55 EST |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1tz.3.1.6][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.6/README.md
+
+<!-- sase:referenced-by:end -->

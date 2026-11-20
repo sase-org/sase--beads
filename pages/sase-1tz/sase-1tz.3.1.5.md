@@ -55,6 +55,8 @@ Expect post-install misses to keep reason=commit-mismatch with consume rc=0, sta
 
 [2026-11-20T14:32:49Z · sase-1tz.3.1.5] consume exits 0 on cache miss with hit:false and the miss reason; copy-failure and health-check-failed stay nonzero. Reconcile records timeline status miss and journal counts.miss, then still builds from source. Writer probe treats install.dev and install.pypi as writers. Focused tests: test_prebuild, test_execute_reconcile, test_progress, test_journal, test_update_command_dev, update_progress (133 passed). Apollo baseline 23/45 commit-mismatch misses with nonzero consume rc recorded on this bead and sase-1tz.3.
 
+[2026-11-20T15:38:41Z · sase-1tz.3.1.5--1] PROPOSED FOLLOW-UP: test_snapshot_includes_live_config_token_refresh_threads failed in escalated just check — already tracked by ready flake task sase-t6 (+1 this turn); dummy hold.wait(30s) can expire during a slow xdist snapshot walk. Applied a test-only hold-until-release robustness fix on this tree so verification can land; sase-t6 still owns residual parallel-lane flake work. FLAKY auto-refresh tick node also failed (untouched).
+
 ## Agents
 
 | Agent | Bead | Commits |

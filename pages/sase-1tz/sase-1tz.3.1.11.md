@@ -11,6 +11,10 @@
 
 triage_conflict: when gate creation fails with request_id_conflict, bead_task_triage cancels any pending gate under the stale id and advances and persists the generation. It then recreates the gate in the same pass. Other failures keep the deterministic retry.
 
+## Notes
+
+[2026-11-20T15:04:51Z · sase-1tz.3.1.11] MEASURE: 2026-11-20 baseline: 0 matching lines among 11 retained bead_task_triage run logs modified in the prior 7 days under ~/.sase/axe/lumberjacks/checks/chops/bead_task_triage/runs. Repeat after install: ssh athena 'python3 -c '\from pathlib import Path; from datetime import datetime, timedelta; root=Path.home()/".sase/axe/lumberjacks/checks/chops/bead_task_triage/runs"; cutoff=datetime.now().timestamp()-7*24*60*60; needle="request id already belongs to a different gate specification"; files=[p for p in root.glob("*.log") if p.stat().st_mtime >= cutoff]; print("run_logs", len(files)); print("matching_lines", sum(line.count(needle) for p in files for line in p.read_text(errors="replace").splitlines()))'\
+
 ## Agents
 
 | Agent | Bead | Commits |
