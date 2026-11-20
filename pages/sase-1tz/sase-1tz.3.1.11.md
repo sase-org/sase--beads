@@ -38,7 +38,9 @@ triage_conflict: when gate creation fails with request_id_conflict, bead_task_tr
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1tz.3.1.11][1] | Need the phase scope, design file, decisions, and prior notes before completing this assigned bead | 4 |
+| read-by | [agent:sase-1tz.3.1.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.11/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.land/README.md
 
 <!-- sase:referenced-by:end -->

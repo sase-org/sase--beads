@@ -47,3 +47,15 @@ The focused suites passed 278/278 on HEAD f6b4344d87. Follow-up triage is in the
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1tz.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tz.3.md) | [sase-1tz.3](sase-1tz.3.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1tz.3.1.land][1] | Need the parent link and phase scope/notes | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.land/README.md
+
+<!-- sase:referenced-by:end -->
