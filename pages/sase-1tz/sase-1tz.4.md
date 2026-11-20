@@ -13,7 +13,7 @@ hygiene: handle SQLite's busy -1 checkpoint result and serve snapshots stale-whi
 
 ## Dependencies
 
-- **Depends on:** [sase-1tz.3](sase-1tz.3.md) ◐ · ⧖ 2026-11-19
+- **Depends on:** [sase-1tz.3](sase-1tz.3.md) ✓ · ⧖ 2026-11-19
 
 ## Agents
 

@@ -46,10 +46,12 @@ bundle_trim: when a provider declares max_bytes and the delivered bundle would e
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1tz.3.1.4][1] | Check whether bundle_trim already recorded the prettier test failure | 1 |
-| read-by | [agent:sase-1tz.3.1.9][2] | Need the phase scope and design file | 2 |
+| read-by | [agent:sase-1tz.3.1.10][1] | See notes from bundle_trim phase for measurements and follow-ups | 2 |
+| read-by | [agent:sase-1tz.3.1.4][2] | Check whether bundle_trim already recorded the prettier test failure | 1 |
+| read-by | [agent:sase-1tz.3.1.9][3] | Need the phase scope and design file | 2 |
 
-[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.4/README.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.9/README.md
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.10/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.4/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.9/README.md
 
 <!-- sase:referenced-by:end -->

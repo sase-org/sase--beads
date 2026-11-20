@@ -34,3 +34,15 @@ bundle_gate: a sase doctor check renders every enabled project's root bundle for
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`f6b4344`](https://github.com/sase-org/sase/commit/f6b4344d878ca883edf496d87b115f606dd91d6e) | feat(doctor): gate provider root bundle sizes in sase doctor and just check | [sase-1tz.3.1.10](sase-1tz.3.1.10.md) | 2026-11-20 13:20:04 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1tz.3.1.10][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.10/README.md
+
+<!-- sase:referenced-by:end -->
