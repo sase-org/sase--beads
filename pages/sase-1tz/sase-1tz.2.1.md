@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1tz.2](sase-1tz.2.md) / sase-1tz.2.1
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-1tz.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tz.2.md) · **Assignee:** `sase-1tz.2.1.land`
-**Created:** 2026-11-19 11:13:25 EST
+**Created:** 2026-11-19 11:13:25 EST · **Closed:** 2026-11-20 09:02:14 EST
 **Plan:** [202611/noise\_publication\_digests\_tui\_stalls.md](https://github.com/sase-org/sase--plans/blob/main/202611/noise_publication_digests_tui_stalls.md)
 
 <!-- sase:links:start -->
@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/noise_publication_digests_tui_stalls.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 10 automatic references — see [Referenced By](#referenced-by)._
+_Plus 11 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202611/noise_publication_digests_tui_stalls.md
 
@@ -42,17 +42,20 @@ Evidence: file:explicit:d35dea9eedbf5dc21c83df1d.
 
 [2026-11-20T12:48:53Z · sase-1tz.2.1.land] LAND TRIAGE of phase PROPOSED FOLLOW-UP notes (sase-1tz.2.1.land, 2026-11-20). Resolved on master, no task: core pin moves (2.1.1 #3, 2.1.3 #2, 2.1.6 #2; sase-core-revision.txt 80fcc862 contains 3a32a233/5ad60139/3c3263fb/6eedf0a6/80fcc862); stale sase-1tz.2.1.2 epic-symbol rows (2.1.4 #2; sase bead epic-symbols empty); xprompt terminology failure (epic note #1, 2.1.2 #3 etc.; passes on master); LaunchPromptContext symvision (2.1.6 #3, 2.1.7 #3, 2.1.10 #5) fixed by fb85972f27, so sase-1u3 closed; sase-1tw closed (2.1.10 #3, demonstrated by 225bfb7ff2 plus retention test). Fixed by this lander (epic-caused): artifact-dir audit for publication_scratch.py:sweep_publication_scratch (epic note #1/#3, 2.1.8 #2, 2.1.11 #5) as a reviewed exemption; doctor-detail test failure (epic note #3), where group detail now keeps row reasons plus the newest member's last error; OutboxGroup symvision (epic note #2), made private. Tasks: 2.1.1 #2 gate_capacity flake +1 sase-1tn; drain_accounting order-dependent isolation bug (2.1.6 #3, 2.1.2 #3, 2.1.3 #3, 2.1.8 #2, 2.1.9 #2) created sase-1u4; sase-1rb remedy (b) (2.1.7 #4) created sase-1u5; remaining main-thread FS I/O callers (2.1.11 #1-#3, 2.1.13 #4) created sase-1u6; sase-1s4 evidence (2.1.11 #4) +1; bare_git index-lock flake (2.1.11 #5) +1 sase-1kr; bench_tui_trace clan-wave stub (2.1.13 #1/#5) created sase-1u7; master-gate video_frames failures (lander-discovered) created sase-1u8 and +1 sase-1ty. Noted: sase-1tx (2.1.10 #4, needs modal UX decision); sase-1nc (2.1.10 #6, per-type freed census soak). Declined: 2.1.2 #2 spawn ModuleNotFoundError in test_concurrent_error_appends_are_atomic_and_lossless, which passes on master and in CI; the spawn design predates the epic (6a6549cf65). Kept as epic work, not a task: 2.1.13 #3 level-based VmSwap GC deferral (caused by gc_policy), which goes into the remaining-work tale.
 
+[2026-11-20T14:02:14Z · sase-1tz.2.1.land] LAND VERIFICATION. Land agent: all 13 phases closed and verified against source; core pin sase-core-revision.txt 80fcc862 contains every epic core commit (3a32a233/5ad60139/3c3263fb/6eedf0a6/80fcc862); phase follow-ups triaged in epic note #7; three CI fixes landed in 8cf9d8e546 (_OutboxGroup symvision, reviewed artifact-dir audit exemption for publication_scratch.py:sweep_publication_scratch, doctor group detail keeps row reasons + newest error). Remaining-work plan plan:202611/noise_epic_remaining_work.md, items 1-6: (1) prompt_terminal: new prompt_archive/quarantine_sweep.py, hooked into _publication_job_drain.drain_project, re-checks <=25 quarantined prompt-restore rows per project per pass through the Rust classify_deferred_prompt_obligation path (artifacts_dir + run source_label probes) and retires unrecoverable ones in one guarded write (terminal=True, prompt_archive_unrecoverable reason, terminal_obligations.jsonl audit, pool protection released); never publishes/acks/charges/errors/unquarantines; source-present rows stay quarantined with an hourly re-check ledger; tests/agents_sync/test_deferred_prompt_archive/test_quarantine_sweep.py (4 pass via run_publication_job: retire with one audit row and unchanged attempts, source-present stays, cap 28->25+3). (2) pub_standing: sase-core standing.rs changed depends only on key/failure_kind/error_class and none stores newest detail, with Rust tests (sase-core sase tool run check ccbc1dc8fab68b9a0f8a1c473d8c75ec pass; reaches sase via the core pin ratchet); _publication_job_run.py routes listing/target-resolution failures to *publisher* standing alerts, budget/backoff-deferred selection errors are not counted per tick, deferred doorbell rings only when is_due; tests/agents_sync/test_publication_standing_selection.py (4 pass). (3) pub_doctor: unmatched live standing alerts become WARN issues (_agent_publication_standing.py), flat across ticks, no double count; tests/doctor/test_checks_agent_publication_standing.py (3 pass). (4) error_groups/digest_render: lock-open failure counted via pending buffers and logged once; rotation clears buffers before ring reset so a reset failure reaches the next write_failures; Python grouping/signature/schema fallbacks removed from error_digest.py; dead last_error_digest_ts helpers, errors= digest path, digest_record_from_errors deleted; new tests in tests/test_axe_error_groups.py. (5) gc_policy: paging-pressure gate (_gc_policy_pressure.py), bounded 10 min backstop deferral, cost estimate refreshed from automatic gen-2 (evidence note on sase-1nc); tests/ace/tui/util/test_gc_policy_pressure.py. (6) pub_inventory: tests/agents_sync/test_commit_publication_inventory_reuse_drain.py (30 rows, one build across batches; rebuild on HEAD change). Docs: hood-sync.md, scheduler.md, perf-runbook.md. sase tool run check d3adc7ab6cd66e963ccabbaf4b676910 succeeded (full-suite escalation). bead epic-symbols empty.
+
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1tz.2.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.land/README.md) | [sase-1tz.2.1](sase-1tz.2.1.md) | 1 |
+| [bbugyi200.athena.sase-1tz.2.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tz.2.1.land.md) | [sase-1tz.2.1](sase-1tz.2.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`8cf9d8e`](https://github.com/sase-org/sase/commit/8cf9d8e5465994f9c1a34a5075a4bb7ea0ed9d47) | fix(doctor): keep cause detail in grouped publication issues and review scratch sweep | [sase-1tz.2.1](sase-1tz.2.1.md) | 2026-11-20 08:03:07 EST |
+| sase-core | [`sase-core@5c8ccd6`](https://github.com/sase-org/sase-core/commit/5c8ccd6b879db3edb7444dec1dd71bc99f8c4eca) | fix(agent-publication): ignore volatile detail in standing alert decisions | [sase-1tz.2.1](sase-1tz.2.1.md) | 2026-11-20 09:04:49 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -67,9 +70,10 @@ Evidence: file:explicit:d35dea9eedbf5dc21c83df1d.
 | read-by | [agent:sase-1tz.2.1.4][5] | Need parent epic DECISIONS, design, and remaining phases for pub_cleanup | 1 |
 | read-by | [agent:sase-1tz.2.1.5--2][6] | Assess whether the known OutboxGroup Symvision lint failure belongs to this active publication-performance epic | 1 |
 | read-by | [agent:sase-1tz.2.1.7][7] | Need parent epic plan context | 1 |
-| read-by | [agent:toobig-aa.test_checks_agent_publication.0][8] | Check whether this in-progress epic owns the OutboxGroup symvision finding | 1 |
-| read-by | [agent:toobig-aa.test_commit_publication_bounded_drain.0][9] | Read existing OutboxGroup discovered-issue notes on the causing epic | 2 |
-| read-by | [agent:toobig-aa.test_skill_uses_loader.0][10] | Check whether epic already records the OutboxGroup/audit/doctor-wording master failures | 1 |
+| read-by | [agent:sase-1tz.2.1.land][8] | Need the epic scope, children, and linked plan file | 1 |
+| read-by | [agent:toobig-aa.test_checks_agent_publication.0][9] | Check whether this in-progress epic owns the OutboxGroup symvision finding | 1 |
+| read-by | [agent:toobig-aa.test_commit_publication_bounded_drain.0][10] | Read existing OutboxGroup discovered-issue notes on the causing epic | 2 |
+| read-by | [agent:toobig-aa.test_skill_uses_loader.0][11] | Check whether epic already records the OutboxGroup/audit/doctor-wording master failures | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.5.1.land/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.1/README.md
@@ -78,8 +82,9 @@ Evidence: file:explicit:d35dea9eedbf5dc21c83df1d.
 [5]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tz.2.1.4.md
 [6]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tz.2.1.5.md
 [7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.7/README.md
-[8]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-aa.test_checks_agent_publication.0/README.md
-[9]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-aa.test_commit_publication_bounded_drain.0/README.md
-[10]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-aa.test_skill_uses_loader.0/README.md
+[8]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tz.2.1.land.md
+[9]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-aa.test_checks_agent_publication.0/README.md
+[10]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-aa.test_commit_publication_bounded_drain.0/README.md
+[11]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-aa.test_skill_uses_loader.0/README.md
 
 <!-- sase:referenced-by:end -->

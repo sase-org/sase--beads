@@ -44,7 +44,9 @@ gc_policy: idle, backstop, and RSS-backstop collections stay bounded. The policy
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1tz.2.1.9][1] | Verify the implementation evidence note was recorded | 2 |
+| read-by | [agent:sase-1tz.2.1.land][2] | verify gc_policy phase recorded runaway check, measurements, and follow-ups | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.9/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tz.2.1.land.md
 
 <!-- sase:referenced-by:end -->

@@ -48,7 +48,9 @@ prompt_terminal: find why deferred prompt sources vanish and close each gap so d
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1tz.2.1.6][1] | Need the phase scope and design file | 4 |
+| read-by | [agent:sase-1tz.2.1.land][2] | verify prompt_terminal phase notes on tied holds and quarantined-row handling | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.6/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tz.2.1.land.md
 
 <!-- sase:referenced-by:end -->

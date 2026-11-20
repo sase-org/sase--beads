@@ -25,7 +25,7 @@ outage: stop reporting unmeasured disk as 0 B/complete, measure workspace roots 
 
 ## Dependencies
 
-- **Blocks:** [sase-1tz.2](sase-1tz.2.md) ◐ · ⧖ 2026-11-19
+- **Blocks:** [sase-1tz.2](sase-1tz.2.md) ✓ · ⧖ 2026-11-19
 
 ## Agents
 

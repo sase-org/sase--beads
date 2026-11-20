@@ -13,7 +13,7 @@ defects: add the prompt_prose artifact-link wire variant with a binding contract
 
 ## Dependencies
 
-- **Depends on:** [sase-1tz.2](sase-1tz.2.md) ◐ · ⧖ 2026-11-19
+- **Depends on:** [sase-1tz.2](sase-1tz.2.md) ✓ · ⧖ 2026-11-19
 - **Blocks:** [sase-1tz.4](sase-1tz.4.md) ◐ · ⧖ 2026-11-19
 
 ## Agents

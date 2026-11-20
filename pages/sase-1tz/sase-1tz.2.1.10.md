@@ -53,7 +53,9 @@ heap_retainers: census the object types freed by idle full collections (up to 7M
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1tz.2.1.10][1] | Need the phase scope and design file | 2 |
+| read-by | [agent:sase-1tz.2.1.land][2] | verify heap_retainers phase recorded follow-ups and measurements | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.10/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tz.2.1.land.md
 
 <!-- sase:referenced-by:end -->

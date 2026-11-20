@@ -58,7 +58,9 @@ Expected after install: the first append rotates the oversize 38 MB active file 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1tz.2.1.8][1] | Confirm close status after sync | 2 |
+| read-by | [agent:sase-1tz.2.1.land][2] | verify stall_telemetry phase measurements and follow-ups | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.8/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tz.2.1.land.md
 
 <!-- sase:referenced-by:end -->
