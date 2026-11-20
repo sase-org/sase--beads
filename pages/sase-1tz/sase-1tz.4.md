@@ -19,6 +19,8 @@ hygiene: handle SQLite's busy -1 checkpoint result and serve snapshots stale-whi
 
 [2026-11-20T20:23:40Z · sase-1tz.4.1.11] state_refresh_memo BEFORE (2026-11-20): retained check logs showed Apollo 530 warning diagnostics/day and max 232 repeats/run over 7 days; Athena 488/day and max 126 repeats/run over 6 retained days. Full daily counts and the repeatable after-install scan command are on sase-1tz.4.1.11.
 
+[2026-11-20T20:25:56Z · sase-1tz.4.1.3] attention_key (sase-1tz.4.1.3) before: athena 1,649 remote-attention rows all-time (96 live, 21 undismissed), 66 requests with 2-3 per-revision rows; apollo 0. After-install jq command recorded on sase-1tz.4.1.3.
+
 ## Dependencies
 
 - **Depends on:** [sase-1tz.3](sase-1tz.3.md) ✓ · ⧖ 2026-11-19
