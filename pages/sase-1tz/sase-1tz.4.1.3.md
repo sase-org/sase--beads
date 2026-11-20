@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1tz.4.1](sase-1tz.4.1.md) / sase-1tz.4.1.3
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-1tz.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tz.4.md) · **Assignee:** `sase-1tz.4.1.3` · **Size:** medium
-**Created:** 2026-11-20 14:00:22 EST
+**Created:** 2026-11-20 14:00:22 EST · **Closed:** 2026-11-20 15:34:09 EST
 **Plan:** [202611/hygiene\_gateway\_notifications\_retention.md](https://github.com/sase-org/sase--plans/blob/main/202611/hygiene_gateway_notifications_retention.md)
 
 ## Description
@@ -25,6 +25,8 @@ attention_key: remote-attention rows key on (origin, request_id). A new revision
 
 [2026-11-20T20:27:36Z · sase-1tz.4.1.3] VERIFIED: sase-core `sase tool run check` f66aa8bbcc74 passed (fmt, features, clippy, all tests), including 7 new parity tests in notification_store_parity/reconcile_resurface.rs and a binding round-trip in sase_core_py. In sase, with a sase_core_rs built from the linked checkout: tests/test_dispatch_attention_inbox.py passes 21/21. Those tests cover an identical re-emission (no reconcile call, store bytes and generation unchanged), a new revision updating and resurfacing the one row, a dismissal sticking for its revision, and the legacy migration (user dismissal carries over, an undismissed legacy row folds with the marker, an older-revision dismissal does not hide a new revision, an auto-dismissal does not carry). The wire test passes too. In sase `sase tool run check` a982bc6eb2ad every lint, docs, and validation stage passed. Of the 62,488 tests in the escalated full lane, 4 unrelated tests failed: 2 completion-snapshot tests that fail identically on the clean base, 1 volume smoke that passes alone, and 1 KNOWN pager contract test. The host revision_pin follow moves sase-core-revision.txt to the sase-core commit; the pin was 0939137425 = sase-core origin/master, so it is not moving backwards.
 
+[2026-11-20T20:34:09Z · sase-1tz.4.1.3] Closed by explicit `sase stitch create -B close` after create_commit landed 0386c59150 ("feat(notifications): key remote-attention rows by stable request identity"). The commit author requested bead completion after verifying the bead scope. Reopen with `sase bead open sase-1tz.4.1.3` if more work remains.
+
 ## Dependencies
 
 - **Blocks:** [sase-1tz.4.1.4](sase-1tz.4.1.4.md) ◐ · ⧖ 2026-11-20
@@ -33,11 +35,22 @@ attention_key: remote-attention rows key on (origin, request_id). A new revision
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1tz.4.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.3/README.md) | [sase-1tz.4.1.3](sase-1tz.4.1.3.md) | 2 |
+| [bbugyi200.athena.sase-1tz.4.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.3/README.md) | [sase-1tz.4.1.3](sase-1tz.4.1.3.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| sase-core | [`sase-core@2c33360`](https://github.com/sase-org/sase-core/commit/2c33360ad602932ccd63e6941b4751b979efe133) | feat(notifications): resurface reconciled rows when a named revision key changes | [sase-1tz.4.1.3](sase-1tz.4.1.3.md) | 2026-11-20 15:28:38 EST |
 | sase | [`0386c59`](https://github.com/sase-org/sase/commit/0386c59150a9c3fa7e33a75a991e136d07672688) | feat(notifications): key remote-attention rows by stable request identity | [sase-1tz.4.1.3](sase-1tz.4.1.3.md) | 2026-11-20 15:31:49 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1tz.4.1.3][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.3/README.md
+
+<!-- sase:referenced-by:end -->

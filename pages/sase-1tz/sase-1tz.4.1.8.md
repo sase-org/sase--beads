@@ -55,3 +55,15 @@ PY
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`2b18880`](https://github.com/sase-org/sase/commit/2b18880ef1c0d12bd75e37b90542f5447a73867b) | feat(triage): keep one task-triage notification row per bead across re-presentations | [sase-1tz.4.1.8](sase-1tz.4.1.8.md) | 2026-11-20 15:25:48 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1tz.4.1.8][1] | Check for earlier notes on this phase | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.8/README.md
+
+<!-- sase:referenced-by:end -->

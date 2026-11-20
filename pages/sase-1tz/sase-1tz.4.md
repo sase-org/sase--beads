@@ -21,6 +21,8 @@ hygiene: handle SQLite's busy -1 checkpoint result and serve snapshots stale-whi
 
 [2026-11-20T20:25:56Z · sase-1tz.4.1.3] attention_key (sase-1tz.4.1.3) before: athena 1,649 remote-attention rows all-time (96 live, 21 undismissed), 66 requests with 2-3 per-revision rows; apollo 0. After-install jq command recorded on sase-1tz.4.1.3.
 
+[2026-11-20T20:37:41Z · sase-1tz.4.1.6] wait_blocker (sase-1tz.4.1.6): wait_checks now raises one frozen notice per failed root blocker (direct + transitive waiters, no +1 on unchanged passes); before: athena 409 undismissed per-waiter rows / 115,862 +1s, apollo 59 / 8,906 — repeat command on sase-1tz.4.1.6.
+
 ## Dependencies
 
 - **Depends on:** [sase-1tz.3](sase-1tz.3.md) ✓ · ⧖ 2026-11-19
