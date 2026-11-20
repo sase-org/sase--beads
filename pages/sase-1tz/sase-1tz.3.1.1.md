@@ -34,10 +34,11 @@ AFTER INSTALL: quarantined items do not retry on their own. A human runs `sase a
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1tz.3.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.1/README.md) | [sase-1tz.3.1.1](sase-1tz.3.1.1.md) | 1 |
+| [bbugyi200.athena.sase-1tz.3.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.1/README.md) | [sase-1tz.3.1.1](sase-1tz.3.1.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@0939137`](https://github.com/sase-org/sase-core/commit/0939137425c091bbbbbdc37b524e971268c16614) | feat(artifact-link): add prompt\_prose origin to ArtifactLinkOriginWire | [sase-1tz.3.1.1](sase-1tz.3.1.1.md) | 2026-11-20 11:53:27 EST |
+| sase | [`eca97ab`](https://github.com/sase-org/sase/commit/eca97ab5a75ec31ff224af02472c03198a21f9e3) | feat(artifact-links): add host-origin constant and prompt\_prose binding contract test | [sase-1tz.3.1.1](sase-1tz.3.1.1.md) | 2026-11-20 11:55:13 EST |
