@@ -13,7 +13,7 @@ bundle_gate: a sase doctor check renders every enabled project's root bundle for
 
 ## Dependencies
 
-- **Depends on:** [sase-1tz.3.1.9](sase-1tz.3.1.9.md) ◐ · ⧖ 2026-11-20
+- **Depends on:** [sase-1tz.3.1.9](sase-1tz.3.1.9.md) ✓ · ⧖ 2026-11-20
 
 ## Agents
 

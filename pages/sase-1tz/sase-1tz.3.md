@@ -21,6 +21,8 @@ defects: add the prompt_prose artifact-link wire variant with a binding contract
 
 [2026-11-20T16:04:05Z · sase-1tz.3.1.7] tg_degraded (sase-1tz.3.1.7): athena before = 456 TimedOut + 700 traceback lines in lumberjack-telegram.log (Nov 16-20) and 653 receiver tracebacks + 59 credential-retry lines; apollo 0/0. Outbound and receiver now log one line per degraded-state transition; after-install command is on sase-1tz.3.1.7.
 
+[2026-11-20T16:20:00Z · sase-1tz.3.1.9] bundle_trim (sase-1tz.3.1.9): bob-cli Codex root bundle 36,225 -> 30,097 bytes via compile-time compaction step superseded_summaries (fits 32 KiB); sase bundles byte-identical; repeat command recorded on sase-1tz.3.1.9.
+
 ## Dependencies
 
 - **Depends on:** [sase-1tz.2](sase-1tz.2.md) ✓ · ⧖ 2026-11-19
