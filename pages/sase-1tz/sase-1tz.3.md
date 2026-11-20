@@ -11,6 +11,10 @@
 
 defects: add the prompt_prose artifact-link wire variant with a binding contract test, close the remaining runtime-update races, fix Telegram fallback, retry, and scope semantics, keep provider instruction bundles under their caps with a size gate, and advance bead_task_triage's generation on request_id_conflict.
 
+## Notes
+
+[2026-11-20T14:30:34Z · sase-1tz.3.1.8] tg_scope (sase-1tz.3.1.8): telegram outbound routine now athena-only in chezmoi source; apollo was wasting 12.7 tg_outbound ticks/min.
+
 ## Dependencies
 
 - **Depends on:** [sase-1tz.2](sase-1tz.2.md) ✓ · ⧖ 2026-11-19
@@ -20,4 +24,4 @@ defects: add the prompt_prose artifact-link wire variant with a binding contract
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1tz.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3/README.md) | [sase-1tz.3](sase-1tz.3.md) | 0 |
+| [bbugyi200.athena.sase-1tz.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tz.3.md) | [sase-1tz.3](sase-1tz.3.md) | 0 |

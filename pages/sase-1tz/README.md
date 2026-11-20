@@ -64,7 +64,19 @@ flowchart TD
     n23["sase-1tz.2.1.8: Rotate tui_stalls.jsonl, tolerate torn lines, and write fault headers only on faults [closed]"]
     n24["sase-1tz.2.1.9: Stop policy-initiated garbage collections from blocking the loop for seconds [closed]"]
     n25["sase-1tz.3: Targeted high-confidence defect fixes (items 6-10) [in_progress]"]
-    n26["sase-1tz.4: Gateway checkpoint fix, notification hygiene, and retention sweep (items 11-13) [in_progress]"]
+    n26["sase-1tz.3.1: Targeted defect fixes for the prompt_prose wire, update races, Telegram transport, bundle caps, and triage conflicts [in_progress]"]
+    n27["sase-1tz.3.1.1: Add the prompt_prose artifact-link origin and a host-origin binding contract test [in_progress]"]
+    n28["sase-1tz.3.1.10: Gate provider bundle sizes in sase doctor and just check [in_progress]"]
+    n29["sase-1tz.3.1.11: Advance bead_task_triage's generation on request_id_conflict [in_progress]"]
+    n30["sase-1tz.3.1.2: Build an update-overlap reproducer for jobs, launches, and native code [in_progress]"]
+    n31["sase-1tz.3.1.3: Defer and retry scheduler jobs that overlap a code swap [in_progress]"]
+    n32["sase-1tz.3.1.4: Defer and retry launches and finalizers that overlap a code swap [in_progress]"]
+    n33["sase-1tz.3.1.5: Treat a prebuilt Rust artifact cache miss as a miss, not a failure [in_progress]"]
+    n34["sase-1tz.3.1.6: Fall back to plain text only on entity-parse errors and retry per chunk [in_progress]"]
+    n35["sase-1tz.3.1.7: Collapse repeated Telegram credential and network failures into degraded states [in_progress]"]
+    n36["sase-1tz.3.1.8: Run the Telegram outbound routine only on the sending machine [closed]"]
+    n37["sase-1tz.3.1.9: Compact oversize provider root bundles at compile time until they fit [in_progress]"]
+    n38["sase-1tz.4: Gateway checkpoint fix, notification hygiene, and retention sweep (items 11-13) [in_progress]"]
     n0 --> n1
     n1 --> n2
     n2 --> n3
@@ -90,7 +102,19 @@ flowchart TD
     n11 --> n23
     n11 --> n24
     n0 --> n25
-    n0 --> n26
+    n25 --> n26
+    n26 --> n27
+    n26 --> n28
+    n26 --> n29
+    n26 --> n30
+    n26 --> n31
+    n26 --> n32
+    n26 --> n33
+    n26 --> n34
+    n26 --> n35
+    n26 --> n36
+    n26 --> n37
+    n0 --> n38
     n1 -.-> n10
     n3 -.-> n4
     n3 -.-> n8
@@ -111,7 +135,11 @@ flowchart TD
     n23 -.-> n24
     n24 -.-> n13
     n24 -.-> n16
-    n25 -.-> n26
+    n25 -.-> n38
+    n30 -.-> n31
+    n31 -.-> n32
+    n34 -.-> n35
+    n37 -.-> n28
 ```
 
 ## Agents
@@ -142,7 +170,19 @@ flowchart TD
 | [bbugyi200.athena.sase-1tz.2.1.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.8/README.md) | [sase-1tz.2.1.8](sase-1tz.2.1.8.md) | 1 |
 | [bbugyi200.athena.sase-1tz.2.1.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.9/README.md) | [sase-1tz.2.1.9](sase-1tz.2.1.9.md) | 1 |
 | [bbugyi200.athena.sase-1tz.2.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tz.2.1.land.md) | [sase-1tz.2.1](sase-1tz.2.1.md) | 4 |
-| [bbugyi200.athena.sase-1tz.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3/README.md) | [sase-1tz.3](sase-1tz.3.md) | 0 |
+| [bbugyi200.athena.sase-1tz.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tz.3.md) | [sase-1tz.3](sase-1tz.3.md) | 0 |
+| [bbugyi200.athena.sase-1tz.3.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.1/README.md) | [sase-1tz.3.1.1](sase-1tz.3.1.1.md) | 0 |
+| [bbugyi200.athena.sase-1tz.3.1.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.10/README.md) | [sase-1tz.3.1.10](sase-1tz.3.1.10.md) | 0 |
+| [bbugyi200.athena.sase-1tz.3.1.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.11/README.md) | [sase-1tz.3.1.11](sase-1tz.3.1.11.md) | 0 |
+| [bbugyi200.athena.sase-1tz.3.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.2/README.md) | [sase-1tz.3.1.2](sase-1tz.3.1.2.md) | 0 |
+| [bbugyi200.athena.sase-1tz.3.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.3/README.md) | [sase-1tz.3.1.3](sase-1tz.3.1.3.md) | 0 |
+| [bbugyi200.athena.sase-1tz.3.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.4/README.md) | [sase-1tz.3.1.4](sase-1tz.3.1.4.md) | 0 |
+| [bbugyi200.athena.sase-1tz.3.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.5/README.md) | [sase-1tz.3.1.5](sase-1tz.3.1.5.md) | 0 |
+| [bbugyi200.athena.sase-1tz.3.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.6/README.md) | [sase-1tz.3.1.6](sase-1tz.3.1.6.md) | 0 |
+| [bbugyi200.athena.sase-1tz.3.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.7/README.md) | [sase-1tz.3.1.7](sase-1tz.3.1.7.md) | 0 |
+| [bbugyi200.athena.sase-1tz.3.1.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.8/README.md) | [sase-1tz.3.1.8](sase-1tz.3.1.8.md) | 1 |
+| [bbugyi200.athena.sase-1tz.3.1.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.9/README.md) | [sase-1tz.3.1.9](sase-1tz.3.1.9.md) | 0 |
+| [bbugyi200.athena.sase-1tz.3.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.land/README.md) | [sase-1tz.3.1](sase-1tz.3.1.md) | 0 |
 | [bbugyi200.athena.sase-1tz.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4/README.md) | [sase-1tz.4](sase-1tz.4.md) | 0 |
 | [bbugyi200.athena.sase-1tz.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.land/README.md) | [sase-1tz](README.md) | 0 |
 
@@ -181,6 +221,7 @@ flowchart TD
 | sase-core | [`sase-core@5c8ccd6`](https://github.com/sase-org/sase-core/commit/5c8ccd6b879db3edb7444dec1dd71bc99f8c4eca) | fix(agent-publication): ignore volatile detail in standing alert decisions | [sase-1tz.2.1](sase-1tz.2.1.md) | 2026-11-20 09:04:49 EST |
 | sase | [`d18b499`](https://github.com/sase-org/sase/commit/d18b499d4d5582e2390da8e9af1f6fb31208f582) | feat(agents-sync): finish publication de-flap, error accounting, and GC pressure gate | [sase-1tz.2.1](sase-1tz.2.1.md) | 2026-11-20 09:06:32 EST |
 | sase--plans | [`sase--plans@43f86af`](https://github.com/sase-org/sase--plans/commit/43f86aff6cd7415391db661d71b45ff79cc1144e) | chore(plans): mark noise\_publication\_digests\_tui\_stalls done | [sase-1tz.2.1](sase-1tz.2.1.md) | 2026-11-20 09:08:14 EST |
+| chezmoi | [`chezmoi@3623450`](https://github.com/bbugyi200/dotfiles/commit/3623450f650acd403f9a2e35c4ac752b5d77e316) | fix(sase): run telegram outbound routine only on athena | [sase-1tz.3.1.8](sase-1tz.3.1.8.md) | 2026-11-20 09:31:54 EST |
 
 <!-- sase:referenced-by:start -->
 
