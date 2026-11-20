@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/defects_wire_swap_telegram_bundles_triage.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 6 automatic references — see [Referenced By](#referenced-by)._
+_Plus 7 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202611/defects_wire_swap_telegram_bundles_triage.md
 
@@ -41,14 +41,16 @@ Host-produced artifact-link origins, including prompt_prose, round-trip through 
 | read-by | [agent:sase-1tz.3.1.11][2] | Need parent epic decisions governing this phase | 1 |
 | read-by | [agent:sase-1tz.3.1.2][3] | Check sibling phase state and epic decisions before swap_repro work | 1 |
 | read-by | [agent:sase-1tz.3.1.3][4] | Check epic decisions for swap_chop_guards phase | 1 |
-| read-by | [agent:sase-1tz.3.1.7][5] | Need epic decisions and notes | 2 |
-| read-by | [agent:sase-1tz.3.1.9][6] | Need epic DECISIONS | 1 |
+| read-by | [agent:sase-1tz.3.1.4][5] | Need epic decisions | 1 |
+| read-by | [agent:sase-1tz.3.1.7][6] | Need epic decisions and notes | 2 |
+| read-by | [agent:sase-1tz.3.1.9][7] | Need epic DECISIONS | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.1/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.11/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.2/README.md
 [4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.3/README.md
-[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.7/README.md
-[6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.9/README.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.4/README.md
+[6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.7/README.md
+[7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.9/README.md
 
 <!-- sase:referenced-by:end -->

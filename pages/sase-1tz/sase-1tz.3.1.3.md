@@ -44,8 +44,10 @@ swap_chop_guards: the code-swap writer records a durable last-swap stamp. The ch
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1tz.3.1.2][1] | Check sibling phase state and epic decisions before swap_repro work | 1 |
 | read-by | [agent:sase-1tz.3.1.3][2] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1tz.3.1.4][3] | Need swap_repro findings and swap_chop_guards notes for the launch guard phase | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.2/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.3/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.4/README.md
 
 <!-- sase:referenced-by:end -->

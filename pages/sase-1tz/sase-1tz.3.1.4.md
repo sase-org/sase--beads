@@ -48,7 +48,9 @@ swap_launch_guards: agent launches, bead work, and host finalizers that hit a mi
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1tz.3.1.3][1] | Check whether sibling swap_launch_guards is concurrently editing files | 1 |
+| read-by | [agent:sase-1tz.3.1.4][2] | Need swap_repro findings and swap_chop_guards notes for the launch guard phase | 3 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.3/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.4/README.md
 
 <!-- sase:referenced-by:end -->

@@ -66,7 +66,7 @@ flowchart TD
     n25["sase-1tz.3: Targeted high-confidence defect fixes (items 6-10) [in_progress]"]
     n26["sase-1tz.3.1: Targeted defect fixes for the prompt_prose wire, update races, Telegram transport, bundle caps, and triage conflicts [in_progress]"]
     n27["sase-1tz.3.1.1: Add the prompt_prose artifact-link origin and a host-origin binding contract test [closed]"]
-    n28["sase-1tz.3.1.10: Gate provider bundle sizes in sase doctor and just check [in_progress]"]
+    n28["sase-1tz.3.1.10: Gate provider bundle sizes in sase doctor and just check [closed]"]
     n29["sase-1tz.3.1.11: Advance bead_task_triage's generation on request_id_conflict [closed]"]
     n30["sase-1tz.3.1.2: Build an update-overlap reproducer for jobs, launches, and native code [closed]"]
     n31["sase-1tz.3.1.3: Defer and retry scheduler jobs that overlap a code swap [closed]"]
@@ -172,7 +172,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1tz.2.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tz.2.1.land.md) | [sase-1tz.2.1](sase-1tz.2.1.md) | 4 |
 | [bbugyi200.athena.sase-1tz.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tz.3.md) | [sase-1tz.3](sase-1tz.3.md) | 0 |
 | [bbugyi200.athena.sase-1tz.3.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.1/README.md) | [sase-1tz.3.1.1](sase-1tz.3.1.1.md) | 2 |
-| [bbugyi200.athena.sase-1tz.3.1.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.10/README.md) | [sase-1tz.3.1.10](sase-1tz.3.1.10.md) | 0 |
+| [bbugyi200.athena.sase-1tz.3.1.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.10/README.md) | [sase-1tz.3.1.10](sase-1tz.3.1.10.md) | 1 |
 | [bbugyi200.athena.sase-1tz.3.1.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.11/README.md) | [sase-1tz.3.1.11](sase-1tz.3.1.11.md) | 1 |
 | [bbugyi200.athena.sase-1tz.3.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.2/README.md) | [sase-1tz.3.1.2](sase-1tz.3.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1tz.3.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.3/README.md) | [sase-1tz.3.1.3](sase-1tz.3.1.3.md) | 1 |
@@ -230,6 +230,7 @@ flowchart TD
 | sase-core | [`sase-core@0939137`](https://github.com/sase-org/sase-core/commit/0939137425c091bbbbbdc37b524e971268c16614) | feat(artifact-link): add prompt\_prose origin to ArtifactLinkOriginWire | [sase-1tz.3.1.1](sase-1tz.3.1.1.md) | 2026-11-20 11:53:27 EST |
 | sase | [`eca97ab`](https://github.com/sase-org/sase/commit/eca97ab5a75ec31ff224af02472c03198a21f9e3) | feat(artifact-links): add host-origin constant and prompt\_prose binding contract test | [sase-1tz.3.1.1](sase-1tz.3.1.1.md) | 2026-11-20 11:55:13 EST |
 | sase | [`7c73ee3`](https://github.com/sase-org/sase/commit/7c73ee386637bf08c01b0450d76284da19f50a4e) | feat(launch): defer and retry launches and finalizers that overlap a code swap | [sase-1tz.3.1.4](sase-1tz.3.1.4.md) | 2026-11-20 13:01:54 EST |
+| sase | [`f6b4344`](https://github.com/sase-org/sase/commit/f6b4344d878ca883edf496d87b115f606dd91d6e) | feat(doctor): gate provider root bundle sizes in sase doctor and just check | [sase-1tz.3.1.10](sase-1tz.3.1.10.md) | 2026-11-20 13:20:04 EST |
 
 <!-- sase:referenced-by:start -->
 
