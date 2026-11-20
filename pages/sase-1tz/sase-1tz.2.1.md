@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/noise_publication_digests_tui_stalls.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 11 automatic references — see [Referenced By](#referenced-by)._
+_Plus 12 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202611/noise_publication_digests_tui_stalls.md
 
@@ -73,9 +73,10 @@ Evidence: file:explicit:d35dea9eedbf5dc21c83df1d.
 | read-by | [agent:sase-1tz.2.1.5--2][6] | Assess whether the known OutboxGroup Symvision lint failure belongs to this active publication-performance epic | 1 |
 | read-by | [agent:sase-1tz.2.1.7][7] | Need parent epic plan context | 1 |
 | read-by | [agent:sase-1tz.2.1.land][8] | Need the epic scope, children, and linked plan file | 1 |
-| read-by | [agent:toobig-aa.test_checks_agent_publication.0][9] | Check whether this in-progress epic owns the OutboxGroup symvision finding | 1 |
-| read-by | [agent:toobig-aa.test_commit_publication_bounded_drain.0][10] | Read existing OutboxGroup discovered-issue notes on the causing epic | 2 |
-| read-by | [agent:toobig-aa.test_skill_uses_loader.0][11] | Check whether epic already records the OutboxGroup/audit/doctor-wording master failures | 1 |
+| read-by | [agent:sase-1tz.3.1.1][9] | Find pub_standing alert key for prompt_prose failure | 1 |
+| read-by | [agent:toobig-aa.test_checks_agent_publication.0][10] | Check whether this in-progress epic owns the OutboxGroup symvision finding | 1 |
+| read-by | [agent:toobig-aa.test_commit_publication_bounded_drain.0][11] | Read existing OutboxGroup discovered-issue notes on the causing epic | 2 |
+| read-by | [agent:toobig-aa.test_skill_uses_loader.0][12] | Check whether epic already records the OutboxGroup/audit/doctor-wording master failures | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.5.1.land/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.1/README.md
@@ -85,8 +86,9 @@ Evidence: file:explicit:d35dea9eedbf5dc21c83df1d.
 [6]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tz.2.1.5.md
 [7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.7/README.md
 [8]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tz.2.1.land.md
-[9]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-aa.test_checks_agent_publication.0/README.md
-[10]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-aa.test_commit_publication_bounded_drain.0/README.md
-[11]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-aa.test_skill_uses_loader.0/README.md
+[9]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.1/README.md
+[10]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-aa.test_checks_agent_publication.0/README.md
+[11]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-aa.test_commit_publication_bounded_drain.0/README.md
+[12]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-aa.test_skill_uses_loader.0/README.md
 
 <!-- sase:referenced-by:end -->

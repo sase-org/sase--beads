@@ -70,7 +70,7 @@ flowchart TD
     n29["sase-1tz.3.1.11: Advance bead_task_triage's generation on request_id_conflict [closed]"]
     n30["sase-1tz.3.1.2: Build an update-overlap reproducer for jobs, launches, and native code [closed]"]
     n31["sase-1tz.3.1.3: Defer and retry scheduler jobs that overlap a code swap [closed]"]
-    n32["sase-1tz.3.1.4: Defer and retry launches and finalizers that overlap a code swap [in_progress]"]
+    n32["sase-1tz.3.1.4: Defer and retry launches and finalizers that overlap a code swap [closed]"]
     n33["sase-1tz.3.1.5: Treat a prebuilt Rust artifact cache miss as a miss, not a failure [closed]"]
     n34["sase-1tz.3.1.6: Fall back to plain text only on entity-parse errors and retry per chunk [closed]"]
     n35["sase-1tz.3.1.7: Collapse repeated Telegram credential and network failures into degraded states [closed]"]
@@ -176,7 +176,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1tz.3.1.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.11/README.md) | [sase-1tz.3.1.11](sase-1tz.3.1.11.md) | 1 |
 | [bbugyi200.athena.sase-1tz.3.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.2/README.md) | [sase-1tz.3.1.2](sase-1tz.3.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1tz.3.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.3/README.md) | [sase-1tz.3.1.3](sase-1tz.3.1.3.md) | 1 |
-| [bbugyi200.athena.sase-1tz.3.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.4/README.md) | [sase-1tz.3.1.4](sase-1tz.3.1.4.md) | 0 |
+| [bbugyi200.athena.sase-1tz.3.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.4/README.md) | [sase-1tz.3.1.4](sase-1tz.3.1.4.md) | 1 |
 | [bbugyi200.athena.sase-1tz.3.1.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tz.3.1.5.md) | [sase-1tz.3.1.5](sase-1tz.3.1.5.md) | 1 |
 | [bbugyi200.athena.sase-1tz.3.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.6/README.md) | [sase-1tz.3.1.6](sase-1tz.3.1.6.md) | 0 |
 | [bbugyi200.athena.sase-1tz.3.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.7/README.md) | [sase-1tz.3.1.7](sase-1tz.3.1.7.md) | 0 |
@@ -229,6 +229,7 @@ flowchart TD
 | sase | [`3ae6b09`](https://github.com/sase-org/sase/commit/3ae6b09b72d8efed932981077cbb2266daa631fd) | feat(axe): defer and retry scheduler jobs that overlap a code swap | [sase-1tz.3.1.3](sase-1tz.3.1.3.md) | 2026-11-20 11:30:49 EST |
 | sase-core | [`sase-core@0939137`](https://github.com/sase-org/sase-core/commit/0939137425c091bbbbbdc37b524e971268c16614) | feat(artifact-link): add prompt\_prose origin to ArtifactLinkOriginWire | [sase-1tz.3.1.1](sase-1tz.3.1.1.md) | 2026-11-20 11:53:27 EST |
 | sase | [`eca97ab`](https://github.com/sase-org/sase/commit/eca97ab5a75ec31ff224af02472c03198a21f9e3) | feat(artifact-links): add host-origin constant and prompt\_prose binding contract test | [sase-1tz.3.1.1](sase-1tz.3.1.1.md) | 2026-11-20 11:55:13 EST |
+| sase | [`7c73ee3`](https://github.com/sase-org/sase/commit/7c73ee386637bf08c01b0450d76284da19f50a4e) | feat(launch): defer and retry launches and finalizers that overlap a code swap | [sase-1tz.3.1.4](sase-1tz.3.1.4.md) | 2026-11-20 13:01:54 EST |
 
 <!-- sase:referenced-by:start -->
 
