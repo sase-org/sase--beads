@@ -23,6 +23,10 @@ defects: add the prompt_prose artifact-link wire variant with a binding contract
 
 [2026-11-20T16:20:00Z · sase-1tz.3.1.9] bundle_trim (sase-1tz.3.1.9): bob-cli Codex root bundle 36,225 -> 30,097 bytes via compile-time compaction step superseded_summaries (fits 32 KiB); sase bundles byte-identical; repeat command recorded on sase-1tz.3.1.9.
 
+[2026-11-20T16:38:55Z · sase-1tz.3.1.1] prose_wire (sase-1tz.3.1.1) measured on athena: 3 quarantined publication requests for sase-1tj.land fail on prompt_prose for plan:202611/research_commit_gap.md; 0 prompt_prose rows are stored; no standing alert because quarantine stopped retries. After install, run sase agent sync -p sase -q, then use the check command on sase-1tz.3.1.1.
+
+[2026-11-20T16:40:55Z · sase-1tz.3.1.10] bundle_gate (sase-1tz.3.1.10): Codex oversize fallbacks before install = athena 212 events / apollo 230 over 2026-11-13..20; new deep doctor check instructions.bundle_size reports bob-cli/codex WARN (compacted to 30,392/32,768). Repeat command recorded on sase-1tz.3.1.10.
+
 ## Dependencies
 
 - **Depends on:** [sase-1tz.2](sase-1tz.2.md) ✓ · ⧖ 2026-11-19
