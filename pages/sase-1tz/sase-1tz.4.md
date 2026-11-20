@@ -23,6 +23,8 @@ hygiene: handle SQLite's busy -1 checkpoint result and serve snapshots stale-whi
 
 [2026-11-20T20:37:41Z · sase-1tz.4.1.6] wait_blocker (sase-1tz.4.1.6): wait_checks now raises one frozen notice per failed root blocker (direct + transitive waiters, no +1 on unchanged passes); before: athena 409 undismissed per-waiter rows / 115,862 +1s, apollo 59 / 8,906 — repeat command on sase-1tz.4.1.6.
 
+[2026-11-20T21:29:08Z · sase-1tz.4.1.10] notify_quieting (sase-1tz.4.1.10): file-hooks successes -> 1 silent row/hook (athena 160 ok rows, apollo 208 before); workspace-rescue keyed per workspace+cause (athena 197 rows -> 75 keys); prune nudge floor 1 GiB or disk pressure; no-op hold ledger rows removed (athena 481 on 11-19). Before-numbers and after-install command are on sase-1tz.4.1.10.
+
 ## Dependencies
 
 - **Depends on:** [sase-1tz.3](sase-1tz.3.md) ✓ · ⧖ 2026-11-19

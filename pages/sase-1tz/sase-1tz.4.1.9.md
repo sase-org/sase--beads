@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1tz.4.1](sase-1tz.4.1.md) / sase-1tz.4.1.9
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-1tz.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tz.4.md) · **Assignee:** `sase-1tz.4.1.9` · **Size:** medium
-**Created:** 2026-11-20 14:00:24 EST
+**Created:** 2026-11-20 14:00:24 EST · **Closed:** 2026-11-20 16:33:43 EST
 **Plan:** [202611/hygiene\_gateway\_notifications\_retention.md](https://github.com/sase-org/sase--plans/blob/main/202611/hygiene_gateway_notifications_retention.md)
 
 ## Description
@@ -50,6 +50,10 @@ PY
 
 [2026-11-20T21:04:05Z · sase-1tz.4.1.9] DECISIONS: quiet_triage_rule=remove already landed by sase-1tz.4.1.8 in chezmoi 058b195b (rule removed from sase.yml, telegram rule untouched); this phase changes nothing there. index_backups=report belongs to clutter_reapers phase; this phase adds no backup deletion and reports nothing automatically (report-only branch deferred to sase-1tz.4.1.13).
 
+[2026-11-20T21:32:59Z · sase-1tz.4.1.9] VERIFICATION: targeted triage lane green (86 tests: gate_lifecycle, gate_reconcile x7, one_row, presentation, projects, snooze, liveness, launches, plus_ones, gate_kwargs), adoption+schema green (27 tests), ruff+mypy+symvision green, just fix clean. sase tool run check (runs 75c48250, 469a3ce0) passed all lint gates incl. symvision after fix and docs build; the diff-scoped lane escalated to FULL_SUITE via src-data-asset rule (default_config.yml + footprint catalog) and could not finish in-turn under host load ~47 within the 10m provider ceiling. No check failure observed; full-suite completion left to the land agent on the combined tree.
+
+[2026-11-20T21:33:43Z · sase-1tz.4.1.9] gate_reconcile landed: dismissed pending triage/snooze/flag gates cancel with notification_dismissed and stay suppressed until kind change or re-entry; resolved beads cancel with existing reasons; settled bundles older than 30d reaped under creation lock with cap 100, other kinds only counted. Verified: 86 triage + 27 adoption/schema tests green, ruff/mypy/symvision green, just fix clean; full check lint green, scoped lane escalated to full suite and left to land agent under host load.
+
 ## Dependencies
 
 - **Depends on:** [sase-1tz.4.1.8](sase-1tz.4.1.8.md) ✓ · ⧖ 2026-11-20
@@ -58,4 +62,10 @@ PY
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1tz.4.1.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.9/README.md) | [sase-1tz.4.1.9](sase-1tz.4.1.9.md) | 0 |
+| [bbugyi200.athena.sase-1tz.4.1.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.9/README.md) | [sase-1tz.4.1.9](sase-1tz.4.1.9.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`1115db9`](https://github.com/sase-org/sase/commit/1115db9e66d4ebc82114d74a7fc524eab0900b42) | feat(bead-triage): reconcile notification gates with sticky dismissal and settled-bundle reaping | [sase-1tz.4.1.9](sase-1tz.4.1.9.md) | 2026-11-20 16:40:14 EST |

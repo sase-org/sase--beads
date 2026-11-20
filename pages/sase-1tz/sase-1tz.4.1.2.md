@@ -15,6 +15,8 @@ gateway_swr: an expired cached snapshot is served at once, marked stale, while o
 
 [2026-11-20T20:44:50Z · sase-1tz.4.1.2] Baseline (read-only, 2026-11-20): Apollo gateway output.log retained 2026-11-14T13:05:59Z through 2026-11-20T20:27:59Z (about 6d 7h, short of the requested 7d): 6,480 presentation builds, 3 over 60s, maximum 1,796,293ms (29m56s), 137 timed-out waiters across 84 builds, and 5 HTTP 504 responses. Athena gateway output.log was empty (mtime Sep 20), so its before counts are unavailable. After-install comparison command: `ssh <host> 'rg "fleet snapshot build finished|Status code: 504 Gateway Timeout" ~/.sase/service/procs/gateway/output.log'` on each host. PROPOSED FOLLOW-UP: preserve a durable seven-day gateway log or metric source on Athena and rerun its before measurement; the current gateway output.log is empty.
 
+[2026-11-20T21:29:18Z · sase-1tz.4.1.2] PROPOSED FOLLOW-UP: refresh tests/completion/snapshots/cli_spec.json for the current argparse tree; both snapshot tests fail identically on the clean base (witness 6d36d121952c954cfad879804e439942, repeat of known drift) after the earlier sase-1om fix, and no active bead tracks this recurrence.
+
 ## Dependencies
 
 - **Depends on:** [sase-1tz.4.1.1](sase-1tz.4.1.1.md) ✓ · ⧖ 2026-11-20
