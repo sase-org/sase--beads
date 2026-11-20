@@ -27,15 +27,15 @@ SASE catalogs Gemini 4 Neon on Antigravity with accurate plan-gating advisories,
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-1uj.1](sase-1uj.1.md) | Catalog Gemini 4 Neon in sase's agy manifest | ◐ in_progress | medium | 2026-11-20 | 1 | 0 |
-| [sase-1uj.2](sase-1uj.2.md) | Switch the research swarm's Gemini roles to Neon | ✓ closed | small | 2026-11-20 | 1 | 1 |
+| [sase-1uj.1](sase-1uj.1.md) | Catalog Gemini 4 Neon in sase's agy manifest | ✓ closed | medium | 2026-11-20 | 1 | 1 |
+| [sase-1uj.2](sase-1uj.2.md) | Switch the research swarm's Gemini roles to Neon | ✓ closed | small | 2026-11-20 | 1 | 0 |
 
 ## Lineage
 
 ```mermaid
 flowchart TD
     n0["sase-1uj: Gemini 4 Neon for the research swarm [in_progress]"]
-    n1["sase-1uj.1: Catalog Gemini 4 Neon in sase's agy manifest [in_progress]"]
+    n1["sase-1uj.1: Catalog Gemini 4 Neon in sase's agy manifest [closed]"]
     n2["sase-1uj.2: Switch the research swarm's Gemini roles to Neon [closed]"]
     n0 --> n1
     n0 --> n2
@@ -45,12 +45,12 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1uj.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1uj.1/README.md) | [sase-1uj.1](sase-1uj.1.md) | 0 |
-| [bbugyi200.athena.sase-1uj.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1uj.2/README.md) | [sase-1uj.2](sase-1uj.2.md) | 1 |
+| [bbugyi200.athena.sase-1uj.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1uj.1/README.md) | [sase-1uj.1](sase-1uj.1.md) | 1 |
+| [bbugyi200.athena.sase-1uj.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1uj.2/README.md) | [sase-1uj.2](sase-1uj.2.md) | 0 |
 | [bbugyi200.athena.sase-1uj.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1uj.land/README.md) | [sase-1uj](README.md) | 0 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| sase-research-artifacts | [`sase-research-artifacts@50b479b`](https://github.com/sase-org/sase-research-artifacts/commit/50b479b23def0e633bd8be6fff4528ff008f3795) | feat(research-swarm): default Gemini roles to Neon | [sase-1uj.2](sase-1uj.2.md) | 2026-11-20 17:20:43 EST |
+| sase | [`7e59092`](https://github.com/sase-org/sase/commit/7e590921e33a9d6b6b8e1c174fc2e053bbb38da5) | feat(models): add gemini-4-neon agy family with Pro/paid-Pro advisories | [sase-1uj.1](sase-1uj.1.md) | 2026-11-20 17:46:21 EST |
