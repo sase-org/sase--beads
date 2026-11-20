@@ -34,7 +34,13 @@ pub_doctor: doctor's agent_publication_outbox check groups issues by (project, s
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1tz.2.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.7/README.md) | [sase-1tz.2.1.7](sase-1tz.2.1.7.md) | 0 |
+| [bbugyi200.athena.sase-1tz.2.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.7/README.md) | [sase-1tz.2.1.7](sase-1tz.2.1.7.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`77c0f23`](https://github.com/sase-org/sase/commit/77c0f23375e70c2b684050a3267366f1e6dbdd40) | feat(doctor): group publication outbox by cause, settle terminal rows, calm stale-only protection | [sase-1tz.2.1.7](sase-1tz.2.1.7.md) | 2026-11-19 18:45:53 EST |
 
 <!-- sase:referenced-by:start -->
 
