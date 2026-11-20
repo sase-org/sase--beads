@@ -61,4 +61,10 @@ Expect post-install misses to keep reason=commit-mismatch with consume rc=0, sta
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1tz.3.1.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tz.3.1.5.md) | [sase-1tz.3.1.5](sase-1tz.3.1.5.md) | 0 |
+| [bbugyi200.athena.sase-1tz.3.1.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tz.3.1.5.md) | [sase-1tz.3.1.5](sase-1tz.3.1.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`f9b8800`](https://github.com/sase-org/sase/commit/f9b88003413260bc1c85ecb39ea1d794a6d17db5) | fix(dev-update): treat a prebuilt Rust cache miss as a miss | [sase-1tz.3.1.5](sase-1tz.3.1.5.md) | 2026-11-20 11:00:46 EST |
