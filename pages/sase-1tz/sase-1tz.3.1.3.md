@@ -21,3 +21,15 @@ swap_chop_guards: the code-swap writer records a durable last-swap stamp. The ch
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1tz.3.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.3/README.md) | [sase-1tz.3.1.3](sase-1tz.3.1.3.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1tz.3.1.2][1] | Check sibling phase state and epic decisions before swap_repro work | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.2/README.md
+
+<!-- sase:referenced-by:end -->

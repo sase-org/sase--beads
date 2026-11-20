@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/defects_wire_swap_telegram_bundles_triage.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/sase-org/sase--plans/blob/main/202611/defects_wire_swap_telegram_bundles_triage.md
 
 <!-- sase:links:end -->
@@ -28,3 +30,15 @@ Host-produced artifact-link origins, including prompt_prose, round-trip through 
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1tz.3.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.land/README.md) | [sase-1tz.3.1](sase-1tz.3.1.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1tz.3.1.2][1] | Check sibling phase state and epic decisions before swap_repro work | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.2/README.md
+
+<!-- sase:referenced-by:end -->
