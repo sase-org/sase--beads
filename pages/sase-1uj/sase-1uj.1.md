@@ -30,3 +30,15 @@ catalog: add the four gemini-4-neon slugs, short aliases, and info advisories to
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`7e59092`](https://github.com/sase-org/sase/commit/7e590921e33a9d6b6b8e1c174fc2e053bbb38da5) | feat(models): add gemini-4-neon agy family with Pro/paid-Pro advisories | [sase-1uj.1](sase-1uj.1.md) | 2026-11-20 17:46:21 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1uj.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1uj.1/README.md
+
+<!-- sase:referenced-by:end -->

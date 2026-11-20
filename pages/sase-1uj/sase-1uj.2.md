@@ -19,7 +19,13 @@ swarm: in the linked sase-research-artifacts repo, change the gemini_model defau
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1uj.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1uj.2/README.md) | [sase-1uj.2](sase-1uj.2.md) | 0 |
+| [bbugyi200.athena.sase-1uj.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1uj.2/README.md) | [sase-1uj.2](sase-1uj.2.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase-research-artifacts | [`sase-research-artifacts@50b479b`](https://github.com/sase-org/sase-research-artifacts/commit/50b479b23def0e633bd8be6fff4528ff008f3795) | feat(research-swarm): default Gemini roles to Neon | [sase-1uj.2](sase-1uj.2.md) | 2026-11-20 17:20:43 EST |
 
 <!-- sase:referenced-by:start -->
 
