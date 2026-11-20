@@ -48,7 +48,7 @@ Evidence: file:explicit:d35dea9eedbf5dc21c83df1d.
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1tz.2.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tz.2.1.land.md) | [sase-1tz.2.1](sase-1tz.2.1.md) | 3 |
+| [bbugyi200.athena.sase-1tz.2.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tz.2.1.land.md) | [sase-1tz.2.1](sase-1tz.2.1.md) | 4 |
 
 ## Commits
 
@@ -57,6 +57,7 @@ Evidence: file:explicit:d35dea9eedbf5dc21c83df1d.
 | sase | [`8cf9d8e`](https://github.com/sase-org/sase/commit/8cf9d8e5465994f9c1a34a5075a4bb7ea0ed9d47) | fix(doctor): keep cause detail in grouped publication issues and review scratch sweep | [sase-1tz.2.1](sase-1tz.2.1.md) | 2026-11-20 08:03:07 EST |
 | sase-core | [`sase-core@5c8ccd6`](https://github.com/sase-org/sase-core/commit/5c8ccd6b879db3edb7444dec1dd71bc99f8c4eca) | fix(agent-publication): ignore volatile detail in standing alert decisions | [sase-1tz.2.1](sase-1tz.2.1.md) | 2026-11-20 09:04:49 EST |
 | sase | [`d18b499`](https://github.com/sase-org/sase/commit/d18b499d4d5582e2390da8e9af1f6fb31208f582) | feat(agents-sync): finish publication de-flap, error accounting, and GC pressure gate | [sase-1tz.2.1](sase-1tz.2.1.md) | 2026-11-20 09:06:32 EST |
+| sase--plans | [`sase--plans@43f86af`](https://github.com/sase-org/sase--plans/commit/43f86aff6cd7415391db661d71b45ff79cc1144e) | chore(plans): mark noise\_publication\_digests\_tui\_stalls done | [sase-1tz.2.1](sase-1tz.2.1.md) | 2026-11-20 09:08:14 EST |
 
 <!-- sase:referenced-by:start -->
 
