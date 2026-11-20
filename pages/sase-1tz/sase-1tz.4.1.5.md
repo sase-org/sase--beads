@@ -13,7 +13,7 @@ blob_adopt: the TUI, Telegram, and mobile readers that need full action_data or 
 
 ## Dependencies
 
-- **Depends on:** [sase-1tz.4.1.4](sase-1tz.4.1.4.md) ◐ · ⧖ 2026-11-20
+- **Depends on:** [sase-1tz.4.1.4](sase-1tz.4.1.4.md) ✓ · ⧖ 2026-11-20
 
 ## Agents
 

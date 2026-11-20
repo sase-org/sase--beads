@@ -32,3 +32,15 @@ clutter_reapers: deleting proc logs also removes their lock files. The name-regi
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1tz.4.1.13](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tz.4.1.13.md) | [sase-1tz.4.1.13](sase-1tz.4.1.13.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1tz.4.1.13--1][1] | verify gate follow-up: check backup deletion | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tz.4.1.13.md
+
+<!-- sase:referenced-by:end -->

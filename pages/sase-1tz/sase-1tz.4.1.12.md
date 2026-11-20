@@ -29,13 +29,7 @@ log_horizons: an hourly housekeeping chop applies the existing tool-run retentio
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1tz.4.1.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.12/README.md) | [sase-1tz.4.1.12](sase-1tz.4.1.12.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase | [`18e4f35`](https://github.com/sase-org/sase/commit/18e4f35a54d84c71e79d41d2bd74cabc8771429c) | feat(retention): schedule tool-run log horizon and age-rotate tui.log | [sase-1tz.4.1.12](sase-1tz.4.1.12.md) | 2026-11-20 15:50:07 EST |
+| [bbugyi200.athena.sase-1tz.4.1.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.12/README.md) | [sase-1tz.4.1.12](sase-1tz.4.1.12.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 

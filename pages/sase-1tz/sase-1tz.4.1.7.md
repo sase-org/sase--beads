@@ -29,13 +29,7 @@ waiter_expire: under blocked_waiters = offer, the root-blocker notice gets a one
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1tz.4.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.7/README.md) | [sase-1tz.4.1.7](sase-1tz.4.1.7.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase | [`eb54017`](https://github.com/sase-org/sase/commit/eb5401709da91f342a709c344429026db343acbe) | feat(tui): expire blocked waiters from the root-blocker notice | [sase-1tz.4.1.7](sase-1tz.4.1.7.md) | 2026-11-20 16:58:02 EST |
+| [bbugyi200.athena.sase-1tz.4.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.7/README.md) | [sase-1tz.4.1.7](sase-1tz.4.1.7.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 

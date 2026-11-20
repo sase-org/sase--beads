@@ -29,7 +29,7 @@ attention_key: remote-attention rows key on (origin, request_id). A new revision
 
 ## Dependencies
 
-- **Blocks:** [sase-1tz.4.1.4](sase-1tz.4.1.4.md) ◐ · ⧖ 2026-11-20
+- **Blocks:** [sase-1tz.4.1.4](sase-1tz.4.1.4.md) ✓ · ⧖ 2026-11-20
 
 ## Agents
 
