@@ -67,7 +67,7 @@ flowchart TD
     n26["sase-1tz.3.1: Targeted defect fixes for the prompt_prose wire, update races, Telegram transport, bundle caps, and triage conflicts [in_progress]"]
     n27["sase-1tz.3.1.1: Add the prompt_prose artifact-link origin and a host-origin binding contract test [in_progress]"]
     n28["sase-1tz.3.1.10: Gate provider bundle sizes in sase doctor and just check [in_progress]"]
-    n29["sase-1tz.3.1.11: Advance bead_task_triage's generation on request_id_conflict [in_progress]"]
+    n29["sase-1tz.3.1.11: Advance bead_task_triage's generation on request_id_conflict [closed]"]
     n30["sase-1tz.3.1.2: Build an update-overlap reproducer for jobs, launches, and native code [closed]"]
     n31["sase-1tz.3.1.3: Defer and retry scheduler jobs that overlap a code swap [in_progress]"]
     n32["sase-1tz.3.1.4: Defer and retry launches and finalizers that overlap a code swap [in_progress]"]
@@ -173,7 +173,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1tz.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tz.3.md) | [sase-1tz.3](sase-1tz.3.md) | 0 |
 | [bbugyi200.athena.sase-1tz.3.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.1/README.md) | [sase-1tz.3.1.1](sase-1tz.3.1.1.md) | 0 |
 | [bbugyi200.athena.sase-1tz.3.1.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.10/README.md) | [sase-1tz.3.1.10](sase-1tz.3.1.10.md) | 0 |
-| [bbugyi200.athena.sase-1tz.3.1.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.11/README.md) | [sase-1tz.3.1.11](sase-1tz.3.1.11.md) | 0 |
+| [bbugyi200.athena.sase-1tz.3.1.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.11/README.md) | [sase-1tz.3.1.11](sase-1tz.3.1.11.md) | 1 |
 | [bbugyi200.athena.sase-1tz.3.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.2/README.md) | [sase-1tz.3.1.2](sase-1tz.3.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1tz.3.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.3/README.md) | [sase-1tz.3.1.3](sase-1tz.3.1.3.md) | 0 |
 | [bbugyi200.athena.sase-1tz.3.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.4/README.md) | [sase-1tz.3.1.4](sase-1tz.3.1.4.md) | 0 |
@@ -222,6 +222,7 @@ flowchart TD
 | sase | [`d18b499`](https://github.com/sase-org/sase/commit/d18b499d4d5582e2390da8e9af1f6fb31208f582) | feat(agents-sync): finish publication de-flap, error accounting, and GC pressure gate | [sase-1tz.2.1](sase-1tz.2.1.md) | 2026-11-20 09:06:32 EST |
 | sase--plans | [`sase--plans@43f86af`](https://github.com/sase-org/sase--plans/commit/43f86aff6cd7415391db661d71b45ff79cc1144e) | chore(plans): mark noise\_publication\_digests\_tui\_stalls done | [sase-1tz.2.1](sase-1tz.2.1.md) | 2026-11-20 09:08:14 EST |
 | sase | [`9bbdeec`](https://github.com/sase-org/sase/commit/9bbdeec5f45d1a8a407d03839a912c413e71de18) | test(dev\_update): add update-overlap reproducer for jobs, launches, and native code | [sase-1tz.3.1.2](sase-1tz.3.1.2.md) | 2026-11-20 10:50:59 EST |
+| sase | [`b6f6c63`](https://github.com/sase-org/sase/commit/b6f6c63e3e4bdbbdd188b68d341b46f2dbbe3fcb) | fix(triage): recover from gate request id conflicts | [sase-1tz.3.1.11](sase-1tz.3.1.11.md) | 2026-11-20 10:56:33 EST |
 
 <!-- sase:referenced-by:start -->
 
