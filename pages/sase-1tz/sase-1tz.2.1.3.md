@@ -24,8 +24,8 @@ pub_standing: a sase-core decider keys publication failures by (project, signatu
 ## Dependencies
 
 - **Depends on:** [sase-1tz.2.1.1](sase-1tz.2.1.1.md) ✓ · ⧖ 2026-11-19
-- **Blocks:** [sase-1tz.2.1.5](sase-1tz.2.1.5.md) ◐ · ⧖ 2026-11-19
-- **Blocks:** [sase-1tz.2.1.7](sase-1tz.2.1.7.md) ◐ · ⧖ 2026-11-19
+- **Blocks:** [sase-1tz.2.1.5](sase-1tz.2.1.5.md) ✓ · ⧖ 2026-11-19
+- **Blocks:** [sase-1tz.2.1.7](sase-1tz.2.1.7.md) ✓ · ⧖ 2026-11-19
 
 ## Agents
 

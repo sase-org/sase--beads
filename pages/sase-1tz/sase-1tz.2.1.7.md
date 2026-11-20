@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1tz.2.1](sase-1tz.2.1.md) / sase-1tz.2.1.7
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-1tz.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tz.2.md) · **Assignee:** `sase-1tz.2.1.7` · **Size:** small
-**Created:** 2026-11-19 11:13:27 EST
+**Created:** 2026-11-19 11:13:27 EST · **Closed:** 2026-11-19 18:47:09 EST
 **Plan:** [202611/noise\_publication\_digests\_tui\_stalls.md](https://github.com/sase-org/sase--plans/blob/main/202611/noise_publication_digests_tui_stalls.md)
 
 ## Description
@@ -23,6 +23,8 @@ pub_doctor: doctor's agent_publication_outbox check groups issues by (project, s
 
 [2026-11-19T23:43:16Z · sase-1tz.2.1.7] Close blocked on merge, not on work: sase bead close refuses while origin/master Justfile still carries the two sase-1tz.2.1.7 --epic-symbol rows (added by sase-1tz.2.1.6 commit 3d3d0f583d). The working tree resolves both symbols in doctor code (symvision: already properly used) and drops both rows locally. Re-keying was rejected: the symbols need no whitelist anywhere. Land agent: merge this stitch, then close this bead; the gate passes once the row removal lands.
 
+[2026-11-19T23:47:09Z · sase-1tz.2.1.7] Closed by explicit `sase stitch create -B close` after create_commit landed 77c0f23375 ("feat(doctor): group publication outbox by cause, settle terminal rows, calm stale-only protection"). The commit author requested bead completion after verifying the bead scope. Reopen with `sase bead open sase-1tz.2.1.7` if more work remains.
+
 ## Dependencies
 
 - **Depends on:** [sase-1tz.2.1.3](sase-1tz.2.1.3.md) ✓ · ⧖ 2026-11-19
@@ -32,10 +34,16 @@ pub_doctor: doctor's agent_publication_outbox check groups issues by (project, s
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1tz.2.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.7/README.md) | [sase-1tz.2.1.7](sase-1tz.2.1.7.md) | 1 |
+| [bbugyi200.athena.sase-1tz.2.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.7/README.md) | [sase-1tz.2.1.7](sase-1tz.2.1.7.md) | 0 |
 
-## Commits
+<!-- sase:referenced-by:start -->
 
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase | [`77c0f23`](https://github.com/sase-org/sase/commit/77c0f23375e70c2b684050a3267366f1e6dbdd40) | feat(doctor): group publication outbox by cause, settle terminal rows, calm stale-only protection | [sase-1tz.2.1.7](sase-1tz.2.1.7.md) | 2026-11-19 18:45:53 EST |
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1tz.2.1.7][1] | check for stray notes from refused close | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.7/README.md
+
+<!-- sase:referenced-by:end -->
