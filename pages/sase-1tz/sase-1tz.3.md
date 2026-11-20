@@ -15,6 +15,8 @@ defects: add the prompt_prose artifact-link wire variant with a binding contract
 
 [2026-11-20T14:30:34Z · sase-1tz.3.1.8] tg_scope (sase-1tz.3.1.8): telegram outbound routine now athena-only in chezmoi source; apollo was wasting 12.7 tg_outbound ticks/min.
 
+[2026-11-20T14:32:32Z · sase-1tz.3.1.5] prebuild_miss (sase-1tz.3.1.5): apollo baseline 23/45 prebuild attempts were commit-mismatch misses with nonzero consume rc (was 18/37 in the audit).
+
 ## Dependencies
 
 - **Depends on:** [sase-1tz.2](sase-1tz.2.md) ✓ · ⧖ 2026-11-19

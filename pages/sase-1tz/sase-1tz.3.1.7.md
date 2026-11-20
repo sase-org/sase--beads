@@ -13,7 +13,7 @@ tg_degraded: outbound and receiver track a persisted credential_unavailable or n
 
 ## Dependencies
 
-- **Depends on:** [sase-1tz.3.1.6](sase-1tz.3.1.6.md) ◐ · ⧖ 2026-11-20
+- **Depends on:** [sase-1tz.3.1.6](sase-1tz.3.1.6.md) ✓ · ⧖ 2026-11-20
 
 ## Agents
 
