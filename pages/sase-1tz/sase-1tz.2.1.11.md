@@ -27,7 +27,7 @@ ui_io_offload: move the launchable-MRU tick's stat and config-token peek, the hi
 
 ## Dependencies
 
-- **Blocks:** [sase-1tz.2.1.13](sase-1tz.2.1.13.md) ◐ · ⧖ 2026-11-19
+- **Blocks:** [sase-1tz.2.1.13](sase-1tz.2.1.13.md) ✓ · ⧖ 2026-11-19
 
 ## Agents
 

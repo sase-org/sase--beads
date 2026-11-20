@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/notification_log_audit_fixes.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202611/notification_log_audit_fixes.md
 
@@ -54,7 +54,7 @@ flowchart TD
     n13["sase-1tz.2.1.10: Find and fix the top cyclic-garbage producers and heap retainers [closed]"]
     n14["sase-1tz.2.1.11: Move sampled synchronous filesystem work off the TUI main thread [closed]"]
     n15["sase-1tz.2.1.12: Cache compiled query profiles and cut per-second clan runtime work [closed]"]
-    n16["sase-1tz.2.1.13: Measure the combined TUI result and settle the TUI task beads [in_progress]"]
+    n16["sase-1tz.2.1.13: Measure the combined TUI result and settle the TUI task beads [closed]"]
     n17["sase-1tz.2.1.2: Render one digest line per cause with true totals, coverage, and pruning [closed]"]
     n18["sase-1tz.2.1.3: Turn repeated publication failures into standing alerts with backoff [closed]"]
     n19["sase-1tz.2.1.4: Give drain cleanup a budget it can finish and sweep stranded publisher scratch [closed]"]
@@ -141,7 +141,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1tz.2.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.7/README.md) | [sase-1tz.2.1.7](sase-1tz.2.1.7.md) | 1 |
 | [bbugyi200.athena.sase-1tz.2.1.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.8/README.md) | [sase-1tz.2.1.8](sase-1tz.2.1.8.md) | 1 |
 | [bbugyi200.athena.sase-1tz.2.1.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.9/README.md) | [sase-1tz.2.1.9](sase-1tz.2.1.9.md) | 1 |
-| [bbugyi200.athena.sase-1tz.2.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.land/README.md) | [sase-1tz.2.1](sase-1tz.2.1.md) | 0 |
+| [bbugyi200.athena.sase-1tz.2.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.land/README.md) | [sase-1tz.2.1](sase-1tz.2.1.md) | 1 |
 | [bbugyi200.athena.sase-1tz.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3/README.md) | [sase-1tz.3](sase-1tz.3.md) | 0 |
 | [bbugyi200.athena.sase-1tz.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4/README.md) | [sase-1tz.4](sase-1tz.4.md) | 0 |
 | [bbugyi200.athena.sase-1tz.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.land/README.md) | [sase-1tz](README.md) | 0 |
@@ -177,6 +177,7 @@ flowchart TD
 | sase | [`77c0f23`](https://github.com/sase-org/sase/commit/77c0f23375e70c2b684050a3267366f1e6dbdd40) | feat(doctor): group publication outbox by cause, settle terminal rows, calm stale-only protection | [sase-1tz.2.1.7](sase-1tz.2.1.7.md) | 2026-11-19 18:45:53 EST |
 | sase-core | [`sase-core@80fcc86`](https://github.com/sase-org/sase-core/commit/80fcc862ba4b10c936eb6b484470632729eefbc3) | feat(agent-archive): filter dismissed bundles by identity prefix | [sase-1tz.2.1.5](sase-1tz.2.1.5.md) | 2026-11-19 20:12:40 EST |
 | sase | [`fb85972`](https://github.com/sase-org/sase/commit/fb85972f27438a2ceee0304862aaa3446106fb80) | perf(agents-sync): reuse scoped hood inventory | [sase-1tz.2.1.5](sase-1tz.2.1.5.md) | 2026-11-19 21:01:04 EST |
+| sase | [`8cf9d8e`](https://github.com/sase-org/sase/commit/8cf9d8e5465994f9c1a34a5075a4bb7ea0ed9d47) | fix(doctor): keep cause detail in grouped publication issues and review scratch sweep | [sase-1tz.2.1](sase-1tz.2.1.md) | 2026-11-20 08:03:07 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -186,8 +187,10 @@ flowchart TD
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1tz.1.1.1][1] | Need the governing epic DECISIONS before implementing its notification-store phase | 1 |
 | read-by | [agent:sase-1tz.1.1.4][2] | Need top-level parent epic DECISIONS which are final | 1 |
+| read-by | [agent:sase-1tz.2.1.5--2][3] | Check the active parent epic context for the publication-performance lint finding | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.1.1.1/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.1.1.4/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tz.2.1.5.md
 
 <!-- sase:referenced-by:end -->

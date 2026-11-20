@@ -19,7 +19,7 @@ ui_cpu_caches: memoize compiled built-in pane query profiles and stop re-seriali
 
 ## Dependencies
 
-- **Blocks:** [sase-1tz.2.1.13](sase-1tz.2.1.13.md) ◐ · ⧖ 2026-11-19
+- **Blocks:** [sase-1tz.2.1.13](sase-1tz.2.1.13.md) ✓ · ⧖ 2026-11-19
 
 ## Agents
 
