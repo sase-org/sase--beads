@@ -31,13 +31,7 @@ wait_blocker: terminally blocked waiters group under one notice per root blocker
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1tz.4.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.6/README.md) | [sase-1tz.4.1.6](sase-1tz.4.1.6.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase | [`bca49ea`](https://github.com/sase-org/sase/commit/bca49eadd11e70043e0fab05e140ee52a69fe35d) | feat(wait\_checks): raise one notice per failed root blocker and freeze its +1s | [sase-1tz.4.1.6](sase-1tz.4.1.6.md) | 2026-11-20 15:40:31 EST |
+| [bbugyi200.athena.sase-1tz.4.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.6/README.md) | [sase-1tz.4.1.6](sase-1tz.4.1.6.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 
@@ -46,7 +40,9 @@ wait_blocker: terminally blocked waiters group under one notice per root blocker
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1tz.4.1.6][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1tz.4.1.7][2] | Need the root-blocker notice action_data contract from the prior phase | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.6/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.7/README.md
 
 <!-- sase:referenced-by:end -->

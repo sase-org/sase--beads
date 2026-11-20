@@ -17,7 +17,7 @@ wal_busy: in sase-core, a busy wal_checkpoint that returns -1 counts reports che
 
 ## Dependencies
 
-- **Blocks:** [sase-1tz.4.1.2](sase-1tz.4.1.2.md) ◐ · ⧖ 2026-11-20
+- **Blocks:** [sase-1tz.4.1.2](sase-1tz.4.1.2.md) ✓ · ⧖ 2026-11-20
 
 ## Agents
 

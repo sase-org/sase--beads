@@ -51,13 +51,7 @@ PY
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1tz.4.1.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.11/README.md) | [sase-1tz.4.1.11](sase-1tz.4.1.11.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase | [`f960f75`](https://github.com/sase-org/sase/commit/f960f758ca9bc3b88f0a722d5c9c8df14ed1b40f) | feat(agents-sync): memoize unchanged refresh verdicts | [sase-1tz.4.1.11](sase-1tz.4.1.11.md) | 2026-11-20 16:19:07 EST |
+| [bbugyi200.athena.sase-1tz.4.1.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.11/README.md) | [sase-1tz.4.1.11](sase-1tz.4.1.11.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 

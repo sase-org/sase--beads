@@ -25,6 +25,8 @@ hygiene: handle SQLite's busy -1 checkpoint result and serve snapshots stale-whi
 
 [2026-11-20T21:29:08Z · sase-1tz.4.1.10] notify_quieting (sase-1tz.4.1.10): file-hooks successes -> 1 silent row/hook (athena 160 ok rows, apollo 208 before); workspace-rescue keyed per workspace+cause (athena 197 rows -> 75 keys); prune nudge floor 1 GiB or disk pressure; no-op hold ledger rows removed (athena 481 on 11-19). Before-numbers and after-install command are on sase-1tz.4.1.10.
 
+[2026-11-20T21:55:56Z · sase-1tz.4.1.13] sase-1tz.4.1.13 clutter_reapers done: proc log deletes now remove lock files; registry writer sweeps stale tmps under lock; hourly state_retention reaps both backlogs; index backups are report-only with a staged one-time delete gate for the athena 222 MiB backup.
+
 ## Dependencies
 
 - **Depends on:** [sase-1tz.3](sase-1tz.3.md) ✓ · ⧖ 2026-11-19
