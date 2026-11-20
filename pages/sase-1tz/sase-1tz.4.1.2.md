@@ -27,13 +27,14 @@ gateway_swr: an expired cached snapshot is served at once, marked stale, while o
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1tz.4.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.2/README.md) | [sase-1tz.4.1.2](sase-1tz.4.1.2.md) | 1 |
+| [bbugyi200.athena.sase-1tz.4.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.2/README.md) | [sase-1tz.4.1.2](sase-1tz.4.1.2.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@a3b95da`](https://github.com/sase-org/sase-core/commit/a3b95da517ac4ea36267de9da869070397c66c46) | feat(gateway): serve stale fleet snapshots while rebuilding | [sase-1tz.4.1.2](sase-1tz.4.1.2.md) | 2026-11-20 17:13:06 EST |
+| sase | [`3025de0`](https://github.com/sase-org/sase/commit/3025de05723e119b44418392c4a9f36b4f331785) | feat(gateway): present stale fleet snapshots as revalidating | [sase-1tz.4.1.2](sase-1tz.4.1.2.md) | 2026-11-20 17:16:15 EST |
 
 <!-- sase:referenced-by:start -->
 

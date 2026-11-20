@@ -26,10 +26,11 @@ blob_store: sase-core stores action_data values and notes over a caller-supplied
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1tz.4.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.4/README.md) | [sase-1tz.4.1.4](sase-1tz.4.1.4.md) | 1 |
+| [bbugyi200.athena.sase-1tz.4.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.4/README.md) | [sase-1tz.4.1.4](sase-1tz.4.1.4.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@6524f37`](https://github.com/sase-org/sase-core/commit/6524f378e3d3078f2d1dc5dfbbbb5404a8e01e62) | feat(notifications): store oversized payloads in sidecars | [sase-1tz.4.1.4](sase-1tz.4.1.4.md) | 2026-11-20 17:58:29 EST |
+| sase | [`6b444fc`](https://github.com/sase-org/sase/commit/6b444fcdefd3e9807aff39a922a1ec97641f796c) | feat(notifications): expose opt-in payload sidecars | [sase-1tz.4.1.4](sase-1tz.4.1.4.md) | 2026-11-20 18:00:36 EST |
