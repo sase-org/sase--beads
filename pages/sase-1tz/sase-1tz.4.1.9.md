@@ -13,7 +13,7 @@ gate_reconcile: a pending automation-owned gate whose notification was dismissed
 
 ## Dependencies
 
-- **Depends on:** [sase-1tz.4.1.8](sase-1tz.4.1.8.md) ◐ · ⧖ 2026-11-20
+- **Depends on:** [sase-1tz.4.1.8](sase-1tz.4.1.8.md) ✓ · ⧖ 2026-11-20
 
 ## Agents
 

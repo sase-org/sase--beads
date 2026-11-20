@@ -7,6 +7,18 @@
 **Created:** 2026-11-20 14:00:21 EST
 **Plan:** [202611/hygiene\_gateway\_notifications\_retention.md](https://github.com/sase-org/sase--plans/blob/main/202611/hygiene_gateway_notifications_retention.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202611/hygiene_gateway_notifications_retention.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/sase-org/sase--plans/blob/main/202611/hygiene_gateway_notifications_retention.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 A busy SQLite WAL checkpoint reports busy instead of erroring, read paths checkpoint passively, and the gateway serves a cached fleet snapshot at once while one rebuild runs in the background. remote-attention keeps one row per request, wait_checks raises one notice per failed root blocker with a one-key expire action, and task-bead triage keeps one notification per bead. Settled triage gate bundles are reaped. Notification payloads over 8 KB move to sidecar files, and broken file references are pruned. file-hooks successes are silent, workspace-rescue dedups, prune nudges have a size floor, agent_state_refresh logs each unchanged verdict once, and no-op claim-ledger rows stop. Tool-run logs, tui.log, proc log locks, registry temp files, and index backups follow stated horizons.

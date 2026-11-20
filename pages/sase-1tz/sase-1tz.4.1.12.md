@@ -11,6 +11,12 @@
 
 log_horizons: an hourly housekeeping chop applies the existing tool-run retention owner, not only under disk pressure, and removes emptied run dirs. tui.log rotates by age as well as size. Verify error-digest pruning and that artifact_run_prune is unblocked on both hosts.
 
+## Notes
+
+[2026-11-20T20:08:22Z · sase-1tz.4.1.12] Before (read-only 2026-11-20): athena ~/.sase/tools/logs 1163.47 MiB, 11427 dirs, 2312 empty (all >14d), 16131 files (12558 >14d); tui.log 1.6 MiB (0d), tui.log.1-3 ~2 MiB mtime 40.6-41.1d; 732 error digests, no retention marker, oldest 137.4d; artifact_run_prune 20261120T135622 unavailable=0 selected=0 protected=24072 status=ok; error_digest chop failing exit 1 (dedup_key requires plus_one_note). apollo tools/logs 22.82 MiB, 2147 dirs, 1456 empty (900 >14d), 550 files (179 >14d); tui.log 1.6 MiB (0.1d) no rotated segments; 444 digests, no marker, oldest 81.1d; artifact_run_prune 20261120T150047 unavailable=0 nothing_reclaimable; error_digest chop failing exit 1 same cause. Lost runs all have settled_ts (athena 48, apollo 15). After-install (human): `just install` on athena and apollo so housekeeping loads state_retention and the digest prune-first/plus_one_note fix.
+
+[2026-11-20T20:08:49Z · sase-1tz.4.1.12] Overlap sase-zw.8: this phase schedules the existing tool_run_retention owner (same step as sase disk reap / disk_pressure) at most once per tool_runs.housekeeping_interval_seconds and rmdirs emptied ~/.sase/tools/logs run dirs; no second tool-run policy. clutter_reapers adds further classes to the same chop. ToolRun store already marks dead wrappers lost via reconcile with settled_ts, so no PROPOSED FOLLOW-UP for never-settled dirs. artifact_run_prune is unblocked on both hosts (unavailable=0). error_digest prune was not holding its 30d/keep-50 horizon because notify crashed before prune; notify now passes plus_one_note and prune runs first.
+
 ## Dependencies
 
 - **Blocks:** [sase-1tz.4.1.13](sase-1tz.4.1.13.md) ◐ · ⧖ 2026-11-20
