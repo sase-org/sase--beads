@@ -13,7 +13,7 @@ swap_launch_guards: agent launches, bead work, and host finalizers that hit a mi
 
 ## Dependencies
 
-- **Depends on:** [sase-1tz.3.1.3](sase-1tz.3.1.3.md) ◐ · ⧖ 2026-11-20
+- **Depends on:** [sase-1tz.3.1.3](sase-1tz.3.1.3.md) ✓ · ⧖ 2026-11-20
 
 ## Agents
 

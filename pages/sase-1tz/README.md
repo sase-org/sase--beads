@@ -69,7 +69,7 @@ flowchart TD
     n28["sase-1tz.3.1.10: Gate provider bundle sizes in sase doctor and just check [in_progress]"]
     n29["sase-1tz.3.1.11: Advance bead_task_triage's generation on request_id_conflict [closed]"]
     n30["sase-1tz.3.1.2: Build an update-overlap reproducer for jobs, launches, and native code [closed]"]
-    n31["sase-1tz.3.1.3: Defer and retry scheduler jobs that overlap a code swap [in_progress]"]
+    n31["sase-1tz.3.1.3: Defer and retry scheduler jobs that overlap a code swap [closed]"]
     n32["sase-1tz.3.1.4: Defer and retry launches and finalizers that overlap a code swap [in_progress]"]
     n33["sase-1tz.3.1.5: Treat a prebuilt Rust artifact cache miss as a miss, not a failure [closed]"]
     n34["sase-1tz.3.1.6: Fall back to plain text only on entity-parse errors and retry per chunk [closed]"]
@@ -175,13 +175,13 @@ flowchart TD
 | [bbugyi200.athena.sase-1tz.3.1.10](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.10/README.md) | [sase-1tz.3.1.10](sase-1tz.3.1.10.md) | 0 |
 | [bbugyi200.athena.sase-1tz.3.1.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.11/README.md) | [sase-1tz.3.1.11](sase-1tz.3.1.11.md) | 1 |
 | [bbugyi200.athena.sase-1tz.3.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.2/README.md) | [sase-1tz.3.1.2](sase-1tz.3.1.2.md) | 1 |
-| [bbugyi200.athena.sase-1tz.3.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.3/README.md) | [sase-1tz.3.1.3](sase-1tz.3.1.3.md) | 0 |
+| [bbugyi200.athena.sase-1tz.3.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.3/README.md) | [sase-1tz.3.1.3](sase-1tz.3.1.3.md) | 1 |
 | [bbugyi200.athena.sase-1tz.3.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.4/README.md) | [sase-1tz.3.1.4](sase-1tz.3.1.4.md) | 0 |
 | [bbugyi200.athena.sase-1tz.3.1.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tz.3.1.5.md) | [sase-1tz.3.1.5](sase-1tz.3.1.5.md) | 1 |
 | [bbugyi200.athena.sase-1tz.3.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.6/README.md) | [sase-1tz.3.1.6](sase-1tz.3.1.6.md) | 0 |
 | [bbugyi200.athena.sase-1tz.3.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.7/README.md) | [sase-1tz.3.1.7](sase-1tz.3.1.7.md) | 0 |
 | [bbugyi200.athena.sase-1tz.3.1.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.8/README.md) | [sase-1tz.3.1.8](sase-1tz.3.1.8.md) | 0 |
-| [bbugyi200.athena.sase-1tz.3.1.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.9/README.md) | [sase-1tz.3.1.9](sase-1tz.3.1.9.md) | 2 |
+| [bbugyi200.athena.sase-1tz.3.1.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.9/README.md) | [sase-1tz.3.1.9](sase-1tz.3.1.9.md) | 1 |
 | [bbugyi200.athena.sase-1tz.3.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.land/README.md) | [sase-1tz.3.1](sase-1tz.3.1.md) | 0 |
 | [bbugyi200.athena.sase-1tz.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4/README.md) | [sase-1tz.4](sase-1tz.4.md) | 0 |
 | [bbugyi200.athena.sase-1tz.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.land/README.md) | [sase-1tz](README.md) | 0 |
@@ -224,8 +224,8 @@ flowchart TD
 | sase | [`9bbdeec`](https://github.com/sase-org/sase/commit/9bbdeec5f45d1a8a407d03839a912c413e71de18) | test(dev\_update): add update-overlap reproducer for jobs, launches, and native code | [sase-1tz.3.1.2](sase-1tz.3.1.2.md) | 2026-11-20 10:50:59 EST |
 | sase | [`b6f6c63`](https://github.com/sase-org/sase/commit/b6f6c63e3e4bdbbdd188b68d341b46f2dbbe3fcb) | fix(triage): recover from gate request id conflicts | [sase-1tz.3.1.11](sase-1tz.3.1.11.md) | 2026-11-20 10:56:33 EST |
 | sase | [`f9b8800`](https://github.com/sase-org/sase/commit/f9b88003413260bc1c85ecb39ea1d794a6d17db5) | fix(dev-update): treat a prebuilt Rust cache miss as a miss | [sase-1tz.3.1.5](sase-1tz.3.1.5.md) | 2026-11-20 11:00:46 EST |
-| sase-core | [`sase-core@142ed42`](https://github.com/sase-org/sase-core/commit/142ed4212dcb61b2b08a1f487d057681fae32c43) | feat(instruction\_manifest): record compile-time bundle compaction | [sase-1tz.3.1.9](sase-1tz.3.1.9.md) | 2026-11-20 11:22:05 EST |
 | sase | [`41f95c8`](https://github.com/sase-org/sase/commit/41f95c82cfdf0c24456035cf5e968184a696b374) | feat(instructions): compact oversize provider root bundles to fit max\_bytes | [sase-1tz.3.1.9](sase-1tz.3.1.9.md) | 2026-11-20 11:24:00 EST |
+| sase | [`3ae6b09`](https://github.com/sase-org/sase/commit/3ae6b09b72d8efed932981077cbb2266daa631fd) | feat(axe): defer and retry scheduler jobs that overlap a code swap | [sase-1tz.3.1.3](sase-1tz.3.1.3.md) | 2026-11-20 11:30:49 EST |
 
 <!-- sase:referenced-by:start -->
 

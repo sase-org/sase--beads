@@ -59,7 +59,7 @@ Expected: once swap_chop_guards lands, sigbus, missing_binding, and missing_scri
 
 ## Dependencies
 
-- **Blocks:** [sase-1tz.3.1.3](sase-1tz.3.1.3.md) ◐ · ⧖ 2026-11-20
+- **Blocks:** [sase-1tz.3.1.3](sase-1tz.3.1.3.md) ✓ · ⧖ 2026-11-20
 
 ## Agents
 
