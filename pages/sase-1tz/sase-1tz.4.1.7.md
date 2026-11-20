@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1tz.4.1](sase-1tz.4.1.md) / sase-1tz.4.1.7
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-1tz.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tz.4.md) · **Assignee:** `sase-1tz.4.1.7` · **Size:** medium
-**Created:** 2026-11-20 14:00:23 EST
+**Created:** 2026-11-20 14:00:23 EST · **Closed:** 2026-11-20 16:55:47 EST
 **Plan:** [202611/hygiene\_gateway\_notifications\_retention.md](https://github.com/sase-org/sase--plans/blob/main/202611/hygiene_gateway_notifications_retention.md)
 
 ## Description
@@ -17,6 +17,10 @@ waiter_expire: under blocked_waiters = offer, the root-blocker notice gets a one
 
 [2026-11-20T21:01:14Z · sase-1tz.4.1.7] No new terminal state: live parked waiters go through request_user_kill (existing killed/terminated outcome). Stale parked waiters with no pid go through kill_located_agent not_running marker cleanup, the same path as a manual kill of a waiting agent. Enter on the root-blocker notice is the one-key action; default_config.yml is unchanged.
 
+[2026-11-20T21:54:29Z · sase-1tz.4.1.7] PROPOSED FOLLOW-UP: CLI completion snapshot drift — just check test (scoped) failed tests/completion/test_snapshot.py::test_checked_in_snapshot_has_no_drift and ::test_current_structural_view_matches_checked_in_snapshot as 2 KNOWN with witness 004ecc862e32316588e888ef0cc4dd20; unrelated to waiter_expire (no owner found).
+
+[2026-11-20T21:55:47Z · sase-1tz.4.1.7] ExpireWaiters one-key action expires named waiters via kill_located_agent, skips started/settled, confirms with DANGER default-cancel, and wait_checks does not auto-expire. just check: no_new_failures (2 KNOWN completion snapshot tests, witness 004ecc862e32316588e888ef0cc4dd20). epic-symbols clean. No new terminal state.
+
 ## Dependencies
 
 - **Depends on:** [sase-1tz.4.1.6](sase-1tz.4.1.6.md) ✓ · ⧖ 2026-11-20
@@ -25,7 +29,13 @@ waiter_expire: under blocked_waiters = offer, the root-blocker notice gets a one
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1tz.4.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.7/README.md) | [sase-1tz.4.1.7](sase-1tz.4.1.7.md) | 0 |
+| [bbugyi200.athena.sase-1tz.4.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.7/README.md) | [sase-1tz.4.1.7](sase-1tz.4.1.7.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`eb54017`](https://github.com/sase-org/sase/commit/eb5401709da91f342a709c344429026db343acbe) | feat(tui): expire blocked waiters from the root-blocker notice | [sase-1tz.4.1.7](sase-1tz.4.1.7.md) | 2026-11-20 16:58:02 EST |
 
 <!-- sase:referenced-by:start -->
 

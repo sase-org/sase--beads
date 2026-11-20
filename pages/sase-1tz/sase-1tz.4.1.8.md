@@ -48,14 +48,13 @@ PY
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1tz.4.1.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.8/README.md) | [sase-1tz.4.1.8](sase-1tz.4.1.8.md) | 2 |
+| [bbugyi200.athena.sase-1tz.4.1.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.8/README.md) | [sase-1tz.4.1.8](sase-1tz.4.1.8.md) | 1 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`2b18880`](https://github.com/sase-org/sase/commit/2b18880ef1c0d12bd75e37b90542f5447a73867b) | feat(triage): keep one task-triage notification row per bead across re-presentations | [sase-1tz.4.1.8](sase-1tz.4.1.8.md) | 2026-11-20 15:25:48 EST |
-| chezmoi | [`chezmoi@058b195`](https://github.com/bbugyi200/dotfiles/commit/058b195b044f3cd441228baafdad0df4624c1555) | chore(sase): drop the quiet-task-beads notification rule | [sase-1tz.4.1.8](sase-1tz.4.1.8.md) | 2026-11-20 15:28:21 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -64,7 +63,9 @@ PY
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1tz.4.1.8][1] | Check for earlier notes on this phase | 2 |
+| read-by | [agent:sase-1tz.4.1.9][2] | Need predecessor notes for measurement pattern | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.8/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.9/README.md
 
 <!-- sase:referenced-by:end -->

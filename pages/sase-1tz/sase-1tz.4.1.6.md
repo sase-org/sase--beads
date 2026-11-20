@@ -25,7 +25,7 @@ wait_blocker: terminally blocked waiters group under one notice per root blocker
 
 ## Dependencies
 
-- **Blocks:** [sase-1tz.4.1.7](sase-1tz.4.1.7.md) ◐ · ⧖ 2026-11-20
+- **Blocks:** [sase-1tz.4.1.7](sase-1tz.4.1.7.md) ✓ · ⧖ 2026-11-20
 
 ## Agents
 
