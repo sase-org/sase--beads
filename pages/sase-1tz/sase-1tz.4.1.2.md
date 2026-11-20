@@ -11,6 +11,10 @@
 
 gateway_swr: an expired cached snapshot is served at once, marked stale, while one background rebuild runs. Index-permit waits are bounded. A cold cache keeps today's bounded wait. Record the relationship on sase-1s5 and move the pin.
 
+## Notes
+
+[2026-11-20T20:44:50Z · sase-1tz.4.1.2] Baseline (read-only, 2026-11-20): Apollo gateway output.log retained 2026-11-14T13:05:59Z through 2026-11-20T20:27:59Z (about 6d 7h, short of the requested 7d): 6,480 presentation builds, 3 over 60s, maximum 1,796,293ms (29m56s), 137 timed-out waiters across 84 builds, and 5 HTTP 504 responses. Athena gateway output.log was empty (mtime Sep 20), so its before counts are unavailable. After-install comparison command: `ssh <host> 'rg "fleet snapshot build finished|Status code: 504 Gateway Timeout" ~/.sase/service/procs/gateway/output.log'` on each host. PROPOSED FOLLOW-UP: preserve a durable seven-day gateway log or metric source on Athena and rerun its before measurement; the current gateway output.log is empty.
+
 ## Dependencies
 
 - **Depends on:** [sase-1tz.4.1.1](sase-1tz.4.1.1.md) ✓ · ⧖ 2026-11-20

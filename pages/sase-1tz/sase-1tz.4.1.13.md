@@ -13,7 +13,7 @@ clutter_reapers: deleting proc logs also removes their lock files. The name-regi
 
 ## Dependencies
 
-- **Depends on:** [sase-1tz.4.1.12](sase-1tz.4.1.12.md) ◐ · ⧖ 2026-11-20
+- **Depends on:** [sase-1tz.4.1.12](sase-1tz.4.1.12.md) ✓ · ⧖ 2026-11-20
 
 ## Agents
 
