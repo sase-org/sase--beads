@@ -13,7 +13,7 @@ Give drain_project a progress callback, so a slow or killed agent_publication ti
 
 ## Dependencies
 
-- **Depends on:** [sase-1uu.2](sase-1uu.2.md) ◐ · ⧖ 2026-11-21
+- **Depends on:** [sase-1uu.2](sase-1uu.2.md) ✓ · ⧖ 2026-11-21
 
 ## Agents
 

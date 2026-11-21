@@ -21,7 +21,7 @@ Make preview_aggregate build one event snapshot instead of two (resolves task be
 
 ## Dependencies
 
-- **Blocks:** [sase-1uu.2](sase-1uu.2.md) ◐ · ⧖ 2026-11-21
+- **Blocks:** [sase-1uu.2](sase-1uu.2.md) ✓ · ⧖ 2026-11-21
 
 ## Agents
 
@@ -34,3 +34,15 @@ Make preview_aggregate build one event snapshot instead of two (resolves task be
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`63e52a8`](https://github.com/sase-org/sase/commit/63e52a856e0cb3b4d71aeccdc46b80eea214974a) | perf(artifact-links): reuse scoped snapshot inputs | [sase-1uu.1](sase-1uu.1.md) | 2026-11-21 11:37:54 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1uu.1][1] | Confirm final phase closure and focused test evidence after the last helper change | 5 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1uu.1/README.md
+
+<!-- sase:referenced-by:end -->
