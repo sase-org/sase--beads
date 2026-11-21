@@ -28,3 +28,15 @@ failed-gate-attention: persist execution-failure facts on the gate member, proje
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`0741134`](https://github.com/sase-org/sase/commit/07411341e330e09b7a1e6843ae6dc16dc8b88ca8) | feat(gate-turn): surface accepted-but-failed gates as needing a human | [sase-1ut.2](sase-1ut.2.md) | 2026-11-21 10:33:47 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ut.2][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ut.2/README.md
+
+<!-- sase:referenced-by:end -->
