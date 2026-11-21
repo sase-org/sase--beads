@@ -76,7 +76,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1uu.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1uu.1/README.md) | [sase-1uu.1](sase-1uu.1.md) | 1 |
 | [bbugyi200.athena.sase-1uu.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1uu.2/README.md) | [sase-1uu.2](sase-1uu.2.md) | 1 |
 | [bbugyi200.athena.sase-1uu.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1uu.3/README.md) | [sase-1uu.3](sase-1uu.3.md) | 1 |
-| [bbugyi200.athena.sase-1uu.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1uu.land/README.md) | [sase-1uu](README.md) | 1 |
+| [bbugyi200.athena.sase-1uu.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1uu.land/README.md) | [sase-1uu](README.md) | 2 |
 
 ## Commits
 
@@ -86,6 +86,7 @@ flowchart TD
 | sase | [`555e30d`](https://github.com/sase-org/sase/commit/555e30d83289d6a669210704c272884596aa8c09) | feat(artifact-links): gate aggregate write retries and publish rebuilds on the caller deadline | [sase-1uu.2](sase-1uu.2.md) | 2026-11-21 12:28:05 EST |
 | sase | [`333f244`](https://github.com/sase-org/sase/commit/333f244b50e593996f65e34e9f5aa25cb006316f) | feat(agent-publication): stream per-stage progress from project drains | [sase-1uu.3](sase-1uu.3.md) | 2026-11-21 13:07:52 EST |
 | sase | [`6933ac5`](https://github.com/sase-org/sase/commit/6933ac564df2fa3ba6271c7983f5354c0771fdae) | refactor(artifact-links): share the drain phase-timing renderer between both chops | [sase-1uu](README.md) | 2026-11-21 13:45:04 EST |
+| sase--plans | [`sase--plans@30c7ee3`](https://github.com/sase-org/sase--plans/commit/30c7ee3e70fbd45552eaad952d1c38b5c3476fdf) | chore(plans): mark artifact\_link\_aggregate\_timeouts done after sase-1uu landed | [sase-1uu](README.md) | 2026-11-21 13:46:18 EST |
 
 <!-- sase:referenced-by:start -->
 
