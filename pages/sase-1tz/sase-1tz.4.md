@@ -38,3 +38,15 @@ hygiene: handle SQLite's busy -1 checkpoint result and serve snapshots stale-whi
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1tz.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tz.4.md) | [sase-1tz.4](sase-1tz.4.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1tz.4.1.5][1] | Need the parent phase record for its notification size measurements | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.5/README.md
+
+<!-- sase:referenced-by:end -->

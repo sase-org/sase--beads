@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/hygiene_gateway_notifications_retention.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 4 automatic references — see [Referenced By](#referenced-by)._
+_Plus 6 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202611/hygiene_gateway_notifications_retention.md
 
@@ -42,13 +42,17 @@ A busy SQLite WAL checkpoint reports busy instead of erroring, read paths checkp
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1tz.4.1.12][1] | Need parent epic scope and sibling phases | 1 |
-| read-by | [agent:sase-1tz.4.1.6][2] | See epic phase statuses and notes for coordination | 1 |
-| read-by | [agent:sase-1tz.4.1.7][3] | Need parent epic scope, DECISIONS, and remaining phases | 1 |
-| read-by | [agent:sase-1uj.land][4] | Need owner of reap_settled_bundles audit-site failure proposed by sase-1uj.1 | 1 |
+| read-by | [agent:sase-1tz.4.1.5][2] | Check the parent epic note for this known artifact-directory audit follow-up | 1 |
+| read-by | [agent:sase-1tz.4.1.6][3] | See epic phase statuses and notes for coordination | 1 |
+| read-by | [agent:sase-1tz.4.1.7][4] | Need parent epic scope, DECISIONS, and remaining phases | 1 |
+| read-by | [agent:sase-1uj.land][5] | Need owner of reap_settled_bundles audit-site failure proposed by sase-1uj.1 | 1 |
+| read-by | [agent:toobig-ae.agent_artifact_run_retention.0][6] | Check whether the continuation ancestry retention failure belongs on the retention sweep or false-red backlog epic | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.12/README.md
-[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.6/README.md
-[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.7/README.md
-[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1uj.land/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.5/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.6/README.md
+[4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.7/README.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1uj.land/README.md
+[6]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.toobig-ae.agent_artifact_run_retention.0/README.md
 
 <!-- sase:referenced-by:end -->

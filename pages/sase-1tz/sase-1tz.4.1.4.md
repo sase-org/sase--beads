@@ -20,7 +20,7 @@ blob_store: sase-core stores action_data values and notes over a caller-supplied
 ## Dependencies
 
 - **Depends on:** [sase-1tz.4.1.3](sase-1tz.4.1.3.md) ✓ · ⧖ 2026-11-20
-- **Blocks:** [sase-1tz.4.1.5](sase-1tz.4.1.5.md) ◐ · ⧖ 2026-11-20
+- **Blocks:** [sase-1tz.4.1.5](sase-1tz.4.1.5.md) ✓ · ⧖ 2026-11-20
 
 ## Agents
 
