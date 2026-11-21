@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1tz](README.md) / sase-1tz.4
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.1eb](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.1eb.md) · **Assignee:** `sase-1tz.4` · **Size:** xlarge
-**Created:** 2026-11-19 07:09:39 EST
+**Created:** 2026-11-19 07:09:39 EST · **Closed:** 2026-11-21 07:38:20 EST
 **Plan:** [202611/notification\_log\_audit\_fixes.md](https://github.com/sase-org/sase--plans/blob/main/202611/notification_log_audit_fixes.md)
 
 ## Description
@@ -29,6 +29,10 @@ hygiene: handle SQLite's busy -1 checkpoint result and serve snapshots stale-whi
 
 [2026-11-20T23:53:10Z · sase-1tz.4.1.5] blob_adopt baseline (sase-1tz.4.1.5): before wrapper install, athena 5,123,812 live bytes / 2,252 rows / 3,358,579 payload bytes / 76 rows over 8 KiB / 452 broken files; apollo 4,187,514 / 1,709 / 3,216,430 / 69 / 352. Repeatable after-install command is recorded on sase-1tz.4.1.5.
 
+[2026-11-21T12:37:36Z · sase-1tz.4.1.land] sase-1tz.4.1 land agent, filling the summaries three phases skipped. wal_busy (sase-1tz.4.1.1): busy -1 checkpoints report checkpoint_busy, and the gateway hook runs PASSIVE after waiters wake. Before (measured at landing): apollo gateway log 2026-11-14..21 had 0 'out of range integral' / 0 'checkpoint failed' lines; athena's gateway log is empty (no traffic). Command on sase-1tz.4.1.1. gateway_swr (sase-1tz.4.1.2): expired snapshots are served at once as 'revalidating' for 5 min with one background rebuild, and permit waits are bounded. Before: apollo 6,480 builds, 3 over 60 s, max 29m56s, 137 timed-out waiters, 5 HTTP 504s. Command on sase-1tz.4.1.2. gate_reconcile (sase-1tz.4.1.9): dismissed pending triage/snooze/flag gates cancel and stay suppressed, and settled bundles older than 30 d are reaped at 100 per pass. Before: athena 3,627+24 and apollo 1,128+7 settled bundles older than 30 d; 0 dismissed-pending. Command on sase-1tz.4.1.9.
+
+[2026-11-21T12:38:39Z · sase-1tz.4.1.land] VERIFIED (sase-1tz.4.1 land agent): child epic sase-1tz.4.1 completed all of this phase's items 11-13 (F11 gateway WAL checkpoint and snapshot waits, F12 notification hygiene, F13 log and state retention). All 13 child phases landed on sase 39b594a30c. The sase-core pin 6524f378 contains every phase's core commit, and sase-telegram bffd4f6 and chezmoi 058b195b are pushed. 286 focused tests and phase .5's combined-tree check e09f2dea pass. Every measuring phase has before-numbers and an after-install command on its own bead and a summary here (wal_busy, gateway_swr, and gate_reconcile summaries added at landing). Live acceptance waits on the human's just install plus chezmoi apply on athena and apollo. Closing sase-1tz.4.1 auto-closed this phase ('delegated work landed'), and that close is correct. Parent epic sase-1tz is left to its own land agent.
+
 ## Dependencies
 
 - **Depends on:** [sase-1tz.3](sase-1tz.3.md) ✓ · ⧖ 2026-11-19
@@ -45,7 +49,7 @@ hygiene: handle SQLite's busy -1 checkpoint result and serve snapshots stale-whi
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1tz.4.1.5][1] | Need the parent phase record for its notification size measurements | 2 |
+| read-by | [agent:sase-1tz.4.1.5][1] | Verify blob_adopt measurement summary already recorded on the parent phase | 3 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.5/README.md
 

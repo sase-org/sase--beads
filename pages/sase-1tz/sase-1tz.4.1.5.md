@@ -61,7 +61,7 @@ done
 
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
-| read-by | [agent:sase-1tz.4.1.5][1] | Confirm pre-install measurements and repeat command were recorded | 4 |
+| read-by | [agent:sase-1tz.4.1.5][1] | Confirm pre-install measurements and repeat command were recorded | 5 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.5/README.md
 

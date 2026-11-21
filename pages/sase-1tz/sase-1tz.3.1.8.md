@@ -23,7 +23,13 @@ tg_scope: move the axe.routines.telegram routine from the shared chezmoi sase.ym
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1tz.3.1.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.8/README.md) | [sase-1tz.3.1.8](sase-1tz.3.1.8.md) | 0 |
+| [bbugyi200.athena.sase-1tz.3.1.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.8/README.md) | [sase-1tz.3.1.8](sase-1tz.3.1.8.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| chezmoi | [`chezmoi@3623450`](https://github.com/bbugyi200/dotfiles/commit/3623450f650acd403f9a2e35c4ac752b5d77e316) | fix(sase): run telegram outbound routine only on athena | [sase-1tz.3.1.8](sase-1tz.3.1.8.md) | 2026-11-20 09:31:54 EST |
 
 <!-- sase:referenced-by:start -->
 

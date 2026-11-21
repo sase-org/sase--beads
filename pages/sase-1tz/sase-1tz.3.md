@@ -40,7 +40,7 @@ The focused suites passed 278/278 on HEAD f6b4344d87. Follow-up triage is in the
 ## Dependencies
 
 - **Depends on:** [sase-1tz.2](sase-1tz.2.md) ✓ · ⧖ 2026-11-19
-- **Blocks:** [sase-1tz.4](sase-1tz.4.md) ◐ · ⧖ 2026-11-19
+- **Blocks:** [sase-1tz.4](sase-1tz.4.md) ✓ · ⧖ 2026-11-19
 
 ## Agents
 
