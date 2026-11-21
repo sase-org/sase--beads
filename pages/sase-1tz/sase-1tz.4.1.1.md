@@ -40,7 +40,9 @@ wal_busy: in sase-core, a busy wal_checkpoint that returns -1 counts reports che
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1tz.4.1.1][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1tz.4.1.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.land/README.md
 
 <!-- sase:referenced-by:end -->

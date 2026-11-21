@@ -45,8 +45,10 @@ waiter_expire: under blocked_waiters = offer, the root-blocker notice gets a one
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1tz.4.1.6][1] | Check sibling phase status since it depends on mine | 1 |
 | read-by | [agent:sase-1tz.4.1.7][2] | Confirm in_progress and notes before close | 3 |
+| read-by | [agent:sase-1tz.4.1.land][3] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.6/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.7/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.land/README.md
 
 <!-- sase:referenced-by:end -->

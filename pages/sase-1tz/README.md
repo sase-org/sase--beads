@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / sase-1tz
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.1eb](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.1eb.md) · **Assignee:** `sase-1tz.land`
-**Created:** 2026-11-19 07:09:38 EST
+**Created:** 2026-11-19 07:09:38 EST · **Closed:** 2026-11-21 07:53:41 EST
 **Plan:** [202611/notification\_log\_audit\_fixes.md](https://github.com/sase-org/sase--plans/blob/main/202611/notification_log_audit_fixes.md)
 
 <!-- sase:links:start -->
@@ -28,6 +28,39 @@ Disk pressure names the owners it could not measure, and recovery runs even when
 ## Notes
 
 [2026-11-20T22:57:24Z · sase-1uj.land] DISCOVERED ISSUE: Landing triage from sase-1uj.1 PROPOSED FOLLOW-UP notes #1/#2, independently checked on clean master 7e590921e3. (1) Both tests/completion/test_snapshot.py drift nodes fail; the only structural difference is artifact/link/list description_digest 838688e99f9eedec -> 78d06bb630b5c438. Causing commit eca97ab5a7 (sase-1tz.3.1.1) changed --origin help without syncing the completion spec. Regenerate/review that snapshot during your landing. (2) test_artifact_directory_operation_sites_are_reviewed fails with extra src/sase/scripts/_bead_task_triage_gates.py:reap_settled_bundles, introduced by 1115db9e66 (sase-1tz.4.1.9); review/register the new operation site. (3) Phase ToolRun 0969175d22c2ec238390416539271827 records FLAKY tests/agents_sync/test_commit_publication_bounded_drain_budget.py::test_timeout_leaves_enough_reserve_for_cleanup at 33.38s. Its exact isolated landing rerun passes (2.33s call, 5.83s total). This cleanup-reserve regression was added by c756511c11 (sase-1tz.2.1.4), then moved unchanged by 1d821e0c95. No exact task found; related sase-xo has different bounded-render nodes, and the retained phase log lacks enough traceback to establish an identical root cause. All three belong to this active epic rather than Neon; no duplicate tasks created.
+
+[2026-11-21T12:53:41Z · sase-1tz.land] LANDED by the sase-1tz land agent on master 39b594a30c (HEAD = the epic's final commit).
+VERIFIED (step 1): all four phases closed via landed child epics, each with its own land
+verification against source (sase-1tz.1 note #5, sase-1tz.2 note #9, sase-1tz.3 note #9,
+sase-1tz.4 note #10). DECISIONS honored: codex_bundle=trim (Codex max_bytes stays 32*1024
+in src/sase/llm_provider/codex.py; compile-time compaction + instructions.bundle_size
+gate), blocked_waiters=offer (ExpireWaiters one-key action on the root-blocker notice, no
+auto-expiry), held_heartbeat=yes (change-only +1s plus hourly still-held heartbeat on
+undismissed rows in workspace_retention_surface.py). Spot-checked source on HEAD:
+PromptProse in pinned sase-core wire.rs, unmeasured/lower_bound disk states,
+evidence-fingerprint held settling, 15.0s Rust cleanup reserve (pin 6524f378 = sase-core
+origin/master; this lander's one local red, test_cleanup_budget_caps_cumulative_ops, is a
+stale workspace-venv binding returning 1.0 — the pinned core and its Rust tests assert
+15.0 and phase 4.1's check e09f2dea passed on this tree). Epic note #1 items: (1)
+completion snapshot drift resolved by 335170e1cb, tests/completion/test_snapshot.py
+passes on HEAD; (2) reap_settled_bundles audit site registered by 3ea7133de2, audit test
+passes on HEAD; (3) cleanup-reserve flake filed as node-specific flake task sase-1us
+(related-linked to sase-xo; single occurrence, no retained traceback, passes isolated and
+in every later run — kept out of epic scope because the load-sensitive SIGALRM family
+predates the epic). INTEGRATED (step 2): reviewed all 27 non-epic commits since epic
+start; they are toobig-* behavior-preserving splits (several already integrating
+epic-added files), refresh_docs commits documenting the epic's behavior, 92dc6274e5
+retention speedup (overlap checked by its author; its continuation-ancestry regression is
+tracked by sase-1uk, +1 by sase-1tz.4.1.land, not epic-caused), and unrelated fixes
+(815afd1406, 6ab880ad62, 1910892d92, 6e1fc2536f, 7e590921e3, beads-mirror retirement). No
+integration edits needed; no commits landed after the epic's final commit. FOLLOW-UP
+TRIAGE (step 3): all phase PROPOSED FOLLOW-UPs were triaged by the four child-epic
+landers (tasks sase-1u4..sase-1u8, sase-1uc..sase-1ui, sase-1ul..sase-1ur; +1s on
+sase-1q8, sase-1tn, sase-1kr, sase-1ry, sase-1s4, sase-1ug, sase-1uk; declines recorded
+in their notes). This landing added only sase-1us. sase bead epic-symbols sase-1tz is
+empty. Live after-install acceptance remains human-owned: install + chezmoi apply on
+athena/apollo, then the after-install commands on the phase beads (sase-1tz.1 notes
+#1-#4, sase-1tz.2 notes #1-#8, sase-1tz.3 notes #1-#8, sase-1tz.4 notes #1-#9).
 
 ## References
 
@@ -78,9 +111,9 @@ Disk pressure names the owners it could not measure, and recovery runs even when
 | [bbugyi200.athena.sase-1tz.3.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.3/README.md) | [sase-1tz.3.1.3](sase-1tz.3.1.3.md) | 1 |
 | [bbugyi200.athena.sase-1tz.3.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.4/README.md) | [sase-1tz.3.1.4](sase-1tz.3.1.4.md) | 1 |
 | [bbugyi200.athena.sase-1tz.3.1.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tz.3.1.5.md) | [sase-1tz.3.1.5](sase-1tz.3.1.5.md) | 1 |
-| [bbugyi200.athena.sase-1tz.3.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.6/README.md) | [sase-1tz.3.1.6](sase-1tz.3.1.6.md) | 1 |
-| [bbugyi200.athena.sase-1tz.3.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.7/README.md) | [sase-1tz.3.1.7](sase-1tz.3.1.7.md) | 1 |
-| [bbugyi200.athena.sase-1tz.3.1.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.8/README.md) | [sase-1tz.3.1.8](sase-1tz.3.1.8.md) | 1 |
+| [bbugyi200.athena.sase-1tz.3.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.6/README.md) | [sase-1tz.3.1.6](sase-1tz.3.1.6.md) | 0 |
+| [bbugyi200.athena.sase-1tz.3.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.7/README.md) | [sase-1tz.3.1.7](sase-1tz.3.1.7.md) | 0 |
+| [bbugyi200.athena.sase-1tz.3.1.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.8/README.md) | [sase-1tz.3.1.8](sase-1tz.3.1.8.md) | 0 |
 | [bbugyi200.athena.sase-1tz.3.1.9](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.9/README.md) | [sase-1tz.3.1.9](sase-1tz.3.1.9.md) | 2 |
 | [bbugyi200.athena.sase-1tz.3.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.land/README.md) | [sase-1tz.3.1](sase-1tz.3.1.md) | 1 |
 | [bbugyi200.athena.sase-1tz.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tz.4.md) | [sase-1tz.4](sase-1tz.4.md) | 0 |
@@ -92,10 +125,10 @@ Disk pressure names the owners it could not measure, and recovery runs even when
 | [bbugyi200.athena.sase-1tz.4.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.2/README.md) | [sase-1tz.4.1.2](sase-1tz.4.1.2.md) | 2 |
 | [bbugyi200.athena.sase-1tz.4.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.3/README.md) | [sase-1tz.4.1.3](sase-1tz.4.1.3.md) | 2 |
 | [bbugyi200.athena.sase-1tz.4.1.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.4/README.md) | [sase-1tz.4.1.4](sase-1tz.4.1.4.md) | 2 |
-| [bbugyi200.athena.sase-1tz.4.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.5/README.md) | [sase-1tz.4.1.5](sase-1tz.4.1.5.md) | 4 |
+| [bbugyi200.athena.sase-1tz.4.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.5/README.md) | [sase-1tz.4.1.5](sase-1tz.4.1.5.md) | 2 |
 | [bbugyi200.athena.sase-1tz.4.1.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.6/README.md) | [sase-1tz.4.1.6](sase-1tz.4.1.6.md) | 1 |
 | [bbugyi200.athena.sase-1tz.4.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.7/README.md) | [sase-1tz.4.1.7](sase-1tz.4.1.7.md) | 1 |
-| [bbugyi200.athena.sase-1tz.4.1.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.8/README.md) | [sase-1tz.4.1.8](sase-1tz.4.1.8.md) | 2 |
+| [bbugyi200.athena.sase-1tz.4.1.8](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.8/README.md) | [sase-1tz.4.1.8](sase-1tz.4.1.8.md) | 1 |
 
 … and 3 more agents
 
@@ -134,12 +167,9 @@ Disk pressure names the owners it could not measure, and recovery runs even when
 | sase-core | [`sase-core@5c8ccd6`](https://github.com/sase-org/sase-core/commit/5c8ccd6b879db3edb7444dec1dd71bc99f8c4eca) | fix(agent-publication): ignore volatile detail in standing alert decisions | [sase-1tz.2.1](sase-1tz.2.1.md) | 2026-11-20 09:04:49 EST |
 | sase | [`d18b499`](https://github.com/sase-org/sase/commit/d18b499d4d5582e2390da8e9af1f6fb31208f582) | feat(agents-sync): finish publication de-flap, error accounting, and GC pressure gate | [sase-1tz.2.1](sase-1tz.2.1.md) | 2026-11-20 09:06:32 EST |
 | sase--plans | [`sase--plans@43f86af`](https://github.com/sase-org/sase--plans/commit/43f86aff6cd7415391db661d71b45ff79cc1144e) | chore(plans): mark noise\_publication\_digests\_tui\_stalls done | [sase-1tz.2.1](sase-1tz.2.1.md) | 2026-11-20 09:08:14 EST |
-| chezmoi | [`chezmoi@3623450`](https://github.com/bbugyi200/dotfiles/commit/3623450f650acd403f9a2e35c4ac752b5d77e316) | fix(sase): run telegram outbound routine only on athena | [sase-1tz.3.1.8](sase-1tz.3.1.8.md) | 2026-11-20 09:31:54 EST |
-| sase-telegram | [`sase-telegram@60a94ab`](https://github.com/sase-org/sase-telegram/commit/60a94aba569c44752ed6b2d6e58ceb3e4d4ce590) | fix(telegram): fall back to plain text only on entity-parse errors and retry per chunk | [sase-1tz.3.1.6](sase-1tz.3.1.6.md) | 2026-11-20 09:56:55 EST |
 | sase | [`9bbdeec`](https://github.com/sase-org/sase/commit/9bbdeec5f45d1a8a407d03839a912c413e71de18) | test(dev\_update): add update-overlap reproducer for jobs, launches, and native code | [sase-1tz.3.1.2](sase-1tz.3.1.2.md) | 2026-11-20 10:50:59 EST |
 | sase | [`b6f6c63`](https://github.com/sase-org/sase/commit/b6f6c63e3e4bdbbdd188b68d341b46f2dbbe3fcb) | fix(triage): recover from gate request id conflicts | [sase-1tz.3.1.11](sase-1tz.3.1.11.md) | 2026-11-20 10:56:33 EST |
 | sase | [`f9b8800`](https://github.com/sase-org/sase/commit/f9b88003413260bc1c85ecb39ea1d794a6d17db5) | fix(dev-update): treat a prebuilt Rust cache miss as a miss | [sase-1tz.3.1.5](sase-1tz.3.1.5.md) | 2026-11-20 11:00:46 EST |
-| sase-telegram | [`sase-telegram@ceffb63`](https://github.com/sase-org/sase-telegram/commit/ceffb630b71147ced05c77cce3a271563f58d23d) | feat(telegram): collapse credential and network outages into degraded states | [sase-1tz.3.1.7](sase-1tz.3.1.7.md) | 2026-11-20 11:05:34 EST |
 | sase-core | [`sase-core@142ed42`](https://github.com/sase-org/sase-core/commit/142ed4212dcb61b2b08a1f487d057681fae32c43) | feat(instruction\_manifest): record compile-time bundle compaction | [sase-1tz.3.1.9](sase-1tz.3.1.9.md) | 2026-11-20 11:22:05 EST |
 | sase | [`41f95c8`](https://github.com/sase-org/sase/commit/41f95c82cfdf0c24456035cf5e968184a696b374) | feat(instructions): compact oversize provider root bundles to fit max\_bytes | [sase-1tz.3.1.9](sase-1tz.3.1.9.md) | 2026-11-20 11:24:00 EST |
 | sase | [`3ae6b09`](https://github.com/sase-org/sase/commit/3ae6b09b72d8efed932981077cbb2266daa631fd) | feat(axe): defer and retry scheduler jobs that overlap a code swap | [sase-1tz.3.1.3](sase-1tz.3.1.3.md) | 2026-11-20 11:30:49 EST |
@@ -150,11 +180,14 @@ Disk pressure names the owners it could not measure, and recovery runs even when
 | sase--plans | [`sase--plans@0210bca`](https://github.com/sase-org/sase--plans/commit/0210bca3373e82a82087becae6a6af4d3cb1a1bf) | chore(plans): mark defects\_wire\_swap\_telegram\_bundles\_triage done after landing sase-1tz.3.1 | [sase-1tz.3.1](sase-1tz.3.1.md) | 2026-11-20 13:39:46 EST |
 | sase-core | [`sase-core@553387d`](https://github.com/sase-org/sase-core/commit/553387d39df464c4989e0deba2725f71cf32c60e) | fix(agent-index): treat busy -1 WAL checkpoint as busy and checkpoint passively in the gateway | [sase-1tz.4.1.1](sase-1tz.4.1.1.md) | 2026-11-20 14:24:35 EST |
 | sase | [`2b18880`](https://github.com/sase-org/sase/commit/2b18880ef1c0d12bd75e37b90542f5447a73867b) | feat(triage): keep one task-triage notification row per bead across re-presentations | [sase-1tz.4.1.8](sase-1tz.4.1.8.md) | 2026-11-20 15:25:48 EST |
-| chezmoi | [`chezmoi@058b195`](https://github.com/bbugyi200/dotfiles/commit/058b195b044f3cd441228baafdad0df4624c1555) | chore(sase): drop the quiet-task-beads notification rule | [sase-1tz.4.1.8](sase-1tz.4.1.8.md) | 2026-11-20 15:28:21 EST |
 | sase-core | [`sase-core@2c33360`](https://github.com/sase-org/sase-core/commit/2c33360ad602932ccd63e6941b4751b979efe133) | feat(notifications): resurface reconciled rows when a named revision key changes | [sase-1tz.4.1.3](sase-1tz.4.1.3.md) | 2026-11-20 15:28:38 EST |
 | sase | [`0386c59`](https://github.com/sase-org/sase/commit/0386c59150a9c3fa7e33a75a991e136d07672688) | feat(notifications): key remote-attention rows by stable request identity | [sase-1tz.4.1.3](sase-1tz.4.1.3.md) | 2026-11-20 15:31:49 EST |
+| sase | [`bca49ea`](https://github.com/sase-org/sase/commit/bca49eadd11e70043e0fab05e140ee52a69fe35d) | feat(wait\_checks): raise one notice per failed root blocker and freeze its +1s | [sase-1tz.4.1.6](sase-1tz.4.1.6.md) | 2026-11-20 15:40:31 EST |
+| sase | [`18e4f35`](https://github.com/sase-org/sase/commit/18e4f35a54d84c71e79d41d2bd74cabc8771429c) | feat(retention): schedule tool-run log horizon and age-rotate tui.log | [sase-1tz.4.1.12](sase-1tz.4.1.12.md) | 2026-11-20 15:50:07 EST |
+| sase | [`f960f75`](https://github.com/sase-org/sase/commit/f960f758ca9bc3b88f0a722d5c9c8df14ed1b40f) | feat(agents-sync): memoize unchanged refresh verdicts | [sase-1tz.4.1.11](sase-1tz.4.1.11.md) | 2026-11-20 16:19:07 EST |
+| sase | [`1115db9`](https://github.com/sase-org/sase/commit/1115db9e66d4ebc82114d74a7fc524eab0900b42) | feat(bead-triage): reconcile notification gates with sticky dismissal and settled-bundle reaping | [sase-1tz.4.1.9](sase-1tz.4.1.9.md) | 2026-11-20 16:40:14 EST |
 
-… and 15 more commits
+… and 10 more commits
 
 <!-- sase:referenced-by:start -->
 

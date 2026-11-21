@@ -50,7 +50,9 @@ hygiene: handle SQLite's busy -1 checkpoint result and serve snapshots stale-whi
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1tz.4.1.5][1] | Verify blob_adopt measurement summary already recorded on the parent phase | 3 |
+| read-by | [agent:sase-1tz.4.1.land][2] | Land sase-1tz.4.1: confirm parent phase status after the auto-close | 3 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.5/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.land/README.md
 
 <!-- sase:referenced-by:end -->

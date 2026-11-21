@@ -36,3 +36,15 @@ notify_quieting: file-hooks successes become one silent row per hook, and worksp
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`335170e`](https://github.com/sase-org/sase/commit/335170e1cb0b5b2d597fd43994f30eff784ac126) | feat(notifications): quiet file-hook successes, dedup rescues, floor prune nudges | [sase-1tz.4.1.10](sase-1tz.4.1.10.md) | 2026-11-20 18:51:15 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1tz.4.1.land][1] | Need the child scope and notes | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.land/README.md
+
+<!-- sase:referenced-by:end -->

@@ -43,7 +43,9 @@ gateway_swr: an expired cached snapshot is served at once, marked stale, while o
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1tz.4.1.2][1] | Verify the gateway phase note and assigned status before final close | 4 |
+| read-by | [agent:sase-1tz.4.1.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.2/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.land/README.md
 
 <!-- sase:referenced-by:end -->

@@ -29,13 +29,7 @@ tg_degraded: outbound and receiver track a persisted credential_unavailable or n
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1tz.3.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.7/README.md) | [sase-1tz.3.1.7](sase-1tz.3.1.7.md) | 1 |
-
-## Commits
-
-| Repo | Commit | Subject | Bead | Committed |
-|---|---|---|---|---|
-| sase-telegram | [`sase-telegram@ceffb63`](https://github.com/sase-org/sase-telegram/commit/ceffb630b71147ced05c77cce3a271563f58d23d) | feat(telegram): collapse credential and network outages into degraded states | [sase-1tz.3.1.7](sase-1tz.3.1.7.md) | 2026-11-20 11:05:34 EST |
+| [bbugyi200.athena.sase-1tz.3.1.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.7/README.md) | [sase-1tz.3.1.7](sase-1tz.3.1.7.md) | 0 |
 
 <!-- sase:referenced-by:start -->
 

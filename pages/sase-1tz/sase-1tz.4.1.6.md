@@ -47,8 +47,10 @@ wait_blocker: terminally blocked waiters group under one notice per root blocker
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1tz.4.1.6][1] | Need the phase scope and design file | 1 |
 | read-by | [agent:sase-1tz.4.1.7][2] | Need the root-blocker notice action_data contract from the prior phase | 1 |
+| read-by | [agent:sase-1tz.4.1.land][3] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.6/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.7/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.land/README.md
 
 <!-- sase:referenced-by:end -->
