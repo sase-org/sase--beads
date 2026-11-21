@@ -42,7 +42,9 @@ Make preview_aggregate build one event snapshot instead of two (resolves task be
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1uu.1][1] | Confirm final phase closure and focused test evidence after the last helper change | 5 |
+| read-by | [agent:sase-1uu.2][2] | check whether the earlier phase noted the docs budget failure | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1uu.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1uu.2/README.md
 
 <!-- sase:referenced-by:end -->

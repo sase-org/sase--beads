@@ -26,7 +26,7 @@ Make _write_merged_aggregate stop retrying after a lost CAS race when the next p
 ## Dependencies
 
 - **Depends on:** [sase-1uu.1](sase-1uu.1.md) ✓ · ⧖ 2026-11-21
-- **Blocks:** [sase-1uu.3](sase-1uu.3.md) ◐ · ⧖ 2026-11-21
+- **Blocks:** [sase-1uu.3](sase-1uu.3.md) ✓ · ⧖ 2026-11-21
 
 ## Agents
 
@@ -39,3 +39,15 @@ Make _write_merged_aggregate stop retrying after a lost CAS race when the next p
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`555e30d`](https://github.com/sase-org/sase/commit/555e30d83289d6a669210704c272884596aa8c09) | feat(artifact-links): gate aggregate write retries and publish rebuilds on the caller deadline | [sase-1uu.2](sase-1uu.2.md) | 2026-11-21 12:28:05 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1uu.2][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1uu.2/README.md
+
+<!-- sase:referenced-by:end -->
