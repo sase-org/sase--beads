@@ -59,7 +59,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-1ut.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ut.1/README.md) | [sase-1ut.1](sase-1ut.1.md) | 1 |
 | [bbugyi200.athena.sase-1ut.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ut.2/README.md) | [sase-1ut.2](sase-1ut.2.md) | 1 |
-| [bbugyi200.athena.sase-1ut.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ut.land.md) | [sase-1ut](README.md) | 1 |
+| [bbugyi200.athena.sase-1ut.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ut.land.md) | [sase-1ut](README.md) | 2 |
 
 ## Commits
 
@@ -68,6 +68,7 @@ flowchart TD
 | sase | [`e6251b5`](https://github.com/sase-org/sase/commit/e6251b55d2e09f3c7c7408a885193c59f4b97fc3) | feat(finalizers): surface carry defaults for inheriting handoffs | [sase-1ut.1](sase-1ut.1.md) | 2026-11-21 10:15:01 EST |
 | sase | [`0741134`](https://github.com/sase-org/sase/commit/07411341e330e09b7a1e6843ae6dc16dc8b88ca8) | feat(gate-turn): surface accepted-but-failed gates as needing a human | [sase-1ut.2](sase-1ut.2.md) | 2026-11-21 10:33:47 EST |
 | sase-core | [`sase-core@f0034a7`](https://github.com/sase-org/sase-core/commit/f0034a781942efe0780caffed520f7e30e037de8) | feat(agent-scan,notifications): project gate failure and dismissal timestamps with shared resurface policy | [sase-1ut](README.md) | 2026-11-21 11:48:22 EST |
+| sase | [`da2165b`](https://github.com/sase-org/sase/commit/da2165b80fc181ee5f6c8e136436f12fe01ebe6a) | feat(gate-turn): share failure projection, harden dismissal timing and once-per-acceptance recovery | [sase-1ut](README.md) | 2026-11-21 11:49:31 EST |
 
 <!-- sase:referenced-by:start -->
 
