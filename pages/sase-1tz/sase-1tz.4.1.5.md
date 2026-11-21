@@ -26,6 +26,8 @@ for host in athena apollo; do
 done
 \```
 
+[2026-11-21T00:41:31Z · sase-1tz.4.1.5] PROPOSED FOLLOW-UP: Root check b39b8fadcdba2c8bee27d0716949cd12 confirmed the known artifact-directory audit mismatch at src/sase/scripts/_bead_task_triage_gates.py:reap_settled_bundles; this file and the audit test are unchanged from HEAD. It was already reproduced on clean master and recorded on parent epic sase-1tz.4.1 note #1, attributed to phase sase-1tz.4.1.9. Do not create a duplicate task; follow the existing epic record.
+
 ## Dependencies
 
 - **Depends on:** [sase-1tz.4.1.4](sase-1tz.4.1.4.md) ✓ · ⧖ 2026-11-20
@@ -34,4 +36,10 @@ done
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1tz.4.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.5/README.md) | [sase-1tz.4.1.5](sase-1tz.4.1.5.md) | 0 |
+| [bbugyi200.athena.sase-1tz.4.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.5/README.md) | [sase-1tz.4.1.5](sase-1tz.4.1.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`88d3629`](https://github.com/sase-org/sase/commit/88d36297ccb8c756fcb72346c5caf18231f373fc) | feat(notifications): externalize payloads over 8 KiB | [sase-1tz.4.1.5](sase-1tz.4.1.5.md) | 2026-11-20 19:43:56 EST |
