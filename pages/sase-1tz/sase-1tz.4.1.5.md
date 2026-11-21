@@ -36,10 +36,11 @@ done
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1tz.4.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.5/README.md) | [sase-1tz.4.1.5](sase-1tz.4.1.5.md) | 1 |
+| [bbugyi200.athena.sase-1tz.4.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.5/README.md) | [sase-1tz.4.1.5](sase-1tz.4.1.5.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`88d3629`](https://github.com/sase-org/sase/commit/88d36297ccb8c756fcb72346c5caf18231f373fc) | feat(notifications): externalize payloads over 8 KiB | [sase-1tz.4.1.5](sase-1tz.4.1.5.md) | 2026-11-20 19:43:56 EST |
+| sase-telegram | [`sase-telegram@bffd4f6`](https://github.com/sase-org/sase-telegram/commit/bffd4f6cf02992125d0229c9c8cf7ee44bb15e07) | fix(telegram): resolve notification sidecar payloads | [sase-1tz.4.1.5](sase-1tz.4.1.5.md) | 2026-11-20 19:45:33 EST |
