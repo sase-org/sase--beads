@@ -44,7 +44,7 @@ done
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1tz.4.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.5/README.md) | [sase-1tz.4.1.5](sase-1tz.4.1.5.md) | 3 |
+| [bbugyi200.athena.sase-1tz.4.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.5/README.md) | [sase-1tz.4.1.5](sase-1tz.4.1.5.md) | 4 |
 
 ## Commits
 
@@ -53,6 +53,7 @@ done
 | sase | [`88d3629`](https://github.com/sase-org/sase/commit/88d36297ccb8c756fcb72346c5caf18231f373fc) | feat(notifications): externalize payloads over 8 KiB | [sase-1tz.4.1.5](sase-1tz.4.1.5.md) | 2026-11-20 19:43:56 EST |
 | sase-telegram | [`sase-telegram@bffd4f6`](https://github.com/sase-org/sase-telegram/commit/bffd4f6cf02992125d0229c9c8cf7ee44bb15e07) | fix(telegram): resolve notification sidecar payloads | [sase-1tz.4.1.5](sase-1tz.4.1.5.md) | 2026-11-20 19:45:33 EST |
 | sase | [`39b594a`](https://github.com/sase-org/sase/commit/39b594a30cb42239958f2725347bc92da9c3b6d4) | fix(notifications): resolve remaining sidecar payload readers | [sase-1tz.4.1.5](sase-1tz.4.1.5.md) | 2026-11-21 07:24:05 EST |
+| sase-telegram | [`sase-telegram@4f2939f`](https://github.com/sase-org/sase-telegram/commit/4f2939fc20ab5bccfc2a0cc361672b7b49fccebd) | fix(telegram): resolve sidecar commit messages in attachments | [sase-1tz.4.1.5](sase-1tz.4.1.5.md) | 2026-11-21 07:25:45 EST |
 
 <!-- sase:referenced-by:start -->
 
