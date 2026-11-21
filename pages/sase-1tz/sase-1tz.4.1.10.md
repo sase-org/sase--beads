@@ -21,4 +21,10 @@ notify_quieting: file-hooks successes become one silent row per hook, and worksp
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1tz.4.1.10](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tz.4.1.10.md) | [sase-1tz.4.1.10](sase-1tz.4.1.10.md) | 0 |
+| [bbugyi200.athena.sase-1tz.4.1.10](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tz.4.1.10.md) | [sase-1tz.4.1.10](sase-1tz.4.1.10.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`335170e`](https://github.com/sase-org/sase/commit/335170e1cb0b5b2d597fd43994f30eff784ac126) | feat(notifications): quiet file-hook successes, dedup rescues, floor prune nudges | [sase-1tz.4.1.10](sase-1tz.4.1.10.md) | 2026-11-20 18:51:15 EST |

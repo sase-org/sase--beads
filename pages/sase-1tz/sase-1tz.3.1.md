@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/defects_wire_swap_telegram_bundles_triage.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 9 automatic references — see [Referenced By](#referenced-by)._
+_Plus 10 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202611/defects_wire_swap_telegram_bundles_triage.md
 
@@ -101,6 +101,7 @@ Install, run chezmoi apply on each host, and run sase agent sync -p sase -q. The
 | read-by | [agent:sase-1tz.3.1.7][7] | Need epic decisions and notes | 2 |
 | read-by | [agent:sase-1tz.3.1.9][8] | Need epic DECISIONS | 1 |
 | read-by | [agent:sase-1tz.3.1.land][9] | Need the epic scope, children, and linked plan file | 1 |
+| read-by | [agent:sase-1uj.land][10] | Check whether prompt_prose parent is still open | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.1/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.10/README.md
@@ -111,5 +112,6 @@ Install, run chezmoi apply on each host, and run sase agent sync -p sase -q. The
 [7]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.7/README.md
 [8]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.9/README.md
 [9]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.land/README.md
+[10]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1uj.land/README.md
 
 <!-- sase:referenced-by:end -->

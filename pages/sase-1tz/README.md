@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/notification_log_audit_fixes.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 4 automatic references — see [Referenced By](#referenced-by)._
+_Plus 5 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202611/notification_log_audit_fixes.md
 
@@ -28,6 +28,10 @@ Disk pressure names the owners it could not measure, and recovery runs even when
 ## Notes
 
 [2026-11-20T22:57:24Z · sase-1uj.land] DISCOVERED ISSUE: Landing triage from sase-1uj.1 PROPOSED FOLLOW-UP notes #1/#2, independently checked on clean master 7e590921e3. (1) Both tests/completion/test_snapshot.py drift nodes fail; the only structural difference is artifact/link/list description_digest 838688e99f9eedec -> 78d06bb630b5c438. Causing commit eca97ab5a7 (sase-1tz.3.1.1) changed --origin help without syncing the completion spec. Regenerate/review that snapshot during your landing. (2) test_artifact_directory_operation_sites_are_reviewed fails with extra src/sase/scripts/_bead_task_triage_gates.py:reap_settled_bundles, introduced by 1115db9e66 (sase-1tz.4.1.9); review/register the new operation site. (3) Phase ToolRun 0969175d22c2ec238390416539271827 records FLAKY tests/agents_sync/test_commit_publication_bounded_drain_budget.py::test_timeout_leaves_enough_reserve_for_cleanup at 33.38s. Its exact isolated landing rerun passes (2.33s call, 5.83s total). This cleanup-reserve regression was added by c756511c11 (sase-1tz.2.1.4), then moved unchanged by 1d821e0c95. No exact task found; related sase-xo has different bounded-render nodes, and the retained phase log lacks enough traceback to establish an identical root cause. All three belong to this active epic rather than Neon; no duplicate tasks created.
+
+## References
+
+- file:explicit:da2691fcb96155711373b1f0
 
 ## Phases
 
@@ -81,7 +85,7 @@ Disk pressure names the owners it could not measure, and recovery runs even when
 | [bbugyi200.athena.sase-1tz.3.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.land/README.md) | [sase-1tz.3.1](sase-1tz.3.1.md) | 1 |
 | [bbugyi200.athena.sase-1tz.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tz.4.md) | [sase-1tz.4](sase-1tz.4.md) | 0 |
 | [bbugyi200.athena.sase-1tz.4.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.1/README.md) | [sase-1tz.4.1.1](sase-1tz.4.1.1.md) | 1 |
-| [bbugyi200.athena.sase-1tz.4.1.10](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tz.4.1.10.md) | [sase-1tz.4.1.10](sase-1tz.4.1.10.md) | 0 |
+| [bbugyi200.athena.sase-1tz.4.1.10](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tz.4.1.10.md) | [sase-1tz.4.1.10](sase-1tz.4.1.10.md) | 1 |
 | [bbugyi200.athena.sase-1tz.4.1.11](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.11/README.md) | [sase-1tz.4.1.11](sase-1tz.4.1.11.md) | 1 |
 | [bbugyi200.athena.sase-1tz.4.1.12](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.12/README.md) | [sase-1tz.4.1.12](sase-1tz.4.1.12.md) | 1 |
 | [bbugyi200.athena.sase-1tz.4.1.13](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tz.4.1.13.md) | [sase-1tz.4.1.13](sase-1tz.4.1.13.md) | 0 |
@@ -150,7 +154,7 @@ Disk pressure names the owners it could not measure, and recovery runs even when
 | sase | [`f960f75`](https://github.com/sase-org/sase/commit/f960f758ca9bc3b88f0a722d5c9c8df14ed1b40f) | feat(agents-sync): memoize unchanged refresh verdicts | [sase-1tz.4.1.11](sase-1tz.4.1.11.md) | 2026-11-20 16:19:07 EST |
 | sase | [`1115db9`](https://github.com/sase-org/sase/commit/1115db9e66d4ebc82114d74a7fc524eab0900b42) | feat(bead-triage): reconcile notification gates with sticky dismissal and settled-bundle reaping | [sase-1tz.4.1.9](sase-1tz.4.1.9.md) | 2026-11-20 16:40:14 EST |
 
-… and 5 more commits
+… and 6 more commits
 
 <!-- sase:referenced-by:start -->
 
@@ -162,10 +166,12 @@ Disk pressure names the owners it could not measure, and recovery runs even when
 | read-by | [agent:sase-1tz.1.1.4][2] | Need top-level parent epic DECISIONS which are final | 1 |
 | read-by | [agent:sase-1tz.2.1.5--2][3] | Check the active parent epic context for the publication-performance lint finding | 1 |
 | read-by | [agent:sase-1tz.3.1.land][4] | Confirm the containing epic stays open for its land agent | 1 |
+| read-by | [agent:sase-1uj.land][5] | Need active epic ownership for completion snapshot help drift | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.1.1.1/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.1.1.4/README.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tz.2.1.5.md
 [4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.land/README.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1uj.land/README.md
 
 <!-- sase:referenced-by:end -->

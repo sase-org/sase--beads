@@ -51,8 +51,10 @@ AFTER INSTALL: quarantined items do not retry on their own. A human runs `sase a
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1tz.3.1.1][1] | Need the phase scope and design file | 1 |
 | read-by | [agent:sase-1tz.3.1.land][2] | Need the child scope and notes | 1 |
+| read-by | [agent:sase-1uj.land][3] | Trace completion snapshot proposal to the prompt_prose CLI help change | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.1/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.3.1.land/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1uj.land/README.md
 
 <!-- sase:referenced-by:end -->

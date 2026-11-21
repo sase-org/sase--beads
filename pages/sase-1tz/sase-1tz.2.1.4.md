@@ -55,10 +55,12 @@ One-time live sweep of the Nov 3 pair is proposed via `/sase_gate`, not applied 
 | read-by | [agent:sase-1tz.2.1.4][2] | Need remaining notes, design path, and children after truncated first read | 4 |
 | read-by | [agent:sase-1tz.2.1.5--2][3] | Need cleanup phase intent to determine whether the publication cleanup test failure is a regression | 1 |
 | read-by | [agent:sase-1tz.2.1.9][4] | Verify existing phase/task tracking for the clean-base guard and publication cleanup failures | 1 |
+| read-by | [agent:sase-1uj.land][5] | Confirm the reserve-cleanup test originated in this phase before routing the flake | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tc.5.1.land/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tz.2.1.4.md
 [3]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1tz.2.1.5.md
 [4]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.2.1.9/README.md
+[5]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1uj.land/README.md
 
 <!-- sase:referenced-by:end -->

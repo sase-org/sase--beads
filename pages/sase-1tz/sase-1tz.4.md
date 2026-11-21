@@ -27,6 +27,8 @@ hygiene: handle SQLite's busy -1 checkpoint result and serve snapshots stale-whi
 
 [2026-11-20T21:55:56Z · sase-1tz.4.1.13] sase-1tz.4.1.13 clutter_reapers done: proc log deletes now remove lock files; registry writer sweeps stale tmps under lock; hourly state_retention reaps both backlogs; index backups are report-only with a staged one-time delete gate for the athena 222 MiB backup.
 
+[2026-11-20T23:53:10Z · sase-1tz.4.1.5] blob_adopt baseline (sase-1tz.4.1.5): before wrapper install, athena 5,123,812 live bytes / 2,252 rows / 3,358,579 payload bytes / 76 rows over 8 KiB / 452 broken files; apollo 4,187,514 / 1,709 / 3,216,430 / 69 / 352. Repeatable after-install command is recorded on sase-1tz.4.1.5.
+
 ## Dependencies
 
 - **Depends on:** [sase-1tz.3](sase-1tz.3.md) ✓ · ⧖ 2026-11-19

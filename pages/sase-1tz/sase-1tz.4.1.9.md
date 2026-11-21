@@ -77,7 +77,9 @@ PY
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1tz.4.1.9][1] | Need notes and full detail to implement | 4 |
+| read-by | [agent:sase-1uj.land][2] | Confirm audit-site ownership before routing catalog phase follow-up | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1tz.4.1.9/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1uj.land/README.md
 
 <!-- sase:referenced-by:end -->
