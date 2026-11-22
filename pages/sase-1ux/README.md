@@ -30,8 +30,8 @@ When an agent session or clan stops on a failure, every Agents-tab surface says 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-1ux.1](sase-1ux.1.md) | Project held staged monitors as a first-class state in sase-core | ✓ closed | medium | 2026-11-22 | 1 | 1 |
-| [sase-1ux.2](sase-1ux.2.md) | Consume the held state in sase and keep the held flag truthful | ◐ in_progress | medium | 2026-11-22 | 1 | 1 |
-| [sase-1ux.3](sase-1ux.3.md) | One failure-aware session rollup that every surface consumes | ◐ in_progress | medium | 2026-11-22 | 1 | 0 |
+| [sase-1ux.2](sase-1ux.2.md) | Consume the held state in sase and keep the held flag truthful | ✓ closed | medium | 2026-11-22 | 1 | 1 |
+| [sase-1ux.3](sase-1ux.3.md) | One failure-aware session rollup that every surface consumes | ✓ closed | medium | 2026-11-22 | 1 | 1 |
 | [sase-1ux.4](sase-1ux.4.md) | Failure signals on Agents-tab rows, waves, and jump strips | ◐ in_progress | medium | 2026-11-22 | 1 | 0 |
 | [sase-1ux.5](sase-1ux.5.md) | NEEDS ATTENTION callout in session and clan detail panels, plus docs | ◐ in_progress | medium | 2026-11-22 | 1 | 0 |
 
@@ -41,8 +41,8 @@ When an agent session or clan stops on a failure, every Agents-tab surface says 
 flowchart TD
     n0["sase-1ux: Make failed agent sessions and clans unmistakable [in_progress]"]
     n1["sase-1ux.1: Project held staged monitors as a first-class state in sase-core [closed]"]
-    n2["sase-1ux.2: Consume the held state in sase and keep the held flag truthful [in_progress]"]
-    n3["sase-1ux.3: One failure-aware session rollup that every surface consumes [in_progress]"]
+    n2["sase-1ux.2: Consume the held state in sase and keep the held flag truthful [closed]"]
+    n3["sase-1ux.3: One failure-aware session rollup that every surface consumes [closed]"]
     n4["sase-1ux.4: Failure signals on Agents-tab rows, waves, and jump strips [in_progress]"]
     n5["sase-1ux.5: NEEDS ATTENTION callout in session and clan detail panels, plus docs [in_progress]"]
     n0 --> n1
@@ -62,7 +62,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-1ux.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ux.1/README.md) | [sase-1ux.1](sase-1ux.1.md) | 1 |
 | [bbugyi200.athena.sase-1ux.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ux.2.md) | [sase-1ux.2](sase-1ux.2.md) | 1 |
-| [bbugyi200.athena.sase-1ux.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ux.3/README.md) | [sase-1ux.3](sase-1ux.3.md) | 0 |
+| [bbugyi200.athena.sase-1ux.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ux.3/README.md) | [sase-1ux.3](sase-1ux.3.md) | 1 |
 | [bbugyi200.athena.sase-1ux.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ux.4/README.md) | [sase-1ux.4](sase-1ux.4.md) | 0 |
 | [bbugyi200.athena.sase-1ux.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ux.5/README.md) | [sase-1ux.5](sase-1ux.5.md) | 0 |
 | [bbugyi200.athena.sase-1ux.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ux.land/README.md) | [sase-1ux](README.md) | 0 |
@@ -73,6 +73,7 @@ flowchart TD
 |---|---|---|---|---|
 | sase-core | [`sase-core@1fb9701`](https://github.com/sase-org/sase-core/commit/1fb9701f40b6609ec810326c0e78ee07722de26d) | feat(staged-handoff): project held staged monitors as first-class state | [sase-1ux.1](sase-1ux.1.md) | 2026-11-22 09:21:03 EST |
 | sase | [`1c4c89f`](https://github.com/sase-org/sase/commit/1c4c89f6b41b981ad615a797cb0f49d393c82ab9) | feat(monitor): consume held staged-monitor state in sase | [sase-1ux.2](sase-1ux.2.md) | 2026-11-22 11:20:19 EST |
+| sase | [`3dc72dd`](https://github.com/sase-org/sase/commit/3dc72ddd4c3fe4e6b1f16746151dbaf639083ecb) | feat(tui): unify failure-aware session rollups | [sase-1ux.3](sase-1ux.3.md) | 2026-11-22 12:51:38 EST |
 
 <!-- sase:referenced-by:start -->
 

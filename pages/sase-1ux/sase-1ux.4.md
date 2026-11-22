@@ -13,7 +13,7 @@ row-signals: render the failure clearly in the list. Add a clan-row cause chip n
 
 ## Dependencies
 
-- **Depends on:** [sase-1ux.3](sase-1ux.3.md) ◐ · ⧖ 2026-11-22
+- **Depends on:** [sase-1ux.3](sase-1ux.3.md) ✓ · ⧖ 2026-11-22
 - **Blocks:** [sase-1ux.5](sase-1ux.5.md) ◐ · ⧖ 2026-11-22
 
 ## Agents

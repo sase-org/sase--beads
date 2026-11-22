@@ -17,7 +17,7 @@ core-held: in sase-core, project a staged monitor member whose `monitor_stage_he
 
 ## Dependencies
 
-- **Blocks:** [sase-1ux.2](sase-1ux.2.md) ◐ · ⧖ 2026-11-22
+- **Blocks:** [sase-1ux.2](sase-1ux.2.md) ✓ · ⧖ 2026-11-22
 
 ## Agents
 
