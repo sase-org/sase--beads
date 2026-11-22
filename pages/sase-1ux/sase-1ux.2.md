@@ -49,7 +49,9 @@ Prior close: 2026-11-22T16:20:50Z · done.
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1ux.5][1] | Check earlier phases landed | 1 |
+| read-by | [agent:sase-1ux.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ux.5/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ux.land.md
 
 <!-- sase:referenced-by:end -->

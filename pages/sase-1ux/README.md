@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/failed_clan_visibility.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202611/failed_clan_visibility.md
 
@@ -69,7 +69,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1ux.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ux.3/README.md) | [sase-1ux.3](sase-1ux.3.md) | 1 |
 | [bbugyi200.athena.sase-1ux.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ux.4/README.md) | [sase-1ux.4](sase-1ux.4.md) | 1 |
 | [bbugyi200.athena.sase-1ux.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ux.5/README.md) | [sase-1ux.5](sase-1ux.5.md) | 1 |
-| [bbugyi200.athena.sase-1ux.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ux.land/README.md) | [sase-1ux](README.md) | 1 |
+| [bbugyi200.athena.sase-1ux.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ux.land.md) | [sase-1ux](README.md) | 2 |
 
 ## Commits
 
@@ -81,6 +81,7 @@ flowchart TD
 | sase | [`623c826`](https://github.com/sase-org/sase/commit/623c826812eef397bd0912d1d1002682a7570d22) | feat(tui): show failure cause chips, times, and glyphs on Agents rows | [sase-1ux.4](sase-1ux.4.md) | 2026-11-22 14:14:48 EST |
 | sase | [`1d4f456`](https://github.com/sase-org/sase/commit/1d4f456f41a3a4b20c237bbdcb322d8b8a01f03f) | feat(tui): add NEEDS ATTENTION callout to session and clan detail panels | [sase-1ux.5](sase-1ux.5.md) | 2026-11-22 15:23:57 EST |
 | sase | [`4a058c8`](https://github.com/sase-org/sase/commit/4a058c8e98d2ae2fc8668581123d55877554a831) | docs(gates): reword retired shell spellings past the terminology guard | [sase-1ux](README.md) | 2026-11-22 15:53:09 EST |
+| sase | [`fc397c4`](https://github.com/sase-org/sase/commit/fc397c469c9806db05fc396a5ab640bd8d69e16a) | feat(tui): recompute failed-clan cause-chip drop on resize | [sase-1ux](README.md) | 2026-11-22 16:16:16 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -90,8 +91,10 @@ flowchart TD
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1ux.1][1] | Need epic scope and plan context | 1 |
 | read-by | [agent:sase-1ux.5][2] | Need epic scope and plan | 1 |
+| read-by | [agent:sase-1ux.land][3] | Need the parent link | 2 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ux.1/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ux.5/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ux.land.md
 
 <!-- sase:referenced-by:end -->
