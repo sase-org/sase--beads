@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / sase-1ux
 
-**Status:** ◐ in_progress · **Type:** ▸ plan · **Tier:** epic
+**Status:** ✓ closed · **Resolution:** done · **Type:** ▸ plan · **Tier:** epic
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.1f4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.1f4.md) · **Assignee:** `sase-1ux.land`
-**Created:** 2026-11-22 08:33:06 EST
+**Created:** 2026-11-22 08:33:06 EST · **Closed:** 2026-11-22 16:19:32 EST
 **Plan:** [202611/failed\_clan\_visibility.md](https://github.com/sase-org/sase--plans/blob/main/202611/failed_clan_visibility.md)
 
 <!-- sase:links:start -->
@@ -29,6 +29,8 @@ When an agent session or clan stops on a failure, every Agents-tab surface says 
 
 [2026-11-22T20:42:30Z · sase-1ux.land] LAND TRIAGE (sase-1ux.land): PROPOSED FOLLOW-UP outcomes. (1) sase-1ux.2 #1 dead-pid gate audit -> new task sase-1v0 (bug, large; related sase-1so). (2) sase-1ux.3 #1 six clean-base check failures -> declined as a new task: at HEAD 1d4f456f41 the system-clock display audit, monitor-settlement replay, and both artifact-marker mutation audits pass (fixed by later commits); the terminology audit is sase-1uy and the project-display audit is sase-1uz. (3) sase-1ux.4 #1 / sase-1ux.5 #2 terminology guard (sase-1uy) -> CAUSED BY THIS EPIC: 1c4c89f6b4's notification-gates.md trim introduced the literal guarded phrases; fixed by the land agent's doc rewording (terminology tests 3 passed) and sase-1uy closed. sase-1uw (6,158-word cap) also closed as fixed by 1c4c89f6b4 (page now 5,662 words, check_docs clean). (4) sase-1ux.4 #2 / sase-1ux.5 #1 project metadata audit -> duplicate of sase-1uz, corroborated with a +1 (reproduced at HEAD). (5) sase-1ux.4 #3 cause-chip drop not recomputed on first paint/resize -> CAUSED BY THIS EPIC, kept as epic work in the landing tale (also normalizes the per-row render-key width so only chip-capable rows key on viewport width). (6) sase-1ux.4 #4 FinalizerInventoryWorkerResult GC leftover -> new task sase-1v2 (flake; 3/3 serial reruns passed). Plan out-of-scope list: owner-index leaks -> new task sase-1v1 (bug, medium; 4 orphaned entries on athena, related sase-1ra.8); sase-core rollup port -> new task sase-1v3 (feature, large); WAITING-blocked row marker -> declined, the clan callout's 'blocks' line covers the clan view and no surface showed a need; bulk-dismissed failure notifications -> declined, the epic made the Agents tab itself carry FAILED state so a dismissed notification no longer hides the failure, and no concrete remedy was proposed.
 
+[2026-11-22T21:19:32Z · sase-1ux.land--1] The land agent verified all five phases against source and commits (sase-core 1fb9701f contained in the sase-core-revision.txt pin, plus sase 1c4c89f6b4, 3dc72ddd4c, 623c826812, 1d4f456f41); reviewed 15 concurrent commits, no conflicts; fixed the epic-caused terminology regression (sase-1uy) and recorded follow-up triage in the LAND TRIAGE note; this landing tale added row_has_droppable_cause_chip, normalized the render-cache width key to chip-capable rows only, added a coalesced resize repatch of stale chip rows, plus 5 widget tests (all 13 pass in tests/ace/tui/widgets/test_agent_list_clan_cause_chip.py); sase tool run check run cd46068ea86e003d6c1915a2f38ef72a passed with only that KNOWN item outstanding; just symvision clean; pre-existing incident-golden drift (2x 120x40 NEEDS ATTENTION panel) filed as sase-1v4, reproduces on the clean tree, goldens left untouched.
+
 ## Phases
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
@@ -43,7 +45,7 @@ When an agent session or clan stops on a failure, every Agents-tab surface says 
 
 ```mermaid
 flowchart TD
-    n0["sase-1ux: Make failed agent sessions and clans unmistakable [in_progress]"]
+    n0["sase-1ux: Make failed agent sessions and clans unmistakable [closed]"]
     n1["sase-1ux.1: Project held staged monitors as a first-class state in sase-core [closed]"]
     n2["sase-1ux.2: Consume the held state in sase and keep the held flag truthful [closed]"]
     n3["sase-1ux.3: One failure-aware session rollup that every surface consumes [closed]"]
@@ -69,7 +71,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1ux.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ux.3/README.md) | [sase-1ux.3](sase-1ux.3.md) | 1 |
 | [bbugyi200.athena.sase-1ux.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ux.4/README.md) | [sase-1ux.4](sase-1ux.4.md) | 1 |
 | [bbugyi200.athena.sase-1ux.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ux.5/README.md) | [sase-1ux.5](sase-1ux.5.md) | 1 |
-| [bbugyi200.athena.sase-1ux.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ux.land.md) | [sase-1ux](README.md) | 2 |
+| [bbugyi200.athena.sase-1ux.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ux.land.md) | [sase-1ux](README.md) | 3 |
 
 ## Commits
 
@@ -82,6 +84,7 @@ flowchart TD
 | sase | [`1d4f456`](https://github.com/sase-org/sase/commit/1d4f456f41a3a4b20c237bbdcb322d8b8a01f03f) | feat(tui): add NEEDS ATTENTION callout to session and clan detail panels | [sase-1ux.5](sase-1ux.5.md) | 2026-11-22 15:23:57 EST |
 | sase | [`4a058c8`](https://github.com/sase-org/sase/commit/4a058c8e98d2ae2fc8668581123d55877554a831) | docs(gates): reword retired shell spellings past the terminology guard | [sase-1ux](README.md) | 2026-11-22 15:53:09 EST |
 | sase | [`fc397c4`](https://github.com/sase-org/sase/commit/fc397c469c9806db05fc396a5ab640bd8d69e16a) | feat(tui): recompute failed-clan cause-chip drop on resize | [sase-1ux](README.md) | 2026-11-22 16:16:16 EST |
+| sase--plans | [`sase--plans@4189319`](https://github.com/sase-org/sase--plans/commit/4189319a6cca0cfa595c07eb8cc71317ee1ced29) | docs(plans): mark failed-clan-visibility epic plan done on sase-1ux close | [sase-1ux](README.md) | 2026-11-22 16:21:10 EST |
 
 <!-- sase:referenced-by:start -->
 
