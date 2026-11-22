@@ -33,7 +33,7 @@ When an agent session or clan stops on a failure, every Agents-tab surface says 
 | [sase-1ux.2](sase-1ux.2.md) | Consume the held state in sase and keep the held flag truthful | ✓ closed | medium | 2026-11-22 | 1 | 1 |
 | [sase-1ux.3](sase-1ux.3.md) | One failure-aware session rollup that every surface consumes | ✓ closed | medium | 2026-11-22 | 1 | 1 |
 | [sase-1ux.4](sase-1ux.4.md) | Failure signals on Agents-tab rows, waves, and jump strips | ✓ closed | medium | 2026-11-22 | 1 | 1 |
-| [sase-1ux.5](sase-1ux.5.md) | NEEDS ATTENTION callout in session and clan detail panels, plus docs | ◐ in_progress | medium | 2026-11-22 | 1 | 0 |
+| [sase-1ux.5](sase-1ux.5.md) | NEEDS ATTENTION callout in session and clan detail panels, plus docs | ✓ closed | medium | 2026-11-22 | 1 | 1 |
 
 ## Lineage
 
@@ -44,7 +44,7 @@ flowchart TD
     n2["sase-1ux.2: Consume the held state in sase and keep the held flag truthful [closed]"]
     n3["sase-1ux.3: One failure-aware session rollup that every surface consumes [closed]"]
     n4["sase-1ux.4: Failure signals on Agents-tab rows, waves, and jump strips [closed]"]
-    n5["sase-1ux.5: NEEDS ATTENTION callout in session and clan detail panels, plus docs [in_progress]"]
+    n5["sase-1ux.5: NEEDS ATTENTION callout in session and clan detail panels, plus docs [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -64,7 +64,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1ux.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1ux.2.md) | [sase-1ux.2](sase-1ux.2.md) | 1 |
 | [bbugyi200.athena.sase-1ux.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ux.3/README.md) | [sase-1ux.3](sase-1ux.3.md) | 1 |
 | [bbugyi200.athena.sase-1ux.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ux.4/README.md) | [sase-1ux.4](sase-1ux.4.md) | 1 |
-| [bbugyi200.athena.sase-1ux.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ux.5/README.md) | [sase-1ux.5](sase-1ux.5.md) | 0 |
+| [bbugyi200.athena.sase-1ux.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ux.5/README.md) | [sase-1ux.5](sase-1ux.5.md) | 1 |
 | [bbugyi200.athena.sase-1ux.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ux.land/README.md) | [sase-1ux](README.md) | 0 |
 
 ## Commits
@@ -75,6 +75,7 @@ flowchart TD
 | sase | [`1c4c89f`](https://github.com/sase-org/sase/commit/1c4c89f6b41b981ad615a797cb0f49d393c82ab9) | feat(monitor): consume held staged-monitor state in sase | [sase-1ux.2](sase-1ux.2.md) | 2026-11-22 11:20:19 EST |
 | sase | [`3dc72dd`](https://github.com/sase-org/sase/commit/3dc72ddd4c3fe4e6b1f16746151dbaf639083ecb) | feat(tui): unify failure-aware session rollups | [sase-1ux.3](sase-1ux.3.md) | 2026-11-22 12:51:38 EST |
 | sase | [`623c826`](https://github.com/sase-org/sase/commit/623c826812eef397bd0912d1d1002682a7570d22) | feat(tui): show failure cause chips, times, and glyphs on Agents rows | [sase-1ux.4](sase-1ux.4.md) | 2026-11-22 14:14:48 EST |
+| sase | [`1d4f456`](https://github.com/sase-org/sase/commit/1d4f456f41a3a4b20c237bbdcb322d8b8a01f03f) | feat(tui): add NEEDS ATTENTION callout to session and clan detail panels | [sase-1ux.5](sase-1ux.5.md) | 2026-11-22 15:23:57 EST |
 
 <!-- sase:referenced-by:start -->
 

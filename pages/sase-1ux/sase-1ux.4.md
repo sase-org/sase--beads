@@ -26,7 +26,7 @@ row-signals: render the failure clearly in the list. Add a clan-row cause chip n
 ## Dependencies
 
 - **Depends on:** [sase-1ux.3](sase-1ux.3.md) ✓ · ⧖ 2026-11-22
-- **Blocks:** [sase-1ux.5](sase-1ux.5.md) ◐ · ⧖ 2026-11-22
+- **Blocks:** [sase-1ux.5](sase-1ux.5.md) ✓ · ⧖ 2026-11-22
 
 ## Agents
 
@@ -39,3 +39,15 @@ row-signals: render the failure clearly in the list. Add a clan-row cause chip n
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`623c826`](https://github.com/sase-org/sase/commit/623c826812eef397bd0912d1d1002682a7570d22) | feat(tui): show failure cause chips, times, and glyphs on Agents rows | [sase-1ux.4](sase-1ux.4.md) | 2026-11-22 14:14:48 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ux.4][1] | Need current phase status, notes, and remaining work before continuing | 4 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ux.4/README.md
+
+<!-- sase:referenced-by:end -->
