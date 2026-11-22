@@ -13,7 +13,7 @@ attention-callout: a left-barred NEEDS ATTENTION callout at the top of the sessi
 
 ## Dependencies
 
-- **Depends on:** [sase-1ux.4](sase-1ux.4.md) ◐ · ⧖ 2026-11-22
+- **Depends on:** [sase-1ux.4](sase-1ux.4.md) ✓ · ⧖ 2026-11-22
 
 ## Agents
 

@@ -20,7 +20,7 @@ session-rollup: not-adopted members never count as started work. A failed turn s
 ## Dependencies
 
 - **Depends on:** [sase-1ux.2](sase-1ux.2.md) ✓ · ⧖ 2026-11-22
-- **Blocks:** [sase-1ux.4](sase-1ux.4.md) ◐ · ⧖ 2026-11-22
+- **Blocks:** [sase-1ux.4](sase-1ux.4.md) ✓ · ⧖ 2026-11-22
 
 ## Agents
 
@@ -33,3 +33,15 @@ session-rollup: not-adopted members never count as started work. A failed turn s
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`3dc72dd`](https://github.com/sase-org/sase/commit/3dc72ddd4c3fe4e6b1f16746151dbaf639083ecb) | feat(tui): unify failure-aware session rollups | [sase-1ux.3](sase-1ux.3.md) | 2026-11-22 12:51:38 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1ux.3][1] | Confirm phase scope, decisions, and recorded baseline follow-up before close | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ux.3/README.md
+
+<!-- sase:referenced-by:end -->
