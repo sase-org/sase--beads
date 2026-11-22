@@ -38,7 +38,9 @@ core-held: in sase-core, project a staged monitor member whose `monitor_stage_he
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1ux.1][1] | Need the phase scope and design file | 1 |
+| read-by | [agent:sase-1ux.5][2] | Check earlier phases landed | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ux.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ux.5/README.md
 
 <!-- sase:referenced-by:end -->

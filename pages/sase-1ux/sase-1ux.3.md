@@ -41,7 +41,9 @@ session-rollup: not-adopted members never count as started work. A failed turn s
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1ux.3][1] | Confirm phase scope, decisions, and recorded baseline follow-up before close | 2 |
+| read-by | [agent:sase-1ux.5][2] | Check earlier phases landed | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ux.3/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1ux.5/README.md
 
 <!-- sase:referenced-by:end -->
