@@ -20,7 +20,7 @@ roster-read: add the `roster:<web>` selector to `sase memory read` and `sase mem
 - **Depends on:** [sase-1v7.1](sase-1v7.1.md) ✓ · ⧖ 2026-11-25
 - **Blocks:** [sase-1v7.3](sase-1v7.3.md) ◐ · ⧖ 2026-11-25
 - **Blocks:** [sase-1v7.4](sase-1v7.4.md) ◐ · ⧖ 2026-11-25
-- **Blocks:** [sase-1v7.5](sase-1v7.5.md) ◐ · ⧖ 2026-11-25
+- **Blocks:** [sase-1v7.5](sase-1v7.5.md) ✓ · ⧖ 2026-11-25
 
 ## Agents
 
@@ -33,3 +33,15 @@ roster-read: add the `roster:<web>` selector to `sase memory read` and `sase mem
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`1a468da`](https://github.com/sase-org/sase/commit/1a468da521f18d4a29ad7c2787c41634f9194db1) | feat(memory): add audited roster web read with bare-web guard | [sase-1v7.2](sase-1v7.2.md) | 2026-11-25 17:35:21 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1v7.2][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1v7.2/README.md
+
+<!-- sase:referenced-by:end -->

@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/on_demand_web_rosters.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+_Plus 2 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202611/on_demand_web_rosters.md
 
@@ -33,7 +33,7 @@ Any memory web can declare `roster_loading: on_demand`. Agent instruction bundle
 | [sase-1v7.2](sase-1v7.2.md) | The audited roster:\<web\> read, the bare-web guard, and skill text | ✓ closed | medium | 2026-11-25 | 1 | 1 |
 | [sase-1v7.3](sase-1v7.3.md) | TUI surfaces for on-demand rosters and roster reads | ◐ in_progress | small | 2026-11-25 | 1 | 0 |
 | [sase-1v7.4](sase-1v7.4.md) | sase's decisions web adopts the on-demand roster | ◐ in_progress | small | 2026-11-25 | 1 | 0 |
-| [sase-1v7.5](sase-1v7.5.md) | bob-cli's decisions web adopts the on-demand roster | ◐ in_progress | small | 2026-11-25 | 1 | 0 |
+| [sase-1v7.5](sase-1v7.5.md) | bob-cli's decisions web adopts the on-demand roster | ✓ closed | small | 2026-11-25 | 1 | 0 |
 
 ## Lineage
 
@@ -44,7 +44,7 @@ flowchart TD
     n2["sase-1v7.2: The audited roster:&lt;web&gt; read, the bare-web guard, and skill text [closed]"]
     n3["sase-1v7.3: TUI surfaces for on-demand rosters and roster reads [in_progress]"]
     n4["sase-1v7.4: sase's decisions web adopts the on-demand roster [in_progress]"]
-    n5["sase-1v7.5: bob-cli's decisions web adopts the on-demand roster [in_progress]"]
+    n5["sase-1v7.5: bob-cli's decisions web adopts the on-demand roster [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -84,7 +84,9 @@ flowchart TD
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1v7.1][1] | Need parent epic decisions, plan, and overall scope | 1 |
+| read-by | [agent:sase-1v7.2][2] | epic scope | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1v7.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1v7.2/README.md
 
 <!-- sase:referenced-by:end -->
