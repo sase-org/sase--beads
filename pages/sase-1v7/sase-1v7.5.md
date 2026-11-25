@@ -27,3 +27,15 @@ adopt-bob-cli: in the bob-cli checkout opened with `/sase_repo`, flip `sase/memo
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1v7.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1v7.5/README.md) | [sase-1v7.5](sase-1v7.5.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1v7.5][1] | need notes | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1v7.5/README.md
+
+<!-- sase:referenced-by:end -->

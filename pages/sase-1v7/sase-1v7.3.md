@@ -20,4 +20,4 @@ tui-surfaces: show roster reads correctly in the agent MEMORY lane, including th
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1v7.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1v7.3/README.md) | [sase-1v7.3](sase-1v7.3.md) | 0 |
+| [bbugyi200.athena.sase-1v7.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1v7.3.md) | [sase-1v7.3](sase-1v7.3.md) | 0 |
