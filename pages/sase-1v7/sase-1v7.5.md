@@ -14,7 +14,7 @@ adopt-bob-cli: in the bob-cli checkout opened with `/sase_repo`, flip `sase/memo
 ## Dependencies
 
 - **Depends on:** [sase-1v7.1](sase-1v7.1.md) ✓ · ⧖ 2026-11-25
-- **Depends on:** [sase-1v7.2](sase-1v7.2.md) ◐ · ⧖ 2026-11-25
+- **Depends on:** [sase-1v7.2](sase-1v7.2.md) ✓ · ⧖ 2026-11-25
 
 ## Agents
 

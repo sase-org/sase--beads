@@ -14,7 +14,7 @@ adopt-sase: flip `sase/memory/decisions.md` to on-demand with its read triggers.
 ## Dependencies
 
 - **Depends on:** [sase-1v7.1](sase-1v7.1.md) ✓ · ⧖ 2026-11-25
-- **Depends on:** [sase-1v7.2](sase-1v7.2.md) ◐ · ⧖ 2026-11-25
+- **Depends on:** [sase-1v7.2](sase-1v7.2.md) ✓ · ⧖ 2026-11-25
 
 ## Agents
 

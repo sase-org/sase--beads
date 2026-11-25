@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/on_demand_web_rosters.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/sase-org/sase--plans/blob/main/202611/on_demand_web_rosters.md
 
 <!-- sase:links:end -->
@@ -28,7 +30,7 @@ Any memory web can declare `roster_loading: on_demand`. Agent instruction bundle
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
 | [sase-1v7.1](sase-1v7.1.md) | The roster\_loading axis and the generated on-demand pointer | ✓ closed | medium | 2026-11-25 | 1 | 1 |
-| [sase-1v7.2](sase-1v7.2.md) | The audited roster:\<web\> read, the bare-web guard, and skill text | ◐ in_progress | medium | 2026-11-25 | 1 | 0 |
+| [sase-1v7.2](sase-1v7.2.md) | The audited roster:\<web\> read, the bare-web guard, and skill text | ✓ closed | medium | 2026-11-25 | 1 | 1 |
 | [sase-1v7.3](sase-1v7.3.md) | TUI surfaces for on-demand rosters and roster reads | ◐ in_progress | small | 2026-11-25 | 1 | 0 |
 | [sase-1v7.4](sase-1v7.4.md) | sase's decisions web adopts the on-demand roster | ◐ in_progress | small | 2026-11-25 | 1 | 0 |
 | [sase-1v7.5](sase-1v7.5.md) | bob-cli's decisions web adopts the on-demand roster | ◐ in_progress | small | 2026-11-25 | 1 | 0 |
@@ -39,7 +41,7 @@ Any memory web can declare `roster_loading: on_demand`. Agent instruction bundle
 flowchart TD
     n0["sase-1v7: On-demand memory web rosters — read the decisions roster when planning, not on every turn [in_progress]"]
     n1["sase-1v7.1: The roster_loading axis and the generated on-demand pointer [closed]"]
-    n2["sase-1v7.2: The audited roster:&lt;web&gt; read, the bare-web guard, and skill text [in_progress]"]
+    n2["sase-1v7.2: The audited roster:&lt;web&gt; read, the bare-web guard, and skill text [closed]"]
     n3["sase-1v7.3: TUI surfaces for on-demand rosters and roster reads [in_progress]"]
     n4["sase-1v7.4: sase's decisions web adopts the on-demand roster [in_progress]"]
     n5["sase-1v7.5: bob-cli's decisions web adopts the on-demand roster [in_progress]"]
@@ -62,7 +64,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1v7.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1v7.1/README.md) | [sase-1v7.1](sase-1v7.1.md) | 1 |
-| [bbugyi200.athena.sase-1v7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1v7.2/README.md) | [sase-1v7.2](sase-1v7.2.md) | 0 |
+| [bbugyi200.athena.sase-1v7.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1v7.2/README.md) | [sase-1v7.2](sase-1v7.2.md) | 1 |
 | [bbugyi200.athena.sase-1v7.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1v7.3/README.md) | [sase-1v7.3](sase-1v7.3.md) | 0 |
 | [bbugyi200.athena.sase-1v7.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1v7.4/README.md) | [sase-1v7.4](sase-1v7.4.md) | 0 |
 | [bbugyi200.athena.sase-1v7.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1v7.5/README.md) | [sase-1v7.5](sase-1v7.5.md) | 0 |
@@ -73,3 +75,16 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`e489558`](https://github.com/sase-org/sase/commit/e489558571a747220f7912156f1ebed7fb95e7b5) | feat(memory): add on-demand web roster loading axis | [sase-1v7.1](sase-1v7.1.md) | 2026-11-25 16:54:19 EST |
+| sase | [`1a468da`](https://github.com/sase-org/sase/commit/1a468da521f18d4a29ad7c2787c41634f9194db1) | feat(memory): add audited roster web read with bare-web guard | [sase-1v7.2](sase-1v7.2.md) | 2026-11-25 17:35:21 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1v7.1][1] | Need parent epic decisions, plan, and overall scope | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1v7.1/README.md
+
+<!-- sase:referenced-by:end -->

@@ -17,7 +17,7 @@ roster-axis: parse and validate `roster_loading: always | on_demand` and `roster
 
 ## Dependencies
 
-- **Blocks:** [sase-1v7.2](sase-1v7.2.md) ◐ · ⧖ 2026-11-25
+- **Blocks:** [sase-1v7.2](sase-1v7.2.md) ✓ · ⧖ 2026-11-25
 - **Blocks:** [sase-1v7.3](sase-1v7.3.md) ◐ · ⧖ 2026-11-25
 - **Blocks:** [sase-1v7.4](sase-1v7.4.md) ◐ · ⧖ 2026-11-25
 - **Blocks:** [sase-1v7.5](sase-1v7.5.md) ◐ · ⧖ 2026-11-25
@@ -33,3 +33,15 @@ roster-axis: parse and validate `roster_loading: always | on_demand` and `roster
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`e489558`](https://github.com/sase-org/sase/commit/e489558571a747220f7912156f1ebed7fb95e7b5) | feat(memory): add on-demand web roster loading axis | [sase-1v7.1](sase-1v7.1.md) | 2026-11-25 16:54:19 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1v7.1][1] | Need the phase scope and design file | 3 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1v7.1/README.md
+
+<!-- sase:referenced-by:end -->
