@@ -11,6 +11,10 @@
 
 copy-panel: rebind `y` in UserQuestionModal to open a QuestionCopyModal with SNIPPETS and QUESTION sections, stable keys, ordered exact delivery, copied checkmarks, a `yy` copy-all path that adds Copyable items, and tests, goldens, and TUI docs.
 
+## Notes
+
+[2026-11-26T19:24:36Z · sase-1vd.3--1] PROPOSED FOLLOW-UP: land this phase diff (including the Justfile --epic-symbol drop), then close sase-1vd.3 — close is refused until origin/master no longer carries its rows. Detail: work + verification complete (107 targeted pytest pass; fix-tui-screenshots update clean 3 unchanged + --check twice incl TZ=UTC unstable=[]; all 3 goldens inspected pixel-by-pixel; sase tool run check green incl symvision/mypy/epic-symbol freshness). Worktree Justfile already drops the 3 rows (QuestionCopyDisplay, QuestionCopyItem, display_question_copy_items) with an explanatory comment; sase bead close still refuses because the guard unions worktree with origin/master, where sase-1vd.1 landed those rows. Re-keying cannot help (upstream keys unchanged by worktree edits). prose_highlight=yes belongs to sase-1vd.4 pane-cues, not this phase.
+
 ## Dependencies
 
 - **Depends on:** [sase-1vd.1](sase-1vd.1.md) ✓ · ⧖ 2026-11-26
@@ -21,7 +25,13 @@ copy-panel: rebind `y` in UserQuestionModal to open a QuestionCopyModal with SNI
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1vd.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1vd.3.md) | [sase-1vd.3](sase-1vd.3.md) | 0 |
+| [bbugyi200.athena.sase-1vd.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1vd.3.md) | [sase-1vd.3](sase-1vd.3.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`d88af8a`](https://github.com/sase-org/sase/commit/d88af8a00ac19ebd2d82272ffacb49abce7259df) | feat(ace): add question copy panel behind y | [sase-1vd.3](sase-1vd.3.md) | 2026-11-26 14:27:21 EST |
 
 <!-- sase:referenced-by:start -->
 

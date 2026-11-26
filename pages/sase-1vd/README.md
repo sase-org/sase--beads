@@ -31,10 +31,10 @@ From the questions gate, the user can copy any agent-declared snippet, the quest
 |---|---|---|---|---|---:|---:|
 | [sase-1vd.1](sase-1vd.1.md) | Core copy contract and creation-time validation | ✓ closed | medium | 2026-11-26 | 1 | 2 |
 | [sase-1vd.2](sase-1vd.2.md) | Generalize the Copy as palette | ✓ closed | medium | 2026-11-26 | 1 | 1 |
-| [sase-1vd.3](sase-1vd.3.md) | Question copy panel behind y | ◐ in_progress | medium | 2026-11-26 | 1 | 0 |
+| [sase-1vd.3](sase-1vd.3.md) | Question copy panel behind y | ◐ in_progress | medium | 2026-11-26 | 1 | 1 |
 | [sase-1vd.4](sase-1vd.4.md) | Discoverability cues on the question pane | ◐ in_progress | small | 2026-11-26 | 1 | 0 |
 | [sase-1vd.5](sase-1vd.5.md) | Conservative found-in-text detection | ◐ in_progress | medium | 2026-11-26 | 1 | 0 |
-| [sase-1vd.6](sase-1vd.6.md) | Telegram copy buttons | ✓ closed | small | 2026-11-26 | 1 | 1 |
+| [sase-1vd.6](sase-1vd.6.md) | Telegram copy buttons | ✓ closed | small | 2026-11-26 | 1 | 0 |
 | [sase-1vd.7](sase-1vd.7.md) | Agent guidance, contract docs, and skill rollout | ◐ in_progress | small | 2026-11-26 | 1 | 0 |
 
 ## Lineage
@@ -71,10 +71,10 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-1vd.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vd.1/README.md) | [sase-1vd.1](sase-1vd.1.md) | 2 |
 | [bbugyi200.athena.sase-1vd.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vd.2/README.md) | [sase-1vd.2](sase-1vd.2.md) | 1 |
-| [bbugyi200.athena.sase-1vd.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1vd.3.md) | [sase-1vd.3](sase-1vd.3.md) | 0 |
+| [bbugyi200.athena.sase-1vd.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1vd.3.md) | [sase-1vd.3](sase-1vd.3.md) | 1 |
 | [bbugyi200.athena.sase-1vd.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vd.4/README.md) | [sase-1vd.4](sase-1vd.4.md) | 0 |
 | [bbugyi200.athena.sase-1vd.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vd.5/README.md) | [sase-1vd.5](sase-1vd.5.md) | 0 |
-| [bbugyi200.athena.sase-1vd.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vd.6/README.md) | [sase-1vd.6](sase-1vd.6.md) | 1 |
+| [bbugyi200.athena.sase-1vd.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vd.6/README.md) | [sase-1vd.6](sase-1vd.6.md) | 0 |
 | [bbugyi200.athena.sase-1vd.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vd.7/README.md) | [sase-1vd.7](sase-1vd.7.md) | 0 |
 | [bbugyi200.athena.sase-1vd.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vd.land/README.md) | [sase-1vd](README.md) | 0 |
 
@@ -85,7 +85,7 @@ flowchart TD
 | sase | [`f1eaded`](https://github.com/sase-org/sase/commit/f1eaded87c8ef202309d8c6afea727122b69540f) | feat(ace): copy-as palette foundation with sections and preview pane | [sase-1vd.2](sase-1vd.2.md) | 2026-11-26 11:45:30 EST |
 | sase-core | [`sase-core@76638b5`](https://github.com/sase-org/sase-core/commit/76638b579e7e937ae1d18ef677fc61ccbe5da8c0) | feat(questions): add question copy contracts | [sase-1vd.1](sase-1vd.1.md) | 2026-11-26 12:42:49 EST |
 | sase | [`b9964f3`](https://github.com/sase-org/sase/commit/b9964f31a8ec7c5f68217fb1dbd4904089c3337f) | feat(questions): validate and display copy metadata | [sase-1vd.1](sase-1vd.1.md) | 2026-11-26 12:43:57 EST |
-| sase-telegram | [`sase-telegram@c99da27`](https://github.com/sase-org/sase-telegram/commit/c99da27247cf4d1625827f5e31f7978163d31bf3) | feat(questions): add Telegram copy buttons | [sase-1vd.6](sase-1vd.6.md) | 2026-11-26 13:12:10 EST |
+| sase | [`d88af8a`](https://github.com/sase-org/sase/commit/d88af8a00ac19ebd2d82272ffacb49abce7259df) | feat(ace): add question copy panel behind y | [sase-1vd.3](sase-1vd.3.md) | 2026-11-26 14:27:21 EST |
 
 <!-- sase:referenced-by:start -->
 
