@@ -13,7 +13,7 @@ copy-panel: rebind `y` in UserQuestionModal to open a QuestionCopyModal with SNI
 
 ## Dependencies
 
-- **Depends on:** [sase-1vd.1](sase-1vd.1.md) ◐ · ⧖ 2026-11-26
+- **Depends on:** [sase-1vd.1](sase-1vd.1.md) ✓ · ⧖ 2026-11-26
 - **Depends on:** [sase-1vd.2](sase-1vd.2.md) ✓ · ⧖ 2026-11-26
 - **Blocks:** [sase-1vd.4](sase-1vd.4.md) ◐ · ⧖ 2026-11-26
 

@@ -15,6 +15,8 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/question_copy_panel.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 [1]: https://github.com/sase-org/sase--plans/blob/main/202611/question_copy_panel.md
 
 <!-- sase:links:end -->
@@ -27,8 +29,8 @@ From the questions gate, the user can copy any agent-declared snippet, the quest
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-1vd.1](sase-1vd.1.md) | Core copy contract and creation-time validation | ◐ in_progress | medium | 2026-11-26 | 1 | 0 |
-| [sase-1vd.2](sase-1vd.2.md) | Generalize the Copy as palette | ✓ closed | medium | 2026-11-26 | 1 | 1 |
+| [sase-1vd.1](sase-1vd.1.md) | Core copy contract and creation-time validation | ✓ closed | medium | 2026-11-26 | 1 | 1 |
+| [sase-1vd.2](sase-1vd.2.md) | Generalize the Copy as palette | ✓ closed | medium | 2026-11-26 | 1 | 0 |
 | [sase-1vd.3](sase-1vd.3.md) | Question copy panel behind y | ◐ in_progress | medium | 2026-11-26 | 1 | 0 |
 | [sase-1vd.4](sase-1vd.4.md) | Discoverability cues on the question pane | ◐ in_progress | small | 2026-11-26 | 1 | 0 |
 | [sase-1vd.5](sase-1vd.5.md) | Conservative found-in-text detection | ◐ in_progress | medium | 2026-11-26 | 1 | 0 |
@@ -40,7 +42,7 @@ From the questions gate, the user can copy any agent-declared snippet, the quest
 ```mermaid
 flowchart TD
     n0["sase-1vd: Question copy panel [in_progress]"]
-    n1["sase-1vd.1: Core copy contract and creation-time validation [in_progress]"]
+    n1["sase-1vd.1: Core copy contract and creation-time validation [closed]"]
     n2["sase-1vd.2: Generalize the Copy as palette [closed]"]
     n3["sase-1vd.3: Question copy panel behind y [in_progress]"]
     n4["sase-1vd.4: Discoverability cues on the question pane [in_progress]"]
@@ -67,8 +69,8 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1vd.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vd.1/README.md) | [sase-1vd.1](sase-1vd.1.md) | 0 |
-| [bbugyi200.athena.sase-1vd.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vd.2/README.md) | [sase-1vd.2](sase-1vd.2.md) | 1 |
+| [bbugyi200.athena.sase-1vd.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vd.1/README.md) | [sase-1vd.1](sase-1vd.1.md) | 1 |
+| [bbugyi200.athena.sase-1vd.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vd.2/README.md) | [sase-1vd.2](sase-1vd.2.md) | 0 |
 | [bbugyi200.athena.sase-1vd.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vd.3/README.md) | [sase-1vd.3](sase-1vd.3.md) | 0 |
 | [bbugyi200.athena.sase-1vd.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vd.4/README.md) | [sase-1vd.4](sase-1vd.4.md) | 0 |
 | [bbugyi200.athena.sase-1vd.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vd.5/README.md) | [sase-1vd.5](sase-1vd.5.md) | 0 |
@@ -80,4 +82,16 @@ flowchart TD
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
-| sase | [`f1eaded`](https://github.com/sase-org/sase/commit/f1eaded87c8ef202309d8c6afea727122b69540f) | feat(ace): copy-as palette foundation with sections and preview pane | [sase-1vd.2](sase-1vd.2.md) | 2026-11-26 11:45:30 EST |
+| sase-core | [`sase-core@76638b5`](https://github.com/sase-org/sase-core/commit/76638b579e7e937ae1d18ef677fc61ccbe5da8c0) | feat(questions): add question copy contracts | [sase-1vd.1](sase-1vd.1.md) | 2026-11-26 12:42:49 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1vd.2][1] | Need parent epic scope for phase context | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vd.2/README.md
+
+<!-- sase:referenced-by:end -->
