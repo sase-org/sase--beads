@@ -31,3 +31,15 @@ adopt-sase: flip `sase/memory/decisions.md` to on-demand with its read triggers.
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`47cec6e`](https://github.com/sase-org/sase/commit/47cec6ea49154aee6d56ac766385e6c8f2b4238e) | feat(memory): load decisions roster on demand | [sase-1v7.4](sase-1v7.4.md) | 2026-11-25 18:11:44 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1v7.4][1] | Confirm the phase close and recorded verification note | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1v7.4/README.md
+
+<!-- sase:referenced-by:end -->

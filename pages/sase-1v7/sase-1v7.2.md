@@ -18,7 +18,7 @@ roster-read: add the `roster:<web>` selector to `sase memory read` and `sase mem
 ## Dependencies
 
 - **Depends on:** [sase-1v7.1](sase-1v7.1.md) ✓ · ⧖ 2026-11-25
-- **Blocks:** [sase-1v7.3](sase-1v7.3.md) ◐ · ⧖ 2026-11-25
+- **Blocks:** [sase-1v7.3](sase-1v7.3.md) ✓ · ⧖ 2026-11-25
 - **Blocks:** [sase-1v7.4](sase-1v7.4.md) ✓ · ⧖ 2026-11-25
 - **Blocks:** [sase-1v7.5](sase-1v7.5.md) ✓ · ⧖ 2026-11-25
 
