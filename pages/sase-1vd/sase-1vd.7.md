@@ -26,7 +26,13 @@ agent-guidance: teach agents the `copy` field through the sase_questions skill s
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1vd.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1vd.7.md) | [sase-1vd.7](sase-1vd.7.md) | 0 |
+| [bbugyi200.athena.sase-1vd.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1vd.7.md) | [sase-1vd.7](sase-1vd.7.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`909566a`](https://github.com/sase-org/sase/commit/909566a2079984631682156450d80fe8ccd8fb7d) | feat(questions): document copy items for agents | [sase-1vd.7](sase-1vd.7.md) | 2026-11-26 16:45:33 EST |
 
 <!-- sase:referenced-by:start -->
 
