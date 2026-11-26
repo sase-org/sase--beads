@@ -19,7 +19,7 @@ palette-foundation: extend CopyAsModal and CopyAsContext with custom sections, t
 
 ## Dependencies
 
-- **Blocks:** [sase-1vd.3](sase-1vd.3.md) ◐ · ⧖ 2026-11-26
+- **Blocks:** [sase-1vd.3](sase-1vd.3.md) ✓ · ⧖ 2026-11-26
 
 ## Agents
 

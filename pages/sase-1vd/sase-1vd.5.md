@@ -13,7 +13,7 @@ found-in-text: add a pure sase-core detector for fenced code, filtered backtick 
 
 ## Dependencies
 
-- **Depends on:** [sase-1vd.4](sase-1vd.4.md) ◐ · ⧖ 2026-11-26
+- **Depends on:** [sase-1vd.4](sase-1vd.4.md) ✓ · ⧖ 2026-11-26
 
 ## Agents
 

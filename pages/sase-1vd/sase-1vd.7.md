@@ -13,7 +13,7 @@ agent-guidance: teach agents the `copy` field through the sase_questions skill s
 
 ## Dependencies
 
-- **Depends on:** [sase-1vd.4](sase-1vd.4.md) ◐ · ⧖ 2026-11-26
+- **Depends on:** [sase-1vd.4](sase-1vd.4.md) ✓ · ⧖ 2026-11-26
 - **Depends on:** [sase-1vd.6](sase-1vd.6.md) ✓ · ⧖ 2026-11-26
 
 ## Agents

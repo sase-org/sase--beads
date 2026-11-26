@@ -17,7 +17,7 @@ copy-contract: add the strict and tolerant `copy` normalizers, wire types, and P
 
 ## Dependencies
 
-- **Blocks:** [sase-1vd.3](sase-1vd.3.md) ◐ · ⧖ 2026-11-26
+- **Blocks:** [sase-1vd.3](sase-1vd.3.md) ✓ · ⧖ 2026-11-26
 - **Blocks:** [sase-1vd.6](sase-1vd.6.md) ✓ · ⧖ 2026-11-26
 
 ## Agents
