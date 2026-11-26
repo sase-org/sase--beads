@@ -27,8 +27,8 @@ A detached agent runner survives a transiently busy agent artifact index or dism
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-1vh.1](sase-1vh.1.md) | Opt-in busy patience at the lookup facades, installed by the agent runner | ◐ in_progress | medium | 2026-11-26 | 1 | 0 |
-| [sase-1vh.2](sase-1vh.2.md) | Typed host lookup failures, provider-retry exclusion, honest runner hint | ◐ in_progress | small | 2026-11-26 | 1 | 0 |
+| [sase-1vh.1](sase-1vh.1.md) | Opt-in busy patience at the lookup facades, installed by the agent runner | ✓ closed | medium | 2026-11-26 | 1 | 1 |
+| [sase-1vh.2](sase-1vh.2.md) | Typed host lookup failures, provider-retry exclusion, honest runner hint | ✓ closed | small | 2026-11-26 | 1 | 1 |
 | [sase-1vh.3](sase-1vh.3.md) | SQLite extended codes in sase-core busy lookup diagnostics | ✓ closed | small | 2026-11-26 | 1 | 1 |
 
 ## Lineage
@@ -36,8 +36,8 @@ A detached agent runner survives a transiently busy agent artifact index or dism
 ```mermaid
 flowchart TD
     n0["sase-1vh: Make agent launches ride out a busy agent artifact index [in_progress]"]
-    n1["sase-1vh.1: Opt-in busy patience at the lookup facades, installed by the agent runner [in_progress]"]
-    n2["sase-1vh.2: Typed host lookup failures, provider-retry exclusion, honest runner hint [in_progress]"]
+    n1["sase-1vh.1: Opt-in busy patience at the lookup facades, installed by the agent runner [closed]"]
+    n2["sase-1vh.2: Typed host lookup failures, provider-retry exclusion, honest runner hint [closed]"]
     n3["sase-1vh.3: SQLite extended codes in sase-core busy lookup diagnostics [closed]"]
     n0 --> n1
     n0 --> n2
@@ -48,8 +48,8 @@ flowchart TD
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1vh.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vh.1/README.md) | [sase-1vh.1](sase-1vh.1.md) | 0 |
-| [bbugyi200.athena.sase-1vh.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vh.2/README.md) | [sase-1vh.2](sase-1vh.2.md) | 0 |
+| [bbugyi200.athena.sase-1vh.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vh.1/README.md) | [sase-1vh.1](sase-1vh.1.md) | 1 |
+| [bbugyi200.athena.sase-1vh.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vh.2/README.md) | [sase-1vh.2](sase-1vh.2.md) | 1 |
 | [bbugyi200.athena.sase-1vh.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vh.3/README.md) | [sase-1vh.3](sase-1vh.3.md) | 1 |
 | [bbugyi200.athena.sase-1vh.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vh.land/README.md) | [sase-1vh](README.md) | 0 |
 
@@ -58,3 +58,5 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@2efa9f6`](https://github.com/sase-org/sase-core/commit/2efa9f6b97fed27fe2fd34e09c59150cb437b325) | fix(agent-scan): report SQLite extended codes in busy lookup diagnostics | [sase-1vh.3](sase-1vh.3.md) | 2026-11-26 15:43:43 EST |
+| sase | [`6574797`](https://github.com/sase-org/sase/commit/6574797e4031905e18c8cdcbf9118cb6552d3c23) | fix(agent-retry): classify host index lookup failures | [sase-1vh.2](sase-1vh.2.md) | 2026-11-26 15:44:58 EST |
+| sase | [`47605d5`](https://github.com/sase-org/sase/commit/47605d5cb53a420e22998d9c3a6e2072101eb723) | feat(agent-runner): retry busy index lookups during launches | [sase-1vh.1](sase-1vh.1.md) | 2026-11-26 16:23:41 EST |
