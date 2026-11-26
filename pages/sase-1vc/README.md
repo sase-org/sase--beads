@@ -29,7 +29,7 @@ Commits from linked repositories outside the host checkout finish publication, a
 |---|---|---|---|---|---:|---:|
 | [sase-1vc.1](sase-1vc.1.md) | Key commit release evidence to the publication project | ✓ closed | medium | 2026-11-26 | 1 | 1 |
 | [sase-1vc.2](sase-1vc.2.md) | Do not re-run finalizers after they fail | ✓ closed | medium | 2026-11-26 | 1 | 1 |
-| [sase-1vc.3](sase-1vc.3.md) | Keep the starter's workspace for scratch-directory monitors | ◐ in_progress | medium | 2026-11-26 | 1 | 0 |
+| [sase-1vc.3](sase-1vc.3.md) | Keep the starter's workspace for scratch-directory monitors | ✓ closed | medium | 2026-11-26 | 1 | 1 |
 
 ## Lineage
 
@@ -38,7 +38,7 @@ flowchart TD
     n0["sase-1vc: Fix the commit and monitor failures behind the 1gf agent session [in_progress]"]
     n1["sase-1vc.1: Key commit release evidence to the publication project [closed]"]
     n2["sase-1vc.2: Do not re-run finalizers after they fail [closed]"]
-    n3["sase-1vc.3: Keep the starter's workspace for scratch-directory monitors [in_progress]"]
+    n3["sase-1vc.3: Keep the starter's workspace for scratch-directory monitors [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -50,7 +50,7 @@ flowchart TD
 |---|---|---:|
 | [bbugyi200.athena.sase-1vc.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vc.1/README.md) | [sase-1vc.1](sase-1vc.1.md) | 1 |
 | [bbugyi200.athena.sase-1vc.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vc.2/README.md) | [sase-1vc.2](sase-1vc.2.md) | 1 |
-| [bbugyi200.athena.sase-1vc.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vc.3/README.md) | [sase-1vc.3](sase-1vc.3.md) | 0 |
+| [bbugyi200.athena.sase-1vc.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vc.3/README.md) | [sase-1vc.3](sase-1vc.3.md) | 1 |
 | [bbugyi200.athena.sase-1vc.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vc.land/README.md) | [sase-1vc](README.md) | 0 |
 
 ## Commits
@@ -59,3 +59,4 @@ flowchart TD
 |---|---|---|---|---|
 | sase | [`6504926`](https://github.com/sase-org/sase/commit/650492693ad86489d4ba9bfc2c2b48bd14a43637) | fix(finalizers): preserve failure boundaries and attempt IDs | [sase-1vc.2](sase-1vc.2.md) | 2026-11-26 08:05:49 EST |
 | sase | [`312a030`](https://github.com/sase-org/sase/commit/312a030e9f5bd0acad532ac000d18887d374dadd) | feat(commit): key release evidence to the publication project | [sase-1vc.1](sase-1vc.1.md) | 2026-11-26 08:11:49 EST |
+| sase | [`45a205c`](https://github.com/sase-org/sase/commit/45a205c5490f0a2624319f1fcddf0ba53bb5a5d5) | fix(monitor): preserve starter workspace for scratch monitors | [sase-1vc.3](sase-1vc.3.md) | 2026-11-26 08:15:45 EST |

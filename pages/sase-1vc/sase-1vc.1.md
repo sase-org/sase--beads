@@ -26,3 +26,15 @@ release_evidence_project: resolve the commit's host project via the repo invento
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`312a030`](https://github.com/sase-org/sase/commit/312a030e9f5bd0acad532ac000d18887d374dadd) | feat(commit): key release evidence to the publication project | [sase-1vc.1](sase-1vc.1.md) | 2026-11-26 08:11:49 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1vc.1][1] | Need the phase scope and design file | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vc.1/README.md
+
+<!-- sase:referenced-by:end -->
