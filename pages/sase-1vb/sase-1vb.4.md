@@ -23,7 +23,7 @@ master-gate-flakes: reproduce and fix the four intermittent Master Gate failures
 
 ## Dependencies
 
-- **Blocks:** [sase-1vb.5](sase-1vb.5.md) ◐ · ⧖ 2026-11-26
+- **Blocks:** [sase-1vb.5](sase-1vb.5.md) ✓ · ⧖ 2026-11-26
 - **Blocks:** [sase-1vb.6](sase-1vb.6.md) ◐ · ⧖ 2026-11-26
 
 ## Agents
@@ -37,3 +37,15 @@ master-gate-flakes: reproduce and fix the four intermittent Master Gate failures
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`5db9dbf`](https://github.com/sase-org/sase/commit/5db9dbf33b5c824174942a445fa8fda8a2e3897e) | fix(tui): root-cause Master Gate flakes at their source | [sase-1vb.4](sase-1vb.4.md) | 2026-11-26 08:25:10 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1vb.4][1] | check prior notes and remaining work | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vb.4/README.md
+
+<!-- sase:referenced-by:end -->

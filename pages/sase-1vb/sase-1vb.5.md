@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [sase-1vb](README.md) / sase-1vb.5
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.1ge](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.1ge.md) · **Assignee:** `sase-1vb.5` · **Size:** medium
-**Created:** 2026-11-26 06:30:39 EST
+**Created:** 2026-11-26 06:30:39 EST · **Closed:** 2026-11-26 10:10:11 EST
 **Plan:** [202611/green\_github\_actions.md](https://github.com/sase-org/sase--plans/blob/main/202611/green_github_actions.md)
 
 ## Description
 
 visual-drift: regenerate the 19 drifted PNG goldens only after tracing each group to an intended change, fixing the retry-chain artifact loss if it is a regression, and leaving flickering goldens to their flake owners.
+
+## Notes
+
+[2026-11-26T15:10:11Z · sase-1vb.5--3] Verified full visual check clean: 1,170 snapshots unchanged, no creates/updates/stale entries; preserved the 18 reviewed golden updates. tool_runs_card_png_snapshots passed and matched its golden on recapture (2 attempts); no golden changed. sase tool run check 287df0b8c8106beb8dea833e357d3d78 succeeded with exit 0 and triage none/pass. epic-symbols returned no entries.
 
 ## Dependencies
 
@@ -20,4 +24,10 @@ visual-drift: regenerate the 19 drifted PNG goldens only after tracing each grou
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1vb.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vb.5/README.md) | [sase-1vb.5](sase-1vb.5.md) | 0 |
+| [bbugyi200.athena.sase-1vb.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1vb.5.md) | [sase-1vb.5](sase-1vb.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`1e017d0`](https://github.com/sase-org/sase/commit/1e017d0defae1100988816e246930db21ffdfc84) | test(tui): rebaseline intended November screenshot goldens | [sase-1vb.5](sase-1vb.5.md) | 2026-11-26 10:12:01 EST |
