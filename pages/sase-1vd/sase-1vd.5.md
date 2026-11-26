@@ -19,4 +19,10 @@ found-in-text: add a pure sase-core detector for fenced code, filtered backtick 
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1vd.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vd.5/README.md) | [sase-1vd.5](sase-1vd.5.md) | 0 |
+| [bbugyi200.athena.sase-1vd.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1vd.5.md) | [sase-1vd.5](sase-1vd.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase-core | [`sase-core@8cb07c3`](https://github.com/sase-org/sase-core/commit/8cb07c3f4685c852c29c22869c56ede33299d00c) | feat(question-copy): add conservative text candidate detector | [sase-1vd.5](sase-1vd.5.md) | 2026-11-26 17:35:57 EST |
