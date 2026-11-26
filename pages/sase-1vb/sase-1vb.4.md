@@ -24,7 +24,7 @@ master-gate-flakes: reproduce and fix the four intermittent Master Gate failures
 ## Dependencies
 
 - **Blocks:** [sase-1vb.5](sase-1vb.5.md) ✓ · ⧖ 2026-11-26
-- **Blocks:** [sase-1vb.6](sase-1vb.6.md) ◐ · ⧖ 2026-11-26
+- **Blocks:** [sase-1vb.6](sase-1vb.6.md) ✓ · ⧖ 2026-11-26
 
 ## Agents
 

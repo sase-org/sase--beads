@@ -18,7 +18,7 @@ visual-drift: regenerate the 19 drifted PNG goldens only after tracing each grou
 ## Dependencies
 
 - **Depends on:** [sase-1vb.4](sase-1vb.4.md) ✓ · ⧖ 2026-11-26
-- **Blocks:** [sase-1vb.6](sase-1vb.6.md) ◐ · ⧖ 2026-11-26
+- **Blocks:** [sase-1vb.6](sase-1vb.6.md) ✓ · ⧖ 2026-11-26
 
 ## Agents
 
@@ -31,3 +31,15 @@ visual-drift: regenerate the 19 drifted PNG goldens only after tracing each grou
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`1e017d0`](https://github.com/sase-org/sase/commit/1e017d0defae1100988816e246930db21ffdfc84) | test(tui): rebaseline intended November screenshot goldens | [sase-1vb.5](sase-1vb.5.md) | 2026-11-26 10:12:01 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1vb.5--3][1] | Review phase scope, evidence, and existing epic symbol entries before close | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1vb.5.md
+
+<!-- sase:referenced-by:end -->

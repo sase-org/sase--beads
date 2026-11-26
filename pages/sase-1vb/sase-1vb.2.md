@@ -17,7 +17,7 @@ bench-bead-path: add the repo-root sys.path bootstrap to tests/perf/bench_bead.p
 
 ## Dependencies
 
-- **Blocks:** [sase-1vb.6](sase-1vb.6.md) ◐ · ⧖ 2026-11-26
+- **Blocks:** [sase-1vb.6](sase-1vb.6.md) ✓ · ⧖ 2026-11-26
 
 ## Agents
 

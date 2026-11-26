@@ -19,7 +19,7 @@ leak-gate: fix the four leaking module globals at their root so the CI Telemetry
 
 ## Dependencies
 
-- **Blocks:** [sase-1vb.6](sase-1vb.6.md) ◐ · ⧖ 2026-11-26
+- **Blocks:** [sase-1vb.6](sase-1vb.6.md) ✓ · ⧖ 2026-11-26
 
 ## Agents
 

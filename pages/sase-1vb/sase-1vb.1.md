@@ -17,7 +17,7 @@ steward-wire: drop the transport-only asset id from the release wire, read aband
 
 ## Dependencies
 
-- **Blocks:** [sase-1vb.6](sase-1vb.6.md) ◐ · ⧖ 2026-11-26
+- **Blocks:** [sase-1vb.6](sase-1vb.6.md) ✓ · ⧖ 2026-11-26
 
 ## Agents
 
