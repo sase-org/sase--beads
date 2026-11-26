@@ -63,7 +63,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1vh.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vh.1/README.md) | [sase-1vh.1](sase-1vh.1.md) | 1 |
 | [bbugyi200.athena.sase-1vh.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vh.2/README.md) | [sase-1vh.2](sase-1vh.2.md) | 1 |
 | [bbugyi200.athena.sase-1vh.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vh.3/README.md) | [sase-1vh.3](sase-1vh.3.md) | 1 |
-| [bbugyi200.athena.sase-1vh.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1vh.land.md) | [sase-1vh](README.md) | 1 |
+| [bbugyi200.athena.sase-1vh.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1vh.land.md) | [sase-1vh](README.md) | 2 |
 
 ## Commits
 
@@ -73,3 +73,4 @@ flowchart TD
 | sase | [`6574797`](https://github.com/sase-org/sase/commit/6574797e4031905e18c8cdcbf9118cb6552d3c23) | fix(agent-retry): classify host index lookup failures | [sase-1vh.2](sase-1vh.2.md) | 2026-11-26 15:44:58 EST |
 | sase | [`47605d5`](https://github.com/sase-org/sase/commit/47605d5cb53a420e22998d9c3a6e2072101eb723) | feat(agent-runner): retry busy index lookups during launches | [sase-1vh.1](sase-1vh.1.md) | 2026-11-26 16:23:41 EST |
 | sase | [`7e9861a`](https://github.com/sase-org/sase/commit/7e9861ac4de136aad52aea34495bd0caf367754b) | fix(agent-runner): log each busy lookup retry | [sase-1vh](README.md) | 2026-11-26 16:54:08 EST |
+| sase--plans | [`sase--plans@47e48e4`](https://github.com/sase-org/sase--plans/commit/47e48e4ccc22615a8f72c4e3c92392fd6ef04be1) | docs(plans): mark busy lookup plan complete | [sase-1vh](README.md) | 2026-11-26 16:55:05 EST |
