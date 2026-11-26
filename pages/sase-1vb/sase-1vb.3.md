@@ -32,3 +32,15 @@ leak-gate: fix the four leaking module globals at their root so the CI Telemetry
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`102e579`](https://github.com/sase-org/sase/commit/102e579e2aaa6b88bdf672985ff6a1077719c3bb) | fix(tests): isolate leaking test state | [sase-1vb.3](sase-1vb.3.md) | 2026-11-26 07:27:23 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1vb.3][1] | Need the phase scope, design file, decisions, and prior notes before implementation | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vb.3/README.md
+
+<!-- sase:referenced-by:end -->

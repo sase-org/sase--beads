@@ -16,7 +16,7 @@ ci-proof: wait for Master Gate, dispatch and monitor Full CI and an observe-only
 - **Depends on:** [sase-1vb.1](sase-1vb.1.md) ✓ · ⧖ 2026-11-26
 - **Depends on:** [sase-1vb.2](sase-1vb.2.md) ✓ · ⧖ 2026-11-26
 - **Depends on:** [sase-1vb.3](sase-1vb.3.md) ✓ · ⧖ 2026-11-26
-- **Depends on:** [sase-1vb.4](sase-1vb.4.md) ◐ · ⧖ 2026-11-26
+- **Depends on:** [sase-1vb.4](sase-1vb.4.md) ✓ · ⧖ 2026-11-26
 - **Depends on:** [sase-1vb.5](sase-1vb.5.md) ◐ · ⧖ 2026-11-26
 
 ## Agents

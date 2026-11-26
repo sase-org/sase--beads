@@ -13,7 +13,7 @@ visual-drift: regenerate the 19 drifted PNG goldens only after tracing each grou
 
 ## Dependencies
 
-- **Depends on:** [sase-1vb.4](sase-1vb.4.md) ◐ · ⧖ 2026-11-26
+- **Depends on:** [sase-1vb.4](sase-1vb.4.md) ✓ · ⧖ 2026-11-26
 - **Blocks:** [sase-1vb.6](sase-1vb.6.md) ◐ · ⧖ 2026-11-26
 
 ## Agents
