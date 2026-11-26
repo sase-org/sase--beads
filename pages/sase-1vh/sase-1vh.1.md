@@ -26,3 +26,15 @@ runner-lookup-patience: add a process-wide LookupPatience policy and retry_while
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`47605d5`](https://github.com/sase-org/sase/commit/47605d5cb53a420e22998d9c3a6e2072101eb723) | feat(agent-runner): retry busy index lookups during launches | [sase-1vh.1](sase-1vh.1.md) | 2026-11-26 16:23:41 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1vh.1][1] | Need the phase scope, notes, epic decisions, and design file before completing the assigned phase | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vh.1/README.md
+
+<!-- sase:referenced-by:end -->
