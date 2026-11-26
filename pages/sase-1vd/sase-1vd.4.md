@@ -22,7 +22,7 @@ pane-cues: show copy progress on the question pane border, underline declared sn
 ## Dependencies
 
 - **Depends on:** [sase-1vd.3](sase-1vd.3.md) ✓ · ⧖ 2026-11-26
-- **Blocks:** [sase-1vd.5](sase-1vd.5.md) ◐ · ⧖ 2026-11-26
+- **Blocks:** [sase-1vd.5](sase-1vd.5.md) ✓ · ⧖ 2026-11-26
 - **Blocks:** [sase-1vd.7](sase-1vd.7.md) ✓ · ⧖ 2026-11-26
 
 ## Agents

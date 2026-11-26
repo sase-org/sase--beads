@@ -33,7 +33,7 @@ From the questions gate, the user can copy any agent-declared snippet, the quest
 | [sase-1vd.2](sase-1vd.2.md) | Generalize the Copy as palette | ✓ closed | medium | 2026-11-26 | 1 | 1 |
 | [sase-1vd.3](sase-1vd.3.md) | Question copy panel behind y | ✓ closed | medium | 2026-11-26 | 1 | 1 |
 | [sase-1vd.4](sase-1vd.4.md) | Discoverability cues on the question pane | ✓ closed | small | 2026-11-26 | 1 | 1 |
-| [sase-1vd.5](sase-1vd.5.md) | Conservative found-in-text detection | ◐ in_progress | medium | 2026-11-26 | 1 | 2 |
+| [sase-1vd.5](sase-1vd.5.md) | Conservative found-in-text detection | ✓ closed | medium | 2026-11-26 | 1 | 3 |
 | [sase-1vd.6](sase-1vd.6.md) | Telegram copy buttons | ✓ closed | small | 2026-11-26 | 1 | 0 |
 | [sase-1vd.7](sase-1vd.7.md) | Agent guidance, contract docs, and skill rollout | ✓ closed | small | 2026-11-26 | 1 | 1 |
 
@@ -46,7 +46,7 @@ flowchart TD
     n2["sase-1vd.2: Generalize the Copy as palette [closed]"]
     n3["sase-1vd.3: Question copy panel behind y [closed]"]
     n4["sase-1vd.4: Discoverability cues on the question pane [closed]"]
-    n5["sase-1vd.5: Conservative found-in-text detection [in_progress]"]
+    n5["sase-1vd.5: Conservative found-in-text detection [closed]"]
     n6["sase-1vd.6: Telegram copy buttons [closed]"]
     n7["sase-1vd.7: Agent guidance, contract docs, and skill rollout [closed]"]
     n0 --> n1
@@ -73,7 +73,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1vd.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vd.2/README.md) | [sase-1vd.2](sase-1vd.2.md) | 1 |
 | [bbugyi200.athena.sase-1vd.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1vd.3.md) | [sase-1vd.3](sase-1vd.3.md) | 1 |
 | [bbugyi200.athena.sase-1vd.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1vd.4.md) | [sase-1vd.4](sase-1vd.4.md) | 1 |
-| [bbugyi200.athena.sase-1vd.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1vd.5.md) | [sase-1vd.5](sase-1vd.5.md) | 2 |
+| [bbugyi200.athena.sase-1vd.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1vd.5.md) | [sase-1vd.5](sase-1vd.5.md) | 3 |
 | [bbugyi200.athena.sase-1vd.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vd.6/README.md) | [sase-1vd.6](sase-1vd.6.md) | 0 |
 | [bbugyi200.athena.sase-1vd.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1vd.7.md) | [sase-1vd.7](sase-1vd.7.md) | 1 |
 | [bbugyi200.athena.sase-1vd.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vd.land/README.md) | [sase-1vd](README.md) | 0 |
@@ -90,6 +90,7 @@ flowchart TD
 | sase | [`909566a`](https://github.com/sase-org/sase/commit/909566a2079984631682156450d80fe8ccd8fb7d) | feat(questions): document copy items for agents | [sase-1vd.7](sase-1vd.7.md) | 2026-11-26 16:45:33 EST |
 | sase-core | [`sase-core@8cb07c3`](https://github.com/sase-org/sase-core/commit/8cb07c3f4685c852c29c22869c56ede33299d00c) | feat(question-copy): add conservative text candidate detector | [sase-1vd.5](sase-1vd.5.md) | 2026-11-26 17:35:57 EST |
 | sase | [`a29a587`](https://github.com/sase-org/sase/commit/a29a587104a1acfdc3c2e3bf0872b7841463af5f) | feat(questions): detect copyable items in question text | [sase-1vd.5](sase-1vd.5.md) | 2026-11-26 17:37:10 EST |
+| sase-core | [`sase-core@464d2c8`](https://github.com/sase-org/sase-core/commit/464d2c87c007456dc212f9dd644d1c13e7b00fa7) | test(question-copy): remove useless format from detector test | [sase-1vd.5](sase-1vd.5.md) | 2026-11-26 18:19:01 EST |
 
 <!-- sase:referenced-by:start -->
 
