@@ -23,7 +23,7 @@ pane-cues: show copy progress on the question pane border, underline declared sn
 
 - **Depends on:** [sase-1vd.3](sase-1vd.3.md) ✓ · ⧖ 2026-11-26
 - **Blocks:** [sase-1vd.5](sase-1vd.5.md) ◐ · ⧖ 2026-11-26
-- **Blocks:** [sase-1vd.7](sase-1vd.7.md) ◐ · ⧖ 2026-11-26
+- **Blocks:** [sase-1vd.7](sase-1vd.7.md) ✓ · ⧖ 2026-11-26
 
 ## Agents
 
@@ -36,3 +36,15 @@ pane-cues: show copy progress on the question pane border, underline declared sn
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`758745c`](https://github.com/sase-org/sase/commit/758745cb400d7846cd630ee0285e4a58a1036ec3) | feat(ace): show copy progress cues on the question pane | [sase-1vd.4](sase-1vd.4.md) | 2026-11-26 15:59:37 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1vd.4--1][1] | Need the phase scope and design file for close triage after check failure | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1vd.4.md
+
+<!-- sase:referenced-by:end -->

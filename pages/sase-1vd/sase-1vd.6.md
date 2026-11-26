@@ -18,7 +18,7 @@ telegram-copy: render declared snippets on live Telegram question messages as Co
 ## Dependencies
 
 - **Depends on:** [sase-1vd.1](sase-1vd.1.md) ✓ · ⧖ 2026-11-26
-- **Blocks:** [sase-1vd.7](sase-1vd.7.md) ◐ · ⧖ 2026-11-26
+- **Blocks:** [sase-1vd.7](sase-1vd.7.md) ✓ · ⧖ 2026-11-26
 
 ## Agents
 

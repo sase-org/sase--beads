@@ -35,7 +35,7 @@ From the questions gate, the user can copy any agent-declared snippet, the quest
 | [sase-1vd.4](sase-1vd.4.md) | Discoverability cues on the question pane | ✓ closed | small | 2026-11-26 | 1 | 1 |
 | [sase-1vd.5](sase-1vd.5.md) | Conservative found-in-text detection | ◐ in_progress | medium | 2026-11-26 | 1 | 0 |
 | [sase-1vd.6](sase-1vd.6.md) | Telegram copy buttons | ✓ closed | small | 2026-11-26 | 1 | 0 |
-| [sase-1vd.7](sase-1vd.7.md) | Agent guidance, contract docs, and skill rollout | ◐ in_progress | small | 2026-11-26 | 1 | 0 |
+| [sase-1vd.7](sase-1vd.7.md) | Agent guidance, contract docs, and skill rollout | ✓ closed | small | 2026-11-26 | 1 | 1 |
 
 ## Lineage
 
@@ -48,7 +48,7 @@ flowchart TD
     n4["sase-1vd.4: Discoverability cues on the question pane [closed]"]
     n5["sase-1vd.5: Conservative found-in-text detection [in_progress]"]
     n6["sase-1vd.6: Telegram copy buttons [closed]"]
-    n7["sase-1vd.7: Agent guidance, contract docs, and skill rollout [in_progress]"]
+    n7["sase-1vd.7: Agent guidance, contract docs, and skill rollout [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -75,7 +75,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1vd.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1vd.4.md) | [sase-1vd.4](sase-1vd.4.md) | 1 |
 | [bbugyi200.athena.sase-1vd.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vd.5/README.md) | [sase-1vd.5](sase-1vd.5.md) | 0 |
 | [bbugyi200.athena.sase-1vd.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vd.6/README.md) | [sase-1vd.6](sase-1vd.6.md) | 0 |
-| [bbugyi200.athena.sase-1vd.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vd.7/README.md) | [sase-1vd.7](sase-1vd.7.md) | 0 |
+| [bbugyi200.athena.sase-1vd.7](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vd.7/README.md) | [sase-1vd.7](sase-1vd.7.md) | 1 |
 | [bbugyi200.athena.sase-1vd.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vd.land/README.md) | [sase-1vd](README.md) | 0 |
 
 ## Commits
@@ -87,6 +87,7 @@ flowchart TD
 | sase | [`b9964f3`](https://github.com/sase-org/sase/commit/b9964f31a8ec7c5f68217fb1dbd4904089c3337f) | feat(questions): validate and display copy metadata | [sase-1vd.1](sase-1vd.1.md) | 2026-11-26 12:43:57 EST |
 | sase | [`d88af8a`](https://github.com/sase-org/sase/commit/d88af8a00ac19ebd2d82272ffacb49abce7259df) | feat(ace): add question copy panel behind y | [sase-1vd.3](sase-1vd.3.md) | 2026-11-26 14:27:21 EST |
 | sase | [`758745c`](https://github.com/sase-org/sase/commit/758745cb400d7846cd630ee0285e4a58a1036ec3) | feat(ace): show copy progress cues on the question pane | [sase-1vd.4](sase-1vd.4.md) | 2026-11-26 15:59:37 EST |
+| sase | [`909566a`](https://github.com/sase-org/sase/commit/909566a2079984631682156450d80fe8ccd8fb7d) | feat(questions): document copy items for agents | [sase-1vd.7](sase-1vd.7.md) | 2026-11-26 16:45:33 EST |
 
 <!-- sase:referenced-by:start -->
 
