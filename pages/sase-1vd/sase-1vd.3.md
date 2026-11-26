@@ -21,4 +21,16 @@ copy-panel: rebind `y` in UserQuestionModal to open a QuestionCopyModal with SNI
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1vd.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vd.3/README.md) | [sase-1vd.3](sase-1vd.3.md) | 0 |
+| [bbugyi200.athena.sase-1vd.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1vd.3.md) | [sase-1vd.3](sase-1vd.3.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1vd.1][1] | Confirm the later phase consuming the question-copy display API is still open before adding Symvision epic-symbol entries | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vd.1/README.md
+
+<!-- sase:referenced-by:end -->

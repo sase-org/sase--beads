@@ -18,7 +18,7 @@ copy-contract: add the strict and tolerant `copy` normalizers, wire types, and P
 ## Dependencies
 
 - **Blocks:** [sase-1vd.3](sase-1vd.3.md) ◐ · ⧖ 2026-11-26
-- **Blocks:** [sase-1vd.6](sase-1vd.6.md) ◐ · ⧖ 2026-11-26
+- **Blocks:** [sase-1vd.6](sase-1vd.6.md) ✓ · ⧖ 2026-11-26
 
 ## Agents
 
@@ -32,3 +32,15 @@ copy-contract: add the strict and tolerant `copy` normalizers, wire types, and P
 |---|---|---|---|---|
 | sase-core | [`sase-core@76638b5`](https://github.com/sase-org/sase-core/commit/76638b579e7e937ae1d18ef677fc61ccbe5da8c0) | feat(questions): add question copy contracts | [sase-1vd.1](sase-1vd.1.md) | 2026-11-26 12:42:49 EST |
 | sase | [`b9964f3`](https://github.com/sase-org/sase/commit/b9964f31a8ec7c5f68217fb1dbd4904089c3337f) | feat(questions): validate and display copy metadata | [sase-1vd.1](sase-1vd.1.md) | 2026-11-26 12:43:57 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1vd.1][1] | Need the phase scope, notes, decisions, and design file before completing the assigned work | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vd.1/README.md
+
+<!-- sase:referenced-by:end -->
