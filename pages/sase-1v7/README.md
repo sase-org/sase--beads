@@ -74,7 +74,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1v7.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1v7.3.md) | [sase-1v7.3](sase-1v7.3.md) | 1 |
 | [bbugyi200.athena.sase-1v7.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1v7.4/README.md) | [sase-1v7.4](sase-1v7.4.md) | 1 |
 | [bbugyi200.athena.sase-1v7.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1v7.5/README.md) | [sase-1v7.5](sase-1v7.5.md) | 0 |
-| [bbugyi200.athena.sase-1v7.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1v7.land.md) | [sase-1v7](README.md) | 1 |
+| [bbugyi200.athena.sase-1v7.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1v7.land.md) | [sase-1v7](README.md) | 2 |
 
 ## Commits
 
@@ -85,6 +85,7 @@ flowchart TD
 | sase | [`47cec6e`](https://github.com/sase-org/sase/commit/47cec6ea49154aee6d56ac766385e6c8f2b4238e) | feat(memory): load decisions roster on demand | [sase-1v7.4](sase-1v7.4.md) | 2026-11-25 18:11:44 EST |
 | sase | [`8e6818d`](https://github.com/sase-org/sase/commit/8e6818d0a6bc0f6eb1b3fd8071385b152af04752) | feat(tui): show on-demand memory rosters | [sase-1v7.3](sase-1v7.3.md) | 2026-11-25 18:12:13 EST |
 | sase | [`ac3f1d2`](https://github.com/sase-org/sase/commit/ac3f1d288475c0fbf2999cd6520832fefbfacdc2) | feat(memory): finish and land on-demand memory web rosters | [sase-1v7](README.md) | 2026-11-25 19:51:26 EST |
+| sase--plans | [`sase--plans@1fc4b14`](https://github.com/sase-org/sase--plans/commit/1fc4b14ce0d865f5755cb7bf777bd6826b4c04f8) | chore(sase-1v7): mark on-demand roster epic and land tale done | [sase-1v7](README.md) | 2026-11-25 19:52:25 EST |
 
 <!-- sase:referenced-by:start -->
 
