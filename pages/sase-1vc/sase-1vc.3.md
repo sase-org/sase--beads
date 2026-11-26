@@ -26,3 +26,15 @@ monitor_scratch_workspace: resolve a monitor cwd outside every managed checkout 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`45a205c`](https://github.com/sase-org/sase/commit/45a205c5490f0a2624319f1fcddf0ba53bb5a5d5) | fix(monitor): preserve starter workspace for scratch monitors | [sase-1vc.3](sase-1vc.3.md) | 2026-11-26 08:15:45 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1vc.3][1] | Need the phase scope, design file, decisions, and prior notes before completing this assigned phase | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vc.3/README.md
+
+<!-- sase:referenced-by:end -->
