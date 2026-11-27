@@ -17,7 +17,7 @@ counter: make the bead conflict resolver write config.json next_counter past eve
 
 ## Dependencies
 
-- **Blocks:** [sase-1vt.5](sase-1vt.5.md) ◐ · ⧖ 2026-11-27
+- **Blocks:** [sase-1vt.5](sase-1vt.5.md) ✓ · ⧖ 2026-11-27
 
 ## Agents
 

@@ -17,7 +17,7 @@ merge: replace the raw issue_created count in the Rust three-way stream merge wi
 
 ## Dependencies
 
-- **Blocks:** [sase-1vt.5](sase-1vt.5.md) ◐ · ⧖ 2026-11-27
+- **Blocks:** [sase-1vt.5](sase-1vt.5.md) ✓ · ⧖ 2026-11-27
 
 ## Agents
 

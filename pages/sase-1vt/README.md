@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/resilient_epic_launch.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202611/resilient_epic_launch.md
 
@@ -33,7 +33,7 @@ Approved epics launch successfully even when another machine or agent mints and 
 | [sase-1vt.2](sase-1vt.2.md) | Advance next\_counter past every relocation and stream ID | ✓ closed | small | 2026-11-27 | 1 | 1 |
 | [sase-1vt.3](sase-1vt.3.md) | Pre-mint store refresh and linked-epic identity check | ✓ closed | medium | 2026-11-27 | 1 | 1 |
 | [sase-1vt.4](sase-1vt.4.md) | Conflict replay for unmergeable zero-spawn graph publication | ✓ closed | medium | 2026-11-27 | 1 | 1 |
-| [sase-1vt.5](sase-1vt.5.md) | Incident regression suite and docs | ◐ in_progress | medium | 2026-11-27 | 1 | 0 |
+| [sase-1vt.5](sase-1vt.5.md) | Incident regression suite and docs | ✓ closed | medium | 2026-11-27 | 1 | 1 |
 
 ## Lineage
 
@@ -44,7 +44,7 @@ flowchart TD
     n2["sase-1vt.2: Advance next_counter past every relocation and stream ID [closed]"]
     n3["sase-1vt.3: Pre-mint store refresh and linked-epic identity check [closed]"]
     n4["sase-1vt.4: Conflict replay for unmergeable zero-spawn graph publication [closed]"]
-    n5["sase-1vt.5: Incident regression suite and docs [in_progress]"]
+    n5["sase-1vt.5: Incident regression suite and docs [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -65,7 +65,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1vt.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vt.2/README.md) | [sase-1vt.2](sase-1vt.2.md) | 1 |
 | [bbugyi200.athena.sase-1vt.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1vt.3.md) | [sase-1vt.3](sase-1vt.3.md) | 1 |
 | [bbugyi200.athena.sase-1vt.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vt.4/README.md) | [sase-1vt.4](sase-1vt.4.md) | 1 |
-| [bbugyi200.athena.sase-1vt.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vt.5/README.md) | [sase-1vt.5](sase-1vt.5.md) | 0 |
+| [bbugyi200.athena.sase-1vt.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vt.5/README.md) | [sase-1vt.5](sase-1vt.5.md) | 1 |
 | [bbugyi200.athena.sase-1vt.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vt.land/README.md) | [sase-1vt](README.md) | 0 |
 
 ## Commits
@@ -77,6 +77,7 @@ flowchart TD
 | sase | [`51fc0d8`](https://github.com/sase-org/sase/commit/51fc0d8cb2a8488c792c2a88df2aa127ee45157c) | fix(bead): relocate reincarnated issue creation conflicts | [sase-1vt.1](sase-1vt.1.md) | 2026-11-27 16:49:37 EST |
 | sase | [`1cde333`](https://github.com/sase-org/sase/commit/1cde33380898f86324dd520f7d65e8aaedf28a05) | feat(bead): refresh the store before epic mint and reject foreign plan links | [sase-1vt.3](sase-1vt.3.md) | 2026-11-27 16:59:49 EST |
 | sase | [`5b184c8`](https://github.com/sase-org/sase/commit/5b184c837cd3f6a3f2aeb476e9696c0ea5969d05) | feat(bead): conflict replay for epic graph publication | [sase-1vt.4](sase-1vt.4.md) | 2026-11-27 17:51:12 EST |
+| sase | [`dcd6c72`](https://github.com/sase-org/sase/commit/dcd6c726c39d9e7edb0a673ed98ec39e25533107) | test(bead): add concurrent epic collision regression | [sase-1vt.5](sase-1vt.5.md) | 2026-11-27 18:30:12 EST |
 
 <!-- sase:referenced-by:start -->
 
@@ -86,8 +87,10 @@ flowchart TD
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1vt.1][1] | Need the parent epic plan path and any phase notes/history context | 1 |
 | read-by | [agent:sase-1vt.2][2] | epic context | 1 |
+| read-by | [agent:sase-1vt.4][3] | Check epic status for replay phase context | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vt.1/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vt.2/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vt.4/README.md
 
 <!-- sase:referenced-by:end -->

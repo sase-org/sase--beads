@@ -18,7 +18,7 @@ replay: carry the integration status out of the managed sync worker, raise a typ
 ## Dependencies
 
 - **Depends on:** [sase-1vt.3](sase-1vt.3.md) ✓ · ⧖ 2026-11-27
-- **Blocks:** [sase-1vt.5](sase-1vt.5.md) ◐ · ⧖ 2026-11-27
+- **Blocks:** [sase-1vt.5](sase-1vt.5.md) ✓ · ⧖ 2026-11-27
 
 ## Agents
 
@@ -31,3 +31,15 @@ replay: carry the integration status out of the managed sync worker, raise a typ
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`5b184c8`](https://github.com/sase-org/sase/commit/5b184c837cd3f6a3f2aeb476e9696c0ea5969d05) | feat(bead): conflict replay for epic graph publication | [sase-1vt.4](sase-1vt.4.md) | 2026-11-27 17:51:12 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1vt.4][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vt.4/README.md
+
+<!-- sase:referenced-by:end -->

@@ -20,7 +20,7 @@ premint: integrate the remote bead store right before each epic-creation attempt
 ## Dependencies
 
 - **Blocks:** [sase-1vt.4](sase-1vt.4.md) ✓ · ⧖ 2026-11-27
-- **Blocks:** [sase-1vt.5](sase-1vt.5.md) ◐ · ⧖ 2026-11-27
+- **Blocks:** [sase-1vt.5](sase-1vt.5.md) ✓ · ⧖ 2026-11-27
 
 ## Agents
 
