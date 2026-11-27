@@ -13,7 +13,7 @@ failed-turn-handoffs: stop treating a never-started staged handoff from an ended
 
 ## Dependencies
 
-- **Depends on:** [sase-1vn.2](sase-1vn.2.md) ◐ · ⧖ 2026-11-27
+- **Depends on:** [sase-1vn.2](sase-1vn.2.md) ✓ · ⧖ 2026-11-27
 - **Blocks:** [sase-1vn.4](sase-1vn.4.md) ◐ · ⧖ 2026-11-27
 
 ## Agents
