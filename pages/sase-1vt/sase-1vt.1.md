@@ -2,14 +2,18 @@
 
 [Bead Pages](../README.md) / [sase-1vt](README.md) / sase-1vt.1
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.1hj](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.1hj.md) · **Assignee:** `sase-1vt.1` · **Size:** medium
-**Created:** 2026-11-27 15:24:24 EST
+**Created:** 2026-11-27 15:24:24 EST · **Closed:** 2026-11-27 16:47:13 EST
 **Plan:** [202611/resilient\_epic\_launch.md](https://github.com/sase-org/sase--plans/blob/main/202611/resilient_epic_launch.md)
 
 ## Description
 
 merge: replace the raw issue_created count in the Rust three-way stream merge with a rule that relocates any unpublished creation of a published ID and accepts create/remove/create history, plus a Python resolver regression for the incident's stream shape.
+
+## Notes
+
+[2026-11-27T21:47:13Z · sase-1vt.1] Implemented published-ID incarnation collision relocation in the Rust three-way stream merge, preserving older Ours-incarnation events and allowing valid create/remove/create histories; added Rust merge scenarios and Python real-rebase resolver regression. Verified focused Rust tests (17 passed), focused Python regression (1 passed), linked sase-core full check, and root sase full check (including escalated full pytest); epic-symbol audit is clear.
 
 ## Dependencies
 
@@ -19,4 +23,10 @@ merge: replace the raw issue_created count in the Rust three-way stream merge wi
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1vt.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vt.1/README.md) | [sase-1vt.1](sase-1vt.1.md) | 0 |
+| [bbugyi200.athena.sase-1vt.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vt.1/README.md) | [sase-1vt.1](sase-1vt.1.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase-core | [`sase-core@7e857ed`](https://github.com/sase-org/sase-core/commit/7e857eddded8203f05a42b405f909dc3a5903e92) | fix(bead-merge): relocate published-id reincarnations | [sase-1vt.1](sase-1vt.1.md) | 2026-11-27 16:48:26 EST |
