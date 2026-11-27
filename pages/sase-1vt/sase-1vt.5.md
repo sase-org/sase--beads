@@ -15,8 +15,8 @@ regress: reproduce the full three-clone collision chain end to end with real git
 
 - **Depends on:** [sase-1vt.1](sase-1vt.1.md) ✓ · ⧖ 2026-11-27
 - **Depends on:** [sase-1vt.2](sase-1vt.2.md) ✓ · ⧖ 2026-11-27
-- **Depends on:** [sase-1vt.3](sase-1vt.3.md) ◐ · ⧖ 2026-11-27
-- **Depends on:** [sase-1vt.4](sase-1vt.4.md) ◐ · ⧖ 2026-11-27
+- **Depends on:** [sase-1vt.3](sase-1vt.3.md) ✓ · ⧖ 2026-11-27
+- **Depends on:** [sase-1vt.4](sase-1vt.4.md) ✓ · ⧖ 2026-11-27
 
 ## Agents
 
