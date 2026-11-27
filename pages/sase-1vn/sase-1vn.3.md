@@ -20,4 +20,4 @@ failed-turn-handoffs: stop treating a never-started staged handoff from an ended
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1vn.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vn.3/README.md) | [sase-1vn.3](sase-1vn.3.md) | 0 |
+| [bbugyi200.athena.sase-1vn.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1vn.3.md) | [sase-1vn.3](sase-1vn.3.md) | 0 |

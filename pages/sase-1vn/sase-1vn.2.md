@@ -20,6 +20,8 @@
 | related | file:explicit:81365da9fcfee7f81c0cfd0d | attached via sase artifact create --bead |
 | related | file:explicit:f2f774fd30fcf4bccf90defa | attached via sase artifact create --bead |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 <!-- sase:links:end -->
 
 ## Description
@@ -54,3 +56,15 @@ Focused budget, runner, and Telemetry workflow contracts passed (93 tests). `sas
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`1b46158`](https://github.com/sase-org/sase/commit/1b461588eb33d6ce70f0c4414ce3fcd483e8f905) | test(test-cost): rebaseline suite budgets and retain telemetry records | [sase-1vn.2](sase-1vn.2.md) | 2026-11-27 16:31:31 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1vn.2--2][1] | Verify complete monitor log snapshot and recording refs before writing the final phase evidence | 5 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1vn.2.md
+
+<!-- sase:referenced-by:end -->
