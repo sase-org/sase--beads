@@ -80,7 +80,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1vd.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1vd.5.md) | [sase-1vd.5](sase-1vd.5.md) | 3 |
 | [bbugyi200.athena.sase-1vd.6](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vd.6/README.md) | [sase-1vd.6](sase-1vd.6.md) | 1 |
 | [bbugyi200.athena.sase-1vd.7](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1vd.7.md) | [sase-1vd.7](sase-1vd.7.md) | 1 |
-| [bbugyi200.athena.sase-1vd.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vd.land/README.md) | [sase-1vd](README.md) | 1 |
+| [bbugyi200.athena.sase-1vd.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vd.land/README.md) | [sase-1vd](README.md) | 2 |
 
 ## Commits
 
@@ -97,6 +97,7 @@ flowchart TD
 | sase | [`a29a587`](https://github.com/sase-org/sase/commit/a29a587104a1acfdc3c2e3bf0872b7841463af5f) | feat(questions): detect copyable items in question text | [sase-1vd.5](sase-1vd.5.md) | 2026-11-26 17:37:10 EST |
 | sase-core | [`sase-core@464d2c8`](https://github.com/sase-org/sase-core/commit/464d2c87c007456dc212f9dd644d1c13e7b00fa7) | test(question-copy): remove useless format from detector test | [sase-1vd.5](sase-1vd.5.md) | 2026-11-26 18:19:01 EST |
 | sase | [`25bfca1`](https://github.com/sase-org/sase/commit/25bfca11d07084449c66c31488a36ecb9882e76f) | fix(questions): keep multi-line yy copy items inside their list item | [sase-1vd](README.md) | 2026-11-26 19:21:22 EST |
+| sase--plans | [`sase--plans@bb52e0c`](https://github.com/sase-org/sase--plans/commit/bb52e0cc855329ddee94a3a518caf12eee4b9f0d) | chore(plans): mark question copy panel plan done | [sase-1vd](README.md) | 2026-11-26 19:22:00 EST |
 
 <!-- sase:referenced-by:start -->
 
