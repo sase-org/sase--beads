@@ -20,7 +20,7 @@ reporting: consume the shared predicate in a read-only bead zombies command and 
 ## Dependencies
 
 - **Depends on:** [sase-1vn.4.1.1](sase-1vn.4.1.1.md) ✓ · ⧖ 2026-11-27
-- **Blocks:** [sase-1vn.4.1.3](sase-1vn.4.1.3.md) ◐ · ⧖ 2026-11-27
+- **Blocks:** [sase-1vn.4.1.3](sase-1vn.4.1.3.md) ✓ · ⧖ 2026-11-27
 
 ## Agents
 

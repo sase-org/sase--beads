@@ -13,7 +13,7 @@ recovery-submission: consume published claims through the existing bead-work lau
 
 ## Dependencies
 
-- **Depends on:** [sase-1vn.4.1.3](sase-1vn.4.1.3.md) ◐ · ⧖ 2026-11-27
+- **Depends on:** [sase-1vn.4.1.3](sase-1vn.4.1.3.md) ✓ · ⧖ 2026-11-27
 - **Blocks:** [sase-1vn.4.1.5](sase-1vn.4.1.5.md) ◐ · ⧖ 2026-11-27
 
 ## Agents
