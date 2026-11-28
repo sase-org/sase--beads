@@ -85,7 +85,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1vy.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1vy.3.md) | [sase-1vy.3](sase-1vy.3.md) | 1 |
 | [bbugyi200.athena.sase-1vy.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1vy.4.md) | [sase-1vy.4](sase-1vy.4.md) | 1 |
 | [bbugyi200.athena.sase-1vy.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1vy.5.md) | [sase-1vy.5](sase-1vy.5.md) | 1 |
-| [bbugyi200.athena.sase-1vy.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vy.land/README.md) | [sase-1vy](README.md) | 1 |
+| [bbugyi200.athena.sase-1vy.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vy.land/README.md) | [sase-1vy](README.md) | 2 |
 
 ## Commits
 
@@ -97,6 +97,7 @@ flowchart TD
 | sase | [`53acb95`](https://github.com/sase-org/sase/commit/53acb952ef758d42bffd592857c76183135d6e5c) | test(git-lock): make stale-lock caller tests deterministic | [sase-1vy.4](sase-1vy.4.md) | 2026-11-28 07:07:56 EST |
 | sase | [`4c9ccea`](https://github.com/sase-org/sase/commit/4c9ccea4b2b63d9d7af6aadd3ac751575860c55e) | fix(tool): wait for holder children before measuring admission overlap | [sase-1vy.5](sase-1vy.5.md) | 2026-11-28 07:44:29 EST |
 | sase | [`cae7c85`](https://github.com/sase-org/sase/commit/cae7c851c116d0093466c0efc5ce1376b54454a2) | test(landing): finish sase-1vy stale-lock and nested leak-guard coverage | [sase-1vy](README.md) | 2026-11-28 08:25:48 EST |
+| sase--plans | [`sase--plans@435489d`](https://github.com/sase-org/sase--plans/commit/435489ddb70ecf45a72b6e16a8ba510fdda9c1df) | chore(plans): mark backlog\_epic\_2 done after sase-1vy landed | [sase-1vy](README.md) | 2026-11-28 08:26:25 EST |
 
 <!-- sase:referenced-by:start -->
 
