@@ -7,6 +7,18 @@
 **Created:** 2026-11-27 20:17:44 EST
 **Plan:** [202611/zombie\_epic\_liveness.md](https://github.com/sase-org/sase--plans/blob/main/202611/zombie_epic_liveness.md)
 
+<!-- sase:links:start -->
+
+## Links
+
+| Relation | Artifact | Why |
+| --- | --- | --- |
+| implemented-by | [plan:202611/zombie_epic_liveness.md][1] | derived from the plan's `bead_id:` frontmatter field |
+
+[1]: https://github.com/sase-org/sase--plans/blob/main/202611/zombie_epic_liveness.md
+
+<!-- sase:links:end -->
+
 ## Description
 
 Report stranded completed-child plans and relaunch eligible epic land agents once per new close event.

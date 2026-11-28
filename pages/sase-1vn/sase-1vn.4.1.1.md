@@ -19,7 +19,7 @@ detection: implement the complete descendant snapshot, shared ownership-aware pr
 
 ## Dependencies
 
-- **Blocks:** [sase-1vn.4.1.2](sase-1vn.4.1.2.md) ◐ · ⧖ 2026-11-27
+- **Blocks:** [sase-1vn.4.1.2](sase-1vn.4.1.2.md) ✓ · ⧖ 2026-11-27
 
 ## Agents
 
@@ -32,3 +32,15 @@ detection: implement the complete descendant snapshot, shared ownership-aware pr
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@9138065`](https://github.com/sase-org/sase-core/commit/91380657517d03060c977fd9935b4d0fdd228b0d) | feat(bead): add shared zombie plan detection | [sase-1vn.4.1.1](sase-1vn.4.1.1.md) | 2026-11-27 21:00:45 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1vn.4.1.1][1] | Need the phase scope and design file | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vn.4.1.1/README.md
+
+<!-- sase:referenced-by:end -->
