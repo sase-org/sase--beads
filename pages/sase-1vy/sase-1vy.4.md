@@ -26,7 +26,7 @@ sase bead epic-symbols sase-1vy.4 reported no epic symbols. Closed only assigned
 ## Dependencies
 
 - **Depends on:** [sase-1vy.3](sase-1vy.3.md) ✓ · ⧖ 2026-11-28
-- **Blocks:** [sase-1vy.5](sase-1vy.5.md) ◐ · ⧖ 2026-11-28
+- **Blocks:** [sase-1vy.5](sase-1vy.5.md) ✓ · ⧖ 2026-11-28
 
 ## Agents
 

@@ -33,7 +33,7 @@ The five most important remaining open task beads are fixed and closed. The land
 | [sase-1vy.2](sase-1vy.2.md) | Federation cache-only reads must not report stale snapshots as ok (sase-1aw) | ✓ closed | medium | 2026-11-28 | 1 | 1 |
 | [sase-1vy.3](sase-1vy.3.md) | Axe j/k benchmark must not capture Agents-tab samples under load (sase-199) | ✓ closed | large | 2026-11-28 | 1 | 1 |
 | [sase-1vy.4](sase-1vy.4.md) | Stale index-lock recovery flake under loaded scoped check (sase-1kr) | ✓ closed | large | 2026-11-28 | 1 | 1 |
-| [sase-1vy.5](sase-1vy.5.md) | Tool-admission overlap flake: rule out a real limit violation (sase-1vw) | ◐ in_progress | large | 2026-11-28 | 1 | 0 |
+| [sase-1vy.5](sase-1vy.5.md) | Tool-admission overlap flake: rule out a real limit violation (sase-1vw) | ✓ closed | large | 2026-11-28 | 1 | 1 |
 
 ## Lineage
 
@@ -44,7 +44,7 @@ flowchart TD
     n2["sase-1vy.2: Federation cache-only reads must not report stale snapshots as ok (sase-1aw) [closed]"]
     n3["sase-1vy.3: Axe j/k benchmark must not capture Agents-tab samples under load (sase-199) [closed]"]
     n4["sase-1vy.4: Stale index-lock recovery flake under loaded scoped check (sase-1kr) [closed]"]
-    n5["sase-1vy.5: Tool-admission overlap flake: rule out a real limit violation (sase-1vw) [in_progress]"]
+    n5["sase-1vy.5: Tool-admission overlap flake: rule out a real limit violation (sase-1vw) [closed]"]
     n0 --> n1
     n0 --> n2
     n0 --> n3
@@ -64,7 +64,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1vy.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vy.2/README.md) | [sase-1vy.2](sase-1vy.2.md) | 1 |
 | [bbugyi200.athena.sase-1vy.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1vy.3.md) | [sase-1vy.3](sase-1vy.3.md) | 1 |
 | [bbugyi200.athena.sase-1vy.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1vy.4.md) | [sase-1vy.4](sase-1vy.4.md) | 1 |
-| [bbugyi200.athena.sase-1vy.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vy.5/README.md) | [sase-1vy.5](sase-1vy.5.md) | 0 |
+| [bbugyi200.athena.sase-1vy.5](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1vy.5.md) | [sase-1vy.5](sase-1vy.5.md) | 1 |
 | [bbugyi200.athena.sase-1vy.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vy.land/README.md) | [sase-1vy](README.md) | 0 |
 
 ## Commits
@@ -75,6 +75,7 @@ flowchart TD
 | sase-core | [`sase-core@a1b9d8d`](https://github.com/sase-org/sase-core/commit/a1b9d8d14a7c71b8c8e4921ed414afe1f78f76e6) | fix(federation): preserve cache failures in cache-only reads | [sase-1vy.2](sase-1vy.2.md) | 2026-11-28 05:35:59 EST |
 | sase | [`a4bbd29`](https://github.com/sase-org/sase/commit/a4bbd29cba49713c5cefab84029c771142c9a4ce) | fix(bench): isolate Services j/k sample window | [sase-1vy.3](sase-1vy.3.md) | 2026-11-28 06:33:16 EST |
 | sase | [`53acb95`](https://github.com/sase-org/sase/commit/53acb952ef758d42bffd592857c76183135d6e5c) | test(git-lock): make stale-lock caller tests deterministic | [sase-1vy.4](sase-1vy.4.md) | 2026-11-28 07:07:56 EST |
+| sase | [`4c9ccea`](https://github.com/sase-org/sase/commit/4c9ccea4b2b63d9d7af6aadd3ac751575860c55e) | fix(tool): wait for holder children before measuring admission overlap | [sase-1vy.5](sase-1vy.5.md) | 2026-11-28 07:44:29 EST |
 
 <!-- sase:referenced-by:start -->
 
