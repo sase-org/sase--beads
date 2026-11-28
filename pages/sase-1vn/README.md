@@ -34,7 +34,7 @@ The five most important open task beads are fixed and closed. The land agent the
 | [sase-1vn.1](sase-1vn.1.md) | After-rebase import gate and screenshot --window safety | ✓ closed | medium | 2026-11-27 | 1 | 1 |
 | [sase-1vn.2](sase-1vn.2.md) | Green, meaningful test-cost budgets | ✓ closed | large | 2026-11-27 | 1 | 1 |
 | [sase-1vn.3](sase-1vn.3.md) | Held staged handoffs from failed turns strand visibly | ✓ closed | large | 2026-11-27 | 1 | 0 |
-| [sase-1vn.4](sase-1vn.4.md) | Host-owned liveness for zombie epics | ◐ in_progress | large | 2026-11-27 | 1 | 0 |
+| [sase-1vn.4](sase-1vn.4.md) | Host-owned liveness for zombie epics | ✓ closed | large | 2026-11-27 | 1 | 0 |
 
 ## Lineage
 
@@ -47,8 +47,8 @@ flowchart TD
     n4["sase-1vn.3.1: Make failed-turn staged handoffs stop hiding stranded work [closed]"]
     n5["sase-1vn.3.1.1: Rust policy for inactive staged handoffs [closed]"]
     n6["sase-1vn.3.1.2: Settle failed origins and unblock later turns [closed]"]
-    n7["sase-1vn.4: Host-owned liveness for zombie epics [in_progress]"]
-    n8["sase-1vn.4.1: Host-owned recovery for zombie epics [in_progress]"]
+    n7["sase-1vn.4: Host-owned liveness for zombie epics [closed]"]
+    n8["sase-1vn.4.1: Host-owned recovery for zombie epics [closed]"]
     n9["sase-1vn.4.1.1: Shared Rust zombie-plan detection [closed]"]
     n10["sase-1vn.4.1.2: Read-only zombie report and TUI integration [closed]"]
     n11["sase-1vn.4.1.3: Durable activation and recovery claims [closed]"]
@@ -93,7 +93,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1vn.4.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vn.4.1.3/README.md) | [sase-1vn.4.1.3](sase-1vn.4.1.3.md) | 2 |
 | [bbugyi200.athena.sase-1vn.4.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1vn.4.1.4.md) | [sase-1vn.4.1.4](sase-1vn.4.1.4.md) | 1 |
 | [bbugyi200.athena.sase-1vn.4.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vn.4.1.5/README.md) | [sase-1vn.4.1.5](sase-1vn.4.1.5.md) | 1 |
-| [bbugyi200.athena.sase-1vn.4.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vn.4.1.land/README.md) | [sase-1vn.4.1](sase-1vn.4.1.md) | 1 |
+| [bbugyi200.athena.sase-1vn.4.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vn.4.1.land/README.md) | [sase-1vn.4.1](sase-1vn.4.1.md) | 2 |
 | [bbugyi200.athena.sase-1vn.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vn.land/README.md) | [sase-1vn](README.md) | 0 |
 
 ## Commits
@@ -113,3 +113,4 @@ flowchart TD
 | sase | [`a62aafb`](https://github.com/sase-org/sase/commit/a62aafb71899cc6d95dc0ef74ef4ec320bc493ef) | feat(bead): add idempotent land-only recovery launch submission | [sase-1vn.4.1.4](sase-1vn.4.1.4.md) | 2026-11-28 00:51:24 EST |
 | sase | [`a5fde6c`](https://github.com/sase-org/sase/commit/a5fde6cd11414538858db1cb5c763ccdb75cb156) | feat(axe): recover eligible zombie epic plans | [sase-1vn.4.1.5](sase-1vn.4.1.5.md) | 2026-11-28 01:45:37 EST |
 | sase | [`8610438`](https://github.com/sase-org/sase/commit/8610438838bd9fe2425be487cb5b2c56bdc72172) | fix(axe): land zombie-epic recovery and harden epic\_liveness accounting | [sase-1vn.4.1](sase-1vn.4.1.md) | 2026-11-28 02:24:54 EST |
+| sase--plans | [`sase--plans@3da1f6b`](https://github.com/sase-org/sase--plans/commit/3da1f6b4ea094a164543e378042e5b94cd5bd85d) | chore(plans): mark zombie\_epic\_liveness plan done | [sase-1vn.4.1](sase-1vn.4.1.md) | 2026-11-28 02:25:49 EST |
