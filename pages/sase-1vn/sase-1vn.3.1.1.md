@@ -38,7 +38,9 @@ inactive-stage-policy: implement and bind shared inactive-stage decisions, corre
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1vn.3.1.1][1] | Verify phase notes and prior work before implementing | 2 |
+| read-by | [agent:sase-1vn.3.1.2][2] | Check what policy phase delivered to wire host against | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vn.3.1.1/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vn.3.1.2/README.md
 
 <!-- sase:referenced-by:end -->

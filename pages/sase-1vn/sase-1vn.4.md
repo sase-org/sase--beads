@@ -13,7 +13,7 @@ zombie-epics: detect in_progress plan beads whose children are all closed and wh
 
 ## Dependencies
 
-- **Depends on:** [sase-1vn.3](sase-1vn.3.md) ◐ · ⧖ 2026-11-27
+- **Depends on:** [sase-1vn.3](sase-1vn.3.md) ✓ · ⧖ 2026-11-27
 
 ## Agents
 

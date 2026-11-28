@@ -43,7 +43,7 @@ Focused budget, runner, and Telemetry workflow contracts passed (93 tests). `sas
 ## Dependencies
 
 - **Depends on:** [sase-1vn.1](sase-1vn.1.md) ✓ · ⧖ 2026-11-27
-- **Blocks:** [sase-1vn.3](sase-1vn.3.md) ◐ · ⧖ 2026-11-27
+- **Blocks:** [sase-1vn.3](sase-1vn.3.md) ✓ · ⧖ 2026-11-27
 
 ## Agents
 

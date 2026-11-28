@@ -30,3 +30,15 @@ inactive-stage-host: collect origin and execution facts, apply idempotent stage 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`c783119`](https://github.com/sase-org/sase/commit/c783119ffdf81215cbeaa93bddff6f4b82334e49) | fix(axe): settle inactive staged handoffs without failed-origin ownership | [sase-1vn.3.1.2](sase-1vn.3.1.2.md) | 2026-11-27 19:15:28 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1vn.3.1.2][1] | check notes and remaining work | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vn.3.1.2/README.md
+
+<!-- sase:referenced-by:end -->
