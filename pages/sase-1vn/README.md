@@ -121,7 +121,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1vn.4.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1vn.4.1.4.md) | [sase-1vn.4.1.4](sase-1vn.4.1.4.md) | 1 |
 | [bbugyi200.athena.sase-1vn.4.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vn.4.1.5/README.md) | [sase-1vn.4.1.5](sase-1vn.4.1.5.md) | 1 |
 | [bbugyi200.athena.sase-1vn.4.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vn.4.1.land/README.md) | [sase-1vn.4.1](sase-1vn.4.1.md) | 2 |
-| [bbugyi200.athena.sase-1vn.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1vn.land.md) | [sase-1vn](README.md) | 1 |
+| [bbugyi200.athena.sase-1vn.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1vn.land.md) | [sase-1vn](README.md) | 2 |
 
 ## Commits
 
@@ -142,3 +142,4 @@ flowchart TD
 | sase | [`8610438`](https://github.com/sase-org/sase/commit/8610438838bd9fe2425be487cb5b2c56bdc72172) | fix(axe): land zombie-epic recovery and harden epic\_liveness accounting | [sase-1vn.4.1](sase-1vn.4.1.md) | 2026-11-28 02:24:54 EST |
 | sase--plans | [`sase--plans@3da1f6b`](https://github.com/sase-org/sase--plans/commit/3da1f6b4ea094a164543e378042e5b94cd5bd85d) | chore(plans): mark zombie\_epic\_liveness plan done | [sase-1vn.4.1](sase-1vn.4.1.md) | 2026-11-28 02:25:49 EST |
 | sase | [`4010ecd`](https://github.com/sase-org/sase/commit/4010ecd89aec66a64f78b6591f4157d214f994aa) | fix(rebase-gate): certify committed tree from a single ls-tree index | [sase-1vn](README.md) | 2026-11-28 03:11:54 EST |
+| sase--plans | [`sase--plans@7c5fb1c`](https://github.com/sase-org/sase--plans/commit/7c5fb1c667fdfb3923e90ac25b8fdb9c583a2924) | docs(plans): mark backlog\_epic\_1 done after sase-1vn close | [sase-1vn](README.md) | 2026-11-28 03:13:03 EST |
