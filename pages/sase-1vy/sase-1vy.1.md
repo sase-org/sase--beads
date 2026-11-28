@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1vy](README.md) / sase-1vy.1
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-1vn.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1vn.land.md) · **Assignee:** `sase-1vy.1` · **Size:** large
-**Created:** 2026-11-28 03:14:44 EST
+**Created:** 2026-11-28 03:14:44 EST · **Closed:** 2026-11-28 05:15:15 EST
 **Plan:** [202611/backlog\_epic\_2.md](https://github.com/sase-org/sase--plans/blob/main/202611/backlog_epic_2.md)
 
 ## Description
@@ -21,9 +21,11 @@ leak-gate: fix the root cause of sase-1vg. Read sase-1vg and all of its notes fi
 
 [2026-11-28T09:52:25Z · sase-1vy.1--2] VERIFIED (recovery 2): just check failed on NEW tests/tool/test_admission_processes.py::test_nested_agent_check_keeps_parent_and_never_queues (sase-1ve). Inner ToolRun appeared with parent_run_id and no admission record, then the test asserted started children without waiting; under load the stamp is late. Wait for _started_children before the count assert. Isolated node and whole admission module passed (8). Close only this phase; leave sase-1vg and the parent epic for the land agent. Closed sase-1ve because the missing wait is the documented flake.
 
+[2026-11-28T10:15:15Z · sase-1vy.1--mon-1] Closed by explicit `sase stitch create -B close` after create_commit landed 42255c3cce ("fix(tui): drain header enrichment before config token refresh"). The commit author requested bead completion after verifying the bead scope. Reopen with `sase bead open sase-1vy.1` if more work remains.
+
 ## Dependencies
 
-- **Blocks:** [sase-1vy.2](sase-1vy.2.md) ◐ · ⧖ 2026-11-28
+- **Blocks:** [sase-1vy.2](sase-1vy.2.md) ✓ · ⧖ 2026-11-28
 
 ## Agents
 

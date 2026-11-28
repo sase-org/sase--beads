@@ -13,7 +13,7 @@ bench-integrity: fix sase-199. Read sase-199 and all of its notes first. The Axe
 
 ## Dependencies
 
-- **Depends on:** [sase-1vy.2](sase-1vy.2.md) ◐ · ⧖ 2026-11-28
+- **Depends on:** [sase-1vy.2](sase-1vy.2.md) ✓ · ⧖ 2026-11-28
 - **Blocks:** [sase-1vy.4](sase-1vy.4.md) ◐ · ⧖ 2026-11-28
 
 ## Agents

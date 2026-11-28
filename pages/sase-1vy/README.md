@@ -27,8 +27,8 @@ The five most important remaining open task beads are fixed and closed. The land
 
 | Bead | Title | Status | Size | Created | Agents | Commits |
 |---|---|---|---|---|---:|---:|
-| [sase-1vy.1](sase-1vy.1.md) | Fix the leak-detector thread poison on the CI Telemetry gate (sase-1vg) | ◐ in_progress | large | 2026-11-28 | 1 | 1 |
-| [sase-1vy.2](sase-1vy.2.md) | Federation cache-only reads must not report stale snapshots as ok (sase-1aw) | ◐ in_progress | medium | 2026-11-28 | 1 | 0 |
+| [sase-1vy.1](sase-1vy.1.md) | Fix the leak-detector thread poison on the CI Telemetry gate (sase-1vg) | ✓ closed | large | 2026-11-28 | 1 | 1 |
+| [sase-1vy.2](sase-1vy.2.md) | Federation cache-only reads must not report stale snapshots as ok (sase-1aw) | ✓ closed | medium | 2026-11-28 | 1 | 1 |
 | [sase-1vy.3](sase-1vy.3.md) | Axe j/k benchmark must not capture Agents-tab samples under load (sase-199) | ◐ in_progress | large | 2026-11-28 | 1 | 0 |
 | [sase-1vy.4](sase-1vy.4.md) | Stale index-lock recovery flake under loaded scoped check (sase-1kr) | ◐ in_progress | large | 2026-11-28 | 1 | 0 |
 | [sase-1vy.5](sase-1vy.5.md) | Tool-admission overlap flake: rule out a real limit violation (sase-1vw) | ◐ in_progress | large | 2026-11-28 | 1 | 0 |
@@ -38,8 +38,8 @@ The five most important remaining open task beads are fixed and closed. The land
 ```mermaid
 flowchart TD
     n0["sase-1vy: Backlog Epic 2: leak gate, federation freshness, bench integrity, and load flakes (final round) [in_progress]"]
-    n1["sase-1vy.1: Fix the leak-detector thread poison on the CI Telemetry gate (sase-1vg) [in_progress]"]
-    n2["sase-1vy.2: Federation cache-only reads must not report stale snapshots as ok (sase-1aw) [in_progress]"]
+    n1["sase-1vy.1: Fix the leak-detector thread poison on the CI Telemetry gate (sase-1vg) [closed]"]
+    n2["sase-1vy.2: Federation cache-only reads must not report stale snapshots as ok (sase-1aw) [closed]"]
     n3["sase-1vy.3: Axe j/k benchmark must not capture Agents-tab samples under load (sase-199) [in_progress]"]
     n4["sase-1vy.4: Stale index-lock recovery flake under loaded scoped check (sase-1kr) [in_progress]"]
     n5["sase-1vy.5: Tool-admission overlap flake: rule out a real limit violation (sase-1vw) [in_progress]"]
@@ -59,7 +59,7 @@ flowchart TD
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1vy.1](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1vy.1.md) | [sase-1vy.1](sase-1vy.1.md) | 1 |
-| [bbugyi200.athena.sase-1vy.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vy.2/README.md) | [sase-1vy.2](sase-1vy.2.md) | 0 |
+| [bbugyi200.athena.sase-1vy.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vy.2/README.md) | [sase-1vy.2](sase-1vy.2.md) | 1 |
 | [bbugyi200.athena.sase-1vy.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vy.3/README.md) | [sase-1vy.3](sase-1vy.3.md) | 0 |
 | [bbugyi200.athena.sase-1vy.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vy.4/README.md) | [sase-1vy.4](sase-1vy.4.md) | 0 |
 | [bbugyi200.athena.sase-1vy.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vy.5/README.md) | [sase-1vy.5](sase-1vy.5.md) | 0 |
@@ -70,3 +70,4 @@ flowchart TD
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`42255c3`](https://github.com/sase-org/sase/commit/42255c3cce19e85ac18053d9b92921168c67c5c4) | fix(tui): drain header enrichment before config token refresh | [sase-1vy.1](sase-1vy.1.md) | 2026-11-28 05:14:42 EST |
+| sase-core | [`sase-core@a1b9d8d`](https://github.com/sase-org/sase-core/commit/a1b9d8d14a7c71b8c8e4921ed414afe1f78f76e6) | fix(federation): preserve cache failures in cache-only reads | [sase-1vy.2](sase-1vy.2.md) | 2026-11-28 05:35:59 EST |
