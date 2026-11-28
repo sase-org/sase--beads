@@ -17,7 +17,7 @@ inactive-stage-policy: implement and bind shared inactive-stage decisions, corre
 
 ## Dependencies
 
-- **Blocks:** [sase-1vn.3.1.2](sase-1vn.3.1.2.md) ◐ · ⧖ 2026-11-27
+- **Blocks:** [sase-1vn.3.1.2](sase-1vn.3.1.2.md) ✓ · ⧖ 2026-11-27
 
 ## Agents
 
@@ -30,3 +30,15 @@ inactive-stage-policy: implement and bind shared inactive-stage decisions, corre
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@34461b7`](https://github.com/sase-org/sase-core/commit/34461b7fd8c03405c330985b8fd658b469e564c1) | fix(staged-handoff): ignore inactive failed-origin ownership | [sase-1vn.3.1.1](sase-1vn.3.1.1.md) | 2026-11-27 17:29:50 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1vn.3.1.1][1] | Verify phase notes and prior work before implementing | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vn.3.1.1/README.md
+
+<!-- sase:referenced-by:end -->

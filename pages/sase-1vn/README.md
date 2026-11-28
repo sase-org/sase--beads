@@ -46,7 +46,7 @@ flowchart TD
     n3["sase-1vn.3: Held staged handoffs from failed turns strand visibly [in_progress]"]
     n4["sase-1vn.3.1: Make failed-turn staged handoffs stop hiding stranded work [in_progress]"]
     n5["sase-1vn.3.1.1: Rust policy for inactive staged handoffs [closed]"]
-    n6["sase-1vn.3.1.2: Settle failed origins and unblock later turns [in_progress]"]
+    n6["sase-1vn.3.1.2: Settle failed origins and unblock later turns [closed]"]
     n7["sase-1vn.4: Host-owned liveness for zombie epics [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -69,7 +69,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1vn.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1vn.2.md) | [sase-1vn.2](sase-1vn.2.md) | 1 |
 | [bbugyi200.athena.sase-1vn.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1vn.3.md) | [sase-1vn.3](sase-1vn.3.md) | 0 |
 | [bbugyi200.athena.sase-1vn.3.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vn.3.1.1/README.md) | [sase-1vn.3.1.1](sase-1vn.3.1.1.md) | 1 |
-| [bbugyi200.athena.sase-1vn.3.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vn.3.1.2/README.md) | [sase-1vn.3.1.2](sase-1vn.3.1.2.md) | 0 |
+| [bbugyi200.athena.sase-1vn.3.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vn.3.1.2/README.md) | [sase-1vn.3.1.2](sase-1vn.3.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1vn.3.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vn.3.1.land/README.md) | [sase-1vn.3.1](sase-1vn.3.1.md) | 0 |
 | [bbugyi200.athena.sase-1vn.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vn.4/README.md) | [sase-1vn.4](sase-1vn.4.md) | 0 |
 | [bbugyi200.athena.sase-1vn.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vn.land/README.md) | [sase-1vn](README.md) | 0 |
@@ -81,3 +81,4 @@ flowchart TD
 | sase | [`f079628`](https://github.com/sase-org/sase/commit/f07962869753f885da90cb754bb8f282f51e36e7) | fix: restore rebase-import certification and screenshot --window ownership | [sase-1vn.1](sase-1vn.1.md) | 2026-11-27 10:41:58 EST |
 | sase | [`1b46158`](https://github.com/sase-org/sase/commit/1b461588eb33d6ce70f0c4414ce3fcd483e8f905) | test(test-cost): rebaseline suite budgets and retain telemetry records | [sase-1vn.2](sase-1vn.2.md) | 2026-11-27 16:31:31 EST |
 | sase-core | [`sase-core@34461b7`](https://github.com/sase-org/sase-core/commit/34461b7fd8c03405c330985b8fd658b469e564c1) | fix(staged-handoff): ignore inactive failed-origin ownership | [sase-1vn.3.1.1](sase-1vn.3.1.1.md) | 2026-11-27 17:29:50 EST |
+| sase | [`c783119`](https://github.com/sase-org/sase/commit/c783119ffdf81215cbeaa93bddff6f4b82334e49) | fix(axe): settle inactive staged handoffs without failed-origin ownership | [sase-1vn.3.1.2](sase-1vn.3.1.2.md) | 2026-11-27 19:15:28 EST |
