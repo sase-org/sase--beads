@@ -15,7 +15,7 @@
 | --- | --- | --- |
 | implemented-by | [plan:202611/zombie_epic_liveness.md][1] | derived from the plan's `bead_id:` frontmatter field |
 
-_Plus 2 automatic references — see [Referenced By](#referenced-by)._
+_Plus 3 automatic references — see [Referenced By](#referenced-by)._
 
 [1]: https://github.com/sase-org/sase--plans/blob/main/202611/zombie_epic_liveness.md
 
@@ -52,8 +52,10 @@ Report stranded completed-child plans and relaunch eligible epic land agents onc
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1vn.4.1.3][1] | Need child epic phase IDs for epic-symbol re-keying | 2 |
 | read-by | [agent:sase-1vn.4.1.5][2] | Need governing decisions and parent context for this assigned phase | 1 |
+| read-by | [agent:sase-1vn.4.1.land][3] | Need the epic scope, children, and linked plan file | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vn.4.1.3/README.md
 [2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vn.4.1.5/README.md
+[3]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vn.4.1.land/README.md
 
 <!-- sase:referenced-by:end -->

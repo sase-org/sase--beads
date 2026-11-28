@@ -38,7 +38,9 @@ scheduler: wire the shared report and durable submission into a bounded AXE job,
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1vn.4.1.5][1] | Confirm assigned phase remains in progress after the symbol guard rejected close | 2 |
+| read-by | [agent:sase-1vn.4.1.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vn.4.1.5/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vn.4.1.land/README.md
 
 <!-- sase:referenced-by:end -->

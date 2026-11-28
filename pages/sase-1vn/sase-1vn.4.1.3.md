@@ -42,7 +42,9 @@ recovery-claims: implement core-owned activation and recovery records and the ma
 | Relation | Artifact | Why | Uses |
 | --- | --- | --- | ---: |
 | read-by | [agent:sase-1vn.4.1.3][1] | Need the phase scope and design file | 3 |
+| read-by | [agent:sase-1vn.4.1.land][2] | Need the child scope and notes | 1 |
 
 [1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vn.4.1.3/README.md
+[2]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vn.4.1.land/README.md
 
 <!-- sase:referenced-by:end -->

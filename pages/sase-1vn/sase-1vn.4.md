@@ -16,6 +16,8 @@
 | related | file:explicit:2195f969cb91f0108061888d | attached via sase artifact create --bead |
 | related | file:explicit:95fcc65660f2a5ea7525e495 | attached via sase artifact create --bead |
 
+_Plus 1 automatic references — see [Referenced By](#referenced-by)._
+
 <!-- sase:links:end -->
 
 ## Description
@@ -39,3 +41,15 @@ zombie-epics: detect in_progress plan beads whose children are all closed and wh
 | Agent | Bead | Commits |
 |---|---|---:|
 | [bbugyi200.athena.sase-1vn.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1vn.4.md) | [sase-1vn.4](sase-1vn.4.md) | 0 |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1vn.4.1.land][1] | Need the parent phase scope, notes, and report evidence links | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vn.4.1.land/README.md
+
+<!-- sase:referenced-by:end -->

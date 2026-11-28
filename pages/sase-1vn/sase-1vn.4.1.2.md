@@ -33,3 +33,15 @@ reporting: consume the shared predicate in a read-only bead zombies command and 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`96e87d5`](https://github.com/sase-org/sase/commit/96e87d598425639b43fd066bd51d5e9b0fd3526e) | feat(bead): add read-only zombie-plan report and TUI integration | [sase-1vn.4.1.2](sase-1vn.4.1.2.md) | 2026-11-27 22:18:35 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1vn.4.1.land][1] | Need the child scope and notes | 1 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vn.4.1.land/README.md
+
+<!-- sase:referenced-by:end -->
