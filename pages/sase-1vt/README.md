@@ -74,7 +74,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1vt.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1vt.3.md) | [sase-1vt.3](sase-1vt.3.md) | 1 |
 | [bbugyi200.athena.sase-1vt.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vt.4/README.md) | [sase-1vt.4](sase-1vt.4.md) | 1 |
 | [bbugyi200.athena.sase-1vt.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vt.5/README.md) | [sase-1vt.5](sase-1vt.5.md) | 1 |
-| [bbugyi200.athena.sase-1vt.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1vt.land.md) | [sase-1vt](README.md) | 1 |
+| [bbugyi200.athena.sase-1vt.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1vt.land.md) | [sase-1vt](README.md) | 2 |
 
 ## Commits
 
@@ -87,6 +87,7 @@ flowchart TD
 | sase | [`5b184c8`](https://github.com/sase-org/sase/commit/5b184c837cd3f6a3f2aeb476e9696c0ea5969d05) | feat(bead): conflict replay for epic graph publication | [sase-1vt.4](sase-1vt.4.md) | 2026-11-27 17:51:12 EST |
 | sase | [`dcd6c72`](https://github.com/sase-org/sase/commit/dcd6c726c39d9e7edb0a673ed98ec39e25533107) | test(bead): add concurrent epic collision regression | [sase-1vt.5](sase-1vt.5.md) | 2026-11-27 18:30:12 EST |
 | sase | [`61d9554`](https://github.com/sase-org/sase/commit/61d955445c4bb3662bb2244d29dff0f5ee8fe1e8) | fix(bead): land resilient epic launches with cause-first labels and sandboxed replay | [sase-1vt](README.md) | 2026-11-27 19:10:21 EST |
+| sase--plans | [`sase--plans@a8c75d4`](https://github.com/sase-org/sase--plans/commit/a8c75d45dc5f95630095bbc4106170ca221eb2a8) | chore(plans): mark resilient\_epic\_launch plan done | [sase-1vt](README.md) | 2026-11-27 19:11:27 EST |
 
 <!-- sase:referenced-by:start -->
 
