@@ -2,9 +2,9 @@
 
 [Bead Pages](../README.md) / [sase-1vn.4.1](sase-1vn.4.1.md) / sase-1vn.4.1.4
 
-**Status:** ◐ in_progress · **Type:** ↳ phase
+**Status:** ✓ closed · **Resolution:** done · **Type:** ↳ phase
 **Owner:** `bryanbugyi34@gmail.com` · **Created by:** [bbugyi200.athena.sase-1vn.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1vn.4.md) · **Assignee:** `sase-1vn.4.1.4` · **Size:** medium
-**Created:** 2026-11-27 20:17:45 EST
+**Created:** 2026-11-27 20:17:45 EST · **Closed:** 2026-11-28 00:52:09 EST
 **Plan:** [202611/zombie\_epic\_liveness.md](https://github.com/sase-org/sase--plans/blob/main/202611/zombie_epic_liveness.md)
 
 ## Description
@@ -14,6 +14,8 @@ recovery-submission: consume published claims through the existing bead-work lau
 ## Notes
 
 [2026-11-28T05:50:05Z · sase-1vn.4.1.4--1] Verified: 25 new tests pass (test_recovery_submission.py + test_recovery_submission_guard.py) plus 45 neighboring regression tests green; ruff check, ruff format, mypy clean on touched files; sase tool run check exit 0 (run 6fe5681fe54dfeab37894529cf4261d9). Local Justfile has zero 4.1.4 epic-symbol rows (removed 4 upstream-only rows in this diff; added 8 new 4.1.5 rows for scheduler phase). Direct sase bead close refused on upstream-only 4.1.4 rows (expected: cleanup must reach default branch before closing per bead-cli-records.md); host commit via sase_final with bead_action close will land the removal then close.
+
+[2026-11-28T05:52:09Z · sase-1vn.4.1.4--1] Closed by explicit `sase stitch create -B close` after create_commit landed a62aafb718 ("feat(bead): add idempotent land-only recovery launch submission"). The commit author requested bead completion after verifying the bead scope. Reopen with `sase bead open sase-1vn.4.1.4` if more work remains.
 
 ## Dependencies
 
@@ -31,3 +33,15 @@ recovery-submission: consume published claims through the existing bead-work lau
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`a62aafb`](https://github.com/sase-org/sase/commit/a62aafb71899cc6d95dc0ef74ef4ec320bc493ef) | feat(bead): add idempotent land-only recovery launch submission | [sase-1vn.4.1.4](sase-1vn.4.1.4.md) | 2026-11-28 00:51:24 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1vn.4.1.4--1][1] | Need phase scope and design file before closing | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1vn.4.1.4.md
+
+<!-- sase:referenced-by:end -->

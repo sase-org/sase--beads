@@ -52,7 +52,7 @@ flowchart TD
     n9["sase-1vn.4.1.1: Shared Rust zombie-plan detection [closed]"]
     n10["sase-1vn.4.1.2: Read-only zombie report and TUI integration [closed]"]
     n11["sase-1vn.4.1.3: Durable activation and recovery claims [closed]"]
-    n12["sase-1vn.4.1.4: Idempotent land-only launch submission [in_progress]"]
+    n12["sase-1vn.4.1.4: Idempotent land-only launch submission [closed]"]
     n13["sase-1vn.4.1.5: Bounded AXE recovery job and end-to-end verification [in_progress]"]
     n0 --> n1
     n0 --> n2
@@ -92,7 +92,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1vn.4.1.2](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1vn.4.1.2.md) | [sase-1vn.4.1.2](sase-1vn.4.1.2.md) | 1 |
 | [bbugyi200.athena.sase-1vn.4.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vn.4.1.3/README.md) | [sase-1vn.4.1.3](sase-1vn.4.1.3.md) | 2 |
 | [bbugyi200.athena.sase-1vn.4.1.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1vn.4.1.4.md) | [sase-1vn.4.1.4](sase-1vn.4.1.4.md) | 1 |
-| [bbugyi200.athena.sase-1vn.4.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vn.4.1.5/README.md) | [sase-1vn.4.1.5](sase-1vn.4.1.5.md) | 0 |
+| [bbugyi200.athena.sase-1vn.4.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vn.4.1.5/README.md) | [sase-1vn.4.1.5](sase-1vn.4.1.5.md) | 1 |
 | [bbugyi200.athena.sase-1vn.4.1.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vn.4.1.land/README.md) | [sase-1vn.4.1](sase-1vn.4.1.md) | 0 |
 | [bbugyi200.athena.sase-1vn.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vn.land/README.md) | [sase-1vn](README.md) | 0 |
 
@@ -111,3 +111,4 @@ flowchart TD
 | sase-core | [`sase-core@d741692`](https://github.com/sase-org/sase-core/commit/d7416921f526aac66c095674080607dfaa612fd2) | feat(bead): add durable recovery activation and claim records | [sase-1vn.4.1.3](sase-1vn.4.1.3.md) | 2026-11-27 23:48:00 EST |
 | sase | [`21bdca5`](https://github.com/sase-org/sase/commit/21bdca56adcf459bbff96257f6a1e8365d64ea4f) | feat(bead): add machine-owned recovery claim publication adapter | [sase-1vn.4.1.3](sase-1vn.4.1.3.md) | 2026-11-27 23:49:10 EST |
 | sase | [`a62aafb`](https://github.com/sase-org/sase/commit/a62aafb71899cc6d95dc0ef74ef4ec320bc493ef) | feat(bead): add idempotent land-only recovery launch submission | [sase-1vn.4.1.4](sase-1vn.4.1.4.md) | 2026-11-28 00:51:24 EST |
+| sase | [`a5fde6c`](https://github.com/sase-org/sase/commit/a5fde6cd11414538858db1cb5c763ccdb75cb156) | feat(axe): recover eligible zombie epic plans | [sase-1vn.4.1.5](sase-1vn.4.1.5.md) | 2026-11-28 01:45:37 EST |

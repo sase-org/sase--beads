@@ -13,6 +13,7 @@
 
 | Relation | Artifact | Why |
 | --- | --- | --- |
+| related | file:explicit:2195f969cb91f0108061888d | attached via sase artifact create --bead |
 | related | file:explicit:95fcc65660f2a5ea7525e495 | attached via sase artifact create --bead |
 
 <!-- sase:links:end -->
@@ -24,6 +25,8 @@ zombie-epics: detect in_progress plan beads whose children are all closed and wh
 ## Notes
 
 [2026-11-28T03:14:36Z · sase-1vn.4.1.2] Reporting phase live inventory (2026-11-28T03:12Z, core pin 91380657): sase bead zombies on the canonical sase store reports 33 zombie(s), 6 unknown, 2 owned, 90 not-zombie. Examples sase-zu and sase-zn are both still zombies (all descendants closed, child_landed, recovery eligible). Full report: file:explicit:95fcc65660f2a5ea7525e495. No bead was armed, claimed, launched, closed, or reopened.
+
+[2026-11-28T06:40:36Z · sase-1vn.4.1.5] Zombie liveness phase evidence: read-only all-project report file:explicit:2195f969cb91f0108061888d (generated 2026-11-28T06:37:17Z) covered 11 projects and 162 plans: 38 recovery-eligible zombies, 2 owned, 15 unknown, 107 not zombies. The roost project store was not materialized and is recorded as a collection failure; all other project reports loaded. No historical bead rows were modified.
 
 ## Dependencies
 

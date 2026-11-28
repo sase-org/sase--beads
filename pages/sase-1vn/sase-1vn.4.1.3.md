@@ -20,7 +20,7 @@ recovery-claims: implement core-owned activation and recovery records and the ma
 ## Dependencies
 
 - **Depends on:** [sase-1vn.4.1.2](sase-1vn.4.1.2.md) ✓ · ⧖ 2026-11-27
-- **Blocks:** [sase-1vn.4.1.4](sase-1vn.4.1.4.md) ◐ · ⧖ 2026-11-27
+- **Blocks:** [sase-1vn.4.1.4](sase-1vn.4.1.4.md) ✓ · ⧖ 2026-11-27
 
 ## Agents
 

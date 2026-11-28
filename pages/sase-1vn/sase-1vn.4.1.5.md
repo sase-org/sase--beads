@@ -13,10 +13,16 @@ scheduler: wire the shared report and durable submission into a bounded AXE job,
 
 ## Dependencies
 
-- **Depends on:** [sase-1vn.4.1.4](sase-1vn.4.1.4.md) ◐ · ⧖ 2026-11-27
+- **Depends on:** [sase-1vn.4.1.4](sase-1vn.4.1.4.md) ✓ · ⧖ 2026-11-27
 
 ## Agents
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1vn.4.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vn.4.1.5/README.md) | [sase-1vn.4.1.5](sase-1vn.4.1.5.md) | 0 |
+| [bbugyi200.athena.sase-1vn.4.1.5](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vn.4.1.5/README.md) | [sase-1vn.4.1.5](sase-1vn.4.1.5.md) | 1 |
+
+## Commits
+
+| Repo | Commit | Subject | Bead | Committed |
+|---|---|---|---|---|
+| sase | [`a5fde6c`](https://github.com/sase-org/sase/commit/a5fde6cd11414538858db1cb5c763ccdb75cb156) | feat(axe): recover eligible zombie epic plans | [sase-1vn.4.1.5](sase-1vn.4.1.5.md) | 2026-11-28 01:45:37 EST |
