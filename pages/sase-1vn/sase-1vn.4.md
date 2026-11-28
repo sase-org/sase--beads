@@ -19,4 +19,4 @@ zombie-epics: detect in_progress plan beads whose children are all closed and wh
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1vn.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vn.4/README.md) | [sase-1vn.4](sase-1vn.4.md) | 0 |
+| [bbugyi200.athena.sase-1vn.4](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1vn.4.md) | [sase-1vn.4](sase-1vn.4.md) | 0 |
