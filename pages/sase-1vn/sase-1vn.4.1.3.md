@@ -26,10 +26,11 @@ recovery-claims: implement core-owned activation and recovery records and the ma
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1vn.4.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vn.4.1.3/README.md) | [sase-1vn.4.1.3](sase-1vn.4.1.3.md) | 1 |
+| [bbugyi200.athena.sase-1vn.4.1.3](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vn.4.1.3/README.md) | [sase-1vn.4.1.3](sase-1vn.4.1.3.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@d741692`](https://github.com/sase-org/sase-core/commit/d7416921f526aac66c095674080607dfaa612fd2) | feat(bead): add durable recovery activation and claim records | [sase-1vn.4.1.3](sase-1vn.4.1.3.md) | 2026-11-27 23:48:00 EST |
+| sase | [`21bdca5`](https://github.com/sase-org/sase/commit/21bdca56adcf459bbff96257f6a1e8365d64ea4f) | feat(bead): add machine-owned recovery claim publication adapter | [sase-1vn.4.1.3](sase-1vn.4.1.3.md) | 2026-11-27 23:49:10 EST |
