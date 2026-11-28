@@ -13,7 +13,7 @@ admission-overlap-flake: fix sase-1vw. Read sase-1vw and all of its notes first 
 
 ## Dependencies
 
-- **Depends on:** [sase-1vy.4](sase-1vy.4.md) ◐ · ⧖ 2026-11-28
+- **Depends on:** [sase-1vy.4](sase-1vy.4.md) ✓ · ⧖ 2026-11-28
 
 ## Agents
 
