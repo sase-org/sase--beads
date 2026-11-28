@@ -18,7 +18,7 @@ federation-freshness: fix sase-1aw. Read sase-1aw and all of its notes first. Ca
 ## Dependencies
 
 - **Depends on:** [sase-1vy.1](sase-1vy.1.md) ✓ · ⧖ 2026-11-28
-- **Blocks:** [sase-1vy.3](sase-1vy.3.md) ◐ · ⧖ 2026-11-28
+- **Blocks:** [sase-1vy.3](sase-1vy.3.md) ✓ · ⧖ 2026-11-28
 
 ## Agents
 
@@ -31,3 +31,15 @@ federation-freshness: fix sase-1aw. Read sase-1aw and all of its notes first. Ca
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase-core | [`sase-core@a1b9d8d`](https://github.com/sase-org/sase-core/commit/a1b9d8d14a7c71b8c8e4921ed414afe1f78f76e6) | fix(federation): preserve cache failures in cache-only reads | [sase-1vy.2](sase-1vy.2.md) | 2026-11-28 05:35:59 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1vy.2][1] | Verify the assigned phase bead closed after the successful implementation and check | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vy.2/README.md
+
+<!-- sase:referenced-by:end -->
