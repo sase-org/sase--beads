@@ -33,3 +33,15 @@ regress: reproduce the full three-clone collision chain end to end with real git
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`dcd6c72`](https://github.com/sase-org/sase/commit/dcd6c726c39d9e7edb0a673ed98ec39e25533107) | test(bead): add concurrent epic collision regression | [sase-1vt.5](sase-1vt.5.md) | 2026-11-27 18:30:12 EST |
+
+<!-- sase:referenced-by:start -->
+
+## Referenced By
+
+| Relation | Artifact | Why | Uses |
+| --- | --- | --- | ---: |
+| read-by | [agent:sase-1vt.5][1] | Need the phase scope, design file, and prior work notes before implementation | 2 |
+
+[1]: https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vt.5/README.md
+
+<!-- sase:referenced-by:end -->
