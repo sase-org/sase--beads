@@ -70,7 +70,7 @@ flowchart TD
 | [bbugyi200.athena.sase-1vn.3](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1vn.3.md) | [sase-1vn.3](sase-1vn.3.md) | 0 |
 | [bbugyi200.athena.sase-1vn.3.1.1](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vn.3.1.1/README.md) | [sase-1vn.3.1.1](sase-1vn.3.1.1.md) | 1 |
 | [bbugyi200.athena.sase-1vn.3.1.2](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vn.3.1.2/README.md) | [sase-1vn.3.1.2](sase-1vn.3.1.2.md) | 1 |
-| [bbugyi200.athena.sase-1vn.3.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1vn.3.1.land.md) | [sase-1vn.3.1](sase-1vn.3.1.md) | 1 |
+| [bbugyi200.athena.sase-1vn.3.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1vn.3.1.land.md) | [sase-1vn.3.1](sase-1vn.3.1.md) | 2 |
 | [bbugyi200.athena.sase-1vn.4](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vn.4/README.md) | [sase-1vn.4](sase-1vn.4.md) | 0 |
 | [bbugyi200.athena.sase-1vn.land](https://github.com/sase-org/sase--agents/blob/main/agents/bbugyi200.athena.sase-1vn.land/README.md) | [sase-1vn](README.md) | 0 |
 
@@ -83,3 +83,4 @@ flowchart TD
 | sase-core | [`sase-core@34461b7`](https://github.com/sase-org/sase-core/commit/34461b7fd8c03405c330985b8fd658b469e564c1) | fix(staged-handoff): ignore inactive failed-origin ownership | [sase-1vn.3.1.1](sase-1vn.3.1.1.md) | 2026-11-27 17:29:50 EST |
 | sase | [`c783119`](https://github.com/sase-org/sase/commit/c783119ffdf81215cbeaa93bddff6f4b82334e49) | fix(axe): settle inactive staged handoffs without failed-origin ownership | [sase-1vn.3.1.2](sase-1vn.3.1.2.md) | 2026-11-27 19:15:28 EST |
 | sase | [`7d1a7f1`](https://github.com/sase-org/sase/commit/7d1a7f18107cfb42b7d3aa63209a90781079b8e4) | fix(axe): retry incomplete inactive-stage settlement after failed turns | [sase-1vn.3.1](sase-1vn.3.1.md) | 2026-11-27 20:11:06 EST |
+| sase--plans | [`sase--plans@b6ed883`](https://github.com/sase-org/sase--plans/commit/b6ed883cfb3d81721fa2a43ac8a16290ed7feae3) | docs(plans): mark failed-turn handoff epic and closeout tale done | [sase-1vn.3.1](sase-1vn.3.1.md) | 2026-11-27 20:12:09 EST |

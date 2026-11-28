@@ -51,13 +51,14 @@ Follow-up triage: no new unrelated task; neither child had a PROPOSED FOLLOW-UP.
 
 | Agent | Bead | Commits |
 |---|---|---:|
-| [bbugyi200.athena.sase-1vn.3.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1vn.3.1.land.md) | [sase-1vn.3.1](sase-1vn.3.1.md) | 1 |
+| [bbugyi200.athena.sase-1vn.3.1.land](https://github.com/sase-org/sase--agents/blob/main/sessions/bbugyi200.athena.sase-1vn.3.1.land.md) | [sase-1vn.3.1](sase-1vn.3.1.md) | 2 |
 
 ## Commits
 
 | Repo | Commit | Subject | Bead | Committed |
 |---|---|---|---|---|
 | sase | [`7d1a7f1`](https://github.com/sase-org/sase/commit/7d1a7f18107cfb42b7d3aa63209a90781079b8e4) | fix(axe): retry incomplete inactive-stage settlement after failed turns | [sase-1vn.3.1](sase-1vn.3.1.md) | 2026-11-27 20:11:06 EST |
+| sase--plans | [`sase--plans@b6ed883`](https://github.com/sase-org/sase--plans/commit/b6ed883cfb3d81721fa2a43ac8a16290ed7feae3) | docs(plans): mark failed-turn handoff epic and closeout tale done | [sase-1vn.3.1](sase-1vn.3.1.md) | 2026-11-27 20:12:09 EST |
 
 <!-- sase:referenced-by:start -->
 
